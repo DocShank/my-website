@@ -1,0 +1,132 @@
+{
+  "schema": 2,
+  "editorial": {
+    "workflow": "chatgpt-reviewed-v20",
+    "reviewed_by": "ChatGPT medical editorial workflow",
+    "reviewed_on": "2026-08-24",
+    "episode_number": 12,
+    "language": "English",
+    "spoken_host_name_allowed": false,
+    "long_dashes_allowed": false,
+    "target_minutes": 10
+  },
+  "topic_id": "palpitations",
+  "topic": {
+    "id": "palpitations",
+    "title": "Heart Palpitations: Common Causes and Warning Signs",
+    "audience_question": "When is a racing, fluttering, or skipped heartbeat harmless, and when does it need urgent care?",
+    "pubmed_query": "palpitations evaluation ambulatory electrocardiography red flags arrhythmia consensus",
+    "icon_keywords": ["heart", "ecg", "warning", "stethoscope"],
+    "category": "cardiology"
+  },
+  "sources": [
+    {
+      "id": "AHA:PALPITATIONS-2026",
+      "title": "How Serious Are Heart Palpitations? Causes, Symptoms and When to Worry",
+      "abstract": "The American Heart Association describes common triggers and advises medical assessment when palpitations persist or occur with dizziness, shortness of breath, chest pain, near fainting, or fainting.",
+      "journal": "American Heart Association",
+      "year": "2026",
+      "url": "https://www.heart.org/en/news/2026/02/09/how-serious-are-heart-palpitations-causes-symptoms-and-when-to-worry",
+      "doi": null
+    },
+    {
+      "id": "AHA:ARRHYTHMIA-SYMPTOMS-2024",
+      "title": "Symptoms, Diagnosis and Monitoring of Arrhythmia",
+      "abstract": "Palpitations may reflect an arrhythmia, while arrhythmias and other cardiac conditions can share symptoms. Evaluation connects symptoms with examination and rhythm testing rather than relying on sensation alone.",
+      "journal": "American Heart Association",
+      "year": "2024",
+      "url": "https://www.heart.org/en/health-topics/arrhythmia/symptoms-diagnosis--monitoring-of-arrhythmia",
+      "doi": null
+    },
+    {
+      "id": "AHA:ARRHYTHMIA-TESTS-2024",
+      "title": "Common Tests for Arrhythmia",
+      "abstract": "A resting ECG offers a brief rhythm sample. Holter monitors provide continuous recording for at least 24 hours, while event monitors and patches can capture less frequent episodes. Symptom diaries help correlate sensations with the recorded rhythm.",
+      "journal": "American Heart Association",
+      "year": "2024",
+      "url": "https://www.heart.org/en/health-topics/arrhythmia/symptoms-diagnosis--monitoring-of-arrhythmia/common-tests-for-arrhythmia",
+      "doi": null
+    },
+    {
+      "id": "HRS:AECG-2017",
+      "title": "2017 ISHNE-HRS Expert Consensus Statement on Ambulatory ECG and External Cardiac Monitoring",
+      "abstract": "Ambulatory ECG is used to evaluate intermittent symptoms including palpitations, dizziness, syncope, chest pain, and shortness of breath. Monitor selection should match symptom frequency and clinical risk.",
+      "journal": "Heart Rhythm Society",
+      "year": "2017",
+      "url": "https://www.hrsonline.org/resource/2017-ishne-hrs-expert-consensus-statement/",
+      "doi": null
+    }
+  ],
+  "episode": {
+    "title": "E12: Heart Palpitations: Common Causes and Warning Signs",
+    "hook": "Hello and welcome to the Your Only Doc podcast. Today we are talking about the moment your heartbeat suddenly demands attention. It may feel like fluttering, pounding, racing, or a skipped beat followed by a thump. The sensation lasts seconds, then disappears before anyone can examine it. Most palpitations are not a cardiac arrest warning, but the feeling alone cannot tell you which rhythm occurred. The useful questions are what triggered it, how long it lasted, what symptoms came with it, and what the heart was actually doing.",
+    "sections": [
+      {
+        "heading": "The high yield summary",
+        "narration": "Too busy? Here is your high yield summary. Palpitations are an awareness of the heartbeat, not a diagnosis. Common triggers include stress, poor sleep, caffeine, alcohol, dehydration, fever, and some medicines, but anemia, thyroid disease, and arrhythmias can also cause them. Seek urgent help when palpitations occur with chest pain, severe breathlessness, fainting, near fainting, new weakness, or persistent instability. For recurring episodes, record the timing and arrange clinical assessment.",
+        "on_screen": ["A symptom, not a diagnosis", "Triggers are common", "Know the red flags"],
+        "icon": "heart",
+        "source_ids": ["AHA:PALPITATIONS-2026", "AHA:ARRHYTHMIA-SYMPTOMS-2024"]
+      },
+      {
+        "heading": "What a palpitation can feel like",
+        "narration": "People use the same word for very different sensations. Premature beats may feel like a pause and then a forceful thump. A fast regular rhythm may start and stop abruptly. Atrial fibrillation may feel irregular and chaotic, although some people feel nothing. Strong normal beats during anxiety can also be perceived as palpitations. Description helps, but an electrical recording is needed to identify the rhythm with confidence.",
+        "on_screen": ["Skipped beat sensation", "Fast regular rhythm", "Irregular flutter"],
+        "icon": "ecg",
+        "source_ids": ["AHA:ARRHYTHMIA-SYMPTOMS-2024", "AHA:PALPITATIONS-2026"]
+      },
+      {
+        "heading": "Common reversible triggers",
+        "narration": "Start with the hours before the event. Was there extra coffee, an energy drink, alcohol, nicotine, intense exercise, dehydration, fever, poor sleep, or an emotional surge? Review cold remedies, inhalers, stimulants, thyroid medicine, and supplements. Do not assume a trigger proves the heart is normal, and do not abruptly stop prescribed medicine. The point is to identify patterns that make the clinical evaluation faster and more accurate.",
+        "on_screen": ["Caffeine and stimulants", "Sleep and hydration", "Review medicines"],
+        "icon": "coffee",
+        "source_ids": ["AHA:PALPITATIONS-2026"]
+      },
+      {
+        "heading": "Conditions outside the heart",
+        "narration": "Palpitations can be the heart responding to another problem. Anemia, overactive thyroid, low blood sugar, infection, pregnancy, electrolyte disturbance, and significant blood loss can all change rate or force. A clinician may check vital signs, examine the heart, and order selected blood tests based on the story. Testing everything is rarely useful. Testing the most plausible causes is the better approach.",
+        "on_screen": ["Anemia", "Thyroid and electrolytes", "Targeted blood tests"],
+        "icon": "blood-test",
+        "source_ids": ["AHA:PALPITATIONS-2026", "AHA:ARRHYTHMIA-SYMPTOMS-2024"]
+      },
+      {
+        "heading": "Warning signs change the urgency",
+        "narration": "Palpitations deserve faster attention when they last minutes to hours or arrive with chest pain, pressure, shortness of breath, marked dizziness, near fainting, or fainting. Concern also rises with known heart disease, a family history of sudden unexplained death, or symptoms during exertion. If you are currently unstable or have severe accompanying symptoms, seek emergency care. Do not drive yourself while faint or severely unwell.",
+        "on_screen": ["Chest pain or breathlessness", "Fainting or near fainting", "Exertional symptoms"],
+        "icon": "warning",
+        "source_ids": ["AHA:PALPITATIONS-2026", "AHA:ARRHYTHMIA-SYMPTOMS-2024"]
+      },
+      {
+        "heading": "The first clinical assessment",
+        "narration": "The evaluation begins with the timeline. When did it start, was the onset sudden, did the rhythm feel regular, how long did it last, and what ended it? A pulse check and 12 lead ECG may show an answer immediately, but a normal ECG between episodes does not erase the history. The clinician may also look for structural heart disease, medication effects, thyroid problems, anemia, or an inherited rhythm condition.",
+        "on_screen": ["Build the timeline", "Resting ECG", "Look for underlying risk"],
+        "icon": "stethoscope",
+        "source_ids": ["AHA:ARRHYTHMIA-SYMPTOMS-2024", "AHA:ARRHYTHMIA-TESTS-2024"]
+      },
+      {
+        "heading": "Capturing a rhythm that disappears",
+        "narration": "Now, let us go deeper. The monitor should match the frequency of symptoms. A Holter monitor records continuously and is useful when episodes happen daily. A patch or event recorder can watch for longer when symptoms are less frequent. A symptom diary provides the timestamp that connects sensation with rhythm. Consumer devices may capture useful tracings, but they do not replace medical interpretation or emergency assessment when red flags are present.",
+        "on_screen": ["Holter for frequent events", "Longer monitor for rare events", "Match symptoms to rhythm"],
+        "icon": "monitor",
+        "source_ids": ["AHA:ARRHYTHMIA-TESTS-2024", "HRS:AECG-2017"]
+      },
+      {
+        "heading": "What to record at home",
+        "narration": "Write down the exact time, duration, activity, posture, recent food or stimulants, medicines, and associated symptoms. If safe, count the pulse and note whether it seems regular or irregular. Save a device tracing if one is available, but do not spend an emergency trying to create perfect data. This record is more useful than repeatedly checking a smartwatch without context, and it helps the clinician choose the right monitor.",
+        "on_screen": ["Time and duration", "Triggers and symptoms", "Save a tracing when safe"],
+        "icon": "checklist",
+        "source_ids": ["AHA:ARRHYTHMIA-TESTS-2024", "HRS:AECG-2017"]
+      },
+      {
+        "heading": "Three essential takeaways",
+        "narration": "Number one, a palpitation describes what you feel, not the rhythm that caused it. Number two, chest pain, severe breathlessness, fainting, near fainting, or prolonged symptoms require urgent assessment. Number three, recurring episodes become easier to diagnose when you document the timing and capture the rhythm with an appropriately chosen monitor. Reduce obvious triggers, but do not use that improvement as a substitute for evaluation when warning signs or risk factors are present.",
+        "on_screen": ["Sensation is not diagnosis", "Red flags need action", "Capture the rhythm"],
+        "icon": "checklist",
+        "source_ids": ["AHA:PALPITATIONS-2026", "AHA:ARRHYTHMIA-TESTS-2024", "HRS:AECG-2017"]
+      }
+    ],
+    "closing": "On the next episode, we will ask whether weekend sleep can really repay a week of sleep debt. Follow the Your Only Doc podcast on YouTube and follow us on Instagram for clear medical explanations. Stay curious and stay safe.",
+    "description": "Palpitations may feel like fluttering, racing, pounding, or skipped beats. This episode explains common triggers, urgent warning signs, the first clinical assessment, and how Holter and event monitors capture intermittent rhythms.",
+    "thumbnail_text": "WHEN PALPITATIONS MATTER"
+  }
+}
