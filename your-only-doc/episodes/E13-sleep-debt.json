@@ -1,0 +1,132 @@
+{
+  "schema": 2,
+  "editorial": {
+    "workflow": "chatgpt-reviewed-v20",
+    "reviewed_by": "ChatGPT medical editorial workflow",
+    "reviewed_on": "2026-08-24",
+    "episode_number": 13,
+    "language": "English",
+    "spoken_host_name_allowed": false,
+    "long_dashes_allowed": false,
+    "target_minutes": 10
+  },
+  "topic_id": "sleep-debt",
+  "topic": {
+    "id": "sleep-debt",
+    "title": "Can You Really Catch Up on Lost Sleep?",
+    "audience_question": "Can sleeping late on the weekend undo a week of short sleep?",
+    "pubmed_query": "weekend catch up sleep recovery chronic sleep restriction cognition metabolism review",
+    "icon_keywords": ["sleep", "brain", "clock", "bed"],
+    "category": "sleep-medicine"
+  },
+  "sources": [
+    {
+      "id": "CDC:SLEEP-2024",
+      "title": "About Sleep",
+      "abstract": "CDC describes quality sleep as adequate, uninterrupted, and refreshing. Adults generally need at least seven hours, while sleep need varies by age. Persistent difficulty sleeping or daytime tiredness can signal poor sleep quality or a sleep disorder.",
+      "journal": "Centers for Disease Control and Prevention",
+      "year": "2024",
+      "url": "https://www.cdc.gov/sleep/about/index.html",
+      "doi": null
+    },
+    {
+      "id": "PMC:RECOVERY-2023",
+      "title": "Dynamics of Recovery Sleep From Chronic Sleep Restriction",
+      "abstract": "A controlled study found that weekend style recovery sleep did not fully restore neurobehavioral performance after chronic restriction and did not protect participants from renewed restriction. Recovery needs differed across outcomes.",
+      "journal": "Sleep",
+      "year": "2023",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10108639/",
+      "doi": null
+    },
+    {
+      "id": "NIH:WEEKEND-2019",
+      "title": "Weekend Catch-up Cannot Counter Chronic Sleep Deprivation",
+      "abstract": "NIH summarized a controlled trial in which weekend recovery sleep did not reverse metabolic disruption from repeated sleep restriction. Returning to short sleep after the weekend also led to renewed sleep loss and circadian disruption.",
+      "journal": "National Institutes of Health",
+      "year": "2019",
+      "url": "https://www.nih.gov/news-events/nih-research-matters/weekend-catch-cant-counter-chronic-sleep-deprivation",
+      "doi": null
+    },
+    {
+      "id": "PUBMED:CATCHUP-REVIEW-2025",
+      "title": "Can Weekend Catch-up Sleep Repay the Sleep Debt?",
+      "abstract": "A 2025 review concluded that weekend catch-up sleep may provide partial short term improvements in mood, fatigue, and cognition, while evidence does not support it as a complete replacement for adequate regular sleep.",
+      "journal": "Sleep Medicine Reviews",
+      "year": "2025",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41148489/",
+      "doi": null
+    }
+  ],
+  "episode": {
+    "title": "E13: Can You Really Catch Up on Lost Sleep?",
+    "hook": "Hello and welcome to the Your Only Doc podcast. Today we are testing a promise many people make to themselves on Thursday night: I will catch up this weekend. Five short nights are followed by one long Saturday sleep, and the hope is that the account returns to zero. Extra sleep can reduce sleepiness and may improve how you feel, but the biology is not a simple bank balance. Attention, metabolism, mood, and the body clock recover at different speeds, and some effects can remain after the alarm clock is turned off.",
+    "sections": [
+      {
+        "heading": "The high yield summary",
+        "narration": "Too busy? Here is your high yield summary. Extra sleep after a short night is better than continuing to restrict sleep, but a weekend does not reliably erase a week of chronic sleep loss. Some fatigue and mood may improve, while attention, reaction time, metabolism, and circadian timing may recover incompletely. The safer strategy is regular adequate sleep, a stable wake time, and earlier recovery when sleep loss is unavoidable. Persistent sleepiness deserves assessment.",
+        "on_screen": ["Extra sleep can help", "Recovery may be incomplete", "Regular sleep wins"],
+        "icon": "sleep",
+        "source_ids": ["CDC:SLEEP-2024", "PMC:RECOVERY-2023", "PUBMED:CATCHUP-REVIEW-2025"]
+      },
+      {
+        "heading": "What sleep debt really means",
+        "narration": "Sleep debt is a useful description of repeated sleep below your need, but it is not a precise currency. Two hours lost does not always equal two hours of repayment. The brain builds sleep pressure, while the circadian clock controls when sleep is easiest. Chronic restriction can impair alertness even when a person feels partly adapted. That mismatch is risky because confidence may return before performance has fully recovered.",
+        "on_screen": ["Sleep pressure builds", "The body clock matters", "Feeling adapted can mislead"],
+        "icon": "clock",
+        "source_ids": ["PMC:RECOVERY-2023", "CDC:SLEEP-2024"]
+      },
+      {
+        "heading": "What a long sleep can improve",
+        "narration": "Recovery sleep can reduce immediate sleepiness, improve mood, and restore some aspects of cognitive performance. That is meaningful. If a night is cut short by travel, caregiving, or an emergency, allowing extra sleep afterward is sensible. The mistake is turning partial recovery into proof that regular restriction is harmless. Different systems recover on different timelines, and one better morning does not guarantee that every consequence has resolved.",
+        "on_screen": ["Less sleepiness", "Mood may improve", "Partial is not complete"],
+        "icon": "brain",
+        "source_ids": ["PUBMED:CATCHUP-REVIEW-2025", "PMC:RECOVERY-2023"]
+      },
+      {
+        "heading": "Why the weekend may fall short",
+        "narration": "Controlled studies show that two recovery nights may not fully restore neurobehavioral performance after repeated restriction. In a separate laboratory study summarized by the National Institutes of Health, weekend recovery sleep did not reverse the observed metabolic disruption. Participants who returned to short sleep quickly accumulated problems again. The lesson is not that recovery sleep is useless. It is that it cannot make chronic restriction biologically equivalent to regular adequate sleep.",
+        "on_screen": ["Attention may lag", "Metabolism may not reset", "Debt returns quickly"],
+        "icon": "laboratory",
+        "source_ids": ["PMC:RECOVERY-2023", "NIH:WEEKEND-2019"]
+      },
+      {
+        "heading": "Social jet lag adds another problem",
+        "narration": "Sleeping and waking several hours later on weekends shifts light exposure, meals, activity, and the body clock. Then Monday demands an abrupt return to the weekday schedule. This pattern is often called social jet lag. A modest extra sleep period may help, but a dramatic schedule swing can make Sunday night sleep harder and Monday morning feel like travel across time zones.",
+        "on_screen": ["Late weekend wake time", "Body clock shifts", "Monday becomes harder"],
+        "icon": "calendar",
+        "source_ids": ["CDC:SLEEP-2024", "NIH:WEEKEND-2019"]
+      },
+      {
+        "heading": "A practical recovery plan",
+        "narration": "After unavoidable sleep loss, protect the next few nights instead of relying on one marathon sleep. Go to bed earlier, keep the wake time reasonably stable, and use a short early afternoon nap if needed and safe. Get morning light and avoid driving when dangerously sleepy. Caffeine can temporarily improve alertness, but it does not replace sleep and late use can delay the next night, extending the problem.",
+        "on_screen": ["Recover across several nights", "Keep wake time stable", "Do not drive sleepy"],
+        "icon": "bed",
+        "source_ids": ["CDC:SLEEP-2024", "PMC:RECOVERY-2023"]
+      },
+      {
+        "heading": "How much sleep is enough",
+        "narration": "Now, let us go deeper. Most adults need at least seven hours of sleep, while individual need and age matter. Duration is only one part of sleep health. Repeated awakenings, difficulty falling asleep, loud snoring with pauses, restless legs, or waking unrefreshed can leave a person impaired despite enough time in bed. The goal is adequate, regular, refreshing sleep, not simply a large weekend total.",
+        "on_screen": ["Most adults need at least seven hours", "Quality matters", "Regularity matters"],
+        "icon": "sleep",
+        "source_ids": ["CDC:SLEEP-2024"]
+      },
+      {
+        "heading": "When tiredness needs evaluation",
+        "narration": "Seek professional assessment when excessive sleepiness persists despite adequate opportunity to sleep, when it affects driving or work, or when there is loud snoring, witnessed breathing pauses, morning headache, unusual nighttime movements, or insomnia lasting for weeks. Depression, medicines, anemia, thyroid disease, shift work, and sleep disorders can all contribute. More time in bed is not a complete treatment until the reason for poor sleep is understood.",
+        "on_screen": ["Persistent daytime sleepiness", "Snoring with pauses", "Look for the cause"],
+        "icon": "stethoscope",
+        "source_ids": ["CDC:SLEEP-2024"]
+      },
+      {
+        "heading": "Three essential takeaways",
+        "narration": "Number one, recovery sleep can help fatigue and mood, but it may not fully restore attention, metabolism, or the body clock after chronic restriction. Number two, regular adequate sleep is more protective than alternating short weekdays with extreme weekend sleeping. Number three, recover early and deliberately with protected nights, a reasonably stable wake time, and safe naps when useful. If sleepiness persists or breathing pauses are reported, arrange an evaluation instead of repeatedly trying to catch up.",
+        "on_screen": ["Recovery can be partial", "Consistency is protective", "Persistent sleepiness needs attention"],
+        "icon": "checklist",
+        "source_ids": ["PMC:RECOVERY-2023", "NIH:WEEKEND-2019", "PUBMED:CATCHUP-REVIEW-2025"]
+      }
+    ],
+    "closing": "On the next episode, we will explain when snoring is more than noise and why obstructive sleep apnea can affect the heart, brain, and daytime safety. Follow the Your Only Doc podcast on YouTube and follow us on Instagram. Stay curious and stay safe.",
+    "description": "Weekend recovery sleep may reduce fatigue, but it does not reliably reverse every effect of chronic sleep restriction. This episode explains sleep debt, social jet lag, practical recovery, and when persistent tiredness needs evaluation.",
+    "thumbnail_text": "CAN YOU REPAY SLEEP DEBT?"
+  }
+}
