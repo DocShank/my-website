@@ -1,0 +1,132 @@
+{
+  "schema": 2,
+  "editorial": {
+    "workflow": "chatgpt-reviewed-v20",
+    "reviewed_by": "ChatGPT medical editorial workflow",
+    "reviewed_on": "2026-08-24",
+    "episode_number": 9,
+    "language": "English",
+    "spoken_host_name_allowed": false,
+    "long_dashes_allowed": false,
+    "target_minutes": 10
+  },
+  "topic_id": "blood-pressure-home",
+  "topic": {
+    "id": "blood-pressure-home",
+    "title": "How to Measure Blood Pressure Correctly at Home",
+    "audience_question": "Why can two home blood pressure readings be so different?",
+    "pubmed_query": "home blood pressure monitoring validated device measurement technique guideline",
+    "icon_keywords": ["blood-pressure", "heart", "monitor"],
+    "category": "cardiology"
+  },
+  "sources": [
+    {
+      "id": "AHA:HBPM-2025",
+      "title": "Home Blood Pressure Monitoring",
+      "abstract": "The American Heart Association recommends an automatic validated upper arm cuff monitor with the correct cuff size. Before measurement, avoid smoking, caffeine, and exercise for 30 minutes, empty the bladder, rest quietly for at least five minutes, and do not talk. Sit with the back supported, feet flat, legs uncrossed, and the bare upper arm supported at heart level. Take two readings one minute apart and record them. Home monitoring supports diagnosis and treatment follow-up but does not replace professional care or justify stopping prescribed medication. A reading above 180 over 120 millimeters of mercury should be repeated after at least one minute. If it remains that high with chest pain, shortness of breath, back pain, numbness, weakness, vision change, or difficulty speaking, emergency care is required.",
+      "journal": "American Heart Association",
+      "year": "2025",
+      "url": "https://www.heart.org/en/health-topics/high-blood-pressure/understanding-blood-pressure-readings/monitoring-your-blood-pressure-at-home",
+      "doi": null
+    },
+    {
+      "id": "AHA-ACC:HBP-2025",
+      "title": "2025 Guideline for the Prevention, Detection, Evaluation, and Management of High Blood Pressure in Adults",
+      "abstract": "The 2025 multisociety guideline emphasizes accurate blood pressure measurement, use of the correct cuff size on a bare arm, arm support at heart level, and two or more measurements at least one minute apart. It supports home blood pressure monitoring as part of diagnosis and ongoing management. It recommends conventional validated cuff devices rather than cuffless devices for diagnosis or treatment decisions until cuffless technologies demonstrate adequate precision and reliability.",
+      "journal": "Hypertension",
+      "year": "2025",
+      "url": "https://www.ahajournals.org/doi/10.1161/HYP.0000000000000249",
+      "doi": "10.1161/HYP.0000000000000249"
+    },
+    {
+      "id": "AHA:HYP-2019-0087",
+      "title": "Measurement of Blood Pressure in Humans: A Scientific Statement From the American Heart Association",
+      "abstract": "Standardized blood pressure measurement requires a validated device, correct cuff size, a rested seated person, supported back and arm, feet on the floor, and the cuff positioned at heart level. Repeated measurements are more informative than one isolated value. Out of office monitoring can help identify white coat and masked hypertension patterns.",
+      "journal": "Hypertension",
+      "year": "2019",
+      "url": "https://www.ahajournals.org/doi/10.1161/HYP.0000000000000087",
+      "doi": "10.1161/HYP.0000000000000087"
+    },
+    {
+      "id": "VALIDATEBP:VDL",
+      "title": "US Blood Pressure Validated Device Listing",
+      "abstract": "ValidateBP maintains an independently reviewed list of blood pressure devices that meet published validation criteria for clinical accuracy. A device being marketed or cleared for sale does not by itself establish that its blood pressure measurements have passed an accepted validation protocol.",
+      "journal": "American Medical Association ValidateBP",
+      "year": "2026",
+      "url": "https://www.validatebp.org/",
+      "doi": null
+    }
+  ],
+  "episode": {
+    "title": "E09: How to Measure Blood Pressure Correctly at Home",
+    "hook": "Hello and welcome to the Your Only Doc podcast. Today we are talking about home blood pressure measurement, a familiar test that is surprisingly easy to distort. Imagine checking your pressure twice within ten minutes. The first reading is high. The second looks normal. The monitor may not be broken. Coffee, a full bladder, talking, crossed legs, the wrong cuff, or an unsupported arm can all change the result. The aim is not to chase the lowest number. It is to collect readings that mean something.",
+    "sections": [
+      {
+        "heading": "The high yield summary",
+        "narration": "Too busy? Here is your high yield summary. Use a validated automatic monitor with an upper arm cuff that fits. Avoid caffeine, smoking, and exercise for 30 minutes. Empty your bladder, then rest quietly for five minutes. Sit with your back supported, feet flat, and legs uncrossed. Support the bare upper arm at heart level. Stay silent. Take two readings one minute apart and record both. Look for a pattern, not a verdict from one number.",
+        "on_screen": ["Validated upper arm monitor", "Prepare and position", "Repeat and record"],
+        "icon": "blood-pressure",
+        "source_ids": ["AHA:HBPM-2025", "AHA-ACC:HBP-2025"]
+      },
+      {
+        "heading": "Choose a monitor you can trust",
+        "narration": "Start with the device. A conventional upper arm cuff is preferred for diagnosis and treatment decisions. Many watches, rings, and phone based tools are convenient, but cuffless blood pressure technology is not yet reliable enough for those decisions. Check whether the exact model appears on an independent validated device list. Then match the cuff to your arm circumference. A cuff that is too small can push the reading upward, while an unsuitable cuff can make the result misleading.",
+        "on_screen": ["Upper arm cuff", "Check independent validation", "Match cuff to arm"],
+        "icon": "monitor",
+        "source_ids": ["AHA-ACC:HBP-2025", "VALIDATEBP:VDL"]
+      },
+      {
+        "heading": "Prepare before pressing start",
+        "narration": "Measurement begins before the button is pressed. For 30 minutes beforehand, avoid caffeine, smoking, and exercise. Empty your bladder. Sit quietly for at least five minutes and put the phone down. This is not a trick to make the pressure look better. It removes temporary influences so today's reading can be compared with tomorrow's. Measuring immediately after stairs, coffee, or an upsetting message may describe that moment more than your usual resting pressure.",
+        "on_screen": ["Wait 30 minutes", "Empty the bladder", "Rest for five minutes"],
+        "icon": "clock",
+        "source_ids": ["AHA:HBPM-2025", "AHA:HYP-2019-0087"]
+      },
+      {
+        "heading": "Position changes the result",
+        "narration": "Use a chair, not the edge of a bed. Support your back. Keep both feet flat and your legs uncrossed. Place the cuff on bare skin. Rest the arm on a table or cushion so the middle of the cuff is level with the heart. Keep the hand open and the shoulder relaxed. If the arm hangs down or the muscles are working to hold it up, the monitor can give a real number that does not represent the resting pressure you intended to measure.",
+        "on_screen": ["Back supported", "Feet flat", "Arm at heart level"],
+        "icon": "heart",
+        "source_ids": ["AHA:HBPM-2025", "AHA-ACC:HBP-2025", "AHA:HYP-2019-0087"]
+      },
+      {
+        "heading": "Stay quiet and take two",
+        "narration": "Once the cuff starts, stay still and do not talk. Take two readings one minute apart. Do not keep repeating the test until a preferred number appears. Record both values, the time, and anything unusual, such as pain or missed medication. Measure at consistent times according to the plan made with your clinician. A short series collected carefully is more useful than many readings taken only when anxiety strikes.",
+        "on_screen": ["No talking", "One minute apart", "Record honestly"],
+        "icon": "checklist",
+        "source_ids": ["AHA:HBPM-2025", "AHA-ACC:HBP-2025"]
+      },
+      {
+        "heading": "Home and clinic may disagree",
+        "narration": "Some people read higher in a clinic and lower at home. Others show the opposite pattern. These are often described as white coat and masked hypertension patterns. Neither should be diagnosed by guesswork. Home monitoring is useful because it samples ordinary life with a repeatable method. Share the full log with your clinician so it can be interpreted with clinic readings, symptoms, medical history, and medication timing.",
+        "on_screen": ["White coat pattern", "Masked pattern", "Share the full log"],
+        "icon": "home",
+        "source_ids": ["AHA:HYP-2019-0087", "AHA-ACC:HBP-2025"]
+      },
+      {
+        "heading": "Why the pattern matters",
+        "narration": "Now, let us go deeper. Blood pressure naturally moves with sleep, pain, stress, activity, and medication timing. That variation is exactly why technique and averaging matter. A standardized log reduces noise and makes the underlying pattern easier to see. It can support diagnosis and show whether a management plan is working. It does not replace clinical care, and home readings should never be used to stop prescribed medicine without discussing it with the treating professional.",
+        "on_screen": ["Pressure naturally varies", "Standardization reduces noise", "Do not change medicine alone"],
+        "icon": "chart",
+        "source_ids": ["AHA:HBPM-2025", "AHA:HYP-2019-0087"]
+      },
+      {
+        "heading": "When a high reading is urgent",
+        "narration": "One unexpected high reading is not automatically an emergency. Check your position, stay calm, and repeat it. If the pressure is above 180 over 120, wait at least one minute and measure again. If it remains that high, contact a health professional immediately. If it comes with chest pain, shortness of breath, back pain, weakness, numbness, vision change, or difficulty speaking, seek emergency help. Do not wait for the number to settle by itself.",
+        "on_screen": ["Repeat carefully", "Above 180 over 120 needs action", "Symptoms can mean emergency"],
+        "icon": "warning",
+        "source_ids": ["AHA:HBPM-2025"]
+      },
+      {
+        "heading": "Three essential takeaways",
+        "narration": "Number one, use a validated upper arm monitor and the correct cuff size. Number two, prepare, rest, position yourself correctly, stay silent, then take two readings one minute apart. Number three, treat the log as clinical information, not a diagnosis from one number. Share the pattern with your health professional, and respond urgently when an extremely high reading is accompanied by warning symptoms.",
+        "on_screen": ["Right equipment", "Same method every time", "Use the pattern safely"],
+        "icon": "checklist",
+        "source_ids": ["AHA:HBPM-2025", "AHA-ACC:HBP-2025", "VALIDATEBP:VDL"]
+      }
+    ],
+    "closing": "On the next episode, we will explain why high blood pressure can cause damage while you feel completely well. Follow the Your Only Doc podcast on YouTube and follow us on Instagram for clear, evidence based medical explanations. Tell us which question you want answered next. Stay curious and stay safe.",
+    "description": "A home blood pressure number is useful only when the monitor, cuff, preparation, posture, and timing are reliable. This episode explains a practical measurement routine, why clinic and home readings can differ, and when a very high result needs urgent action.",
+    "thumbnail_text": "STOP FALSE BP READINGS"
+  }
+}
