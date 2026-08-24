@@ -1,0 +1,52 @@
+{
+  "schema": 1,
+  "workflow": "chatgpt-reviewed-v20",
+  "updated_at": "2026-08-24T12:25:00Z",
+  "next_episode_number": 10,
+  "next_planned_topic": {
+    "id": "hypertension-silent",
+    "title": "Why High Blood Pressure Can Cause Damage Without Symptoms",
+    "reason": "It directly follows correct home measurement and answers the public question of why a person can feel well while risk is increasing."
+  },
+  "packets": [
+    {
+      "episode_number": 9,
+      "topic_id": "blood-pressure-home",
+      "title": "E09: How to Measure Blood Pressure Correctly at Home",
+      "file": "episodes/E09-blood-pressure-home.json",
+      "status": "ready"
+    }
+  ],
+  "evergreen_sequence": [
+    {
+      "id": "hypertension-silent",
+      "title": "Why High Blood Pressure Can Cause Damage Without Symptoms"
+    },
+    {
+      "id": "cholesterol-numbers",
+      "title": "What Your Cholesterol Numbers Actually Mean"
+    },
+    {
+      "id": "palpitations",
+      "title": "Heart Palpitations: Common Causes and Warning Signs"
+    },
+    {
+      "id": "sleep-debt",
+      "title": "Can You Really Catch Up on Lost Sleep?"
+    },
+    {
+      "id": "snoring-apnea",
+      "title": "When Snoring Is More Than Just Noise"
+    }
+  ],
+  "editorial_policy": {
+    "default_mode": "evergreen_sequence",
+    "current_event_interruptions": "Use only when a timely event has a clear medical or public health lesson supported by authoritative sources.",
+    "current_event_limit": "No more than one responsive episode for every four evergreen episodes unless there is an urgent public health need.",
+    "earthquake_scope": "Explain injuries, crush syndrome, dust exposure, wound care, emergency triage, preparedness, and when to seek help. Do not present medicine as an explanation for tectonic causes.",
+    "source_rule": "Use current guidelines, official public health agencies, professional medical societies, and primary or peer reviewed literature. Every factual section must cite its source identifiers.",
+    "style_rule": "English, natural spoken flow, no long dash characters, no stock AI phrases, no spoken host name, no personal handle, and exactly three final takeaways.",
+    "duration_rule": "Target about ten minutes at the approved natural Qwen pace and stop outside five to fifteen minutes.",
+    "publishing_rule": "Upload only as Private. Public release always requires human review."
+  }
+}
