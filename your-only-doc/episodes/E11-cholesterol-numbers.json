@@ -1,0 +1,132 @@
+{
+  "schema": 2,
+  "editorial": {
+    "workflow": "chatgpt-reviewed-v20",
+    "reviewed_by": "ChatGPT medical editorial workflow",
+    "reviewed_on": "2026-08-24",
+    "episode_number": 11,
+    "language": "English",
+    "spoken_host_name_allowed": false,
+    "long_dashes_allowed": false,
+    "target_minutes": 10
+  },
+  "topic_id": "cholesterol-numbers",
+  "topic": {
+    "id": "cholesterol-numbers",
+    "title": "What Your Cholesterol Numbers Actually Mean",
+    "audience_question": "Which cholesterol number matters most, and is one normal result enough?",
+    "pubmed_query": "2026 dyslipidemia guideline LDL HDL triglycerides apolipoprotein B lipoprotein a",
+    "icon_keywords": ["blood-test", "artery", "heart", "laboratory"],
+    "category": "cardiology"
+  },
+  "sources": [
+    {
+      "id": "ACC-AHA:LIPIDS-2026",
+      "title": "ACC and AHA Issue Updated Guideline for Managing Lipids and Cholesterol",
+      "abstract": "The 2026 guideline restores risk based LDL and non-HDL goals, recommends lipoprotein(a) measurement at least once in adulthood, and supports selective apoB and coronary calcium testing. Statins remain the foundation of drug treatment when lifestyle alone is insufficient.",
+      "journal": "American College of Cardiology",
+      "year": "2026",
+      "url": "https://www.acc.org/about-acc/press-releases/2026/03/13/18/01/accaha-issue-updated-guideline-for-managing-lipids-cholesterol",
+      "doi": null
+    },
+    {
+      "id": "CDC:LIPIDS-2024",
+      "title": "LDL and HDL Cholesterol and Triglycerides",
+      "abstract": "CDC explains that high LDL promotes cardiovascular risk, HDL carries cholesterol toward the liver, and triglycerides are circulating fats used for energy. These values must be interpreted together and in clinical context.",
+      "journal": "Centers for Disease Control and Prevention",
+      "year": "2024",
+      "url": "https://www.cdc.gov/cholesterol/about/ldl-and-hdl-cholesterol-and-triglycerides.html",
+      "doi": null
+    },
+    {
+      "id": "CDC:TESTING-2024",
+      "title": "Testing for Cholesterol",
+      "abstract": "A lipid panel commonly reports total cholesterol, LDL cholesterol, HDL cholesterol, and triglycerides. High triglycerides combined with high LDL or low HDL can increase cardiovascular risk.",
+      "journal": "Centers for Disease Control and Prevention",
+      "year": "2024",
+      "url": "https://www.cdc.gov/cholesterol/testing/index.html",
+      "doi": null
+    },
+    {
+      "id": "ACC:HTG-2021",
+      "title": "ACC Consensus on ASCVD Risk Reduction in Hypertriglyceridemia",
+      "abstract": "The ACC consensus distinguishes mild to moderate from severe triglyceride elevation, stresses evaluation of secondary causes and lifestyle treatment, and highlights pancreatitis risk when triglycerides are severely elevated.",
+      "journal": "American College of Cardiology",
+      "year": "2021",
+      "url": "https://www.acc.org/latest-in-cardiology/ten-points-to-remember/2021/07/27/21/04/2021-acc-ecdp-hypertriglyceridemia",
+      "doi": null
+    }
+  ],
+  "episode": {
+    "title": "E11: What Your Cholesterol Numbers Actually Mean",
+    "hook": "Hello and welcome to the Your Only Doc podcast. Today we are decoding a report that often creates more confusion than clarity: the lipid panel. One person sees normal total cholesterol and assumes everything is fine. Another sees low HDL and starts chasing ways to raise it. A third is told the LDL is too high even though the same value seemed acceptable years ago. The numbers are not competing grades. They describe different particles and fats, and their meaning depends on the person carrying them.",
+    "sections": [
+      {
+        "heading": "The high yield summary",
+        "narration": "Too busy? Here is your high yield summary. LDL is the main cholesterol measure linked to plaque formation and treatment decisions. HDL participates in carrying cholesterol back toward the liver, but a high HDL does not cancel a high LDL. Triglycerides are a different circulating fat and can reflect diet, alcohol, diabetes, weight, medicines, or genetics. Total cholesterol is a summary, not the whole story. Your target depends on overall cardiovascular risk, not one universal cutoff.",
+        "on_screen": ["LDL drives plaque risk", "HDL is not a shield", "Targets depend on risk"],
+        "icon": "blood-test",
+        "source_ids": ["ACC-AHA:LIPIDS-2026", "CDC:LIPIDS-2024", "CDC:TESTING-2024"]
+      },
+      {
+        "heading": "LDL is the central number",
+        "narration": "Low density lipoprotein carries cholesterol through the bloodstream. When too many LDL particles circulate, cholesterol can enter artery walls and contribute to atherosclerotic plaque. Lower LDL generally means lower future risk, especially in people who already have cardiovascular disease or several risk factors. Treatment decisions still depend on the complete clinical picture, but LDL remains the main target because lowering it has repeatedly reduced heart attacks and strokes in trials.",
+        "on_screen": ["LDL enters artery walls", "Plaque can accumulate", "Lowering LDL reduces events"],
+        "icon": "artery",
+        "source_ids": ["ACC-AHA:LIPIDS-2026", "CDC:LIPIDS-2024"]
+      },
+      {
+        "heading": "HDL is useful but misunderstood",
+        "narration": "High density lipoprotein helps transport cholesterol back toward the liver. Population studies often associate higher HDL with lower risk, which created the phrase good cholesterol. But HDL is not a treatment coupon that erases other risks. Deliberately raising the HDL number has not consistently produced the expected benefit. Clinicians use HDL as part of risk calculation and metabolic context, while continuing to focus treatment on LDL, non-HDL cholesterol, lifestyle, and the whole risk profile.",
+        "on_screen": ["HDL carries cholesterol", "Not a cancellation number", "Interpret in context"],
+        "icon": "laboratory",
+        "source_ids": ["CDC:LIPIDS-2024", "ACC-AHA:LIPIDS-2026"]
+      },
+      {
+        "heading": "Triglycerides tell a different story",
+        "narration": "Triglycerides store and transport energy. They may rise with excess refined carbohydrate, alcohol, poorly controlled diabetes, some medicines, kidney or thyroid disease, weight gain, and inherited conditions. Mild or moderate elevation often travels with other metabolic risks. Severe elevation deserves prompt assessment because the concern can extend beyond arteries to acute pancreatitis. One abnormal result should trigger a search for the pattern and the cause, not a crash diet chosen from the internet.",
+        "on_screen": ["A circulating energy fat", "Check secondary causes", "Severe levels can threaten the pancreas"],
+        "icon": "pancreas",
+        "source_ids": ["CDC:TESTING-2024", "ACC:HTG-2021"]
+      },
+      {
+        "heading": "Total and non-HDL cholesterol",
+        "narration": "Total cholesterol combines several cholesterol carrying particles, so a reassuring total can hide an LDL problem, and a high total can partly reflect high HDL. Non-HDL cholesterol is calculated by subtracting HDL from total cholesterol. It captures cholesterol carried by multiple particles capable of contributing to plaque. The 2026 guideline again uses LDL and non-HDL goals because they help translate overall risk into practical treatment targets.",
+        "on_screen": ["Total is a summary", "Non-HDL captures plaque particles", "Use the complete panel"],
+        "icon": "calculator",
+        "source_ids": ["ACC-AHA:LIPIDS-2026", "CDC:TESTING-2024"]
+      },
+      {
+        "heading": "Why two people get different targets",
+        "narration": "A value is not interpreted in isolation. Previous heart attack or stroke, artery disease, diabetes, chronic kidney disease, smoking, blood pressure, age, family history, and predicted cardiovascular risk can all change the goal. The current guideline gives lower LDL goals as risk rises. Someone at very high risk after established cardiovascular disease may need far more intensive lowering than a young adult with no other risk factors.",
+        "on_screen": ["History changes the goal", "Risk factors add up", "Higher risk means lower target"],
+        "icon": "risk",
+        "source_ids": ["ACC-AHA:LIPIDS-2026"]
+      },
+      {
+        "heading": "The extra tests that may matter",
+        "narration": "Now, let us go deeper. Lipoprotein(a), written as L P little a, is largely inherited. The 2026 guideline recommends measuring it at least once in adulthood. Apolipoprotein B can better count atherogenic particles in selected people, including some with diabetes or high triglycerides. A coronary calcium scan may refine decisions for certain adults whose treatment choice remains uncertain. These tools answer focused questions. They are not automatic requirements for everyone.",
+        "on_screen": ["Lp(a) once in adulthood", "ApoB for selected cases", "Calcium scan when uncertain"],
+        "icon": "microscope",
+        "source_ids": ["ACC-AHA:LIPIDS-2026"]
+      },
+      {
+        "heading": "What actually lowers risk",
+        "narration": "A heart healthy eating pattern, regular activity, avoiding tobacco, weight management when appropriate, and control of blood pressure and diabetes support the entire risk profile. When medicine is indicated, statins remain the foundation. Additional drugs may be chosen according to risk, response, tolerance, and cost. Do not start supplements or stop prescribed therapy because one value changed. Ask what your target is, why it applies to you, and when the panel should be repeated.",
+        "on_screen": ["Lifestyle supports every marker", "Statins remain foundational", "Know your personal target"],
+        "icon": "heart",
+        "source_ids": ["ACC-AHA:LIPIDS-2026", "CDC:LIPIDS-2024", "ACC:HTG-2021"]
+      },
+      {
+        "heading": "Three essential takeaways",
+        "narration": "Number one, focus on LDL as the main plaque related treatment target, while remembering that the goal depends on overall risk. Number two, HDL, triglycerides, total cholesterol, and non-HDL cholesterol add context, but none should be interpreted alone. Number three, ask for a plan, not just a label. Understand your personal target, address secondary causes, use lifestyle consistently, and take evidence based medication when it is indicated.",
+        "on_screen": ["LDL is central", "Read the full panel", "Treat risk, not a single label"],
+        "icon": "checklist",
+        "source_ids": ["ACC-AHA:LIPIDS-2026", "CDC:LIPIDS-2024", "CDC:TESTING-2024"]
+      }
+    ],
+    "closing": "On the next episode, we will unpack heart palpitations, the common triggers, the warning signs, and how clinicians capture a rhythm that comes and goes. Follow the Your Only Doc podcast on YouTube and follow us on Instagram. Stay curious and stay safe.",
+    "description": "LDL, HDL, triglycerides, total cholesterol, and non-HDL cholesterol do not mean the same thing. This episode explains the current risk based approach, when extra tests can help, and why treatment targets differ from person to person.",
+    "thumbnail_text": "YOUR CHOLESTEROL, DECODED"
+  }
+}
