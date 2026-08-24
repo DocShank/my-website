@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "workflow": "chatgpt-reviewed-v20",
-  "updated_at": "2026-08-24T12:25:00Z",
-  "next_episode_number": 10,
+  "updated_at": "2026-08-24T08:57:27Z",
+  "next_episode_number": 14,
   "next_planned_topic": {
-    "id": "hypertension-silent",
-    "title": "Why High Blood Pressure Can Cause Damage Without Symptoms",
-    "reason": "It directly follows correct home measurement and answers the public question of why a person can feel well while risk is increasing."
+    "id": "snoring-apnea",
+    "title": "When Snoring Is More Than Just Noise",
+    "reason": "It follows the sleep debt episode and explains how obstructive sleep apnea can affect daytime safety, blood pressure, the heart, and the brain."
   },
   "packets": [
     {
@@ -14,6 +14,34 @@
       "topic_id": "blood-pressure-home",
       "title": "E09: How to Measure Blood Pressure Correctly at Home",
       "file": "episodes/E09-blood-pressure-home.json",
+      "status": "ready"
+    },
+    {
+      "episode_number": 10,
+      "topic_id": "hypertension-silent",
+      "title": "E10: Why High Blood Pressure Can Cause Damage Without Symptoms",
+      "file": "episodes/E10-hypertension-silent.json",
+      "status": "ready"
+    },
+    {
+      "episode_number": 11,
+      "topic_id": "cholesterol-numbers",
+      "title": "E11: What Your Cholesterol Numbers Actually Mean",
+      "file": "episodes/E11-cholesterol-numbers.json",
+      "status": "ready"
+    },
+    {
+      "episode_number": 12,
+      "topic_id": "palpitations",
+      "title": "E12: Heart Palpitations: Common Causes and Warning Signs",
+      "file": "episodes/E12-palpitations.json",
+      "status": "ready"
+    },
+    {
+      "episode_number": 13,
+      "topic_id": "sleep-debt",
+      "title": "E13: Can You Really Catch Up on Lost Sleep?",
+      "file": "episodes/E13-sleep-debt.json",
       "status": "ready"
     }
   ],
