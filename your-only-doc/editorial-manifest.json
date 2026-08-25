@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "workflow": "chatgpt-reviewed-v20",
-  "updated_at": "2026-08-24T08:57:27Z",
-  "next_episode_number": 14,
+  "updated_at": "2026-08-25T09:51:09Z",
+  "next_episode_number": 15,
   "next_planned_topic": {
     "id": "snoring-apnea",
     "title": "When Snoring Is More Than Just Noise",
-    "reason": "It follows the sleep debt episode and explains how obstructive sleep apnea can affect daytime safety, blood pressure, the heart, and the brain."
+    "reason": "It resumes the evergreen sleep sequence after the timely Ebola public health interruption and explains how obstructive sleep apnea can affect daytime safety, blood pressure, the heart, and the brain."
   },
   "packets": [
     {
@@ -42,6 +42,13 @@
       "topic_id": "sleep-debt",
       "title": "E13: Can You Really Catch Up on Lost Sleep?",
       "file": "episodes/E13-sleep-debt.json",
+      "status": "ready"
+    },
+    {
+      "episode_number": 14,
+      "topic_id": "ebola-bundibugyo-2026",
+      "title": "E14: What the Bundibugyo Ebola Emergency Means",
+      "file": "episodes/E14-ebola-bundibugyo-2026.json",
       "status": "ready"
     }
   ],
