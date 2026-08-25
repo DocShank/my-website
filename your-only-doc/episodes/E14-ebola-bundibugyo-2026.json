@@ -1,0 +1,141 @@
+{
+  "schema": 2,
+  "editorial": {
+    "workflow": "chatgpt-reviewed-v20",
+    "reviewed_by": "ChatGPT medical editorial workflow",
+    "reviewed_on": "2026-08-25",
+    "episode_number": 14,
+    "language": "English",
+    "spoken_host_name_allowed": false,
+    "long_dashes_allowed": false,
+    "target_minutes": 10
+  },
+  "topic_id": "ebola-bundibugyo-2026",
+  "topic": {
+    "id": "ebola-bundibugyo-2026",
+    "title": "What the Bundibugyo Ebola Emergency Means",
+    "audience_question": "How does Bundibugyo Ebola spread, and who actually needs urgent assessment?",
+    "pubmed_query": "Bundibugyo virus disease 2026 outbreak transmission clinical management supportive care",
+    "icon_keywords": ["virus", "public-health", "handwashing", "hospital"],
+    "category": "infectious-disease"
+  },
+  "sources": [
+    {
+      "id": "WHO:IHR-BVD-2026-08-24",
+      "title": "Second Meeting of the IHR Emergency Committee on the Epidemic of Ebola Bundibugyo Virus Disease",
+      "abstract": "WHO issued updated temporary recommendations on 24 August 2026. Core measures include early case identification, contact tracing, laboratory testing, infection prevention, clinical care, safe burials, continuity of essential services, and trusted community engagement. WHO assessed risk as very high in the country with community transmission, high in adjoining countries, and low in all other countries as of 14 August.",
+      "journal": "World Health Organization",
+      "year": "2026",
+      "url": "https://www.who.int/news/item/24-08-2026-second-meeting-of-the-ihr-emergency-committee-on-the-epidemic-of-ebola-bundibugyo-virus-disease-in-the-democratic-republic-of-the-congo-temporary-recommendations",
+      "doi": null
+    },
+    {
+      "id": "WHO:DON615-2026",
+      "title": "Ebola Disease Caused by Bundibugyo Virus, Democratic Republic of the Congo",
+      "abstract": "WHO reported continuing expansion of Bundibugyo virus disease in August 2026. Person to person spread occurs through direct contact with blood, secretions, organs, other body fluids, or contaminated materials. People are not infectious before symptoms. Outbreak control depends on rapid identification, isolation and care, contact tracing, laboratory testing, safe burials, and community engagement.",
+      "journal": "WHO Disease Outbreak News",
+      "year": "2026",
+      "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON615",
+      "doi": null
+    },
+    {
+      "id": "WHO:EBOLA-FACT-2025",
+      "title": "Ebola Disease Fact Sheet",
+      "abstract": "The incubation period is two to 21 days. Early symptoms include sudden fever, fatigue, muscle pain, headache, and sore throat, followed by vomiting, diarrhoea, abdominal pain, and organ dysfunction. Bleeding is less frequent than commonly assumed. Early intensive supportive care, including rehydration and treatment of complications, can improve survival.",
+      "journal": "World Health Organization",
+      "year": "2025",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/ebola-disease",
+      "doi": null
+    },
+    {
+      "id": "CDC:EBOLA-SPREAD-2026",
+      "title": "How Ebola Disease Spreads",
+      "abstract": "CDC states that Ebola spreads through direct contact with blood or body fluids from a sick or deceased person, contaminated objects, infected animals, and in uncommon circumstances persistent virus in some survivors. It does not spread like influenza or COVID-19, and mosquitoes are not known to transmit it.",
+      "journal": "Centers for Disease Control and Prevention",
+      "year": "2026",
+      "url": "https://www.cdc.gov/ebola/causes/index.html",
+      "doi": null
+    },
+    {
+      "id": "LANCETID:BDBV-REVIEW-2026",
+      "title": "A Review of Bundibugyo Virus and the 2026 Outbreak",
+      "abstract": "This peer reviewed review describes supportive care as the foundation of clinical management for Bundibugyo virus disease and emphasizes prompt recognition, safe clinical care, infection control, and research into candidate countermeasures.",
+      "journal": "The Lancet Infectious Diseases",
+      "year": "2026",
+      "url": "https://www.thelancet.com/journals/laninf/article/PIIS1473-3099(26)00414-7/fulltext",
+      "doi": null
+    }
+  ],
+  "episode": {
+    "title": "E14: What the Bundibugyo Ebola Emergency Means",
+    "hook": "Hello and welcome to the Your Only Doc podcast. A person develops fever after travel, and the word Ebola appears in a headline. Fear can move faster than facts. On 24 August 2026, the World Health Organization issued updated emergency recommendations for the expanding Bundibugyo virus disease epidemic in the Democratic Republic of the Congo. This deserves attention, but useful attention means understanding exposure, symptoms, transmission, and the public health response, not treating every fever or every traveller as a danger.",
+    "sections": [
+      {
+        "heading": "The high yield summary",
+        "narration": "Too busy? Here is your high yield summary. Bundibugyo virus causes a severe Ebola disease. It spreads mainly through direct contact with blood or body fluids from someone who is sick or has died, or through contaminated materials. People do not transmit it before symptoms begin. Early illness can look like many common infections, so travel and exposure history matter. Anyone with compatible symptoms after a relevant exposure needs immediate public health and medical assessment. Early supportive care can improve survival.",
+        "on_screen": ["Direct contact spreads infection", "Not contagious before symptoms", "Exposure plus symptoms needs urgent assessment"],
+        "icon": "virus",
+        "source_ids": ["WHO:DON615-2026", "WHO:EBOLA-FACT-2025", "CDC:EBOLA-SPREAD-2026"]
+      },
+      {
+        "heading": "Why this became an emergency",
+        "narration": "The outbreak has expanded across multiple health zones during a humanitarian crisis marked by displacement, insecurity, and limited access to care. WHO continues to classify it as a public health emergency requiring international coordination. Updated recommendations focus on surveillance, rapid investigation, laboratory testing, contact tracing, safe clinical care, and community trust. The emergency label organizes resources and cross border cooperation. It does not mean every country or every person faces the same level of risk.",
+        "on_screen": ["Expanding outbreak", "International coordination", "Risk differs by location"],
+        "icon": "public-health",
+        "source_ids": ["WHO:IHR-BVD-2026-08-24", "WHO:DON615-2026"]
+      },
+      {
+        "heading": "How Ebola actually spreads",
+        "narration": "Transmission requires contact with infectious blood or body fluids through broken skin or the eyes, nose, or mouth. Contaminated bedding, needles, and medical equipment can also carry risk. Direct contact with the body of someone who died from Ebola is especially dangerous. Ebola does not spread like influenza or COVID-19, and simply being near a person is not the usual route. Mosquitoes are not known to transmit it.",
+        "on_screen": ["Blood and body fluids", "Contaminated objects", "Not spread by mosquitoes"],
+        "icon": "handwashing",
+        "source_ids": ["WHO:EBOLA-FACT-2025", "CDC:EBOLA-SPREAD-2026"]
+      },
+      {
+        "heading": "Symptoms are not specific",
+        "narration": "Symptoms can begin two to 21 days after exposure. Early features include fever, severe tiredness, muscle pain, headache, and sore throat. Vomiting, diarrhoea, abdominal pain, confusion, and organ dysfunction may follow. Visible bleeding can occur, but it is less common than many people imagine. These symptoms overlap with malaria, typhoid, and other infections. A laboratory test is needed for confirmation, and clinicians must know about recent travel and direct exposures.",
+        "on_screen": ["Two to 21 days", "Early symptoms can look ordinary", "Testing confirms the diagnosis"],
+        "icon": "thermometer",
+        "source_ids": ["WHO:DON615-2026", "WHO:EBOLA-FACT-2025"]
+      },
+      {
+        "heading": "What to do after a possible exposure",
+        "narration": "If you have been in an affected area and had direct contact with a sick person, a body, body fluids, contaminated materials, or high risk wildlife, follow the instructions of local public health authorities. Monitor for symptoms for 21 days after the last exposure. If symptoms develop, do not walk into a crowded clinic without warning. Call emergency or public health services first, explain the exposure clearly, and follow their route for safe assessment and testing.",
+        "on_screen": ["Identify the exposure", "Monitor for 21 days", "Call before arriving"],
+        "icon": "phone",
+        "source_ids": ["WHO:IHR-BVD-2026-08-24", "WHO:DON615-2026", "CDC:EBOLA-SPREAD-2026"]
+      },
+      {
+        "heading": "What treatment can do",
+        "narration": "There is currently no approved vaccine or specific treatment for Bundibugyo virus disease, although clinical trials are under way. That does not mean care is powerless. Rapid rehydration, correction of electrolytes, oxygen and blood pressure support, nutrition, pain control, and treatment of other infections can improve the chance of survival. Earlier recognition also protects families and health workers by allowing safe isolation and infection control.",
+        "on_screen": ["No approved specific treatment yet", "Supportive care saves lives", "Early care protects others"],
+        "icon": "hospital",
+        "source_ids": ["WHO:IHR-BVD-2026-08-24", "WHO:EBOLA-FACT-2025", "LANCETID:BDBV-REVIEW-2026"]
+      },
+      {
+        "heading": "Why public health measures work",
+        "narration": "Now, let us go deeper. Each confirmed case creates a chain of questions: who had meaningful contact, when did exposure occur, and has anyone developed symptoms? Contact tracing follows exposed people through the incubation window so illness can be detected quickly. Safe and dignified burials prevent intense exposure while respecting families. Trusted local communication matters because people seek care sooner when they understand the process and believe they will be treated with dignity.",
+        "on_screen": ["Trace meaningful contacts", "Detect illness early", "Build trust with communities"],
+        "icon": "network",
+        "source_ids": ["WHO:IHR-BVD-2026-08-24", "WHO:DON615-2026"]
+      },
+      {
+        "heading": "Avoid panic and stigma",
+        "narration": "A headline, nationality, or travel history alone does not make someone infectious. A person cannot spread Ebola before symptoms, and risk depends on a specific exposure route. Follow current public health advice, use reliable sources, and avoid sharing names or rumours. Stigma drives symptoms underground and weakens contact tracing. Accurate information protects both the public and the people most affected by the outbreak.",
+        "on_screen": ["Exposure determines risk", "Do not stigmatize", "Use verified guidance"],
+        "icon": "shield",
+        "source_ids": ["WHO:IHR-BVD-2026-08-24", "WHO:DON615-2026", "CDC:EBOLA-SPREAD-2026"]
+      },
+      {
+        "heading": "Three essential takeaways",
+        "narration": "Number one, Bundibugyo Ebola spreads through direct contact with infectious body fluids or contaminated materials, not ordinary proximity, and people are not contagious before symptoms. Number two, fever after travel is not automatically Ebola, but compatible symptoms plus a relevant exposure require immediate medical and public health contact. Number three, early supportive care, testing, isolation, contact tracing, safe burials, and trusted community cooperation are the core tools that save lives and stop transmission.",
+        "on_screen": ["Know the real route", "Exposure plus symptoms needs action", "Early coordinated care stops spread"],
+        "icon": "checklist",
+        "source_ids": ["WHO:IHR-BVD-2026-08-24", "WHO:DON615-2026", "WHO:EBOLA-FACT-2025", "CDC:EBOLA-SPREAD-2026"]
+      }
+    ],
+    "closing": "On the next episode, we will return to our sleep series and explain when snoring is more than noise, including how obstructive sleep apnea can affect daytime safety, blood pressure, the heart, and the brain. Follow the Your Only Doc podcast on YouTube and Instagram for clear, evidence based medical explanations. Stay curious and stay safe.",
+    "description": "WHO issued updated emergency recommendations for the expanding Bundibugyo Ebola epidemic on 24 August 2026. This episode explains how the virus spreads, which symptoms and exposures need urgent assessment, why supportive care matters, and how contact tracing and community trust stop transmission.",
+    "thumbnail_text": "HOW EBOLA REALLY SPREADS"
+  }
+}
