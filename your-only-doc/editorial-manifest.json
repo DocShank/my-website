@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "workflow": "chatgpt-reviewed-v20",
-  "updated_at": "2026-08-25T09:51:09Z",
-  "next_episode_number": 15,
+  "updated_at": "2026-08-26T09:04:49Z",
+  "next_episode_number": 16,
   "next_planned_topic": {
-    "id": "snoring-apnea",
-    "title": "When Snoring Is More Than Just Noise",
-    "reason": "It resumes the evergreen sleep sequence after the timely Ebola public health interruption and explains how obstructive sleep apnea can affect daytime safety, blood pressure, the heart, and the brain."
+    "id": "night-waking",
+    "title": "Why You Keep Waking Up at Night",
+    "reason": "It continues the sleep series by separating sleep maintenance insomnia from breathing disorders, pain, reflux, medicines, nocturia, and other treatable causes."
   },
   "packets": [
     {
@@ -50,6 +50,13 @@
       "title": "E14: What the Bundibugyo Ebola Emergency Means",
       "file": "episodes/E14-ebola-bundibugyo-2026.json",
       "status": "ready"
+    },
+    {
+      "episode_number": 15,
+      "topic_id": "snoring-apnea",
+      "title": "E15: When Snoring Is More Than Just Noise",
+      "file": "episodes/E15-snoring-apnea.json",
+      "status": "ready"
     }
   ],
   "evergreen_sequence": [
@@ -72,6 +79,10 @@
     {
       "id": "snoring-apnea",
       "title": "When Snoring Is More Than Just Noise"
+    },
+    {
+      "id": "night-waking",
+      "title": "Why You Keep Waking Up at Night"
     }
   ],
   "editorial_policy": {
