@@ -1,0 +1,141 @@
+{
+  "schema": 2,
+  "editorial": {
+    "workflow": "chatgpt-reviewed-v20",
+    "reviewed_by": "ChatGPT medical editorial workflow",
+    "reviewed_on": "2026-08-26",
+    "episode_number": 15,
+    "language": "English",
+    "spoken_host_name_allowed": false,
+    "long_dashes_allowed": false,
+    "target_minutes": 10
+  },
+  "topic_id": "snoring-apnea",
+  "topic": {
+    "id": "snoring-apnea",
+    "title": "When Snoring Is More Than Just Noise",
+    "audience_question": "Which snoring patterns suggest obstructive sleep apnea rather than simple noise?",
+    "pubmed_query": "adult obstructive sleep apnea symptoms diagnosis home sleep apnea testing polysomnography treatment guideline",
+    "icon_keywords": ["sleep", "airway", "lungs", "heart"],
+    "category": "sleep-medicine"
+  },
+  "sources": [
+    {
+      "id": "AASM:DIAG-2017",
+      "title": "Clinical Practice Guideline for Diagnostic Testing for Adult Obstructive Sleep Apnea",
+      "abstract": "The American Academy of Sleep Medicine recommends polysomnography or technically adequate home sleep apnea testing for diagnosis in appropriate uncomplicated adults at increased risk. Questionnaires alone cannot establish the diagnosis. Polysomnography is recommended when a home test is negative, inconclusive, or technically inadequate, and is preferred in several complicated clinical settings.",
+      "journal": "Journal of Clinical Sleep Medicine",
+      "year": "2017",
+      "url": "https://jcsm.aasm.org/doi/10.5664/jcsm.6506",
+      "doi": "10.5664/jcsm.6506"
+    },
+    {
+      "id": "AASM:PAP-2019",
+      "title": "Treatment of Adult Obstructive Sleep Apnea With Positive Airway Pressure",
+      "abstract": "The AASM guideline supports positive airway pressure for adults with obstructive sleep apnea and excessive sleepiness, and conditionally supports it for impaired sleep related quality of life or coexisting hypertension. Treatment should include adequate follow-up, troubleshooting, and monitoring of objective efficacy and use data.",
+      "journal": "Journal of Clinical Sleep Medicine",
+      "year": "2019",
+      "url": "https://jcsm.aasm.org/doi/10.5664/jcsm.7640",
+      "doi": "10.5664/jcsm.7640"
+    },
+    {
+      "id": "NHLBI:SLEEP-APNEA-2025",
+      "title": "Sleep Apnea Symptoms, Diagnosis, and Treatment",
+      "abstract": "NHLBI lists loud snoring, breathing pauses, gasping, daytime sleepiness, fatigue, morning headache, dry mouth, insomnia, and nighttime urination among possible features. Diagnosis requires clinical assessment and a sleep study. Treatments can include lifestyle measures, positive airway pressure, oral appliances, selected medicines, and surgery.",
+      "journal": "National Heart, Lung, and Blood Institute",
+      "year": "2025",
+      "url": "https://www.nhlbi.nih.gov/health/sleep-apnea",
+      "doi": null
+    },
+    {
+      "id": "AHA:OSA-CVD-2021",
+      "title": "Obstructive Sleep Apnea and Cardiovascular Disease",
+      "abstract": "The American Heart Association scientific statement describes recurrent upper airway obstruction, intermittent low oxygen, autonomic fluctuation, and sleep fragmentation. Obstructive sleep apnea is associated with hypertension, atrial fibrillation, heart failure, coronary disease, stroke, pulmonary hypertension, metabolic disease, and accidents related to impaired alertness.",
+      "journal": "Circulation",
+      "year": "2021",
+      "url": "https://professional.heart.org/en/science-news/obstructive-sleep-apnea-and-cardiovascular-disease/top-things-to-know",
+      "doi": "10.1161/CIR.0000000000000988"
+    },
+    {
+      "id": "FDA:TIRZEPATIDE-OSA-2024",
+      "title": "FDA Approves First Medication for Obstructive Sleep Apnea",
+      "abstract": "In December 2024, FDA approved tirzepatide for moderate to severe obstructive sleep apnea in adults with obesity, together with a reduced calorie diet and increased physical activity. The approval applies to a defined patient group and does not replace individualized assessment of airway treatment.",
+      "journal": "US Food and Drug Administration",
+      "year": "2024",
+      "url": "https://www.fda.gov/news-events/press-announcements/fda-approves-first-medication-obstructive-sleep-apnea",
+      "doi": null
+    }
+  ],
+  "episode": {
+    "title": "E15: When Snoring Is More Than Just Noise",
+    "hook": "Hello and welcome to the Your Only Doc podcast. Imagine sharing a room with someone who snores loudly, becomes suddenly silent, then gasps and starts breathing again. By morning, that person remembers none of it but feels exhausted and develops a headache. Snoring is common and does not always mean disease. The concern begins when noise is joined by breathing pauses, choking, fragmented sleep, or daytime impairment. That pattern may point to obstructive sleep apnea, a condition that affects far more than the person trying to sleep beside you.",
+    "sections": [
+      {
+        "heading": "The high yield summary",
+        "narration": "Too busy? Here is your high yield summary. Ordinary snoring is sound from a narrowed airway. Obstructive sleep apnea repeatedly blocks breathing during sleep. Warning signs include witnessed pauses, gasping, choking, loud irregular snoring, morning headaches, poor concentration, and excessive daytime sleepiness. Risk rises with obesity, age, alcohol, sedatives, and certain airway shapes, but thin people can have it too. A sleep study confirms the diagnosis. Effective treatments include positive airway pressure, weight management, oral appliances, and selected procedures.",
+        "on_screen": ["Pauses and gasping matter", "Daytime symptoms count", "A sleep study confirms it"],
+        "icon": "sleep",
+        "source_ids": ["NHLBI:SLEEP-APNEA-2025", "AASM:DIAG-2017", "AHA:OSA-CVD-2021"]
+      },
+      {
+        "heading": "Snoring and apnea are not identical",
+        "narration": "Snoring happens when relaxed tissues vibrate as air moves through a narrowed upper airway. In obstructive sleep apnea, the airway repeatedly closes completely or partially. The brain then triggers a brief arousal so breathing can restart. These arousals may be too short to remember, yet they fragment the night. Someone can snore without apnea, and some people with apnea are not described as dramatic snorers. The breathing pattern and daytime consequences matter more than volume alone.",
+        "on_screen": ["Snoring is vibration", "Apnea is repeated obstruction", "Volume alone cannot diagnose"],
+        "icon": "airway",
+        "source_ids": ["AHA:OSA-CVD-2021", "NHLBI:SLEEP-APNEA-2025"]
+      },
+      {
+        "heading": "Recognize the warning pattern",
+        "narration": "Ask the person who shares the room what they observe. Repeated silence followed by snorting, choking, or gasping is important. So are waking with a dry mouth or headache, urinating several times overnight, unrefreshing sleep, irritability, memory difficulty, and struggling to stay awake during quiet tasks. Women may report fatigue, headache, or insomnia rather than classic sleepiness. Children can show restless sleep, attention problems, bedwetting, or hyperactive behaviour and require a child focused assessment.",
+        "on_screen": ["Witnessed breathing pauses", "Morning and daytime clues", "Symptoms can look different"],
+        "icon": "warning",
+        "source_ids": ["NHLBI:SLEEP-APNEA-2025"]
+      },
+      {
+        "heading": "Who is more likely to have it",
+        "narration": "Obesity is a major modifiable risk factor, but it is not a requirement. Risk also rises with older age, male sex, menopause, family history, enlarged tonsils, nasal obstruction, and a jaw or facial structure that leaves less airway space. Alcohol and sedating medicines can worsen collapse. Resistant high blood pressure, atrial fibrillation, heart failure, pulmonary hypertension, or previous stroke should also raise clinical suspicion, especially when snoring or sleepiness is present.",
+        "on_screen": ["Weight is only one factor", "Airway anatomy matters", "Heart conditions raise suspicion"],
+        "icon": "risk-factors",
+        "source_ids": ["AHA:OSA-CVD-2021", "NHLBI:SLEEP-APNEA-2025"]
+      },
+      {
+        "heading": "Why untreated apnea matters",
+        "narration": "Repeated obstruction creates intermittent low oxygen, surges in stress signals, pressure swings inside the chest, and broken sleep. Over time, obstructive sleep apnea is associated with hypertension, atrial fibrillation, stroke, coronary disease, heart failure, and metabolic problems. The immediate danger may be simpler: impaired alertness can slow reaction time at work or behind the wheel. If you are fighting sleep while driving, stop driving and arrange safe transport. Do not wait for a sleep clinic appointment to make that decision.",
+        "on_screen": ["Oxygen repeatedly falls", "The heart and brain feel the stress", "Sleepy driving is unsafe"],
+        "icon": "heart",
+        "source_ids": ["AHA:OSA-CVD-2021", "NHLBI:SLEEP-APNEA-2025"]
+      },
+      {
+        "heading": "How diagnosis is confirmed",
+        "narration": "Now, let us go deeper. A questionnaire can estimate risk, but it cannot diagnose obstructive sleep apnea. Testing records breathing events and oxygen changes during sleep. A technically adequate home sleep apnea test may suit an uncomplicated adult with a high clinical likelihood. Laboratory polysomnography measures more signals and is preferred when the case is medically complex. If a home test is negative, unclear, or technically poor while suspicion remains, formal polysomnography is recommended.",
+        "on_screen": ["Risk score is not a diagnosis", "Home testing fits selected adults", "Negative home test may need follow-up"],
+        "icon": "sleep-study",
+        "source_ids": ["AASM:DIAG-2017", "NHLBI:SLEEP-APNEA-2025"]
+      },
+      {
+        "heading": "Treatment must fit the cause",
+        "narration": "Positive airway pressure keeps the airway open and is the most common treatment. Mask comfort, humidification, pressure adjustment, education, and early troubleshooting can determine whether it becomes sustainable. Weight management, regular activity, limiting alcohol, avoiding unnecessary sedatives, and side sleeping may help selected people. A custom oral appliance can be appropriate when positive airway pressure is not tolerated or preferred. Surgery or nerve stimulation is reserved for selected anatomy and circumstances after specialist evaluation.",
+        "on_screen": ["Positive airway pressure", "Support long term use", "Alternatives need selection"],
+        "icon": "cpap",
+        "source_ids": ["AASM:PAP-2019", "NHLBI:SLEEP-APNEA-2025"]
+      },
+      {
+        "heading": "What newer treatment does and does not mean",
+        "narration": "Tirzepatide is approved in the United States for moderate to severe obstructive sleep apnea in adults with obesity, together with reduced calorie intake and increased physical activity. This is not a general snoring injection, and it is not suitable for everyone. It addresses an important contributor through weight reduction, while airway assessment and follow-up remain necessary. Treatment success should be judged by symptoms, objective control of breathing events, safety, tolerance, and the person's wider health.",
+        "on_screen": ["Approved for a defined group", "Not a general snoring treatment", "Follow-up still matters"],
+        "icon": "medicine",
+        "source_ids": ["FDA:TIRZEPATIDE-OSA-2024", "NHLBI:SLEEP-APNEA-2025"]
+      },
+      {
+        "heading": "Three essential takeaways",
+        "narration": "Number one, snoring becomes concerning when it includes breathing pauses, gasping, choking, unrefreshing sleep, morning headache, or daytime impairment. Number two, appearance and snoring volume cannot confirm or exclude obstructive sleep apnea, so persistent warning signs need clinical assessment and an appropriate sleep study. Number three, effective treatment is available, but it must be matched to severity, anatomy, weight, other medical conditions, and personal tolerance. Never drive when sleepiness is making you unsafe.",
+        "on_screen": ["Look beyond the noise", "Confirm with the right test", "Match treatment to the person"],
+        "icon": "checklist",
+        "source_ids": ["AASM:DIAG-2017", "AASM:PAP-2019", "NHLBI:SLEEP-APNEA-2025", "AHA:OSA-CVD-2021"]
+      }
+    ],
+    "closing": "On the next episode, we will explain why some people keep waking during the night, from insomnia and stress to pain, reflux, medicines, urination, and breathing disorders. Follow the Your Only Doc podcast on YouTube and Instagram for clear, evidence based medical explanations. Stay curious and stay safe.",
+    "description": "Not every snore is obstructive sleep apnea. This episode explains the warning pattern, who is at risk, how sleep testing works, why untreated apnea affects daytime safety and cardiovascular health, and how treatment is selected.",
+    "thumbnail_text": "WHEN SNORING IS A WARNING"
+  }
+}
