@@ -1,0 +1,150 @@
+{
+  "schema": 2,
+  "editorial": {
+    "workflow": "chatgpt-reviewed-v20",
+    "reviewed_by": "ChatGPT medical editorial workflow",
+    "reviewed_on": "2026-08-27",
+    "episode_number": 16,
+    "language": "English",
+    "spoken_host_name_allowed": false,
+    "long_dashes_allowed": false,
+    "target_minutes": 10
+  },
+  "topic_id": "night-waking",
+  "topic": {
+    "id": "night-waking",
+    "title": "Why You Keep Waking Up at Night",
+    "audience_question": "When are repeated nighttime awakenings normal, and when do they point to insomnia or another treatable problem?",
+    "pubmed_query": "sleep maintenance insomnia nocturnal awakenings causes evaluation CBT-I guideline adults",
+    "icon_keywords": ["sleep", "clock", "moon", "checklist"],
+    "category": "sleep-medicine"
+  },
+  "sources": [
+    {
+      "id": "VA-DOD:INSOMNIA-OSA-2025",
+      "title": "The Management of Chronic Insomnia Disorder and Obstructive Sleep Apnea",
+      "abstract": "The 2025 VA and Department of Defense guideline recommends cognitive behavioral therapy for insomnia as first line treatment for chronic insomnia. Evaluation should distinguish insomnia from sleep apnea and contributing medical, psychiatric, substance, medication, and behavioral factors. Sleep hygiene education alone is not considered an adequate treatment for chronic insomnia.",
+      "journal": "VA and Department of Defense Clinical Practice Guideline",
+      "year": "2025",
+      "url": "https://www.healthquality.va.gov/guidelines/CD/insomnia/index.asp",
+      "doi": null
+    },
+    {
+      "id": "AASM:CBTI-2021",
+      "title": "Behavioral and Psychological Treatments for Chronic Insomnia Disorder in Adults",
+      "abstract": "The American Academy of Sleep Medicine gives a strong recommendation for multicomponent cognitive behavioral therapy for insomnia. It also supports selected behavioral components such as stimulus control and sleep restriction therapy, while recommending against sleep hygiene as a stand-alone treatment.",
+      "journal": "Journal of Clinical Sleep Medicine",
+      "year": "2021",
+      "url": "https://jcsm.aasm.org/doi/10.5664/jcsm.8986",
+      "doi": "10.5664/jcsm.8986"
+    },
+    {
+      "id": "ACP:INSOMNIA-2016",
+      "title": "Management of Chronic Insomnia Disorder in Adults",
+      "abstract": "The American College of Physicians recommends cognitive behavioral therapy for insomnia as initial treatment for adults with chronic insomnia. If symptoms remain, decisions about short term medicine should follow a shared discussion of benefits, harms, and costs.",
+      "journal": "Annals of Internal Medicine",
+      "year": "2016",
+      "url": "https://www.acponline.org/acp-newsroom/acp-recommends-cognitive-behavioral-therapy-as-initial-treatment-for-chronic-insomnia",
+      "doi": "10.7326/M15-2175"
+    },
+    {
+      "id": "NHLBI:INSOMNIA-2022",
+      "title": "Insomnia",
+      "abstract": "NHLBI defines insomnia as trouble falling asleep, staying asleep, or getting good quality sleep despite adequate opportunity. Chronic insomnia occurs at least three nights per week for at least three months and is associated with daytime effects. Stress, schedule changes, light, noise, caffeine, nicotine, alcohol, medicines, menopause, and other health conditions may contribute.",
+      "journal": "National Heart, Lung, and Blood Institute",
+      "year": "2022",
+      "url": "https://www.nhlbi.nih.gov/health/insomnia",
+      "doi": null
+    },
+    {
+      "id": "NHLBI:INSOMNIA-DIAG-2022",
+      "title": "Insomnia Diagnosis",
+      "abstract": "Assessment includes the timing and frequency of sleep difficulty, daytime impairment, health history, examination, and review of substances and medicines. A one to two week sleep diary can record sleep and wake times, awakenings, naps, daytime sleepiness, caffeine, alcohol, and exercise. Sleep testing is selected when another sleep disorder is suspected rather than used routinely for every insomnia complaint.",
+      "journal": "National Heart, Lung, and Blood Institute",
+      "year": "2022",
+      "url": "https://www.nhlbi.nih.gov/health/insomnia/diagnosis",
+      "doi": null
+    },
+    {
+      "id": "NHLBI:SLEEP-STAGES-2022",
+      "title": "How Sleep Works: Sleep Phases and Stages",
+      "abstract": "Normal sleep cycles repeatedly through non-REM and REM stages. Deep sleep is concentrated earlier in the night, while REM sleep becomes more prominent later. Brief transitions toward wakefulness can occur between cycles, but repeated or prolonged awakenings with daytime consequences warrant attention.",
+      "journal": "National Heart, Lung, and Blood Institute",
+      "year": "2022",
+      "url": "https://www.nhlbi.nih.gov/health/sleep/stages-of-sleep",
+      "doi": null
+    }
+  ],
+  "episode": {
+    "title": "E16: Why You Keep Waking Up at Night",
+    "hook": "Hello and welcome to the Your Only Doc podcast. Imagine waking at two in the morning, checking the clock, going to the bathroom, and then lying awake while your mind starts calculating how little sleep remains. By sunrise, the night feels ruined. Waking briefly is not automatically abnormal because sleep naturally moves through repeating stages. The important questions are how often you wake, how long you remain awake, what seems to trigger it, and how you function the next day.",
+    "sections": [
+      {
+        "heading": "The high yield summary",
+        "narration": "Too busy? Here is your high yield summary. Repeated waking can come from insomnia, stress, sleep apnea, restless legs, pain, reflux, urination, menopause, alcohol, caffeine, medicines, or the sleep environment. Track the pattern for one to two weeks. Keep a steady wake time, avoid clock watching, and do not stay in bed struggling for hours. Persistent symptoms with daytime impairment deserve assessment. For chronic insomnia, cognitive behavioral therapy for insomnia is the preferred first treatment, not sleep hygiene tips or sleeping pills alone.",
+        "on_screen": ["Find the pattern", "Track nights and days", "CBT-I is first line"],
+        "icon": "sleep",
+        "source_ids": ["VA-DOD:INSOMNIA-OSA-2025", "AASM:CBTI-2021", "NHLBI:INSOMNIA-DIAG-2022"]
+      },
+      {
+        "heading": "A brief awakening can be normal",
+        "narration": "Sleep is not one continuous block. The brain cycles through lighter sleep, deep sleep, and rapid eye movement sleep several times. Brief awakenings can occur around these transitions and may never be remembered. A problem becomes more likely when awakenings are prolonged, frequent, distressing, or followed by fatigue, sleepiness, poor concentration, irritability, or reduced performance. Insomnia means difficulty sleeping despite having enough opportunity and a suitable environment for sleep.",
+        "on_screen": ["Sleep moves in cycles", "Brief waking can happen", "Daytime impact changes the meaning"],
+        "icon": "moon",
+        "source_ids": ["NHLBI:SLEEP-STAGES-2022", "NHLBI:INSOMNIA-2022"]
+      },
+      {
+        "heading": "The trigger often leaves clues",
+        "narration": "Listen to what happens just before waking. Gasping, choking, loud snoring, or morning headache suggests possible sleep apnea. An urge to move the legs points elsewhere. Burning behind the breastbone may suggest reflux. Pain, coughing, hot flashes, nightmares, a noisy room, or caring for someone can repeatedly interrupt sleep. Urination may be the cause, but sometimes a person wakes first and then decides to use the bathroom. The sequence matters.",
+        "on_screen": ["Breathing clues", "Body symptoms", "What happened first?"],
+        "icon": "clues",
+        "source_ids": ["VA-DOD:INSOMNIA-OSA-2025", "NHLBI:INSOMNIA-DIAG-2022"]
+      },
+      {
+        "heading": "Review substances and medicines",
+        "narration": "Caffeine can remain active long after the final cup. Nicotine is stimulating. Alcohol may make sleep arrive faster but can fragment the second half of the night. Timing also matters for diuretics, stimulants, steroids, decongestants, and some medicines that affect alertness or urination. Do not stop a prescribed medicine on your own. Record when you take it, then ask a clinician or pharmacist whether the dose, timing, or an alternative deserves review.",
+        "on_screen": ["Late caffeine", "Alcohol fragments sleep", "Review medicine timing safely"],
+        "icon": "medicine",
+        "source_ids": ["NHLBI:INSOMNIA-2022", "NHLBI:INSOMNIA-DIAG-2022", "VA-DOD:INSOMNIA-OSA-2025"]
+      },
+      {
+        "heading": "A sleep diary beats guesswork",
+        "narration": "For one to two weeks, record bedtime, estimated sleep time, awakenings, final wake time, naps, caffeine, alcohol, exercise, medicines, and next day sleepiness. Add symptoms such as snoring, reflux, pain, leg discomfort, or urination. The diary may reveal that the problem follows late coffee, variable wake times, or long naps. It also gives a clinician more useful information than one exhausted description after a particularly bad night.",
+        "on_screen": ["Record timing", "Add triggers and symptoms", "Include daytime function"],
+        "icon": "checklist",
+        "source_ids": ["NHLBI:INSOMNIA-DIAG-2022", "VA-DOD:INSOMNIA-OSA-2025"]
+      },
+      {
+        "heading": "Why trying harder can backfire",
+        "narration": "Now, let us go deeper. After several bad nights, the bed can become a place for monitoring, frustration, and effort. Checking the time creates arithmetic and threat. Going to bed much earlier or staying in bed much later can increase awake time in bed and strengthen that association. This does not mean the problem is imaginary. It means the brain has learned wakefulness in a place that should cue sleep, and behavioral treatment can retrain that connection.",
+        "on_screen": ["Clock watching raises pressure", "More time in bed may backfire", "The association can be retrained"],
+        "icon": "brain",
+        "source_ids": ["AASM:CBTI-2021", "VA-DOD:INSOMNIA-OSA-2025"]
+      },
+      {
+        "heading": "What effective treatment looks like",
+        "narration": "Cognitive behavioral therapy for insomnia combines several tools: a consistent schedule, stimulus control, carefully matching time in bed to actual sleep, relaxation, and changing unhelpful beliefs about sleep. It is more than a list about dark rooms and screens. Sleep hygiene can support treatment, but guidelines advise against using it alone for chronic insomnia. If medicine is considered, benefits and risks should be discussed for the individual rather than treating every nighttime awakening the same way.",
+        "on_screen": ["Use multicomponent CBT-I", "Sleep hygiene alone is insufficient", "Individualize medicine decisions"],
+        "icon": "therapy",
+        "source_ids": ["AASM:CBTI-2021", "ACP:INSOMNIA-2016", "VA-DOD:INSOMNIA-OSA-2025"]
+      },
+      {
+        "heading": "When to seek an assessment",
+        "narration": "Arrange an assessment when poor sleep affects work, mood, memory, driving, or safety, or when it occurs at least three nights weekly for three months. Seek help sooner for witnessed breathing pauses, severe daytime sleepiness, unusual movements, worsening depression, or symptoms suggesting a medical cause. Never drive when you are struggling to stay awake. A sleep study is useful when another sleep disorder is suspected, but it is not automatically required for every person with insomnia.",
+        "on_screen": ["Daytime impairment matters", "Three nights for three months", "Test when another disorder is suspected"],
+        "icon": "warning",
+        "source_ids": ["NHLBI:INSOMNIA-2022", "NHLBI:INSOMNIA-DIAG-2022", "VA-DOD:INSOMNIA-OSA-2025"]
+      },
+      {
+        "heading": "Three essential takeaways",
+        "narration": "Number one, a brief awakening can be normal, but repeated or prolonged waking with daytime impairment needs attention. Number two, use a sleep diary to identify breathing symptoms, body symptoms, substances, medicines, timing, and environmental triggers instead of assuming every case is insomnia. Number three, chronic insomnia is treatable, and multicomponent cognitive behavioral therapy for insomnia is the preferred first approach. Seek earlier assessment when breathing, safety, severe sleepiness, mood, or another medical problem is involved.",
+        "on_screen": ["Judge the daytime impact", "Map the cause", "Use evidence based treatment"],
+        "icon": "checklist",
+        "source_ids": ["AASM:CBTI-2021", "VA-DOD:INSOMNIA-OSA-2025", "NHLBI:INSOMNIA-DIAG-2022"]
+      }
+    ],
+    "closing": "On the next episode, we will explain why your legs may feel restless at night, what separates restless legs syndrome from cramps, and when iron or another health condition may be involved. Follow the Your Only Doc podcast on YouTube and Instagram for clear, evidence based medical explanations. Stay curious and stay safe.",
+    "description": "Night waking is not one diagnosis. This episode explains normal sleep transitions, common medical and behavioral triggers, how to use a sleep diary, when testing is useful, and why cognitive behavioral therapy for insomnia is the first line treatment for chronic insomnia.",
+    "thumbnail_text": "WHY YOU WAKE AT NIGHT"
+  }
+}
