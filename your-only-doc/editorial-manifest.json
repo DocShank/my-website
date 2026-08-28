@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "workflow": "chatgpt-reviewed-v20",
-  "updated_at": "2026-08-27T09:39:10Z",
-  "next_episode_number": 17,
+  "updated_at": "2026-08-28T09:19:41Z",
+  "next_episode_number": 18,
   "next_planned_topic": {
-    "id": "restless-legs",
-    "title": "Why Your Legs Feel Restless at Night",
-    "reason": "It continues the sleep series by distinguishing restless legs syndrome from cramps, neuropathy, medication effects, and sleep related movements, while explaining when iron status and other medical causes should be assessed."
+    "id": "daytime-sleepiness",
+    "title": "Why You Feel Sleepy During the Day",
+    "reason": "It continues the sleep series by separating insufficient sleep from sleep apnea, circadian disruption, medicines, mood disorders, narcolepsy, and other causes that may require assessment."
   },
   "packets": [
     {
@@ -64,6 +64,13 @@
       "title": "E16: Why You Keep Waking Up at Night",
       "file": "episodes/E16-night-waking.json",
       "status": "ready"
+    },
+    {
+      "episode_number": 17,
+      "topic_id": "restless-legs",
+      "title": "E17: Why Your Legs Feel Restless at Night",
+      "file": "episodes/E17-restless-legs.json",
+      "status": "ready"
     }
   ],
   "evergreen_sequence": [
@@ -94,6 +101,10 @@
     {
       "id": "restless-legs",
       "title": "Why Your Legs Feel Restless at Night"
+    },
+    {
+      "id": "daytime-sleepiness",
+      "title": "Why You Feel Sleepy During the Day"
     }
   ],
   "editorial_policy": {
