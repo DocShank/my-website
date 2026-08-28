@@ -1,0 +1,141 @@
+{
+  "schema": 2,
+  "editorial": {
+    "workflow": "chatgpt-reviewed-v20",
+    "reviewed_by": "ChatGPT medical editorial workflow",
+    "reviewed_on": "2026-08-28",
+    "episode_number": 17,
+    "language": "English",
+    "spoken_host_name_allowed": false,
+    "long_dashes_allowed": false,
+    "target_minutes": 10
+  },
+  "topic_id": "restless-legs",
+  "topic": {
+    "id": "restless-legs",
+    "title": "Why Your Legs Feel Restless at Night",
+    "audience_question": "How can you tell restless legs syndrome from cramps, neuropathy, and ordinary nighttime discomfort?",
+    "pubmed_query": "restless legs syndrome diagnostic criteria iron studies augmentation treatment guideline adults",
+    "icon_keywords": ["legs", "sleep", "iron", "nervous-system"],
+    "category": "sleep-medicine"
+  },
+  "sources": [
+    {
+      "id": "AASM:RLS-2025",
+      "title": "Treatment of Restless Legs Syndrome and Periodic Limb Movement Disorder",
+      "abstract": "The 2025 American Academy of Sleep Medicine guideline advises regular iron studies in clinically significant restless legs syndrome and correction of exacerbating factors such as alcohol, caffeine, certain medicines, and untreated sleep apnea. It strongly recommends gabapentin, pregabalin, and gabapentin enacarbil for adults. It advises against standard long term use of several dopamine medicines because symptoms can worsen through augmentation.",
+      "journal": "Journal of Clinical Sleep Medicine",
+      "year": "2025",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11701286/",
+      "doi": "10.5664/jcsm.11390"
+    },
+    {
+      "id": "IRLSSG:DIAG-2014",
+      "title": "Restless Legs Syndrome Diagnostic Criteria",
+      "abstract": "The International Restless Legs Syndrome Study Group criteria require an urge to move the legs, usually with uncomfortable sensations, that begins or worsens during rest, improves with movement, and occurs mainly in the evening or night. The pattern must not be explained solely by another condition such as cramps, positional discomfort, swelling, arthritis, or habitual foot tapping.",
+      "journal": "Sleep Medicine",
+      "year": "2014",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25023924/",
+      "doi": "10.1016/j.sleep.2014.03.025"
+    },
+    {
+      "id": "NINDS:RLS-2026",
+      "title": "Restless Legs Syndrome",
+      "abstract": "NINDS describes restless legs syndrome as a neurological sleep related movement disorder with unpleasant leg sensations and an irresistible urge to move, usually worse at rest and at night. It may occur without a known cause or alongside iron deficiency, pregnancy, kidney disease, neuropathy, and certain medicines. Diagnosis is usually clinical, with blood testing used to identify contributing conditions.",
+      "journal": "National Institute of Neurological Disorders and Stroke",
+      "year": "2026",
+      "url": "https://www.ninds.nih.gov/health-information/disorders/restless-legs-syndrome",
+      "doi": null
+    },
+    {
+      "id": "MAYO:RLS-ALGORITHM-2021",
+      "title": "The Management of Restless Legs Syndrome: An Updated Algorithm",
+      "abstract": "This peer reviewed management algorithm emphasizes checking iron status, removing aggravating factors, distinguishing intermittent from chronic persistent symptoms, and choosing therapy according to frequency and severity. It explains augmentation as an earlier onset, increasing intensity, shorter rest latency, or spread of symptoms during long term dopaminergic treatment.",
+      "journal": "Mayo Clinic Proceedings",
+      "year": "2021",
+      "url": "https://www.mayoclinicproceedings.org/article/S0025-6196(20)31489-0/fulltext",
+      "doi": "10.1016/j.mayocp.2020.12.026"
+    },
+    {
+      "id": "NEJM:PREGABALIN-RLS-2014",
+      "title": "Comparison of Pregabalin with Pramipexole for Restless Legs Syndrome",
+      "abstract": "In a 52 week randomized trial, pregabalin improved restless legs symptoms and was associated with less augmentation than the higher studied dose of pramipexole. The trial helped establish why long term treatment decisions must consider augmentation rather than only immediate symptom relief.",
+      "journal": "New England Journal of Medicine",
+      "year": "2014",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24521108/",
+      "doi": "10.1056/NEJMoa1303646"
+    }
+  ],
+  "episode": {
+    "title": "E17: Why Your Legs Feel Restless at Night",
+    "hook": "Hello and welcome to the Your Only Doc podcast. Imagine settling into bed and feeling something deep inside your legs that is difficult to name. It may feel like crawling, pulling, tingling, or simply an unbearable need to move. You stand, walk around, and it eases, but it returns when you lie down again. That pattern is different from an ordinary muscle cramp. It may be restless legs syndrome, a neurological condition that is diagnosed mainly by the story the symptoms tell.",
+    "sections": [
+      {
+        "heading": "The high yield summary",
+        "narration": "Too busy? Here is your high yield summary. Restless legs syndrome creates an urge to move, usually with uncomfortable sensations. It starts or worsens during rest, improves temporarily with movement, and is strongest in the evening or night. Cramps, nerve pain, swelling, arthritis, and positional discomfort can mimic it. Iron deficiency, pregnancy, kidney disease, medicines, caffeine, alcohol, and untreated sleep apnea may contribute. Diagnosis is usually clinical. Treatment begins by confirming the pattern, checking iron status, and correcting aggravating factors.",
+        "on_screen": ["Urge to move", "Worse at rest and night", "Movement brings relief"],
+        "icon": "legs",
+        "source_ids": ["IRLSSG:DIAG-2014", "NINDS:RLS-2026", "AASM:RLS-2025"]
+      },
+      {
+        "heading": "Recognize the defining pattern",
+        "narration": "Five ideas matter. There is an urge to move the legs. Rest brings it on or makes it worse. Walking, stretching, or moving helps while the movement continues. Symptoms favor evening or night. Finally, another condition must not fully explain them. The sensation can affect one or both legs and occasionally the arms. The name sounds simple, but the timing and response to movement are more diagnostic than words such as tingling or discomfort.",
+        "on_screen": ["Rest triggers it", "Movement relieves it", "Evening pattern matters"],
+        "icon": "pattern",
+        "source_ids": ["IRLSSG:DIAG-2014", "NINDS:RLS-2026"]
+      },
+      {
+        "heading": "It is not the same as a cramp",
+        "narration": "A leg cramp is usually a sudden, painful muscle tightening that you may be able to feel as a hard knot. Neuropathy more often causes persistent burning, numbness, or electric pain and may not improve simply by walking. Joint pain, leg swelling, poor circulation, or discomfort from one position also follow different patterns. People can have more than one problem, so relief with movement alone is not enough. The full set of criteria and exclusion of mimics protect against a false label.",
+        "on_screen": ["Cramp is painful tightening", "Neuropathy can persist", "Exclude common mimics"],
+        "icon": "compare",
+        "source_ids": ["IRLSSG:DIAG-2014", "NINDS:RLS-2026"]
+      },
+      {
+        "heading": "Look for contributing conditions",
+        "narration": "Restless legs syndrome can run in families or occur without an obvious cause. It is also associated with low iron stores, pregnancy, chronic kidney disease, and peripheral neuropathy. Pregnancy related symptoms often improve after delivery, but they still deserve discussion if sleep is severely disrupted. Evaluation is guided by history and examination. A sleep study is not routinely needed to prove classic restless legs syndrome, though it may help when another sleep disorder is suspected.",
+        "on_screen": ["Iron and pregnancy", "Kidney and nerve conditions", "Diagnosis is usually clinical"],
+        "icon": "medical-history",
+        "source_ids": ["NINDS:RLS-2026", "AASM:RLS-2025", "MAYO:RLS-ALGORITHM-2021"]
+      },
+      {
+        "heading": "Check what may be making it worse",
+        "narration": "Caffeine and alcohol can aggravate symptoms in some people. So can certain antihistamines, serotonin affecting medicines, dopamine blocking medicines, and untreated obstructive sleep apnea. Do not suddenly stop a prescribed antidepressant, antipsychotic, or nausea medicine. Instead, bring the complete list, including over the counter sleep and allergy products, to a clinician or pharmacist. The safest improvement may come from changing timing or selecting an alternative, but only after weighing why the medicine was prescribed.",
+        "on_screen": ["Review caffeine and alcohol", "Include over the counter products", "Never stop medicines abruptly"],
+        "icon": "medicine",
+        "source_ids": ["AASM:RLS-2025", "MAYO:RLS-ALGORITHM-2021"]
+      },
+      {
+        "heading": "Iron deserves a proper assessment",
+        "narration": "Guidelines recommend iron studies for clinically significant restless legs syndrome, including ferritin and transferrin saturation. The thresholds used in this condition differ from the usual definition of anemia, so a normal hemoglobin does not settle the question. Do not start high dose iron blindly. Excess iron can be harmful, and oral versus intravenous treatment depends on the results, symptoms, absorption, medical history, and response. Testing and replacement should be supervised.",
+        "on_screen": ["Check ferritin and transferrin saturation", "Normal hemoglobin is not enough", "Replace iron with supervision"],
+        "icon": "iron",
+        "source_ids": ["AASM:RLS-2025", "MAYO:RLS-ALGORITHM-2021"]
+      },
+      {
+        "heading": "Why treatment guidance changed",
+        "narration": "Now, let us go deeper. Dopamine medicines can reduce symptoms quickly, but long term exposure can cause augmentation. Symptoms begin earlier in the day, become stronger, appear after shorter periods of rest, or spread beyond the legs. This is not ordinary tolerance and should not be managed by repeatedly increasing the dose without review. Newer guidance therefore favors gabapentin related medicines for many adults and advises against routine long term use of several dopamine drugs.",
+        "on_screen": ["Earlier symptoms can signal augmentation", "Dose escalation can worsen the cycle", "Long term strategy matters"],
+        "icon": "nervous-system",
+        "source_ids": ["AASM:RLS-2025", "MAYO:RLS-ALGORITHM-2021", "NEJM:PREGABALIN-RLS-2014"]
+      },
+      {
+        "heading": "Treatment must fit the person",
+        "narration": "Mild intermittent symptoms may respond to reducing triggers, moderate activity, stretching, massage, or heat and cold. Persistent symptoms may require iron replacement when indicated or prescription treatment. Gabapentin, pregabalin, and gabapentin enacarbil have strong guideline support for adults, but they can cause dizziness or sleepiness and are not right for everyone. Severe refractory disease needs specialist management. The goal is sustained sleep and function without trading short term relief for long term worsening.",
+        "on_screen": ["Start with aggravating factors", "Match treatment to severity", "Monitor long term response"],
+        "icon": "treatment",
+        "source_ids": ["AASM:RLS-2025", "NINDS:RLS-2026", "MAYO:RLS-ALGORITHM-2021"]
+      },
+      {
+        "heading": "Three essential takeaways",
+        "narration": "Number one, restless legs syndrome is an urge to move that worsens at rest and at night and improves temporarily with movement. Number two, cramps, neuropathy, swelling, joint pain, medicines, sleep apnea, and other conditions must be considered, while iron status should be checked when symptoms are clinically significant. Number three, treatment should be individualized and monitored over time because some dopamine medicines can cause augmentation. Do not self treat with high dose iron or change prescribed medicines without professional guidance.",
+        "on_screen": ["Know the pattern", "Check causes and iron", "Prevent long term worsening"],
+        "icon": "checklist",
+        "source_ids": ["IRLSSG:DIAG-2014", "AASM:RLS-2025", "NINDS:RLS-2026"]
+      }
+    ],
+    "closing": "On the next episode, we will explain why you may feel sleepy during the day even after spending enough hours in bed, and when that sleepiness needs medical attention. Follow the Your Only Doc podcast on YouTube and Instagram for clear, evidence based medical explanations. Stay curious and stay safe.",
+    "description": "Restless legs syndrome has a specific pattern that differs from cramps and neuropathy. This episode explains the diagnostic clues, common contributors, iron assessment, medication triggers, augmentation, and current evidence based treatment choices.",
+    "thumbnail_text": "WHY YOUR LEGS WILL NOT REST"
+  }
+}
