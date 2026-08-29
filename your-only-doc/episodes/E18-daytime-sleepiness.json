@@ -1,0 +1,159 @@
+{
+  "schema": 2,
+  "editorial": {
+    "workflow": "chatgpt-reviewed-v20",
+    "reviewed_by": "ChatGPT medical editorial workflow",
+    "reviewed_on": "2026-08-29",
+    "episode_number": 18,
+    "language": "English",
+    "spoken_host_name_allowed": false,
+    "long_dashes_allowed": false,
+    "target_minutes": 10
+  },
+  "topic_id": "daytime-sleepiness",
+  "topic": {
+    "id": "daytime-sleepiness",
+    "title": "Why You Feel Sleepy During the Day",
+    "audience_question": "Why can someone struggle to stay awake during the day even after spending enough hours in bed?",
+    "pubmed_query": "excessive daytime sleepiness evaluation insufficient sleep sleep apnea circadian narcolepsy MSLT",
+    "icon_keywords": ["sleepiness", "brain", "clock", "driving"],
+    "category": "sleep-medicine"
+  },
+  "sources": [
+    {
+      "id": "AASM:SLEEPINESS-2025",
+      "title": "Clinical Significance of Sleepiness",
+      "abstract": "The American Academy of Sleep Medicine defines excessive sleepiness as difficulty staying awake and alert during major waking periods. It is associated with impaired cognition, function, mood, safety, performance, health, and quality of life. Evaluation and management are important patient safety priorities.",
+      "journal": "Journal of Clinical Sleep Medicine",
+      "year": "2025",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40078104/",
+      "doi": "10.5664/jcsm.11658"
+    },
+    {
+      "id": "NHLBI:SLEEP-DEFICIENCY-2026",
+      "title": "Sleep Deprivation and Deficiency: Diagnosis and Treatment",
+      "abstract": "Assessment begins with sleep quantity, schedule, habits, daytime symptoms, health history, medicines, and information from a sleep partner when relevant. Sleep studies are selected when conditions such as sleep apnea, movement disorders, seizures, or narcolepsy are suspected. Treatment depends on the cause rather than sleepiness alone.",
+      "journal": "National Heart, Lung, and Blood Institute",
+      "year": "2026",
+      "url": "https://www.nhlbi.nih.gov/health/sleep-deprivation/diagnosis-treatment",
+      "doi": null
+    },
+    {
+      "id": "NHLBI:SLEEP-APNEA-2025",
+      "title": "Sleep Apnea Symptoms",
+      "abstract": "Sleep apnea can cause daytime sleepiness, impaired concentration and reaction, fatigue, morning headache, dry mouth, and repeated nighttime urination. Loud snoring, witnessed breathing pauses, and gasping are important clues, although presentation can vary between individuals.",
+      "journal": "National Heart, Lung, and Blood Institute",
+      "year": "2025",
+      "url": "https://www.nhlbi.nih.gov/health/sleep-apnea/symptoms",
+      "doi": null
+    },
+    {
+      "id": "NHLBI:CIRCADIAN-2022",
+      "title": "Circadian Rhythm Disorders",
+      "abstract": "Circadian misalignment from shift work, irregular schedules, travel, or an internal clock that does not match required sleep times can cause insomnia, excessive daytime sleepiness, reduced alertness, and impaired judgment. A sleep diary and, in selected cases, actigraphy can help characterize the pattern.",
+      "journal": "National Heart, Lung, and Blood Institute",
+      "year": "2022",
+      "url": "https://www.nhlbi.nih.gov/health/circadian-rhythm-disorders",
+      "doi": null
+    },
+    {
+      "id": "NHLBI:NARCOLEPSY-2025",
+      "title": "Narcolepsy",
+      "abstract": "Narcolepsy causes persistent daytime sleepiness and may include sleep attacks, cataplexy, sleep paralysis, vivid hallucinations near sleep, and disrupted nighttime sleep. Diagnosis requires specialist assessment and may include overnight polysomnography followed by a multiple sleep latency test.",
+      "journal": "National Heart, Lung, and Blood Institute",
+      "year": "2025",
+      "url": "https://www.nhlbi.nih.gov/health/narcolepsy",
+      "doi": null
+    },
+    {
+      "id": "AASM:MSLT-2021",
+      "title": "Recommended Protocols for the Multiple Sleep Latency Test and Maintenance of Wakefulness Test in Adults",
+      "abstract": "The AASM protocol emphasizes adequate and documented sleep before testing, management of medicines and substances that affect sleep, treatment stability for other sleep disorders, and standardized test conditions. The multiple sleep latency test is a specialist test and should not be interpreted without clinical context.",
+      "journal": "Journal of Clinical Sleep Medicine",
+      "year": "2021",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8726366/",
+      "doi": "10.5664/jcsm.9620"
+    },
+    {
+      "id": "CDC:DROWSY-DRIVING-2024",
+      "title": "Driver Fatigue on the Job",
+      "abstract": "CDC and NIOSH advise drivers who feel drowsy to stop safely rather than rely on willpower. Warning signs include heavy eyelids, repeated yawning, poor focus, drifting from the lane, missing signs or exits, and difficulty recalling recent miles. Sleep is the only definitive correction for sleep deprivation.",
+      "journal": "Centers for Disease Control and Prevention, NIOSH",
+      "year": "2024",
+      "url": "https://www.cdc.gov/niosh/motor-vehicle/driver-fatigue/index.html",
+      "doi": null
+    }
+  ],
+  "episode": {
+    "title": "E18: Why You Feel Sleepy During the Day",
+    "hook": "Hello and welcome to the Your Only Doc podcast. Imagine sitting in a meeting after what seemed like a full night in bed. Your eyelids become heavy, the conversation fades, and you suddenly realize you missed several minutes. Another coffee may hide the symptom briefly, but it does not explain it. Daytime sleepiness can come from too little sleep, poor quality sleep, a body clock problem, medicines, or a sleep disorder. The safest approach begins by asking which of those pathways fits your pattern.",
+    "sections": [
+      {
+        "heading": "The high yield summary",
+        "narration": "Too busy? Here is your high yield summary. Sleepiness means difficulty staying awake, not simply feeling low in energy. First confirm how much sleep you actually obtain and whether the schedule is regular. Then look for snoring, breathing pauses, restless legs, shift work, sedating medicines, alcohol, mood symptoms, and medical illness. Sudden sleep attacks, emotion triggered weakness, sleep paralysis, or vivid dreamlike experiences require specialist assessment. Never drive when you are struggling to stay awake. Treatment must target the cause.",
+        "on_screen": ["Sleepiness is difficulty staying awake", "Find the cause", "Do not drive drowsy"],
+        "icon": "sleepiness",
+        "source_ids": ["AASM:SLEEPINESS-2025", "NHLBI:SLEEP-DEFICIENCY-2026", "CDC:DROWSY-DRIVING-2024"]
+      },
+      {
+        "heading": "Sleepiness and fatigue are different",
+        "narration": "Sleepiness is a tendency to doze or fall asleep when you intend to remain awake. Fatigue is more often low energy, exhaustion, or reduced capacity without an irresistible pull toward sleep. They can occur together, but the distinction changes the evaluation. Ask what happens during quiet reading, meetings, meals, or as a passenger. Actual nodding off, microsleeps, or needing constant stimulation to remain awake points more directly toward excessive sleepiness.",
+        "on_screen": ["Sleepiness means dozing", "Fatigue means low energy", "They can overlap"],
+        "icon": "compare",
+        "source_ids": ["AASM:SLEEPINESS-2025", "NHLBI:SLEEP-DEFICIENCY-2026"]
+      },
+      {
+        "heading": "Start with actual sleep obtained",
+        "narration": "Time in bed is not the same as time asleep. A person may allow eight hours but spend one hour scrolling, wake repeatedly, or rise earlier than remembered. Keep a two week diary of bedtime, estimated sleep, awakenings, final wake time, naps, caffeine, alcohol, work shifts, and daytime dozing. If sleepiness improves when adequate sleep is protected consistently, insufficient sleep was probably an important contributor. Catching up only on weekends may not correct an unstable weekday pattern.",
+        "on_screen": ["Time in bed is not sleep time", "Track two weeks", "Protect a consistent schedule"],
+        "icon": "sleep-diary",
+        "source_ids": ["NHLBI:SLEEP-DEFICIENCY-2026", "AASM:MSLT-2021"]
+      },
+      {
+        "heading": "Sleep can be long but fragmented",
+        "narration": "Breathing pauses, gasping, loud snoring, morning headache, dry mouth, or repeated nighttime urination raise concern for sleep apnea. Restless legs, periodic movements, pain, reflux, coughing, and insomnia can also divide the night into pieces. You may not remember every awakening. A bed partner's observations can therefore be valuable. Sleeping longer cannot fully compensate when the brain is repeatedly pulled out of restorative sleep by an untreated disorder.",
+        "on_screen": ["Look for breathing pauses", "Repeated arousals matter", "Ask the sleep partner"],
+        "icon": "sleep-apnea",
+        "source_ids": ["NHLBI:SLEEP-APNEA-2025", "NHLBI:SLEEP-DEFICIENCY-2026"]
+      },
+      {
+        "heading": "Your body clock may be misaligned",
+        "narration": "Night shifts, rotating schedules, jet lag, and very late or early sleep patterns can place required wakefulness at the wrong biological time. The result may be sleepiness at work and difficulty sleeping when an opportunity finally arrives. Clues come from timing: do you function better when allowed your natural schedule? A diary, work calendar, and sometimes actigraphy can show whether the problem is sleep quantity, clock timing, or both.",
+        "on_screen": ["Shift work changes timing", "Compare workdays and free days", "Clock timing may be the problem"],
+        "icon": "clock",
+        "source_ids": ["NHLBI:CIRCADIAN-2022", "NHLBI:SLEEP-DEFICIENCY-2026"]
+      },
+      {
+        "heading": "Review medicines and health conditions",
+        "narration": "Antihistamines, sleep medicines, some pain medicines, anti anxiety drugs, alcohol, and other substances can reduce alertness. Depression may cause sleepiness, fatigue, or both. Anemia, thyroid disease, infection, and neurological or metabolic illness may also enter the differential depending on the history and examination. Do not stop prescribed treatment abruptly. Bring every prescription, supplement, and over the counter product for review, including when each dose is taken.",
+        "on_screen": ["Check sedating products", "Consider mood and medical causes", "Review safely with a clinician"],
+        "icon": "medicine",
+        "source_ids": ["NHLBI:SLEEP-DEFICIENCY-2026", "AASM:SLEEPINESS-2025"]
+      },
+      {
+        "heading": "When narcolepsy enters the picture",
+        "narration": "Now, let us go deeper. Narcolepsy is less common than insufficient sleep or sleep apnea, but certain features raise suspicion: irresistible sleep attacks, brief weakness triggered by emotion, sleep paralysis, vivid hallucinations while falling asleep or waking, and disrupted nighttime sleep. These symptoms do not diagnose it by themselves. Specialists first confirm adequate sleep and address other disorders, then may use overnight polysomnography followed by a multiple sleep latency test under standardized conditions.",
+        "on_screen": ["Sleep attacks", "Emotion triggered weakness", "Testing needs preparation"],
+        "icon": "brain",
+        "source_ids": ["NHLBI:NARCOLEPSY-2025", "AASM:MSLT-2021"]
+      },
+      {
+        "heading": "Safety decides the urgency",
+        "narration": "Seek assessment when sleepiness is persistent, unexplained, worsening, or affecting work, study, mood, or safety. Driving warning signs include heavy eyelids, repeated yawning, lane drifting, missed exits, and not remembering recent miles. Pull over safely and stop driving. An open window, loud music, or determination cannot make a sleepy brain reliable. Evaluation may include a diary, examination, selected blood tests, overnight testing, or daytime testing based on the suspected cause.",
+        "on_screen": ["Persistent sleepiness needs assessment", "Recognize driving warnings", "Testing follows the suspected cause"],
+        "icon": "warning",
+        "source_ids": ["CDC:DROWSY-DRIVING-2024", "AASM:SLEEPINESS-2025", "NHLBI:SLEEP-DEFICIENCY-2026"]
+      },
+      {
+        "heading": "Three essential takeaways",
+        "narration": "Number one, distinguish true sleepiness from fatigue by asking whether you unintentionally doze or struggle to remain awake. Number two, investigate sleep amount, sleep quality, body clock timing, medicines, substances, mood, and medical conditions before assuming one diagnosis. Number three, persistent or dangerous sleepiness deserves clinical assessment, especially with breathing pauses, sleep attacks, emotion triggered weakness, or drowsy driving. Treat the underlying cause, and never use caffeine or willpower as permission to continue an unsafe drive.",
+        "on_screen": ["Define the symptom", "Map the cause", "Protect safety first"],
+        "icon": "checklist",
+        "source_ids": ["AASM:SLEEPINESS-2025", "NHLBI:SLEEP-DEFICIENCY-2026", "CDC:DROWSY-DRIVING-2024"]
+      }
+    ],
+    "closing": "On the next episode, we will explain why some people wake with a headache, including the roles of sleep apnea, teeth grinding, migraine, medicines, and other warning signs. Follow the Your Only Doc podcast on YouTube and Instagram for clear, evidence based medical explanations. Stay curious and stay safe.",
+    "description": "Daytime sleepiness is not explained by hours in bed alone. This episode separates sleepiness from fatigue and shows how sleep quantity, sleep fragmentation, circadian timing, medicines, sleep apnea, and narcolepsy are evaluated safely.",
+    "thumbnail_text": "WHY YOU CANNOT STAY AWAKE"
+  }
+}
