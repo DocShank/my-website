@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "workflow": "chatgpt-reviewed-v20",
-  "updated_at": "2026-08-28T09:19:41Z",
-  "next_episode_number": 18,
+  "updated_at": "2026-08-29T09:25:59Z",
+  "next_episode_number": 19,
   "next_planned_topic": {
-    "id": "daytime-sleepiness",
-    "title": "Why You Feel Sleepy During the Day",
-    "reason": "It continues the sleep series by separating insufficient sleep from sleep apnea, circadian disruption, medicines, mood disorders, narcolepsy, and other causes that may require assessment."
+    "id": "morning-headaches",
+    "title": "Why You Wake Up With a Headache",
+    "reason": "It bridges sleep medicine and general neurology by explaining sleep apnea, teeth grinding, migraine, medicine effects, sleep disruption, and headache warning signs."
   },
   "packets": [
     {
@@ -71,6 +71,13 @@
       "title": "E17: Why Your Legs Feel Restless at Night",
       "file": "episodes/E17-restless-legs.json",
       "status": "ready"
+    },
+    {
+      "episode_number": 18,
+      "topic_id": "daytime-sleepiness",
+      "title": "E18: Why You Feel Sleepy During the Day",
+      "file": "episodes/E18-daytime-sleepiness.json",
+      "status": "ready"
     }
   ],
   "evergreen_sequence": [
@@ -105,6 +112,10 @@
     {
       "id": "daytime-sleepiness",
       "title": "Why You Feel Sleepy During the Day"
+    },
+    {
+      "id": "morning-headaches",
+      "title": "Why You Wake Up With a Headache"
     }
   ],
   "editorial_policy": {
