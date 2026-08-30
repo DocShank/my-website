@@ -1,0 +1,159 @@
+{
+  "schema": 2,
+  "editorial": {
+    "workflow": "chatgpt-reviewed-v20",
+    "reviewed_by": "ChatGPT medical editorial workflow",
+    "reviewed_on": "2026-08-30",
+    "episode_number": 19,
+    "language": "English",
+    "spoken_host_name_allowed": false,
+    "long_dashes_allowed": false,
+    "target_minutes": 10
+  },
+  "topic_id": "nepal-flash-flood-health-2026",
+  "topic": {
+    "id": "nepal-flash-flood-health-2026",
+    "title": "Health Risks After Nepal's Flash Floods",
+    "audience_question": "What should people do to protect their health after the August 2026 flash floods in Nepal?",
+    "pubmed_query": "flood disaster health contaminated water wound infection tetanus mold carbon monoxide continuity of care",
+    "icon_keywords": ["flood", "first-aid", "safe-water", "warning"],
+    "category": "public-health"
+  },
+  "sources": [
+    {
+      "id": "WHO-NEPAL:RASUWA-2026",
+      "title": "2026 Rasuwa Flash Floods",
+      "abstract": "WHO reports that severe flash floods on 26 August 2026 affected communities along the Bhote Koshi and Trishuli river corridors in central Nepal. Health facilities were damaged, essential services were disrupted, and the response priorities include care for injured people, disease surveillance, emerging public health risks, and restoration of essential health services.",
+      "journal": "World Health Organization Nepal",
+      "year": "2026",
+      "url": "https://www.who.int/nepal/emergencies/2026-rasuwa-flash-floods",
+      "doi": null
+    },
+    {
+      "id": "HEOC-NEPAL:SITREP04-2026",
+      "title": "Health Sector Response to Flash Flood in Rasuwa, Situation Report 04",
+      "abstract": "Nepal's Health Emergency Operation Center published its fourth health-sector situation report on 29 August 2026 and is coordinating referrals, emergency medical teams, supplies, surveillance, and continuity of health services after the Rasuwa flash flood.",
+      "journal": "Nepal Health Emergency Operation Center",
+      "year": "2026",
+      "url": "https://heoc.mohp.gov.np/news",
+      "doi": null
+    },
+    {
+      "id": "WHO:FLOOD-ADVICE-2023",
+      "title": "Public Health Advice in the Aftermath of Flooding",
+      "abstract": "WHO advises following official instructions, avoiding floodwater, checking which health facilities are operating, using safe water for drinking, brushing teeth, wound cleaning, and food preparation, and discarding food that may have been contaminated. Diarrhoea, vomiting, fever, and other illness after flooding require attention, particularly in vulnerable people.",
+      "journal": "World Health Organization",
+      "year": "2023",
+      "url": "https://www.who.int/europe/news-room/questions-and-answers/item/public-health-advice-in-the-aftermath-of-flooding---how-to-protect-your-health-and-keep-safe",
+      "doi": null
+    },
+    {
+      "id": "CDC:FLOODWATER-2026",
+      "title": "Safety Guidelines: Floodwater",
+      "abstract": "CDC advises avoiding floodwater because it can contain sewage, chemicals, sharp debris, animals, and electrical hazards. Open wounds should be kept out of floodwater, washed with soap and clean water, and covered with a waterproof bandage. Redness, swelling, or drainage requires prompt medical attention.",
+      "journal": "Centers for Disease Control and Prevention",
+      "year": "2026",
+      "url": "https://www.cdc.gov/floods/safety/floodwater-after-a-disaster-or-emergency-safety.html",
+      "doi": null
+    },
+    {
+      "id": "CDC:TETANUS-WOUNDS-2025",
+      "title": "Clinical Guidance for Wound Management to Prevent Tetanus",
+      "abstract": "CDC recommends cleaning all wounds and removing dirt and dead tissue. Dirty, puncture, crush, burn, and compound-fracture wounds carry higher tetanus risk. Whether tetanus vaccine or tetanus immune globulin is needed depends on the wound and vaccination history, so significant contaminated wounds need professional assessment.",
+      "journal": "Centers for Disease Control and Prevention",
+      "year": "2025",
+      "url": "https://www.cdc.gov/tetanus/hcp/clinical-guidance/index.html",
+      "doi": null
+    },
+    {
+      "id": "CDC:REENTRY-2026",
+      "title": "Safety Guidelines: Reentering Your Flooded Home",
+      "abstract": "CDC advises waiting for official structural clearance before entering a damaged building, avoiding wet electrical equipment, drying wet materials quickly, discarding items that cannot be cleaned, and preventing carbon monoxide poisoning by operating generators and other fuel-burning engines outdoors at least 20 feet from doors, windows, and vents.",
+      "journal": "Centers for Disease Control and Prevention",
+      "year": "2026",
+      "url": "https://www.cdc.gov/floods/safety/reentering-your-flooded-home-safety.html",
+      "doi": null
+    },
+    {
+      "id": "CDC:MOLD-CLEANUP-2024",
+      "title": "Mold Clean Up Guidelines and Recommendations",
+      "abstract": "CDC advises protective gloves, eye protection, and at least an N95 respirator for mold cleanup. People with immune suppression, underlying lung disease, asthma, or chronic obstructive pulmonary disease should not participate in mold cleanup because exposure can cause significant health effects.",
+      "journal": "Centers for Disease Control and Prevention",
+      "year": "2024",
+      "url": "https://www.cdc.gov/mold-health/about/clean-up.html",
+      "doi": null
+    }
+  ],
+  "episode": {
+    "title": "E19: Health Risks After Nepal's Flash Floods",
+    "hook": "Hello and welcome to the Your Only Doc podcast. On August 26, severe flash floods struck Rasuwa and neighbouring districts in Nepal. The rescue is still unfolding, but health risks do not end when the water begins to fall. Imagine returning to a damaged home. The floor is muddy, the power is unreliable, medicines are missing, and everyone is exhausted. The safest next step is not simply to start cleaning. It is to recognize the hazards in the right order.",
+    "sections": [
+      {
+        "heading": "The high yield summary",
+        "narration": "Too busy? Here is your high yield summary. Follow local evacuation and health instructions. Do not walk or drive through floodwater. Use confirmed safe water for drinking, cooking, brushing teeth, and cleaning wounds. Wash cuts with soap and clean water, cover them, and have deep, dirty, puncture, or crush wounds assessed for tetanus protection. Enter damaged buildings only after clearance. Keep generators outdoors and well away from openings. Replace interrupted medicines quickly, and seek care early for serious injury, breathing trouble, fever, worsening wounds, or dehydration.",
+        "on_screen": ["Avoid floodwater", "Use safe water", "Treat injuries early"],
+        "icon": "warning",
+        "source_ids": ["WHO-NEPAL:RASUWA-2026", "WHO:FLOOD-ADVICE-2023", "CDC:FLOODWATER-2026", "CDC:REENTRY-2026"]
+      },
+      {
+        "heading": "The danger can still be moving",
+        "narration": "A road that looks shallow can hide current, holes, debris, or a washed-out edge. Floodwater can also carry sewage, fuel, chemicals, and live electrical hazards. Do not cross barriers or return because someone else did. Use official routes and updates. If a building is cracked, leaning, making unusual sounds, or surrounded by unstable ground, stay out until authorities say it is safe. Rescue work belongs to trained teams with appropriate equipment.",
+        "on_screen": ["Water can hide hazards", "Use official routes", "Wait for structural clearance"],
+        "icon": "flood",
+        "source_ids": ["WHO:FLOOD-ADVICE-2023", "CDC:FLOODWATER-2026", "CDC:REENTRY-2026"]
+      },
+      {
+        "heading": "Make water and food safer",
+        "narration": "After flooding, clear water is not automatically safe water. Follow local boil-water or distribution advice. Use sealed bottled water or water treated by the method authorities recommend for drinking, preparing food, brushing teeth, and cleaning wounds. Keep treated water in a clean, covered container. Discard food touched by floodwater, food from damaged containers, and perishable food that was not kept cold. Handwashing with soap and safe water is one of the most useful protections against diarrhoeal illness.",
+        "on_screen": ["Follow local water advice", "Protect treated water", "Discard contaminated food"],
+        "icon": "safe-water",
+        "source_ids": ["WHO:FLOOD-ADVICE-2023", "CDC:FLOODWATER-2026"]
+      },
+      {
+        "heading": "Clean every wound promptly",
+        "narration": "Flood debris turns small cuts into contaminated wounds. Wash your hands, then rinse the wound with clean water and soap around it. Remove visible loose dirt only if it comes away easily, cover the wound with a clean waterproof dressing, and avoid further floodwater exposure. Deep wounds, punctures, bites, crush injuries, fractures, burns, embedded material, loss of feeling, or uncontrolled bleeding need urgent assessment. Increasing redness, warmth, swelling, pus, fever, or worsening pain can signal infection.",
+        "on_screen": ["Wash with clean water", "Cover the wound", "Watch for infection"],
+        "icon": "first-aid",
+        "source_ids": ["CDC:FLOODWATER-2026", "CDC:TETANUS-WOUNDS-2025"]
+      },
+      {
+        "heading": "Ask about tetanus protection",
+        "narration": "Tetanus risk depends on both the wound and your vaccination history. Dirty, puncture, crush, burn, and compound-fracture wounds are higher risk. A clinician may recommend a tetanus-containing vaccine, and some people with incomplete or unknown vaccination history may also need tetanus immune globulin. Antibiotics do not replace tetanus prevention. Bring any vaccination record you can find, but do not delay care for a serious wound while searching for paperwork.",
+        "on_screen": ["Wound type matters", "Vaccination history matters", "Get professional assessment"],
+        "icon": "vaccine",
+        "source_ids": ["CDC:TETANUS-WOUNDS-2025"]
+      },
+      {
+        "heading": "Clean up without creating another emergency",
+        "narration": "Never touch wet electrical equipment or use a fuel-burning generator, pump, stove, or grill indoors. Carbon monoxide has no colour or smell and can kill quickly. Keep generators outdoors, at least 20 feet from doors, windows, and vents. For mold cleanup, use gloves, eye protection, and at least an N95 respirator. People with asthma, chronic lung disease, allergies, or immune suppression should not clean mold. Never mix bleach with ammonia or another cleaner.",
+        "on_screen": ["Avoid wet electricity", "Generators stay outdoors", "Protect lungs and skin"],
+        "icon": "home-safety",
+        "source_ids": ["CDC:REENTRY-2026", "CDC:MOLD-CLEANUP-2024"]
+      },
+      {
+        "heading": "Disasters interrupt ordinary care",
+        "narration": "Now, let us go deeper. Flood health is not only about infection. Missing insulin, seizure medicine, inhalers, blood-pressure tablets, dialysis, pregnancy care, or oxygen can become dangerous. Write down each medicine, dose, and usual schedule from memory or packaging. Contact an operating clinic, pharmacy, relief post, or health hotline for replacement guidance. Do not share prescription medicines or double the next dose unless a qualified health professional specifically tells you to do so.",
+        "on_screen": ["List essential medicines", "Find an operating service", "Do not improvise doses"],
+        "icon": "medicine",
+        "source_ids": ["WHO-NEPAL:RASUWA-2026", "HEOC-NEPAL:SITREP04-2026", "WHO:FLOOD-ADVICE-2023"]
+      },
+      {
+        "heading": "Know when to seek urgent help",
+        "narration": "Seek emergency help for severe bleeding, trouble breathing, chest pain, confusion, fainting, new weakness, a major head injury, a crushed limb, or an injury with bone or deep tissue exposed. Seek prompt medical care for fever, repeated vomiting, bloody diarrhoea, inability to drink, very little urine, worsening wound changes, or symptoms after possible chemical exposure. Infants, pregnant people, older adults, and people with chronic illness can deteriorate faster. Use the referral routes announced by Nepal's health authorities.",
+        "on_screen": ["Major injury is an emergency", "Dehydration needs action", "Use official referral routes"],
+        "icon": "emergency",
+        "source_ids": ["HEOC-NEPAL:SITREP04-2026", "WHO:FLOOD-ADVICE-2023", "CDC:FLOODWATER-2026"]
+      },
+      {
+        "heading": "Three essential takeaways",
+        "narration": "Number one, avoid moving water, unstable structures, wet electrical equipment, and indoor generator use. Number two, protect safe water, food, hands, and wounds, and ask about tetanus after a contaminated injury. Number three, restore essential medicines and care quickly, then seek help early for major injuries, breathing problems, dehydration, fever, or a worsening wound. In a flood response, careful basic actions protect both families and an already stretched health system.",
+        "on_screen": ["Avoid hidden hazards", "Prevent contamination", "Restore care and act early"],
+        "icon": "checklist",
+        "source_ids": ["WHO-NEPAL:RASUWA-2026", "WHO:FLOOD-ADVICE-2023", "CDC:TETANUS-WOUNDS-2025", "CDC:REENTRY-2026"]
+      }
+    ],
+    "closing": "On the next episode, we will return to our sleep and headache series and explain why you may wake up with a headache. Until then, follow official local guidance, look after one another, and stay safe.",
+    "description": "Practical health guidance after Nepal's August 2026 flash floods, including safe water and food, wound care, tetanus, building and electrical hazards, mold cleanup, interrupted medicines, and signs that require urgent medical help.",
+    "thumbnail_text": "HEALTH AFTER THE FLOOD"
+  }
+}
