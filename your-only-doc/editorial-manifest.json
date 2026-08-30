@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "workflow": "chatgpt-reviewed-v20",
-  "updated_at": "2026-08-29T09:25:59Z",
-  "next_episode_number": 19,
+  "updated_at": "2026-08-30T09:36:39Z",
+  "next_episode_number": 20,
   "next_planned_topic": {
     "id": "morning-headaches",
     "title": "Why You Wake Up With a Headache",
@@ -77,6 +77,13 @@
       "topic_id": "daytime-sleepiness",
       "title": "E18: Why You Feel Sleepy During the Day",
       "file": "episodes/E18-daytime-sleepiness.json",
+      "status": "ready"
+    },
+    {
+      "episode_number": 19,
+      "topic_id": "nepal-flash-flood-health-2026",
+      "title": "E19: Health Risks After Nepal's Flash Floods",
+      "file": "episodes/E19-nepal-flash-flood-health.json",
       "status": "ready"
     }
   ],
