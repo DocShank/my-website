@@ -1,0 +1,168 @@
+{
+  "schema": 2,
+  "editorial": {
+    "workflow": "chatgpt-reviewed-v20",
+    "reviewed_by": "ChatGPT medical editorial workflow",
+    "reviewed_on": "2026-08-31",
+    "episode_number": 20,
+    "language": "English",
+    "spoken_host_name_allowed": false,
+    "long_dashes_allowed": false,
+    "target_minutes": 10
+  },
+  "topic_id": "morning-headaches",
+  "topic": {
+    "id": "morning-headaches",
+    "title": "Why You Wake Up With a Headache",
+    "audience_question": "Why does a headache sometimes begin during sleep or appear as soon as you wake up?",
+    "pubmed_query": "morning headache sleep apnea bruxism migraine caffeine withdrawal medication overuse red flags",
+    "icon_keywords": ["headache", "sleep", "jaw", "warning"],
+    "category": "neurology"
+  },
+  "sources": [
+    {
+      "id": "IHS:APNOEA-HEADACHE",
+      "title": "10.1.4 Sleep Apnoea Headache",
+      "abstract": "The International Classification of Headache Disorders recognizes a headache caused by sleep apnoea. It is present on awakening, often bilateral, pressing, and recurrent, and usually resolves within four hours. Diagnosis requires confirmed sleep apnoea and evidence that the headache tracks with the disorder, so morning timing alone is not diagnostic.",
+      "journal": "International Headache Society, ICHD-3",
+      "year": "2018",
+      "url": "https://ichd-3.org/10-headache-attributed-to-disorder-of-homoeostasis/10-1-headache-attributed-to-hypoxia-andor-hypercapnia/10-1-4-sleep-apnoea-headache/",
+      "doi": null
+    },
+    {
+      "id": "NHLBI:SLEEP-APNEA-SYMPTOMS-2025",
+      "title": "Sleep Apnea Symptoms",
+      "abstract": "NHLBI lists breathing pauses, loud snoring, gasping, daytime sleepiness, dry mouth, headache, insomnia, and repeated nighttime urination among possible sleep apnea symptoms. A clinical assessment and sleep study may be needed because symptoms alone cannot confirm the diagnosis.",
+      "journal": "National Heart, Lung, and Blood Institute",
+      "year": "2025",
+      "url": "https://www.nhlbi.nih.gov/health/sleep-apnea/symptoms",
+      "doi": null
+    },
+    {
+      "id": "NIDCR:BRUXISM",
+      "title": "Bruxism",
+      "abstract": "Sleep bruxism may occur without the person noticing it. More severe grinding or clenching can cause tooth wear or sensitivity, jaw pain or fatigue, and headache. Dental examination can identify damage and guide management, while treatment depends on the cause and severity.",
+      "journal": "National Institute of Dental and Craniofacial Research",
+      "year": "2025",
+      "url": "https://www.nidcr.nih.gov/health-info/bruxism",
+      "doi": null
+    },
+    {
+      "id": "AMF:SLEEP-HEADACHE-2021",
+      "title": "The Relationship Between Sleep, Headache, and Pain",
+      "abstract": "Sleep disruption and headache can influence each other. The American Migraine Foundation recommends recording sleep timing, sleep quality, awakenings, daytime sleepiness, and headache features in a diary so patterns can be assessed with a clinician.",
+      "journal": "American Migraine Foundation",
+      "year": "2021",
+      "url": "https://americanmigrainefoundation.org/resource-library/sleep-headache/",
+      "doi": null
+    },
+    {
+      "id": "IHS:CAFFEINE-WITHDRAWAL",
+      "title": "8.3.1 Caffeine-Withdrawal Headache",
+      "abstract": "ICHD-3 defines caffeine-withdrawal headache as headache developing within 24 hours after interruption of regular substantial caffeine intake, with improvement after caffeine or resolution within seven days of complete withdrawal. The timing and habitual intake are essential to establishing causation.",
+      "journal": "International Headache Society, ICHD-3",
+      "year": "2018",
+      "url": "https://ichd-3.org/8-headache-attributed-to-a-substance-or-its-withdrawal/8-3-headache-attributed-to-substance-withdrawal/8-3-1-caffeine-withdrawal-headache/",
+      "doi": null
+    },
+    {
+      "id": "IHS:MEDICATION-OVERUSE",
+      "title": "8.2 Medication-Overuse Headache",
+      "abstract": "Medication-overuse headache occurs on at least 15 days per month in a person with a pre-existing headache disorder who has regularly overused acute or symptomatic headache medicines for more than three months. Thresholds vary by medicine class and require clinical interpretation.",
+      "journal": "International Headache Society, ICHD-3",
+      "year": "2018",
+      "url": "https://ichd-3.org/8-headache-attributed-to-a-substance-or-its-withdrawal/8-2-medication-overuse-headache-moh/",
+      "doi": null
+    },
+    {
+      "id": "CDC:CO-2026",
+      "title": "Carbon Monoxide Poisoning Basics",
+      "abstract": "Carbon monoxide is colorless and odorless. Common symptoms include headache, dizziness, weakness, nausea, vomiting, chest pain, and confusion. Exposure can cause loss of consciousness or death, and people who are sleeping may be unable to recognize warning symptoms.",
+      "journal": "Centers for Disease Control and Prevention",
+      "year": "2026",
+      "url": "https://www.cdc.gov/carbon-monoxide/about/index.html",
+      "doi": null
+    },
+    {
+      "id": "ACR:HEADACHE-2022",
+      "title": "ACR Appropriateness Criteria: Headache",
+      "abstract": "The American College of Radiology identifies red flags that change headache evaluation, including sudden severe onset, increasing frequency or severity, fever or neurologic deficit, cancer or immunocompromise, onset after age 50, pregnancy or the period around childbirth, and headache after trauma. Imaging is selected according to the clinical pattern rather than ordered routinely for every headache.",
+      "journal": "American College of Radiology",
+      "year": "2022",
+      "url": "https://acsearch.acr.org/docs/69482/Narrative/",
+      "doi": null
+    }
+  ],
+  "episode": {
+    "title": "E20: Why You Wake Up With a Headache",
+    "hook": "Hello and welcome to the Your Only Doc podcast. Imagine opening your eyes before the alarm and realizing the first sensation of the day is pressure across your head. It fades after coffee, so you blame poor sleep. The next morning it returns. A morning headache can reflect sleep apnea, teeth grinding, migraine, caffeine withdrawal, or frequent pain-medicine use. Occasionally, it is a warning of something urgent. The clock tells us when the pain appeared, but not automatically why.",
+    "sections": [
+      {
+        "heading": "The high yield summary",
+        "narration": "Too busy? Here is your high yield summary. Track when the headache begins, where it hurts, how long it lasts, associated symptoms, sleep quality, caffeine, alcohol, and every medicine used. Loud snoring, breathing pauses, gasping, dry mouth, and daytime sleepiness point toward sleep apnea. Jaw fatigue, tooth wear, or grinding suggest bruxism. A sudden worst headache, new weakness, confusion, fever with neck stiffness, vision loss, or headache after trauma needs urgent assessment. If several people in one building wake with headache, leave for fresh air and suspect carbon monoxide.",
+        "on_screen": ["Track the pattern", "Check sleep and jaw clues", "Recognize emergencies"],
+        "icon": "headache",
+        "source_ids": ["NHLBI:SLEEP-APNEA-SYMPTOMS-2025", "NIDCR:BRUXISM", "CDC:CO-2026", "ACR:HEADACHE-2022"]
+      },
+      {
+        "heading": "Start with the pattern, not a label",
+        "narration": "Record the headache before reaching for an explanation. Is it pressing or throbbing, one-sided or bilateral? Does light, sound, nausea, coughing, position, or movement change it? Note bedtime, awakenings, wake time, naps, caffeine timing, alcohol, hydration, and pain medicines. A two-week sleep and headache diary often reveals whether the pain follows poor sleep, a delayed coffee, weekend oversleeping, or no obvious pattern. That history guides the examination and determines whether testing is useful.",
+        "on_screen": ["Describe the pain", "Record sleep and substances", "Look for repetition"],
+        "icon": "diary",
+        "source_ids": ["AMF:SLEEP-HEADACHE-2021", "IHS:CAFFEINE-WITHDRAWAL"]
+      },
+      {
+        "heading": "Sleep apnea is an important clue",
+        "narration": "Sleep apnea repeatedly disrupts breathing during sleep. Morning headache becomes more suspicious when it travels with loud snoring, witnessed pauses, choking or gasping, dry mouth, repeated urination, and daytime sleepiness. The recognized sleep-apnoea headache is often bilateral, pressing, and gone within four hours, but those features are not exclusive. A headache cannot diagnose apnea, and a normal morning does not exclude it. Clinical assessment and an appropriate sleep study establish the diagnosis.",
+        "on_screen": ["Snoring and breathing pauses", "Headache often fades within hours", "Testing confirms apnea"],
+        "icon": "sleep",
+        "source_ids": ["IHS:APNOEA-HEADACHE", "NHLBI:SLEEP-APNEA-SYMPTOMS-2025"]
+      },
+      {
+        "heading": "Your jaw may have worked all night",
+        "narration": "Bruxism means clenching or grinding the teeth, sometimes during sleep without awareness. Look for jaw tightness on waking, pain near the temples or ears, tooth sensitivity, chipped edges, or a partner hearing grinding. These clues justify a dental examination. A mouth guard may protect teeth in selected people, but it does not solve every cause of bruxism or every headache. Avoid buying an aggressive device and assuming the diagnosis without having the jaw and teeth assessed.",
+        "on_screen": ["Morning jaw tightness", "Tooth wear or sensitivity", "Get a dental assessment"],
+        "icon": "jaw",
+        "source_ids": ["NIDCR:BRUXISM"]
+      },
+      {
+        "heading": "Migraine and caffeine can follow the clock",
+        "narration": "Migraine may begin during sleep or in the early morning, especially when sleep timing changes. Throbbing pain, nausea, sensitivity to light or sound, and worsening with activity support that pattern, but migraine varies between people. Caffeine adds another layer. If your body expects caffeine at a regular time, the overnight gap can produce withdrawal headache by morning. Do not prove this by endlessly increasing coffee. Record the dose and timing, then discuss gradual, consistent changes if withdrawal seems likely.",
+        "on_screen": ["Migraine may begin during sleep", "Caffeine timing matters", "Change intake gradually"],
+        "icon": "coffee",
+        "source_ids": ["AMF:SLEEP-HEADACHE-2021", "IHS:CAFFEINE-WITHDRAWAL"]
+      },
+      {
+        "heading": "Pain medicine can become part of the cycle",
+        "narration": "Frequent rescue medicine can gradually increase headache frequency. Medication-overuse headache is considered when headache occurs on at least 15 days each month in someone with an existing headache disorder who has overused acute medicines for more than three months. The exact threshold depends on the product, so count treatment days, not only tablets. Do not abruptly stop prescribed medicines without guidance. Bring the full list, including combination products, to a clinician who can plan safer withdrawal and prevention.",
+        "on_screen": ["Count headache days", "Count medicine days", "Plan changes with a clinician"],
+        "icon": "medicine",
+        "source_ids": ["IHS:MEDICATION-OVERUSE"]
+      },
+      {
+        "heading": "Why morning timing is not a diagnosis",
+        "narration": "Now, let us go deeper. Several biological events overlap near waking: sleep stages change, breathing disorders may have acted for hours, jaw muscles may have been active, caffeine levels are low, and migraine biology may already be developing. This creates the same symptom through different pathways. The useful question is not, what causes morning headache in general? It is, which accompanying clues repeatedly travel with this person's headache, and does treating that suspected cause change the pattern?",
+        "on_screen": ["Different pathways overlap", "Associated clues matter", "Response to treatment informs"],
+        "icon": "brain",
+        "source_ids": ["IHS:APNOEA-HEADACHE", "AMF:SLEEP-HEADACHE-2021", "IHS:CAFFEINE-WITHDRAWAL", "NIDCR:BRUXISM"]
+      },
+      {
+        "heading": "Know the urgent warning signs",
+        "narration": "Seek emergency care for a headache that reaches maximum intensity suddenly, follows significant head trauma, or comes with new weakness, numbness, trouble speaking, confusion, fainting, seizure, severe eye pain, or vision loss. Fever with neck stiffness, a new progressive headache during pregnancy or after childbirth, and a new headache in someone with cancer or immune suppression also need prompt evaluation. One more household clue matters: if several people or pets become ill in the same building, leave immediately for fresh air and seek help for possible carbon monoxide exposure.",
+        "on_screen": ["Sudden or neurologic symptoms", "Pregnancy and immune risk", "Multiple people means check carbon monoxide"],
+        "icon": "warning",
+        "source_ids": ["ACR:HEADACHE-2022", "CDC:CO-2026"]
+      },
+      {
+        "heading": "Three essential takeaways",
+        "narration": "Number one, morning timing is a clue, so use a sleep and headache diary to capture the full pattern. Number two, screen for sleep apnea, bruxism, migraine features, caffeine withdrawal, and frequent rescue-medicine use instead of assuming one universal cause. Number three, act urgently for sudden severe pain, neurologic or infectious warning signs, high-risk circumstances, or possible carbon monoxide exposure. Recurrent morning headaches deserve a cause-based evaluation, not a daily routine of simply masking the pain.",
+        "on_screen": ["Track the pattern", "Investigate the cause", "Act on red flags"],
+        "icon": "checklist",
+        "source_ids": ["AMF:SLEEP-HEADACHE-2021", "NHLBI:SLEEP-APNEA-SYMPTOMS-2025", "NIDCR:BRUXISM", "ACR:HEADACHE-2022", "CDC:CO-2026"]
+      }
+    ],
+    "closing": "On the next episode, we will explain why you may feel dizzy when you stand up, when simple changes help, and when the symptom needs medical attention. Until then, notice the pattern and stay safe.",
+    "description": "Morning headache is a timing pattern, not a diagnosis. This episode explains sleep apnea, bruxism, migraine, caffeine withdrawal, medication overuse, carbon monoxide exposure, and the warning signs that need urgent assessment.",
+    "thumbnail_text": "WHY MORNING HEADACHES HAPPEN"
+  }
+}
