@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "workflow": "chatgpt-reviewed-v20",
-  "updated_at": "2026-08-30T09:36:39Z",
-  "next_episode_number": 20,
+  "updated_at": "2026-08-31T09:51:01Z",
+  "next_episode_number": 21,
   "next_planned_topic": {
-    "id": "morning-headaches",
-    "title": "Why You Wake Up With a Headache",
-    "reason": "It bridges sleep medicine and general neurology by explaining sleep apnea, teeth grinding, migraine, medicine effects, sleep disruption, and headache warning signs."
+    "id": "orthostatic-dizziness",
+    "title": "Why You Feel Dizzy When You Stand Up",
+    "reason": "It follows the headache and sleep series with a common symptom that connects hydration, blood pressure regulation, medicines, autonomic function, falls, and urgent warning signs."
   },
   "packets": [
     {
@@ -85,6 +85,13 @@
       "title": "E19: Health Risks After Nepal's Flash Floods",
       "file": "episodes/E19-nepal-flash-flood-health.json",
       "status": "ready"
+    },
+    {
+      "episode_number": 20,
+      "topic_id": "morning-headaches",
+      "title": "E20: Why You Wake Up With a Headache",
+      "file": "episodes/E20-morning-headaches.json",
+      "status": "ready"
     }
   ],
   "evergreen_sequence": [
@@ -123,6 +130,10 @@
     {
       "id": "morning-headaches",
       "title": "Why You Wake Up With a Headache"
+    },
+    {
+      "id": "orthostatic-dizziness",
+      "title": "Why You Feel Dizzy When You Stand Up"
     }
   ],
   "editorial_policy": {
