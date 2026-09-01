@@ -1,0 +1,159 @@
+{
+  "schema": 2,
+  "editorial": {
+    "workflow": "chatgpt-reviewed-v20",
+    "reviewed_by": "ChatGPT medical editorial workflow",
+    "reviewed_on": "2026-09-01",
+    "episode_number": 21,
+    "language": "English",
+    "spoken_host_name_allowed": false,
+    "long_dashes_allowed": false,
+    "target_minutes": 10
+  },
+  "topic_id": "orthostatic-dizziness",
+  "topic": {
+    "id": "orthostatic-dizziness",
+    "title": "Why You Feel Dizzy When You Stand Up",
+    "audience_question": "Why do some people become lightheaded or nearly faint after standing?",
+    "pubmed_query": "orthostatic dizziness hypotension standing blood pressure heart rate medication dehydration POTS syncope guideline",
+    "icon_keywords": ["dizziness", "blood-pressure", "standing", "heart"],
+    "category": "cardiology"
+  },
+  "sources": [
+    {
+      "id": "AHA:OH-HTN-2024",
+      "title": "Orthostatic Hypotension in Adults With Hypertension",
+      "abstract": "The American Heart Association defines orthostatic hypotension as a sustained fall in systolic blood pressure of at least 20 millimeters of mercury or diastolic pressure of at least 10 within three minutes of standing. The statement recommends characterizing triggers and causes, reviewing medicines, optimizing the blood pressure regimen, and using tailored non-drug strategies.",
+      "journal": "Hypertension",
+      "year": "2024",
+      "url": "https://www.ahajournals.org/doi/10.1161/HYP.0000000000000236",
+      "doi": "10.1161/HYP.0000000000000236"
+    },
+    {
+      "id": "LANCET:OH-2022",
+      "title": "Diagnosis and Treatment of Orthostatic Hypotension",
+      "abstract": "This peer-reviewed review describes orthostatic hypotension as a final common pathway of several disorders. Presentations include lightheadedness, cognitive slowing, unexplained falls, presyncope, and syncope. Diagnosis requires history, examination, and supine and upright blood pressure measurements, followed by cause-specific, stepwise management.",
+      "journal": "The Lancet Neurology",
+      "year": "2022",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10024337/",
+      "doi": "10.1016/S1474-4422(22)00330-2"
+    },
+    {
+      "id": "AAFP:OH-2022",
+      "title": "Orthostatic Hypotension: A Practical Approach",
+      "abstract": "A practical diagnostic protocol measures blood pressure and heart rate after five minutes lying down and again after standing, with a three-minute reading. Common causes include volume depletion, medication effects, endocrine or cardiac disease, and autonomic failure. Treatment focuses on symptoms and the underlying cause rather than forcing a particular blood pressure number.",
+      "journal": "American Family Physician",
+      "year": "2022",
+      "url": "https://www.aafp.org/pubs/afp/issues/2022/0100/p39.html",
+      "doi": null
+    },
+    {
+      "id": "CDC:STEADI-OH-2025",
+      "title": "Measuring Orthostatic Blood Pressure",
+      "abstract": "CDC STEADI provides a structured orthostatic blood pressure assessment to identify postural hypotension as part of fall-risk evaluation. The protocol uses a period lying down followed by standing blood pressure and pulse measurements, while observing for dizziness or lightheadedness.",
+      "journal": "Centers for Disease Control and Prevention",
+      "year": "2025",
+      "url": "https://www.cdc.gov/steadi/hcp/clinical-resources/index.html",
+      "doi": null
+    },
+    {
+      "id": "CMAJ:POTS-2022",
+      "title": "Diagnosis and Management of Postural Orthostatic Tachycardia Syndrome",
+      "abstract": "POTS requires chronic orthostatic symptoms plus a sustained heart-rate increase of at least 30 beats per minute in adults, or at least 40 in people aged 12 to 19, within ten minutes upright, without significant orthostatic hypotension. Other explanations such as dehydration, anemia, medicines, endocrine disease, and prolonged bed rest must be excluded.",
+      "journal": "CMAJ",
+      "year": "2022",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8920526/",
+      "doi": "10.1503/cmaj.211373"
+    },
+    {
+      "id": "ACC-AHA-HRS:SYNCOPE-2017",
+      "title": "2017 Guideline for the Evaluation and Management of Patients With Syncope",
+      "abstract": "Initial syncope evaluation should include a detailed history, physical examination, and electrocardiogram. Hospital evaluation is recommended when a serious condition potentially related to fainting is identified. Routine broad laboratory testing or imaging is not useful without a clinical indication.",
+      "journal": "American College of Cardiology, American Heart Association, and Heart Rhythm Society",
+      "year": "2017",
+      "url": "https://www.acc.org/guidelines/hubs/syncope",
+      "doi": "10.1016/j.jacc.2017.03.003"
+    },
+    {
+      "id": "AHA:SYNCOPE-2024",
+      "title": "Syncope, or Fainting",
+      "abstract": "The American Heart Association explains that syncope is a temporary loss of consciousness from insufficient blood flow to the brain. Causes range from benign reflex fainting to low blood pressure, arrhythmias, and structural heart disease, so recurrent or high-risk episodes require medical evaluation.",
+      "journal": "American Heart Association",
+      "year": "2024",
+      "url": "https://www.heart.org/en/health-topics/arrhythmia/symptoms-diagnosis--monitoring-of-arrhythmia/syncope-fainting",
+      "doi": null
+    }
+  ],
+  "episode": {
+    "title": "E21: Why You Feel Dizzy When You Stand Up",
+    "hook": "Hello and welcome to the Your Only Doc podcast. Imagine getting out of bed, taking two steps, and suddenly the room dims around the edges. You grab the wall and feel normal again after a few seconds. Dizziness is a broad word. It can mean lightheadedness, imbalance, spinning, or almost fainting. Understanding which sensation you had, and what happened to your pulse and blood pressure, changes the evaluation.",
+    "sections": [
+      {
+        "heading": "The high yield summary",
+        "narration": "Too busy? Here is your high yield summary. If standing makes you lightheaded, sit or lie down immediately to prevent a fall. Recurrent symptoms deserve lying and standing blood pressure and pulse measurements, a medication review, and assessment for dehydration, blood loss, anemia, heart disease, or autonomic problems. Orthostatic hypotension means a sustained drop of at least 20 systolic or 10 diastolic within three minutes of standing. Do not add salt, stop medicines, or diagnose POTS from a smartwatch alone. Fainting with exertion, chest pain, palpitations, breathlessness, bleeding, or neurologic symptoms needs urgent evaluation.",
+        "on_screen": ["Sit or lie down", "Measure pressure and pulse", "Recognize urgent features"],
+        "icon": "dizziness",
+        "source_ids": ["AHA:OH-HTN-2024", "AAFP:OH-2022", "ACC-AHA-HRS:SYNCOPE-2017"]
+      },
+      {
+        "heading": "First describe what dizzy means",
+        "narration": "Lightheadedness after standing is different from spinning triggered by turning the head. Orthostatic symptoms often include dim vision, weakness, mental fog, or feeling that you may faint, and they improve after sitting or lying down. Vertigo suggests a different pathway, often involving the inner ear or brain. The history should capture posture, timing, duration, meals, heat, exercise, recent illness, and whether you lost consciousness.",
+        "on_screen": ["Lightheaded is not spinning", "Position and timing matter", "Record loss of consciousness"],
+        "icon": "balance",
+        "source_ids": ["LANCET:OH-2022", "AHA:SYNCOPE-2024"]
+      },
+      {
+        "heading": "Gravity creates a rapid circulation test",
+        "narration": "When you stand, gravity shifts blood toward the legs and abdomen. The nervous system normally tightens blood vessels and adjusts heart rate so enough blood reaches the brain. Symptoms appear when that response is delayed, circulating volume is low, the heart cannot compensate, or autonomic nerves do not signal properly. A brief head rush can occur in healthy people. Repeated, severe, or fainting episodes should not be dismissed as simply standing too fast.",
+        "on_screen": ["Blood shifts downward", "Reflexes protect brain flow", "Repeated symptoms need assessment"],
+        "icon": "circulation",
+        "source_ids": ["LANCET:OH-2022", "AHA:OH-HTN-2024"]
+      },
+      {
+        "heading": "Measure lying and standing correctly",
+        "narration": "A useful check records blood pressure and pulse after lying quietly for five minutes, then repeats them after standing, including a reading by three minutes. Because a faint is possible, another person should be nearby if symptoms are strong. Stop and sit or lie down if you feel unsafe. The classic threshold is a sustained fall of at least 20 millimeters of mercury systolic or 10 diastolic. A normal single test does not end the investigation when the history is convincing, because meals, medicines, hydration, and time of day change the result.",
+        "on_screen": ["Lie quietly for five minutes", "Repeat after standing", "Record pressure, pulse, and symptoms"],
+        "icon": "blood-pressure",
+        "source_ids": ["AAFP:OH-2022", "CDC:STEADI-OH-2025", "AHA:OH-HTN-2024"]
+      },
+      {
+        "heading": "Look for reversible causes first",
+        "narration": "Vomiting, diarrhea, fever, heat, heavy sweating, poor intake, and blood loss can reduce circulating volume. Medicines may also contribute, including diuretics, blood-pressure drugs, nitrates, alpha blockers, and some medicines for depression or Parkinson's disease. Diabetes, heart disease, endocrine disorders, anemia, prolonged bed rest, and autonomic neurologic disease are other possibilities. Do not stop a prescribed medicine on your own. Write down doses and timing, then let the clinician decide whether the regimen or another cause best fits the pattern.",
+        "on_screen": ["Check fluids and blood loss", "Review every medicine", "Assess medical causes"],
+        "icon": "medicine",
+        "source_ids": ["AAFP:OH-2022", "AHA:OH-HTN-2024", "LANCET:OH-2022"]
+      },
+      {
+        "heading": "A fast pulse does not automatically mean POTS",
+        "narration": "Some people have orthostatic symptoms with a marked heart-rate rise rather than a major blood-pressure fall. POTS requires persistent symptoms plus a sustained pulse increase of at least 30 beats per minute in adults, or 40 in adolescents, within ten minutes upright. It also requires the absence of significant orthostatic hypotension and exclusion of dehydration, anemia, fever, medicines, and other causes. A watch can reveal a pattern worth discussing, but diagnosis needs standardized measurements and clinical context.",
+        "on_screen": ["Pulse and pressure tell different stories", "POTS has defined criteria", "Exclude other causes first"],
+        "icon": "heart-rate",
+        "source_ids": ["CMAJ:POTS-2022", "LANCET:OH-2022"]
+      },
+      {
+        "heading": "The pulse helps explain the mechanism",
+        "narration": "Now, let us go deeper. Blood pressure alone shows the result, while the heart-rate response offers a clue to the pathway. A strong pulse rise may suggest low volume or another non-neurogenic cause. A limited rise despite a substantial pressure drop can suggest impaired autonomic compensation, although medicines and rhythm problems can distort that pattern. This is why diagnosis combines measurements with examination, an electrocardiogram when indicated, laboratory tests chosen for the history, and sometimes longer monitoring or tilt-table testing.",
+        "on_screen": ["Pressure shows the drop", "Pulse suggests the pathway", "Testing follows the history"],
+        "icon": "clinical-chart",
+        "source_ids": ["LANCET:OH-2022", "AAFP:OH-2022", "ACC-AHA-HRS:SYNCOPE-2017"]
+      },
+      {
+        "heading": "Respond safely and know the red flags",
+        "narration": "Rise in stages, pause at the bedside, and hold a stable surface. If symptoms begin, tense the leg and abdominal muscles, cross the legs, or sit down before you fall. Adequate fluid may help when dehydration is the cause, but extra fluid or salt can be harmful in heart failure, kidney disease, or uncontrolled hypertension. Seek urgent care for fainting during exercise or while lying down, chest pain, severe breathlessness, sustained palpitations, new neurologic symptoms, major bleeding, serious injury, or a family history of sudden unexplained death.",
+        "on_screen": ["Rise in stages", "Use counter-pressure safely", "Urgent features need evaluation"],
+        "icon": "warning",
+        "source_ids": ["AHA:OH-HTN-2024", "LANCET:OH-2022", "ACC-AHA-HRS:SYNCOPE-2017", "AHA:SYNCOPE-2024"]
+      },
+      {
+        "heading": "Three essential takeaways",
+        "narration": "Number one, describe the sensation and protect yourself from falling by sitting or lying down when symptoms start. Number two, measure both blood pressure and pulse from lying to standing, then look for dehydration, blood loss, medicines, heart disease, and autonomic causes. Number three, do not self-treat with salt or medication changes, and seek urgent help when dizziness or fainting comes with exertion, chest symptoms, bleeding, injury, or neurologic warning signs. Recurrent orthostatic dizziness deserves a cause-based evaluation.",
+        "on_screen": ["Prevent the fall", "Measure pressure and pulse", "Treat the cause safely"],
+        "icon": "checklist",
+        "source_ids": ["AAFP:OH-2022", "AHA:OH-HTN-2024", "ACC-AHA-HRS:SYNCOPE-2017"]
+      }
+    ],
+    "closing": "On the next episode, we will explain why the room may spin when you move your head, how positional vertigo is tested, and which dizziness signs point elsewhere. Until then, stand carefully and stay safe.",
+    "description": "Feeling dizzy after standing can reflect orthostatic hypotension, dehydration, medication effects, heart disease, autonomic dysfunction, or POTS. This episode explains safe measurement, practical responses, and urgent warning signs.",
+    "thumbnail_text": "DIZZY WHEN YOU STAND?"
+  }
+}
