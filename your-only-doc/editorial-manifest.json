@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "workflow": "chatgpt-reviewed-v20",
-  "updated_at": "2026-08-31T09:51:01Z",
-  "next_episode_number": 21,
+  "updated_at": "2026-09-01T08:53:25Z",
+  "next_episode_number": 22,
   "next_planned_topic": {
-    "id": "orthostatic-dizziness",
-    "title": "Why You Feel Dizzy When You Stand Up",
-    "reason": "It follows the headache and sleep series with a common symptom that connects hydration, blood pressure regulation, medicines, autonomic function, falls, and urgent warning signs."
+    "id": "positional-vertigo",
+    "title": "Why the Room Spins When You Move Your Head",
+    "reason": "It follows orthostatic lightheadedness by distinguishing true positional vertigo, especially BPPV, from neurologic and cardiovascular causes of dizziness."
   },
   "packets": [
     {
@@ -92,6 +92,13 @@
       "title": "E20: Why You Wake Up With a Headache",
       "file": "episodes/E20-morning-headaches.json",
       "status": "ready"
+    },
+    {
+      "episode_number": 21,
+      "topic_id": "orthostatic-dizziness",
+      "title": "E21: Why You Feel Dizzy When You Stand Up",
+      "file": "episodes/E21-orthostatic-dizziness.json",
+      "status": "ready"
     }
   ],
   "evergreen_sequence": [
@@ -134,6 +141,10 @@
     {
       "id": "orthostatic-dizziness",
       "title": "Why You Feel Dizzy When You Stand Up"
+    },
+    {
+      "id": "positional-vertigo",
+      "title": "Why the Room Spins When You Move Your Head"
     }
   ],
   "editorial_policy": {
