@@ -1,0 +1,159 @@
+{
+  "schema": 2,
+  "editorial": {
+    "workflow": "chatgpt-reviewed-v20",
+    "reviewed_by": "ChatGPT medical editorial workflow",
+    "reviewed_on": "2026-09-02",
+    "episode_number": 22,
+    "language": "English",
+    "spoken_host_name_allowed": false,
+    "long_dashes_allowed": false,
+    "target_minutes": 10
+  },
+  "topic_id": "positional-vertigo",
+  "topic": {
+    "id": "positional-vertigo",
+    "title": "Why the Room Spins When You Move Your Head",
+    "audience_question": "Why can rolling in bed or looking up trigger a sudden spinning sensation?",
+    "pubmed_query": "benign paroxysmal positional vertigo BPPV Dix-Hallpike supine roll test Epley canalith repositioning stroke red flags guideline",
+    "icon_keywords": ["vertigo", "inner-ear", "balance", "head-movement"],
+    "category": "otolaryngology"
+  },
+  "sources": [
+    {
+      "id": "AAO-HNSF:BPPV-2017",
+      "title": "Clinical Practice Guideline: Benign Paroxysmal Positional Vertigo (Update)",
+      "abstract": "This multidisciplinary guideline recommends diagnosing posterior canal BPPV when the Dix-Hallpike maneuver provokes vertigo with characteristic torsional, up-beating nystagmus. It supports canalith repositioning, discourages routine imaging and vestibular suppressants when the presentation is typical, and recommends reassessment within one month.",
+      "journal": "Otolaryngology Head and Neck Surgery",
+      "year": "2017",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28248609/",
+      "doi": "10.1177/0194599816689667"
+    },
+    {
+      "id": "AAO-HNSF:BPPV-OFFICIAL",
+      "title": "Benign Paroxysmal Positional Vertigo Guideline Resources",
+      "abstract": "The American Academy of Otolaryngology Head and Neck Surgery Foundation provides the official guideline and patient resources intended to improve diagnostic accuracy, reduce inappropriate imaging and vestibular suppressants, and increase appropriate repositioning treatment.",
+      "journal": "American Academy of Otolaryngology Head and Neck Surgery Foundation",
+      "year": "2017",
+      "url": "https://www.entnet.org/quality-practice/quality-products/clinical-practice-guidelines/bppv/",
+      "doi": null
+    },
+    {
+      "id": "SAEM:GRACE3-2023",
+      "title": "GRACE-3: Acute Dizziness and Vertigo in the Emergency Department",
+      "abstract": "This emergency medicine guideline organizes dizziness by timing and triggers. For triggered episodic vestibular syndrome, trained clinicians should use the Dix-Hallpike test and treat confirmed posterior canal BPPV with the Epley maneuver. Routine CT or MRI is discouraged for a typical peripheral pattern, while atypical findings require evaluation for central causes.",
+      "journal": "Academic Emergency Medicine",
+      "year": "2023",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37166022/",
+      "doi": "10.1111/acem.14728"
+    },
+    {
+      "id": "BARANY:BPPV-2015",
+      "title": "Benign Paroxysmal Positional Vertigo: Diagnostic Criteria",
+      "abstract": "The Bárány Society consensus provides operational criteria for BPPV syndromes based on recurrent positional vertigo and characteristic positional nystagmus. Different canals produce different eye-movement patterns, so diagnosis depends on examination rather than symptoms alone.",
+      "journal": "Journal of Vestibular Research",
+      "year": "2015",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26756126/",
+      "doi": "10.3233/VES-150553"
+    },
+    {
+      "id": "COCHRANE:EPLEY-2014",
+      "title": "The Epley Maneuver for Benign Paroxysmal Positional Vertigo",
+      "abstract": "This systematic review of randomized trials found that the Epley canalith repositioning maneuver is a safe and effective treatment for posterior canal BPPV, while noting that the included studies were mostly small and had short follow-up.",
+      "journal": "Cochrane Database of Systematic Reviews",
+      "year": "2014",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25485940/",
+      "doi": "10.1002/14651858.CD003162.pub3"
+    },
+    {
+      "id": "ACR:DIZZINESS-2024",
+      "title": "ACR Appropriateness Criteria: Dizziness and Ataxia, 2023 Update",
+      "abstract": "This imaging guideline evaluates dizziness by clinical pattern. Brief episodic vertigo triggered by specific head movements with a typical examination generally does not require initial brain imaging, while abnormal neurologic findings or concern for a central cause changes the imaging pathway.",
+      "journal": "Journal of the American College of Radiology",
+      "year": "2024",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38823940/",
+      "doi": "10.1016/j.jacr.2024.02.018"
+    },
+    {
+      "id": "NIDCD:BALANCE-2018",
+      "title": "Balance Disorders",
+      "abstract": "The National Institute on Deafness and Other Communication Disorders describes BPPV as brief, intense vertigo triggered by a particular head position, caused when loose otoconia enter a semicircular canal and disturb its motion signal.",
+      "journal": "National Institute on Deafness and Other Communication Disorders",
+      "year": "2018",
+      "url": "https://www.nidcd.nih.gov/health/balance-disorders",
+      "doi": null
+    }
+  ],
+  "episode": {
+    "title": "E22: Why the Room Spins When You Move Your Head",
+    "hook": "Hello and welcome to the Your Only Doc podcast. Imagine rolling toward your left side in bed and suddenly feeling as if the whole room flips around you. You freeze, the spinning settles within seconds, and then it returns when you sit up. That pattern can happen when a tiny inner-ear particle moves where it should not. But not every spinning episode is positional vertigo, and the differences matter.",
+    "sections": [
+      {
+        "heading": "The high yield summary",
+        "narration": "Too busy? Here is your high yield summary. Brief spinning triggered by rolling in bed, looking up, bending, or sitting up often suggests benign paroxysmal positional vertigo, called BPPV. A clinician confirms it by reproducing the symptoms and watching for a specific eye movement. A canalith repositioning maneuver, commonly the Epley maneuver, treats the mechanical problem more directly than dizziness medicine. Do not assume every positional symptom is BPPV. New weakness, double vision, trouble speaking, inability to walk, a severe new headache, fainting, or sudden hearing loss needs urgent assessment.",
+        "on_screen": ["Brief movement-triggered spinning", "Eye movements confirm the pattern", "Know urgent warning signs"],
+        "icon": "vertigo",
+        "source_ids": ["AAO-HNSF:BPPV-2017", "SAEM:GRACE3-2023", "ACR:DIZZINESS-2024"]
+      },
+      {
+        "heading": "Vertigo is a sensation, not a diagnosis",
+        "narration": "Vertigo means a false sense of movement, often spinning, tilting, or being pulled. BPPV usually causes short attacks after a particular change in head position. Between attacks, some people feel mildly unsteady or nauseated, but continuous severe spinning for hours is not the classic pattern. Lightheadedness on standing, which we discussed last time, also points toward a different mechanism. Describe the trigger, duration, associated symptoms, and what you can do between episodes.",
+        "on_screen": ["Spinning is one type of dizziness", "Trigger and duration guide diagnosis", "Continuous symptoms need another pathway"],
+        "icon": "balance",
+        "source_ids": ["NIDCD:BALANCE-2018", "SAEM:GRACE3-2023", "BARANY:BPPV-2015"]
+      },
+      {
+        "heading": "Tiny particles confuse the inner ear",
+        "narration": "The inner ear contains motion sensors filled with fluid. It also contains small calcium carbonate particles called otoconia, which normally help detect gravity and straight-line movement. In BPPV, loose otoconia enter a semicircular canal. When the head changes position, those particles shift the fluid and send a motion signal that conflicts with what the eyes and body report. The mismatch creates vertigo and an involuntary eye movement called nystagmus.",
+        "on_screen": ["Otoconia normally sense gravity", "Loose particles enter a canal", "Conflicting signals cause vertigo"],
+        "icon": "inner-ear",
+        "source_ids": ["NIDCD:BALANCE-2018", "BARANY:BPPV-2015"]
+      },
+      {
+        "heading": "The eye movement identifies the canal",
+        "narration": "For suspected posterior canal BPPV, a trained clinician performs the Dix-Hallpike test by turning the head and moving the person from sitting to a reclined position while watching the eyes. The diagnosis requires the expected vertigo and characteristic torsional, up-beating nystagmus. If the history fits but that pattern is absent, a supine roll test can assess the horizontal canal. These tests may feel unpleasant briefly, and neck, back, or mobility limitations may require modification.",
+        "on_screen": ["Dix-Hallpike checks posterior canal", "Nystagmus pattern confirms diagnosis", "Roll test checks horizontal canal"],
+        "icon": "eye-test",
+        "source_ids": ["AAO-HNSF:BPPV-2017", "BARANY:BPPV-2015", "SAEM:GRACE3-2023"]
+      },
+      {
+        "heading": "Repositioning treats the mechanism",
+        "narration": "Once the affected side and canal are identified, a sequence of head and body positions guides the particles back toward the chamber where they belong. The Epley maneuver is recommended for posterior canal BPPV, and randomized evidence supports its effectiveness. Other canals require different maneuvers. A clinician can teach selected patients a home maneuver after confirming the diagnosis, but copying a generic video before knowing the side and canal can miss the cause or aggravate symptoms.",
+        "on_screen": ["Identify side and canal first", "Epley treats posterior canal BPPV", "Home practice needs instruction"],
+        "icon": "repositioning",
+        "source_ids": ["AAO-HNSF:BPPV-2017", "COCHRANE:EPLEY-2014", "SAEM:GRACE3-2023"]
+      },
+      {
+        "heading": "Medicine and scans are usually not the answer",
+        "narration": "Vestibular suppressants such as antihistamines or benzodiazepines do not move the particles. Routine use can add sleepiness, slow reactions, and fall risk, so the BPPV guideline recommends against treating typical cases routinely with these drugs. Likewise, a classic history plus characteristic positional nystagmus usually does not require CT or MRI. Imaging becomes appropriate when the examination is atypical, neurologic findings appear, or another diagnosis is suspected.",
+        "on_screen": ["Tablets do not reposition particles", "Typical BPPV rarely needs imaging", "Atypical findings change the plan"],
+        "icon": "medicine",
+        "source_ids": ["AAO-HNSF:BPPV-2017", "ACR:DIZZINESS-2024", "SAEM:GRACE3-2023"]
+      },
+      {
+        "heading": "Why the pattern matters clinically",
+        "narration": "Now, let us go deeper. Clinicians sort dizziness by timing and triggers before naming a disease. Brief, repeatable attacks caused by head movement create a triggered episodic pattern. BPPV is likely only when positional testing produces the expected nystagmus. Sudden vertigo that stays present even when the head is still belongs to an acute continuous pattern, where stroke and vestibular neuritis require a different examination. The HINTS eye examination is for trained clinicians assessing continuous acute vestibular syndrome, not a home test and not a substitute for BPPV testing.",
+        "on_screen": ["Timing and triggers define the pathway", "Nystagmus must fit BPPV", "HINTS is not a home test"],
+        "icon": "clinical-chart",
+        "source_ids": ["SAEM:GRACE3-2023", "BARANY:BPPV-2015", "AAO-HNSF:BPPV-2017"]
+      },
+      {
+        "heading": "Stay safe and recognize a different problem",
+        "narration": "Until you are assessed, sit down when spinning starts, use support when walking, avoid ladders and driving, and keep a light on for nighttime trips. Seek emergency help for facial droop, weakness or numbness on one side, new speech or swallowing trouble, double vision, severe inability to stand or walk, a sudden severe headache or neck pain, fainting, chest pain, or major injury. Sudden hearing loss with vertigo also needs urgent evaluation. If treated BPPV persists or returns, follow-up can confirm recurrence or find another vestibular or neurologic cause.",
+        "on_screen": ["Prevent falls", "Neurologic signs are urgent", "Persistent symptoms need reassessment"],
+        "icon": "warning",
+        "source_ids": ["AAO-HNSF:BPPV-2017", "SAEM:GRACE3-2023", "ACR:DIZZINESS-2024"]
+      },
+      {
+        "heading": "Three essential takeaways",
+        "narration": "Number one, brief spinning triggered by rolling, looking up, or bending suggests BPPV, but the diagnosis depends on a characteristic eye-movement pattern. Number two, canalith repositioning treats confirmed BPPV more directly than routine dizziness medicine, and the correct maneuver depends on the affected side and canal. Number three, do not label continuous vertigo or neurologic, walking, hearing, fainting, or severe headache symptoms as simple BPPV. Those features need prompt medical assessment. Even a benign condition deserves an accurate diagnosis and a safe plan.",
+        "on_screen": ["Confirm the eye-movement pattern", "Reposition the correct canal", "Escalate warning signs"],
+        "icon": "checklist",
+        "source_ids": ["AAO-HNSF:BPPV-2017", "SAEM:GRACE3-2023", "BARANY:BPPV-2015"]
+      }
+    ],
+    "closing": "On the next episode, we will explain why your ears may keep ringing, which medicines and hearing problems can contribute, and when tinnitus needs urgent attention. Until then, move carefully and protect yourself from falls.",
+    "description": "Brief spinning after rolling in bed or moving the head may be benign paroxysmal positional vertigo. This episode explains BPPV testing, canalith repositioning, common low-value treatments, and warning signs that point to another cause.",
+    "thumbnail_text": "WHY DOES THE ROOM SPIN?"
+  }
+}
