@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "workflow": "chatgpt-reviewed-v20",
-  "updated_at": "2026-09-01T08:53:25Z",
-  "next_episode_number": 22,
+  "updated_at": "2026-09-02T09:15:00Z",
+  "next_episode_number": 23,
   "next_planned_topic": {
-    "id": "positional-vertigo",
-    "title": "Why the Room Spins When You Move Your Head",
-    "reason": "It follows orthostatic lightheadedness by distinguishing true positional vertigo, especially BPPV, from neurologic and cardiovascular causes of dizziness."
+    "id": "tinnitus",
+    "title": "Why Your Ears Keep Ringing",
+    "reason": "It follows positional vertigo by explaining another common inner-ear symptom, including hearing loss, medicine-related causes, pulsatile tinnitus, and warning signs that need prompt assessment."
   },
   "packets": [
     {
@@ -99,6 +99,13 @@
       "title": "E21: Why You Feel Dizzy When You Stand Up",
       "file": "episodes/E21-orthostatic-dizziness.json",
       "status": "ready"
+    },
+    {
+      "episode_number": 22,
+      "topic_id": "positional-vertigo",
+      "title": "E22: Why the Room Spins When You Move Your Head",
+      "file": "episodes/E22-positional-vertigo.json",
+      "status": "ready"
     }
   ],
   "evergreen_sequence": [
@@ -145,6 +152,10 @@
     {
       "id": "positional-vertigo",
       "title": "Why the Room Spins When You Move Your Head"
+    },
+    {
+      "id": "tinnitus",
+      "title": "Why Your Ears Keep Ringing"
     }
   ],
   "editorial_policy": {
