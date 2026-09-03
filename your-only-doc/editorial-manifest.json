@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "workflow": "chatgpt-reviewed-v20",
-  "updated_at": "2026-09-02T09:15:00Z",
-  "next_episode_number": 23,
+  "updated_at": "2026-09-03T09:12:00Z",
+  "next_episode_number": 24,
   "next_planned_topic": {
-    "id": "tinnitus",
-    "title": "Why Your Ears Keep Ringing",
-    "reason": "It follows positional vertigo by explaining another common inner-ear symptom, including hearing loss, medicine-related causes, pulsatile tinnitus, and warning signs that need prompt assessment."
+    "id": "sudden-hearing-loss",
+    "title": "When Sudden Hearing Loss Is an Emergency",
+    "reason": "It follows tinnitus by distinguishing sudden sensorineural hearing loss from wax or middle-ear blockage and explaining why prompt assessment can affect recovery."
   },
   "packets": [
     {
@@ -106,6 +106,13 @@
       "title": "E22: Why the Room Spins When You Move Your Head",
       "file": "episodes/E22-positional-vertigo.json",
       "status": "ready"
+    },
+    {
+      "episode_number": 23,
+      "topic_id": "tinnitus",
+      "title": "E23: Why Your Ears Keep Ringing",
+      "file": "episodes/E23-tinnitus.json",
+      "status": "ready"
     }
   ],
   "evergreen_sequence": [
@@ -156,6 +163,10 @@
     {
       "id": "tinnitus",
       "title": "Why Your Ears Keep Ringing"
+    },
+    {
+      "id": "sudden-hearing-loss",
+      "title": "When Sudden Hearing Loss Is an Emergency"
     }
   ],
   "editorial_policy": {
