@@ -1,0 +1,159 @@
+{
+  "schema": 2,
+  "editorial": {
+    "workflow": "chatgpt-reviewed-v20",
+    "reviewed_by": "ChatGPT medical editorial workflow",
+    "reviewed_on": "2026-09-03",
+    "episode_number": 23,
+    "language": "English",
+    "spoken_host_name_allowed": false,
+    "long_dashes_allowed": false,
+    "target_minutes": 10
+  },
+  "topic_id": "tinnitus",
+  "topic": {
+    "id": "tinnitus",
+    "title": "Why Your Ears Keep Ringing",
+    "audience_question": "Why do some people hear ringing or other sounds when nothing outside is making them?",
+    "pubmed_query": "tinnitus evaluation pulsatile unilateral hearing loss audiometry cognitive behavioral therapy sound therapy guideline",
+    "icon_keywords": ["tinnitus", "ear", "hearing", "sound-wave"],
+    "category": "otolaryngology"
+  },
+  "sources": [
+    {
+      "id": "AAO-HNSF:TINNITUS-2014",
+      "title": "Clinical Practice Guideline: Tinnitus",
+      "abstract": "This multidisciplinary guideline recommends a targeted history and examination, prompt hearing assessment for unilateral tinnitus or reported hearing difficulty, and cognitive behavioral therapy for persistent bothersome tinnitus. It discourages routine imaging when tinnitus is bilateral, nonpulsatile, and not associated with asymmetric hearing loss or neurologic findings, and discourages routine supplements and medicines solely for primary tinnitus.",
+      "journal": "Otolaryngology Head and Neck Surgery",
+      "year": "2014",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25273878/",
+      "doi": "10.1177/0194599814545325"
+    },
+    {
+      "id": "NICE:TINNITUS-2020",
+      "title": "Tinnitus: Assessment and Management",
+      "abstract": "NICE guidance recommends assessing the effect of tinnitus on sleep, daily activity, and mental wellbeing, offering audiological assessment, and directing imaging and referral according to pulsatile, unilateral, asymmetric, neurologic, vestibular, or hearing-loss features. Tinnitus with sudden hearing loss requires urgent specialist assessment.",
+      "journal": "National Institute for Health and Care Excellence",
+      "year": "2020",
+      "url": "https://www.nice.org.uk/guidance/ng155/chapter/Recommendations",
+      "doi": null
+    },
+    {
+      "id": "NIDCD:TINNITUS-2023",
+      "title": "What Is Tinnitus? Causes and Treatment",
+      "abstract": "The National Institute on Deafness and Other Communication Disorders defines tinnitus as sound perception without an external source. It describes links with noise-related and age-related hearing loss, ear blockage, injury, and some medicines, and outlines hearing aids, sound therapy, and behavioral approaches for symptom management.",
+      "journal": "National Institute on Deafness and Other Communication Disorders",
+      "year": "2023",
+      "url": "https://www.nidcd.nih.gov/health/tinnitus",
+      "doi": null
+    },
+    {
+      "id": "ACR:TINNITUS-2023",
+      "title": "ACR Appropriateness Criteria: Tinnitus, 2023 Update",
+      "abstract": "This evidence-based imaging guideline states that clinical evaluation, otoscopy, and audiometry should precede imaging. Imaging selection depends on whether tinnitus is pulsatile or nonpulsatile, unilateral or bilateral, and whether examination reveals a vascular ear lesion, asymmetric hearing loss, or neurologic abnormalities.",
+      "journal": "Journal of the American College of Radiology",
+      "year": "2023",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38040471/",
+      "doi": "10.1016/j.jacr.2023.08.028"
+    },
+    {
+      "id": "COCHRANE:CBT-TINNITUS-2020",
+      "title": "Cognitive Behavioural Therapy for Tinnitus",
+      "abstract": "This Cochrane review found that cognitive behavioral therapy may reduce the negative impact of tinnitus on quality of life. The treatment aims to change distress and responses to the sound rather than claiming to eliminate the auditory perception itself.",
+      "journal": "Cochrane Database of Systematic Reviews",
+      "year": "2020",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31912887/",
+      "doi": "10.1002/14651858.CD012614.pub2"
+    },
+    {
+      "id": "AAO-HNSF:SSNHL-2019",
+      "title": "Clinical Practice Guideline: Sudden Hearing Loss Update",
+      "abstract": "This guideline emphasizes prompt recognition and management of sudden sensorineural hearing loss, which may be accompanied by tinnitus or vertigo. Clinicians should distinguish sensorineural from conductive hearing loss and assess for focal neurologic findings and other nonidiopathic causes.",
+      "journal": "Otolaryngology Head and Neck Surgery",
+      "year": "2019",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31369359/",
+      "doi": "10.1177/0194599819859885"
+    },
+    {
+      "id": "AAO-HNSF:EAR-REDFLAGS-2025",
+      "title": "Red Flags Warning of Ear Disease",
+      "abstract": "The American Academy of Otolaryngology Head and Neck Surgery identifies sudden or rapidly progressive hearing loss, unilateral or asymmetric hearing loss, unilateral or pulsatile tinnitus, ear drainage or bleeding, and recurrent dizziness among findings that warrant medical referral.",
+      "journal": "American Academy of Otolaryngology Head and Neck Surgery",
+      "year": "2025",
+      "url": "https://www.entnet.org/resource/position-statement-red-flags-warning-of-ear-disease/",
+      "doi": null
+    }
+  ],
+  "episode": {
+    "title": "E23: Why Your Ears Keep Ringing",
+    "hook": "Hello and welcome to the Your Only Doc podcast. Imagine lying down after a quiet day and noticing a high whistle that nobody else can hear. You cover one ear, then the other, but it remains. For someone else, the sound is a buzz, hiss, click, or pulse. Tinnitus is a symptom, not one single disease. The pattern around that sound tells us whether it needs routine hearing care, targeted treatment, or urgent evaluation.",
+    "sections": [
+      {
+        "heading": "The high yield summary",
+        "narration": "Too busy? Here is your high yield summary. Tinnitus means hearing sound without an outside source. Start by asking whether it is in one ear or both, constant or intermittent, and whether it matches the heartbeat. Check for hearing change, noise exposure, ear blockage, medicines, dizziness, and neurologic symptoms. Sudden hearing loss with tinnitus needs urgent assessment. A heartbeat-like sound, persistent one-sided tinnitus, asymmetric hearing, or neurologic findings requires targeted evaluation. For persistent bothersome tinnitus, hearing care and cognitive behavioral therapy can reduce its impact. Do not stop prescribed medicine or buy supplements based on the ringing alone.",
+        "on_screen": ["Describe the sound pattern", "Sudden hearing loss is urgent", "Treat impact with evidence"],
+        "icon": "tinnitus",
+        "source_ids": ["AAO-HNSF:TINNITUS-2014", "NICE:TINNITUS-2020", "AAO-HNSF:SSNHL-2019"]
+      },
+      {
+        "heading": "The sound can take many forms",
+        "narration": "Most tinnitus is subjective, meaning only the affected person hears it. It may sound like ringing, buzzing, roaring, hissing, or clicking. It can be soft in a busy room and striking in silence because external sound no longer masks it. Tinnitus may be temporary after loud noise or persistent. The key history includes the first day it appeared, which ear is involved, whether hearing changed, and how it affects concentration, sleep, mood, and daily function.",
+        "on_screen": ["Ringing is only one sound", "One ear or both matters", "Measure daily impact"],
+        "icon": "sound-wave",
+        "source_ids": ["NIDCD:TINNITUS-2023", "NICE:TINNITUS-2020"]
+      },
+      {
+        "heading": "The ear and brain both participate",
+        "narration": "Tinnitus commonly accompanies hearing loss from aging or noise exposure. When sensory input from the ear changes, auditory networks can increase their activity and attention to an internal signal. Earwax, middle-ear problems, head or neck injury, and some medicines can also contribute. This does not mean the sound is imaginary. It is a real perception produced within the hearing system, and distress can make the brain monitor it more closely.",
+        "on_screen": ["Hearing change is common", "Several ear conditions contribute", "The perception is real"],
+        "icon": "inner-ear",
+        "source_ids": ["NIDCD:TINNITUS-2023", "AAO-HNSF:TINNITUS-2014"]
+      },
+      {
+        "heading": "Begin with ears, hearing, and medicines",
+        "narration": "Evaluation starts with a focused history, examination of the ear canal and eardrum, and usually a hearing assessment when tinnitus is persistent, one-sided, or accompanied by hearing difficulty. Bring a complete medicine and supplement list, including recent dose changes. Some medicines can affect hearing or provoke tinnitus, especially at particular doses or in combination with other risks. Never stop an antibiotic, cancer treatment, diuretic, or other prescribed drug on your own. The prescriber should weigh alternatives and urgency.",
+        "on_screen": ["Examine the ear", "Test hearing when indicated", "Review every medicine safely"],
+        "icon": "hearing-test",
+        "source_ids": ["AAO-HNSF:TINNITUS-2014", "NIDCD:TINNITUS-2023", "NICE:TINNITUS-2020"]
+      },
+      {
+        "heading": "Pulsatile tinnitus follows another pathway",
+        "narration": "A sound synchronized with the heartbeat is called pulsatile tinnitus. It may reflect blood flow near the ear and deserves medical evaluation rather than simple reassurance. The clinician confirms whether the rhythm truly follows the pulse, checks blood pressure, listens around the ear and neck, examines the eardrum, and chooses imaging based on those findings. Do not press firmly on neck vessels or try to diagnose the source yourself. The correct scan depends on the suspected vascular or structural cause.",
+        "on_screen": ["Does it match the heartbeat?", "Pulsatile tinnitus needs assessment", "Imaging must match the suspected cause"],
+        "icon": "pulse",
+        "source_ids": ["ACR:TINNITUS-2023", "NICE:TINNITUS-2020", "AAO-HNSF:EAR-REDFLAGS-2025"]
+      },
+      {
+        "heading": "Not everyone needs a scan",
+        "narration": "Routine brain imaging is not recommended for nonpulsatile tinnitus affecting both ears when hearing is symmetric and the neurologic and ear examinations are otherwise normal. Scanning becomes more relevant for pulsatile tinnitus, persistent one-sided tinnitus, asymmetric hearing loss, focal neurologic findings, or an abnormal structure seen behind the eardrum. Audiometry and examination come first because they determine whether imaging is useful and which technique is appropriate.",
+        "on_screen": ["Bilateral nonpulsatile tinnitus rarely needs imaging", "Red flags guide scanning", "Test hearing first"],
+        "icon": "scan",
+        "source_ids": ["AAO-HNSF:TINNITUS-2014", "ACR:TINNITUS-2023", "NICE:TINNITUS-2020"]
+      },
+      {
+        "heading": "Treatment targets cause, hearing, and distress",
+        "narration": "Now, let us go deeper. If examination finds wax, infection, or another treatable problem, management targets that cause. Hearing aids can improve access to external sound when hearing loss is present and may make tinnitus less prominent. Sound enrichment, such as gentle background audio at night, may help some people. Cognitive behavioral therapy has the clearest evidence for reducing tinnitus-related distress and improving quality of life. It changes the response to the sound rather than promising that the sound will disappear.",
+        "on_screen": ["Treat identifiable causes", "Support associated hearing loss", "CBT reduces tinnitus distress"],
+        "icon": "therapy",
+        "source_ids": ["AAO-HNSF:TINNITUS-2014", "COCHRANE:CBT-TINNITUS-2020", "NIDCD:TINNITUS-2023"]
+      },
+      {
+        "heading": "Avoid false cures and act on warning signs",
+        "narration": "Guidelines do not recommend ginkgo, zinc, melatonin, or other dietary supplements as routine treatment for persistent bothersome primary tinnitus. Medicines for anxiety or depression may be appropriate when those conditions are diagnosed, but they are not universal tinnitus cures. Seek urgent care when tinnitus arrives with sudden hearing loss, new facial weakness, other neurologic symptoms, severe continuous vertigo, or head injury. Immediate help is also essential if the distress causes thoughts of self-harm. Protect hearing from dangerous noise without living in complete silence.",
+        "on_screen": ["Supplements are not proven cures", "Sudden hearing loss needs urgent care", "Severe distress deserves immediate help"],
+        "icon": "warning",
+        "source_ids": ["AAO-HNSF:TINNITUS-2014", "NICE:TINNITUS-2020", "AAO-HNSF:SSNHL-2019"]
+      },
+      {
+        "heading": "Three essential takeaways",
+        "narration": "Number one, describe whether tinnitus is one-sided or bilateral, pulsatile or nonpulsatile, and whether hearing changed. Number two, start with ear examination and hearing assessment, then reserve imaging for patterns that can benefit from it. Number three, treat sudden hearing loss and neurologic symptoms urgently, while managing persistent bothersome tinnitus with hearing support, sound strategies, and cognitive behavioral therapy instead of unproven cures. A careful pattern turns an unsettling sound into a practical clinical plan.",
+        "on_screen": ["Classify the pattern", "Examine before imaging", "Use evidence-based care"],
+        "icon": "checklist",
+        "source_ids": ["AAO-HNSF:TINNITUS-2014", "NICE:TINNITUS-2020", "COCHRANE:CBT-TINNITUS-2020"]
+      }
+    ],
+    "closing": "On the next episode, we will explain when sudden hearing loss is an emergency, how it differs from a blocked ear, and why early assessment matters. Until then, protect your hearing and pay attention to changes, not just volume.",
+    "description": "Tinnitus can sound like ringing, buzzing, hissing, or a pulse. This episode explains hearing assessment, pulsatile and one-sided warning patterns, sudden hearing loss, imaging decisions, and evidence-based ways to reduce tinnitus distress.",
+    "thumbnail_text": "WHY DO YOUR EARS RING?"
+  }
+}
