@@ -1,0 +1,159 @@
+{
+  "schema": 2,
+  "editorial": {
+    "workflow": "chatgpt-reviewed-v20",
+    "reviewed_by": "ChatGPT medical editorial workflow",
+    "reviewed_on": "2026-09-04",
+    "episode_number": 24,
+    "language": "English",
+    "spoken_host_name_allowed": false,
+    "long_dashes_allowed": false,
+    "target_minutes": 10
+  },
+  "topic_id": "sudden-hearing-loss",
+  "topic": {
+    "id": "sudden-hearing-loss",
+    "title": "When Sudden Hearing Loss Is an Emergency",
+    "audience_question": "How can a suddenly blocked or muffled ear signal an inner-ear emergency?",
+    "pubmed_query": "sudden sensorineural hearing loss urgent audiometry corticosteroids intratympanic salvage MRI guideline",
+    "icon_keywords": ["hearing-loss", "ear", "audiogram", "emergency"],
+    "category": "otolaryngology"
+  },
+  "sources": [
+    {
+      "id": "AAO-HNSF:SSNHL-2019",
+      "title": "Clinical Practice Guideline: Sudden Hearing Loss Update",
+      "abstract": "This multidisciplinary guideline emphasizes prompt distinction between conductive and sensorineural hearing loss, audiometric confirmation as soon as possible and within 14 days, and evaluation for retrocochlear pathology with MRI or auditory brainstem response. Corticosteroids may be offered within two weeks, and intratympanic steroid salvage should be offered for incomplete recovery two to six weeks after onset.",
+      "journal": "Otolaryngology Head and Neck Surgery",
+      "year": "2019",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31369359/",
+      "doi": "10.1177/0194599819859885"
+    },
+    {
+      "id": "AAO-HNSF:SSNHL-OFFICIAL",
+      "title": "Sudden Hearing Loss Guideline Resources",
+      "abstract": "The official American Academy of Otolaryngology Head and Neck Surgery Foundation resource explains that prompt recognition and management of sudden sensorineural hearing loss may improve hearing recovery and quality of life and provides clinician and patient guidance.",
+      "journal": "American Academy of Otolaryngology Head and Neck Surgery Foundation",
+      "year": "2019",
+      "url": "https://www.entnet.org/quality-practice/quality-products/clinical-practice-guidelines/sudden-hearing-loss-update/",
+      "doi": null
+    },
+    {
+      "id": "NICE:HEARING-LOSS-2018",
+      "title": "Hearing Loss in Adults: Assessment and Management",
+      "abstract": "NICE recommends immediate referral for adults whose hearing loss developed over three days or less within the previous 30 days when an external or middle-ear cause does not explain it, with assessment within 24 hours by an ear, nose and throat service or emergency department.",
+      "journal": "National Institute for Health and Care Excellence",
+      "year": "2018",
+      "url": "https://www.nice.org.uk/guidance/ng98/chapter/recommendations",
+      "doi": null
+    },
+    {
+      "id": "NIDCD:SUDDEN-DEAFNESS-2018",
+      "title": "Sudden Sensorineural Hearing Loss",
+      "abstract": "The National Institute on Deafness and Other Communication Disorders describes sudden deafness as rapid unexplained inner-ear hearing loss, often noticed on waking or during a phone call and sometimes accompanied by ear fullness, dizziness, or tinnitus. It advises immediate medical attention and identifies corticosteroids as the most common treatment.",
+      "journal": "National Institute on Deafness and Other Communication Disorders",
+      "year": "2018",
+      "url": "https://www.nidcd.nih.gov/health/sudden-deafness",
+      "doi": null
+    },
+    {
+      "id": "COCHRANE:IT-STEROIDS-2022",
+      "title": "Intratympanic Corticosteroids for Sudden Sensorineural Hearing Loss",
+      "abstract": "This systematic review found mostly low- or very low-certainty evidence. Intratympanic treatment may have little or no advantage over systemic steroids as primary therapy, while low-certainty evidence suggests possible benefit as secondary treatment. Route-specific risks include ear pain, dizziness, eardrum perforation, and systemic glucose effects.",
+      "journal": "Cochrane Database of Systematic Reviews",
+      "year": "2022",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35867413/",
+      "doi": "10.1002/14651858.CD008080.pub2"
+    },
+    {
+      "id": "COCHRANE:SYSTEMIC-STEROIDS-2013",
+      "title": "Steroids for Idiopathic Sudden Sensorineural Hearing Loss",
+      "abstract": "This Cochrane review found that the available randomized evidence was contradictory and of insufficient quality to establish a firm treatment effect for systemic corticosteroids. The uncertainty supports shared decision-making rather than guarantees of recovery.",
+      "journal": "Cochrane Database of Systematic Reviews",
+      "year": "2013",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23818120/",
+      "doi": "10.1002/14651858.CD003998.pub3"
+    },
+    {
+      "id": "ACR:HEARING-VERTIGO",
+      "title": "ACR Appropriateness Criteria: Hearing Loss and Vertigo",
+      "abstract": "This evidence-based imaging framework distinguishes conductive from sensorineural hearing loss and supports targeted temporal-bone or internal-auditory-canal imaging according to the suspected anatomic site rather than routine nontargeted head imaging.",
+      "journal": "American College of Radiology",
+      "year": "2023",
+      "url": "https://acsearch.acr.org/docs/69488/Narrative/",
+      "doi": null
+    }
+  ],
+  "episode": {
+    "title": "E24: When Sudden Hearing Loss Is an Emergency",
+    "hook": "Hello and welcome to the Your Only Doc podcast. Imagine waking up and thinking your right ear is plugged. The phone sounds normal on the left but strangely distant on the right. There may be pressure, ringing, or mild dizziness, yet no pain. It is tempting to wait for wax or congestion to clear. But sudden inner-ear hearing loss can feel exactly like a blocked ear, and the safest response is urgent assessment rather than guesswork.",
+    "sections": [
+      {
+        "heading": "The high yield summary",
+        "narration": "Too busy? Here is your high yield summary. Hearing that drops suddenly over hours or up to three days, especially in one ear, can be sudden sensorineural hearing loss. Treat it as an urgent medical problem even if the ear only feels full. A clinician must distinguish outer- or middle-ear blockage from inner-ear or nerve loss, arrange an audiogram promptly, and discuss time-sensitive treatment. Do not wait for pain, repeatedly clean the ear, or start leftover drops. Facial weakness, numbness, trouble speaking, severe imbalance, or other stroke symptoms require emergency care immediately.",
+        "on_screen": ["Sudden loss can feel like blockage", "Arrange urgent hearing assessment", "Neurologic signs need emergency care"],
+        "icon": "emergency",
+        "source_ids": ["AAO-HNSF:SSNHL-2019", "NICE:HEARING-LOSS-2018", "NIDCD:SUDDEN-DEAFNESS-2018"]
+      },
+      {
+        "heading": "Blocked feeling does not prove blockage",
+        "narration": "Conductive hearing loss occurs when sound cannot travel normally through the ear canal or middle ear, as with wax, fluid, infection, or an eardrum problem. Sensorineural loss arises in the cochlea or hearing nerve. Both can sound muffled. Sudden sensorineural loss is often painless and may come with tinnitus, fullness, or vertigo. Because symptoms overlap, seeing no wax at home and feeling no pain cannot settle the diagnosis.",
+        "on_screen": ["Conductive blocks sound transmission", "Sensorineural affects inner ear or nerve", "Symptoms can overlap"],
+        "icon": "inner-ear",
+        "source_ids": ["AAO-HNSF:SSNHL-2019", "NIDCD:SUDDEN-DEAFNESS-2018", "ACR:HEARING-VERTIGO"]
+      },
+      {
+        "heading": "Recognize the moment hearing changed",
+        "narration": "Some people notice the loss on waking. Others discover it when a phone is moved from one ear to the other or when sound suddenly shifts during conversation. Write down the onset time, affected ear, recent infection, noise or pressure exposure, head injury, new medicines, dizziness, ringing, and neurologic symptoms. Bilateral loss, repeated episodes, and focal neurologic findings are especially important because they may point away from a routine idiopathic presentation.",
+        "on_screen": ["Record onset time", "Compare ears safely", "Note associated symptoms"],
+        "icon": "clock",
+        "source_ids": ["AAO-HNSF:SSNHL-2019", "NIDCD:SUDDEN-DEAFNESS-2018"]
+      },
+      {
+        "heading": "Examination separates pathways",
+        "narration": "The first task is to look for an external or middle-ear explanation. Otoscopy can reveal wax, infection, fluid, trauma, or eardrum disease. Bedside tuning-fork tests can support the distinction between conductive and sensorineural loss but do not replace formal testing. Pure-tone audiometry measures hearing by frequency and confirms the type and degree of loss. The guideline calls for audiometry as soon as possible and within 14 days, but the referral itself should not be delayed while waiting for a convenient test date.",
+        "on_screen": ["Examine canal and eardrum", "Tuning forks guide the pathway", "Audiometry confirms the loss"],
+        "icon": "audiogram",
+        "source_ids": ["AAO-HNSF:SSNHL-2019", "NICE:HEARING-LOSS-2018"]
+      },
+      {
+        "heading": "Treatment decisions are time-sensitive",
+        "narration": "For confirmed or strongly suspected idiopathic sudden sensorineural hearing loss, clinicians may offer corticosteroids within two weeks of onset. Treatment can be systemic, delivered through the eardrum in selected circumstances, or planned in stages. The choice depends on timing, hearing severity, diabetes, blood pressure, infection risk, pregnancy, and other conditions. Evidence is imperfect, so steroids are an option discussed through shared decision-making, not a guaranteed cure and not a reason to self-medicate.",
+        "on_screen": ["Discuss treatment early", "Route depends on the patient", "Recovery cannot be guaranteed"],
+        "icon": "medicine",
+        "source_ids": ["AAO-HNSF:SSNHL-2019", "COCHRANE:SYSTEMIC-STEROIDS-2013", "COCHRANE:IT-STEROIDS-2022"]
+      },
+      {
+        "heading": "Incomplete recovery still has a window",
+        "narration": "If hearing recovery is incomplete, the guideline recommends offering or arranging intratympanic steroid salvage between two and six weeks after onset. Hyperbaric oxygen combined with steroids is another option in defined early or salvage windows where available, but it has costs, access limits, and risks. Follow-up audiometry at the end of treatment and again within six months documents recovery and guides hearing aids, rehabilitation, tinnitus care, or other support when loss remains.",
+        "on_screen": ["Salvage treatment has a window", "Hyperbaric oxygen is an option", "Repeat the audiogram"],
+        "icon": "follow-up",
+        "source_ids": ["AAO-HNSF:SSNHL-2019", "COCHRANE:IT-STEROIDS-2022"]
+      },
+      {
+        "heading": "Why diagnosis requires more than one test",
+        "narration": "Now, let us go deeper. The conventional audiometric definition is a sensorineural drop of at least 30 decibels across three consecutive frequencies within 72 hours, although clinically important sudden losses can present differently. Most cases remain idiopathic after evaluation. The workup is targeted: history and examination look for trauma, infection, autoimmune or neurologic clues, and MRI or auditory brainstem response evaluates the pathway behind the cochlea. Routine head CT and broad laboratory panels are not recommended without a specific indication.",
+        "on_screen": ["Audiogram defines the pattern", "Many cases remain idiopathic", "Target tests to clinical clues"],
+        "icon": "clinical-chart",
+        "source_ids": ["AAO-HNSF:SSNHL-2019", "ACR:HEARING-VERTIGO"]
+      },
+      {
+        "heading": "Act safely before the appointment",
+        "narration": "Seek same-day or next-day urgent assessment for unexplained sudden hearing loss rather than watching it for a week. Go directly to emergency care if hearing loss comes with facial droop, one-sided weakness or numbness, speech difficulty, severe new headache, inability to walk, major head trauma, or rapidly worsening neurologic symptoms. Avoid inserting objects, flushing the ear, or using unprescribed drops. Bring your medicine list and timeline, and protect the better-hearing ear from loud sound while the cause is being evaluated.",
+        "on_screen": ["Do not wait a week", "Stroke signs need emergency care", "Do not instrument the ear"],
+        "icon": "warning",
+        "source_ids": ["NICE:HEARING-LOSS-2018", "AAO-HNSF:SSNHL-2019", "NIDCD:SUDDEN-DEAFNESS-2018"]
+      },
+      {
+        "heading": "Three essential takeaways",
+        "narration": "Number one, a suddenly muffled or full ear can represent inner-ear hearing loss even without pain, so arrange urgent assessment. Number two, examination and audiometry must distinguish conductive from sensorineural loss, while targeted MRI or other testing looks for specific causes. Number three, treatment choices have defined early and salvage windows, but benefits are not guaranteed, so use specialist guidance and follow-up audiograms rather than self-treatment. The most preventable mistake is assuming that every blocked feeling will clear by itself.",
+        "on_screen": ["Treat sudden loss as urgent", "Confirm the hearing pathway", "Respect treatment windows"],
+        "icon": "checklist",
+        "source_ids": ["AAO-HNSF:SSNHL-2019", "NICE:HEARING-LOSS-2018", "COCHRANE:IT-STEROIDS-2022"]
+      }
+    ],
+    "closing": "On the next episode, we will explain how loud is too loud for your ears, how noise damage accumulates, and how to protect hearing without giving up music or work. Until then, take sudden changes seriously and protect the hearing you have.",
+    "description": "Sudden sensorineural hearing loss can feel like an ordinary blocked ear. This episode explains urgent recognition, conductive versus inner-ear loss, audiometry, targeted imaging, steroid treatment windows, salvage care, and emergency neurologic warning signs.",
+    "thumbnail_text": "SUDDEN HEARING LOSS? ACT NOW"
+  }
+}
