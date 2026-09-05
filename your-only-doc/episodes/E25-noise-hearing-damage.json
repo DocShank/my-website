@@ -1,0 +1,150 @@
+{
+  "schema": 2,
+  "editorial": {
+    "workflow": "chatgpt-reviewed-v20",
+    "reviewed_by": "ChatGPT medical editorial workflow",
+    "reviewed_on": "2026-09-05",
+    "episode_number": 25,
+    "language": "English",
+    "spoken_host_name_allowed": false,
+    "long_dashes_allowed": false,
+    "target_minutes": 10
+  },
+  "topic_id": "noise-hearing-damage",
+  "topic": {
+    "id": "noise-hearing-damage",
+    "title": "How Loud Is Too Loud for Your Ears",
+    "audience_question": "How do volume, listening time, and distance combine to damage hearing?",
+    "pubmed_query": "noise induced hearing loss safe listening sound dose earplugs prevention guideline",
+    "icon_keywords": ["hearing", "decibel", "headphones", "ear-protection"],
+    "category": "otolaryngology"
+  },
+  "sources": [
+    {
+      "id": "WHO:SAFE-LISTENING-2026",
+      "title": "Deafness and Hearing Loss: Safe Listening",
+      "abstract": "WHO explains that hearing risk depends on sound level, duration, and frequency of exposure. It advises keeping personal-device volume at no more than 60 percent, using well-fitted noise-cancelling headphones, taking quiet breaks, increasing distance from sound sources, using hearing protection, and seeking assessment for persistent tinnitus or hearing difficulty. Its adult reference examples include 80 decibels for 40 hours per week and 90 decibels for four hours per week.",
+      "journal": "World Health Organization",
+      "year": "2026",
+      "url": "https://www.who.int/news-room/questions-and-answers/item/deafness-and-hearing-loss-safe-listening",
+      "doi": null
+    },
+    {
+      "id": "WHO-ITU:DEVICES-2019",
+      "title": "Safe Listening Devices and Systems: A WHO-ITU Standard",
+      "abstract": "The WHO-ITU standard recommends sound-dose tracking, personalized listening profiles, volume-limiting options, and an adult reference allowance based on 80 decibels for 40 hours per week. A more protective mode for children uses 75 decibels for 40 hours per week.",
+      "journal": "World Health Organization and International Telecommunication Union",
+      "year": "2019",
+      "url": "https://www.who.int/publications/i/item/9789241515276",
+      "doi": null
+    },
+    {
+      "id": "WHO:VENUES-2022",
+      "title": "WHO Global Standard for Safe Listening Venues and Events",
+      "abstract": "The WHO venue standard promotes sound-level monitoring, access to hearing protection, quiet zones, staff information, and venue design that reduces unsafe exposure while preserving the listening experience.",
+      "journal": "World Health Organization",
+      "year": "2022",
+      "url": "https://www.who.int/publications/i/item/9789240043114",
+      "doi": null
+    },
+    {
+      "id": "NIOSH:NOISE-EXPOSURE-2024",
+      "title": "Understand Noise Exposure",
+      "abstract": "NIOSH sets a recommended occupational exposure limit of 85 A-weighted decibels over an eight-hour shift and uses a three-decibel exchange rate, meaning recommended exposure time halves with each three-decibel increase. It recommends sound-level measurement, engineering controls, hearing protection, and audiometric monitoring for repeatedly exposed workers.",
+      "journal": "National Institute for Occupational Safety and Health",
+      "year": "2024",
+      "url": "https://www.cdc.gov/niosh/noise/prevent/understand.html",
+      "doi": null
+    },
+    {
+      "id": "NIDCD:NIHL-2025",
+      "title": "Noise-Induced Hearing Loss",
+      "abstract": "NIDCD explains that noise injury can follow one intense impulse or repeated loud exposure. Damage commonly affects cochlear sensory hair cells, which do not regrow in humans. Warning signs include muffled or distorted sound, difficulty understanding speech, and tinnitus. Prevention includes reducing level, time, and proximity and using hearing protection.",
+      "journal": "National Institute on Deafness and Other Communication Disorders",
+      "year": "2025",
+      "url": "https://www.nidcd.nih.gov/health/noise-induced-hearing-loss",
+      "doi": null
+    },
+    {
+      "id": "JAMAOTO:EARPLUG-RCT-2016",
+      "title": "Effectiveness of Earplugs in Preventing Recreational Noise-Induced Hearing Loss",
+      "abstract": "In a randomized clinical trial of 51 adults attending a loud outdoor music festival, earplug use reduced temporary post-exposure hearing-threshold shifts and tinnitus compared with no earplugs. The study supports earplugs as one practical layer of protection during loud recreational exposure.",
+      "journal": "JAMA Otolaryngology Head and Neck Surgery",
+      "year": "2016",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27054284/",
+      "doi": "10.1001/jamaoto.2016.0225"
+    }
+  ],
+  "episode": {
+    "title": "E25: How Loud Is Too Loud for Your Ears",
+    "hook": "Hello and welcome to the Your Only Doc podcast. Imagine leaving a concert with ringing ears and voices that sound slightly muffled. By morning, everything seems normal, so you assume no harm was done. But hearing risk is not determined by whether sound felt enjoyable or painful. It depends on how loud it was, how long it lasted, how often it happens, and how close you were to the source.",
+    "sections": [
+      {
+        "heading": "The high yield summary",
+        "narration": "Too busy? Here is your high yield summary. Sound dose combines volume and time. At 80 decibels, WHO gives adults a reference allowance of up to 40 hours per week, but at 90 decibels it falls to four hours. Lower the volume, shorten exposure, move away from speakers or machinery, take quiet breaks, and use well-fitted earplugs or earmuffs. Persistent ringing, muffled hearing, or difficulty following speech deserves a hearing check. Sudden hearing loss needs urgent assessment.",
+        "on_screen": ["Volume plus time equals dose", "Lower, shorten, and step away", "Persistent symptoms need a hearing check"],
+        "icon": "decibel",
+        "source_ids": ["WHO:SAFE-LISTENING-2026", "WHO-ITU:DEVICES-2019", "NIDCD:NIHL-2025"]
+      },
+      {
+        "heading": "There is no single magic number",
+        "narration": "A decibel reading is only part of the story. The scale is logarithmic, so a modest numerical increase represents much more sound energy. WHO's weekly examples show the practical effect: 80 decibels for 40 hours, 85 for about twelve and a half hours, and 90 for four hours. These are risk-management references, not promises that every ear responds identically. Previous injury, age, medicines, genetics, and simultaneous exposures can change susceptibility.",
+        "on_screen": ["Decibels use a logarithmic scale", "Louder means much less time", "Individual risk varies"],
+        "icon": "sound-meter",
+        "source_ids": ["WHO:SAFE-LISTENING-2026", "WHO-ITU:DEVICES-2019", "NIOSH:NOISE-EXPOSURE-2024"]
+      },
+      {
+        "heading": "What loud sound does inside the ear",
+        "narration": "Sound vibrations travel into the cochlea, where sensory hair cells help convert movement into electrical signals for the brain. Excessive sound can injure and eventually destroy these cells. Human cochlear hair cells do not grow back. Damage may follow one extreme blast, such as an explosion, or accumulate gradually from repeated music, tools, traffic, or machinery. Because gradual loss is easy to miss, difficulty hearing speech in noise may appear before someone recognizes an obvious hearing problem.",
+        "on_screen": ["The cochlea converts vibration", "Hair-cell damage can be permanent", "Gradual loss may hide"],
+        "icon": "inner-ear",
+        "source_ids": ["NIDCD:NIHL-2025", "WHO:SAFE-LISTENING-2026"]
+      },
+      {
+        "heading": "Headphones are not automatically dangerous",
+        "narration": "The danger is the sound dose reaching the ear, not whether the speaker sits inside a headphone. WHO advises keeping device volume at no more than 60 percent of maximum and, when possible, monitoring the estimated level and exposure time. Well-fitted noise-cancelling headphones can help because they reduce the urge to overpower background noise. Volume percentage is only a practical starting point, since different devices and recordings produce different outputs. Let exposure alerts guide you instead of dismissing them.",
+        "on_screen": ["Dose matters more than device type", "Start below 60 percent", "Use exposure alerts"],
+        "icon": "headphones",
+        "source_ids": ["WHO:SAFE-LISTENING-2026", "WHO-ITU:DEVICES-2019"]
+      },
+      {
+        "heading": "Protect your ears at concerts and events",
+        "narration": "At a concert, nightclub, wedding, or stadium, create several layers of protection. Do not stand beside loudspeakers. Wear properly inserted earplugs, step into a quieter area for breaks, and shorten the total time near intense sound. WHO recommends monitored sound levels, available hearing protection, and designated quiet zones at venues. In a randomized music-festival trial, people given earplugs had fewer temporary hearing-threshold shifts and less tinnitus than unprotected attendees. Protection does not require giving up music.",
+        "on_screen": ["Move away from loudspeakers", "Wear well-fitted earplugs", "Take quiet breaks"],
+        "icon": "ear-protection",
+        "source_ids": ["WHO:VENUES-2022", "WHO:SAFE-LISTENING-2026", "JAMAOTO:EARPLUG-RCT-2016"]
+      },
+      {
+        "heading": "Workplace noise needs a system",
+        "narration": "For occupational exposure, NIOSH recommends no more than 85 A-weighted decibels averaged across eight hours. For every three-decibel increase, the recommended exposure time halves. If you must raise your voice to speak with someone at arm's length, treat the area as potentially hazardous. The best response starts with quieter equipment, barriers, maintenance, and reduced time near the source. Earplugs and earmuffs are important, but they should support noise control rather than replace it.",
+        "on_screen": ["85 dBA across eight hours", "Three dB halves the time", "Control the noise at its source"],
+        "icon": "workplace",
+        "source_ids": ["NIOSH:NOISE-EXPOSURE-2024", "NIDCD:NIHL-2025"]
+      },
+      {
+        "heading": "Temporary recovery is not a safety test",
+        "narration": "Now, let us go deeper. After loud exposure, hearing can feel muffled and then seem to recover over 16 to 48 hours. That temporary threshold shift should be treated as a warning, not proof that the ear escaped injury. Research summarized by NIDCD suggests residual damage may remain even when hearing seems normal again. Repeated episodes can coexist with tinnitus and later difficulty separating speech from background noise. Your ears do not become stronger by being repeatedly overexposed.",
+        "on_screen": ["Muffling can be temporary", "Recovery does not prove safety", "Repeated exposure accumulates"],
+        "icon": "warning",
+        "source_ids": ["NIDCD:NIHL-2025", "WHO:SAFE-LISTENING-2026"]
+      },
+      {
+        "heading": "Know when to arrange a hearing test",
+        "narration": "Arrange a professional hearing assessment if ringing persists, sounds stay muffled, you struggle with high-pitched sounds, or conversation becomes difficult on the phone or in noisy rooms. Workers with repeated hazardous exposure may need baseline and periodic audiometry through a hearing-loss prevention program. A sudden drop in hearing, especially in one ear, is different from gradual noise injury and requires urgent assessment. Severe dizziness, facial weakness, or other neurologic symptoms should prompt emergency care.",
+        "on_screen": ["Persistent tinnitus needs review", "Speech difficulty can be an early clue", "Sudden loss is urgent"],
+        "icon": "audiogram",
+        "source_ids": ["WHO:SAFE-LISTENING-2026", "NIOSH:NOISE-EXPOSURE-2024", "NIDCD:NIHL-2025"]
+      },
+      {
+        "heading": "Three essential takeaways",
+        "narration": "Number one, judge sound by dose: louder sound allows far less safe listening time. Number two, reduce risk with several layers, including lower volume, shorter exposure, greater distance, quiet breaks, and correctly fitted hearing protection. Number three, do not use pain or next-day recovery as proof of safety. Persistent tinnitus or hearing difficulty deserves testing, while sudden hearing loss needs urgent care. Protecting your hearing today preserves communication, music, work, and connection for the future.",
+        "on_screen": ["Think in sound dose", "Use several protection layers", "Act on warning signs"],
+        "icon": "checklist",
+        "source_ids": ["WHO:SAFE-LISTENING-2026", "NIOSH:NOISE-EXPOSURE-2024", "NIDCD:NIHL-2025"]
+      }
+    ],
+    "closing": "On the next episode, we will explain why your eyes feel dry, what destabilizes the tear film, and when irritation needs an eye examination. Until then, turn the volume down before your ears have to ask.",
+    "description": "Hearing damage depends on sound level, exposure time, frequency, and distance. This episode explains sound dose, headphone and workplace risks, concerts, hearing protection, temporary threshold shifts, tinnitus, audiometry, and urgent warning signs.",
+    "thumbnail_text": "HOW LOUD IS TOO LOUD?"
+  }
+}
