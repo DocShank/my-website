@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "workflow": "chatgpt-reviewed-v20",
-  "updated_at": "2026-09-04T09:14:00Z",
-  "next_episode_number": 25,
+  "updated_at": "2026-09-05T08:55:00Z",
+  "next_episode_number": 26,
   "next_planned_topic": {
-    "id": "noise-hearing-damage",
-    "title": "How Loud Is Too Loud for Your Ears",
-    "reason": "It follows sudden hearing loss with a prevention-focused explanation of cumulative noise injury, safe listening, hearing protection, and early warning signs."
+    "id": "dry-eye",
+    "title": "Why Your Eyes Feel Dry All the Time",
+    "reason": "It begins a practical eye-health sequence with tear-film function, screen-related symptoms, environmental triggers, safe self-care, and warning signs that need examination."
   },
   "packets": [
     {
@@ -120,6 +120,13 @@
       "title": "E24: When Sudden Hearing Loss Is an Emergency",
       "file": "episodes/E24-sudden-hearing-loss.json",
       "status": "ready"
+    },
+    {
+      "episode_number": 25,
+      "topic_id": "noise-hearing-damage",
+      "title": "E25: How Loud Is Too Loud for Your Ears",
+      "file": "episodes/E25-noise-hearing-damage.json",
+      "status": "ready"
     }
   ],
   "evergreen_sequence": [
@@ -178,6 +185,10 @@
     {
       "id": "noise-hearing-damage",
       "title": "How Loud Is Too Loud for Your Ears"
+    },
+    {
+      "id": "dry-eye",
+      "title": "Why Your Eyes Feel Dry All the Time"
     }
   ],
   "editorial_policy": {
