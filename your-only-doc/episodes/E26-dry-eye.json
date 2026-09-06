@@ -1,0 +1,150 @@
+{
+  "schema": 2,
+  "editorial": {
+    "workflow": "chatgpt-reviewed-v20",
+    "reviewed_by": "ChatGPT medical editorial workflow",
+    "reviewed_on": "2026-09-06",
+    "episode_number": 26,
+    "language": "English",
+    "spoken_host_name_allowed": false,
+    "long_dashes_allowed": false,
+    "target_minutes": 10
+  },
+  "topic_id": "dry-eye",
+  "topic": {
+    "id": "dry-eye",
+    "title": "Why Your Eyes Feel Dry All the Time",
+    "audience_question": "Why can eyes feel dry, gritty, watery, or blurry, and what can safely help?",
+    "pubmed_query": "dry eye disease tear film screen blinking artificial tears diagnosis management TFOS DEWS III",
+    "icon_keywords": ["dry-eye", "tear-film", "blinking", "eye-drops"],
+    "category": "ophthalmology"
+  },
+  "sources": [
+    {
+      "id": "NEI:DRY-EYE-2025",
+      "title": "Dry Eye",
+      "abstract": "The National Eye Institute explains that dry eye occurs when tears are insufficient or do not function correctly. Symptoms include burning, scratchiness, redness, light sensitivity, and blurred vision. Causes include reduced tear production, rapid evaporation, and poor tear quality. Mild disease may improve with artificial tears and environmental changes, while persistent or severe symptoms require examination.",
+      "journal": "National Eye Institute",
+      "year": "2025",
+      "url": "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/dry-eye",
+      "doi": null
+    },
+    {
+      "id": "TFOS:DEWS3-DIAGNOSIS-2025",
+      "title": "TFOS DEWS III: Diagnostic Methodology",
+      "abstract": "This international consensus report describes dry eye as a multifactorial symptomatic disease and recommends combining symptoms with objective evidence of tear-film or ocular-surface dysfunction. It also emphasizes differential diagnosis, examination of the eyelids and tear film, and identification of risk factors.",
+      "journal": "American Journal of Ophthalmology",
+      "year": "2025",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40451408/",
+      "doi": "10.1016/j.ajo.2025.05.033"
+    },
+    {
+      "id": "TFOS:DEWS3-MANAGEMENT-2025",
+      "title": "TFOS DEWS III: Management and Therapy",
+      "abstract": "The report provides an evidence-based framework for individualized dry-eye management. Initial care commonly includes education, environmental and behavioral changes, eyelid care when indicated, and ocular lubricants, with prescription anti-inflammatory, tear-conserving, or other targeted treatments selected according to disease mechanisms and severity.",
+      "journal": "American Journal of Ophthalmology",
+      "year": "2025",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40467022/",
+      "doi": "10.1016/j.ajo.2025.05.018"
+    },
+    {
+      "id": "AAO:DRY-EYE-2025",
+      "title": "What Is Dry Eye? Symptoms, Causes and Treatment",
+      "abstract": "The American Academy of Ophthalmology describes burning, grittiness, fluctuating blur, redness, and reflex tearing as possible dry-eye symptoms. It outlines tear-film dysfunction, meibomian-gland problems, environmental triggers, medicines, contact lenses, and systemic disease as contributors.",
+      "journal": "American Academy of Ophthalmology",
+      "year": "2025",
+      "url": "https://www.aao.org/eye-health/diseases/what-is-dry-eye",
+      "doi": null
+    },
+    {
+      "id": "OPHTHALMOLOGY:SCREEN-REVIEW-2021",
+      "title": "The Relationship Between Dry Eye Disease and Digital Screen Use",
+      "abstract": "This peer-reviewed review found that digital-device use is associated with dry-eye symptoms and altered blinking dynamics. Reduced blink frequency and incomplete blinking during concentrated screen tasks can destabilize the tear film and increase evaporation.",
+      "journal": "Clinical Ophthalmology",
+      "year": "2021",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8439964/",
+      "doi": "10.2147/OPTH.S321591"
+    },
+    {
+      "id": "CLINEXPOTOM:ARTIFICIAL-TEARS-2023",
+      "title": "Artificial Tears: A Systematic Review",
+      "abstract": "A systematic review of 64 studies found that artificial tears generally improve dry-eye symptoms, although no single formulation was consistently superior. Benefits for symptoms commonly appeared with regular use over weeks, while objective signs could take longer to improve.",
+      "journal": "Clinical and Experimental Optometry",
+      "year": "2023",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36647552/",
+      "doi": "10.1080/08164622.2023.2170212"
+    }
+  ],
+  "episode": {
+    "title": "E26: Why Your Eyes Feel Dry All the Time",
+    "hook": "Hello and welcome to the Your Only Doc podcast. You finish an hour on your phone and suddenly your eyes burn, vision goes slightly blurry, and it feels as if sand is trapped under your eyelids. Strangely, your eyes may even start watering. You wipe them, blink a few times, and wonder how an eye can feel dry while producing tears. The answer lies in the thin tear film covering every blink.",
+    "sections": [
+      {
+        "heading": "The high yield summary",
+        "narration": "Too busy? Here is your high yield summary. Dry eye is not simply a shortage of water. Tears need stable watery, oily, and mucus-related components to spread across the eye and resist evaporation. Long screen sessions, wind, air conditioning, contact lenses, eyelid-gland problems, medicines, age, and some autoimmune diseases can disrupt that system. Blink fully, take screen breaks, avoid direct airflow, and consider lubricating drops for mild symptoms. Pain, marked redness, light sensitivity, injury, discharge, or persistent blurred vision needs an eye examination.",
+        "on_screen": ["Dry eye is tear-film dysfunction", "Blink and reduce evaporation", "Pain or persistent blur needs review"],
+        "icon": "tear-film",
+        "source_ids": ["NEI:DRY-EYE-2025", "TFOS:DEWS3-DIAGNOSIS-2025", "AAO:DRY-EYE-2025"]
+      },
+      {
+        "heading": "Your tears are a working surface",
+        "narration": "The tear film keeps the cornea smooth, comfortable, and optically clear. Oil from the meibomian glands slows evaporation, the watery portion supplies moisture, and surface molecules help tears spread evenly. Dry eye develops when too little tear is produced, evaporation becomes excessive, or the mixture becomes unstable. Each blink should redistribute that film. When it breaks apart too quickly, exposed spots trigger burning, grittiness, fluctuating blur, and sometimes inflammation.",
+        "on_screen": ["Oil slows evaporation", "Tears create a smooth optical surface", "Instability causes symptoms"],
+        "icon": "eye-layers",
+        "source_ids": ["NEI:DRY-EYE-2025", "TFOS:DEWS3-DIAGNOSIS-2025"]
+      },
+      {
+        "heading": "Why dry eyes can water",
+        "narration": "Watery eyes do not rule out dry eye. An unstable surface can stimulate reflex tearing, producing a sudden flood of watery tears. Those tears may overflow before correcting the missing oil or poor tear quality, so the eye can water and still feel irritated. Watering can also come from allergy, infection, an eyelid problem, or a blocked drainage pathway. If it is persistent, one-sided, painful, or accompanied by discharge, it should not be diagnosed by symptoms alone.",
+        "on_screen": ["Irritation can trigger reflex tears", "Watery tears may not stay", "Other causes must be considered"],
+        "icon": "watery-eye",
+        "source_ids": ["AAO:DRY-EYE-2025", "TFOS:DEWS3-DIAGNOSIS-2025"]
+      },
+      {
+        "heading": "Screens change the way you blink",
+        "narration": "Screens do not drain moisture directly from the eye. The important change is behavior. During concentrated reading, gaming, or scrolling, people often blink less frequently and more incompletely. That gives tears more time to evaporate, especially in a dry room or under a fan. Place the screen slightly below eye level, pause regularly, look away, and perform several gentle complete blinks. The goal is not a magic timing rule. It is interrupting long periods of staring and restoring a complete blink.",
+        "on_screen": ["Screen focus alters blinking", "Incomplete blinks expose the surface", "Pause and blink completely"],
+        "icon": "screen-blink",
+        "source_ids": ["OPHTHALMOLOGY:SCREEN-REVIEW-2021", "NEI:DRY-EYE-2025"]
+      },
+      {
+        "heading": "Common triggers beyond the screen",
+        "narration": "Now, let us go deeper. Dry air, smoke, wind, air conditioning, and contact-lens wear can worsen evaporation. Antihistamines, some antidepressants, decongestants, isotretinoin, and other medicines may contribute, but do not stop a prescribed medicine without discussing it. Blepharitis and blocked meibomian glands are common local causes. Reduced tear production may also occur with age or systemic disease, including Sjogren syndrome. Dry mouth, joint symptoms, or persistent severe dryness deserves a broader clinical review.",
+        "on_screen": ["Environment and medicines matter", "Eyelid glands can become blocked", "Systemic disease may contribute"],
+        "icon": "risk-factors",
+        "source_ids": ["NEI:DRY-EYE-2025", "AAO:DRY-EYE-2025", "TFOS:DEWS3-DIAGNOSIS-2025"]
+      },
+      {
+        "heading": "What you can safely try first",
+        "narration": "For mild, occasional symptoms, reduce direct fan or air-conditioner flow, use a humidifier if the room is very dry, take breaks, blink completely, and pause contact-lens wear if lenses are irritating. Artificial tears can improve symptoms, but formulations differ. If you need drops frequently, ask whether a preservative-free option is appropriate. Do not use redness-relief drops repeatedly as a substitute for diagnosis, and never share eye-drop bottles. Warm compresses and lid hygiene may help some eyelid-gland problems, but technique and diagnosis matter.",
+        "on_screen": ["Reduce airflow", "Use lubricants appropriately", "Treat eyelid disease when present"],
+        "icon": "eye-drops",
+        "source_ids": ["TFOS:DEWS3-MANAGEMENT-2025", "CLINEXPOTOM:ARTIFICIAL-TEARS-2023", "NEI:DRY-EYE-2025"]
+      },
+      {
+        "heading": "Why one bottle does not fit everyone",
+        "narration": "If symptoms continue, an eye professional may examine the lids, tear volume, tear breakup, staining, and the corneal surface. Treatment should match the mechanism. Some people need prescription anti-inflammatory drops, management of meibomian-gland dysfunction, tear-conserving procedures, or treatment of an underlying condition. Dry-eye tests and symptoms do not always match perfectly, which is another reason not to keep cycling through random products. Severe or persistent disease deserves a structured diagnosis rather than stronger self-treatment.",
+        "on_screen": ["Diagnosis guides treatment", "Different mechanisms need different care", "Persistent symptoms need examination"],
+        "icon": "eye-exam",
+        "source_ids": ["TFOS:DEWS3-DIAGNOSIS-2025", "TFOS:DEWS3-MANAGEMENT-2025", "NEI:DRY-EYE-2025"]
+      },
+      {
+        "heading": "Warning signs that are not routine dryness",
+        "narration": "Seek prompt eye care for significant pain, strong light sensitivity, persistent loss of vision, a very red eye, thick discharge, an eye injury, or chemical exposure. Contact-lens wearers with pain or redness need particular caution because corneal infection can progress quickly. Sudden flashes, many new floaters, or a curtain-like shadow are not dry-eye symptoms and require urgent retinal assessment. If a chemical enters the eye, begin immediate irrigation with clean water and seek emergency guidance instead of waiting for lubricating drops to work.",
+        "on_screen": ["Pain and light sensitivity are warnings", "Contact-lens redness needs caution", "Chemical exposure requires irrigation"],
+        "icon": "eye-warning",
+        "source_ids": ["AAO:DRY-EYE-2025", "NEI:DRY-EYE-2025", "TFOS:DEWS3-DIAGNOSIS-2025"]
+      },
+      {
+        "heading": "Three essential takeaways",
+        "narration": "Number one, dry eye is usually a tear-film problem involving production, evaporation, or tear quality, so watering can still occur. Number two, protect the surface with complete blinking, screen breaks, less direct airflow, sensible contact-lens use, and appropriate lubricating drops. Number three, persistent symptoms need a cause-based eye examination, while pain, marked redness, light sensitivity, discharge, injury, or vision loss requires prompt care. Comfortable eyes depend on a stable surface, not simply on adding more liquid.",
+        "on_screen": ["Understand the tear film", "Reduce triggers and lubricate safely", "Recognize urgent warning signs"],
+        "icon": "checklist",
+        "source_ids": ["TFOS:DEWS3-DIAGNOSIS-2025", "TFOS:DEWS3-MANAGEMENT-2025", "NEI:DRY-EYE-2025"]
+      }
+    ],
+    "closing": "On the next episode, we will explain why your eyes can keep watering, how drainage problems differ from surface irritation, and when one-sided tearing needs examination. Until then, give every long screen session a few complete blinks.",
+    "description": "Dry eye can cause burning, grittiness, fluctuating blur, redness, and even watering. This episode explains the tear film, screen-related blinking changes, environmental and medical triggers, safe first steps, individualized treatment, and warning signs that need prompt eye care.",
+    "thumbnail_text": "WHY ARE MY EYES SO DRY?"
+  }
+}
