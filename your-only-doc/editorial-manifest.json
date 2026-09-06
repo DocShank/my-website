@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "workflow": "chatgpt-reviewed-v20",
-  "updated_at": "2026-09-05T08:55:00Z",
-  "next_episode_number": 26,
+  "updated_at": "2026-09-06T09:22:00Z",
+  "next_episode_number": 27,
   "next_planned_topic": {
-    "id": "dry-eye",
-    "title": "Why Your Eyes Feel Dry All the Time",
-    "reason": "It begins a practical eye-health sequence with tear-film function, screen-related symptoms, environmental triggers, safe self-care, and warning signs that need examination."
+    "id": "watery-eyes",
+    "title": "Why Your Eyes Keep Watering",
+    "reason": "It continues the eye-health sequence by distinguishing reflex tearing from drainage obstruction, allergy, infection, eyelid problems, and warning signs needing examination."
   },
   "packets": [
     {
@@ -127,6 +127,13 @@
       "title": "E25: How Loud Is Too Loud for Your Ears",
       "file": "episodes/E25-noise-hearing-damage.json",
       "status": "ready"
+    },
+    {
+      "episode_number": 26,
+      "topic_id": "dry-eye",
+      "title": "E26: Why Your Eyes Feel Dry All the Time",
+      "file": "episodes/E26-dry-eye.json",
+      "status": "ready"
     }
   ],
   "evergreen_sequence": [
@@ -189,6 +196,10 @@
     {
       "id": "dry-eye",
       "title": "Why Your Eyes Feel Dry All the Time"
+    },
+    {
+      "id": "watery-eyes",
+      "title": "Why Your Eyes Keep Watering"
     }
   ],
   "editorial_policy": {
