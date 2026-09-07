@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "workflow": "chatgpt-reviewed-v20",
-  "updated_at": "2026-09-06T09:22:00Z",
-  "next_episode_number": 27,
+  "updated_at": "2026-09-07T08:49:00Z",
+  "next_episode_number": 28,
   "next_planned_topic": {
     "id": "watery-eyes",
     "title": "Why Your Eyes Keep Watering",
-    "reason": "It continues the eye-health sequence by distinguishing reflex tearing from drainage obstruction, allergy, infection, eyelid problems, and warning signs needing examination."
+    "reason": "It resumes the eye-health sequence by distinguishing reflex tearing from drainage obstruction, allergy, infection, eyelid problems, and warning signs needing examination."
   },
   "packets": [
     {
@@ -133,6 +133,13 @@
       "topic_id": "dry-eye",
       "title": "E26: Why Your Eyes Feel Dry All the Time",
       "file": "episodes/E26-dry-eye.json",
+      "status": "ready"
+    },
+    {
+      "episode_number": 27,
+      "topic_id": "measles-surge-2026",
+      "title": "E27: What the 2026 Measles Surge Means",
+      "file": "episodes/E27-measles-surge-2026.json",
       "status": "ready"
     }
   ],
