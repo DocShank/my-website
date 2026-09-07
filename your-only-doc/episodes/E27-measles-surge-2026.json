@@ -1,0 +1,150 @@
+{
+  "schema": 2,
+  "editorial": {
+    "workflow": "chatgpt-reviewed-v20",
+    "reviewed_by": "ChatGPT medical editorial workflow",
+    "reviewed_on": "2026-09-07",
+    "episode_number": 27,
+    "language": "English",
+    "spoken_host_name_allowed": false,
+    "long_dashes_allowed": false,
+    "target_minutes": 10
+  },
+  "topic_id": "measles-surge-2026",
+  "topic": {
+    "id": "measles-surge-2026",
+    "title": "What the 2026 Measles Surge Means",
+    "audience_question": "What should people know about the 2026 measles surge, vaccination, symptoms, isolation, and exposure?",
+    "pubmed_query": "measles outbreak 2026 MMR vaccination airborne transmission postexposure prophylaxis complications",
+    "icon_keywords": ["measles", "MMR-vaccine", "airborne", "rash"],
+    "category": "infectious-disease"
+  },
+  "sources": [
+    {
+      "id": "CDC:MEASLES-CASES-2026",
+      "title": "Measles Cases and Outbreaks",
+      "abstract": "CDC reported 3,134 confirmed measles cases in the United States in 2026 as of September 3. Cases had been reported by 47 jurisdictions plus international visitors. CDC listed 38 new outbreaks, with 95 percent of confirmed cases associated with outbreaks.",
+      "journal": "Centers for Disease Control and Prevention",
+      "year": "2026",
+      "url": "https://www.cdc.gov/measles/data-research/index.html",
+      "doi": null
+    },
+    {
+      "id": "CDC:MEASLES-ABOUT-2026",
+      "title": "About Measles",
+      "abstract": "CDC describes measles as a highly contagious airborne infection. A susceptible person can be infected after entering a room where an infectious person had been present up to two hours earlier.",
+      "journal": "Centers for Disease Control and Prevention",
+      "year": "2026",
+      "url": "https://www.cdc.gov/measles/about/index.html",
+      "doi": null
+    },
+    {
+      "id": "CDC:MEASLES-CLINICAL-2026",
+      "title": "Clinical Overview of Measles",
+      "abstract": "CDC describes fever, cough, coryza, conjunctivitis, Koplik spots, and a rash that begins on the face and spreads downward. It recommends immediate isolation of suspected cases, airborne precautions in healthcare, laboratory confirmation, and prompt notification of public-health authorities.",
+      "journal": "Centers for Disease Control and Prevention",
+      "year": "2026",
+      "url": "https://www.cdc.gov/measles/hcp/clinical-overview/index.html",
+      "doi": null
+    },
+    {
+      "id": "CDC:MEASLES-VACCINE-2026",
+      "title": "Measles Vaccination",
+      "abstract": "CDC recommends two doses of measles, mumps, and rubella vaccine for children and for adults in specific higher-risk groups who lack evidence of immunity. Two appropriately administered doses are about 97 percent effective against measles, and one dose is about 93 percent effective.",
+      "journal": "Centers for Disease Control and Prevention",
+      "year": "2026",
+      "url": "https://www.cdc.gov/measles/vaccines/index.html",
+      "doi": null
+    },
+    {
+      "id": "CDC:MEASLES-PEP-2026",
+      "title": "Measles Vaccine Recommendations",
+      "abstract": "CDC advises that eligible susceptible contacts may receive MMR vaccine within 72 hours of initial exposure or immunoglobulin within six days. Choice and timing depend on immunity, age, pregnancy, immune status, and public-health guidance. MMR vaccine and immunoglobulin should not be administered simultaneously.",
+      "journal": "Centers for Disease Control and Prevention",
+      "year": "2026",
+      "url": "https://www.cdc.gov/measles/hcp/vaccine-considerations/index.html",
+      "doi": null
+    },
+    {
+      "id": "WHO:MEASLES-2026",
+      "title": "Measles",
+      "abstract": "WHO explains that measles spreads through the air, is contagious from four days before rash onset through four days afterward, and can cause pneumonia, encephalitis, severe diarrhea, blindness, and death. Vaccination is the principal prevention strategy.",
+      "journal": "World Health Organization",
+      "year": "2026",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/measles",
+      "doi": null
+    }
+  ],
+  "episode": {
+    "title": "E27: What the 2026 Measles Surge Means",
+    "hook": "Hello and welcome to the Your Only Doc podcast. Imagine a child develops fever, cough, red watery eyes, and a runny nose. The family assumes it is an ordinary viral illness and waits in a crowded clinic. Two days later, a rash begins on the face. By then, measles may already have exposed other patients, including babies and people with weakened immune systems. That is why recognizing the pattern early matters.",
+    "sections": [
+      {
+        "heading": "The high yield summary",
+        "narration": "Too busy? Here is your high yield summary. Measles is an airborne infection, not simply a childhood rash. In the United States, CDC reported 3,134 confirmed cases in 2026 as of September 3, and 95 percent were linked to outbreaks. Check written MMR records before travel or known exposure. Fever followed by cough, runny nose, red eyes, and a face-first rash should trigger a call ahead to healthcare, not an unannounced waiting-room visit. After exposure, contact public health or a clinician immediately because preventive options are time-sensitive.",
+        "on_screen": ["Measles spreads through the air", "Check documented MMR immunity", "Call ahead before seeking care"],
+        "icon": "measles-alert",
+        "source_ids": ["CDC:MEASLES-CASES-2026", "CDC:MEASLES-CLINICAL-2026", "CDC:MEASLES-PEP-2026"]
+      },
+      {
+        "heading": "What the new numbers actually show",
+        "narration": "The September 3 CDC update listed cases across 47 jurisdictions and 38 new outbreaks during 2026. This does not mean every community has equal risk, and it does not mean vaccination has stopped working. It shows that when measles reaches groups with gaps in immunity, transmission can expand rapidly. Imported infections can also seed outbreaks where coverage is insufficient. The useful response is local surveillance, accurate records, and vaccination, not panic or blame.",
+        "on_screen": ["3,134 confirmed cases", "38 new outbreaks", "Risk varies by community"],
+        "icon": "outbreak-map",
+        "source_ids": ["CDC:MEASLES-CASES-2026", "WHO:MEASLES-2026"]
+      },
+      {
+        "heading": "Why measles spreads so efficiently",
+        "narration": "Measles virus travels through the air when an infected person breathes, coughs, or sneezes. CDC warns that a susceptible person can be infected in a room even up to two hours after the infectious person has left. People can transmit measles before the rash makes the diagnosis obvious. WHO describes the contagious period as roughly four days before through four days after rash onset. Ordinary brief distancing is therefore not a reliable substitute for immunity and proper airborne precautions.",
+        "on_screen": ["Airborne transmission", "Virus can linger up to two hours", "Contagious before the rash"],
+        "icon": "airborne",
+        "source_ids": ["CDC:MEASLES-ABOUT-2026", "CDC:MEASLES-CLINICAL-2026", "WHO:MEASLES-2026"]
+      },
+      {
+        "heading": "Recognize the sequence",
+        "narration": "Measles usually begins with fever, cough, coryza, meaning a runny nose, and conjunctivitis, meaning red watery eyes. Tiny white Koplik spots may appear inside the mouth. A blotchy rash then starts around the face or hairline and spreads down the body. No single symptom confirms measles, and vaccinated people can occasionally have modified presentations. The combination of symptoms, exposure, travel, and vaccination history guides suspicion, while laboratory testing confirms the diagnosis.",
+        "on_screen": ["Fever, cough, coryza, conjunctivitis", "Rash often starts on the face", "Laboratory confirmation matters"],
+        "icon": "symptom-sequence",
+        "source_ids": ["CDC:MEASLES-CLINICAL-2026", "WHO:MEASLES-2026"]
+      },
+      {
+        "heading": "It is more than a rash",
+        "narration": "Now, let us go deeper. Measles can cause ear infection and diarrhea, but serious complications include pneumonia and encephalitis. Babies, pregnant people, adults, malnourished children, and people with weakened immune systems may face greater risk of severe disease. CDC estimates that roughly one to three of every thousand infected children may die from respiratory or neurologic complications. Vitamin A may be used under medical supervision for children with measles, but it does not replace vaccination or supportive care, and excessive dosing can be toxic.",
+        "on_screen": ["Pneumonia and encephalitis can occur", "Some groups face greater risk", "Vitamin A needs medical supervision"],
+        "icon": "complications",
+        "source_ids": ["CDC:MEASLES-CLINICAL-2026", "WHO:MEASLES-2026"]
+      },
+      {
+        "heading": "Vaccination remains the strongest protection",
+        "narration": "Two appropriately timed MMR doses are about 97 percent effective against measles, while one dose is about 93 percent effective. Children routinely need two doses, and healthcare workers, international travelers, and other higher-risk adults need documented protection according to national guidance. Do not rely only on memory or a family story. Review written records or discuss acceptable laboratory evidence with a clinician. MMR is a live vaccine, so pregnancy and significant immune suppression require individualized medical advice rather than self-directed vaccination.",
+        "on_screen": ["Two doses are about 97 percent effective", "Use written records", "Some people need individualized advice"],
+        "icon": "MMR-vaccine",
+        "source_ids": ["CDC:MEASLES-VACCINE-2026", "CDC:MEASLES-PEP-2026", "WHO:MEASLES-2026"]
+      },
+      {
+        "heading": "What to do after an exposure",
+        "narration": "If public health identifies an exposure, act the same day. Do not simply walk into a clinic. Call first, describe the exposure, and follow local instructions about testing, monitoring, work, school, and isolation. For eligible people without evidence of immunity, MMR vaccine given within 72 hours of initial exposure may help. Immunoglobulin may be used within six days for selected susceptible people, especially those at high risk or unable to receive vaccine. The correct option depends on timing and clinical factors.",
+        "on_screen": ["Act on the day you learn", "MMR may help within 72 hours", "Immunoglobulin may help within six days"],
+        "icon": "post-exposure",
+        "source_ids": ["CDC:MEASLES-PEP-2026", "CDC:MEASLES-CLINICAL-2026"]
+      },
+      {
+        "heading": "Protect the waiting room",
+        "narration": "If measles is possible, call the facility before arrival so staff can arrange entry without exposing a crowded waiting area. Wear a well-fitting mask if instructed, avoid public transport when feasible, and do not attend work, school, childcare, or gatherings while awaiting guidance. Healthcare facilities use airborne precautions and should report suspected cases promptly. Confirmed patients are generally isolated through four days after rash onset, with longer precautions sometimes needed for severely immunocompromised patients.",
+        "on_screen": ["Call before arrival", "Avoid shared waiting areas", "Airborne isolation protects others"],
+        "icon": "clinic-isolation",
+        "source_ids": ["CDC:MEASLES-CLINICAL-2026", "WHO:MEASLES-2026"]
+      },
+      {
+        "heading": "Three essential takeaways",
+        "narration": "Number one, measles is a highly contagious airborne infection, and transmission can begin before the face-first rash appears. Number two, verify documented MMR protection, especially before international travel, healthcare work, or entering an outbreak setting. Number three, after a possible exposure or compatible illness, call healthcare or public health immediately and before arriving in person because isolation and preventive treatment depend on timing. The safest response to this surge is not fear. It is documented immunity, early recognition, and fast communication.",
+        "on_screen": ["Recognize the pattern", "Verify MMR protection", "Call first and act quickly"],
+        "icon": "checklist",
+        "source_ids": ["CDC:MEASLES-ABOUT-2026", "CDC:MEASLES-VACCINE-2026", "CDC:MEASLES-PEP-2026"]
+      }
+    ],
+    "closing": "On the next episode, we will return to eye health and explain why your eyes keep watering, how irritation differs from blocked drainage, and when one-sided tearing needs examination. Until then, check the record, not just the memory, when confirming measles vaccination.",
+    "description": "CDC's September 3, 2026 update reported 3,134 confirmed U.S. measles cases. This episode explains airborne spread, the symptom sequence, complications, MMR protection, post-exposure options, isolation, and how to seek care without exposing others.",
+    "thumbnail_text": "MEASLES SURGE: WHAT TO KNOW"
+  }
+}
