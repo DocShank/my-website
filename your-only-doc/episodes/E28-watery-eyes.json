@@ -1,0 +1,150 @@
+{
+  "schema": 2,
+  "editorial": {
+    "workflow": "chatgpt-reviewed-v20",
+    "reviewed_by": "ChatGPT medical editorial workflow",
+    "reviewed_on": "2026-09-08",
+    "episode_number": 28,
+    "language": "English",
+    "spoken_host_name_allowed": false,
+    "long_dashes_allowed": false,
+    "target_minutes": 10
+  },
+  "topic_id": "watery-eyes",
+  "topic": {
+    "id": "watery-eyes",
+    "title": "Why Your Eyes Keep Watering",
+    "audience_question": "Why do tears overflow, and how can irritation be distinguished from a drainage problem?",
+    "pubmed_query": "epiphora watery eye reflex tearing nasolacrimal obstruction diagnosis management",
+    "icon_keywords": ["watery-eye", "tear-drainage", "lacrimal-duct", "eye-exam"],
+    "category": "ophthalmology"
+  },
+  "sources": [
+    {
+      "id": "AAO:TEARING-PATIENT-2009",
+      "title": "The Tearing Patient: Diagnosis and Management",
+      "abstract": "The American Academy of Ophthalmology explains that epiphora results from imbalance between tear production and tear loss. Evaluation distinguishes reflex overproduction caused by ocular-surface irritation from impaired drainage caused by punctal, canalicular, nasolacrimal, eyelid, or lacrimal-pump problems.",
+      "journal": "American Academy of Ophthalmology EyeNet",
+      "year": "2009",
+      "url": "https://www.aao.org/eyenet/article/tearing-patient-diagnosis-management",
+      "doi": null
+    },
+    {
+      "id": "RACGP:WATERY-EYE-2024",
+      "title": "Approach to the Watery Eye",
+      "abstract": "This professional review presents a structured primary-care approach to watery eyes, including laterality, duration, associated symptoms, eyelid position, ocular-surface disease, tear drainage, conservative measures, and indications for specialist referral.",
+      "journal": "Australian Journal of General Practice",
+      "year": "2024",
+      "url": "https://www1.racgp.org.au/ajgp/2024/supplement-november/approach-to-the-watery-eye",
+      "doi": null
+    },
+    {
+      "id": "NCBI:WATERY-EYE-ASSESSMENT-2024",
+      "title": "Assessment of the Watery Eye",
+      "abstract": "This clinical review describes the anatomy of tear production and drainage, the broad differential diagnosis of epiphora, and examination methods used to identify ocular irritation, eyelid malposition, lacrimal-pump failure, and anatomic or functional drainage obstruction.",
+      "journal": "StatPearls, National Center for Biotechnology Information",
+      "year": "2024",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK587369/",
+      "doi": null
+    },
+    {
+      "id": "AAO:NASOLACRIMAL-OBSTRUCTION-2025",
+      "title": "Secondary Acquired Nasolacrimal Duct Obstruction",
+      "abstract": "The AAO EyeWiki review describes persistent epiphora from acquired nasolacrimal obstruction, including inflammatory, infectious, traumatic, medication-related, and structural causes. Assessment may include inspection, palpation, dye testing, probing, irrigation, imaging, and nasal examination when appropriate.",
+      "journal": "American Academy of Ophthalmology EyeWiki",
+      "year": "2025",
+      "url": "https://eyewiki.aao.org/Secondary_Acquired_Nasolacrimal_Duct_Obstruction",
+      "doi": null
+    },
+    {
+      "id": "NEI:DRY-EYE-2025",
+      "title": "Dry Eye",
+      "abstract": "The National Eye Institute explains that deficient or unstable tears can cause burning, scratchiness, redness, light sensitivity, and blurred vision. Ocular-surface irritation can also provoke reflex tearing, so watery eyes do not exclude dry-eye disease.",
+      "journal": "National Eye Institute",
+      "year": "2025",
+      "url": "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/dry-eye",
+      "doi": null
+    },
+    {
+      "id": "IJOPH:EPIPHORA-CAUSES-2016",
+      "title": "Etiology, Diagnosis, Management and Outcomes of Epiphora Referrals to an Oculoplastic Practice",
+      "abstract": "In a retrospective series of 237 patients referred for epiphora, lacrimal obstruction was the most common identified cause, followed by multifactorial disease, reflex tearing, and eyelid malposition. The study illustrates why persistent tearing needs mechanism-based evaluation.",
+      "journal": "International Journal of Ophthalmology",
+      "year": "2016",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5154987/",
+      "doi": "10.18240/ijo.2016.12.17"
+    }
+  ],
+  "episode": {
+    "title": "E28: Why Your Eyes Keep Watering",
+    "hook": "Hello and welcome to the Your Only Doc podcast. Imagine stepping outside and one eye begins to stream. You wipe it, but another tear rolls down within seconds. There is no sadness and perhaps no obvious redness. Later, the same eye waters while reading indoors. It is tempting to call this too many tears, but the real problem may be irritation, poor tear quality, an eyelid issue, or a drainage pathway that is not working properly.",
+    "sections": [
+      {
+        "heading": "The high yield summary",
+        "narration": "Too busy? Here is your high yield summary. Watery eyes, called epiphora, happen for two broad reasons: the eye produces extra reflex tears, or normal tears cannot drain efficiently. Burning and grittiness suggest surface irritation such as dry eye. Itching in both eyes points more toward allergy. Constant one-sided overflow raises concern for a drainage or eyelid problem. Avoid rubbing, protect the eyes from wind and smoke, and use only cause-appropriate treatment. Pain, light sensitivity, injury, swelling near the inner corner, discharge, or reduced vision needs prompt examination.",
+        "on_screen": ["Excess production or poor drainage", "Symptoms help locate the cause", "Warning signs need examination"],
+        "icon": "tear-balance",
+        "source_ids": ["AAO:TEARING-PATIENT-2009", "RACGP:WATERY-EYE-2024", "NCBI:WATERY-EYE-ASSESSMENT-2024"]
+      },
+      {
+        "heading": "How tears normally leave the eye",
+        "narration": "Tears spread across the surface with each blink. Most then enter tiny openings called puncta at the inner edges of the upper and lower eyelids. They travel through small canaliculi into the lacrimal sac, then down the nasolacrimal duct into the nose. Blinking also acts like a pump. Narrowing anywhere along this route, poor eyelid position, or weak pumping can let tears pool until they spill over the lid and onto the cheek.",
+        "on_screen": ["Puncta collect tears", "Ducts drain toward the nose", "Blinking powers the tear pump"],
+        "icon": "lacrimal-pathway",
+        "source_ids": ["AAO:TEARING-PATIENT-2009", "NCBI:WATERY-EYE-ASSESSMENT-2024", "AAO:NASOLACRIMAL-OBSTRUCTION-2025"]
+      },
+      {
+        "heading": "Irritation can create a flood",
+        "narration": "Dry eye can paradoxically make the eye water. When the tear film breaks up and exposes sensitive surface nerves, the lacrimal gland releases a burst of watery reflex tears. Those tears may lack the stable oily balance needed to remain on the eye, so they overflow without fixing the original irritation. Wind, smoke, dust, a foreign body, a scratched cornea, and an inward-turning eyelash can trigger the same protective response. Treating drainage alone would miss the cause.",
+        "on_screen": ["Dryness can trigger reflex tearing", "Watery tears may not stay", "Irritants activate protection"],
+        "icon": "reflex-tears",
+        "source_ids": ["NEI:DRY-EYE-2025", "AAO:TEARING-PATIENT-2009", "RACGP:WATERY-EYE-2024"]
+      },
+      {
+        "heading": "The symptom pattern offers clues",
+        "narration": "Ask whether one eye or both are affected, whether tearing is constant or intermittent, and what accompanies it. Intense itching with sneezing often suggests allergy. Burning, grittiness, and fluctuating blur suggest ocular-surface disease. Sticky discharge and lashes crusted on waking may indicate conjunctivitis or blepharitis. Constant one-sided tearing, especially without much irritation, makes obstruction more likely. An eyelid turning inward or outward can disturb both tear spreading and drainage. These clues narrow the possibilities but do not confirm them.",
+        "on_screen": ["Itching suggests allergy", "Burning suggests surface irritation", "One-sided overflow suggests obstruction"],
+        "icon": "symptom-clues",
+        "source_ids": ["RACGP:WATERY-EYE-2024", "NCBI:WATERY-EYE-ASSESSMENT-2024", "IJOPH:EPIPHORA-CAUSES-2016"]
+      },
+      {
+        "heading": "Blocked drainage is not one diagnosis",
+        "narration": "Now, let us go deeper. The punctum itself may be narrow, a canaliculus may scar after infection or injury, or the nasolacrimal duct may become obstructed. Inflammation inside the nose, previous facial surgery, trauma, and certain medicines can contribute. Sometimes the passage is anatomically open but the blink pump does not move tears well. Persistent adult epiphora is often multifactorial, so finding one mild abnormality does not prove it explains every symptom.",
+        "on_screen": ["Obstruction can occur at several levels", "Scarring and inflammation may contribute", "Some cases are multifactorial"],
+        "icon": "blocked-duct",
+        "source_ids": ["AAO:NASOLACRIMAL-OBSTRUCTION-2025", "NCBI:WATERY-EYE-ASSESSMENT-2024", "IJOPH:EPIPHORA-CAUSES-2016"]
+      },
+      {
+        "heading": "Safe steps before the appointment",
+        "narration": "Do not rub the eye or keep wiping across the eyelid with an unclean cloth. Use clean tissue, wash your hands, and avoid sharing towels if infection is possible. Wraparound glasses can reduce wind-triggered tearing. Preservative-free lubricating drops may help when burning and dryness are mild, while a cool compress may soothe allergy symptoms. Remove contact lenses if the eye becomes irritated. Avoid repeatedly using redness-removing drops, leftover antibiotics, steroid drops, or home mixtures without an eye examination.",
+        "on_screen": ["Keep hands and tissues clean", "Shield eyes from wind", "Avoid unprescribed medicated drops"],
+        "icon": "eye-care",
+        "source_ids": ["NEI:DRY-EYE-2025", "RACGP:WATERY-EYE-2024"]
+      },
+      {
+        "heading": "What an eye examination can reveal",
+        "narration": "The clinician examines the cornea, conjunctiva, eyelid position, lashes, puncta, and tear film. Dye can show whether tears clear normally. When obstruction is suspected, an eye specialist may test the drainage pathway with irrigation or probing and occasionally use nasal examination or imaging. Treatment follows the mechanism: control surface inflammation or allergy, manage eyelid disease, correct malposition, open a narrowed punctum, or bypass a persistently obstructed nasolacrimal duct when necessary. Random drops cannot solve every pathway.",
+        "on_screen": ["Examine surface, lids, and puncta", "Test tear clearance", "Treatment must match the mechanism"],
+        "icon": "eye-exam",
+        "source_ids": ["AAO:TEARING-PATIENT-2009", "AAO:NASOLACRIMAL-OBSTRUCTION-2025", "RACGP:WATERY-EYE-2024"]
+      },
+      {
+        "heading": "When watering becomes urgent",
+        "narration": "Seek urgent eye care for significant pain, strong light sensitivity, sudden or persistent vision loss, chemical exposure, penetrating injury, or a contact-lens wearer with a painful red eye. Tender redness or swelling beside the nose with fever can indicate infection of the lacrimal sac and needs prompt treatment. Sudden tearing after metal work, grinding, or high-speed debris may signal a hidden foreign body. In a baby, marked swelling near the inner corner, fever, or poor feeding also requires rapid assessment.",
+        "on_screen": ["Pain or vision loss is urgent", "Inner-corner swelling may mean infection", "High-speed debris needs assessment"],
+        "icon": "urgent-eye",
+        "source_ids": ["RACGP:WATERY-EYE-2024", "NCBI:WATERY-EYE-ASSESSMENT-2024", "AAO:NASOLACRIMAL-OBSTRUCTION-2025"]
+      },
+      {
+        "heading": "Three essential takeaways",
+        "narration": "Number one, watery eyes result from either excess reflex production or impaired drainage, and some people have both. Number two, use the pattern as a clue: itching suggests allergy, burning and grittiness suggest surface irritation, and persistent one-sided overflow suggests a drainage or eyelid problem. Number three, seek examination when tearing persists, and act promptly for pain, light sensitivity, vision change, injury, contact-lens redness, discharge, fever, or inner-corner swelling. The correct treatment depends on finding where the tear system is failing.",
+        "on_screen": ["Production versus drainage", "Let the pattern guide evaluation", "Recognize urgent warning signs"],
+        "icon": "checklist",
+        "source_ids": ["AAO:TEARING-PATIENT-2009", "RACGP:WATERY-EYE-2024", "IJOPH:EPIPHORA-CAUSES-2016"]
+      }
+    ],
+    "closing": "On the next episode, we will explain why eyes become red, how harmless irritation differs from infection or inflammation, and which warning signs need urgent care. Until then, remember that overflowing tears may be a production problem, a drainage problem, or both.",
+    "description": "Watery eyes can result from reflex tear production, dry eye, allergy, infection, eyelid problems, or impaired lacrimal drainage. This episode explains the tear pathway, symptom clues, safe first steps, clinical testing, treatment principles, and urgent warning signs.",
+    "thumbnail_text": "WHY WON'T MY EYES STOP WATERING?"
+  }
+}
