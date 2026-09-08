@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "workflow": "chatgpt-reviewed-v20",
-  "updated_at": "2026-09-07T08:49:00Z",
-  "next_episode_number": 28,
+  "updated_at": "2026-09-08T09:07:00Z",
+  "next_episode_number": 29,
   "next_planned_topic": {
-    "id": "watery-eyes",
-    "title": "Why Your Eyes Keep Watering",
-    "reason": "It resumes the eye-health sequence by distinguishing reflex tearing from drainage obstruction, allergy, infection, eyelid problems, and warning signs needing examination."
+    "id": "red-eye",
+    "title": "Why Your Eyes Look Red",
+    "reason": "It continues the eye-health sequence by separating common irritation from conjunctivitis, corneal disease, uveitis, glaucoma, and other causes that need urgent assessment."
   },
   "packets": [
     {
@@ -141,6 +141,13 @@
       "title": "E27: What the 2026 Measles Surge Means",
       "file": "episodes/E27-measles-surge-2026.json",
       "status": "ready"
+    },
+    {
+      "episode_number": 28,
+      "topic_id": "watery-eyes",
+      "title": "E28: Why Your Eyes Keep Watering",
+      "file": "episodes/E28-watery-eyes.json",
+      "status": "ready"
     }
   ],
   "evergreen_sequence": [
@@ -207,6 +214,10 @@
     {
       "id": "watery-eyes",
       "title": "Why Your Eyes Keep Watering"
+    },
+    {
+      "id": "red-eye",
+      "title": "Why Your Eyes Look Red"
     }
   ],
   "editorial_policy": {
