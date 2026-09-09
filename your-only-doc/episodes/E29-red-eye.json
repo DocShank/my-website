@@ -1,0 +1,159 @@
+{
+  "schema": 2,
+  "editorial": {
+    "workflow": "chatgpt-reviewed-v20",
+    "reviewed_by": "ChatGPT medical editorial workflow",
+    "reviewed_on": "2026-09-09",
+    "episode_number": 29,
+    "language": "English",
+    "spoken_host_name_allowed": false,
+    "long_dashes_allowed": false,
+    "target_minutes": 10
+  },
+  "topic_id": "red-eye",
+  "topic": {
+    "id": "red-eye",
+    "title": "Why Your Eyes Look Red",
+    "audience_question": "What makes an eye look red, and which symptom patterns need urgent assessment?",
+    "pubmed_query": "red eye differential diagnosis conjunctivitis keratitis uveitis acute angle closure glaucoma",
+    "icon_keywords": ["red-eye", "conjunctivitis", "cornea", "eye-emergency"],
+    "category": "ophthalmology"
+  },
+  "sources": [
+    {
+      "id": "AAO:RED-EYE-APPROACH-2023",
+      "title": "How to Decipher the Red Eye as a First-Year Resident",
+      "abstract": "The American Academy of Ophthalmology describes a structured assessment of red eye using history, visual acuity, pupil findings, the pattern of redness, corneal examination, pain, photophobia, and other associated symptoms.",
+      "journal": "American Academy of Ophthalmology",
+      "year": "2023",
+      "url": "https://www.aao.org/young-ophthalmologists/yo-info/article/how-to-decipher-red-eye-as-first-year-resident",
+      "doi": null
+    },
+    {
+      "id": "AAO:CONJUNCTIVITIS-PPP-2023",
+      "title": "Conjunctivitis Preferred Practice Pattern",
+      "abstract": "This evidence-based professional guideline emphasizes establishing the cause of conjunctivitis, distinguishing it from other causes of red eye, recognizing pain or decreased vision, and avoiding indiscriminate antimicrobial or corticosteroid treatment.",
+      "journal": "American Academy of Ophthalmology",
+      "year": "2023",
+      "url": "https://www.aao.org/Assets/76c4baa7-869e-42ad-9ffc-215781185a7b/638434228319430000/conjunctivitis-ppp-pdf",
+      "doi": null
+    },
+    {
+      "id": "CDC:PINK-EYE-OVERVIEW-2024",
+      "title": "About Pink Eye",
+      "abstract": "CDC describes common conjunctivitis symptoms, including redness, swelling, watering, irritation, itching, burning, foreign-body sensation, and discharge. The presentation varies with the cause.",
+      "journal": "Centers for Disease Control and Prevention",
+      "year": "2024",
+      "url": "https://www.cdc.gov/conjunctivitis/about/index.html",
+      "doi": null
+    },
+    {
+      "id": "CDC:CONTACT-LENS-INFECTION-2025",
+      "title": "What Causes Contact Lens-related Eye Infections",
+      "abstract": "CDC explains that contact-lens wear increases the risk of keratitis. Redness with worsening pain, light sensitivity, sudden blur, unusual tearing, or discharge requires lens removal and immediate contact with an eye doctor.",
+      "journal": "Centers for Disease Control and Prevention",
+      "year": "2025",
+      "url": "https://www.cdc.gov/contact-lenses/causes/index.html",
+      "doi": null
+    },
+    {
+      "id": "NEI:UVEITIS-2024",
+      "title": "Uveitis",
+      "abstract": "The National Eye Institute lists blurry vision, floaters, eye pain, red eyes, and light sensitivity among symptoms of inflammation inside the eye. Early evaluation matters because uveitis can threaten vision.",
+      "journal": "National Eye Institute",
+      "year": "2024",
+      "url": "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/uveitis",
+      "doi": null
+    },
+    {
+      "id": "NEI:ANGLE-CLOSURE-2024",
+      "title": "Types of Glaucoma",
+      "abstract": "The National Eye Institute identifies sudden intense eye pain, nausea, red eye, and blurry vision as warning symptoms of acute angle-closure glaucoma, a medical emergency caused by rapidly impaired fluid drainage and rising eye pressure.",
+      "journal": "National Eye Institute",
+      "year": "2024",
+      "url": "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/glaucoma/types-glaucoma",
+      "doi": null
+    },
+    {
+      "id": "JAMA:INFECTIOUS-CONJUNCTIVITIS-2022",
+      "title": "Does This Patient With Acute Infectious Conjunctivitis Have a Bacterial Infection?",
+      "abstract": "This systematic review found substantial overlap between bacterial and viral conjunctivitis. Individual symptoms and signs are often insufficient to determine the infectious cause with certainty.",
+      "journal": "JAMA",
+      "year": "2022",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35699701/",
+      "doi": "10.1001/jama.2022.7687"
+    }
+  ],
+  "episode": {
+    "title": "E29: Why Your Eyes Look Red",
+    "hook": "Hello and welcome to the Your Only Doc podcast. Imagine waking up, looking in the mirror, and seeing one eye bright red. It feels slightly gritty, but you can still see clearly. Is it an infection, an allergy, or simply a poor night of sleep? Most red eyes are not emergencies, yet redness can also be the first visible sign of a corneal infection, inflammation inside the eye, or dangerously high eye pressure. The color alone cannot tell you which one it is.",
+    "sections": [
+      {
+        "heading": "The high yield summary",
+        "narration": "Too busy? Here is your high yield summary. Redness usually comes from widened surface blood vessels or, sometimes, a small patch of blood under the clear conjunctiva. Itching suggests allergy. Burning, grittiness, and watering fit surface irritation. Discharge may occur with conjunctivitis, but its color does not reliably prove a bacterial cause. Stop contact lenses whenever an eye becomes red. Seek urgent assessment for pain, light sensitivity, reduced vision, injury, chemical exposure, a cloudy cornea, severe headache or nausea, or redness in a contact-lens wearer.",
+        "on_screen": ["Redness has many causes", "Symptoms matter more than color", "Know the urgent warning signs"],
+        "icon": "red-eye-summary",
+        "source_ids": ["AAO:RED-EYE-APPROACH-2023", "AAO:CONJUNCTIVITIS-PPP-2023", "CDC:CONTACT-LENS-INFECTION-2025"]
+      },
+      {
+        "heading": "Where the red color comes from",
+        "narration": "The white part of the eye is covered by a thin transparent membrane called the conjunctiva. Irritation or inflammation widens its tiny blood vessels, making them more visible. Redness can be diffuse, concentrated around the cornea, or limited to one sharply defined blood-red patch called a subconjunctival hemorrhage. That patch can look alarming, but when it follows coughing or straining and causes no pain or vision change, it is usually very different from inflammation or infection.",
+        "on_screen": ["Conjunctival vessels become visible", "The pattern offers clues", "A blood patch is a different process"],
+        "icon": "eye-vessels",
+        "source_ids": ["AAO:RED-EYE-APPROACH-2023", "AAO:CONJUNCTIVITIS-PPP-2023"]
+      },
+      {
+        "heading": "Common irritation and allergy patterns",
+        "narration": "Dry air, smoke, dust, long screen sessions, eyelid inflammation, and an unstable tear film can cause burning, grittiness, and mild diffuse redness. Allergy is more likely when both eyes itch intensely, water, and become puffy, especially with sneezing or a familiar seasonal trigger. Rubbing makes surface inflammation worse. These patterns are often uncomfortable rather than deeply painful, and vision should remain essentially normal after blinking away tears or discharge.",
+        "on_screen": ["Burning and grittiness suggest irritation", "Intense itching suggests allergy", "Normal vision is reassuring"],
+        "icon": "surface-irritation",
+        "source_ids": ["CDC:PINK-EYE-OVERVIEW-2024", "AAO:RED-EYE-APPROACH-2023", "AAO:CONJUNCTIVITIS-PPP-2023"]
+      },
+      {
+        "heading": "Pink eye is not one disease",
+        "narration": "Conjunctivitis simply means inflammation of the conjunctiva. Viruses, bacteria, allergens, and irritants can all cause it. A viral illness may begin in one eye with watery discharge and then involve the other. Thick discharge and eyelids stuck together can occur with bacterial infection, but symptoms overlap too much to diagnose the cause confidently from discharge alone. Antibiotic drops do not treat viral or allergic conjunctivitis, and unnecessary treatment can cause irritation or other problems.",
+        "on_screen": ["Conjunctivitis has several causes", "Discharge alone is not diagnostic", "Antibiotics do not treat viruses"],
+        "icon": "conjunctivitis-causes",
+        "source_ids": ["CDC:PINK-EYE-OVERVIEW-2024", "AAO:CONJUNCTIVITIS-PPP-2023", "JAMA:INFECTIOUS-CONJUNCTIVITIS-2022"]
+      },
+      {
+        "heading": "Redness can come from deeper structures",
+        "narration": "Now, let us go deeper. Keratitis affects the cornea and may cause pain, light sensitivity, blur, and a pale or cloudy spot. Uveitis is inflammation inside the eye and can produce pain, photophobia, floaters, and reduced vision. Acute angle-closure glaucoma can cause a suddenly painful red eye with blurred vision, headache, halos, nausea, or vomiting. These conditions may initially be mistaken for simple conjunctivitis, but they require urgent examination because treatment and risk are completely different.",
+        "on_screen": ["Keratitis affects the cornea", "Uveitis is internal inflammation", "Angle closure is an emergency"],
+        "icon": "deeper-eye-disease",
+        "source_ids": ["AAO:RED-EYE-APPROACH-2023", "NEI:UVEITIS-2024", "NEI:ANGLE-CLOSURE-2024"]
+      },
+      {
+        "heading": "Contact lenses change the risk",
+        "narration": "A contact-lens wearer with a red eye deserves extra caution. Lenses can damage the corneal surface and increase the risk of microbial keratitis, especially when worn overnight, exposed to water, or handled poorly. Remove the lens immediately and do not put it back in. Pain that continues or worsens after removal, light sensitivity, sudden blur, unusual watering, or discharge should prompt immediate contact with an eye-care professional. Keep the lens and case if a clinician asks to examine or culture them.",
+        "on_screen": ["Remove lenses immediately", "Pain and blur need urgent care", "Do not restart lenses too soon"],
+        "icon": "contact-lens-warning",
+        "source_ids": ["CDC:CONTACT-LENS-INFECTION-2025", "AAO:CONJUNCTIVITIS-PPP-2023"]
+      },
+      {
+        "heading": "Safe care while arranging evaluation",
+        "narration": "Wash your hands, avoid rubbing, and do not share towels, cosmetics, or eye-drop bottles when infection is possible. A clean cool compress and preservative-free artificial tears can soothe mild irritation. Stop contact lenses and eye makeup until symptoms have resolved and it is safe to restart. Do not use leftover antibiotic drops, someone else's medicine, redness-removing drops repeatedly, or any steroid eye drop without examination. Steroids can worsen certain infections and may raise eye pressure.",
+        "on_screen": ["Use clean hands and compresses", "Pause lenses and eye makeup", "Avoid borrowed or steroid drops"],
+        "icon": "safe-eye-care",
+        "source_ids": ["CDC:PINK-EYE-OVERVIEW-2024", "AAO:CONJUNCTIVITIS-PPP-2023", "CDC:CONTACT-LENS-INFECTION-2025"]
+      },
+      {
+        "heading": "When a red eye is urgent",
+        "narration": "Get urgent help for moderate or severe pain, strong light sensitivity, new vision loss, a cloudy cornea, an irregular pupil, significant injury, or chemical exposure. A painful red eye in a contact-lens wearer also needs urgent assessment. Sudden intense pain with blurred vision and nausea may be acute angle closure and belongs in emergency care. A newborn with red or swollen eyes and discharge needs prompt medical assessment. If a chemical enters the eye, begin rinsing immediately while arranging emergency advice.",
+        "on_screen": ["Pain, photophobia, or vision loss", "Contact-lens redness is high risk", "Rinse chemical exposure immediately"],
+        "icon": "eye-emergency",
+        "source_ids": ["AAO:RED-EYE-APPROACH-2023", "CDC:CONTACT-LENS-INFECTION-2025", "NEI:ANGLE-CLOSURE-2024"]
+      },
+      {
+        "heading": "Three essential takeaways",
+        "narration": "Number one, a red eye is a sign, not a diagnosis, and the associated pain, vision, light sensitivity, discharge, and exposure history matter more than the shade of red. Number two, mild itching or irritation can often be managed with hygiene, a cool compress, and artificial tears, but avoid unprescribed antibiotics and steroid drops. Number three, seek urgent care for pain, photophobia, reduced vision, trauma, chemical exposure, severe headache or nausea, or any painful red eye linked to contact lenses. Protecting sight depends on recognizing the exceptions early.",
+        "on_screen": ["Red eye is a sign", "Use safe supportive care", "Act early on warning signs"],
+        "icon": "checklist",
+        "source_ids": ["AAO:RED-EYE-APPROACH-2023", "AAO:CONJUNCTIVITIS-PPP-2023", "CDC:CONTACT-LENS-INFECTION-2025", "NEI:ANGLE-CLOSURE-2024"]
+      }
+    ],
+    "closing": "On the next episode, we will explain why eyelids twitch, which everyday triggers matter, and when a persistent twitch needs medical attention. Until then, remember that redness is only the visible clue. Pain, vision, light sensitivity, and contact-lens use tell you how urgently to act.",
+    "description": "Red eyes can result from irritation, allergy, conjunctivitis, a small surface bleed, corneal infection, uveitis, or acute angle-closure glaucoma. This episode explains practical symptom patterns, safe first steps, contact-lens risk, and urgent warning signs.",
+    "thumbnail_text": "WHEN IS A RED EYE SERIOUS?"
+  }
+}
