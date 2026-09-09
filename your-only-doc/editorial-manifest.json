@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "workflow": "chatgpt-reviewed-v20",
-  "updated_at": "2026-09-08T09:07:00Z",
-  "next_episode_number": 29,
+  "updated_at": "2026-09-09T09:39:00Z",
+  "next_episode_number": 30,
   "next_planned_topic": {
-    "id": "red-eye",
-    "title": "Why Your Eyes Look Red",
-    "reason": "It continues the eye-health sequence by separating common irritation from conjunctivitis, corneal disease, uveitis, glaucoma, and other causes that need urgent assessment."
+    "id": "eyelid-twitching",
+    "title": "Why Your Eyelids Twitch",
+    "reason": "It continues the eye-health sequence with a common symptom, its usual triggers, practical self-care, and the uncommon patterns that need neurological or ophthalmic assessment."
   },
   "packets": [
     {
@@ -148,6 +148,13 @@
       "title": "E28: Why Your Eyes Keep Watering",
       "file": "episodes/E28-watery-eyes.json",
       "status": "ready"
+    },
+    {
+      "episode_number": 29,
+      "topic_id": "red-eye",
+      "title": "E29: Why Your Eyes Look Red",
+      "file": "episodes/E29-red-eye.json",
+      "status": "ready"
     }
   ],
   "evergreen_sequence": [
@@ -218,6 +225,10 @@
     {
       "id": "red-eye",
       "title": "Why Your Eyes Look Red"
+    },
+    {
+      "id": "eyelid-twitching",
+      "title": "Why Your Eyelids Twitch"
     }
   ],
   "editorial_policy": {
