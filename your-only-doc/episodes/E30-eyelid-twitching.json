@@ -1,0 +1,150 @@
+{
+  "schema": 2,
+  "editorial": {
+    "workflow": "chatgpt-reviewed-v20",
+    "reviewed_by": "ChatGPT medical editorial workflow",
+    "reviewed_on": "2026-09-10",
+    "episode_number": 30,
+    "language": "English",
+    "spoken_host_name_allowed": false,
+    "long_dashes_allowed": false,
+    "target_minutes": 10
+  },
+  "topic_id": "eyelid-twitching",
+  "topic": {
+    "id": "eyelid-twitching",
+    "title": "Why Your Eyelids Twitch",
+    "audience_question": "Why does an eyelid twitch, what can calm it, and when does the pattern need medical assessment?",
+    "pubmed_query": "eyelid myokymia blepharospasm hemifacial spasm triggers diagnosis treatment",
+    "icon_keywords": ["eyelid-twitch", "myokymia", "facial-nerve", "eye-exam"],
+    "category": "ophthalmology"
+  },
+  "sources": [
+    {
+      "id": "AAO:EYE-TWITCHING-2023",
+      "title": "Eye Twitching Causes and Treatment",
+      "abstract": "The American Academy of Ophthalmology explains that common eyelid twitching is often linked with tiredness, stress, caffeine, alcohol, dry eye, or irritation. Persistent or spreading movements warrant professional assessment.",
+      "journal": "American Academy of Ophthalmology",
+      "year": "2023",
+      "url": "https://www.aao.org/eye-health/tips-prevention/how-to-stop-eye-twitching",
+      "doi": null
+    },
+    {
+      "id": "NCBI:EYELID-MYOKYMIA-2023",
+      "title": "Eyelid Myokymia",
+      "abstract": "This clinical review describes eyelid myokymia as fine, usually unilateral contractions that most often affect the lower eyelid. It reviews common triggers, conservative management, differential diagnosis, prognosis, and referral indicators.",
+      "journal": "StatPearls, National Center for Biotechnology Information",
+      "year": "2023",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK560595/",
+      "doi": null
+    },
+    {
+      "id": "AAO:EYELID-SPASM-BOTOX-2023",
+      "title": "Botulinum Toxin for Eye Conditions",
+      "abstract": "The American Academy of Ophthalmology reviews the clinical use of botulinum toxin for eyelid and facial spasms, including blepharospasm and hemifacial spasm, when conservative care is not appropriate or sufficient.",
+      "journal": "American Academy of Ophthalmology",
+      "year": "2023",
+      "url": "https://www.aao.org/eye-health/tips-prevention/botox-eye-strabismus-tearing-entropion-spasms",
+      "doi": null
+    },
+    {
+      "id": "EYEWIKI:EYELID-MYOKYMIA-2026",
+      "title": "Eyelid Myokymia",
+      "abstract": "This ophthalmologist-edited review summarizes benign eyelid myokymia, contributing factors, clinical diagnosis, conservative management, and features that distinguish it from broader facial movement disorders.",
+      "journal": "American Academy of Ophthalmology EyeWiki",
+      "year": "2026",
+      "url": "https://eyewiki.org/Eyelid_Myokymia",
+      "doi": null
+    },
+    {
+      "id": "CUREUS:SCREEN-MYOKYMIA-2024",
+      "title": "Association Between Eyelid Twitching and Digital Screen Time, Uncorrected Refractive Error, Intraocular Pressure, and Blood Electrolyte Imbalances",
+      "abstract": "In a case-control study, people with persistent eyelid myokymia reported more digital screen time than controls. The study found no significant group difference in measured calcium, sodium, potassium, or magnesium levels, refractive error, or intraocular pressure.",
+      "journal": "Cureus",
+      "year": "2024",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39282492/",
+      "doi": "10.7759/cureus.69249"
+    },
+    {
+      "id": "NCBI:HEMIFACIAL-SPASM-2024",
+      "title": "Hemifacial Spasm",
+      "abstract": "This clinical review describes hemifacial spasm as involuntary contractions involving muscles on one side of the face, often beginning around the eye, and discusses neurological examination, imaging when indicated, and treatment options.",
+      "journal": "StatPearls, National Center for Biotechnology Information",
+      "year": "2024",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK526108/",
+      "doi": null
+    }
+  ],
+  "episode": {
+    "title": "E30: Why Your Eyelids Twitch",
+    "hook": "Hello and welcome to the Your Only Doc podcast. You are reading a message when the lower eyelid suddenly begins to flutter. It stops, then returns during a stressful afternoon. The movement feels dramatic, yet it may be almost invisible in the mirror. Most isolated eyelid twitches are harmless and temporary. The useful question is not simply whether the lid moved, but how it moved, how long it lasted, and whether anything else moved with it.",
+    "sections": [
+      {
+        "heading": "The high yield summary",
+        "narration": "Too busy? Here is your high yield summary. A fine flutter in one eyelid, especially the lower lid, is usually eyelid myokymia. Common associations include poor sleep, stress, fatigue, excess caffeine, alcohol, dry eye, and prolonged screen use. Rest, reduce likely triggers, take screen breaks, and treat surface irritation appropriately. Do not assume every twitch means magnesium deficiency. Arrange assessment if it persists for weeks, closes the eye, spreads to the cheek or mouth, affects both eyes forcefully, or comes with drooping, weakness, numbness, double vision, or other neurological symptoms.",
+        "on_screen": ["Fine eyelid flutter is usually benign", "Sleep, stress, caffeine, and strain matter", "Spread or weakness needs assessment"],
+        "icon": "twitch-summary",
+        "source_ids": ["AAO:EYE-TWITCHING-2023", "NCBI:EYELID-MYOKYMIA-2023", "EYEWIKI:EYELID-MYOKYMIA-2026"]
+      },
+      {
+        "heading": "What is actually twitching",
+        "narration": "The eyelids close through the orbicularis oculi muscle, which receives signals from the facial nerve. In myokymia, small groups of muscle fibers contract in a fine, rippling pattern. It usually affects one lower eyelid, although the upper lid can be involved. Episodes may last seconds or hours and recur over several days. The sensation is often stronger than the visible movement. It is not the same as the whole eye moving, and it usually does not damage vision.",
+        "on_screen": ["Orbicularis oculi closes the lid", "Small fibers ripple", "Lower lid is commonly affected"],
+        "icon": "eyelid-muscle",
+        "source_ids": ["NCBI:EYELID-MYOKYMIA-2023", "EYEWIKI:EYELID-MYOKYMIA-2026"]
+      },
+      {
+        "heading": "Why ordinary life can trigger it",
+        "narration": "The exact mechanism is not fully understood, but myokymia commonly appears during fatigue, anxiety, stress, or increased caffeine intake. Alcohol, smoking, exercise, and irritated or dry eyes may also contribute. Think of these as associations and triggers, not proof of a hidden disease. A twitch after several short nights and extra coffee is far more typical than one caused by a serious neurological disorder.",
+        "on_screen": ["Sleep loss and fatigue", "Stress and caffeine", "Irritated eyes may contribute"],
+        "icon": "common-triggers",
+        "source_ids": ["AAO:EYE-TWITCHING-2023", "NCBI:EYELID-MYOKYMIA-2023"]
+      },
+      {
+        "heading": "Screens and the magnesium myth",
+        "narration": "A 2024 case-control study found longer daily screen time among people with persistent eyelid twitching, but an observational association cannot prove that screens directly caused it. Screens may contribute through reduced blinking, eye-surface irritation, or fatigue. The same study found no significant difference in measured magnesium or other major electrolytes between the twitching and control groups. That does not rule out a deficiency in every patient, but it does mean routine high-dose magnesium is not an evidence-based answer for every eyelid twitch.",
+        "on_screen": ["Screen time is associated, not proven causal", "Breaks may reduce strain", "Do not assume magnesium deficiency"],
+        "icon": "screen-and-minerals",
+        "source_ids": ["CUREUS:SCREEN-MYOKYMIA-2024", "EYEWIKI:EYELID-MYOKYMIA-2026"]
+      },
+      {
+        "heading": "Three movement patterns are different",
+        "narration": "Now, let us go deeper. Myokymia is a subtle flutter limited to part of one eyelid. Blepharospasm causes repeated, forceful closure of both eyes and can interfere with seeing or daily activity. Hemifacial spasm usually affects one side of the face, often starting near the eye and later involving the cheek or mouth. These distinctions matter because persistent blepharospasm and hemifacial spasm require a different neurological or ophthalmic evaluation and may benefit from targeted treatment.",
+        "on_screen": ["Myokymia: fine local flutter", "Blepharospasm: both eyes close", "Hemifacial spasm: one facial side"],
+        "icon": "movement-patterns",
+        "source_ids": ["NCBI:EYELID-MYOKYMIA-2023", "NCBI:HEMIFACIAL-SPASM-2024", "AAO:EYELID-SPASM-BOTOX-2023"]
+      },
+      {
+        "heading": "A practical reset",
+        "narration": "For a typical isolated twitch, start with several nights of adequate sleep and reduce caffeine gradually if your intake is high. Take regular visual breaks, blink deliberately, and consider preservative-free lubricating drops if the eyes feel dry or gritty. Limit alcohol and avoid smoking. Keep a short note of when the twitch appears, which lid is involved, caffeine intake, sleep, medicines, and whether it spreads. A brief phone video can help if the movement stops before an appointment.",
+        "on_screen": ["Restore sleep", "Reduce likely triggers", "Record the pattern"],
+        "icon": "self-care-reset",
+        "source_ids": ["AAO:EYE-TWITCHING-2023", "NCBI:EYELID-MYOKYMIA-2023", "CUREUS:SCREEN-MYOKYMIA-2024"]
+      },
+      {
+        "heading": "What a clinician may check",
+        "narration": "Most classic cases need only a history and examination, not an automatic brain scan or broad laboratory panel. The clinician checks whether the movement is confined to the lid, whether it forcefully closes the eye, and whether facial strength, sensation, eye movements, pupils, and vision are normal. Medicines and stimulant use also matter. Imaging or blood tests are selected when the pattern, examination, duration, or other symptoms suggest a specific cause rather than being ordered routinely for every flutter.",
+        "on_screen": ["Pattern guides the examination", "Review medicines and stimulants", "Tests should answer a specific concern"],
+        "icon": "clinical-exam",
+        "source_ids": ["NCBI:EYELID-MYOKYMIA-2023", "NCBI:HEMIFACIAL-SPASM-2024"]
+      },
+      {
+        "heading": "When to arrange medical assessment",
+        "narration": "Arrange an eye or medical review if twitching does not settle within a few weeks, becomes frequent enough to disrupt life, or causes complete eyelid closure. Seek assessment when it spreads to other muscles on the same side of the face, affects both eyes forcefully, or comes with lid drooping, redness, swelling, pain, or vision change. Sudden facial weakness, numbness, trouble speaking, severe headache, imbalance, or double vision is not typical myokymia and needs urgent medical evaluation.",
+        "on_screen": ["Persistent or disabling twitch", "Spread beyond the eyelid", "Neurological symptoms are urgent"],
+        "icon": "twitch-warning-signs",
+        "source_ids": ["AAO:EYE-TWITCHING-2023", "NCBI:EYELID-MYOKYMIA-2023", "NCBI:HEMIFACIAL-SPASM-2024"]
+      },
+      {
+        "heading": "Three essential takeaways",
+        "narration": "Number one, a fine one-sided eyelid flutter is usually benign myokymia and often settles after sleep, stress, caffeine, screen, and eye-surface triggers are addressed. Number two, do not treat every twitch as magnesium deficiency, and do not start large supplement doses without a reason to suspect or confirm a deficiency. Number three, seek assessment when twitching persists, shuts the eye, spreads across the face, affects both eyes forcefully, or appears with drooping, weakness, numbness, speech difficulty, double vision, or vision loss. The movement pattern is the most useful clue.",
+        "on_screen": ["Most isolated twitches are benign", "Avoid automatic supplement treatment", "Recognize a changing pattern"],
+        "icon": "checklist",
+        "source_ids": ["NCBI:EYELID-MYOKYMIA-2023", "CUREUS:SCREEN-MYOKYMIA-2024", "NCBI:HEMIFACIAL-SPASM-2024"]
+      }
+    ],
+    "closing": "On the next episode, we will explain why floaters appear in your vision, when they are harmless, and when a sudden shower of spots needs urgent eye care. Until then, remember that an eyelid flutter is usually a temporary signal to rest and reduce triggers, but movement that persists or spreads deserves a closer look.",
+    "description": "Eyelid twitching is usually benign myokymia linked with fatigue, stress, caffeine, eye irritation, or prolonged screen use. This episode explains the muscle movement, safe self-care, the evidence around magnesium, and how to distinguish myokymia from blepharospasm or hemifacial spasm.",
+    "thumbnail_text": "WHY WON'T MY EYELID STOP TWITCHING?"
+  }
+}
