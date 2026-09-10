@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "workflow": "chatgpt-reviewed-v20",
-  "updated_at": "2026-09-09T09:39:00Z",
-  "next_episode_number": 30,
+  "updated_at": "2026-09-10T09:19:00Z",
+  "next_episode_number": 31,
   "next_planned_topic": {
-    "id": "eyelid-twitching",
-    "title": "Why Your Eyelids Twitch",
-    "reason": "It continues the eye-health sequence with a common symptom, its usual triggers, practical self-care, and the uncommon patterns that need neurological or ophthalmic assessment."
+    "id": "vision-floaters",
+    "title": "Why You See Floaters in Your Vision",
+    "reason": "It continues the eye-health sequence by explaining common vitreous floaters and the sudden warning signs of a retinal tear or detachment."
   },
   "packets": [
     {
@@ -155,6 +155,13 @@
       "title": "E29: Why Your Eyes Look Red",
       "file": "episodes/E29-red-eye.json",
       "status": "ready"
+    },
+    {
+      "episode_number": 30,
+      "topic_id": "eyelid-twitching",
+      "title": "E30: Why Your Eyelids Twitch",
+      "file": "episodes/E30-eyelid-twitching.json",
+      "status": "ready"
     }
   ],
   "evergreen_sequence": [
@@ -229,6 +236,10 @@
     {
       "id": "eyelid-twitching",
       "title": "Why Your Eyelids Twitch"
+    },
+    {
+      "id": "vision-floaters",
+      "title": "Why You See Floaters in Your Vision"
     }
   ],
   "editorial_policy": {
