@@ -1,0 +1,151 @@
+{
+  "schema": 2,
+  "editorial": {
+    "workflow": "chatgpt-reviewed-v20",
+    "reviewed_by": "ChatGPT medical editorial workflow",
+    "reviewed_on": "2026-09-11",
+    "episode_number": 31,
+    "language": "English",
+    "spoken_host_name_allowed": false,
+    "long_dashes_allowed": false,
+    "target_minutes": 10
+  },
+  "topic_id": "vision-floaters",
+  "topic": {
+    "id": "vision-floaters",
+    "title": "Why You See Floaters in Your Vision",
+    "audience_question": "What causes floaters, and which changes could signal a retinal tear or detachment?",
+    "pubmed_query": "vitreous floaters posterior vitreous detachment retinal tear retinal detachment symptoms dilated examination",
+    "icon_keywords": ["eye-floaters", "vitreous", "retina", "warning-curtain"],
+    "category": "ophthalmology"
+  },
+  "sources": [
+    {
+      "id": "NEI:FLOATERS-2024",
+      "title": "Floaters",
+      "abstract": "The National Eye Institute explains how vitreous strands cast shadows on the retina, describes common appearances and risk factors, and advises urgent evaluation for a sudden increase in floaters, flashes, or a shadow in vision.",
+      "journal": "National Eye Institute",
+      "year": "2024",
+      "url": "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/floaters",
+      "doi": null
+    },
+    {
+      "id": "NEI:RETINAL-DETACHMENT-2025",
+      "title": "Retinal Detachment",
+      "abstract": "The National Eye Institute identifies sudden new floaters, flashes, and a curtain or shadow as retinal detachment warning signs requiring immediate eye or emergency assessment. It reviews risk factors, examination, and treatment.",
+      "journal": "National Eye Institute",
+      "year": "2025",
+      "url": "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/retinal-detachment",
+      "doi": null
+    },
+    {
+      "id": "ASRS:PVD-2026",
+      "title": "Posterior Vitreous Detachment",
+      "abstract": "The American Society of Retina Specialists explains the age-related separation of vitreous from retina, its floaters and flashes, the possibility of retinal tears or bleeding, and the role of dilated examination and follow-up.",
+      "journal": "American Society of Retina Specialists",
+      "year": "2026",
+      "url": "https://www.asrs.org/patients/retinal-diseases/9/posterior-vitreous-detachment",
+      "doi": null
+    },
+    {
+      "id": "NCBI:VITREOUS-FLOATERS-2022",
+      "title": "Vitreous Floaters",
+      "abstract": "This clinical review covers vitreous collagen, posterior vitreous detachment, risk factors, history, dilated retinal examination, ultrasonography when the retina cannot be viewed, and urgent warning symptoms.",
+      "journal": "StatPearls, National Center for Biotechnology Information",
+      "year": "2022",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK470420/",
+      "doi": null
+    },
+    {
+      "id": "ACTA:PVD-TEARS-2019",
+      "title": "Symptoms Related to Posterior Vitreous Detachment and the Risk of Developing Retinal Tears: A Systematic Review",
+      "abstract": "This systematic review found that new floaters and flashes, especially together or with a curtain, cloud, or ocular hemorrhage, were associated with retinal tears and supported immediate examination for symptomatic posterior vitreous detachment.",
+      "journal": "Acta Ophthalmologica",
+      "year": "2019",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30632695/",
+      "doi": "10.1111/aos.14012"
+    },
+    {
+      "id": "OPHTHALMOLOGICA:PVD-RISK-2022",
+      "title": "Symptom-Based Risk Factors for Retinal Tears and Detachments in Suspected Posterior Vitreous Detachment",
+      "abstract": "In this prospective cohort, subjective visual reduction and visual field loss were associated with retinal tear or detachment among patients presenting with flashes, floaters, or field symptoms. Symptoms alone could not replace dilated examination.",
+      "journal": "Ophthalmologica",
+      "year": "2022",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36228586/",
+      "doi": "10.1159/000527295"
+    }
+  ],
+  "episode": {
+    "title": "E31: Why You See Floaters in Your Vision",
+    "hook": "Hello and welcome to the Your Only Doc podcast. You look at a bright wall and notice a tiny thread drifting across your vision. When you try to stare directly at it, it slides away. You blink, but it remains. That is the strange experience of a floater. Most long-standing floaters are harmless, but a sudden new pattern can be the first warning that the retina is being pulled or torn. The timing and associated symptoms matter more than the shape alone.",
+    "sections": [
+      {
+        "heading": "The high yield summary",
+        "narration": "Too busy? Here is your high yield summary. Floaters are shadows cast on the retina by tiny clumps or strands within the vitreous gel. They may look like dots, threads, rings, cobwebs, or insects and move when the eye moves. A few stable floaters are common, especially with age. A sudden shower of new floaters, flashes of light, blurred or reduced vision, or a dark curtain or shadow needs immediate eye assessment because it may signal a retinal tear or detachment.",
+        "on_screen": ["Floaters are internal shadows", "Stable floaters are common", "Sudden change can be urgent"],
+        "icon": "floater-summary",
+        "source_ids": ["NEI:FLOATERS-2024", "NEI:RETINAL-DETACHMENT-2025", "ACTA:PVD-TEARS-2019"]
+      },
+      {
+        "heading": "Where the shadow comes from",
+        "narration": "The vitreous is the clear gel filling the eye behind the lens. It is mostly water, supported by a delicate network of collagen and other molecules. With time, parts of that network condense or clump. Light passing through the eye meets these small opacities, and their shadows fall on the light-sensitive retina. You perceive the shadow as a floater even though nothing is floating in front of the eye.",
+        "on_screen": ["Clear vitreous gel", "Collagen strands can clump", "The retina detects their shadows"],
+        "icon": "vitreous-shadow",
+        "source_ids": ["NEI:FLOATERS-2024", "NCBI:VITREOUS-FLOATERS-2022"]
+      },
+      {
+        "heading": "Why floaters drift away",
+        "narration": "Floaters move with the vitreous when your eye moves, then continue drifting briefly after the eye stops. That is why chasing one with your gaze feels impossible. They are easier to notice against a bright, plain background such as a blue sky, white screen, or pale wall. Blinking usually does not remove them because they are inside the eye, unlike debris or mucus on the surface.",
+        "on_screen": ["Eye moves, floater follows", "Bright backgrounds reveal shadows", "Blinking does not clear vitreous"],
+        "icon": "drifting-floater",
+        "source_ids": ["NEI:FLOATERS-2024", "ASRS:PVD-2026"]
+      },
+      {
+        "heading": "The common age-related change",
+        "narration": "As the vitreous becomes more liquid and shrinks, it can separate from the retina. This is called posterior vitreous detachment. It becomes more common with age and may happen earlier with significant nearsightedness, eye trauma, inflammation, or recent eye surgery. Most posterior vitreous detachments do not threaten sight, and symptoms often become less noticeable over weeks to months. The important exception is when separation pulls hard enough to tear the retina or a retinal blood vessel.",
+        "on_screen": ["Vitreous changes with age", "Separation is called PVD", "Traction can occasionally cause a tear"],
+        "icon": "posterior-vitreous-detachment",
+        "source_ids": ["ASRS:PVD-2026", "NCBI:VITREOUS-FLOATERS-2022", "NEI:RETINAL-DETACHMENT-2025"]
+      },
+      {
+        "heading": "Why flashes can appear",
+        "narration": "Now, let us go deeper. A floater is a shadow, but a flash is a signal created when mechanical traction stimulates the retina. People may describe brief streaks, sparks, or lightning at the side of vision, often more noticeable in darkness. New flashes do not prove that a retinal tear exists, but flashes combined with sudden floaters or visual loss increase concern. Only an examination can reliably distinguish an uncomplicated vitreous detachment from a tear.",
+        "on_screen": ["Floater means shadow", "Flash can mean retinal traction", "Symptoms cannot replace examination"],
+        "icon": "retinal-flash",
+        "source_ids": ["ASRS:PVD-2026", "ACTA:PVD-TEARS-2019", "OPHTHALMOLOGICA:PVD-RISK-2022"]
+      },
+      {
+        "heading": "The warning pattern",
+        "narration": "Seek immediate eye care for many new floaters appearing suddenly, especially if they resemble a shower of dots or come with flashes. A dark curtain, fixed shadow, missing area of side vision, sudden blur, or reduced vision is an emergency warning pattern. Do not wait for pain, because retinal tears and detachments are often painless. The same urgency applies after significant eye trauma or when new symptoms occur in someone with previous retinal detachment or recent eye surgery.",
+        "on_screen": ["Sudden shower of floaters", "Flashes or reduced vision", "Curtain or shadow is an emergency"],
+        "icon": "retinal-warning",
+        "source_ids": ["NEI:FLOATERS-2024", "NEI:RETINAL-DETACHMENT-2025", "ACTA:PVD-TEARS-2019"]
+      },
+      {
+        "heading": "What the examination involves",
+        "narration": "The key test is a dilated retinal examination. Drops widen the pupil so the clinician can inspect the peripheral retina for a hole, tear, bleeding, or detachment. The examination is usually painless, although pressure on the eyelid may feel uncomfortable. If blood or another opacity blocks the view, ocular ultrasound can help assess the retina. Follow-up may be advised because a tear can occasionally appear after the first examination as vitreous separation continues.",
+        "on_screen": ["Dilated retinal examination", "Peripheral retina must be checked", "Follow-up may still matter"],
+        "icon": "dilated-eye-exam",
+        "source_ids": ["NEI:FLOATERS-2024", "ASRS:PVD-2026", "NCBI:VITREOUS-FLOATERS-2022"]
+      },
+      {
+        "heading": "Living with stable floaters",
+        "narration": "Most uncomplicated floaters need no treatment. The brain often learns to pay less attention, and the opacity may drift away from central vision. If floaters remain severely disabling, a retina specialist can discuss options, including vitrectomy, but surgery has meaningful risks and is not a casual treatment for mild annoyance. There is no proven eye drop, exercise, or home remedy that dissolves ordinary vitreous collagen strands. New changes still need reassessment even after an earlier reassuring examination.",
+        "on_screen": ["Most need no treatment", "Symptoms often become less noticeable", "Surgery requires risk-benefit discussion"],
+        "icon": "floater-management",
+        "source_ids": ["NEI:FLOATERS-2024", "ASRS:PVD-2026", "NCBI:VITREOUS-FLOATERS-2022"]
+      },
+      {
+        "heading": "Three essential takeaways",
+        "narration": "Number one, ordinary floaters are shadows from material inside the vitreous, so they drift with eye movement and appear clearer against bright backgrounds. Number two, a few stable floaters are usually harmless, but a sudden shower, new flashes, reduced vision, or a curtain or shadow requires immediate dilated retinal examination. Number three, most uncomplicated floaters improve without treatment, but a normal earlier examination does not cancel the need for reassessment if the pattern changes. Protecting vision depends on recognizing change and acting quickly.",
+        "on_screen": ["Understand the shadow", "Recognize sudden change", "Act quickly when warning signs appear"],
+        "icon": "checklist",
+        "source_ids": ["NEI:FLOATERS-2024", "NEI:RETINAL-DETACHMENT-2025", "ASRS:PVD-2026"]
+      }
+    ],
+    "closing": "On the next episode, we will explain why vision becomes blurry, how the pattern points toward the cause, and which changes should never be ignored. Until then, remember that one familiar drifting spot is very different from a sudden shower, flash, or curtain. When the pattern changes quickly, protect the retina by getting urgent eye care.",
+    "description": "Floaters are shadows from strands or clumps inside the vitreous gel. This episode explains why they drift, how posterior vitreous detachment causes floaters and flashes, and which sudden changes can signal a retinal tear or detachment.",
+    "thumbnail_text": "WHEN ARE EYE FLOATERS DANGEROUS?"
+  }
+}
+
