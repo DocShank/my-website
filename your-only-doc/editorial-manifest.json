@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "workflow": "chatgpt-reviewed-v20",
-  "updated_at": "2026-09-10T09:19:00Z",
-  "next_episode_number": 31,
+  "updated_at": "2026-09-11T09:48:00Z",
+  "next_episode_number": 32,
   "next_planned_topic": {
-    "id": "vision-floaters",
-    "title": "Why You See Floaters in Your Vision",
-    "reason": "It continues the eye-health sequence by explaining common vitreous floaters and the sudden warning signs of a retinal tear or detachment."
+    "id": "blurry-vision",
+    "title": "Why Your Vision Becomes Blurry",
+    "reason": "It continues the eye-health sequence by separating common refractive and surface causes from sudden retinal, vascular, neurological, or pressure-related warning patterns."
   },
   "packets": [
     {
@@ -162,6 +162,13 @@
       "title": "E30: Why Your Eyelids Twitch",
       "file": "episodes/E30-eyelid-twitching.json",
       "status": "ready"
+    },
+    {
+      "episode_number": 31,
+      "topic_id": "vision-floaters",
+      "title": "E31: Why You See Floaters in Your Vision",
+      "file": "episodes/E31-vision-floaters.json",
+      "status": "ready"
     }
   ],
   "evergreen_sequence": [
@@ -240,6 +247,10 @@
     {
       "id": "vision-floaters",
       "title": "Why You See Floaters in Your Vision"
+    },
+    {
+      "id": "blurry-vision",
+      "title": "Why Your Vision Becomes Blurry"
     }
   ],
   "editorial_policy": {
