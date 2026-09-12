@@ -1,0 +1,159 @@
+{
+  "schema": 2,
+  "editorial": {
+    "workflow": "chatgpt-reviewed-v20",
+    "reviewed_by": "ChatGPT medical editorial workflow",
+    "reviewed_on": "2026-09-12",
+    "episode_number": 32,
+    "language": "English",
+    "spoken_host_name_allowed": false,
+    "long_dashes_allowed": false,
+    "target_minutes": 10
+  },
+  "topic_id": "blurry-vision",
+  "topic": {
+    "id": "blurry-vision",
+    "title": "Why Your Vision Becomes Blurry",
+    "audience_question": "What causes blurry vision, and which patterns need urgent medical or eye assessment?",
+    "pubmed_query": "blurred vision refractive error dry eye cataract diabetic retinopathy acute visual loss emergency",
+    "icon_keywords": ["blurry-vision", "refraction", "retina", "eye-emergency"],
+    "category": "ophthalmology"
+  },
+  "sources": [
+    {
+      "id": "NEI:REFRACTIVE-ERRORS-2025",
+      "title": "Refractive Errors",
+      "abstract": "The National Eye Institute describes myopia, hyperopia, astigmatism, and presbyopia as common focusing problems that cause blurred vision and are diagnosed with an eye examination.",
+      "journal": "National Eye Institute",
+      "year": "2025",
+      "url": "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/refractive-errors",
+      "doi": null
+    },
+    {
+      "id": "NEI:DRY-EYE-2025",
+      "title": "Dry Eye",
+      "abstract": "The National Eye Institute explains that inadequate or unstable tears can cause burning, scratchiness, redness, light sensitivity, and blurry vision, with artificial tears and environmental changes helping many mild cases.",
+      "journal": "National Eye Institute",
+      "year": "2025",
+      "url": "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/dry-eye",
+      "doi": null
+    },
+    {
+      "id": "NEI:CATARACTS-2026",
+      "title": "Cataracts",
+      "abstract": "The National Eye Institute describes cataracts as clouding of the lens that can gradually cause hazy vision, faded colors, glare, halos, and difficulty seeing at night.",
+      "journal": "National Eye Institute",
+      "year": "2026",
+      "url": "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/cataracts",
+      "doi": null
+    },
+    {
+      "id": "NEI:DIABETIC-RETINOPATHY-2025",
+      "title": "Diabetic Retinopathy",
+      "abstract": "The National Eye Institute notes that diabetic retinopathy may initially have no symptoms, while later disease can cause blurred vision, floaters, and central vision loss from diabetic macular edema.",
+      "journal": "National Eye Institute",
+      "year": "2025",
+      "url": "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/diabetic-retinopathy",
+      "doi": null
+    },
+    {
+      "id": "NEI:GLAUCOMA-TYPES-2024",
+      "title": "Types of Glaucoma",
+      "abstract": "The National Eye Institute identifies sudden intense eye pain, a red eye, nausea, and blurry vision as warning symptoms of acute angle-closure glaucoma requiring emergency treatment.",
+      "journal": "National Eye Institute",
+      "year": "2024",
+      "url": "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/glaucoma/types-glaucoma",
+      "doi": null
+    },
+    {
+      "id": "CDC:STROKE-SIGNS-2026",
+      "title": "Signs and Symptoms of Stroke",
+      "abstract": "The Centers for Disease Control and Prevention lists sudden trouble seeing, weakness or numbness, speech difficulty, loss of balance, and sudden severe headache as stroke warning signs requiring emergency action.",
+      "journal": "Centers for Disease Control and Prevention",
+      "year": "2026",
+      "url": "https://www.cdc.gov/stroke/signs-symptoms/index.html",
+      "doi": null
+    },
+    {
+      "id": "ANNEMERG:ACUTE-VISION-2022",
+      "title": "Managing Patients With Acute Visual Loss",
+      "abstract": "This peer-reviewed emergency medicine review presents acute visual loss as time sensitive and recommends localization using onset, one-eye or both-eye involvement, pain, redness, visual field findings, and ocular or neurological features.",
+      "journal": "Annals of Emergency Medicine",
+      "year": "2022",
+      "url": "https://internetbookofemergencymedicine.com/wp-content/uploads/2023/12/edlow-ja-hoffmann-b.-managing-patients-with-acute-visual-loss.pdf",
+      "doi": "10.1016/j.annemergmed.2021.10.019"
+    }
+  ],
+  "episode": {
+    "title": "E32: Why Your Vision Becomes Blurry",
+    "hook": "Hello and welcome to the Your Only Doc podcast. You wake up, look at your phone, and the letters seem hazy. You blink and they clear, or perhaps one eye stays blurred. The word blurry can describe a smudged tear film, an outdated prescription, a cloudy lens, a swollen retina, high eye pressure, or a disrupted visual pathway. Most gradual blur is not an emergency, but sudden blur can be time critical. The pattern matters.",
+    "sections": [
+      {
+        "heading": "The high yield summary",
+        "narration": "Too busy? Here is your high yield summary. Gradual, painless blur often comes from a focusing problem, dry eye, or cataract. Blur that changes with blinking suggests the eye surface, while slowly worsening glare and faded colors can suggest lens clouding. Sudden blur or vision loss needs urgent assessment, especially in one eye or with a curtain, flashes, new floaters, severe eye pain, redness, weakness, speech trouble, or imbalance. Do not assume that painless means harmless.",
+        "on_screen": ["Timing narrows the cause", "Blinking may reveal surface blur", "Sudden change can be urgent"],
+        "icon": "blur-summary",
+        "source_ids": ["NEI:REFRACTIVE-ERRORS-2025", "NEI:DRY-EYE-2025", "ANNEMERG:ACUTE-VISION-2022"]
+      },
+      {
+        "heading": "Start with the pattern",
+        "narration": "A clinician first asks when the blur began, whether it is constant or intermittent, painful or painless, and whether one eye or both eyes are affected. Sudden change points toward a different group of problems than blur developing over months. One-eye symptoms often localize to that eye or its optic nerve. Similar loss on one side of the visual field in both eyes can arise farther back in the visual pathway. These clues guide examination, but they do not replace it.",
+        "on_screen": ["Sudden or gradual?", "One eye or both?", "Painful or painless?"],
+        "icon": "vision-pattern",
+        "source_ids": ["ANNEMERG:ACUTE-VISION-2022", "CDC:STROKE-SIGNS-2026"]
+      },
+      {
+        "heading": "When the eye cannot focus",
+        "narration": "Refractive errors are common and usually develop gradually. Nearsightedness blurs distant objects. Farsightedness can make near work difficult. Astigmatism can distort vision at different distances, and presbyopia makes close focusing harder with age. Squinting may briefly sharpen the image, but it does not identify the exact prescription. A proper eye examination checks visual acuity, refraction, eye health, and whether glasses or contact lenses safely correct the blur.",
+        "on_screen": ["Myopia affects distance", "Presbyopia affects near focus", "An eye exam confirms refraction"],
+        "icon": "refractive-focus",
+        "source_ids": ["NEI:REFRACTIVE-ERRORS-2025"]
+      },
+      {
+        "heading": "The tear film is the first lens",
+        "narration": "A smooth tear film is the first clear optical surface that light crosses. If tears evaporate too quickly or the eye does not make enough, vision may fluctuate, especially during screen use, reading, wind, or air conditioning. Blinking may briefly clear the image. Burning, grittiness, redness, or light sensitivity can accompany it. Mild dry eye often improves with breaks, deliberate blinking, reducing direct airflow, and suitable artificial tears, but persistent symptoms deserve examination.",
+        "on_screen": ["Tears create a smooth surface", "Blur may fluctuate", "Blinking can briefly clear it"],
+        "icon": "tear-film",
+        "source_ids": ["NEI:DRY-EYE-2025"]
+      },
+      {
+        "heading": "When the lens becomes cloudy",
+        "narration": "Cataracts usually change vision slowly. The natural lens becomes cloudy, so the world may look hazy, colors may appear faded, and headlights may produce glare or halos. Night driving often becomes difficult before daytime vision feels severely reduced. Cataracts are diagnosed during a comprehensive dilated examination. A new glasses prescription may help early on. Surgery is considered when the cataract interferes with daily activities, not simply because a cataract exists.",
+        "on_screen": ["Gradual haze", "Glare and faded colors", "Treat when daily life is affected"],
+        "icon": "cloudy-lens",
+        "source_ids": ["NEI:CATARACTS-2026"]
+      },
+      {
+        "heading": "The retina may be quiet at first",
+        "narration": "Diabetes can damage small retinal blood vessels before vision changes are noticeable. Later, leakage and swelling near the macula can blur central detail, while bleeding may create floaters or more sudden loss. That is why waiting for blur is a poor screening strategy. People with diabetes need regular dilated eye examinations on the schedule recommended by their eye and diabetes care teams. Better glucose, blood pressure, and cholesterol control helps reduce risk, but examination is still necessary.",
+        "on_screen": ["Early disease may be silent", "Macular swelling blurs detail", "Screen before symptoms appear"],
+        "icon": "diabetic-retina",
+        "source_ids": ["NEI:DIABETIC-RETINOPATHY-2025"]
+      },
+      {
+        "heading": "How clinicians localize the blur",
+        "narration": "Now, let us go deeper. Vision depends on a clear cornea and lens, a functioning retina and optic nerve, and intact pathways through the brain. Examination therefore checks each level. Visual acuity measures detail. Pupils, eye movements, visual fields, the front of the eye, eye pressure, and a dilated retinal view provide different clues. If the story suggests a vascular or neurological problem, urgent brain and blood-vessel assessment may be needed. Blur is a symptom, not a diagnosis.",
+        "on_screen": ["Optics, retina, nerve, brain", "Each test localizes the problem", "Blur is not one diagnosis"],
+        "icon": "visual-pathway",
+        "source_ids": ["ANNEMERG:ACUTE-VISION-2022", "NEI:GLAUCOMA-TYPES-2024", "CDC:STROKE-SIGNS-2026"]
+      },
+      {
+        "heading": "The patterns that cannot wait",
+        "narration": "Get urgent medical or eye care for sudden new blur or vision loss, even without pain. A dark curtain, new flashes, or a sudden shower of floaters can signal a retinal emergency. Severe eye pain with redness, halos, headache, nausea, or vomiting can signal acute angle closure. Sudden visual trouble with facial droop, arm weakness, speech difficulty, confusion, or loss of balance can be stroke. Eye trauma and chemical exposure also require immediate action. Do not drive yourself if vision is unsafe.",
+        "on_screen": ["Sudden loss needs urgent care", "Painful red eye is an emergency", "Vision plus FAST signs may be stroke"],
+        "icon": "urgent-vision",
+        "source_ids": ["NEI:GLAUCOMA-TYPES-2024", "CDC:STROKE-SIGNS-2026", "ANNEMERG:ACUTE-VISION-2022"]
+      },
+      {
+        "heading": "Three essential takeaways",
+        "narration": "Number one, describe the pattern: sudden or gradual, one eye or both, constant or fluctuating, painful or painless. Number two, common gradual causes include refractive error, dry eye, and cataract, but retinal disease may begin silently, especially with diabetes. Number three, sudden blur or loss, a curtain, flashes, new floaters, a painful red eye, or accompanying neurological symptoms needs urgent assessment. Do not treat every blur with stronger glasses or eye drops. The right response depends on where the visual system is failing.",
+        "on_screen": ["Describe the pattern", "Screen before silent disease advances", "Act urgently on warning signs"],
+        "icon": "checklist",
+        "source_ids": ["NEI:REFRACTIVE-ERRORS-2025", "NEI:DIABETIC-RETINOPATHY-2025", "ANNEMERG:ACUTE-VISION-2022"]
+      }
+    ],
+    "closing": "On the next episode, we will explain why you see double, why covering one eye can help locate the problem, and when double vision points to a neurological emergency. Until then, remember that blurry vision is not defined only by how unclear the image feels. Its speed, laterality, pain, and associated symptoms tell you how quickly to act.",
+    "description": "Blurry vision can come from the tear film, focusing system, lens, retina, optic nerve, or brain. This episode explains common gradual causes, how clinicians localize the problem, and which sudden patterns require urgent care.",
+    "thumbnail_text": "WHEN IS BLURRY VISION URGENT?"
+  }
+}
