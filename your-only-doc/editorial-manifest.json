@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "workflow": "chatgpt-reviewed-v20",
-  "updated_at": "2026-09-11T09:48:00Z",
-  "next_episode_number": 32,
+  "updated_at": "2026-09-12T09:28:16Z",
+  "next_episode_number": 33,
   "next_planned_topic": {
-    "id": "blurry-vision",
-    "title": "Why Your Vision Becomes Blurry",
-    "reason": "It continues the eye-health sequence by separating common refractive and surface causes from sudden retinal, vascular, neurological, or pressure-related warning patterns."
+    "id": "double-vision",
+    "title": "Why You See Double",
+    "reason": "It continues the vision-symptom sequence by separating monocular optical causes from binocular eye-alignment and neurological warning patterns."
   },
   "packets": [
     {
@@ -169,6 +169,13 @@
       "title": "E31: Why You See Floaters in Your Vision",
       "file": "episodes/E31-vision-floaters.json",
       "status": "ready"
+    },
+    {
+      "episode_number": 32,
+      "topic_id": "blurry-vision",
+      "title": "E32: Why Your Vision Becomes Blurry",
+      "file": "episodes/E32-blurry-vision.json",
+      "status": "ready"
     }
   ],
   "evergreen_sequence": [
@@ -251,6 +258,10 @@
     {
       "id": "blurry-vision",
       "title": "Why Your Vision Becomes Blurry"
+    },
+    {
+      "id": "double-vision",
+      "title": "Why You See Double"
     }
   ],
   "editorial_policy": {
