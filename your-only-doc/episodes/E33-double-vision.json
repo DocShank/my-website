@@ -1,0 +1,159 @@
+{
+  "schema": 2,
+  "editorial": {
+    "workflow": "chatgpt-reviewed-v20",
+    "reviewed_by": "ChatGPT medical editorial workflow",
+    "reviewed_on": "2026-09-13",
+    "episode_number": 33,
+    "language": "English",
+    "spoken_host_name_allowed": false,
+    "long_dashes_allowed": false,
+    "target_minutes": 10
+  },
+  "topic_id": "double-vision",
+  "topic": {
+    "id": "double-vision",
+    "title": "Why You See Double",
+    "audience_question": "Why does one object appear twice, and when is double vision a neurological or eye emergency?",
+    "pubmed_query": "diplopia double vision monocular binocular diagnosis cranial nerve palsy myasthenia stroke emergency",
+    "icon_keywords": ["double-vision", "eye-alignment", "cranial-nerves", "neurological-warning"],
+    "category": "neuro-ophthalmology"
+  },
+  "sources": [
+    {
+      "id": "AAO:DIPLOPIA-DANGER-2022",
+      "title": "When Is Diplopia a Sign of Something Dangerous?",
+      "abstract": "The American Academy of Ophthalmology explains the distinction between monocular and binocular diplopia and reviews eye movement patterns and intracranial warning causes.",
+      "journal": "American Academy of Ophthalmology",
+      "year": "2022",
+      "url": "https://www.aao.org/young-ophthalmologists/yo-info/article/when-is-diplopia-a-sign-of-something-dangerous",
+      "doi": null
+    },
+    {
+      "id": "CLINMED:DIPLOPIA-2022",
+      "title": "Diplopia: Diagnosis and Management",
+      "abstract": "This peer-reviewed clinical review provides a stepwise approach to monocular and binocular diplopia, red flags, examination, investigation, and symptom management.",
+      "journal": "Clinical Medicine",
+      "year": "2022",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8966821/",
+      "doi": "10.7861/clinmed.2022-0045"
+    },
+    {
+      "id": "BJGP:NEW-DIPLOPIA-2025",
+      "title": "New-Onset Double Vision in General Practice",
+      "abstract": "This peer-reviewed article emphasizes systematic assessment of new diplopia and recognition of potentially serious neurological, vascular, orbital, and neuromuscular causes.",
+      "journal": "British Journal of General Practice",
+      "year": "2025",
+      "url": "https://doi.org/10.3399/bjgp25X740781",
+      "doi": "10.3399/bjgp25X740781"
+    },
+    {
+      "id": "CONTINUUM:DIPLOPIA-2014",
+      "title": "Diagnostic Approach to Diplopia",
+      "abstract": "This neurology review describes how image separation, gaze dependence, eyelid position, pupils, eye movements, and associated neurological findings help localize double vision.",
+      "journal": "Continuum",
+      "year": "2014",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10563939/",
+      "doi": "10.1212/01.CON.0000453306.09194.b4"
+    },
+    {
+      "id": "NINDS:MYASTHENIA-2026",
+      "title": "Myasthenia Gravis",
+      "abstract": "The National Institute of Neurological Disorders and Stroke describes fluctuating drooping eyelids and double vision among myasthenia gravis symptoms, along with swallowing and breathing weakness that may become urgent.",
+      "journal": "National Institute of Neurological Disorders and Stroke",
+      "year": "2026",
+      "url": "https://www.ninds.nih.gov/health-information/disorders/myasthenia-gravis",
+      "doi": null
+    },
+    {
+      "id": "CDC:STROKE-SIGNS-2026",
+      "title": "Signs and Symptoms of Stroke",
+      "abstract": "The Centers for Disease Control and Prevention lists sudden trouble seeing, weakness or numbness, speech difficulty, loss of balance, and sudden severe headache as stroke warning signs requiring emergency action.",
+      "journal": "Centers for Disease Control and Prevention",
+      "year": "2026",
+      "url": "https://www.cdc.gov/stroke/signs-symptoms/index.html",
+      "doi": null
+    },
+    {
+      "id": "NEI:REFRACTIVE-ERRORS-2025",
+      "title": "Refractive Errors",
+      "abstract": "The National Eye Institute explains how focusing errors and astigmatism distort images and how refraction and a comprehensive eye examination establish the diagnosis.",
+      "journal": "National Eye Institute",
+      "year": "2025",
+      "url": "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/refractive-errors",
+      "doi": null
+    }
+  ],
+  "episode": {
+    "title": "E33: Why You See Double",
+    "hook": "Hello and welcome to the Your Only Doc podcast. Imagine looking at one traffic light and suddenly seeing two. You close either eye, and the second image disappears. That observation can tell a clinician that the eyes are no longer aiming at the same point. If doubling remains through one eye alone, the problem is usually optical. Double vision can be harmless, but sudden onset deserves respect because the cause may sit anywhere from the cornea to the brain.",
+    "sections": [
+      {
+        "heading": "The high yield summary",
+        "narration": "Too busy? Here is your high yield summary. First confirm whether you are seeing two separate images rather than one blurred or ghosted image. If the doubling remains when one eye is covered, it is monocular and often comes from that eye's tear film, cornea, lens, or focusing system. If covering either eye removes it, it is binocular and reflects misalignment between the eyes. New binocular double vision needs prompt assessment. Sudden onset with headache, a changed pupil, weakness, speech trouble, imbalance, or eyelid drooping can be an emergency.",
+        "on_screen": ["Two images or one blurred image?", "Monocular points toward optics", "Binocular points toward alignment"],
+        "icon": "diplopia-summary",
+        "source_ids": ["AAO:DIPLOPIA-DANGER-2022", "CLINMED:DIPLOPIA-2022", "BJGP:NEW-DIPLOPIA-2025"]
+      },
+      {
+        "heading": "The simple cover test",
+        "narration": "When double vision is present, cover one eye, then uncover it and cover the other. Do not press on the eye. Monocular diplopia persists through the affected eye even when the other eye is covered. Binocular diplopia disappears when either eye is covered because the brain no longer receives two misaligned images. This test does not diagnose the cause, and it should never delay urgent care. It simply gives useful information to report to the clinician.",
+        "on_screen": ["Cover one eye at a time", "Do not press the eye", "Report what makes doubling stop"],
+        "icon": "cover-test",
+        "source_ids": ["AAO:DIPLOPIA-DANGER-2022", "CLINMED:DIPLOPIA-2022", "CONTINUUM:DIPLOPIA-2014"]
+      },
+      {
+        "heading": "When one eye creates two images",
+        "narration": "Monocular doubling often feels more like a shadow or ghost beside the main image. An irregular tear film, astigmatism, a corneal problem, or cataract can split or scatter incoming light before it reaches the retina. Blinking may change tear-film symptoms, while a pinhole used during examination may improve some focusing causes. A comprehensive eye examination checks visual acuity, refraction, the cornea, lens, and retina. New symptoms still need evaluation rather than repeated self-treatment with random drops.",
+        "on_screen": ["Ghosting often comes from optics", "Tears, cornea, lens, refraction", "Eye examination finds the cause"],
+        "icon": "monocular-ghosting",
+        "source_ids": ["NEI:REFRACTIVE-ERRORS-2025", "CLINMED:DIPLOPIA-2022", "AAO:DIPLOPIA-DANGER-2022"]
+      },
+      {
+        "heading": "Why two aligned eyes make one picture",
+        "narration": "Each eye views an object from a slightly different angle. Six muscles move each eye, three cranial nerves coordinate those muscles, and the brain fuses the two views into one image with depth. If one eye cannot move to the correct position, the images fall on mismatched retinal points and remain separate. The distance and direction between images may change when looking left, right, up, down, near, or far. That gaze pattern helps localize the weak or restricted movement.",
+        "on_screen": ["Twelve muscles coordinate", "Three cranial nerves guide movement", "The brain fuses both views"],
+        "icon": "eye-alignment-system",
+        "source_ids": ["CONTINUUM:DIPLOPIA-2014", "CLINMED:DIPLOPIA-2022"]
+      },
+      {
+        "heading": "Common binocular causes",
+        "narration": "Binocular diplopia can follow a cranial nerve palsy, an old eye turn that has become harder to control, thyroid eye disease, orbital injury, inflammation, or a brainstem problem. Small-vessel nerve injury is more common with diabetes and hypertension, but those risk factors do not prove that a new palsy is benign. Myasthenia gravis can cause variable double vision and drooping that worsen with fatigue and improve after rest. The pattern and examination decide which testing is necessary.",
+        "on_screen": ["Nerves may be weak", "Muscles may be restricted", "Symptoms may fluctuate"],
+        "icon": "binocular-causes",
+        "source_ids": ["BJGP:NEW-DIPLOPIA-2025", "NINDS:MYASTHENIA-2026", "CONTINUUM:DIPLOPIA-2014"]
+      },
+      {
+        "heading": "Details that change the diagnosis",
+        "narration": "Notice whether the images are side by side, one above the other, or tilted, and whether separation is worse at distance, near, or in one direction of gaze. Tell the clinician about pain, headache, recent trauma, fever, cancer, vascular risk, eye surgery, or medications. Fluctuation with fatigue, a drooping eyelid, trouble swallowing, or shortness of breath may suggest a neuromuscular disorder. These details narrow possibilities, but symptoms alone cannot identify the cause.",
+        "on_screen": ["Direction of separation", "Gaze and distance matter", "Associated symptoms guide testing"],
+        "icon": "diplopia-history",
+        "source_ids": ["CLINMED:DIPLOPIA-2022", "BJGP:NEW-DIPLOPIA-2025", "NINDS:MYASTHENIA-2026"]
+      },
+      {
+        "heading": "How the examination localizes it",
+        "narration": "Now, let us go deeper. Clinicians compare vision in each eye, pupil size and response, eyelid position, eye alignment, and movement in every direction. They look for a tilted head, a protruding eye, facial sensory change, weakness, incoordination, or other cranial nerve findings. Blood tests or imaging are selected from that localization, not ordered identically for everyone. Sometimes the cause is optical, sometimes muscular or neuromuscular, and sometimes it is vascular, inflammatory, compressive, or neurological.",
+        "on_screen": ["Check pupils and eyelids", "Map alignment in every gaze", "Localize before selecting tests"],
+        "icon": "neuro-eye-exam",
+        "source_ids": ["CONTINUUM:DIPLOPIA-2014", "AAO:DIPLOPIA-DANGER-2022", "CLINMED:DIPLOPIA-2022"]
+      },
+      {
+        "heading": "When double vision is urgent",
+        "narration": "Seek urgent assessment for sudden new double vision, particularly if it is binocular or follows head or eye trauma. Call emergency services when it comes with facial or limb weakness, numbness, speech difficulty, confusion, severe imbalance, or a sudden severe headache. A new drooping eyelid with an enlarged or poorly reacting pupil can indicate pressure on the third cranial nerve. Double vision with worsening swallowing or breathing weakness is also an emergency. Do not drive while vision is doubled.",
+        "on_screen": ["Sudden binocular diplopia is urgent", "Neurological signs need emergency care", "Do not drive with double vision"],
+        "icon": "diplopia-emergency",
+        "source_ids": ["CDC:STROKE-SIGNS-2026", "AAO:DIPLOPIA-DANGER-2022", "NINDS:MYASTHENIA-2026"]
+      },
+      {
+        "heading": "Three essential takeaways",
+        "narration": "Number one, verify whether there are truly two images and whether covering either eye makes the doubling disappear. Number two, monocular diplopia usually points toward an optical problem in one eye, while binocular diplopia means the eyes are not aligned and may reflect nerve, muscle, orbit, or brain disease. Number three, sudden double vision with headache, an abnormal pupil, drooping, weakness, speech trouble, imbalance, trauma, or breathing difficulty needs urgent care. Temporary occlusion may reduce symptoms, but only evaluation can identify the cause and guide treatment.",
+        "on_screen": ["Monocular or binocular?", "Find where alignment fails", "Act on emergency signs"],
+        "icon": "checklist",
+        "source_ids": ["CLINMED:DIPLOPIA-2022", "BJGP:NEW-DIPLOPIA-2025", "AAO:DIPLOPIA-DANGER-2022"]
+      }
+    ],
+    "closing": "On the next episode, we will explain why bright light can hurt your eyes, how photophobia differs from ordinary glare, and which combinations need urgent assessment. Until then, never drive through double vision or dismiss a sudden new misalignment. One quick cover test can describe the pattern, but a proper examination must explain it.",
+    "description": "Double vision can arise from an optical problem in one eye or misalignment between both eyes. This episode explains the cover test, common causes, clinical localization, and the warning signs that require urgent care.",
+    "thumbnail_text": "WHEN IS DOUBLE VISION URGENT?"
+  }
+}
