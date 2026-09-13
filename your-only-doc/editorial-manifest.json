@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "workflow": "chatgpt-reviewed-v20",
-  "updated_at": "2026-09-12T09:28:16Z",
-  "next_episode_number": 33,
+  "updated_at": "2026-09-13T09:58:46Z",
+  "next_episode_number": 34,
   "next_planned_topic": {
-    "id": "double-vision",
-    "title": "Why You See Double",
-    "reason": "It continues the vision-symptom sequence by separating monocular optical causes from binocular eye-alignment and neurological warning patterns."
+    "id": "light-sensitivity",
+    "title": "Why Bright Light Hurts Your Eyes",
+    "reason": "It continues the eye-symptom sequence by distinguishing ordinary glare from migraine, corneal, inflammatory, neurological, and medication-related photophobia."
   },
   "packets": [
     {
@@ -176,6 +176,13 @@
       "title": "E32: Why Your Vision Becomes Blurry",
       "file": "episodes/E32-blurry-vision.json",
       "status": "ready"
+    },
+    {
+      "episode_number": 33,
+      "topic_id": "double-vision",
+      "title": "E33: Why You See Double",
+      "file": "episodes/E33-double-vision.json",
+      "status": "ready"
     }
   ],
   "evergreen_sequence": [
@@ -262,6 +269,10 @@
     {
       "id": "double-vision",
       "title": "Why You See Double"
+    },
+    {
+      "id": "light-sensitivity",
+      "title": "Why Bright Light Hurts Your Eyes"
     }
   ],
   "editorial_policy": {
