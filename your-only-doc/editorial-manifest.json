@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "workflow": "chatgpt-reviewed-v20",
-  "updated_at": "2026-09-13T09:58:46Z",
-  "next_episode_number": 34,
+  "updated_at": "2026-09-14T09:28:55Z",
+  "next_episode_number": 35,
   "next_planned_topic": {
-    "id": "light-sensitivity",
-    "title": "Why Bright Light Hurts Your Eyes",
-    "reason": "It continues the eye-symptom sequence by distinguishing ordinary glare from migraine, corneal, inflammatory, neurological, and medication-related photophobia."
+    "id": "digital-eye-strain",
+    "title": "Why Your Eyes Feel Tired After Screens",
+    "reason": "It continues the eye-health sequence by explaining reduced blinking, focusing demand, ergonomics, dry-eye overlap, and warning symptoms that are not explained by screen use alone."
   },
   "packets": [
     {
@@ -183,6 +183,13 @@
       "title": "E33: Why You See Double",
       "file": "episodes/E33-double-vision.json",
       "status": "ready"
+    },
+    {
+      "episode_number": 34,
+      "topic_id": "light-sensitivity",
+      "title": "E34: Why Bright Light Hurts Your Eyes",
+      "file": "episodes/E34-light-sensitivity.json",
+      "status": "ready"
     }
   ],
   "evergreen_sequence": [
@@ -273,6 +280,10 @@
     {
       "id": "light-sensitivity",
       "title": "Why Bright Light Hurts Your Eyes"
+    },
+    {
+      "id": "digital-eye-strain",
+      "title": "Why Your Eyes Feel Tired After Screens"
     }
   ],
   "editorial_policy": {
