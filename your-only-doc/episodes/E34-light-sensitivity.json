@@ -1,0 +1,159 @@
+{
+  "schema": 2,
+  "editorial": {
+    "workflow": "chatgpt-reviewed-v20",
+    "reviewed_by": "ChatGPT medical editorial workflow",
+    "reviewed_on": "2026-09-14",
+    "episode_number": 34,
+    "language": "English",
+    "spoken_host_name_allowed": false,
+    "long_dashes_allowed": false,
+    "target_minutes": 10
+  },
+  "topic_id": "light-sensitivity",
+  "topic": {
+    "id": "light-sensitivity",
+    "title": "Why Bright Light Hurts Your Eyes",
+    "audience_question": "Why does ordinary light become uncomfortable or painful, and which patterns need urgent assessment?",
+    "pubmed_query": "photophobia light sensitivity migraine dry eye uveitis keratitis trigeminal pathway evaluation treatment",
+    "icon_keywords": ["photophobia", "bright-light", "migraine", "painful-red-eye"],
+    "category": "neuro-ophthalmology"
+  },
+  "sources": [
+    {
+      "id": "JNO:PHOTOPHOBIA-2012",
+      "title": "Shedding Light on Photophobia",
+      "abstract": "This peer-reviewed neuro-ophthalmology review explains photophobia pathways, associated ocular and neurological disorders, clinical evaluation, and cause-directed management.",
+      "journal": "Journal of Neuro-Ophthalmology",
+      "year": "2012",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22330853/",
+      "doi": "10.1097/WNO.0b013e3182474548"
+    },
+    {
+      "id": "NEI:UVEITIS-2024",
+      "title": "Uveitis",
+      "abstract": "The National Eye Institute describes eye pain, redness, blurred vision, floaters, and light sensitivity as uveitis symptoms and explains the need for dilated examination and treatment.",
+      "journal": "National Eye Institute",
+      "year": "2024",
+      "url": "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/uveitis",
+      "doi": null
+    },
+    {
+      "id": "NEI:DRY-EYE-2025",
+      "title": "Dry Eye",
+      "abstract": "The National Eye Institute explains that an inadequate or unstable tear film can produce burning, scratchiness, redness, blurred vision, and sensitivity to light.",
+      "journal": "National Eye Institute",
+      "year": "2025",
+      "url": "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/dry-eye",
+      "doi": null
+    },
+    {
+      "id": "CDC:ACANTHAMOEBA-KERATITIS-2024",
+      "title": "Clinical Overview of Acanthamoeba Keratitis",
+      "abstract": "The Centers for Disease Control and Prevention lists eye pain, redness, foreign-body sensation, photophobia, tearing, and reduced vision among keratitis symptoms and highlights contact lens risk.",
+      "journal": "Centers for Disease Control and Prevention",
+      "year": "2024",
+      "url": "https://www.cdc.gov/acanthamoeba/hcp/clinical-overview/index.html",
+      "doi": null
+    },
+    {
+      "id": "AMF:PHOTOPHOBIA-2017",
+      "title": "Photophobia and Migraine",
+      "abstract": "The American Migraine Foundation explains that heightened light sensitivity is a common migraine symptom, may occur during and between attacks, and should be managed as part of migraine care.",
+      "journal": "American Migraine Foundation",
+      "year": "2017",
+      "url": "https://americanmigrainefoundation.org/resource-library/photophobia-migraine/",
+      "doi": null
+    },
+    {
+      "id": "AAO:MIGRAINE-PHOTOPHOBIA-2022",
+      "title": "What Ophthalmologists Need to Know About Migraine",
+      "abstract": "The American Academy of Ophthalmology reviews migraine-related visual symptoms and photophobia and emphasizes distinguishing neurological sensitivity from ocular disease.",
+      "journal": "American Academy of Ophthalmology",
+      "year": "2022",
+      "url": "https://www.aao.org/eyenet/article/what-ophthalmologists-need-to-know-about-migraine",
+      "doi": null
+    },
+    {
+      "id": "MEDLINEPLUS:PHOTOPHOBIA-2025",
+      "title": "Photophobia",
+      "abstract": "MedlinePlus defines photophobia as eye discomfort in bright light and lists ocular inflammation, corneal injury or ulcer, infection, burns, contact lens problems, and neurological causes.",
+      "journal": "U.S. National Library of Medicine",
+      "year": "2025",
+      "url": "https://medlineplus.gov/ency/article/003041.htm",
+      "doi": null
+    }
+  ],
+  "episode": {
+    "title": "E34: Why Bright Light Hurts Your Eyes",
+    "hook": "Hello and welcome to the Your Only Doc podcast. You step outside on a bright morning and squint. That is normal. But imagine ordinary room light making you close one eye because it hurts, or your phone screen becoming unbearable during a headache. That is light sensitivity, also called photophobia. Despite the name, it is not a fear of light. It is discomfort or pain triggered by light, and the pattern can point toward the eye surface, inflammation, migraine pathways, or an emergency.",
+    "sections": [
+      {
+        "heading": "The high yield summary",
+        "narration": "Too busy? Here is your high yield summary. Mild discomfort when moving from darkness into sunlight is normal and should settle quickly. Persistent or painful sensitivity is a symptom, not a diagnosis. Common causes include migraine and dry eye, but a red painful eye, blurred or reduced vision, contact lens use, trauma, or chemical exposure raises concern for corneal disease, infection, or uveitis. Fever with severe headache, neck stiffness, confusion, or neurological changes requires emergency care. Treatment must target the cause rather than simply making every room darker.",
+        "on_screen": ["Photophobia means light causes discomfort", "Migraine and dry eye are common", "Pain, redness, or vision loss needs care"],
+        "icon": "photophobia-summary",
+        "source_ids": ["JNO:PHOTOPHOBIA-2012", "MEDLINEPLUS:PHOTOPHOBIA-2025", "NEI:UVEITIS-2024"]
+      },
+      {
+        "heading": "Normal glare or true photophobia",
+        "narration": "Glare makes detail harder to see when light scatters inside the eye. Photophobia means light itself causes aching, headache, tearing, or an urge to close the eyes. Ask whether it affects one eye or both, began suddenly or gradually, and occurs with headache, redness, blurred vision, discharge, or pain. A new one-sided painful pattern deserves more concern than familiar mild sensitivity in sunlight.",
+        "on_screen": ["Glare reduces visual clarity", "Photophobia causes discomfort or pain", "Pattern and associated symptoms matter"],
+        "icon": "glare-versus-pain",
+        "source_ids": ["JNO:PHOTOPHOBIA-2012", "MEDLINEPLUS:PHOTOPHOBIA-2025"]
+      },
+      {
+        "heading": "When migraine amplifies light",
+        "narration": "Migraine is one of the most frequent neurological partners of photophobia. Sensitivity may appear before, during, or after head pain, and some people remain unusually light-sensitive between attacks. Light can worsen the attack, but that does not mean light damaged the eye. Nausea, sound sensitivity, visual aura, and a familiar throbbing headache support migraine. A first, abrupt, or unusually severe headache still needs assessment rather than being labeled migraine from memory.",
+        "on_screen": ["Photophobia commonly accompanies migraine", "It may outlast head pain", "A new severe pattern needs assessment"],
+        "icon": "migraine-light-pathway",
+        "source_ids": ["AMF:PHOTOPHOBIA-2017", "AAO:MIGRAINE-PHOTOPHOBIA-2022", "JNO:PHOTOPHOBIA-2012"]
+      },
+      {
+        "heading": "The eye surface can become light-sensitive",
+        "narration": "The cornea has an exceptionally dense sensory nerve supply. Dryness, a scratch, a foreign body, ultraviolet injury, or infection can make blinking and light painful. Dry eye often brings burning, grittiness, fluctuating blur, and symptoms that worsen with screens, wind, or air conditioning. Contact lens wear changes the risk calculation. A contact lens user with increasing pain, redness, photophobia, or reduced vision should remove the lens and obtain prompt eye assessment because keratitis can threaten sight.",
+        "on_screen": ["The cornea is highly sensitive", "Dry eye often fluctuates", "Contact lens pain needs prompt care"],
+        "icon": "corneal-nerves",
+        "source_ids": ["NEI:DRY-EYE-2025", "CDC:ACANTHAMOEBA-KERATITIS-2024", "MEDLINEPLUS:PHOTOPHOBIA-2025"]
+      },
+      {
+        "heading": "Inflammation inside the eye",
+        "narration": "Uveitis is inflammation within the eye and may cause redness, deep aching pain, blurred vision, floaters, and photophobia. The pupil and focusing muscles can become painful when they move, so light entering either eye may intensify discomfort. Uveitis cannot be confirmed by symptoms alone. It requires examination, often including a slit lamp and dilated retinal view. Do not borrow steroid eye drops, because steroids can worsen some infections and raise eye pressure when used without diagnosis and monitoring.",
+        "on_screen": ["Uveitis is internal inflammation", "Pain, redness, blur, and floaters", "Steroid drops require supervision"],
+        "icon": "uveitis-inflammation",
+        "source_ids": ["NEI:UVEITIS-2024", "JNO:PHOTOPHOBIA-2012"]
+      },
+      {
+        "heading": "Other clues to the cause",
+        "narration": "Pupil-dilating drops may temporarily increase light entry. Some medicines can enlarge pupils or alter tears, while concussion and neurological disorders can change how the brain processes light. Fever, rash, neck stiffness, confusion, weakness, or a new severe headache shifts attention beyond the eye. Tell the clinician about medicines, contact lenses, eye surgery, trauma, chemical exposure, migraine history, and whether closing one eye changes the pain. These details guide examination and testing.",
+        "on_screen": ["Review medicines and recent dilation", "Ask about trauma and contact lenses", "Check for neurological or systemic clues"],
+        "icon": "photophobia-clues",
+        "source_ids": ["MEDLINEPLUS:PHOTOPHOBIA-2025", "JNO:PHOTOPHOBIA-2012"]
+      },
+      {
+        "heading": "Why light can become painful",
+        "narration": "Now, let us go deeper. Light signals travel from the retina into brain networks that regulate vision, pupil size, alertness, and pain. These signals interact with the trigeminal system, which carries sensation from the cornea, eye, face, and coverings of the brain. In migraine, these networks can become unusually responsive. In corneal disease or uveitis, inflamed sensory pathways add a strong pain signal. This overlap explains why identical brightness can feel ordinary to one person and intolerable to another.",
+        "on_screen": ["Retina detects light", "Trigeminal pathways carry pain", "Migraine can amplify the network"],
+        "icon": "retina-trigeminal-pathway",
+        "source_ids": ["JNO:PHOTOPHOBIA-2012", "AAO:MIGRAINE-PHOTOPHOBIA-2022"]
+      },
+      {
+        "heading": "Relief without hiding the cause",
+        "narration": "Use sunglasses and a brimmed hat outdoors, reduce harsh reflections, and adjust screens to a comfortable level while arranging evaluation. Mild dry-eye symptoms may improve with breaks, blinking, reducing airflow, and suitable artificial tears. Avoid living continuously in very dark rooms unless medically necessary, because adaptation can make ordinary light harder to tolerate. Persistent symptoms need cause-directed care, such as migraine treatment, corneal treatment, or control of inflammation. Pain-relieving drops and steroid drops are not safe for unsupervised repeated use.",
+        "on_screen": ["Control glare temporarily", "Treat the underlying cause", "Avoid unsupervised medicated drops"],
+        "icon": "light-management",
+        "source_ids": ["AMF:PHOTOPHOBIA-2017", "NEI:DRY-EYE-2025", "JNO:PHOTOPHOBIA-2012"]
+      },
+      {
+        "heading": "Three essential takeaways",
+        "narration": "Number one, photophobia is discomfort or pain caused by light, not simply difficulty seeing through glare. Number two, migraine and dry eye are common causes, but a red painful eye, contact lens use, blurred vision, trauma, or new floaters requires prompt eye assessment. Number three, seek emergency care when light sensitivity accompanies sudden vision loss, chemical injury, severe unusual headache, fever with neck stiffness, confusion, weakness, or speech difficulty. Temporary dimming may help you function, but the safest long-term solution is identifying and treating the source.",
+        "on_screen": ["Separate glare from pain", "Recognize the red painful eye", "Act on neurological warning signs"],
+        "icon": "checklist",
+        "source_ids": ["MEDLINEPLUS:PHOTOPHOBIA-2025", "NEI:UVEITIS-2024", "CDC:ACANTHAMOEBA-KERATITIS-2024"]
+      }
+    ],
+    "closing": "On the next episode, we will explain why your eyes feel tired after screens, what digital eye strain actually means, and which symptoms suggest something more than screen use. Until then, do not treat painful light sensitivity as a brightness problem alone. The combination of pain, redness, vision change, headache, and systemic symptoms tells you how quickly to act.",
+    "description": "Photophobia is discomfort or pain triggered by light. This episode separates ordinary glare from migraine, dry eye, corneal disease, uveitis, medication effects, and emergency neurological or ocular warning patterns.",
+    "thumbnail_text": "WHY DOES BRIGHT LIGHT HURT?"
+  }
+}
