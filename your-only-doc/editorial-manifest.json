@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "workflow": "chatgpt-reviewed-v20",
-  "updated_at": "2026-09-14T09:28:55Z",
-  "next_episode_number": 35,
+  "updated_at": "2026-09-15T09:44:04Z",
+  "next_episode_number": 36,
   "next_planned_topic": {
     "id": "digital-eye-strain",
     "title": "Why Your Eyes Feel Tired After Screens",
-    "reason": "It continues the eye-health sequence by explaining reduced blinking, focusing demand, ergonomics, dry-eye overlap, and warning symptoms that are not explained by screen use alone."
+    "reason": "It resumes the eye-health sequence by explaining reduced blinking, focusing demand, ergonomics, dry-eye overlap, and warning symptoms that are not explained by screen use alone."
   },
   "packets": [
     {
@@ -189,6 +189,13 @@
       "topic_id": "light-sensitivity",
       "title": "E34: Why Bright Light Hurts Your Eyes",
       "file": "episodes/E34-light-sensitivity.json",
+      "status": "ready"
+    },
+    {
+      "episode_number": 35,
+      "topic_id": "rabies-exposure-alert-2026",
+      "title": "E35: What the 2026 Rabies Exposure Alert Means",
+      "file": "episodes/E35-rabies-exposure-alert-2026.json",
       "status": "ready"
     }
   ],
