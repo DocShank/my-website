@@ -1,0 +1,141 @@
+{
+  "schema": 2,
+  "editorial": {
+    "workflow": "chatgpt-reviewed-v20",
+    "reviewed_by": "ChatGPT medical editorial workflow",
+    "reviewed_on": "2026-09-15",
+    "episode_number": 35,
+    "language": "English",
+    "spoken_host_name_allowed": false,
+    "long_dashes_allowed": false,
+    "target_minutes": 10
+  },
+  "topic_id": "rabies-exposure-alert-2026",
+  "topic": {
+    "id": "rabies-exposure-alert-2026",
+    "title": "What the 2026 Rabies Exposure Alert Means",
+    "audience_question": "What should you do after a possible rabies exposure, and how does correct post-exposure care prevent a fatal infection?",
+    "pubmed_query": "rabies exposure risk assessment wound washing post-exposure prophylaxis vaccine immunoglobulin dog vaccination",
+    "icon_keywords": ["rabies", "animal-bite", "wound-washing", "vaccination"],
+    "category": "infectious-disease"
+  },
+  "sources": [
+    {
+      "id": "CDC:HAN-RABIES-2026",
+      "title": "Nationwide Increase in Reported Human Rabies Exposures: Rabies Post-exposure Prophylaxis Administration",
+      "abstract": "This CDC Health Alert Network advisory, issued September 10, 2026, reports increased possible rabies exposures and post-exposure prophylaxis errors and gives recommendations for wound care, risk assessment, immunoglobulin, and vaccination.",
+      "journal": "Centers for Disease Control and Prevention",
+      "year": "2026",
+      "url": "https://www.cdc.gov/han/php/notices/han00533.html",
+      "doi": null
+    },
+    {
+      "id": "WHO:RABIES-2024",
+      "title": "Rabies",
+      "abstract": "The WHO fact sheet describes global rabies transmission, exposure categories, immediate wound washing, vaccination, rabies immunoglobulin, dog vaccination, and the near certainty of death after clinical disease begins.",
+      "journal": "World Health Organization",
+      "year": "2024",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/rabies",
+      "doi": null
+    },
+    {
+      "id": "WHO:PEP-PROTOCOL-2024",
+      "title": "Protocol for a well-performed rabies post-exposure prophylaxis delivery",
+      "abstract": "This WHO protocol explains exposure assessment, at least 15 minutes of wound washing, prompt vaccination, and infiltration of rabies immunoglobulin or monoclonal antibodies into wounds when indicated.",
+      "journal": "World Health Organization",
+      "year": "2024",
+      "url": "https://iris.who.int/handle/10665/376382",
+      "doi": null
+    },
+    {
+      "id": "CDC:RABIES-PEP-2025",
+      "title": "Rabies Post-exposure Prophylaxis Guidance",
+      "abstract": "CDC clinical guidance details wound care, rabies immune globulin, vaccine schedules, prior vaccination status, immune compromise, and correct product administration in the United States.",
+      "journal": "Centers for Disease Control and Prevention",
+      "year": "2025",
+      "url": "https://www.cdc.gov/rabies/hcp/prevention-recommendations/post-exposure-prophylaxis.html",
+      "doi": null
+    },
+    {
+      "id": "WHO:CHILE-RABIES-2026",
+      "title": "Chile becomes first country in South America validated for eliminating dog-transmitted rabies as a public health problem",
+      "abstract": "WHO announced on September 14, 2026, that Chile achieved validation through sustained dog vaccination, surveillance, diagnosis, access to post-exposure prophylaxis, and coordinated public health action.",
+      "journal": "World Health Organization",
+      "year": "2026",
+      "url": "https://www.who.int/news/item/14-09-2026-chile-becomes-first-country-in-south-america-validated-for-eliminating-dog-transmitted-rabies-as-a-public-health-problem",
+      "doi": null
+    }
+  ],
+  "episode": {
+    "title": "E35: What the 2026 Rabies Exposure Alert Means",
+    "hook": "Hello and welcome to the Your Only Doc podcast. Imagine a child is scratched by a stray puppy. The mark looks tiny, so the family washes it quickly and decides to wait. That is exactly when rabies prevention matters most, because treatment works before symptoms begin. On September 10, 2026, the United States CDC warned about increased possible exposures and errors in post-exposure treatment. Do not judge rabies risk by wound size or by how well you feel afterward.",
+    "sections": [
+      {
+        "heading": "The high yield summary",
+        "narration": "Too busy? Here is your high yield summary. After a bite, scratch, or saliva contact with broken skin, the eyes, or the mouth from a possibly rabid mammal, immediately wash the area with soap and running water for at least 15 minutes. Seek medical or public health advice urgently. Do not wait for symptoms and do not kill or handle the animal yourself. A trained risk assessment decides whether you need rabies vaccine and, for some severe exposures in people not previously vaccinated, rabies immunoglobulin or a recommended monoclonal antibody.",
+        "on_screen": ["Wash immediately for at least 15 minutes", "Get an urgent exposure assessment", "PEP must begin before symptoms"],
+        "icon": "rabies-summary",
+        "source_ids": ["CDC:HAN-RABIES-2026", "WHO:RABIES-2024", "WHO:PEP-PROTOCOL-2024"]
+      },
+      {
+        "heading": "What counts as an exposure",
+        "narration": "Rabies virus is carried in saliva. Bites are the clearest risk, but scratches that break skin and saliva reaching an open wound or mucous membrane can also matter. Touching an animal or a lick on intact skin is not the same exposure. The species, local rabies patterns, whether the animal can be observed or tested, its behavior, and the wound change the decision. Dogs cause most human rabies deaths globally, while bats are important in parts of the Americas.",
+        "on_screen": ["Bites and skin-breaking scratches matter", "Saliva on broken skin can expose", "Species and local epidemiology guide risk"],
+        "icon": "exposure-pathways",
+        "source_ids": ["WHO:RABIES-2024", "CDC:HAN-RABIES-2026"]
+      },
+      {
+        "heading": "The first 15 minutes",
+        "narration": "Start first aid before traveling for care. Wash every wound thoroughly with soap and water for at least 15 minutes. If available, a virucidal antiseptic such as povidone iodine may be used after washing. Do not apply irritants, herbs, acid, or tightly bind the wound. A clinician should assess bleeding, infection, tetanus protection, and structural injury. Wound washing reduces virus at the entry site, but it does not replace vaccination when indicated.",
+        "on_screen": ["Soap plus running water", "Wash every wound thoroughly", "First aid does not replace vaccination"],
+        "icon": "wash-wound",
+        "source_ids": ["WHO:PEP-PROTOCOL-2024", "CDC:HAN-RABIES-2026"]
+      },
+      {
+        "heading": "Why feeling well is misleading",
+        "narration": "The incubation period is often measured in weeks or months. During that silent interval, the virus can travel through nerves toward the brain. Fever, pain or unusual tingling at the wound, weakness, agitation, difficulty swallowing, hydrophobia, or paralysis may appear later. Once clinical rabies develops, survival is extraordinarily rare. That is why the correct question is not, \"Do I feel sick?\" It is, \"Was I exposed, and do I need preventive treatment now?\"",
+        "on_screen": ["Incubation can last weeks or months", "Symptoms appear too late for routine prevention", "Assess exposure while you feel well"],
+        "icon": "silent-incubation",
+        "source_ids": ["WHO:RABIES-2024", "CDC:HAN-RABIES-2026"]
+      },
+      {
+        "heading": "What post-exposure prophylaxis does",
+        "narration": "For someone never vaccinated against rabies, post-exposure prophylaxis combines wound care, a vaccine course, and rabies immunoglobulin or an approved monoclonal antibody when the exposure category requires it. The antibody product is placed into and around the wounds as far as anatomically possible, where it can act before vaccine immunity develops. Previously vaccinated people follow a different plan and should not receive rabies immunoglobulin. Exact products, routes, and schedules vary by national guideline, so complete the regimen prescribed locally.",
+        "on_screen": ["PEP is a combined emergency response", "Antibody belongs in and around wounds", "Prior vaccination changes the plan"],
+        "icon": "pep-components",
+        "source_ids": ["WHO:PEP-PROTOCOL-2024", "CDC:RABIES-PEP-2025", "CDC:HAN-RABIES-2026"]
+      },
+      {
+        "heading": "Errors the new alert highlights",
+        "narration": "The CDC alert describes mistakes such as omitting immunoglobulin when needed, failing to infiltrate it into wounds, placing vaccine in the wrong body site, mixing vaccine and immunoglobulin together, or using the wrong schedule. It also warns against unnecessary treatment when public health assessment shows no meaningful exposure. If a dose was late or given incorrectly, do not restart or add doses on your own. Contact the treating clinic or public health authority promptly so the error can be assessed and corrected safely.",
+        "on_screen": ["Correct product placement matters", "Do not improvise after a schedule problem", "Public health can assess and correct errors"],
+        "icon": "pep-errors",
+        "source_ids": ["CDC:HAN-RABIES-2026", "CDC:RABIES-PEP-2025"]
+      },
+      {
+        "heading": "Why the treatment must reach the wound",
+        "narration": "Now, let us go deeper. Rabies first replicates near the entry site, then enters peripheral nerves and moves toward the central nervous system. Thorough washing physically reduces contamination. Vaccine teaches the immune system to produce neutralizing antibodies, but that response takes time. For a severe exposure in an unvaccinated person, immunoglobulin or a recommended monoclonal antibody provides immediate local protection during that gap. This biology explains why wound care, antibody placement, vaccination, and timing are separate parts of one prevention strategy.",
+        "on_screen": ["Virus enters near the wound", "Vaccine immunity takes time", "Local antibody bridges the gap"],
+        "icon": "rabies-pathway",
+        "source_ids": ["WHO:PEP-PROTOCOL-2024", "WHO:RABIES-2024", "CDC:RABIES-PEP-2025"]
+      },
+      {
+        "heading": "Prevention begins before a bite",
+        "narration": "Keep pets vaccinated, supervise children around animals, avoid wildlife and animals behaving strangely, and never try to catch a suspect animal barehanded. Observation or testing should be arranged through veterinary or public health services. On September 14, 2026, WHO validated Chile for eliminating dog-transmitted rabies as a public health problem after decades of dog vaccination, surveillance, diagnosis, and access to human prevention. Rabies is not inevitable when health and veterinary systems act together.",
+        "on_screen": ["Vaccinate dogs and pets", "Avoid unsafe animal handling", "Surveillance and PEP prevent deaths"],
+        "icon": "one-health-prevention",
+        "source_ids": ["WHO:CHILE-RABIES-2026", "WHO:RABIES-2024", "CDC:HAN-RABIES-2026"]
+      },
+      {
+        "heading": "Three essential takeaways",
+        "narration": "Number one, after a possible rabies exposure, wash every wound with soap and water for at least 15 minutes and seek urgent professional assessment. Number two, do not wait for symptoms, because post-exposure prophylaxis prevents disease before the virus reaches the nervous system. Number three, make sure treatment follows the correct local protocol, including antibody infiltration when indicated, the appropriate vaccine schedule, and special planning for previous vaccination or immune compromise. Prevention also means vaccinating dogs and pets and reporting suspect animals safely.",
+        "on_screen": ["Wash for at least 15 minutes", "Start prevention before symptoms", "Follow the complete local protocol"],
+        "icon": "checklist",
+        "source_ids": ["WHO:RABIES-2024", "WHO:PEP-PROTOCOL-2024", "CDC:HAN-RABIES-2026"]
+      }
+    ],
+    "closing": "On the next episode, we will return to the eye-health sequence and explain why your eyes feel tired after screens, how reduced blinking and close focusing contribute, and which symptoms need an eye examination. Until then, treat every possible rabies exposure as a prevention window. Wash first, get expert advice quickly, and complete the plan you are given.",
+    "description": "A September 2026 CDC advisory warned about increased possible rabies exposures and errors in post-exposure prophylaxis. This episode explains what counts as exposure, immediate wound washing, risk assessment, vaccine and antibody treatment, and prevention through animal vaccination.",
+    "thumbnail_text": "RABIES EXPOSURE: ACT NOW"
+  }
+}
