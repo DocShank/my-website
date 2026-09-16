@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "workflow": "chatgpt-reviewed-v20",
-  "updated_at": "2026-09-15T09:44:04Z",
-  "next_episode_number": 36,
+  "updated_at": "2026-09-16T09:47:02Z",
+  "next_episode_number": 37,
   "next_planned_topic": {
-    "id": "digital-eye-strain",
-    "title": "Why Your Eyes Feel Tired After Screens",
-    "reason": "It resumes the eye-health sequence by explaining reduced blinking, focusing demand, ergonomics, dry-eye overlap, and warning symptoms that are not explained by screen use alone."
+    "id": "night-vision",
+    "title": "Why You Struggle to See at Night",
+    "reason": "It continues the eye-health sequence by distinguishing refractive error and cataract from retinal disease, medication effects, and vitamin A deficiency while explaining urgent patterns."
   },
   "packets": [
     {
@@ -197,6 +197,13 @@
       "title": "E35: What the 2026 Rabies Exposure Alert Means",
       "file": "episodes/E35-rabies-exposure-alert-2026.json",
       "status": "ready"
+    },
+    {
+      "episode_number": 36,
+      "topic_id": "digital-eye-strain",
+      "title": "E36: Why Your Eyes Feel Tired After Screens",
+      "file": "episodes/E36-digital-eye-strain.json",
+      "status": "ready"
     }
   ],
   "evergreen_sequence": [
@@ -291,6 +298,10 @@
     {
       "id": "digital-eye-strain",
       "title": "Why Your Eyes Feel Tired After Screens"
+    },
+    {
+      "id": "night-vision",
+      "title": "Why You Struggle to See at Night"
     }
   ],
   "editorial_policy": {
