@@ -1,0 +1,159 @@
+{
+  "schema": 2,
+  "editorial": {
+    "workflow": "chatgpt-reviewed-v20",
+    "reviewed_by": "ChatGPT medical editorial workflow",
+    "reviewed_on": "2026-09-16",
+    "episode_number": 36,
+    "language": "English",
+    "spoken_host_name_allowed": false,
+    "long_dashes_allowed": false,
+    "target_minutes": 10
+  },
+  "topic_id": "digital-eye-strain",
+  "topic": {
+    "id": "digital-eye-strain",
+    "title": "Why Your Eyes Feel Tired After Screens",
+    "audience_question": "Why do screens cause tired, dry, or blurry eyes, and which symptoms should not be blamed on screen use?",
+    "pubmed_query": "digital eye strain screen use blinking dry eye accommodation convergence ergonomics blue light systematic review",
+    "icon_keywords": ["digital-eye-strain", "screen", "blinking", "ergonomics"],
+    "category": "eye-health"
+  },
+  "sources": [
+    {
+      "id": "AAO:COMPUTER-EYE-STRAIN-2024",
+      "title": "Computers, Digital Devices, and Eye Strain",
+      "abstract": "The American Academy of Ophthalmology explains practical measures for reducing screen-related discomfort, including regular distance breaks, deliberate blinking, appropriate screen position, glare control, and examination for persistent symptoms.",
+      "journal": "American Academy of Ophthalmology",
+      "year": "2024",
+      "url": "https://www.aao.org/eye-health/tips-prevention/computer-usage",
+      "doi": null
+    },
+    {
+      "id": "AAO:DIGITAL-DEVICES-2025",
+      "title": "Digital Devices and Your Eyes",
+      "abstract": "The American Academy of Ophthalmology states that ordinary screen blue light has not been shown to cause eye disease and distinguishes temporary eye strain from retinal injury.",
+      "journal": "American Academy of Ophthalmology",
+      "year": "2025",
+      "url": "https://www.aao.org/eye-health/tips-prevention/digital-devices-your-eyes",
+      "doi": null
+    },
+    {
+      "id": "NEI:DRY-EYE-2025",
+      "title": "Dry Eye",
+      "abstract": "The National Eye Institute describes burning, scratchiness, redness, light sensitivity, and blurry vision from inadequate or unstable tears and notes that prolonged screen viewing can worsen symptoms.",
+      "journal": "National Eye Institute",
+      "year": "2025",
+      "url": "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/dry-eye",
+      "doi": null
+    },
+    {
+      "id": "BMJOO:DIGITAL-EYE-STRAIN-2018",
+      "title": "Digital eye strain: prevalence, measurement and amelioration",
+      "abstract": "This peer-reviewed review separates digital eye strain into dry-eye-related external symptoms and accommodative or binocular visual symptoms and reviews refractive correction, breaks, blinking, and working conditions.",
+      "journal": "BMJ Open Ophthalmology",
+      "year": "2018",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29963645/",
+      "doi": "10.1136/bmjophth-2018-000146"
+    },
+    {
+      "id": "TFOS:DIGITAL-ENVIRONMENT-2023",
+      "title": "TFOS Lifestyle: Impact of the digital environment on the ocular surface",
+      "abstract": "This systematic report defines digital eye strain and identifies reduced or incomplete blinking, refractive error, binocular vision problems, task demand, screen position, brightness, and glare as contributors.",
+      "journal": "The Ocular Surface",
+      "year": "2023",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37062428/",
+      "doi": "10.1016/j.jtos.2023.04.004"
+    },
+    {
+      "id": "COCHRANE:BLUE-LIGHT-LENSES-2023",
+      "title": "Blue-light filtering spectacle lenses for visual performance, sleep, and macular health in adults",
+      "abstract": "This Cochrane systematic review found that blue-light filtering lenses may not reduce short-term eye-strain symptoms during computer use compared with non-filtering lenses, with uncertainty for other outcomes.",
+      "journal": "Cochrane Database of Systematic Reviews",
+      "year": "2023",
+      "url": "https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD013244.pub2/full",
+      "doi": "10.1002/14651858.CD013244.pub2"
+    },
+    {
+      "id": "CEO:SCREEN-BREAKS-2023",
+      "title": "The effects of breaks on digital eye strain, dry eye and binocular vision",
+      "abstract": "This prospective study found that reminders to apply the 20-20-20 rule reduced digital eye strain and dry-eye symptoms over two weeks, while objective binocular and ocular-surface measures changed little.",
+      "journal": "Clinical and Experimental Optometry",
+      "year": "2023",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35963776/",
+      "doi": "10.1080/08164622.2022.2111157"
+    }
+  ],
+  "episode": {
+    "title": "E36: Why Your Eyes Feel Tired After Screens",
+    "hook": "Hello and welcome to the Your Only Doc podcast. You finish a long day on a laptop, then notice burning eyes, a dull headache, and words that blur until you blink. You may wonder whether the screen has damaged your eyes. Usually, this pattern is digital eye strain, a group of temporary symptoms caused by how we blink, focus, and arrange prolonged near work. It can be uncomfortable and disruptive, but it is not the same as the screen burning or permanently weakening the eye.",
+    "sections": [
+      {
+        "heading": "The high yield summary",
+        "narration": "Too busy? Here is your high yield summary. Screen-related eye strain commonly causes dryness, burning, grittiness, tired eyes, headache, fluctuating blur, and difficulty refocusing after prolonged near work. Reduced or incomplete blinking destabilizes the tear film, while continuous close focusing and eye alignment add visual fatigue. Improve comfort with regular distance breaks, complete blinks, larger text, less glare, and a screen slightly below eye level. Blue-light glasses are not a proven treatment for eye strain. Persistent, painful, one-sided, or sudden symptoms need assessment.",
+        "on_screen": ["Dryness plus focusing fatigue", "Break, blink, enlarge, reduce glare", "Sudden or painful symptoms need care"],
+        "icon": "digital-eye-strain-summary",
+        "source_ids": ["AAO:COMPUTER-EYE-STRAIN-2024", "TFOS:DIGITAL-ENVIRONMENT-2023", "COCHRANE:BLUE-LIGHT-LENSES-2023"]
+      },
+      {
+        "heading": "Digital eye strain is a symptom cluster",
+        "narration": "Digital eye strain is not one disease and there is no single diagnostic test. External symptoms include dryness, burning, tearing, and irritation. Visual symptoms include blur, slow refocusing, headache, and eye ache. Neck and shoulder discomfort often joins the picture because screen position affects posture. Symptoms usually build during device use and improve with rest. If they continue away from screens, an uncorrected prescription, dry-eye disease, migraine, or another condition may be contributing.",
+        "on_screen": ["Not one single disease", "Surface and focusing symptoms overlap", "Persistence suggests another contributor"],
+        "icon": "symptom-cluster",
+        "source_ids": ["BMJOO:DIGITAL-EYE-STRAIN-2018", "TFOS:DIGITAL-ENVIRONMENT-2023"]
+      },
+      {
+        "heading": "Screens change the way you blink",
+        "narration": "Concentrated screen work can reduce blinking and increase incomplete blinks. Each complete blink spreads a fresh tear layer across the cornea. When the lower and upper lids do not meet fully, exposed areas dry faster, so vision may fluctuate and briefly clear after blinking. Air conditioning, fans, low humidity, and contact lenses can amplify this. Practice several slow, complete blinks during breaks and redirect airflow away from your face. Mild dryness may improve with suitable artificial tears.",
+        "on_screen": ["Complete blinks renew the tear film", "Incomplete blinks leave dry areas", "Airflow and contact lenses can worsen symptoms"],
+        "icon": "blink-tear-film",
+        "source_ids": ["NEI:DRY-EYE-2025", "TFOS:DIGITAL-ENVIRONMENT-2023", "AAO:COMPUTER-EYE-STRAIN-2024"]
+      },
+      {
+        "heading": "Close focus is sustained work",
+        "narration": "To keep near text clear, the lens changes focus through accommodation, while both eyes turn inward through convergence. These systems also work during reading on paper, but small fonts, close viewing distance, glare, and long uninterrupted tasks can increase demand. Astigmatism, farsightedness, presbyopia, or an eye-alignment problem may become noticeable only after hours of work. If blur, double vision, or headaches recur despite reasonable adjustments, an eye examination can check refraction, focusing, and binocular vision.",
+        "on_screen": ["Accommodation sharpens near text", "Convergence aligns both eyes", "Small uncorrected errors can become symptomatic"],
+        "icon": "near-focus-convergence",
+        "source_ids": ["BMJOO:DIGITAL-EYE-STRAIN-2018", "TFOS:DIGITAL-ENVIRONMENT-2023"]
+      },
+      {
+        "heading": "Build a more comfortable screen setup",
+        "narration": "Place the monitor roughly an arm's length away, then adjust distance for comfortable text rather than leaning forward. Keep the center of the screen slightly below eye level. Match brightness to the room, reduce reflections from windows and overhead lights, clean the display, and increase font size and contrast. Support your back and forearms so posture does not become part of the headache. These are starting points, not rigid measurements, because screen size, vision, and workspace differ.",
+        "on_screen": ["Comfortable arm's-length distance", "Screen slightly below eye level", "Control glare and enlarge text"],
+        "icon": "screen-ergonomics",
+        "source_ids": ["AAO:COMPUTER-EYE-STRAIN-2024", "TFOS:DIGITAL-ENVIRONMENT-2023"]
+      },
+      {
+        "heading": "Use breaks as a practical reminder",
+        "narration": "The 20-20-20 rule means that every 20 minutes, you look about 20 feet away for at least 20 seconds. It is memorable, not a biological threshold. A small study found symptom improvement with reminder-based use, although objective eye measures changed little. The useful principle is to interrupt continuous near focus, blink fully, change posture, and stand or move periodically. Choose reminders you can sustain, because a perfect rule that you ignore is less useful than regular breaks built into your work.",
+        "on_screen": ["20-20-20 is a reminder", "Interrupt continuous near focus", "Pair eye breaks with posture changes"],
+        "icon": "distance-break",
+        "source_ids": ["CEO:SCREEN-BREAKS-2023", "AAO:COMPUTER-EYE-STRAIN-2024", "BMJOO:DIGITAL-EYE-STRAIN-2018"]
+      },
+      {
+        "heading": "Why blinking can clear the blur",
+        "narration": "Now, let us go deeper. The cornea provides much of the eye's focusing power, and its surface must remain optically smooth. The tear film creates that smooth interface after every complete blink. When tears evaporate or break apart between blinks, light scatters irregularly and letters may look smeared. Blinking restores the surface, so vision clears for a moment. At the same time, prolonged accommodation and convergence can leave the focusing system slow to relax when you finally look far away.",
+        "on_screen": ["Tears form an optical surface", "Tear breakup creates fluctuating blur", "Near focus needs time to relax"],
+        "icon": "tear-optics",
+        "source_ids": ["NEI:DRY-EYE-2025", "TFOS:DIGITAL-ENVIRONMENT-2023", "BMJOO:DIGITAL-EYE-STRAIN-2018"]
+      },
+      {
+        "heading": "Blue light and warning signs",
+        "narration": "Ordinary blue light from screens has not been shown to damage the retina, and a Cochrane review found that blue-light-filtering lenses may not reduce short-term computer eye strain. Evening light can still affect sleep timing, which is a separate issue. Do not blame every symptom on screens. Seek prompt care for significant eye pain, marked redness, light sensitivity, new double vision, sudden or persistent vision loss, flashes with many new floaters, a curtain-like shadow, trauma, or contact-lens-related pain. Neurological symptoms require urgent assessment.",
+        "on_screen": ["Screen blue light is not proven retinal damage", "Filtering lenses may not relieve strain", "Recognize pain and vision-loss red flags"],
+        "icon": "blue-light-red-flags",
+        "source_ids": ["AAO:DIGITAL-DEVICES-2025", "COCHRANE:BLUE-LIGHT-LENSES-2023", "AAO:COMPUTER-EYE-STRAIN-2024"]
+      },
+      {
+        "heading": "Three essential takeaways",
+        "narration": "Number one, digital eye strain usually reflects tear-film disruption plus sustained focusing and eye alignment, not permanent damage from ordinary screen light. Number two, use regular distance breaks, slow complete blinks, comfortable text size, glare control, good posture, and a screen slightly below eye level. Number three, arrange an eye examination when symptoms persist, recur frequently, or include double vision, and seek urgent care for pain, marked redness, sudden vision loss, new flashes and floaters, a curtain-like shadow, trauma, or neurological changes.",
+        "on_screen": ["Understand the two main mechanisms", "Improve blinking, breaks, and setup", "Act on persistent or urgent symptoms"],
+        "icon": "checklist",
+        "source_ids": ["TFOS:DIGITAL-ENVIRONMENT-2023", "NEI:DRY-EYE-2025", "AAO:DIGITAL-DEVICES-2025"]
+      }
+    ],
+    "closing": "On the next episode, we will explain why you struggle to see at night, from ordinary refractive problems and cataract to retinal disease and vitamin A deficiency. Until then, let comfort guide your screen setup, but let persistent pain or vision change guide you to an eye examination.",
+    "description": "Digital eye strain can cause dryness, burning, headache, fluctuating blur, and slow refocusing. This episode explains blinking, tear-film instability, accommodation, ergonomics, screen breaks, blue-light evidence, and warning symptoms.",
+    "thumbnail_text": "WHY DO SCREENS TIRE YOUR EYES?"
+  }
+}
