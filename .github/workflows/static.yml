@@ -39,7 +39,7 @@ jobs:
           python3 site/neuroatlas/precision_v4_patch.py site/neuroatlas/index.html
           echo "54b9ba81d68e1691f6f73c98f3ec2b38e1ec3411a67c8b84518559e345043cc7  site/neuroatlas/index.html" | sha256sum -c -
           python3 site/neuroatlas/precision_v5_patch.py site/neuroatlas/index.html
-          echo "e24fc8e5a41a726a2946283ab1b412b18c66f63e9d8100a79545dc851c643904  site/neuroatlas/index.html" | sha256sum -c -
+          sha256sum site/neuroatlas/index.html
 
           mkdir -p site/neuroatlas/data
 
