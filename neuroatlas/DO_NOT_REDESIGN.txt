@@ -1,0 +1,1 @@
+This directory's protected visual/interaction baseline is the first live build from commit 0434cece66b39b01d03ca93056ec5e817d12da82. Preserve that baseline; apply only incremental, owner-approved enhancements.
