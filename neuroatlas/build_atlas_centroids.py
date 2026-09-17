@@ -2,14 +2,14 @@ from pathlib import Path
 import array, gzip, json, math, struct, sys
 
 TYPECODES = {
-    2: ('B', 1),    # uint8
-    4: ('h', 2),    # int16
-    8: ('i', 4),    # int32
-    16: ('f', 4),   # float32
-    64: ('d', 8),   # float64
-    256: ('b', 1),  # int8
-    512: ('H', 2),  # uint16
-    768: ('I', 4),  # uint32
+    2: ('B', 1),
+    4: ('h', 2),
+    8: ('i', 4),
+    16: ('f', 4),
+    64: ('d', 8),
+    256: ('b', 1),
+    512: ('H', 2),
+    768: ('I', 4),
 }
 
 def read_bytes(path):
@@ -96,9 +96,11 @@ def voxel_to_mm(v, affine):
         affine[2][0]*x + affine[2][1]*y + affine[2][2]*z + affine[2][3],
     ]
 
-def centroids(path):
+def representative_points(path):
     vals, (nx, ny, nz), affine = read_nifti(path)
     plane = nx * ny
+
+    # First pass: geometric center of each label in voxel space.
     acc = {}
     for idx, rawv in enumerate(vals):
         lab = int(round(float(rawv)))
@@ -116,19 +118,45 @@ def centroids(path):
             row[1] += x
             row[2] += y
             row[3] += z
+
+    centers = {lab: (sx/n, sy/n, sz/n) for lab, (n, sx, sy, sz) in acc.items()}
+
+    # Second pass: choose the real label voxel closest to that center.
+    # This guarantees FIND never jumps to a mathematical centroid outside
+    # an irregular or crescent-shaped anatomical region.
+    best = {lab: [float('inf'), None] for lab in centers}
+    for idx, rawv in enumerate(vals):
+        lab = int(round(float(rawv)))
+        if lab <= 0 or lab not in centers:
+            continue
+        z = idx // plane
+        rem = idx - z * plane
+        y = rem // nx
+        x = rem - y * nx
+        cx, cy, cz = centers[lab]
+        d = (x-cx)**2 + (y-cy)**2 + (z-cz)**2
+        if d < best[lab][0]:
+            best[lab] = [d, (x, y, z)]
+
     out = {}
-    for lab, (n, sx, sy, sz) in acc.items():
-        mm = voxel_to_mm((sx/n, sy/n, sz/n), affine)
-        out[str(lab)] = [round(v, 3) for v in mm]
+    for lab, (_, voxel) in best.items():
+        if voxel is None:
+            continue
+        mm = voxel_to_mm(voxel, affine)
+        out[str(lab)] = [round(float(v), 3) for v in mm]
     return out
 
 def main():
     if len(sys.argv) != 5:
         raise SystemExit('usage: build_atlas_centroids.py AAL.nii[.gz] JHU.nii[.gz] HO.nii[.gz] output.json')
     aal, jhu, ho, out = sys.argv[1:]
-    data = {'AAL': centroids(aal), 'JHU': centroids(jhu), 'HO': centroids(ho)}
+    data = {
+        'AAL': representative_points(aal),
+        'JHU': representative_points(jhu),
+        'HO': representative_points(ho),
+    }
     Path(out).write_text(json.dumps(data, separators=(',', ':')))
-    print('centroid labels:', {k: len(v) for k, v in data.items()})
+    print('representative labels:', {k: len(v) for k, v in data.items()})
 
 if __name__ == '__main__':
     main()
