@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+<title>Real MRI Brain Anatomy Teacher</title>
+<style>
+:root{color-scheme:dark;--bg:#080b10;--panel:#111720;--panel2:#171f2a;--text:#f4f7fb;--muted:#a9b4c2;--border:#283443;--accent:#66c7ff;--accent2:#f1c75b}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font:15px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}button,input,select{font:inherit}
+.app{max-width:1500px;margin:auto;padding:14px}.top{display:flex;gap:12px;align-items:flex-start;justify-content:space-between;flex-wrap:wrap;margin-bottom:12px}.title h1{font-size:20px;margin:0 0 4px}.title p{margin:0;color:var(--muted);font-size:13px}.status{padding:7px 10px;border:1px solid var(--border);border-radius:10px;background:var(--panel);font-size:12px;color:var(--muted)}
+.grid{display:grid;grid-template-columns:minmax(0,1.65fr) minmax(300px,.72fr);gap:12px}.viewerPanel,.side{background:var(--panel);border:1px solid var(--border);border-radius:14px;overflow:hidden}.toolbar{display:flex;gap:7px;flex-wrap:wrap;padding:10px;border-bottom:1px solid var(--border);background:#0d131b}.toolbar button{border:1px solid var(--border);background:var(--panel2);color:var(--text);border-radius:9px;padding:8px 11px;min-height:40px;cursor:pointer}.toolbar button.active{border-color:var(--accent);background:#102638;color:#dff5ff}.viewerWrap{position:relative;width:100%;height:min(72vh,820px);min-height:500px;background:#000}.viewerWrap canvas{width:100%;height:100%;display:block;outline:none}.corner{position:absolute;left:10px;bottom:10px;max-width:calc(100% - 20px);background:rgba(4,8,12,.78);backdrop-filter:blur(8px);padding:7px 9px;border-radius:8px;color:#e8eef5;font:12px/1.35 ui-monospace,SFMono-Regular,Menlo,monospace;pointer-events:none}
+.side{padding:12px;display:flex;flex-direction:column;gap:12px}.card{background:var(--panel2);border:1px solid var(--border);border-radius:12px;padding:11px}.card h2{font-size:14px;margin:0 0 8px}.row{display:flex;align-items:center;gap:9px;flex-wrap:wrap}.row label{font-size:12px;color:var(--muted)}input[type=range]{width:100%;accent-color:var(--accent)}input[type=search]{width:100%;background:#0d131b;border:1px solid var(--border);color:var(--text);border-radius:9px;padding:10px;font-size:16px}.selectList{margin-top:8px;display:flex;flex-direction:column;gap:5px;max-height:240px;overflow:auto}.regionBtn{width:100%;text-align:left;border:1px solid transparent;background:#0d131b;color:#dbe4ee;border-radius:8px;padding:8px 9px;cursor:pointer}.regionBtn:hover,.regionBtn.active{border-color:var(--accent);background:#102638}.name{font-size:18px;font-weight:750;margin-bottom:3px}.meta{color:var(--muted);font-size:12px;margin-bottom:8px}.teach{font-size:13px}.teach b{color:#fff}.teach p{margin:6px 0}.pill{display:inline-block;padding:3px 7px;border:1px solid var(--border);border-radius:999px;font-size:11px;color:var(--muted);margin:3px 4px 0 0}.warning{font-size:11px;color:#b6c0ca;border-left:3px solid var(--accent2);padding-left:9px}.small{font-size:11px;color:var(--muted)}
+@media(max-width:850px){.grid{grid-template-columns:1fr}.viewerWrap{height:58vh;min-height:420px}.selectList{max-height:180px}.app{padding:8px}.side{padding:9px}}
+@media(max-width:450px){.viewerWrap{height:52vh;min-height:360px}.toolbar button{flex:1 1 30%;padding:8px 5px}.title h1{font-size:18px}}
+</style>
+</head>
+<body>
+<div class="app">
+  <div class="top">
+    <div class="title"><h1>Real MRI Brain Anatomy Teacher</h1><p>Real T1-weighted MNI152 neuroimaging volume + registered AAL anatomical atlas</p></div>
+    <div><div id="loadStatus" class="status">Loading MRI volume…</div><div class="small" style="text-align:right;margin-top:6px">Created by Dr. Shashank Neupane and Team</div></div>
+  </div>
+  <div class="grid">
+    <section class="viewerPanel">
+      <div class="toolbar" id="toolbar">
+        <button data-view="multi" class="active">4-view</button>
+        <button data-view="axial">Axial</button>
+        <button data-view="coronal">Coronal</button>
+        <button data-view="sagittal">Sagittal</button>
+        <button data-view="render">3D volume</button>
+        <button id="resetBtn">Reset view</button>
+      </div>
+      <div class="viewerWrap"><canvas id="gl" tabindex="0" aria-label="Interactive real MRI brain viewer"></canvas><div id="location" class="corner">Move/click crosshair to identify anatomy.</div></div>
+    </section>
+
+    <aside class="side">
+      <div class="card">
+        <h2>Atlas overlay</h2>
+        <div class="row"><label for="opacity">Anatomy color opacity</label><span id="opacityVal" class="small">35%</span></div>
+        <input id="opacity" type="range" min="0" max="100" value="35" step="1" />
+        <div class="row" style="margin-top:7px"><label><input id="focusOnly" type="checkbox" checked /> Focus selected structure</label><label><input id="crosshair" type="checkbox" checked /> 3D crosshair</label></div>
+      </div>
+
+      <div class="card">
+        <h2>Find anatomy</h2>
+        <input id="search" type="search" placeholder="Try hippocampus, thalamus, insula…" autocomplete="off" />
+        <div id="regionList" class="selectList"></div>
+      </div>
+
+      <div class="card" id="teacherCard">
+        <div id="regionName" class="name">Select or click a structure</div>
+        <div id="regionMeta" class="meta">The MRI stays grayscale; anatomy is a registered transparent layer.</div>
+        <div id="teaching" class="teach">Click through the MRI. The crosshair location, atlas label and MRI intensity update together.</div>
+      </div>
+
+      <div class="warning">This is a normal standardized MRI teaching volume, not a patient study and not a diagnostic tool. MNI152 is a population-derived anatomical template; the AAL overlay is a registered parcellation. Real patients vary.</div>
+    </aside>
+  </div>
+</div>
+
+<script type="module">
+import { Niivue } from './vendor/niivue.js';
+
+const MRI_URL='./data/mni152.nii.gz';
+const ATLAS_URL='./data/aal.nii.gz';
+const LUT_URL='./data/aal.json';
+const statusEl=document.getElementById('loadStatus');
+const locationEl=document.getElementById('location');
+const regionName=document.getElementById('regionName');
+const regionMeta=document.getElementById('regionMeta');
+const teaching=document.getElementById('teaching');
+const opacity=document.getElementById('opacity');
+const opacityVal=document.getElementById('opacityVal');
+const focusOnly=document.getElementById('focusOnly');
+const search=document.getElementById('search');
+const regionList=document.getElementById('regionList');
+const crosshair=document.getElementById('crosshair');
+let cmap=null, activeIndex=-1, nv=null;
+
+const notes=[
+ [/hippocampus/i,'Mesial temporal gray matter forming the floor of the temporal horn. On clinical MRI, learn its head, body and tail and compare sides for symmetry and volume.','Key relationships: temporal horn superiorly/laterally; parahippocampal gyrus inferiorly; amygdala anteriorly.'],
+ [/amygdala/i,'Anterior mesial temporal gray matter. It sits anterosuperior to the hippocampal head and can be hard to separate on routine thick slices.','Coronal images are particularly useful for learning the amygdala–hippocampal relationship.'],
+ [/thalamus/i,'Paired deep gray nuclei forming much of the lateral wall of the third ventricle.','Internal capsule lies lateral; third ventricle is medial; midbrain is inferior.'],
+ [/caudate/i,'Part of the striatum. The caudate head closely follows the frontal horn of the lateral ventricle.','Use the lateral ventricle as a landmark; the anterior limb of the internal capsule separates caudate from lentiform nucleus.'],
+ [/putamen/i,'Lateral part of the lentiform nucleus and a major basal-ganglia landmark on axial MRI.','Globus pallidus is medial; external capsule and insula are lateral; internal capsule is medial.'],
+ [/pallid/i,'Globus pallidus occupies the medial lentiform nucleus.','Putamen is lateral; posterior limb of the internal capsule is medial/posteromedial.'],
+ [/insula/i,'Cortex buried deep within the Sylvian fissure.','From deep to superficial: insula → extreme capsule → claustrum → external capsule → putamen.'],
+ [/precentral/i,'Primary motor cortex is centered on the precentral gyrus, immediately anterior to the central sulcus.','Trace the central sulcus on axial and sagittal views rather than relying on a single slice.'],
+ [/postcentral/i,'Primary somatosensory cortex occupies the postcentral gyrus just posterior to the central sulcus.','Compare with the precentral gyrus across consecutive slices to learn the central sulcus.'],
+ [/cingul/i,'Cingulate cortex arcs around the corpus callosum on the medial hemisphere.','On sagittal MRI, identify corpus callosum first, then follow the cingulate gyrus immediately superior to it.'],
+ [/calcarine/i,'Medial occipital cortex surrounding the calcarine sulcus, associated with primary visual cortex.','Best appreciated on sagittal and coronal views near the occipital pole.'],
+ [/cerebell/i,'Posterior fossa structure containing cerebellar cortex, white matter and deep nuclei.','Relate hemispheres and vermis to the fourth ventricle and brainstem in all three planes.'],
+ [/frontal/i,'Frontal-lobe cortical parcel.','Use sulci and gyri across multiple slices; cortical parcels are best understood in 3D rather than from one axial level.'],
+ [/parietal/i,'Parietal-lobe cortical parcel.','Orient first with the central sulcus and Sylvian fissure, then follow the parcel through adjacent slices.'],
+ [/temporal/i,'Temporal-lobe cortical parcel.','Coronal MRI is especially valuable for temporal lobe, hippocampus, temporal horn and collateral sulcus anatomy.'],
+ [/occipital/i,'Occipital cortical parcel.','Trace medial visual cortex around the calcarine sulcus and lateral occipital gyri across planes.']
+];
+function noteFor(name){for(const [re,a,b] of notes)if(re.test(name))return[a,b];return['Atlas-defined cortical or subcortical region. Learn its shape by scrolling through consecutive slices rather than memorizing a single section.','Use the synchronized axial, coronal and sagittal views to understand its true 3D relationships.'];}
+function indexForValue(v){if(!cmap)return-1; if(Array.isArray(cmap.I)){const p=cmap.I.indexOf(v);return p>=0?p:-1;} return Number.isFinite(v)&&v>=0&&v<cmap.labels.length?v:-1;}
+function valueForIndex(i){return Array.isArray(cmap?.I)?cmap.I[i]:i;}
+function showRegionByIndex(i,source='selection'){
+  if(!cmap||i<0||i>=cmap.labels.length)return;
+  activeIndex=valueForIndex(i); const name=cmap.labels[i]||`Region ${activeIndex}`;
+  regionName.textContent=name;
+  regionMeta.innerHTML=`<span class="pill">AAL atlas</span><span class="pill">Label value ${activeIndex}</span><span class="pill">MRI-registered</span>`;
+  const [a,b]=noteFor(name); teaching.innerHTML=`<p><b>What you are seeing:</b> ${a}</p><p><b>Orientation pearl:</b> ${b}</p><p class="small">Keep scrolling above and below the selected level. Shape change across slices is part of the anatomy.</p>`;
+  if(nv){nv.opts.atlasActiveIndex=focusOnly.checked?activeIndex:-1;nv.updateGLVolume();}
+  [...regionList.children].forEach((el,j)=>el.classList.toggle('active',j===i));
+}
+function renderRegionList(filter=''){
+  if(!cmap)return; const q=filter.trim().toLowerCase(); regionList.innerHTML='';
+  cmap.labels.forEach((name,i)=>{if(i===0||!name|| (q&&!name.toLowerCase().includes(q)))return; const b=document.createElement('button');b.className='regionBtn';b.type='button';b.textContent=name;b.dataset.idx=i;b.addEventListener('click',()=>showRegionByIndex(i));regionList.appendChild(b);});
+  if(!regionList.children.length){const d=document.createElement('div');d.className='small';d.textContent='No matching structure.';regionList.appendChild(d)}
+}
+function onLocationChange(data){
+  locationEl.textContent=data.string||'Crosshair moved';
+  const v=data?.values?.[1]?.value;
+  if(!Number.isFinite(v))return; const idx=indexForValue(v); if(idx>=0&&v!==activeIndex)showRegionByIndex(idx,'click');
+}
+
+try{
+  statusEl.textContent='Loading real MRI + atlas…';
+  nv=new Niivue({backColor:[0,0,0,1],show3Dcrosshair:true,multiplanarLayout:2,crosshairColor:[0.15,0.8,1,0.9],onLocationChange});
+  await nv.attachTo('gl');
+  nv.setInterpolation(true);
+  await nv.loadVolumes([{url:MRI_URL,colormap:'gray',opacity:1},{url:ATLAS_URL,opacity:0.35}]);
+  cmap=await (await fetch(LUT_URL)).json();
+  nv.volumes[1].setColormapLabel(cmap);
+  nv.opts.atlasActiveIndex=-1;
+  nv.setSliceType(nv.sliceTypeMultiplanar);
+  nv.updateGLVolume();
+  renderRegionList();
+  statusEl.textContent='MRI loaded · drag/click/scroll to explore';
+}catch(err){console.error(err);statusEl.textContent='Could not load MRI data — check internet/WebGL';locationEl.textContent=String(err?.message||err);}
+
+opacity.addEventListener('input',()=>{opacityVal.textContent=opacity.value+'%';if(nv){nv.volumes[1].opacity=Number(opacity.value)/100;nv.updateGLVolume();}});
+focusOnly.addEventListener('change',()=>{if(nv){nv.opts.atlasActiveIndex=focusOnly.checked?activeIndex:-1;nv.updateGLVolume();}});
+crosshair.addEventListener('change',()=>{if(nv){nv.opts.show3Dcrosshair=crosshair.checked;nv.drawScene();}});
+search.addEventListener('input',()=>renderRegionList(search.value));
+
+document.getElementById('toolbar').addEventListener('click',e=>{const b=e.target.closest('button[data-view]');if(!b||!nv)return;document.querySelectorAll('button[data-view]').forEach(x=>x.classList.remove('active'));b.classList.add('active');const v=b.dataset.view; if(v==='multi')nv.setSliceType(nv.sliceTypeMultiplanar);if(v==='axial')nv.setSliceType(nv.sliceTypeAxial);if(v==='coronal')nv.setSliceType(nv.sliceTypeCoronal);if(v==='sagittal')nv.setSliceType(nv.sliceTypeSagittal);if(v==='render')nv.setSliceType(nv.sliceTypeRender);});
+document.getElementById('resetBtn').addEventListener('click',()=>{if(!nv)return; nv.setSliceType(nv.sliceTypeMultiplanar);document.querySelectorAll('button[data-view]').forEach(x=>x.classList.toggle('active',x.dataset.view==='multi'));nv.opts.atlasActiveIndex=focusOnly.checked?activeIndex:-1;nv.drawScene();});
+</script>
+</body>
+</html>
