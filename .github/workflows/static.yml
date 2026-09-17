@@ -30,6 +30,7 @@ jobs:
           set -euxo pipefail
           mkdir -p site
           rsync -a --exclude '.git' --exclude 'site' ./ site/
+          sed -i 's/pat.subn(rep,s,1)/pat.subn(lambda m: rep,s,1)/g' neuroatlas/neuroatlas_precision_patch.py
           python3 neuroatlas/neuroatlas_precision_patch.py site/neuroatlas/index.html
           grep -q 'SELECTED STRUCTURE' site/neuroatlas/index.html
           grep -q 'Left lateral ventricle' site/neuroatlas/index.html
