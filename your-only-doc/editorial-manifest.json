@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "workflow": "chatgpt-reviewed-v20",
-  "updated_at": "2026-09-16T09:47:02Z",
-  "next_episode_number": 37,
+  "updated_at": "2026-09-17T08:49:10Z",
+  "next_episode_number": 38,
   "next_planned_topic": {
-    "id": "night-vision",
-    "title": "Why You Struggle to See at Night",
-    "reason": "It continues the eye-health sequence by distinguishing refractive error and cataract from retinal disease, medication effects, and vitamin A deficiency while explaining urgent patterns."
+    "id": "age-related-vision-change",
+    "title": "Why Your Vision Changes With Age",
+    "reason": "It continues the eye-health sequence by separating common presbyopia and cataract from retinal, optic-nerve, and neurological changes that should not be dismissed as normal aging."
   },
   "packets": [
     {
@@ -204,6 +204,13 @@
       "title": "E36: Why Your Eyes Feel Tired After Screens",
       "file": "episodes/E36-digital-eye-strain.json",
       "status": "ready"
+    },
+    {
+      "episode_number": 37,
+      "topic_id": "night-vision",
+      "title": "E37: Why You Struggle to See at Night",
+      "file": "episodes/E37-night-vision.json",
+      "status": "ready"
     }
   ],
   "evergreen_sequence": [
@@ -302,6 +309,10 @@
     {
       "id": "night-vision",
       "title": "Why You Struggle to See at Night"
+    },
+    {
+      "id": "age-related-vision-change",
+      "title": "Why Your Vision Changes With Age"
     }
   ],
   "editorial_policy": {
