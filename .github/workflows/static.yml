@@ -24,20 +24,24 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Build NeuroAtlas precision v2
+      - name: Build NeuroAtlas precision v3
         shell: bash
         run: |
           set -euxo pipefail
           mkdir -p site
           rsync -a --exclude '.git' --exclude 'site' ./ site/
 
-          # Reconstruct the tested precision-v2 viewer exactly.
+          # Reconstruct the protected precision-v2 viewer, then apply only
+          # search, labeling, outline, ventricle, and brainstem precision fixes.
           python3 site/neuroatlas/build_precision_v2.py site/neuroatlas/index.html
           echo "97ec42ae1b3c5966ad6ffca9e8072aca447daa546ba67ac04256687b66f18c29  site/neuroatlas/index.html" | sha256sum -c -
+          python3 site/neuroatlas/precision_v3_patch.py site/neuroatlas/index.html
+          echo "a010ace3cb0c88e83a92fd9d2ca2ebac8597cd62e5b477b0eab66e32caa03b95  site/neuroatlas/index.html" | sha256sum -c -
 
           mkdir -p site/neuroatlas/data
 
-          # Temporary AAL volume is used only to build search centroids.
+          # AAL is temporary here and is used only to build guaranteed
+          # in-label search landing points.
           curl -fL --retry 4 --retry-delay 2 \
             https://niivue.com/demos/images/aal.nii.gz \
             -o site/neuroatlas/data/aal_centroid.nii.gz \
@@ -45,12 +49,13 @@ jobs:
             https://raw.githubusercontent.com/niivue/niivue/main/packages/niivue/demos/images/aal.nii.gz \
             -o site/neuroatlas/data/aal_centroid.nii.gz
 
-          # JHU ICBM-DTI-81 labels are kept same-origin so detailed white-matter lookup cannot fail on CORS.
+          # JHU ICBM-DTI-81 white-matter labels remain same-origin in the app.
           curl -fL --retry 4 --retry-delay 2 \
             https://raw.githubusercontent.com/MASILab/PreQual/master/src/SUPPLEMENTAL/JHU-ICBM-labels-1mm.nii.gz \
             -o site/neuroatlas/data/JHU-ICBM-labels-1mm.nii.gz
 
-          # Harvard-Oxford subcortical atlas supplies lateral ventricles and major deep structures.
+          # Harvard-Oxford subcortical atlas supplies lateral ventricles,
+          # brainstem, and major deep structures.
           curl -fL --retry 4 --retry-delay 2 \
             https://fsl.fmrib.ox.ac.uk/fsldownloads/fslconda/data/HarvardOxford-sub-maxprob-thr25-2mm.nii.gz \
             -o site/neuroatlas/data/HarvardOxford-sub-maxprob-thr25-2mm.nii.gz \
@@ -65,6 +70,8 @@ jobs:
           test -s site/neuroatlas/data/JHU-ICBM-labels-1mm.nii.gz
           test -s site/neuroatlas/data/HarvardOxford-sub-maxprob-thr25-2mm.nii.gz
 
+          # The file name is retained for compatibility, but these are now
+          # real voxels inside each label rather than mathematical centroids.
           python3 site/neuroatlas/build_atlas_centroids.py \
             site/neuroatlas/data/aal_centroid.nii.gz \
             site/neuroatlas/data/JHU-ICBM-labels-1mm.nii.gz \
@@ -73,10 +80,12 @@ jobs:
           rm site/neuroatlas/data/aal_centroid.nii.gz
 
           test -s site/neuroatlas/data/atlas_centroids.json
-          grep -q 'GROUP_ANCHOR' site/neuroatlas/index.html
-          grep -q 'nearestLabel' site/neuroatlas/index.html
-          grep -q 'SPECIAL_POINTS' site/neuroatlas/index.html
+          grep -q 'midlineVentricleAtCursor' site/neuroatlas/index.html
+          grep -q 'bilateralExact' site/neuroatlas/index.html
+          grep -q 'Rostral medulla' site/neuroatlas/index.html
+          grep -q 'validated label voxel' site/neuroatlas/index.html
           grep -q 'Left lateral ventricle' site/neuroatlas/index.html
+          grep -q 'forceVisible=false' site/neuroatlas/index.html
           python3 -c "from pathlib import Path; import re; s=Path('site/neuroatlas/index.html').read_text(); m=re.search(r'<script type=\"module\">\s*(.*?)</script>',s,re.S); assert m; Path('/tmp/neuroatlas.mjs').write_text(m.group(1))"
           node --check /tmp/neuroatlas.mjs
           ls -lh site/neuroatlas/data site/neuroatlas/index.html
