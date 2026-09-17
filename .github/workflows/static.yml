@@ -24,20 +24,20 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Build classic HD NeuroAtlas
+      - name: Build original NeuroAtlas v1 with self-hosted HD assets
         shell: bash
         run: |
           set -euxo pipefail
           mkdir -p site
           rsync -a --exclude '.git' --exclude 'site' ./ site/
-          cp site/neuroatlas/classic_hd.html site/neuroatlas/index.html
+          cp site/neuroatlas/original_v1_restored.html site/neuroatlas/index.html
           mkdir -p site/neuroatlas/vendor site/neuroatlas/data
 
           curl -fL --retry 4 --retry-delay 2 \
-            https://unpkg.com/@niivue/niivue@0.62.1/dist/index.js \
+            https://unpkg.com/@niivue/niivue@0.69.0/dist/index.js \
             -o site/neuroatlas/vendor/niivue.js \
           || curl -fL --retry 4 --retry-delay 2 \
-            https://cdn.jsdelivr.net/npm/@niivue/niivue@0.62.1/dist/index.js \
+            https://cdn.jsdelivr.net/npm/@niivue/niivue@0.69.0/dist/index.js \
             -o site/neuroatlas/vendor/niivue.js
 
           curl -fL --retry 4 --retry-delay 2 \
