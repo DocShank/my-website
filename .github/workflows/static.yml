@@ -31,6 +31,7 @@ jobs:
           mkdir -p site
           rsync -a --exclude '.git' --exclude 'site' ./ site/
           cp site/neuroatlas/v4.html site/neuroatlas/index.html
+          python3 site/neuroatlas/clean_patch.py site/neuroatlas/index.html
           mkdir -p site/neuroatlas/vendor site/neuroatlas/data
 
           curl -fL --retry 4 --retry-delay 2 \
