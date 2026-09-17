@@ -24,19 +24,62 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Build NeuroAtlas precision-label release
+      - name: Build NeuroAtlas precision v2
         shell: bash
         run: |
           set -euxo pipefail
           mkdir -p site
           rsync -a --exclude '.git' --exclude 'site' ./ site/
-          sed -i 's/pat.subn(rep,s,1)/pat.subn(lambda m: rep,s,1)/g' neuroatlas/neuroatlas_precision_patch.py
-          python3 neuroatlas/neuroatlas_precision_patch.py site/neuroatlas/index.html
-          grep -q 'SELECTED STRUCTURE' site/neuroatlas/index.html
+
+          # Reconstruct the tested precision-v2 viewer exactly.
+          python3 site/neuroatlas/build_precision_v2.py site/neuroatlas/index.html
+          echo "97ec42ae1b3c5966ad6ffca9e8072aca447daa546ba67ac04256687b66f18c29  site/neuroatlas/index.html" | sha256sum -c -
+
+          mkdir -p site/neuroatlas/data
+
+          # Temporary AAL volume is used only to build search centroids.
+          curl -fL --retry 4 --retry-delay 2 \
+            https://niivue.com/demos/images/aal.nii.gz \
+            -o site/neuroatlas/data/aal_centroid.nii.gz \
+          || curl -fL --retry 4 --retry-delay 2 \
+            https://raw.githubusercontent.com/niivue/niivue/main/packages/niivue/demos/images/aal.nii.gz \
+            -o site/neuroatlas/data/aal_centroid.nii.gz
+
+          # JHU ICBM-DTI-81 labels are kept same-origin so detailed white-matter lookup cannot fail on CORS.
+          curl -fL --retry 4 --retry-delay 2 \
+            https://raw.githubusercontent.com/MASILab/PreQual/master/src/SUPPLEMENTAL/JHU-ICBM-labels-1mm.nii.gz \
+            -o site/neuroatlas/data/JHU-ICBM-labels-1mm.nii.gz
+
+          # Harvard-Oxford subcortical atlas supplies lateral ventricles and major deep structures.
+          curl -fL --retry 4 --retry-delay 2 \
+            https://fsl.fmrib.ox.ac.uk/fsldownloads/fslconda/data/HarvardOxford-sub-maxprob-thr25-2mm.nii.gz \
+            -o site/neuroatlas/data/HarvardOxford-sub-maxprob-thr25-2mm.nii.gz \
+          || curl -fL --retry 4 --retry-delay 2 \
+            https://git.fmrib.ox.ac.uk/fsl/data_atlases/-/raw/2103.0/HarvardOxford/HarvardOxford-sub-maxprob-thr25-2mm.nii.gz \
+            -o site/neuroatlas/data/HarvardOxford-sub-maxprob-thr25-2mm.nii.gz \
+          || curl -fL --retry 4 --retry-delay 2 \
+            https://ftp.nmr.mgh.harvard.edu/pub/dist/freesurfer/tutorial_packages_centos6/centos6/freesurfer-fsl-matlab-Linux-centos6_x86_64-dev/freesurfer/fsl_507/data/atlases/HarvardOxford/HarvardOxford-sub-maxprob-thr25-2mm.nii.gz \
+            -o site/neuroatlas/data/HarvardOxford-sub-maxprob-thr25-2mm.nii.gz
+
+          test -s site/neuroatlas/data/aal_centroid.nii.gz
+          test -s site/neuroatlas/data/JHU-ICBM-labels-1mm.nii.gz
+          test -s site/neuroatlas/data/HarvardOxford-sub-maxprob-thr25-2mm.nii.gz
+
+          python3 site/neuroatlas/build_atlas_centroids.py \
+            site/neuroatlas/data/aal_centroid.nii.gz \
+            site/neuroatlas/data/JHU-ICBM-labels-1mm.nii.gz \
+            site/neuroatlas/data/HarvardOxford-sub-maxprob-thr25-2mm.nii.gz \
+            site/neuroatlas/data/atlas_centroids.json
+          rm site/neuroatlas/data/aal_centroid.nii.gz
+
+          test -s site/neuroatlas/data/atlas_centroids.json
+          grep -q 'GROUP_ANCHOR' site/neuroatlas/index.html
+          grep -q 'nearestLabel' site/neuroatlas/index.html
+          grep -q 'SPECIAL_POINTS' site/neuroatlas/index.html
           grep -q 'Left lateral ventricle' site/neuroatlas/index.html
-          grep -q 'mapOnly' site/neuroatlas/index.html
-          python3 -c "from pathlib import Path; import re; s=Path('site/neuroatlas/index.html').read_text(); m=re.search(r'<script type=\"module\">\\s*(.*?)</script>',s,re.S); assert m; Path('/tmp/neuroatlas.mjs').write_text(m.group(1))"
+          python3 -c "from pathlib import Path; import re; s=Path('site/neuroatlas/index.html').read_text(); m=re.search(r'<script type=\"module\">\s*(.*?)</script>',s,re.S); assert m; Path('/tmp/neuroatlas.mjs').write_text(m.group(1))"
           node --check /tmp/neuroatlas.mjs
+          ls -lh site/neuroatlas/data site/neuroatlas/index.html
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
