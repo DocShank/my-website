@@ -30,6 +30,7 @@ jobs:
           set -euxo pipefail
           mkdir -p site
           rsync -a --exclude '.git' --exclude 'site' ./ site/
+          cp site/neuroatlas/v4.html site/neuroatlas/index.html
           mkdir -p site/neuroatlas/vendor site/neuroatlas/data
 
           curl -fL --retry 4 --retry-delay 2 \
