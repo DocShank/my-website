@@ -56,11 +56,17 @@ jobs:
             https://raw.githubusercontent.com/niivue/niivue/main/packages/niivue/demos/images/aal.json \
             -o site/neuroatlas/data/aal.json
 
+          python3 site/neuroatlas/preprocess.py site/neuroatlas
+
           test -s site/neuroatlas/vendor/niivue.js
           test -s site/neuroatlas/data/mni152_2mm_brain.nii.gz
           test -s site/neuroatlas/data/mni152_2mm_fast_seg.nii.gz
           test -s site/neuroatlas/data/aal.nii.gz
           test -s site/neuroatlas/data/aal.json
+          test -s site/neuroatlas/data/meta.json
+          test -s site/neuroatlas/data/brain_u16.bin
+          test -s site/neuroatlas/data/tissue_u8.bin
+          test -s site/neuroatlas/data/aal_u8.bin
           ls -lh site/neuroatlas/vendor site/neuroatlas/data
 
       - name: Setup Pages
