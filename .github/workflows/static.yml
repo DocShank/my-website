@@ -24,7 +24,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Build NeuroAtlas precision v4
+      - name: Build NeuroAtlas precision v5
         shell: bash
         run: |
           set -euxo pipefail
@@ -38,6 +38,8 @@ jobs:
           echo "a010ace3cb0c88e83a92fd9d2ca2ebac8597cd62e5b477b0eab66e32caa03b95  site/neuroatlas/index.html" | sha256sum -c -
           python3 site/neuroatlas/precision_v4_patch.py site/neuroatlas/index.html
           echo "54b9ba81d68e1691f6f73c98f3ec2b38e1ec3411a67c8b84518559e345043cc7  site/neuroatlas/index.html" | sha256sum -c -
+          python3 site/neuroatlas/precision_v5_patch.py site/neuroatlas/index.html
+          echo "e24fc8e5a41a726a2946283ab1b412b18c66f63e9d8100a79545dc851c643904  site/neuroatlas/index.html" | sha256sum -c -
 
           mkdir -p site/neuroatlas/data
 
@@ -91,6 +93,11 @@ jobs:
           grep -q 'Sharp color boundaries' site/neuroatlas/index.html
           grep -q 'open medulla' site/neuroatlas/index.html
           grep -q 'Ventricular landmark' site/neuroatlas/index.html
+          grep -q 'Created by Dr. Shashank Neupane and Team' site/neuroatlas/index.html
+          grep -q 'LABEL THIS CROSS SECTION' site/neuroatlas/index.html
+          grep -q 'function collectCrossCandidates' site/neuroatlas/index.html
+          grep -q '<option value="0" selected>Filled regions</option>' site/neuroatlas/index.html
+          python3 -c "from pathlib import Path; s=Path('site/neuroatlas/index.html').read_text(); assert '—' not in s and '–' not in s"
           python3 -c "from pathlib import Path; import re; s=Path('site/neuroatlas/index.html').read_text(); m=re.search(r'<script type=\"module\">\s*(.*?)</script>',s,re.S); assert m; Path('/tmp/neuroatlas.mjs').write_text(m.group(1))"
           node --check /tmp/neuroatlas.mjs
           ls -lh site/neuroatlas/data site/neuroatlas/index.html
