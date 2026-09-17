@@ -1,0 +1,150 @@
+{
+  "schema": 2,
+  "editorial": {
+    "workflow": "chatgpt-reviewed-v20",
+    "reviewed_by": "ChatGPT medical editorial workflow",
+    "reviewed_on": "2026-09-17",
+    "episode_number": 37,
+    "language": "English",
+    "spoken_host_name_allowed": false,
+    "long_dashes_allowed": false,
+    "target_minutes": 10
+  },
+  "topic_id": "night-vision",
+  "topic": {
+    "id": "night-vision",
+    "title": "Why You Struggle to See at Night",
+    "audience_question": "Why does vision become difficult in dim light, and when does poor night vision suggest an eye or nutritional disorder?",
+    "pubmed_query": "night vision nyctalopia dark adaptation cataract refractive error retinitis pigmentosa vitamin A deficiency",
+    "icon_keywords": ["night-vision", "dark-adaptation", "rods", "headlights"],
+    "category": "eye-health"
+  },
+  "sources": [
+    {
+      "id": "NEI:CATARACTS-2025",
+      "title": "Cataracts",
+      "abstract": "The National Eye Institute describes poor night vision, glare, halos, faded color, and cloudy vision as common cataract symptoms and recommends evaluation because similar symptoms can reflect other eye problems.",
+      "journal": "National Eye Institute",
+      "year": "2025",
+      "url": "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/cataracts",
+      "doi": null
+    },
+    {
+      "id": "NEI:LOW-VISION-2025",
+      "title": "Low Vision",
+      "abstract": "The National Eye Institute identifies night blindness as a form of low vision and lists cataract, glaucoma, diabetic retinopathy, macular degeneration, injury, and genetic disorders among important causes of visual impairment.",
+      "journal": "National Eye Institute",
+      "year": "2025",
+      "url": "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/low-vision",
+      "doi": null
+    },
+    {
+      "id": "NEI:ASTIGMATISM-2019",
+      "title": "Astigmatism",
+      "abstract": "The National Eye Institute notes that astigmatism can cause blur, squinting, eye strain, headache, and trouble seeing at night and is diagnosed during an eye examination.",
+      "journal": "National Eye Institute",
+      "year": "2019",
+      "url": "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/astigmatism",
+      "doi": null
+    },
+    {
+      "id": "NIH-ODS:VITAMIN-A-2025",
+      "title": "Vitamin A and Carotenoids: Health Professional Fact Sheet",
+      "abstract": "The NIH Office of Dietary Supplements explains that vitamin A supports rhodopsin and normal vision and that night blindness can be the first sign of deficiency, while excessive preformed vitamin A can be toxic.",
+      "journal": "NIH Office of Dietary Supplements",
+      "year": "2025",
+      "url": "https://ods.od.nih.gov/factsheets/VitaminA-HealthProfessional/",
+      "doi": null
+    },
+    {
+      "id": "AAO:NYCTALOPIA-2020",
+      "title": "The Case of a Teen With Nyctalopia",
+      "abstract": "This American Academy of Ophthalmology clinical discussion reviews inherited and acquired causes of night blindness, including retinal dystrophy, vitamin A deficiency, zinc deficiency, and medication toxicity, and demonstrates the role of retinal examination and electroretinography.",
+      "journal": "American Academy of Ophthalmology",
+      "year": "2020",
+      "url": "https://www.aao.org/eyenet/article/case-of-teen-with-nyctalopia",
+      "doi": null
+    },
+    {
+      "id": "SMW:VITAMIN-A-NYCTALOPIA-2023",
+      "title": "Vitamin A deficiency retinopathy related to medical interventions in a Swiss cohort: a case series",
+      "abstract": "This peer-reviewed clinical report explains that vitamin A deficiency impairs rhodopsin-dependent rod function and can produce night blindness, abnormal dark adaptation, visual-field changes, and electroretinographic abnormalities.",
+      "journal": "Swiss Medical Weekly",
+      "year": "2023",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37921090/",
+      "doi": "10.57187/smw.2023.40097"
+    }
+  ],
+  "episode": {
+    "title": "E37: Why You Struggle to See at Night",
+    "hook": "Hello and welcome to the Your Only Doc podcast. You drive comfortably during the day, but after sunset the road seems less defined. Headlights bloom, signs appear late, and you feel uncertain even though your daytime vision seems acceptable. Poor night vision is not a diagnosis by itself. Sometimes it reflects an outdated glasses prescription. Sometimes it is the first clue to cataract, retinal disease, or a nutritional problem.",
+    "sections": [
+      {
+        "heading": "The high yield summary",
+        "narration": "Too busy? Here is your high yield summary. Dim-light vision depends heavily on retinal rod cells and takes time to adjust after bright light. Refractive error, cataract, retinal disease, and vitamin A deficiency can all reduce night vision, but they produce different patterns. Glare and halos commonly suggest optical scatter from the lens or cornea. Progressive difficulty in darkness, loss of side vision, or symptoms affecting both eyes can point toward retinal dysfunction. Do not drive when you cannot see safely, and arrange an eye examination for persistent or worsening symptoms.",
+        "on_screen": ["Rods support dim-light vision", "Glare and field loss offer clues", "Persistent change needs examination"],
+        "icon": "night-vision-summary",
+        "source_ids": ["NEI:CATARACTS-2025", "NEI:LOW-VISION-2025", "NIH-ODS:VITAMIN-A-2025"]
+      },
+      {
+        "heading": "Your eyes must adapt to darkness",
+        "narration": "Moving from a bright room into darkness temporarily leaves everyone seeing poorly. Cones support detailed color vision in brighter conditions, while rods are more sensitive in dim light but provide less detail and no useful color discrimination. Dark adaptation is gradual because visual pigments and retinal signaling must reset after bright exposure. A brief delay is normal. A major difference between your eyes, worsening over time, or inability to function in ordinary low light is not something to dismiss as simple adaptation.",
+        "on_screen": ["Cones favor detail and color", "Rods favor dim light", "Adaptation should improve with time"],
+        "icon": "rod-cone-adaptation",
+        "source_ids": ["AAO:NYCTALOPIA-2020", "SMW:VITAMIN-A-NYCTALOPIA-2023"]
+      },
+      {
+        "heading": "Start with focus and the optical pathway",
+        "narration": "A small refractive error can become more obvious at night. The pupil enlarges to admit more light, exposing more of the eye's optical imperfections. Astigmatism may stretch lights into streaks, while nearsightedness can make distant signs unclear. Dryness or a dirty windshield can add scatter. A current prescription, clean lenses, treatment of ocular-surface disease, and sensible vehicle lighting may help. Yellow-tinted night-driving glasses reduce incoming light and are not a substitute for diagnosis.",
+        "on_screen": ["Larger pupils expose optical blur", "Astigmatism can streak lights", "Tinted lenses are not treatment"],
+        "icon": "night-refraction",
+        "source_ids": ["NEI:ASTIGMATISM-2019", "NEI:CATARACTS-2025"]
+      },
+      {
+        "heading": "Cataract creates glare and halos",
+        "narration": "A cataract clouds the natural lens and scatters light before it reaches the retina. Early symptoms may be most noticeable around headlights, with glare, halos, washed-out contrast, frequent prescription changes, or difficulty seeing at night. Cataracts usually progress gradually and are often asymmetric. Surgery is considered when the cataract interferes with activities such as driving, reading, or work, not merely because a lens opacity exists. Sudden visual change should not be blamed on a slowly developing cataract without examination.",
+        "on_screen": ["Clouded lens scatters light", "Glare may appear before daytime blur", "Function guides treatment timing"],
+        "icon": "cataract-headlight-glare",
+        "source_ids": ["NEI:CATARACTS-2025", "NEI:LOW-VISION-2025"]
+      },
+      {
+        "heading": "Retinal disease changes the pattern",
+        "narration": "Retinal rod disorders can cause true night blindness, called nyctalopia. In inherited retinal diseases, difficulty in darkness may begin early and gradually combine with narrowing peripheral vision. Other retinal conditions can reduce contrast or adaptation in different ways. The examination may include pupil testing, dilated retinal evaluation, visual fields, retinal imaging, and sometimes an electroretinogram that measures retinal electrical responses. Family history, age at onset, and whether side vision is shrinking help determine which tests are justified.",
+        "on_screen": ["Nyctalopia means impaired dim-light vision", "Peripheral loss suggests retinal disease", "Testing follows the clinical pattern"],
+        "icon": "retinal-rods-field",
+        "source_ids": ["AAO:NYCTALOPIA-2020", "NEI:LOW-VISION-2025"]
+      },
+      {
+        "heading": "Vitamin A matters, but supplements are not automatic",
+        "narration": "Vitamin A is required to form retinal molecules used by rhodopsin in rod cells. Deficiency can therefore present with night blindness. In adults, important contexts include severe dietary restriction, chronic liver or pancreatic disease, inflammatory bowel disease, bariatric surgery, and other causes of fat malabsorption. Testing and replacement should be medically supervised. High-dose preformed vitamin A can injure the liver, harm a pregnancy, and cause other toxicity, so night-vision trouble is not a reason to self-prescribe megadoses.",
+        "on_screen": ["Vitamin A supports rhodopsin", "Malabsorption can cause deficiency", "Avoid unsupervised megadoses"],
+        "icon": "vitamin-a-rhodopsin",
+        "source_ids": ["NIH-ODS:VITAMIN-A-2025", "SMW:VITAMIN-A-NYCTALOPIA-2023"]
+      },
+      {
+        "heading": "How clinicians separate the causes",
+        "narration": "Now, let us go deeper. The key distinction is whether light is being blurred before it reaches the retina or whether the retina cannot process dim light normally. Refraction and slit-lamp examination assess the cornea and lens. A dilated examination evaluates the retina and optic nerve. Visual fields measure missing peripheral vision, while electroretinography can reveal abnormal rod and cone function. Blood tests are targeted to a credible nutritional or malabsorption history rather than ordered for every patient with nighttime glare.",
+        "on_screen": ["Optical blur versus retinal dysfunction", "Examination directs specialized testing", "Laboratory testing needs a clinical reason"],
+        "icon": "night-vision-workup",
+        "source_ids": ["AAO:NYCTALOPIA-2020", "NEI:CATARACTS-2025", "NIH-ODS:VITAMIN-A-2025"]
+      },
+      {
+        "heading": "Safety and warning signs",
+        "narration": "Stop night driving if signs, pedestrians, lane markings, or approaching vehicles are not reliably visible. Seek prompt assessment for a new or rapidly worsening problem, a clear difference between the eyes, progressive side-vision loss, or night blindness in a child or young adult. Sudden vision loss, severe eye pain, a red eye with reduced vision, new neurological symptoms, flashes with many new floaters, or a curtain-like shadow requires urgent evaluation. These patterns are not ordinary difficulty adjusting to darkness.",
+        "on_screen": ["Do not drive beyond your visual ability", "Progressive field loss needs assessment", "Sudden loss or curtain is urgent"],
+        "icon": "night-driving-red-flags",
+        "source_ids": ["NEI:LOW-VISION-2025", "NEI:CATARACTS-2025"]
+      },
+      {
+        "heading": "Three essential takeaways",
+        "narration": "Number one, poor night vision may come from correctable focus problems or cataract, but progressive night blindness and peripheral-field loss can signal retinal disease. Number two, vitamin A deficiency is a real and treatable cause in the right nutritional or malabsorption setting, but high-dose supplements should not be taken without evaluation. Number three, avoid night driving when vision is unsafe, arrange a comprehensive eye examination for persistent symptoms, and seek urgent care for sudden loss, severe pain, neurological changes, or a curtain-like shadow.",
+        "on_screen": ["Identify optical versus retinal clues", "Treat deficiency only when justified", "Protect safety and act on red flags"],
+        "icon": "checklist",
+        "source_ids": ["NEI:ASTIGMATISM-2019", "NEI:CATARACTS-2025", "NIH-ODS:VITAMIN-A-2025", "AAO:NYCTALOPIA-2020"]
+      }
+    ],
+    "closing": "On the next episode, we will explain why your vision changes with age, including presbyopia, cataract, retinal disease, and the changes that should never be considered normal aging. Until then, give your eyes enough light, but do not ignore a pattern that keeps getting worse.",
+    "description": "Poor night vision can reflect refractive error, cataract, retinal disease, or vitamin A deficiency. This episode explains dark adaptation, glare, nyctalopia, clinical testing, driving safety, and urgent warning signs.",
+    "thumbnail_text": "WHY CAN'T YOU SEE AT NIGHT?"
+  }
+}
