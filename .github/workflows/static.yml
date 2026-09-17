@@ -35,6 +35,8 @@ jobs:
           grep -q 'SELECTED STRUCTURE' site/neuroatlas/index.html
           grep -q 'Left lateral ventricle' site/neuroatlas/index.html
           grep -q 'mapOnly' site/neuroatlas/index.html
+          python3 -c "from pathlib import Path; import re; s=Path('site/neuroatlas/index.html').read_text(); m=re.search(r'<script type=\"module\">\\s*(.*?)</script>',s,re.S); assert m; Path('/tmp/neuroatlas.mjs').write_text(m.group(1))"
+          node --check /tmp/neuroatlas.mjs
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
