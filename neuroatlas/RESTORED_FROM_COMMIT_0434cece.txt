@@ -1,0 +1,1 @@
+Protected reference: exact first live NeuroAtlas build came from commit 0434cece66b39b01d03ca93056ec5e817d12da82 ("Add mobile NeuroAtlas MRI learning prototype"). The exact HTML is preserved in first_live_original.html. Do not redesign this reference; future enhancements should branch from it.
