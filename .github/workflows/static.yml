@@ -1,20 +1,28 @@
+# Simple workflow for deploying static content to GitHub Pages
 name: Deploy static content to Pages
 
 on:
+  # Runs on pushes targeting the default branch
   push:
     branches: ["main"]
+
+  # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
+# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
   contents: read
   pages: write
   id-token: write
 
+# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
+# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
 concurrency:
   group: "pages"
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
+  # Single deploy job since we're just deploying
   deploy:
     environment:
       name: github-pages
@@ -23,49 +31,13 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-
-      - name: Build original NeuroAtlas v1 with self-hosted HD assets
-        shell: bash
-        run: |
-          set -euxo pipefail
-          mkdir -p site
-          rsync -a --exclude '.git' --exclude 'site' ./ site/
-          cp site/neuroatlas/original_v1_restored.html site/neuroatlas/index.html
-          mkdir -p site/neuroatlas/vendor site/neuroatlas/data
-
-          curl -fL --retry 4 --retry-delay 2 \
-            https://unpkg.com/@niivue/niivue@0.69.0/dist/index.js \
-            -o site/neuroatlas/vendor/niivue.js \
-          || curl -fL --retry 4 --retry-delay 2 \
-            https://cdn.jsdelivr.net/npm/@niivue/niivue@0.69.0/dist/index.js \
-            -o site/neuroatlas/vendor/niivue.js
-
-          curl -fL --retry 4 --retry-delay 2 \
-            https://niivue.github.io/niivue-demo-images/mni152.nii.gz \
-            -o site/neuroatlas/data/mni152.nii.gz
-
-          curl -fL --retry 4 --retry-delay 2 \
-            https://raw.githubusercontent.com/niivue/niivue/main/packages/niivue/demos/images/aal.nii.gz \
-            -o site/neuroatlas/data/aal.nii.gz
-
-          curl -fL --retry 4 --retry-delay 2 \
-            https://raw.githubusercontent.com/niivue/niivue/main/packages/niivue/demos/images/aal.json \
-            -o site/neuroatlas/data/aal.json
-
-          test -s site/neuroatlas/vendor/niivue.js
-          test -s site/neuroatlas/data/mni152.nii.gz
-          test -s site/neuroatlas/data/aal.nii.gz
-          test -s site/neuroatlas/data/aal.json
-          ls -lh site/neuroatlas/vendor site/neuroatlas/data
-
       - name: Setup Pages
         uses: actions/configure-pages@v5
-
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: site
-
+          # Upload entire repository
+          path: '.'
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
