@@ -24,30 +24,25 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Build self-hosted NeuroAtlas package
+      - name: Build classic HD NeuroAtlas
         shell: bash
         run: |
           set -euxo pipefail
           mkdir -p site
           rsync -a --exclude '.git' --exclude 'site' ./ site/
-          cp site/neuroatlas/v4.html site/neuroatlas/index.html
-          python3 site/neuroatlas/clean_patch.py site/neuroatlas/index.html
+          cp site/neuroatlas/classic_hd.html site/neuroatlas/index.html
           mkdir -p site/neuroatlas/vendor site/neuroatlas/data
 
           curl -fL --retry 4 --retry-delay 2 \
-            https://unpkg.com/@niivue/niivue@0.57.0/dist/index.js \
+            https://unpkg.com/@niivue/niivue@0.62.1/dist/index.js \
             -o site/neuroatlas/vendor/niivue.js \
           || curl -fL --retry 4 --retry-delay 2 \
-            https://cdn.jsdelivr.net/npm/@niivue/niivue@0.57.0/dist/index.js \
+            https://cdn.jsdelivr.net/npm/@niivue/niivue@0.62.1/dist/index.js \
             -o site/neuroatlas/vendor/niivue.js
 
           curl -fL --retry 4 --retry-delay 2 \
-            https://raw.githubusercontent.com/Jfortin1/MNITemplate/master/inst/extdata/MNI152_T1_2mm_Brain.nii.gz \
-            -o site/neuroatlas/data/mni152_2mm_brain.nii.gz
-
-          curl -fL --retry 4 --retry-delay 2 \
-            https://raw.githubusercontent.com/Jfortin1/MNITemplate/master/inst/extdata/MNI152_T1_2mm_Brain_FAST_seg.nii.gz \
-            -o site/neuroatlas/data/mni152_2mm_fast_seg.nii.gz
+            https://niivue.github.io/niivue-demo-images/mni152.nii.gz \
+            -o site/neuroatlas/data/mni152.nii.gz
 
           curl -fL --retry 4 --retry-delay 2 \
             https://raw.githubusercontent.com/niivue/niivue/main/packages/niivue/demos/images/aal.nii.gz \
@@ -57,17 +52,10 @@ jobs:
             https://raw.githubusercontent.com/niivue/niivue/main/packages/niivue/demos/images/aal.json \
             -o site/neuroatlas/data/aal.json
 
-          python3 site/neuroatlas/preprocess.py site/neuroatlas
-
           test -s site/neuroatlas/vendor/niivue.js
-          test -s site/neuroatlas/data/mni152_2mm_brain.nii.gz
-          test -s site/neuroatlas/data/mni152_2mm_fast_seg.nii.gz
+          test -s site/neuroatlas/data/mni152.nii.gz
           test -s site/neuroatlas/data/aal.nii.gz
           test -s site/neuroatlas/data/aal.json
-          test -s site/neuroatlas/data/meta.json
-          test -s site/neuroatlas/data/brain_u16.bin
-          test -s site/neuroatlas/data/tissue_u8.bin
-          test -s site/neuroatlas/data/aal_u8.bin
           ls -lh site/neuroatlas/vendor site/neuroatlas/data
 
       - name: Setup Pages
