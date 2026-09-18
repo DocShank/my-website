@@ -113,7 +113,7 @@ jobs:
           grep -q 'Sharp color boundaries' site/neuroatlas/index.html
           grep -q 'open medulla' site/neuroatlas/index.html
           grep -q 'Ventricular landmark' site/neuroatlas/index.html
-          grep -q 'Created by Dr. Shashank Neupane and Team' site/neuroatlas/index.html
+          grep -q 'Created by Dr. Shashank Neupane · Precision v7.1' site/neuroatlas/index.html
           grep -q 'LABEL THIS CROSS SECTION' site/neuroatlas/index.html
           grep -q 'function collectCrossCandidates' site/neuroatlas/index.html
           grep -q 'HD TEXTBOOK CROSS SECTION' site/neuroatlas/index.html
