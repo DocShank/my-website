@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "workflow": "chatgpt-reviewed-v20",
-  "updated_at": "2026-09-17T08:49:10Z",
-  "next_episode_number": 38,
+  "updated_at": "2026-09-18T09:42:54Z",
+  "next_episode_number": 39,
   "next_planned_topic": {
-    "id": "age-related-vision-change",
-    "title": "Why Your Vision Changes With Age",
-    "reason": "It continues the eye-health sequence by separating common presbyopia and cataract from retinal, optic-nerve, and neurological changes that should not be dismissed as normal aging."
+    "id": "peripheral-vision-loss",
+    "title": "Why You Lose Peripheral Vision",
+    "reason": "It continues the eye-health sequence by explaining how glaucoma, retinal disease, and neurological problems can narrow the visual field, often before a person notices the loss."
   },
   "packets": [
     {
@@ -211,6 +211,13 @@
       "title": "E37: Why You Struggle to See at Night",
       "file": "episodes/E37-night-vision.json",
       "status": "ready"
+    },
+    {
+      "episode_number": 38,
+      "topic_id": "age-related-vision-change",
+      "title": "E38: Why Your Vision Changes With Age",
+      "file": "episodes/E38-age-related-vision-change.json",
+      "status": "ready"
     }
   ],
   "evergreen_sequence": [
@@ -313,6 +320,10 @@
     {
       "id": "age-related-vision-change",
       "title": "Why Your Vision Changes With Age"
+    },
+    {
+      "id": "peripheral-vision-loss",
+      "title": "Why You Lose Peripheral Vision"
     }
   ],
   "editorial_policy": {
