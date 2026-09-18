@@ -24,7 +24,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Build NeuroAtlas precision v7
+      - name: Build NeuroAtlas precision v7.1 manuscript release
         shell: bash
         run: |
           set -euxo pipefail
@@ -43,49 +43,66 @@ jobs:
           echo "638652bb9965853873fa85da1f721df8827272e580c4484fd4cfc68b4886e382  site/neuroatlas/index.html" | sha256sum -c -
           python3 site/neuroatlas/precision_v7_patch.py site/neuroatlas/index.html
           echo "7b38676ca501603ccba409e332aa3e61c82d91d316229f8e760669b34eaa54c3  site/neuroatlas/index.html" | sha256sum -c -
+          python3 site/neuroatlas/precision_v7_1_compliance_patch.py site/neuroatlas/index.html
+          echo "5ea0b12226a5dbdcd987e780f739eaf68446a2571109e36f2526c586872a12cb  site/neuroatlas/index.html" | sha256sum -c -
 
           mkdir -p site/neuroatlas/data
 
-          # AAL is temporary here and is used only to build guaranteed
-          # in-label search landing points.
+          # Pin the MNI152 demonstration volume to a reviewed NiiVue demo-data
+          # revision. The source repository documents it as a downsampled
+          # derivative of the ICBM 152 Nonlinear Atlases version 2009.
           curl -fL --retry 4 --retry-delay 2 \
-            https://niivue.com/demos/images/aal.nii.gz \
-            -o site/neuroatlas/data/aal_centroid.nii.gz \
-          || curl -fL --retry 4 --retry-delay 2 \
-            https://raw.githubusercontent.com/niivue/niivue/main/packages/niivue/demos/images/aal.nii.gz \
-            -o site/neuroatlas/data/aal_centroid.nii.gz
+            https://raw.githubusercontent.com/niivue/niivue-demo-images/f6f98294c1fa89a3a32e8a44eab92368374150a0/mni152.nii.gz \
+            -o site/neuroatlas/data/mni152.nii.gz
+
+          # Pin the AAL image and label table to the reviewed NiiVue revision.
+          curl -fL --retry 4 --retry-delay 2 \
+            https://raw.githubusercontent.com/niivue/niivue/ee9aefce6ce006a8b1a466434cc0d7ba2ac58344/packages/niivue/demos/images/aal.nii.gz \
+            -o site/neuroatlas/data/aal.nii.gz
+          curl -fL --retry 4 --retry-delay 2 \
+            https://raw.githubusercontent.com/niivue/niivue/ee9aefce6ce006a8b1a466434cc0d7ba2ac58344/packages/niivue/demos/images/aal.json \
+            -o site/neuroatlas/data/aal.json
 
           # JHU ICBM-DTI-81 white-matter labels remain same-origin in the app.
           curl -fL --retry 4 --retry-delay 2 \
-            https://raw.githubusercontent.com/MASILab/PreQual/master/src/SUPPLEMENTAL/JHU-ICBM-labels-1mm.nii.gz \
+            https://raw.githubusercontent.com/MASILab/PreQual/09c64b495284cc7145617d31650a7819f71bd0a1/src/SUPPLEMENTAL/JHU-ICBM-labels-1mm.nii.gz \
             -o site/neuroatlas/data/JHU-ICBM-labels-1mm.nii.gz
 
           # Harvard-Oxford subcortical atlas supplies lateral ventricles,
           # brainstem, and major deep structures.
           curl -fL --retry 4 --retry-delay 2 \
-            https://fsl.fmrib.ox.ac.uk/fsldownloads/fslconda/data/HarvardOxford-sub-maxprob-thr25-2mm.nii.gz \
-            -o site/neuroatlas/data/HarvardOxford-sub-maxprob-thr25-2mm.nii.gz \
-          || curl -fL --retry 4 --retry-delay 2 \
             https://git.fmrib.ox.ac.uk/fsl/data_atlases/-/raw/2103.0/HarvardOxford/HarvardOxford-sub-maxprob-thr25-2mm.nii.gz \
-            -o site/neuroatlas/data/HarvardOxford-sub-maxprob-thr25-2mm.nii.gz \
-          || curl -fL --retry 4 --retry-delay 2 \
-            https://ftp.nmr.mgh.harvard.edu/pub/dist/freesurfer/tutorial_packages_centos6/centos6/freesurfer-fsl-matlab-Linux-centos6_x86_64-dev/freesurfer/fsl_507/data/atlases/HarvardOxford/HarvardOxford-sub-maxprob-thr25-2mm.nii.gz \
             -o site/neuroatlas/data/HarvardOxford-sub-maxprob-thr25-2mm.nii.gz
 
-          test -s site/neuroatlas/data/aal_centroid.nii.gz
+          echo "dbbd4542823c1e2b12265c9b7e3cf959ee02ff7829bbf05cdcfbecc0013a00fa  site/neuroatlas/data/mni152.nii.gz" | sha256sum -c -
+          echo "af9fcba49420955020e61c72cf28ab89e12662e2ce64659456c10592ad88f834  site/neuroatlas/data/aal.nii.gz" | sha256sum -c -
+          echo "d22783485b5f8054c77e03c44b48048d29bcc2633648dcdb2a14377b60e92c24  site/neuroatlas/data/aal.json" | sha256sum -c -
+          echo "fac584ec75ff2a8631710d3345df96733ed87d9bde3387f5b462f8d22914ed69  site/neuroatlas/data/JHU-ICBM-labels-1mm.nii.gz" | sha256sum -c -
+          echo "72140df8117250d915b753ca2937e078c917525d206e6185e2c1b4ab703fbfcc  site/neuroatlas/data/HarvardOxford-sub-maxprob-thr25-2mm.nii.gz" | sha256sum -c -
+
+          test -s site/neuroatlas/data/mni152.nii.gz
+          test -s site/neuroatlas/data/aal.nii.gz
+          test -s site/neuroatlas/data/aal.json
           test -s site/neuroatlas/data/JHU-ICBM-labels-1mm.nii.gz
           test -s site/neuroatlas/data/HarvardOxford-sub-maxprob-thr25-2mm.nii.gz
 
           # The file name is retained for compatibility, but these are real
           # voxels inside each label rather than mathematical centroids.
           python3 site/neuroatlas/build_atlas_centroids.py \
-            site/neuroatlas/data/aal_centroid.nii.gz \
+            site/neuroatlas/data/aal.nii.gz \
             site/neuroatlas/data/JHU-ICBM-labels-1mm.nii.gz \
             site/neuroatlas/data/HarvardOxford-sub-maxprob-thr25-2mm.nii.gz \
             site/neuroatlas/data/atlas_centroids.json
-          rm site/neuroatlas/data/aal_centroid.nii.gz
-
           test -s site/neuroatlas/data/atlas_centroids.json
+          grep -q 'Precision v7.1' site/neuroatlas/index.html
+          grep -q 'standardized MNI152 template' site/neuroatlas/index.html
+          grep -q 'THIRD_PARTY_NOTICES.md' site/neuroatlas/index.html
+          grep -q "'./data/mni152.nii.gz'" site/neuroatlas/index.html
+          grep -q "'./data/aal.nii.gz'" site/neuroatlas/index.html
+          grep -q "'./data/aal.json'" site/neuroatlas/index.html
+          ! grep -q 'real MRI' site/neuroatlas/index.html
+          ! grep -q 'authentic MRI-derived' site/neuroatlas/index.html
+          ! grep -q 'and Team' site/neuroatlas/index.html
           grep -q 'midlineVentricleAtCursor' site/neuroatlas/index.html
           grep -q 'bilateralExact' site/neuroatlas/index.html
           grep -q 'Rostral medulla' site/neuroatlas/index.html
