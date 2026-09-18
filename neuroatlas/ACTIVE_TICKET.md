@@ -1,36 +1,52 @@
 # NeuroAtlas active ticket
 
-Status: IN PROGRESS
+Status: DEPLOYED - AWAITING IPHONE VALIDATION
 
 Protected base: Precision v6
 Precision v6 checkpoint commit: 0ebe853d61e741cc368528f985b1b525186f7677
+Precision v7 ticket commit: 64e2e1dfdd685717ba5909672a1271c3e705492f
+Precision v7 patch commit: ff8a27e235eea0bc05ecb4c3fa8c0bd4e03946cd
+Precision v7 deployment commit: 5d067faea9c5c1fe146c72265622e66b3f9885f8
+Precision v7 hardened deployment commit: 76e31b7ab42b7c52f4e7e562d02e492a96898cbe
+Precision v7 Pages run: 35314770598 - completed successfully
 
 Current ticket: Precision v7 - dense HD textbook cross-section teacher
 
-User requirements for this ticket:
-1. Do not change the main 4-view, axial, coronal, sagittal, 3D, cursor, FIND, viewer behavior, branding, or Anatomy Teacher.
-2. Change only the Label This Cross Section feature.
-3. Increase label coverage substantially, especially posterior anatomy and cortical structures.
-4. Keep labels atlas-supported. Do not invent structures that the registered atlases do not identify.
-5. Never truncate an anatomical name. Labels such as Middle cerebellar peduncle must remain complete.
-6. Improve spatial balance so posterior and cortical anatomy are not crowded out by deep-structure priority.
-7. Make the teaching plate cleaner, with textbook-style names outside the MRI and fine leader lines.
-8. Render the teaching plate at higher output resolution so the MRI copy, labels, and leader lines remain sharp.
-9. Add a Download Image button that exports the exact labeled cross-section plate as PNG.
-10. Put a small NeuroAtlas logo and creator watermark inside the teaching plate so it is present in the exported image.
-11. Preserve Filled regions as the main-view default.
-12. Preserve 4-VIEW and 3D exclusion for the cross-section teacher.
-13. Keep user-facing generated text free of long dash characters.
+Implemented in Precision v7:
+1. Main 4-view, axial, coronal, sagittal, 3D, cursor, FIND, branding, Filled regions default, and Anatomy Teacher remain unchanged.
+2. Only the Label This Cross Section feature was upgraded.
+3. Cross-section sampling is substantially denser across the full visible slice.
+4. Label selection is spatially balanced so posterior anatomy and cortical/cerebellar structures are less likely to be crowded out by deep structures.
+5. Mobile label capacity increased to 36 atlas-supported structures and larger screens to 52.
+6. A dedicated cortical/cerebellar label quota is reserved before remaining label slots are filled.
+7. Anatomical names are no longer clipped after two lines. Full names such as Middle cerebellar peduncle are preserved.
+8. Several AAL shorthand labels are expanded into cleaner textbook-style anatomical names.
+9. The teaching plate is rendered at substantially higher internal resolution while remaining responsive on screen.
+10. Labels remain outside the central MRI when practical and connect to sampled anatomy with fine leader lines and small target dots.
+11. The teaching canvas height expands dynamically to reduce label collisions when many structures are present.
+12. A Download Image button exports the current labeled teaching plate as a PNG.
+13. The exported plate includes a small NeuroAtlas MRI logo watermark and Dr. Shashank Neupane and Team creator credit.
+14. 4-VIEW and 3D remain excluded from cross-section labeling. AXIAL, CORONAL, and SAGITTAL remain supported.
+15. User-facing generated text remains free of long dash characters.
 
-Implementation plan:
-- Replace Precision v6 candidate selection with a denser spatially balanced selector.
-- Reserve label capacity for cortical and cerebellar structures instead of allowing white-matter/deep labels to consume the full limit.
-- Sample the whole visible slice at a finer grid.
-- Allow complete multi-line structure names instead of clipping after two lines.
-- Dynamically size the teaching canvas and label columns to reduce collisions.
-- Increase export resolution while keeping the displayed plate responsive.
-- Add a Download Image button and PNG export.
-- Draw a small NeuroAtlas MRI watermark and Created by Dr. Shashank Neupane and Team on the plate itself.
-- Validate generated JavaScript with node --check and deploy through GitHub Pages.
+Build and deployment validation:
+- Precision v7 applies after the protected v2, v3, v4, v5, and v6 reconstruction chain.
+- Generated page matches pinned SHA-256 7b38676ca501603ccba409e332aa3e61c82d91d316229f8e760669b34eaa54c3.
+- Generated module passes node --check.
+- Build guards confirm HD TEXTBOOK CROSS SECTION, Download Image, spatial balancing, watermark rendering, and dense label capacity.
+- Build guards confirm the old v5 bubble renderer and detached cross-list remain absent.
+- Build guards confirm the old two-line truncation code is absent.
+- GitHub Pages run 35314770598 completed successfully.
+- Deployment workflow now uses download timeouts and cancels stale in-progress Pages runs to reduce future deployment stalls.
 
-If chat streaming is interrupted, read CHECKPOINT.md, ACTIVE_TICKET.md, and the latest GitHub commit before continuing.
+Next iPhone validation:
+- Open a fresh Precision v7 URL.
+- Test one useful AXIAL, CORONAL, and SAGITTAL cross section.
+- Check posterior and cortical coverage.
+- Check that Middle cerebellar peduncle and other long names display completely.
+- Check label-line cleanliness and endpoint accuracy.
+- Check HD plate sharpness.
+- Press Download Image and confirm the PNG contains the same plate plus the small NeuroAtlas watermark.
+- Confirm the main viewer behavior remains unchanged.
+
+If chat streaming is interrupted, resume by reading CHECKPOINT.md, ACTIVE_TICKET.md, and the latest GitHub commit before doing anything else.
