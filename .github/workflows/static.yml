@@ -24,7 +24,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Build NeuroAtlas precision v5
+      - name: Build NeuroAtlas precision v6
         shell: bash
         run: |
           set -euxo pipefail
@@ -39,7 +39,8 @@ jobs:
           python3 site/neuroatlas/precision_v4_patch.py site/neuroatlas/index.html
           echo "54b9ba81d68e1691f6f73c98f3ec2b38e1ec3411a67c8b84518559e345043cc7  site/neuroatlas/index.html" | sha256sum -c -
           python3 site/neuroatlas/precision_v5_patch.py site/neuroatlas/index.html
-          sha256sum site/neuroatlas/index.html
+          python3 site/neuroatlas/precision_v6_patch.py site/neuroatlas/index.html
+          echo "638652bb9965853873fa85da1f721df8827272e580c4484fd4cfc68b4886e382  site/neuroatlas/index.html" | sha256sum -c -
 
           mkdir -p site/neuroatlas/data
 
@@ -96,6 +97,11 @@ jobs:
           grep -q 'Created by Dr. Shashank Neupane and Team' site/neuroatlas/index.html
           grep -q 'LABEL THIS CROSS SECTION' site/neuroatlas/index.html
           grep -q 'function collectCrossCandidates' site/neuroatlas/index.html
+          grep -q 'TEXTBOOK CROSS SECTION' site/neuroatlas/index.html
+          grep -q 'function renderTextbookPlate' site/neuroatlas/index.html
+          grep -q 'Create a textbook-style labeled copy' site/neuroatlas/index.html
+          ! grep -q 'function renderCrossPins' site/neuroatlas/index.html
+          ! grep -q 'cross-list' site/neuroatlas/index.html
           grep -q '<option value="0" selected>Filled regions</option>' site/neuroatlas/index.html
           python3 -c "from pathlib import Path; s=Path('site/neuroatlas/index.html').read_text(); assert '—' not in s and '–' not in s"
           python3 -c "from pathlib import Path; import re; s=Path('site/neuroatlas/index.html').read_text(); m=re.search(r'<script type=\"module\">\s*(.*?)</script>',s,re.S); assert m; Path('/tmp/neuroatlas.mjs').write_text(m.group(1))"
