@@ -1,0 +1,159 @@
+{
+  "schema": 2,
+  "editorial": {
+    "workflow": "chatgpt-reviewed-v20",
+    "reviewed_by": "ChatGPT medical editorial workflow",
+    "reviewed_on": "2026-09-18",
+    "episode_number": 38,
+    "language": "English",
+    "spoken_host_name_allowed": false,
+    "long_dashes_allowed": false,
+    "target_minutes": 10
+  },
+  "topic_id": "age-related-vision-change",
+  "topic": {
+    "id": "age-related-vision-change",
+    "title": "Why Your Vision Changes With Age",
+    "audience_question": "Which vision changes are expected with aging, and which changes suggest cataract, glaucoma, retinal disease, or another problem needing assessment?",
+    "pubmed_query": "aging vision presbyopia cataract dry eye vitreous detachment macular degeneration glaucoma clinical review",
+    "icon_keywords": ["aging-eye", "reading-glasses", "cataract", "retina"],
+    "category": "eye-health"
+  },
+  "sources": [
+    {
+      "id": "AAO:AGING-EYES-2024",
+      "title": "Are My Eyes Changing Because I Am Just Getting Older?",
+      "abstract": "The American Academy of Ophthalmology explains that reduced near focusing from presbyopia is expected with age, while distorted vision, marked glare, field loss, and other changes may indicate eye disease rather than normal aging.",
+      "journal": "American Academy of Ophthalmology",
+      "year": "2024",
+      "url": "https://www.aao.org/eye-health/tips-prevention/aging-eye-normal",
+      "doi": null
+    },
+    {
+      "id": "NEI:CATARACTS-2026",
+      "title": "Cataracts",
+      "abstract": "The National Eye Institute describes cataract as age-related clouding of the natural lens that can cause hazy vision, faded color, glare, poor night vision, and difficulty with daily activities.",
+      "journal": "National Eye Institute",
+      "year": "2026",
+      "url": "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/cataracts",
+      "doi": null
+    },
+    {
+      "id": "NEI:AMD-2026",
+      "title": "Age-Related Macular Degeneration",
+      "abstract": "The National Eye Institute explains that age-related macular degeneration damages the macula, may have no early symptoms, and can later cause blurred, distorted, or missing central vision while peripheral vision remains.",
+      "journal": "National Eye Institute",
+      "year": "2026",
+      "url": "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/age-related-macular-degeneration",
+      "doi": null
+    },
+    {
+      "id": "NEI:GLAUCOMA-2026",
+      "title": "Glaucoma",
+      "abstract": "The National Eye Institute describes glaucoma as optic-nerve damage that often has no early symptoms and can later cause blind spots and loss of peripheral vision. Dilated examination and visual-field testing support diagnosis.",
+      "journal": "National Eye Institute",
+      "year": "2026",
+      "url": "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/glaucoma",
+      "doi": null
+    },
+    {
+      "id": "NEI:DRY-EYE-2025",
+      "title": "Dry Eye",
+      "abstract": "The National Eye Institute lists burning, scratchiness, redness, and fluctuating blur among dry-eye symptoms and notes that evaluation may include examination of tear quantity and quality.",
+      "journal": "National Eye Institute",
+      "year": "2025",
+      "url": "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/dry-eye",
+      "doi": null
+    },
+    {
+      "id": "NEI:VITREOUS-DETACHMENT-2024",
+      "title": "Vitreous Detachment",
+      "abstract": "The National Eye Institute explains that age-related vitreous separation commonly occurs after age 50 and may cause floaters or flashes, but can occasionally produce a retinal tear or detachment requiring prompt dilated examination.",
+      "journal": "National Eye Institute",
+      "year": "2024",
+      "url": "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/vitreous-detachment",
+      "doi": null
+    },
+    {
+      "id": "AAO:PRESBYOPIA-2026",
+      "title": "What Is Presbyopia?",
+      "abstract": "The American Academy of Ophthalmology explains that presbyopia is an age-related loss of near focusing ability caused by increasing stiffness of the natural lens and describes optical, medical, and procedural treatment options.",
+      "journal": "American Academy of Ophthalmology",
+      "year": "2026",
+      "url": "https://www.aao.org/eye-health/diseases/what-is-presbyopia",
+      "doi": null
+    }
+  ],
+  "episode": {
+    "title": "E38: Why Your Vision Changes With Age",
+    "hook": "Hello and welcome to the Your Only Doc podcast. You hold a menu farther away, turn on a brighter light, and notice that driving after sunset feels less comfortable than it once did. These changes may arrive gradually enough to feel like one vague problem called aging. But the eye does not age in only one way. Some changes are expected and correctable. Others are diseases that should never be dismissed simply because another birthday has passed.",
+    "sections": [
+      {
+        "heading": "The high yield summary",
+        "narration": "Too busy? Here is your high yield summary. Needing more distance or light for close work commonly reflects presbyopia, the age-related loss of near focus. Glare, faded color, and cloudy vision can suggest cataract. Distorted or missing central vision can indicate macular disease, while gradual side-vision loss can occur with glaucoma. New flashes, many floaters, or a curtain-like shadow need urgent assessment. Aging raises risk, but it does not make every loss of vision normal.",
+        "on_screen": ["Near focus commonly weakens", "Pattern identifies the structure", "Sudden change is not normal aging"],
+        "icon": "aging-vision-summary",
+        "source_ids": ["AAO:AGING-EYES-2024", "NEI:CATARACTS-2026", "NEI:AMD-2026", "NEI:GLAUCOMA-2026"]
+      },
+      {
+        "heading": "Near focus becomes harder",
+        "narration": "Presbyopia usually becomes noticeable during the forties. The natural lens becomes less flexible, so the focusing system cannot increase its power for near objects as easily. Small print blurs, the reading distance increases, and near work may cause strain. Reading glasses, bifocals, progressive lenses, contact lenses, or selected procedures can help. Presbyopia affects focusing distance. It does not explain a dark patch, warped lines, sudden double vision, or loss of one side of the visual field.",
+        "on_screen": ["Lens flexibility decreases", "Near point moves farther away", "Field loss needs another explanation"],
+        "icon": "presbyopia-reading-distance",
+        "source_ids": ["AAO:AGING-EYES-2024", "AAO:PRESBYOPIA-2026"]
+      },
+      {
+        "heading": "The lens can become cloudy",
+        "narration": "A cataract is different from presbyopia. Proteins within the lens break down and clump, scattering light before it reaches the retina. Vision may look hazy, colors may seem dull, and headlights may create glare or halos. Cataracts usually progress gradually. A new prescription may help early, while surgery becomes appropriate when the cataract interferes with driving, reading, work, or independence. Sudden visual loss should not be attributed to a slowly developing cataract without examination.",
+        "on_screen": ["Cataract scatters incoming light", "Glare and faded color are clues", "Daily function guides surgery"],
+        "icon": "aging-lens-cataract",
+        "source_ids": ["NEI:CATARACTS-2026"]
+      },
+      {
+        "heading": "Tears and contrast also change",
+        "narration": "Older eyes may feel dry, gritty, watery, or intermittently blurred because the tear film becomes less stable. Blinking, screen habits, eyelid problems, medicines, and environmental exposure can add to the problem. Aging eyes also often need brighter, well-directed light and more contrast for detailed tasks. Persistent burning or fluctuating blur deserves assessment because allergy, eyelid inflammation, corneal disease, and medication effects can resemble ordinary dryness. Redness with pain or reduced vision is not routine dry eye.",
+        "on_screen": ["Tear instability causes fluctuating blur", "Better lighting improves function", "Pain with vision loss is a warning"],
+        "icon": "tear-film-aging",
+        "source_ids": ["NEI:DRY-EYE-2025", "AAO:AGING-EYES-2024"]
+      },
+      {
+        "heading": "The vitreous changes with age",
+        "narration": "The clear gel filling the eye becomes more liquid and can separate from the retina, especially after age 50. This posterior vitreous detachment often causes new floaters or brief flashes. Many cases settle without damaging vision, but the same traction can sometimes tear the retina. A sudden shower of floaters, repeated flashes, or a shadow moving across vision requires prompt dilated examination. The symptom may be age-related, but the dangerous complication must first be excluded.",
+        "on_screen": ["Vitreous separation is common", "Traction can tear the retina", "New shower or shadow needs examination"],
+        "icon": "vitreous-aging",
+        "source_ids": ["NEI:VITREOUS-DETACHMENT-2024"]
+      },
+      {
+        "heading": "Age-related disease is not normal loss",
+        "narration": "Macular degeneration affects the retina responsible for sharp central detail. Early disease may be silent, while later disease can blur faces or make straight lines appear wavy. Glaucoma damages the optic nerve and often causes no early symptoms; peripheral blind spots may develop before the person notices. Both become more common with age, but neither is an inevitable or harmless part of aging. Regular comprehensive examinations matter because symptoms alone may appear late.",
+        "on_screen": ["Macula controls central detail", "Glaucoma can be silent", "Risk with age does not mean inevitability"],
+        "icon": "macula-optic-nerve",
+        "source_ids": ["NEI:AMD-2026", "NEI:GLAUCOMA-2026"]
+      },
+      {
+        "heading": "How clinicians separate the causes",
+        "narration": "Now, let us go deeper. Refraction tests whether focus can be corrected with lenses. Slit-lamp examination evaluates the cornea, tear film, and cataract. Dilating the pupil allows examination of the retina, macula, and optic nerve. Eye-pressure measurement and visual-field testing help assess glaucoma, while retinal imaging can document macular or optic-nerve changes. The goal is not to label vision as old. It is to identify which structure changed and whether treatment can preserve function.",
+        "on_screen": ["Refraction tests focus", "Dilation reveals retina and nerve", "Targeted testing identifies the structure"],
+        "icon": "comprehensive-eye-exam",
+        "source_ids": ["NEI:CATARACTS-2026", "NEI:AMD-2026", "NEI:GLAUCOMA-2026", "NEI:DRY-EYE-2025"]
+      },
+      {
+        "heading": "Changes that need urgent attention",
+        "narration": "Seek urgent care for sudden vision loss, a curtain or shadow, many new floaters with flashes, severe eye pain, a red eye with reduced vision, or visual change accompanied by weakness, facial droop, speech difficulty, or severe imbalance. Arrange prompt assessment for new distortion, a missing central patch, progressive side-vision loss, or a major difference between the eyes. Stop driving when glare, blur, or field loss prevents reliable detection of pedestrians, signs, lanes, or approaching vehicles.",
+        "on_screen": ["Sudden loss is urgent", "Distortion and field loss need assessment", "Do not drive beyond your vision"],
+        "icon": "vision-red-flags",
+        "source_ids": ["NEI:VITREOUS-DETACHMENT-2024", "NEI:AMD-2026", "NEI:GLAUCOMA-2026"]
+      },
+      {
+        "heading": "Three essential takeaways",
+        "narration": "Number one, difficulty focusing close up is commonly presbyopia, but it should not be used to explain distortion, blind spots, or sudden change. Number two, cataract, macular degeneration, glaucoma, dry eye, and vitreous changes create different patterns, so a comprehensive examination is more useful than assuming everything is age. Number three, seek urgent assessment for sudden loss, flashes with many new floaters, a curtain-like shadow, severe pain, neurological symptoms, or any change that makes driving unsafe.",
+        "on_screen": ["Separate normal focus change from disease", "Match symptoms to the structure", "Act quickly on warning signs"],
+        "icon": "checklist",
+        "source_ids": ["AAO:AGING-EYES-2024", "NEI:CATARACTS-2026", "NEI:AMD-2026", "NEI:GLAUCOMA-2026", "NEI:VITREOUS-DETACHMENT-2024"]
+      }
+    ],
+    "closing": "On the next episode, we will explain why peripheral vision can disappear quietly, including glaucoma, retinal disease, and neurological causes. Until then, use the correction and lighting you need, but never let the word aging replace a proper explanation for changing sight.",
+    "description": "Vision changes with age for several different reasons. This episode separates presbyopia and common optical changes from cataract, macular degeneration, glaucoma, vitreous detachment, and urgent warning signs.",
+    "thumbnail_text": "IS IT REALLY JUST AGE?"
+  }
+}
