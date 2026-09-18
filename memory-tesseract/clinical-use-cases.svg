@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+<title id="title">Clinical applications of Memory Tesseract</title>
+<desc id="desc">Four illustrated clinical examples: wound care, dermatology, serial MRI, and rehabilitation.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f5f7f9"/><stop offset="1" stop-color="#e8edf2"/></linearGradient>
+</defs>
+<rect width="1600" height="1000" rx="44" fill="url(#bg)"/>
+<text x="90" y="98" fill="#111820" font-family="Inter,Arial,sans-serif" font-size="52" font-weight="750">What could a clinical tesseract track?</text>
+<text x="90" y="145" fill="#56616d" font-family="Inter,Arial,sans-serif" font-size="24">The same framework can connect different kinds of longitudinal medical observations.</text>
+
+<!-- Card 1 -->
+<g transform="translate(90 210)" font-family="Inter,Arial,sans-serif">
+ <rect width="680" height="315" rx="28" fill="#fff" stroke="#d1d8df" stroke-width="3"/>
+ <text x="34" y="52" font-size="27" font-weight="750" fill="#111820">Wound care</text>
+ <text x="34" y="84" font-size="19" fill="#66717d">Area · depth · tissue change · healing rate</text>
+ <path d="M120 240 C92 194 102 141 138 113 C165 91 209 91 236 115 C267 141 273 194 244 235 C222 266 147 272 120 240Z" fill="#e5b49b"/>
+ <circle cx="181" cy="180" r="34" fill="#b24e52"/><circle cx="181" cy="180" r="17" fill="#7c2f33"/>
+ <path d="M310 182 H580" stroke="#a4afb9" stroke-width="5"/><path d="M575 182 l-20 -13 v26 z" fill="#278fd2"/>
+ <circle cx="358" cy="182" r="28" fill="#c55b5e"/><circle cx="457" cy="182" r="18" fill="#c97576"/><circle cx="552" cy="182" r="9" fill="#7bbf9a"/>
+ <text x="322" y="245" font-size="18" fill="#66717d">t₀</text><text x="445" y="245" font-size="18" fill="#66717d">t₁</text><text x="542" y="245" font-size="18" fill="#278fd2">t₂</text>
+</g>
+
+<!-- Card 2 -->
+<g transform="translate(830 210)" font-family="Inter,Arial,sans-serif">
+ <rect width="680" height="315" rx="28" fill="#fff" stroke="#d1d8df" stroke-width="3"/>
+ <text x="34" y="52" font-size="27" font-weight="750" fill="#111820">Dermatology</text>
+ <text x="34" y="84" font-size="19" fill="#66717d">Lesions · pigmentation · scars · inflammatory change</text>
+ <g transform="translate(90 120)">
+   <circle cx="65" cy="65" r="64" fill="#e6b18e"/><path d="M38 47 C56 28 88 32 99 51 C112 72 98 103 72 106 C46 109 26 88 29 65Z" fill="#6e4234"/>
+   <circle cx="255" cy="65" r="64" fill="#e6b18e"/><path d="M234 48 C251 35 276 39 285 55 C295 72 285 94 265 99 C245 104 226 91 225 72Z" fill="#825345"/>
+   <circle cx="445" cy="65" r="64" fill="#e6b18e"/><path d="M434 56 C447 48 462 52 468 63 C474 75 467 87 454 90 C441 94 429 84 429 71Z" fill="#a56d5d"/>
+ </g>
+ <text x="135" y="280" font-size="18" fill="#66717d">baseline</text><text x="330" y="280" font-size="18" fill="#66717d">follow-up</text><text x="526" y="280" font-size="18" fill="#278fd2">current</text>
+</g>
+
+<!-- Card 3 -->
+<g transform="translate(90 575)" font-family="Inter,Arial,sans-serif">
+ <rect width="680" height="315" rx="28" fill="#fff" stroke="#d1d8df" stroke-width="3"/>
+ <text x="34" y="52" font-size="27" font-weight="750" fill="#111820">Serial MRI / CT</text>
+ <text x="34" y="84" font-size="19" fill="#66717d">Tumor · stroke · edema · postoperative change · anatomy</text>
+ <g transform="translate(78 112)">
+  <g transform="translate(0 0)"><ellipse cx="80" cy="78" rx="70" ry="76" fill="#2d3540"/><path d="M80 16 C48 21 27 49 30 80 C34 112 55 134 80 139 C105 134 126 112 130 80 C133 49 112 21 80 16Z" fill="#6f7883"/><circle cx="104" cy="68" r="20" fill="#f27676"/></g>
+  <g transform="translate(185 0)"><ellipse cx="80" cy="78" rx="70" ry="76" fill="#2d3540"/><path d="M80 16 C48 21 27 49 30 80 C34 112 55 134 80 139 C105 134 126 112 130 80 C133 49 112 21 80 16Z" fill="#6f7883"/><circle cx="104" cy="68" r="14" fill="#f08d8d"/></g>
+  <g transform="translate(370 0)"><ellipse cx="80" cy="78" rx="70" ry="76" fill="#2d3540"/><path d="M80 16 C48 21 27 49 30 80 C34 112 55 134 80 139 C105 134 126 112 130 80 C133 49 112 21 80 16Z" fill="#6f7883"/><circle cx="104" cy="68" r="8" fill="#7bdcb5"/></g>
+ </g>
+ <text x="76" y="278" font-size="19" fill="#278fd2" font-weight="700">I(x, y, z, t)</text>
+ <text x="210" y="278" font-size="18" fill="#66717d">= anatomy represented through time</text>
+</g>
+
+<!-- Card 4 -->
+<g transform="translate(830 575)" font-family="Inter,Arial,sans-serif">
+ <rect width="680" height="315" rx="28" fill="#fff" stroke="#d1d8df" stroke-width="3"/>
+ <text x="34" y="52" font-size="27" font-weight="750" fill="#111820">Rehabilitation</text>
+ <text x="34" y="84" font-size="19" fill="#66717d">Range of motion · gait · posture · functional recovery</text>
+ <g transform="translate(105 112)" stroke-linecap="round" stroke-linejoin="round">
+  <circle cx="55" cy="36" r="22" fill="#2a3540"/>
+  <path d="M55 62 L55 140 M55 88 L18 126 M55 91 L108 70 M55 140 L24 205 M55 140 L105 198" stroke="#2a3540" stroke-width="13" fill="none"/>
+  <path d="M110 70 Q175 50 212 104" stroke="#278fd2" stroke-width="7" fill="none"/><path d="M210 104 l-8 -22 24 9 z" fill="#278fd2"/>
+  <g transform="translate(290 0)">
+   <circle cx="55" cy="36" r="22" fill="#2a3540"/>
+   <path d="M55 62 L55 140 M55 88 L8 84 M55 91 L119 48 M55 140 L24 205 M55 140 L105 198" stroke="#2a3540" stroke-width="13" fill="none"/>
+  </g>
+ </g>
+ <text x="34" y="282" font-size="18" fill="#66717d">Movement becomes a trajectory, not just a visit note.</text>
+</g>
+</svg>
