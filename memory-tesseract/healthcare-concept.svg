@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+<title id="title">Memory Tesseract healthcare concept</title>
+<desc id="desc">A clinical state repeated through time, represented as connected spatial frames from baseline to current state.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#05070a"/><stop offset="1" stop-color="#10151d"/></linearGradient>
+  <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#1aa3ff"/><stop offset="1" stop-color="#62d7ff"/></linearGradient>
+  <filter id="glow"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="1600" height="900" rx="44" fill="url(#bg)"/>
+<text x="92" y="105" fill="#8ed1fc" font-family="Inter,Arial,sans-serif" font-size="25" font-weight="700" letter-spacing="4">MEMORY TESSERACT · HEALTHCARE</text>
+<text x="92" y="172" fill="#fff" font-family="Inter,Arial,sans-serif" font-size="54" font-weight="700">From snapshots to a clinical trajectory.</text>
+<text x="92" y="220" fill="#b9c0ca" font-family="Inter,Arial,sans-serif" font-size="25">Same patient · same anatomy · repeated states · connected through time</text>
+
+<!-- tesseract-like frame -->
+<g transform="translate(110 300)">
+  <g fill="none" stroke="#35404d" stroke-width="4">
+    <rect x="0" y="0" width="285" height="285" rx="28"/>
+    <rect x="155" y="115" width="285" height="285" rx="28"/>
+    <line x1="0" y1="0" x2="155" y2="115"/><line x1="285" y1="0" x2="440" y2="115"/>
+    <line x1="0" y1="285" x2="155" y2="400"/><line x1="285" y1="285" x2="440" y2="400"/>
+  </g>
+  <g fill="none" stroke="url(#cyan)" stroke-width="7" filter="url(#glow)">
+    <path d="M88 265 C120 210 115 150 155 120 C190 94 235 97 263 126 C292 156 299 201 278 239 C255 280 220 315 182 340"/>
+    <circle cx="161" cy="191" r="17"/><circle cx="210" cy="247" r="12"/>
+  </g>
+  <text x="0" y="455" fill="#fff" font-family="Inter,Arial,sans-serif" font-size="28" font-weight="700">Clinical state</text>
+  <text x="0" y="492" fill="#9ca7b4" font-family="Inter,Arial,sans-serif" font-size="22">anatomy + image + measurements</text>
+</g>
+
+<!-- timepoints -->
+<g transform="translate(650 300)" font-family="Inter,Arial,sans-serif">
+  <line x1="70" y1="320" x2="760" y2="320" stroke="#3b4654" stroke-width="6"/>
+  <path d="M760 320 l-30 -18 v36 z" fill="#62d7ff"/>
+  <text x="770" y="328" fill="#62d7ff" font-size="24" font-weight="700">TIME</text>
+
+  <g transform="translate(0 45)">
+    <rect x="0" y="0" width="170" height="220" rx="22" fill="#121923" stroke="#3a4655" stroke-width="3"/>
+    <ellipse cx="85" cy="92" rx="47" ry="60" fill="#252f3d"/>
+    <path d="M58 79 C72 57 98 55 114 76 C127 94 119 121 94 133 C73 143 51 124 51 102" fill="none" stroke="#ff7a7a" stroke-width="7"/>
+    <circle cx="88" cy="101" r="18" fill="#d94f55"/>
+    <text x="19" y="188" fill="#fff" font-size="22" font-weight="700">Baseline</text>
+    <text x="19" y="214" fill="#8c98a8" font-size="17">t₀</text>
+  </g>
+  <g transform="translate(210 45)">
+    <rect x="0" y="0" width="170" height="220" rx="22" fill="#121923" stroke="#3a4655" stroke-width="3"/>
+    <ellipse cx="85" cy="92" rx="47" ry="60" fill="#252f3d"/>
+    <circle cx="88" cy="101" r="14" fill="#c65d61"/>
+    <text x="19" y="188" fill="#fff" font-size="22" font-weight="700">Follow-up</text>
+    <text x="19" y="214" fill="#8c98a8" font-size="17">t₁</text>
+  </g>
+  <g transform="translate(420 45)">
+    <rect x="0" y="0" width="170" height="220" rx="22" fill="#121923" stroke="#3a4655" stroke-width="3"/>
+    <ellipse cx="85" cy="92" rx="47" ry="60" fill="#252f3d"/>
+    <circle cx="88" cy="101" r="9" fill="#a96969"/>
+    <text x="19" y="188" fill="#fff" font-size="22" font-weight="700">Response</text>
+    <text x="19" y="214" fill="#8c98a8" font-size="17">t₂</text>
+  </g>
+  <g transform="translate(630 45)">
+    <rect x="0" y="0" width="170" height="220" rx="22" fill="#101b25" stroke="#62d7ff" stroke-width="4"/>
+    <ellipse cx="85" cy="92" rx="47" ry="60" fill="#252f3d"/>
+    <circle cx="88" cy="101" r="4" fill="#7bdcb5"/>
+    <text x="19" y="188" fill="#fff" font-size="22" font-weight="700">Current</text>
+    <text x="19" y="214" fill="#62d7ff" font-size="17">t₃ · NOW</text>
+  </g>
+</g>
+
+<g transform="translate(650 710)" font-family="Inter,Arial,sans-serif">
+  <rect x="0" y="0" width="800" height="108" rx="22" fill="#0f151e" stroke="#26313e"/>
+  <text x="30" y="42" fill="#fff" font-size="23" font-weight="700">Each event becomes a point in a spatiotemporal record:</text>
+  <text x="30" y="78" fill="#8ed1fc" font-size="27" font-weight="700">Eᵢ = (x, y, z, t, image, measurement, clinical state)</text>
+</g>
+</svg>
