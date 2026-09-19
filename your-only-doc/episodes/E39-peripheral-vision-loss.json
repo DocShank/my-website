@@ -1,0 +1,159 @@
+{
+  "schema": 2,
+  "editorial": {
+    "workflow": "chatgpt-reviewed-v20",
+    "reviewed_by": "ChatGPT medical editorial workflow",
+    "reviewed_on": "2026-09-19",
+    "episode_number": 39,
+    "language": "English",
+    "spoken_host_name_allowed": false,
+    "long_dashes_allowed": false,
+    "target_minutes": 10
+  },
+  "topic_id": "peripheral-vision-loss",
+  "topic": {
+    "id": "peripheral-vision-loss",
+    "title": "Why You Lose Peripheral Vision",
+    "audience_question": "What causes peripheral vision loss, why can it be difficult to notice, and which patterns require urgent assessment?",
+    "pubmed_query": "peripheral visual field loss glaucoma retinal detachment retinitis pigmentosa stroke hemianopia diagnosis review",
+    "icon_keywords": ["visual-field", "glaucoma", "retina", "stroke"],
+    "category": "eye-health"
+  },
+  "sources": [
+    {
+      "id": "NEI:GLAUCOMA-2026",
+      "title": "Glaucoma",
+      "abstract": "The National Eye Institute explains that glaucoma damages the optic nerve, often has no early symptoms, and can gradually cause blind spots and loss of peripheral vision. Diagnosis includes a comprehensive dilated examination and visual field testing.",
+      "journal": "National Eye Institute",
+      "year": "2026",
+      "url": "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/glaucoma",
+      "doi": null
+    },
+    {
+      "id": "NEI:RETINAL-DETACHMENT-2025",
+      "title": "Retinal Detachment",
+      "abstract": "The National Eye Institute describes retinal detachment as an emergency that may produce flashes, many new floaters, and a curtain or shadow across the visual field. Prompt treatment can protect vision.",
+      "journal": "National Eye Institute",
+      "year": "2025",
+      "url": "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/retinal-detachment",
+      "doi": null
+    },
+    {
+      "id": "CDC:STROKE-SIGNS-2026",
+      "title": "Signs and Symptoms of Stroke",
+      "abstract": "The Centers for Disease Control and Prevention lists sudden trouble seeing among stroke warning signs and advises immediate emergency response, especially when vision change occurs with weakness, imbalance, facial droop, or speech difficulty.",
+      "journal": "Centers for Disease Control and Prevention",
+      "year": "2026",
+      "url": "https://www.cdc.gov/stroke/signs-symptoms/index.html",
+      "doi": null
+    },
+    {
+      "id": "NEI:DIABETIC-RETINOPATHY-2025",
+      "title": "Diabetic Retinopathy",
+      "abstract": "The National Eye Institute explains that diabetes can damage retinal blood vessels and lead to blurred vision, dark areas, and vision loss, while early disease may have no symptoms.",
+      "journal": "National Eye Institute",
+      "year": "2025",
+      "url": "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/diabetic-retinopathy",
+      "doi": null
+    },
+    {
+      "id": "NEI:RETINITIS-PIGMENTOSA-2025",
+      "title": "Retinitis Pigmentosa",
+      "abstract": "The National Eye Institute describes retinitis pigmentosa as a group of inherited retinal diseases that commonly cause difficulty seeing at night and progressive loss of peripheral vision.",
+      "journal": "National Eye Institute",
+      "year": "2025",
+      "url": "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/retinitis-pigmentosa",
+      "doi": null
+    },
+    {
+      "id": "AAO:VISUAL-FIELD-TESTING-2025",
+      "title": "Visual Field Testing",
+      "abstract": "The American Academy of Ophthalmology explains how visual field testing maps central and peripheral vision and helps detect or monitor glaucoma, retinal disease, and neurological causes of field loss.",
+      "journal": "American Academy of Ophthalmology",
+      "year": "2025",
+      "url": "https://www.aao.org/eye-health/tips-prevention/visual-field-testing",
+      "doi": null
+    },
+    {
+      "id": "PUBMED:HEMIANOPIA-NATURAL-HISTORY-2006",
+      "title": "Natural History of Homonymous Hemianopia",
+      "abstract": "This clinical study examined spontaneous recovery after homonymous visual field loss and found that recovery was most likely early after the underlying injury, supporting timely diagnosis and follow-up.",
+      "journal": "Neurology",
+      "year": "2006",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16567709/",
+      "doi": "10.1212/01.wnl.0000203338.54323.22"
+    }
+  ],
+  "episode": {
+    "title": "E39: Why You Lose Peripheral Vision",
+    "hook": "Hello and welcome to the Your Only Doc podcast. Imagine walking through a doorway and repeatedly striking the same shoulder, missing a motorcycle approaching from the side, or failing to notice food on one half of a plate. Your central vision may still read the smallest line on an eye chart, yet part of the surrounding world has disappeared. Peripheral vision loss is easy to overlook because the brain often adapts before the person understands what is missing.",
+    "sections": [
+      {
+        "heading": "The high yield summary",
+        "narration": "Too busy? Here is your high yield summary. Gradual side-vision loss often suggests glaucoma or retinal disease and may remain unnoticed until it is advanced. A sudden curtain or shadow with flashes and new floaters can mean retinal detachment. Sudden loss of the same side of vision in both eyes can come from the brain, including stroke. Visual acuity alone does not test the whole field. New or worsening field loss needs a proper eye and neurological assessment.",
+        "on_screen": ["Central sharpness can remain normal", "Pattern helps locate the problem", "Sudden field loss is urgent"],
+        "icon": "peripheral-vision-summary",
+        "source_ids": ["NEI:GLAUCOMA-2026", "NEI:RETINAL-DETACHMENT-2025", "CDC:STROKE-SIGNS-2026"]
+      },
+      {
+        "heading": "What peripheral vision actually does",
+        "narration": "Peripheral vision is the part of the visual field outside the point you are directly looking at. It helps detect movement, navigate crowded spaces, maintain balance, and notice hazards while driving. Each eye contributes overlapping information, and the retina, optic nerves, crossing fibers, and visual pathways in the brain must all work together. A field defect is therefore not one diagnosis. Its shape can indicate where that pathway has been interrupted.",
+        "on_screen": ["Side vision detects movement", "Two eyes create overlapping fields", "Defect shape helps localize damage"],
+        "icon": "visual-field-map",
+        "source_ids": ["AAO:VISUAL-FIELD-TESTING-2025", "PUBMED:HEMIANOPIA-NATURAL-HISTORY-2006"]
+      },
+      {
+        "heading": "Glaucoma can narrow vision quietly",
+        "narration": "Open-angle glaucoma damages the optic nerve gradually and often produces no early symptoms. Small blind spots may begin in side vision while central reading vision remains useful. Because the other eye and the brain fill in missing information, a person may not recognize the loss. Eye-pressure measurement alone is not enough. Clinicians examine the optic nerve and use visual field testing, often with retinal nerve-fiber imaging, to detect and monitor damage. Treatment cannot restore lost field, but it can slow further loss.",
+        "on_screen": ["Early glaucoma may be silent", "Central reading can remain clear", "Treatment protects remaining vision"],
+        "icon": "glaucoma-optic-nerve",
+        "source_ids": ["NEI:GLAUCOMA-2026", "AAO:VISUAL-FIELD-TESTING-2025"]
+      },
+      {
+        "heading": "The retina can remove part of the field",
+        "narration": "Retinal disease creates different patterns. Retinal detachment may begin as a dark curtain or shadow spreading from one side, often with flashes or many new floaters. That is an emergency. Diabetic retinopathy can produce patchy blur, dark areas, or more extensive loss as damaged vessels leak or abnormal vessels bleed. Inherited conditions such as retinitis pigmentosa often begin with poor night vision and slowly progressive tunnel vision. The speed and associated symptoms matter greatly.",
+        "on_screen": ["Curtain with flashes is an emergency", "Diabetes can damage retinal vessels", "Inherited disease may narrow vision slowly"],
+        "icon": "retinal-field-loss",
+        "source_ids": ["NEI:RETINAL-DETACHMENT-2025", "NEI:DIABETIC-RETINOPATHY-2025", "NEI:RETINITIS-PIGMENTOSA-2025"]
+      },
+      {
+        "heading": "The brain can cause a matching blind side",
+        "narration": "After visual information leaves the eyes, it travels through pathways in the brain. A stroke affecting these pathways can remove the right or left half of the visual world from both eyes, called homonymous hemianopia. The person may describe bumping into objects, losing words at one end of a line, or seeing only half a face. Sudden field loss, especially with weakness, numbness, imbalance, facial droop, severe headache, or speech difficulty, requires emergency services immediately, even if symptoms improve.",
+        "on_screen": ["Brain pathways carry both visual fields", "Stroke may remove one matching side", "Temporary symptoms still need emergency care"],
+        "icon": "stroke-hemianopia",
+        "source_ids": ["CDC:STROKE-SIGNS-2026", "PUBMED:HEMIANOPIA-NATURAL-HISTORY-2006"]
+      },
+      {
+        "heading": "Why people may not notice",
+        "narration": "Field loss is not always experienced as a black patch. The brain may fill the missing area with surrounding color or texture, while the unaffected eye compensates. People often notice consequences instead: collisions, falls, difficulty reading, trouble finding objects, or unsafe lane changes. Covering one eye at a time may reveal an asymmetry, but home checking cannot exclude disease. A normal phone screen test or clear central eye-chart result does not prove that peripheral vision is intact.",
+        "on_screen": ["Missing areas may not look black", "Daily mistakes can reveal the deficit", "Home checks cannot exclude disease"],
+        "icon": "unnoticed-blind-spot",
+        "source_ids": ["NEI:GLAUCOMA-2026", "AAO:VISUAL-FIELD-TESTING-2025"]
+      },
+      {
+        "heading": "How clinicians locate the problem",
+        "narration": "Now, let us go deeper. Confrontation testing provides a quick bedside comparison, while automated perimetry maps sensitivity across many locations. A dilated examination looks for retinal tears, bleeding, diabetic changes, and optic-nerve damage. Optical coherence tomography measures retinal and nerve-fiber structure. When the pattern suggests a brain pathway problem, neurological examination and urgent brain imaging may be required. Clinicians interpret the test pattern together with onset, eye pain, headache, trauma, vascular risk, and medication history.",
+        "on_screen": ["Perimetry maps field sensitivity", "Dilation examines retina and nerve", "Neurological patterns may require imaging"],
+        "icon": "visual-field-diagnostics",
+        "source_ids": ["AAO:VISUAL-FIELD-TESTING-2025", "NEI:GLAUCOMA-2026", "NEI:RETINAL-DETACHMENT-2025", "CDC:STROKE-SIGNS-2026"]
+      },
+      {
+        "heading": "What to do when the field changes",
+        "narration": "Call emergency services for sudden field loss with any stroke warning sign. Seek emergency eye care for a curtain, shadow, flashes with many new floaters, severe eye pain, or rapidly worsening vision. Arrange prompt examination for gradual tunnel vision, repeated collisions, unexplained reading difficulty, or a new difference between the eyes. Do not drive if you cannot reliably detect vehicles, pedestrians, signs, or lane boundaries. Keep glaucoma, diabetes, and blood-pressure care consistent, and attend recommended dilated examinations and field tests.",
+        "on_screen": ["Sudden neurological loss needs emergency care", "Curtain and flashes need urgent eye care", "Do not drive with unsafe fields"],
+        "icon": "field-loss-action-plan",
+        "source_ids": ["CDC:STROKE-SIGNS-2026", "NEI:RETINAL-DETACHMENT-2025", "NEI:GLAUCOMA-2026", "NEI:DIABETIC-RETINOPATHY-2025"]
+      },
+      {
+        "heading": "Three essential takeaways",
+        "narration": "Number one, clear central vision does not guarantee a normal visual field, and slow peripheral loss can remain hidden. Number two, the pattern and speed matter: glaucoma and inherited retinal disease often progress gradually, while a retinal curtain or sudden matching half-field loss is urgent. Number three, formal field testing, dilated examination, optic-nerve and retinal assessment, and sometimes brain imaging are needed to find the cause and protect the vision that remains.",
+        "on_screen": ["Central clarity is not the whole field", "Pattern and timing guide urgency", "Testing identifies the damaged pathway"],
+        "icon": "checklist",
+        "source_ids": ["NEI:GLAUCOMA-2026", "NEI:RETINAL-DETACHMENT-2025", "CDC:STROKE-SIGNS-2026", "AAO:VISUAL-FIELD-TESTING-2025"]
+      }
+    ],
+    "closing": "On the next episode, we will explain why you may see flashing lights in your vision, including migraine aura, vitreous traction, retinal tears, and warning signs that should not wait. Until then, pay attention not only to what you see clearly in front of you, but also to what may be disappearing at the edges.",
+    "description": "Peripheral vision can disappear gradually or suddenly because of glaucoma, retinal disease, inherited conditions, or injury to visual pathways in the brain. This episode explains the patterns, tests, and urgent warning signs.",
+    "thumbnail_text": "WHY IS SIDE VISION FADING?"
+  }
+}
