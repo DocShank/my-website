@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "workflow": "chatgpt-reviewed-v20",
-  "updated_at": "2026-09-18T09:42:54Z",
-  "next_episode_number": 39,
+  "updated_at": "2026-09-19T09:21:03Z",
+  "next_episode_number": 40,
   "next_planned_topic": {
-    "id": "peripheral-vision-loss",
-    "title": "Why You Lose Peripheral Vision",
-    "reason": "It continues the eye-health sequence by explaining how glaucoma, retinal disease, and neurological problems can narrow the visual field, often before a person notices the loss."
+    "id": "flashing-lights-vision",
+    "title": "Why You See Flashing Lights in Your Vision",
+    "reason": "It follows peripheral field loss by separating common migraine aura from vitreous traction, retinal tears, and neurological warning signs that require urgent assessment."
   },
   "packets": [
     {
@@ -218,6 +218,13 @@
       "title": "E38: Why Your Vision Changes With Age",
       "file": "episodes/E38-age-related-vision-change.json",
       "status": "ready"
+    },
+    {
+      "episode_number": 39,
+      "topic_id": "peripheral-vision-loss",
+      "title": "E39: Why You Lose Peripheral Vision",
+      "file": "episodes/E39-peripheral-vision-loss.json",
+      "status": "ready"
     }
   ],
   "evergreen_sequence": [
@@ -324,6 +331,10 @@
     {
       "id": "peripheral-vision-loss",
       "title": "Why You Lose Peripheral Vision"
+    },
+    {
+      "id": "flashing-lights-vision",
+      "title": "Why You See Flashing Lights in Your Vision"
     }
   ],
   "editorial_policy": {
