@@ -1,0 +1,159 @@
+{
+  "schema": 2,
+  "editorial": {
+    "workflow": "chatgpt-reviewed-v20",
+    "reviewed_by": "ChatGPT medical editorial workflow",
+    "reviewed_on": "2026-09-20",
+    "episode_number": 40,
+    "language": "English",
+    "spoken_host_name_allowed": false,
+    "long_dashes_allowed": false,
+    "target_minutes": 10
+  },
+  "topic_id": "flashing-lights-vision",
+  "topic": {
+    "id": "flashing-lights-vision",
+    "title": "Why You See Flashing Lights in Your Vision",
+    "audience_question": "How can a person distinguish common migraine aura from vitreous traction, retinal tears, stroke, and other causes of flashing lights?",
+    "pubmed_query": "photopsia flashing lights vision migraine aura posterior vitreous detachment retinal tear differential diagnosis",
+    "icon_keywords": ["flashing-lights", "retina", "migraine-aura", "vitreous"],
+    "category": "eye-health"
+  },
+  "sources": [
+    {
+      "id": "NEI:VITREOUS-DETACHMENT-2024",
+      "title": "Vitreous Detachment",
+      "abstract": "The National Eye Institute explains that age-related separation of the vitreous from the retina can cause flashes and floaters and can occasionally produce a retinal tear or detachment requiring prompt dilated examination.",
+      "journal": "National Eye Institute",
+      "year": "2024",
+      "url": "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/vitreous-detachment",
+      "doi": null
+    },
+    {
+      "id": "NEI:RETINAL-DETACHMENT-2025",
+      "title": "Retinal Detachment",
+      "abstract": "The National Eye Institute identifies flashes, a sudden increase in floaters, and a curtain or shadow across the visual field as warning signs of retinal detachment that require emergency assessment.",
+      "journal": "National Eye Institute",
+      "year": "2025",
+      "url": "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/retinal-detachment",
+      "doi": null
+    },
+    {
+      "id": "AAO:FLASHES-FLOATERS-2025",
+      "title": "What Are Floaters and Flashes?",
+      "abstract": "The American Academy of Ophthalmology describes photopsias produced by vitreous traction and explains why new flashes, numerous floaters, peripheral shadow, or vision loss need urgent retinal evaluation.",
+      "journal": "American Academy of Ophthalmology",
+      "year": "2025",
+      "url": "https://www.aao.org/eye-health/diseases/what-are-floaters-flashes",
+      "doi": null
+    },
+    {
+      "id": "AMF:VISUAL-AURA-2025",
+      "title": "Migraine With Aura",
+      "abstract": "The American Migraine Foundation explains that visual aura can include expanding zigzags, shimmering spots, flashes, or blind areas, usually developing gradually and resolving within an hour.",
+      "journal": "American Migraine Foundation",
+      "year": "2025",
+      "url": "https://americanmigrainefoundation.org/resource-library/migraine-with-aura/",
+      "doi": null
+    },
+    {
+      "id": "CDC:STROKE-SIGNS-2026",
+      "title": "Signs and Symptoms of Stroke",
+      "abstract": "The Centers for Disease Control and Prevention lists sudden trouble seeing among stroke warning signs and advises immediate emergency response when it occurs with weakness, imbalance, facial droop, speech difficulty, or other acute neurological symptoms.",
+      "journal": "Centers for Disease Control and Prevention",
+      "year": "2026",
+      "url": "https://www.cdc.gov/stroke/signs-symptoms/index.html",
+      "doi": null
+    },
+    {
+      "id": "PUBMED:VISUAL-AURA-SYSTEMATIC-2019",
+      "title": "Clinical Features of Visual Migraine Aura: A Systematic Review",
+      "abstract": "This systematic review found that visual aura descriptions vary widely, with flashes, zigzag lines, bright dots, scotoma, foggy vision, and heat-wave effects among commonly reported phenomena.",
+      "journal": "The Journal of Headache and Pain",
+      "year": "2019",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31146673/",
+      "doi": "10.1186/s10194-019-1008-x"
+    },
+    {
+      "id": "PUBMED:VISUAL-PHENOMENA-DIFFERENTIAL-2021",
+      "title": "Visual Phenomena Associated With Migraine and Their Differential Diagnosis",
+      "abstract": "This peer-reviewed review emphasizes asking whether symptoms affect one eye or both, whether they begin suddenly or spread over minutes, and whether they are recurrent or persistent when distinguishing migraine aura from retinal, ischemic, epileptic, and other causes.",
+      "journal": "Deutsches Arzteblatt International",
+      "year": "2021",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34636719/",
+      "doi": "10.3238/arztebl.m2021.0287"
+    }
+  ],
+  "episode": {
+    "title": "E40: Why You See Flashing Lights in Your Vision",
+    "hook": "Hello and welcome to the Your Only Doc podcast. A spark appears at the edge of your vision. Perhaps it looks like lightning, a moving zigzag, or a shimmering patch that slowly grows. It may last one second or twenty minutes. Similar descriptions can arise from the gel inside the eye, the retina, or visual pathways in the brain, and the timing changes what you should do next.",
+    "sections": [
+      {
+        "heading": "The high yield summary",
+        "narration": "Too busy? Here is your high yield summary. Brief flashes at the edge of one eye can occur when the vitreous pulls on the retina. New flashes with many floaters, reduced vision, or a curtain-like shadow need urgent retinal assessment. Migraine aura more often produces a shimmering or zigzag pattern that expands gradually across both eyes and resolves within an hour. Sudden visual change with weakness, speech difficulty, imbalance, or facial droop is a stroke emergency. Do not diagnose a first or unusual episode by pattern alone.",
+        "on_screen": ["One eye may point toward retina", "Expanding pattern may suggest aura", "New or neurological symptoms need urgent care"],
+        "icon": "flashing-vision-summary",
+        "source_ids": ["NEI:VITREOUS-DETACHMENT-2024", "NEI:RETINAL-DETACHMENT-2025", "AMF:VISUAL-AURA-2025", "CDC:STROKE-SIGNS-2026"]
+      },
+      {
+        "heading": "The retina can be mechanically stimulated",
+        "narration": "The vitreous is the clear gel filling the eye. As it becomes more liquid with age, it may separate from the retina. Pulling on retinal tissue can create a false perception of light called photopsia. People often describe momentary arcs or lightning streaks near the edge of one eye, especially in dim light or with eye movement. This posterior vitreous detachment is common, but an examination is needed because traction can tear the retina.",
+        "on_screen": ["Vitreous gel changes with age", "Retinal traction creates false light", "A tear must be excluded"],
+        "icon": "vitreous-retinal-traction",
+        "source_ids": ["NEI:VITREOUS-DETACHMENT-2024", "AAO:FLASHES-FLOATERS-2025"]
+      },
+      {
+        "heading": "When flashes signal a retinal emergency",
+        "narration": "A retinal tear may allow fluid to pass underneath the retina and create a detachment. Warning signs include sudden new flashes, a shower of floaters, blurred or reduced vision, and a dark curtain or shadow spreading across the field. Retinal detachment can be painless, so absence of pain is not reassuring. Risk is higher after significant eye trauma, previous eye surgery, severe nearsightedness, or a prior detachment. Prompt dilated examination allows a tear or detachment to be treated before more vision is lost.",
+        "on_screen": ["A tear can lead to detachment", "Curtain or shadow is an emergency", "Painless does not mean harmless"],
+        "icon": "retinal-tear-warning",
+        "source_ids": ["NEI:RETINAL-DETACHMENT-2025", "AAO:FLASHES-FLOATERS-2025"]
+      },
+      {
+        "heading": "Migraine aura often evolves gradually",
+        "narration": "Visual migraine aura usually comes from temporary activity in the visual cortex rather than a problem inside one eye. It may begin as a small bright or missing area, then expand into shimmering lines, geometric shapes, or a zigzag edge over several minutes. The disturbance often affects the corresponding visual field of both eyes, even when it feels stronger on one side. It typically resolves within five to sixty minutes and may occur before a headache, during it, or without any headache at all.",
+        "on_screen": ["Aura often spreads over minutes", "Both eyes usually share the field pattern", "Headache may be absent"],
+        "icon": "migraine-visual-aura",
+        "source_ids": ["AMF:VISUAL-AURA-2025", "PUBMED:VISUAL-AURA-SYSTEMATIC-2019", "PUBMED:VISUAL-PHENOMENA-DIFFERENTIAL-2021"]
+      },
+      {
+        "heading": "One eye or both eyes is a useful clue",
+        "narration": "During an episode, if it is safe, cover one eye and then the other without pressing on them. A phenomenon truly confined to one eye raises concern for the retina or that eye's optic pathway. The same missing or flashing area seen with either eye suggests a process behind the eyes, often in the brain. This check is only a clue, not a diagnosis. People can misjudge which eye is involved, and retinal migraine is uncommon, so new monocular symptoms still deserve medical assessment.",
+        "on_screen": ["Check each eye separately", "Shared field suggests a brain pathway", "The test is a clue, not a diagnosis"],
+        "icon": "one-eye-versus-both",
+        "source_ids": ["PUBMED:VISUAL-PHENOMENA-DIFFERENTIAL-2021", "AAO:FLASHES-FLOATERS-2025"]
+      },
+      {
+        "heading": "Neurological warning patterns",
+        "narration": "Sudden loss of vision, a fixed field defect, or flashes accompanied by weakness, numbness, facial droop, trouble speaking, severe imbalance, or a new severe headache requires emergency services. Stroke and transient ischemic attack can affect the visual pathways, and symptoms may improve before help arrives. Very brief repeated colored shapes can occasionally occur with seizures, while persistent static-like dots suggest a different condition called visual snow. These possibilities require clinical context rather than self-diagnosis from an image online.",
+        "on_screen": ["Sudden deficit may be vascular", "Improvement does not remove urgency", "Persistent or repeated events need assessment"],
+        "icon": "neurological-visual-warning",
+        "source_ids": ["CDC:STROKE-SIGNS-2026", "PUBMED:VISUAL-PHENOMENA-DIFFERENTIAL-2021"]
+      },
+      {
+        "heading": "How clinicians separate the causes",
+        "narration": "Now, let us go deeper. Clinicians ask about duration, speed of spread, one eye versus both, floaters, headache, trauma, medication exposure, and neurological symptoms. A dilated retinal examination looks for vitreous separation, bleeding, tears, and detachment. Optical coherence tomography or ultrasound may help when the view is limited. A typical recurrent aura may be diagnosed clinically, but a first, abrupt, prolonged, or unusual event may require neurological examination and brain or vascular imaging to exclude ischemia or another cause.",
+        "on_screen": ["History defines the pattern", "Dilation examines the retina", "Atypical events may require imaging"],
+        "icon": "flashing-vision-diagnosis",
+        "source_ids": ["NEI:RETINAL-DETACHMENT-2025", "PUBMED:VISUAL-PHENOMENA-DIFFERENTIAL-2021", "PUBMED:VISUAL-AURA-SYSTEMATIC-2019"]
+      },
+      {
+        "heading": "What to do during an episode",
+        "narration": "Stop driving or using machinery and sit somewhere safe. Note the exact start time, whether the pattern spreads, how long it lasts, and whether covering either eye changes it. Seek urgent eye care for new one-eye flashes, many floaters, shadow, or reduced vision. Call emergency services for sudden neurological symptoms or abrupt visual loss. Even if a familiar aura resolves normally, arrange review when episodes become more frequent, change character, last longer than usual, begin later in life, or occur with a new medical condition.",
+        "on_screen": ["Stop driving and note the time", "Retinal warnings need urgent eye care", "Neurological warnings need emergency services"],
+        "icon": "visual-flash-action-plan",
+        "source_ids": ["NEI:RETINAL-DETACHMENT-2025", "AAO:FLASHES-FLOATERS-2025", "CDC:STROKE-SIGNS-2026", "AMF:VISUAL-AURA-2025"]
+      },
+      {
+        "heading": "Three essential takeaways",
+        "narration": "Number one, flashes are a symptom rather than a diagnosis, and their location, timing, and associated features matter. Number two, new flashes with floaters, vision loss, or a curtain-like shadow require urgent retinal examination, even without pain. Number three, gradually expanding zigzags across both eyes may fit migraine aura, but a first, sudden, fixed, prolonged, or neurologically accompanied event needs prompt medical assessment rather than an assumption that it is migraine.",
+        "on_screen": ["Describe the pattern precisely", "Retinal warning signs are urgent", "Do not label an atypical event as migraine"],
+        "icon": "checklist",
+        "source_ids": ["NEI:RETINAL-DETACHMENT-2025", "AMF:VISUAL-AURA-2025", "CDC:STROKE-SIGNS-2026", "PUBMED:VISUAL-PHENOMENA-DIFFERENTIAL-2021"]
+      }
+    ],
+    "closing": "On the next episode, we will explain why straight lines can look wavy, including macular degeneration, swelling, and changes at the retinal surface. Until then, treat a new visual pattern as information worth describing carefully, and never wait on a curtain, sudden loss, or neurological warning sign.",
+    "description": "Flashing lights can arise from vitreous traction, a retinal tear, migraine aura, or a neurological problem. This episode explains the patterns, emergency warning signs, and clinical evaluation.",
+    "thumbnail_text": "WHY ARE LIGHTS FLASHING?"
+  }
+}
