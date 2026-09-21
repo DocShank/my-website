@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "workflow": "chatgpt-reviewed-v20",
-  "updated_at": "2026-09-20T09:41:57Z",
-  "next_episode_number": 41,
+  "updated_at": "2026-09-21T09:30:48Z",
+  "next_episode_number": 42,
   "next_planned_topic": {
-    "id": "wavy-lines-vision",
-    "title": "Why Straight Lines Look Wavy",
-    "reason": "It continues the retinal-symptom sequence by explaining metamorphopsia from macular degeneration, retinal swelling, and changes at the retinal surface, including when new distortion needs prompt assessment."
+    "id": "blind-spots-vision",
+    "title": "Why Blind Spots Appear in Your Vision",
+    "reason": "It continues the visual symptom sequence by explaining scotomas from migraine aura, retinal disease, glaucoma, and optic nerve problems, including sudden patterns that need urgent assessment."
   },
   "packets": [
     {
@@ -232,6 +232,13 @@
       "title": "E40: Why You See Flashing Lights in Your Vision",
       "file": "episodes/E40-flashing-lights-vision.json",
       "status": "ready"
+    },
+    {
+      "episode_number": 41,
+      "topic_id": "wavy-lines-vision",
+      "title": "E41: Why Straight Lines Look Wavy",
+      "file": "episodes/E41-wavy-lines-vision.json",
+      "status": "ready"
     }
   ],
   "evergreen_sequence": [
@@ -346,6 +353,10 @@
     {
       "id": "wavy-lines-vision",
       "title": "Why Straight Lines Look Wavy"
+    },
+    {
+      "id": "blind-spots-vision",
+      "title": "Why Blind Spots Appear in Your Vision"
     }
   ],
   "editorial_policy": {
