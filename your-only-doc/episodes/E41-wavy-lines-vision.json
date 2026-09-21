@@ -1,0 +1,159 @@
+{
+  "schema": 2,
+  "editorial": {
+    "workflow": "chatgpt-reviewed-v20",
+    "reviewed_by": "ChatGPT medical editorial workflow",
+    "reviewed_on": "2026-09-21",
+    "episode_number": 41,
+    "language": "English",
+    "spoken_host_name_allowed": false,
+    "long_dashes_allowed": false,
+    "target_minutes": 10
+  },
+  "topic_id": "wavy-lines-vision",
+  "topic": {
+    "id": "wavy-lines-vision",
+    "title": "Why Straight Lines Look Wavy",
+    "audience_question": "Why can door frames, text, or a grid suddenly look bent or wavy, and when does that need urgent assessment?",
+    "pubmed_query": "metamorphopsia age related macular degeneration epiretinal membrane macular edema Amsler grid",
+    "icon_keywords": ["wavy-lines", "macula", "retina", "amsler-grid"],
+    "category": "eye-health"
+  },
+  "sources": [
+    {
+      "id": "NEI:AMD-2025",
+      "title": "Age-Related Macular Degeneration",
+      "abstract": "The National Eye Institute explains that age-related macular degeneration damages the macula and can blur central vision. In late disease, straight lines may appear wavy, and wet AMD can cause faster vision loss through abnormal blood vessel growth and leakage.",
+      "journal": "National Eye Institute",
+      "year": "2025",
+      "url": "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/age-related-macular-degeneration",
+      "doi": null
+    },
+    {
+      "id": "NEI:DIABETIC-RETINOPATHY-2025",
+      "title": "Diabetic Retinopathy",
+      "abstract": "The National Eye Institute describes diabetic retinopathy and diabetic macular edema as consequences of damaged retinal blood vessels. Fluid in the macula can impair detailed central vision and requires a dilated eye examination and retinal imaging.",
+      "journal": "National Eye Institute",
+      "year": "2025",
+      "url": "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/diabetic-retinopathy",
+      "doi": null
+    },
+    {
+      "id": "AAO:ERM-2026",
+      "title": "Epiretinal Membrane",
+      "abstract": "The American Academy of Ophthalmology EyeWiki review explains that an epiretinal membrane can wrinkle the macular surface and cause metamorphopsia, blurred vision, monocular double vision, or altered image size. Optical coherence tomography helps identify and characterize the membrane.",
+      "journal": "American Academy of Ophthalmology EyeWiki",
+      "year": "2026",
+      "url": "https://eyewiki.aao.org/Epiretinal_Membrane",
+      "doi": null
+    },
+    {
+      "id": "AAO:OCT-2026",
+      "title": "Optical Coherence Tomography",
+      "abstract": "The American Academy of Ophthalmology EyeWiki review describes optical coherence tomography as cross-sectional retinal imaging used to identify macular edema, epiretinal membranes, vitreomacular traction, macular holes, and fluid related to macular degeneration.",
+      "journal": "American Academy of Ophthalmology EyeWiki",
+      "year": "2026",
+      "url": "https://eyewiki.aao.org/Optical_Coherence_Tomography",
+      "doi": null
+    },
+    {
+      "id": "PUBMED:METAMORPHOPSIA-REVIEW-2016",
+      "title": "Metamorphopsia: An Overlooked Visual Symptom",
+      "abstract": "This peer-reviewed review describes metamorphopsia as a common symptom of macular disorders and discusses distortions in shape and perceived image size caused by displacement or dysfunction of retinal photoreceptors.",
+      "journal": "Ophthalmic and Physiological Optics",
+      "year": "2016",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26554918/",
+      "doi": "10.1111/opo.12255"
+    },
+    {
+      "id": "PUBMED:ERM-REVIEW-2021",
+      "title": "Epiretinal Membrane: A Review",
+      "abstract": "This peer-reviewed clinical review summarizes the epidemiology, imaging, symptoms, and management of epiretinal membranes, including distortion from traction at the macular surface and the role of surgery when symptoms meaningfully affect function.",
+      "journal": "Clinical and Experimental Ophthalmology",
+      "year": "2021",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33656784/",
+      "doi": "10.1111/ceo.13914"
+    },
+    {
+      "id": "HOPKINS:AMSLER-2026",
+      "title": "Age-Related Macular Degeneration and the Amsler Grid",
+      "abstract": "Johns Hopkins Medicine explains how an Amsler grid can be checked one eye at a time while wearing usual reading correction, and that new wavy, blurry, dark, or missing areas should be reported to an eye care professional.",
+      "journal": "Johns Hopkins Medicine",
+      "year": "2026",
+      "url": "https://www.hopkinsmedicine.org/health/conditions-and-diseases/agerelated-macular-degeneration-amd",
+      "doi": null
+    }
+  ],
+  "episode": {
+    "title": "E41: Why Straight Lines Look Wavy",
+    "hook": "Hello and welcome to the Your Only Doc podcast. Imagine reading a message when one line of text seems bent. You look at a door frame and its edge appears to ripple, but the room itself has not changed. This kind of visual distortion is called metamorphopsia. It often points to the macula, the small central part of the retina that gives you detailed vision for reading and recognizing faces. A new distortion deserves attention because some causes are gradual, while others can threaten vision quickly.",
+    "sections": [
+      {
+        "heading": "The high yield summary",
+        "narration": "Too busy? Here is your high yield summary. Straight lines can look wavy when the macula is swollen, wrinkled, pulled, or lifted by fluid. Important causes include age-related macular degeneration, diabetic macular edema, and an epiretinal membrane. Check each eye separately because the stronger eye can hide the change. A new or rapidly worsening distortion, especially with a dark patch, reduced central vision, flashes, floaters, or a curtain-like shadow, needs prompt eye assessment. An Amsler grid can document distortion, but it cannot diagnose the cause.",
+        "on_screen": ["Wavy lines suggest central distortion", "Check one eye at a time", "New change needs prompt assessment"],
+        "icon": "wavy-lines-summary",
+        "source_ids": ["NEI:AMD-2025", "NEI:DIABETIC-RETINOPATHY-2025", "AAO:ERM-2026", "HOPKINS:AMSLER-2026"]
+      },
+      {
+        "heading": "The macula keeps fine detail straight",
+        "narration": "The retina turns light into signals for the brain, and the macula handles the sharp central detail. For a straight edge to look straight, light must land on an orderly map of photoreceptors. Swelling, traction, or tissue displacement can disturb that map. The brain still builds an image, but spacing is altered, so letters may lean, tiles may bow, or part of a face may look stretched. Metamorphopsia is therefore a symptom, not a diagnosis.",
+        "on_screen": ["Macula controls central detail", "Retinal spacing can change", "Distortion is a symptom"],
+        "icon": "macula-map",
+        "source_ids": ["PUBMED:METAMORPHOPSIA-REVIEW-2016", "AAO:OCT-2026"]
+      },
+      {
+        "heading": "Macular degeneration can distort the center",
+        "narration": "Age-related macular degeneration can damage central vision. In its wet form, abnormal blood vessels can leak fluid or blood beneath the macula, changing its contour and making straight lines appear wavy. A person may also notice blur, a dim or blank central patch, or difficulty recognizing faces. Because wet changes can progress quickly, a new distortion in an older adult, especially someone already diagnosed with macular degeneration, should be reported promptly rather than saved for a routine visit months away.",
+        "on_screen": ["AMD affects central vision", "Leakage can bend the visual map", "New distortion should be reported promptly"],
+        "icon": "macular-degeneration",
+        "source_ids": ["NEI:AMD-2025", "HOPKINS:AMSLER-2026"]
+      },
+      {
+        "heading": "Swelling can reshape what you see",
+        "narration": "Macular edema means fluid has accumulated within or beneath retinal tissue. Diabetes is an important cause because damaged retinal vessels can leak. Retinal vein problems, inflammation, and other eye conditions can also produce swelling. The result may be blur, faded contrast, altered image size, or wavy central vision. Good glucose and blood pressure management reduce risk in diabetes, but a visual change still needs an eye examination because treatment depends on what the retina actually shows.",
+        "on_screen": ["Fluid can swell the macula", "Diabetes is one important cause", "Imaging guides treatment"],
+        "icon": "macular-edema",
+        "source_ids": ["NEI:DIABETIC-RETINOPATHY-2025", "AAO:OCT-2026", "PUBMED:METAMORPHOPSIA-REVIEW-2016"]
+      },
+      {
+        "heading": "A membrane can wrinkle the retinal surface",
+        "narration": "An epiretinal membrane is a thin layer of tissue on the macular surface. If it contracts, it can wrinkle or pull the retina, sometimes called a macular pucker. Many membranes cause no symptoms and are simply monitored. Others produce persistent distortion, blur, or different image sizes between the eyes. Glasses cannot flatten the membrane. When symptoms substantially interfere with daily life, a retinal specialist may discuss surgery, balancing likely benefit against the risks of an operation.",
+        "on_screen": ["Thin tissue can contract", "Many cases are monitored", "Surgery is symptom dependent"],
+        "icon": "epiretinal-membrane",
+        "source_ids": ["AAO:ERM-2026", "PUBMED:ERM-REVIEW-2021"]
+      },
+      {
+        "heading": "Check each eye separately",
+        "narration": "An Amsler grid is a square of straight lines with a central dot. Wear your usual reading glasses, cover one eye without pressing on it, and stare at the dot. Notice whether lines look bent, blurred, dark, or missing, then repeat with the other eye. Record which eye and what changed. Do not keep testing until the grid looks normal. The grid is useful for noticing and following central distortion, but a normal result does not exclude every retinal problem.",
+        "on_screen": ["Wear reading correction", "Cover one eye at a time", "Record new distortion"],
+        "icon": "amsler-grid",
+        "source_ids": ["HOPKINS:AMSLER-2026", "NEI:AMD-2025"]
+      },
+      {
+        "heading": "What the eye examination looks for",
+        "narration": "Now, let us go deeper. The clinician asks whether distortion is in one eye or both, when it began, and whether it is stable or worsening. A dilated retinal examination looks for bleeding, fluid, traction, or other macular changes. Optical coherence tomography, or OCT, creates cross-sectional images of retinal layers. It can reveal swelling, an epiretinal membrane, vitreomacular traction, a macular hole, or fluid associated with macular degeneration. Treatment targets the cause, not the wavy appearance by itself.",
+        "on_screen": ["History and dilated examination", "OCT maps retinal layers", "Treat the underlying cause"],
+        "icon": "oct-scan",
+        "source_ids": ["AAO:OCT-2026", "AAO:ERM-2026", "NEI:AMD-2025"]
+      },
+      {
+        "heading": "When not to wait",
+        "narration": "Arrange prompt eye care for a first episode of persistent distortion or a meaningful change from your usual grid. Seek urgent assessment if it begins suddenly, worsens rapidly, or comes with a new central dark area or clear loss of vision. Flashes, a sudden shower of floaters, or a curtain-like shadow raise concern for a retinal tear or detachment and require emergency evaluation. If distortion occurs with facial droop, weakness, speech difficulty, severe imbalance, or sudden loss of vision, call emergency services.",
+        "on_screen": ["New persistent distortion needs assessment", "Flashes or curtain can be an emergency", "Neurological signs require emergency help"],
+        "icon": "urgent-eye-care",
+        "source_ids": ["NEI:AMD-2025", "AAO:OCT-2026", "PUBMED:METAMORPHOPSIA-REVIEW-2016"]
+      },
+      {
+        "heading": "Three essential takeaways",
+        "narration": "Number one, straight lines usually look wavy because the central retina is being displaced, swollen, or pulled, not because the object itself has changed. Number two, compare one eye at a time and document the pattern, but use an Amsler grid as a monitoring tool rather than a diagnosis. Number three, new, rapid, or worsening distortion needs prompt eye assessment, and distortion with major vision loss, a curtain, many new floaters, or neurological warning signs needs urgent or emergency care.",
+        "on_screen": ["Think macula", "Check each eye separately", "Act on new warning signs"],
+        "icon": "checklist",
+        "source_ids": ["NEI:AMD-2025", "AAO:ERM-2026", "HOPKINS:AMSLER-2026", "PUBMED:METAMORPHOPSIA-REVIEW-2016"]
+      }
+    ],
+    "closing": "On the next episode, we will explain why blind spots can appear in your vision, from migraine patterns to retinal and optic nerve problems. Until then, pay attention to changes that affect one eye, write down when they began, and let a new central distortion be examined rather than explained away.",
+    "description": "Straight lines may look wavy when the macula is swollen, wrinkled, pulled, or affected by abnormal fluid. This episode explains metamorphopsia, common retinal causes, Amsler grid checks, OCT imaging, and warning signs that need prompt care.",
+    "thumbnail_text": "WHY DO LINES LOOK WAVY?"
+  }
+}
