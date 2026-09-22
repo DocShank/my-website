@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "workflow": "chatgpt-reviewed-v20",
-  "updated_at": "2026-09-21T09:30:48Z",
-  "next_episode_number": 42,
+  "updated_at": "2026-09-22T09:02:59Z",
+  "next_episode_number": 43,
   "next_planned_topic": {
-    "id": "blind-spots-vision",
-    "title": "Why Blind Spots Appear in Your Vision",
-    "reason": "It continues the visual symptom sequence by explaining scotomas from migraine aura, retinal disease, glaucoma, and optic nerve problems, including sudden patterns that need urgent assessment."
+    "id": "faded-color-vision",
+    "title": "Why Colors Look Faded",
+    "reason": "It continues the visual symptom sequence by explaining color desaturation from cataract, retinal disease, optic nerve dysfunction, and medication or toxic effects, including sudden one-eye changes that need assessment."
   },
   "packets": [
     {
@@ -239,6 +239,13 @@
       "title": "E41: Why Straight Lines Look Wavy",
       "file": "episodes/E41-wavy-lines-vision.json",
       "status": "ready"
+    },
+    {
+      "episode_number": 42,
+      "topic_id": "blind-spots-vision",
+      "title": "E42: Why Blind Spots Appear in Your Vision",
+      "file": "episodes/E42-blind-spots-vision.json",
+      "status": "ready"
     }
   ],
   "evergreen_sequence": [
@@ -357,6 +364,10 @@
     {
       "id": "blind-spots-vision",
       "title": "Why Blind Spots Appear in Your Vision"
+    },
+    {
+      "id": "faded-color-vision",
+      "title": "Why Colors Look Faded"
     }
   ],
   "editorial_policy": {
