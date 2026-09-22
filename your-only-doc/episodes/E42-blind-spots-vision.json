@@ -1,0 +1,169 @@
+{
+  "schema": 2,
+  "editorial": {
+    "workflow": "chatgpt-reviewed-v20",
+    "reviewed_by": "ChatGPT medical editorial workflow",
+    "reviewed_on": "2026-09-22",
+    "episode_number": 42,
+    "language": "English",
+    "spoken_host_name_allowed": false,
+    "long_dashes_allowed": false,
+    "target_minutes": 10
+  },
+  "topic_id": "blind-spots-vision",
+  "topic": {
+    "id": "blind-spots-vision",
+    "title": "Why Blind Spots Appear in Your Vision",
+    "audience_question": "Why can part of your vision go missing, and which blind spot patterns need urgent assessment?",
+    "pubmed_query": "scotoma visual field defect migraine aura retinal detachment glaucoma optic neuritis",
+    "icon_keywords": ["blind-spot", "visual-field", "retina", "optic-nerve"],
+    "category": "eye-health"
+  },
+  "sources": [
+    {
+      "id": "NEI:GLAUCOMA-2026",
+      "title": "Glaucoma",
+      "abstract": "The National Eye Institute explains that glaucoma damages the optic nerve, often without early symptoms. Later disease can cause blind spots and peripheral vision loss, and diagnosis includes a comprehensive dilated eye examination and visual field testing.",
+      "journal": "National Eye Institute",
+      "year": "2026",
+      "url": "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/glaucoma",
+      "doi": null
+    },
+    {
+      "id": "NEI:RETINAL-DETACHMENT-2025",
+      "title": "Retinal Detachment",
+      "abstract": "The National Eye Institute identifies sudden new floaters, flashes of light, or a curtain or shadow over the visual field as warning symptoms of retinal detachment, which is a medical emergency requiring immediate care.",
+      "journal": "National Eye Institute",
+      "year": "2025",
+      "url": "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/retinal-detachment",
+      "doi": null
+    },
+    {
+      "id": "NEI:AMD-2025",
+      "title": "Age-Related Macular Degeneration",
+      "abstract": "The National Eye Institute describes age-related macular degeneration as a disease of the macula that can cause central blur, distortion, and blank spots, with a dilated examination and optical coherence tomography used in assessment.",
+      "journal": "National Eye Institute",
+      "year": "2025",
+      "url": "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/age-related-macular-degeneration",
+      "doi": null
+    },
+    {
+      "id": "MAYO:MIGRAINE-AURA-2026",
+      "title": "Migraine With Aura",
+      "abstract": "Mayo Clinic describes migraine aura as temporary nervous system symptoms that often affect vision in both eyes, including flashes, zigzag patterns, or blind spots, usually lasting less than an hour.",
+      "journal": "Mayo Clinic",
+      "year": "2026",
+      "url": "https://www.mayoclinic.org/diseases-conditions/migraine-with-aura/symptoms-causes/syc-20352072",
+      "doi": null
+    },
+    {
+      "id": "NANOS:MIGRAINE-AURA-2026",
+      "title": "Migraine Visual Aura",
+      "abstract": "The North American Neuro-Ophthalmology Society explains that a typical visual aura is present in both eyes, may include missing areas, dots, or lines, and commonly changes or spreads over time.",
+      "journal": "North American Neuro-Ophthalmology Society",
+      "year": "2026",
+      "url": "https://www.nanosweb.org/migraine/",
+      "doi": null
+    },
+    {
+      "id": "PUBMED:VISUAL-PHENOMENA-2021",
+      "title": "Visual Phenomena Associated With Migraine and Their Differential Diagnosis",
+      "abstract": "This peer-reviewed review explains how monocular versus binocular symptoms, onset, duration, and accompanying features help distinguish migraine aura from retinal, optic nerve, cerebral, and other causes of visual field loss.",
+      "journal": "Deutsches Arzteblatt International",
+      "year": "2021",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34636719/",
+      "doi": "10.3238/arztebl.m2021.0287"
+    },
+    {
+      "id": "PMC:OPTIC-NEURITIS-2020",
+      "title": "Optic Neuritis",
+      "abstract": "This peer-reviewed clinical review describes optic neuritis as inflammation of the optic nerve that can produce visual acuity and field loss, reduced color vision, and pain with eye movement, with the pattern guiding further investigation.",
+      "journal": "Continuum",
+      "year": "2020",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7395663/",
+      "doi": null
+    },
+    {
+      "id": "CDC:STROKE-SIGNS-2026",
+      "title": "Signs and Symptoms of Stroke",
+      "abstract": "The Centers for Disease Control and Prevention lists sudden trouble seeing, weakness or numbness, speech difficulty, dizziness, loss of balance, and severe headache among stroke warning signs requiring emergency action.",
+      "journal": "Centers for Disease Control and Prevention",
+      "year": "2026",
+      "url": "https://www.cdc.gov/stroke/signs-symptoms/index.html",
+      "doi": null
+    }
+  ],
+  "episode": {
+    "title": "E42: Why Blind Spots Appear in Your Vision",
+    "hook": "Hello and welcome to the Your Only Doc podcast. Imagine looking at a page when one word seems to disappear. You blink and clean your glasses, but the missing patch stays in the same part of your vision. A blind spot like this is called a scotoma. Some follow a familiar migraine pattern. Others come from the retina, optic nerve, or brain and need urgent attention. What matters is how it began, whether it affects one eye or both, and what came with it.",
+    "sections": [
+      {
+        "heading": "The high yield summary",
+        "narration": "Too busy? Here is your high yield summary. A blind spot is an area where vision is reduced or missing. Everyone has one small normal blind spot in each eye, but a new noticeable gap is different. Slowly developing peripheral gaps can occur with glaucoma. A central blank area can come from macular disease. A moving, shimmering patch in both eyes may be migraine aura. A sudden fixed spot, curtain, or shadow, especially with flashes, floaters, weakness, or speech difficulty, needs urgent or emergency assessment.",
+        "on_screen": ["Blind spot means missing visual field", "Pattern and timing matter", "Sudden loss needs urgent assessment"],
+        "icon": "blind-spot-summary",
+        "source_ids": ["NEI:GLAUCOMA-2026", "NEI:RETINAL-DETACHMENT-2025", "NEI:AMD-2025", "CDC:STROKE-SIGNS-2026"]
+      },
+      {
+        "heading": "Your normal blind spot",
+        "narration": "Each eye has a physiological blind spot where the optic nerve leaves the retina. That point has no light-sensing cells. You normally do not notice it because the other eye sees the missing area and the brain uses surrounding information. A scotoma is different when newly visible or interfering with reading, faces, driving, or movement. It may look dark, grey, blurred, washed out, or simply absent.",
+        "on_screen": ["One normal spot in each eye", "The brain usually hides it", "A new noticeable gap is different"],
+        "icon": "optic-disc-blind-spot",
+        "source_ids": ["PUBMED:VISUAL-PHENOMENA-2021", "NEI:GLAUCOMA-2026"]
+      },
+      {
+        "heading": "One eye or both changes the map",
+        "narration": "Cover one eye, then the other, without pressing. A defect present only with one eye open usually points to that eye's retina or optic nerve. The same missing side in both eyes can come from visual pathways farther back in the brain. This comparison is useful information, not a diagnosis. Note when it began, whether it moves or grows, and whether it fully clears.",
+        "on_screen": ["Compare one eye at a time", "Note whether the spot moves", "Record onset and duration"],
+        "icon": "compare-visual-fields",
+        "source_ids": ["PUBMED:VISUAL-PHENOMENA-2021", "NANOS:MIGRAINE-AURA-2026"]
+      },
+      {
+        "heading": "Migraine aura usually evolves",
+        "narration": "A typical visual migraine aura often affects both eyes, even when it feels stronger on one side. A small missing patch may be bordered by sparkling dots, zigzags, or flashing lines, then expand or travel across the field over minutes. It usually resolves within an hour and may occur before a headache or without one. A first-ever episode, a major change from your usual aura, symptoms lasting longer than expected, or a truly one-eye-only loss should be medically assessed rather than automatically labelled migraine.",
+        "on_screen": ["Usually visible with both eyes", "Often spreads over minutes", "New patterns need assessment"],
+        "icon": "migraine-aura",
+        "source_ids": ["MAYO:MIGRAINE-AURA-2026", "NANOS:MIGRAINE-AURA-2026", "PUBMED:VISUAL-PHENOMENA-2021"]
+      },
+      {
+        "heading": "The retina can create fixed gaps",
+        "narration": "The retina is the light-sensitive layer lining the back of the eye. Macular disease can produce a central blank or blurred patch that affects reading and faces. A retinal tear or detachment may create a spreading shadow or curtain, often with new flashes or a sudden shower of floaters. That combination is an emergency because treatment is time sensitive. Do not drive yourself if vision is suddenly impaired. Arrange immediate eye care or emergency help.",
+        "on_screen": ["Macula affects central vision", "Detachment can form a curtain", "Flashes plus floaters need emergency care"],
+        "icon": "retinal-warning",
+        "source_ids": ["NEI:AMD-2025", "NEI:RETINAL-DETACHMENT-2025"]
+      },
+      {
+        "heading": "Glaucoma can hide until later",
+        "narration": "Glaucoma damages the optic nerve. Common open-angle glaucoma often develops without pain or obvious early symptoms, while small peripheral field defects gradually accumulate. One eye may compensate for the other, so a person may not notice until substantial vision is affected. A comprehensive dilated examination, eye pressure measurement, optic nerve assessment, and visual field test can detect damage. Screening matters because treatment can slow further loss, but it cannot restore field already lost.",
+        "on_screen": ["Early glaucoma may be silent", "Peripheral gaps can accumulate", "Testing finds hidden damage"],
+        "icon": "glaucoma-field-loss",
+        "source_ids": ["NEI:GLAUCOMA-2026"]
+      },
+      {
+        "heading": "The optic nerve and brain matter too",
+        "narration": "Now, let us go deeper. The optic nerve carries the retinal signal toward the brain. Inflammation such as optic neuritis can cause a central or patchy field defect, reduced color intensity, and often pain when the eye moves. Visual pathway problems in the brain can remove the same side of the scene from both eyes. Sudden visual loss with facial droop, arm weakness, numbness, speech trouble, severe imbalance, or a sudden severe headache should be treated as possible stroke. Call emergency services immediately.",
+        "on_screen": ["Optic nerve carries the signal", "Faded color can be a clue", "Neurological signs mean emergency"],
+        "icon": "optic-nerve-brain",
+        "source_ids": ["PMC:OPTIC-NEURITIS-2020", "PUBMED:VISUAL-PHENOMENA-2021", "CDC:STROKE-SIGNS-2026"]
+      },
+      {
+        "heading": "How clinicians locate the problem",
+        "narration": "The examination checks visual acuity, pupils, color vision, eye pressure, the retina, and the optic nerve. Formal visual field testing maps where you can and cannot see while looking straight ahead. Optical coherence tomography can reveal macular or nerve fiber damage. Depending on the pattern, clinicians may add brain or orbit imaging and blood tests. Describe the spot's shape, duration, eye involvement, and associated symptoms. Those details help select the right tests.",
+        "on_screen": ["Visual field maps the gap", "Retinal imaging shows structure", "History directs further tests"],
+        "icon": "visual-field-test",
+        "source_ids": ["NEI:GLAUCOMA-2026", "NEI:AMD-2025", "PMC:OPTIC-NEURITIS-2020"]
+      },
+      {
+        "heading": "Three essential takeaways",
+        "narration": "Number one, a new blind spot is a symptom, not a diagnosis, and whether it affects one eye or both helps locate the problem. Number two, an evolving shimmering pattern that clears may fit migraine aura, while a fixed central patch, slowly expanding peripheral loss, or painful color change points toward other causes that need examination. Number three, sudden loss, a curtain or shadow, many new floaters, or visual change with weakness, speech difficulty, or imbalance requires urgent or emergency care.",
+        "on_screen": ["Compare one eye at a time", "Pattern guides the cause", "Act fast on warning signs"],
+        "icon": "checklist",
+        "source_ids": ["NANOS:MIGRAINE-AURA-2026", "NEI:RETINAL-DETACHMENT-2025", "NEI:GLAUCOMA-2026", "CDC:STROKE-SIGNS-2026"]
+      }
+    ],
+    "closing": "On the next episode, we will explain why colors can look faded, including changes from the lens, retina, optic nerve, and medicines. Until then, do not ignore a new gap in vision. Compare your eyes separately, record what happened, and seek urgent help when the loss is sudden or comes with retinal or neurological warning signs.",
+    "description": "A blind spot can arise from migraine aura, retinal disease, glaucoma, optic nerve inflammation, or a problem in the brain's visual pathway. This episode explains how timing, eye involvement, visual field testing, and warning signs help identify what needs urgent care.",
+    "thumbnail_text": "WHY IS PART OF MY VISION MISSING?"
+  }
+}
+
