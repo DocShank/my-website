@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "workflow": "chatgpt-reviewed-v20",
-  "updated_at": "2026-09-22T09:02:59Z",
-  "next_episode_number": 43,
+  "updated_at": "2026-09-23T09:14:02Z",
+  "next_episode_number": 44,
   "next_planned_topic": {
-    "id": "faded-color-vision",
-    "title": "Why Colors Look Faded",
-    "reason": "It continues the visual symptom sequence by explaining color desaturation from cataract, retinal disease, optic nerve dysfunction, and medication or toxic effects, including sudden one-eye changes that need assessment."
+    "id": "halos-around-lights",
+    "title": "Why You See Halos Around Lights",
+    "reason": "It continues the visual symptom sequence by separating common optical causes such as tear-film disturbance and cataract from corneal swelling and acute pressure-related warning signs that need urgent care."
   },
   "packets": [
     {
@@ -246,6 +246,13 @@
       "title": "E42: Why Blind Spots Appear in Your Vision",
       "file": "episodes/E42-blind-spots-vision.json",
       "status": "ready"
+    },
+    {
+      "episode_number": 43,
+      "topic_id": "faded-color-vision",
+      "title": "E43: Why Colors Look Faded",
+      "file": "episodes/E43-faded-color-vision.json",
+      "status": "ready"
     }
   ],
   "evergreen_sequence": [
@@ -368,6 +375,10 @@
     {
       "id": "faded-color-vision",
       "title": "Why Colors Look Faded"
+    },
+    {
+      "id": "halos-around-lights",
+      "title": "Why You See Halos Around Lights"
     }
   ],
   "editorial_policy": {
