@@ -1,0 +1,160 @@
+{
+  "schema": 2,
+  "editorial": {
+    "workflow": "chatgpt-reviewed-v20",
+    "reviewed_by": "ChatGPT medical editorial workflow",
+    "reviewed_on": "2026-09-23",
+    "episode_number": 43,
+    "language": "English",
+    "spoken_host_name_allowed": false,
+    "long_dashes_allowed": false,
+    "target_minutes": 10
+  },
+  "topic_id": "faded-color-vision",
+  "topic": {
+    "id": "faded-color-vision",
+    "title": "Why Colors Look Faded",
+    "audience_question": "Why can colors lose their brightness, and when does a change in color vision need prompt assessment?",
+    "pubmed_query": "acquired color vision deficiency cataract optic neuritis macular degeneration toxic optic neuropathy",
+    "icon_keywords": ["faded-colors", "color-vision", "optic-nerve", "cataract"],
+    "category": "eye-health"
+  },
+  "sources": [
+    {
+      "id": "NEI:CATARACTS-2026",
+      "title": "Cataracts",
+      "abstract": "The National Eye Institute explains that cataracts cloud the eye's lens and can gradually cause blurry or dim vision, faded colors, glare, poor night vision, and prescription changes. A dilated eye examination identifies cataracts and helps exclude other causes.",
+      "journal": "National Eye Institute",
+      "year": "2026",
+      "url": "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/cataracts",
+      "doi": null
+    },
+    {
+      "id": "AAO:OPTIC-NEURITIS-2026",
+      "title": "What Is Optic Neuritis?",
+      "abstract": "The American Academy of Ophthalmology describes optic neuritis as inflammation of the optic nerve that may cause dim or blurry vision, dull or faded colors, a visual field defect, and pain behind the eye, especially with eye movement.",
+      "journal": "American Academy of Ophthalmology",
+      "year": "2026",
+      "url": "https://www.aao.org/eye-health/diseases/what-is-optic-neuritis",
+      "doi": null
+    },
+    {
+      "id": "NANOS:OPTIC-NEURITIS-2026",
+      "title": "Optic Neuritis",
+      "abstract": "The North American Neuro-Ophthalmology Society explains that optic neuritis commonly affects one eye, can reduce contrast and color saturation, may cause pain with eye movement, and requires evaluation for its underlying cause.",
+      "journal": "North American Neuro-Ophthalmology Society",
+      "year": "2026",
+      "url": "https://www.nanosweb.org/OpticNeuritis/",
+      "doi": null
+    },
+    {
+      "id": "PMC:COLOR-VISION-EVALUATION-2025",
+      "title": "An Integrative Review for Clinical Evaluation of Color Vision",
+      "abstract": "This peer-reviewed review distinguishes inherited color vision differences from acquired changes and describes clinical color testing used to detect and monitor ocular, neurologic, systemic, and medication-related disease.",
+      "journal": "Journal of Current Ophthalmology",
+      "year": "2025",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12487792/",
+      "doi": "10.4103/joco.joco_276_23"
+    },
+    {
+      "id": "PUBMED:AMD-COLOR-VISION-2017",
+      "title": "Detection of Early Loss of Color Vision in Age-Related Macular Degeneration",
+      "abstract": "This peer-reviewed study found measurable reductions in chromatic sensitivity in people with age-related macular degeneration, supporting color testing as one part of functional retinal assessment.",
+      "journal": "Investigative Ophthalmology and Visual Science",
+      "year": "2017",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28846119/",
+      "doi": "10.1167/iovs.17-21771"
+    },
+    {
+      "id": "DAILYMED:ETHAMBUTOL-2026",
+      "title": "Ethambutol Hydrochloride Drug Label",
+      "abstract": "The current drug label warns that ethambutol can cause optic neuropathy with reduced visual acuity, scotoma, color blindness, or other visual defects and recommends baseline and periodic visual assessment during treatment.",
+      "journal": "DailyMed, National Library of Medicine",
+      "year": "2026",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=e0d4a594-d3e0-47b0-9f11-f4dbd4552d5a",
+      "doi": null
+    },
+    {
+      "id": "NCBI:TOXIC-NUTRITIONAL-OPTIC-NEUROPATHY-2023",
+      "title": "Toxic and Nutritional Optic Neuropathy",
+      "abstract": "This clinical review describes toxic and nutritional optic neuropathies as commonly progressive, symmetric problems affecting central vision and color perception, with medication, exposure, diet, laboratory, and eye findings guiding diagnosis.",
+      "journal": "StatPearls, National Library of Medicine",
+      "year": "2023",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK499979/",
+      "doi": null
+    }
+  ],
+  "episode": {
+    "title": "E43: Why Colors Look Faded",
+    "hook": "Hello and welcome to the Your Only Doc podcast. Imagine holding a red shirt in daylight and realizing it looks bright through one eye but washed out through the other. Or perhaps every color has slowly become dull. A change in color vision can come from the lens, retina, optic nerve, medicines, or nutritional problems. Gradual changes in both eyes have a different meaning from a sudden change in one eye.",
+    "sections": [
+      {
+        "heading": "The high yield summary",
+        "narration": "Too busy? Here is your high yield summary. Colors may look faded when a cataract filters incoming light, when the retina cannot process color normally, or when the optic nerve does not transmit the signal properly. Cataracts usually change vision gradually and often add blur, glare, or poor night vision. Optic neuritis often affects one eye over hours or days and may bring pain with eye movement. Compare one eye at a time, but do not rely on a home color test for diagnosis. A new difference needs an eye examination.",
+        "on_screen": ["Lens, retina, or optic nerve", "Compare one eye at a time", "New color loss needs assessment"],
+        "icon": "faded-color-summary",
+        "source_ids": ["NEI:CATARACTS-2026", "AAO:OPTIC-NEURITIS-2026", "PMC:COLOR-VISION-EVALUATION-2025"]
+      },
+      {
+        "heading": "How the eye builds color",
+        "narration": "Color begins when cone cells in the retina respond differently to wavelengths of light. The retina converts that information into electrical signals, the optic nerve carries them, and the brain compares the signals to create color perception. A problem anywhere along that route can reduce saturation or make certain shades difficult to distinguish. Someone born with a color vision difference usually has a stable lifelong pattern. A newly acquired change is different and deserves an explanation.",
+        "on_screen": ["Cones detect color", "Optic nerve carries the signal", "New change differs from lifelong variation"],
+        "icon": "color-vision-pathway",
+        "source_ids": ["PMC:COLOR-VISION-EVALUATION-2025", "NCBI:TOXIC-NUTRITIONAL-OPTIC-NEUROPATHY-2023"]
+      },
+      {
+        "heading": "Compare the eyes carefully",
+        "narration": "Look at the same colorful object in steady lighting. Cover one eye, then the other, without pressing. Ask whether brightness, sharpness, or color intensity changes. Red may seem less vivid through an affected optic nerve, but that cannot name the cause. Screens vary with settings and room light, so online tests are easy to misread. Record which eye differs, when it began, and whether blur, pain, a dark patch, or a field defect came with it.",
+        "on_screen": ["Use the same object and lighting", "Check each eye separately", "Record associated symptoms"],
+        "icon": "compare-color-between-eyes",
+        "source_ids": ["NANOS:OPTIC-NEURITIS-2026", "PMC:COLOR-VISION-EVALUATION-2025"]
+      },
+      {
+        "heading": "Cataracts fade color gradually",
+        "narration": "A cataract is clouding within the natural lens. Light is scattered and filtered before reaching the retina. Colors may seem faded or yellowed, and vision may become cloudy, dim, sensitive to glare, or worse at night. Because cataracts progress slowly, the color change can go unnoticed. Glasses may help refractive blur but cannot remove lens clouding. When cataracts limit daily life, an eye specialist can discuss surgery and its risks and benefits.",
+        "on_screen": ["Cloudy lens filters light", "Fading usually develops slowly", "Surgery depends on daily impact"],
+        "icon": "cataract-color-filter",
+        "source_ids": ["NEI:CATARACTS-2026"]
+      },
+      {
+        "heading": "Optic neuritis can wash color out",
+        "narration": "Optic neuritis is inflammation of the optic nerve. Vision may become dim or blurry in one eye, colors can look washed out, and moving the eye may hurt. Symptoms commonly evolve over hours to days rather than years. The optic disc can sometimes look normal because inflammation may be behind the eye. Evaluation matters because optic neuritis has several possible causes and can be associated with inflammatory or demyelinating disease. Do not assume that faded color with eye pain is simple eyestrain.",
+        "on_screen": ["Often affects one eye", "Pain with movement is a clue", "The nerve may look normal initially"],
+        "icon": "optic-neuritis-color-loss",
+        "source_ids": ["AAO:OPTIC-NEURITIS-2026", "NANOS:OPTIC-NEURITIS-2026"]
+      },
+      {
+        "heading": "The retina can alter color too",
+        "narration": "The macula contains many cone cells and supports detailed central vision. Macular disease can reduce color sensitivity along with contrast, sharpness, or straight-line perception. Age-related macular degeneration is one example, but color alone cannot diagnose retinal disease. A clinician looks for distortion, central blur, dark areas, bleeding, or fluid and examines the retina after dilation. Optical coherence tomography may map its layers.",
+        "on_screen": ["Macula supports detailed color", "Look for central changes", "Retinal imaging identifies structure"],
+        "icon": "retina-color-sensitivity",
+        "source_ids": ["PUBMED:AMD-COLOR-VISION-2017", "PMC:COLOR-VISION-EVALUATION-2025"]
+      },
+      {
+        "heading": "Medicines and nutrition belong in the history",
+        "narration": "Some medicines and toxic exposures can injure the optic nerve. Ethambutol, used to treat tuberculosis, is an important example because its label warns about reduced sharpness, blind spots, and color vision changes. Nutritional deficiencies can also contribute to a usually gradual, symmetric optic neuropathy. Never stop a prescribed medicine on your own. If color or central vision changes during treatment, contact the prescribing clinician promptly and obtain eye assessment. Bring a complete list of medicines, supplements, alcohol use, occupational exposures, and dietary history.",
+        "on_screen": ["Review medicines and exposures", "Ethambutol requires visual monitoring", "Do not stop treatment without guidance"],
+        "icon": "medication-vision-review",
+        "source_ids": ["DAILYMED:ETHAMBUTOL-2026", "NCBI:TOXIC-NUTRITIONAL-OPTIC-NEUROPATHY-2023"]
+      },
+      {
+        "heading": "How clinicians investigate the change",
+        "narration": "Now, let us go deeper. The examination checks best-corrected sharpness, pupils, color discrimination, visual fields, the lens, retina, and optic nerve. Formal color plates or arrangement tests are interpreted with the rest of the examination, not alone. Retinal imaging, optic nerve imaging, blood tests, or brain and orbit imaging may be added depending on the pattern. Seek urgent care for sudden color loss with reduced vision, a new blind spot, severe eye pain, flashes, many floaters, a curtain-like shadow, weakness, or speech difficulty.",
+        "on_screen": ["Color testing is one part", "Examine lens, retina, and nerve", "Sudden loss can be urgent"],
+        "icon": "clinical-color-testing",
+        "source_ids": ["PMC:COLOR-VISION-EVALUATION-2025", "AAO:OPTIC-NEURITIS-2026", "NEI:CATARACTS-2026"]
+      },
+      {
+        "heading": "Three essential takeaways",
+        "narration": "Number one, gradual fading with glare, blur, and poor night vision can fit cataract, while a quicker one-eye change with pain can point toward the optic nerve. Number two, compare the eyes in the same lighting and write down associated symptoms, but let clinical testing determine the cause. Number three, report a new color change promptly, especially during ethambutol treatment, and seek urgent help when it is sudden or accompanied by substantial vision loss, a curtain, a new field defect, or neurological symptoms.",
+        "on_screen": ["Timing and eye involvement matter", "Testing identifies the cause", "Act quickly on warning signs"],
+        "icon": "checklist",
+        "source_ids": ["NEI:CATARACTS-2026", "NANOS:OPTIC-NEURITIS-2026", "DAILYMED:ETHAMBUTOL-2026", "PMC:COLOR-VISION-EVALUATION-2025"]
+      }
+    ],
+    "closing": "On the next episode, we will explain why you see halos around lights, from dry or swollen corneas to cataracts and pressure emergencies. Until then, pay attention to whether a color change is gradual or sudden, compare one eye at a time, and let a new difference be examined rather than dismissed as lighting.",
+    "description": "Colors can look faded because of cataracts, retinal disease, optic nerve inflammation, medicines, toxic exposure, or nutritional problems. This episode explains how timing, one-eye comparison, associated symptoms, and clinical testing help locate the cause and identify urgent warning signs.",
+    "thumbnail_text": "WHY DO COLORS LOOK FADED?"
+  }
+}
+
