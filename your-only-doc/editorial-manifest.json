@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "workflow": "chatgpt-reviewed-v20",
-  "updated_at": "2026-09-23T09:14:02Z",
-  "next_episode_number": 44,
+  "updated_at": "2026-09-24T09:18:00Z",
+  "next_episode_number": 45,
   "next_planned_topic": {
-    "id": "halos-around-lights",
-    "title": "Why You See Halos Around Lights",
-    "reason": "It continues the visual symptom sequence by separating common optical causes such as tear-film disturbance and cataract from corneal swelling and acute pressure-related warning signs that need urgent care."
+    "id": "unequal-pupils",
+    "title": "Why Your Pupils Are Different Sizes",
+    "reason": "It continues the eye-warning-sign sequence by distinguishing common benign anisocoria from medication effects, eye emergencies, and neurological patterns that need urgent assessment."
   },
   "packets": [
     {
@@ -253,6 +253,13 @@
       "title": "E43: Why Colors Look Faded",
       "file": "episodes/E43-faded-color-vision.json",
       "status": "ready"
+    },
+    {
+      "episode_number": 44,
+      "topic_id": "halos-around-lights",
+      "title": "E44: Why You See Halos Around Lights",
+      "file": "episodes/E44-halos-around-lights.json",
+      "status": "ready"
     }
   ],
   "evergreen_sequence": [
@@ -379,6 +386,10 @@
     {
       "id": "halos-around-lights",
       "title": "Why You See Halos Around Lights"
+    },
+    {
+      "id": "unequal-pupils",
+      "title": "Why Your Pupils Are Different Sizes"
     }
   ],
   "editorial_policy": {
