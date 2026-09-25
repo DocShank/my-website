@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "workflow": "chatgpt-reviewed-v20",
-  "updated_at": "2026-09-24T09:18:00Z",
-  "next_episode_number": 45,
+  "updated_at": "2026-09-25T09:29:10Z",
+  "next_episode_number": 46,
   "next_planned_topic": {
-    "id": "unequal-pupils",
-    "title": "Why Your Pupils Are Different Sizes",
-    "reason": "It continues the eye-warning-sign sequence by distinguishing common benign anisocoria from medication effects, eye emergencies, and neurological patterns that need urgent assessment."
+    "id": "drooping-eyelid",
+    "title": "Why One Eyelid Starts Drooping",
+    "reason": "It continues the eye and neurological warning-sign sequence by separating common eyelid changes from myasthenia, third-nerve palsy, and Horner syndrome."
   },
   "packets": [
     {
@@ -260,6 +260,13 @@
       "title": "E44: Why You See Halos Around Lights",
       "file": "episodes/E44-halos-around-lights.json",
       "status": "ready"
+    },
+    {
+      "episode_number": 45,
+      "topic_id": "unequal-pupils",
+      "title": "E45: Why Your Pupils Are Different Sizes",
+      "file": "episodes/E45-unequal-pupils.json",
+      "status": "ready"
     }
   ],
   "evergreen_sequence": [
@@ -390,6 +397,10 @@
     {
       "id": "unequal-pupils",
       "title": "Why Your Pupils Are Different Sizes"
+    },
+    {
+      "id": "drooping-eyelid",
+      "title": "Why One Eyelid Starts Drooping"
     }
   ],
   "editorial_policy": {
