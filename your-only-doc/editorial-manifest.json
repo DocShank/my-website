@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "workflow": "chatgpt-reviewed-v20",
-  "updated_at": "2026-09-25T09:29:10Z",
-  "next_episode_number": 46,
+  "updated_at": "2026-09-26T09:12:14Z",
+  "next_episode_number": 47,
   "next_planned_topic": {
-    "id": "drooping-eyelid",
-    "title": "Why One Eyelid Starts Drooping",
-    "reason": "It continues the eye and neurological warning-sign sequence by separating common eyelid changes from myasthenia, third-nerve palsy, and Horner syndrome."
+    "id": "involuntary-eye-movements",
+    "title": "Why Your Eyes Move on Their Own",
+    "reason": "It continues the eye and neurological sequence by explaining nystagmus, common lifelong patterns, acquired causes, and warning signs that need urgent assessment."
   },
   "packets": [
     {
@@ -267,6 +267,13 @@
       "title": "E45: Why Your Pupils Are Different Sizes",
       "file": "episodes/E45-unequal-pupils.json",
       "status": "ready"
+    },
+    {
+      "episode_number": 46,
+      "topic_id": "drooping-eyelid",
+      "title": "E46: Why One Eyelid Starts Drooping",
+      "file": "episodes/E46-drooping-eyelid.json",
+      "status": "ready"
     }
   ],
   "evergreen_sequence": [
@@ -401,6 +408,10 @@
     {
       "id": "drooping-eyelid",
       "title": "Why One Eyelid Starts Drooping"
+    },
+    {
+      "id": "involuntary-eye-movements",
+      "title": "Why Your Eyes Move on Their Own"
     }
   ],
   "editorial_policy": {
