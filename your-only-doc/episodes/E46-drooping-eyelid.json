@@ -1,0 +1,159 @@
+{
+  "schema": 2,
+  "editorial": {
+    "workflow": "chatgpt-reviewed-v20",
+    "reviewed_by": "ChatGPT medical editorial workflow",
+    "reviewed_on": "2026-09-26",
+    "episode_number": 46,
+    "language": "English",
+    "spoken_host_name_allowed": false,
+    "long_dashes_allowed": false,
+    "target_minutes": 10
+  },
+  "topic_id": "drooping-eyelid",
+  "topic": {
+    "id": "drooping-eyelid",
+    "title": "Why One Eyelid Starts Drooping",
+    "audience_question": "Why can one upper eyelid start drooping, and which accompanying signs require emergency care?",
+    "pubmed_query": "acquired unilateral ptosis aponeurotic myasthenia gravis third nerve palsy Horner syndrome emergency evaluation",
+    "icon_keywords": ["ptosis", "eyelid", "myasthenia", "third-nerve", "Horner-syndrome"],
+    "category": "eye-health"
+  },
+  "sources": [
+    {
+      "id": "AAO:DANGEROUS-PTOSIS-2023",
+      "title": "5 Causes of Dangerous Asymmetric Ptosis",
+      "abstract": "The American Academy of Ophthalmology reviews neurological and orbital causes of unequal eyelid droop and emphasizes that new asymmetric ptosis can signal serious disease requiring urgent evaluation.",
+      "journal": "American Academy of Ophthalmology",
+      "year": "2023",
+      "url": "https://www.aao.org/young-ophthalmologists/yo-info/article/five-causes-of-dangerous-asymmetric-ptosis",
+      "doi": null
+    },
+    {
+      "id": "PUBMED:ACQUIRED-PTOSIS-2021",
+      "title": "A Review of Acquired Blepharoptosis: Prevalence, Diagnosis, and Current Treatment Options",
+      "abstract": "This peer reviewed clinical review describes acquired ptosis as a common upper-eyelid disorder and outlines aponeurotic, neurogenic, myogenic, mechanical, and traumatic causes, clinical identification, differential diagnosis, and treatment.",
+      "journal": "Eye",
+      "year": "2021",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33927356/",
+      "doi": "10.1038/s41433-021-01547-5"
+    },
+    {
+      "id": "NINDS:MYASTHENIA-2026",
+      "title": "Myasthenia Gravis",
+      "abstract": "The National Institute of Neurological Disorders and Stroke explains that myasthenia gravis causes fluctuating voluntary muscle weakness, commonly including drooping eyelids and double vision. Swallowing or breathing weakness can become life threatening.",
+      "journal": "National Institute of Neurological Disorders and Stroke",
+      "year": "2026",
+      "url": "https://www.ninds.nih.gov/health-information/disorders/myasthenia-gravis",
+      "doi": null
+    },
+    {
+      "id": "AAO-EYEWIKI:THIRD-NERVE-2026",
+      "title": "Acquired Oculomotor Nerve Palsy",
+      "abstract": "This current EyeWiki review explains that third-nerve palsy can cause marked ptosis, double vision, abnormal eye position, and a dilated sluggish pupil. Causes include vascular disease, trauma, tumors, and aneurysmal compression.",
+      "journal": "American Academy of Ophthalmology EyeWiki",
+      "year": "2026",
+      "url": "https://eyewiki.org/Acquired_Oculomotor_Nerve_Palsy",
+      "doi": null
+    },
+    {
+      "id": "AAO-EYEWIKI:HORNER-2026",
+      "title": "Horner Syndrome",
+      "abstract": "The current EyeWiki review describes Horner syndrome as interruption of sympathetic nerve supply, producing subtle ptosis and a smaller pupil. Prompt evaluation is necessary because causes can include carotid artery dissection and other serious disease.",
+      "journal": "American Academy of Ophthalmology EyeWiki",
+      "year": "2026",
+      "url": "https://eyewiki.org/Horner_Syndrome",
+      "doi": null
+    },
+    {
+      "id": "CDC:STROKE-SIGNS-2026",
+      "title": "Signs and Symptoms of Stroke",
+      "abstract": "The Centers for Disease Control and Prevention lists sudden face, arm, or leg weakness, speech difficulty, trouble seeing, loss of balance, and severe unexplained headache as stroke warning signs requiring immediate emergency action.",
+      "journal": "Centers for Disease Control and Prevention",
+      "year": "2026",
+      "url": "https://www.cdc.gov/stroke/signs-symptoms/index.html",
+      "doi": null
+    },
+    {
+      "id": "PUBMED:PTOSIS-MASQUERADE-2017",
+      "title": "Clinical Evaluation of Blepharoptosis: Distinguishing Age-Related Ptosis from Masquerade Conditions",
+      "abstract": "This clinical review reports that aponeurotic ptosis accounts for most acquired cases, while eye position, globe asymmetry, and opposite-eyelid retraction can mimic true ptosis. Identifying the cause determines whether repair or further evaluation is appropriate.",
+      "journal": "Seminars in Plastic Surgery",
+      "year": "2017",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28255284/",
+      "doi": "10.1055/s-0037-1598188"
+    }
+  ],
+  "episode": {
+    "title": "E46: Why One Eyelid Starts Drooping",
+    "hook": "Hello and welcome to the Your Only Doc podcast. Imagine looking in the mirror after lunch and noticing that one upper eyelid sits lower than the other. You wonder whether you are simply tired, whether it has been there for years, or whether something has just happened to a nerve. A drooping upper eyelid is called ptosis. The timing and the symptoms around it matter more than the appearance alone.",
+    "sections": [
+      {
+        "heading": "The high yield summary",
+        "narration": "Too busy? Here is your high yield summary. Gradual, stable eyelid droop is often related to stretching of the tendon that lifts the lid, especially with age. A droop that changes through the day can suggest a muscle communication problem such as myasthenia gravis. Sudden ptosis with double vision, unequal pupils, severe headache, neck pain, weakness, speech difficulty, or trouble swallowing or breathing needs urgent or emergency assessment.",
+        "on_screen": ["Timing matters", "Fluctuation is a clue", "Sudden neurological signs are urgent"],
+        "icon": "ptosis-summary",
+        "source_ids": ["AAO:DANGEROUS-PTOSIS-2023", "PUBMED:ACQUIRED-PTOSIS-2021", "NINDS:MYASTHENIA-2026"]
+      },
+      {
+        "heading": "What ptosis actually means",
+        "narration": "True ptosis means the upper eyelid itself sits too low. A muscle called the levator raises the lid, and a tendon-like sheet called the levator aponeurosis attaches that muscle to the eyelid. Nerves control this system. Sometimes the opposite eyelid is unusually high, the eye sits lower, or excess skin hangs over the lid, creating the impression of ptosis without failure of the lifting mechanism.",
+        "on_screen": ["Levator muscle lifts the lid", "Its aponeurosis attaches to the eyelid", "Not every apparent droop is true ptosis"],
+        "icon": "eyelid-anatomy",
+        "source_ids": ["PUBMED:ACQUIRED-PTOSIS-2021", "PUBMED:PTOSIS-MASQUERADE-2017"]
+      },
+      {
+        "heading": "Gradual droop is often mechanical",
+        "narration": "The most common acquired form is aponeurotic ptosis. The lifting attachment stretches or separates over time. It may follow aging, long-term contact lens wear, eyelid rubbing, eye surgery, or trauma. The upper eyelid crease may look higher and the droop is usually persistent rather than dramatically changing hour by hour. A growth, swelling, or scar can also weigh the lid down. These causes deserve an eye examination, but are not automatically emergencies.",
+        "on_screen": ["Aging can stretch the lifting attachment", "Surgery, trauma, or contact lenses may contribute", "A mass can weigh the lid down"],
+        "icon": "aponeurotic-ptosis",
+        "source_ids": ["PUBMED:ACQUIRED-PTOSIS-2021", "PUBMED:PTOSIS-MASQUERADE-2017"]
+      },
+      {
+        "heading": "A changing droop can point to myasthenia",
+        "narration": "Myasthenia gravis disrupts communication between nerves and voluntary muscles. Ptosis may affect either eye, shift sides, worsen with sustained use, and improve after rest. Double vision can come and go because eye muscles tire too. Some people develop a weak voice, chewing fatigue, difficulty swallowing, or limb weakness. Trouble breathing or swallowing is an emergency, because respiratory muscles may be involved.",
+        "on_screen": ["Weakness can fluctuate", "Rest may temporarily improve it", "Breathing or swallowing trouble is an emergency"],
+        "icon": "myasthenia-fatigability",
+        "source_ids": ["NINDS:MYASTHENIA-2026", "AAO:DANGEROUS-PTOSIS-2023"]
+      },
+      {
+        "heading": "A third-nerve palsy can be dangerous",
+        "narration": "The third cranial nerve lifts the eyelid and moves most of the eye muscles. A palsy may cause a pronounced droop, double vision, and an eye that points outward and downward. The pupil may become enlarged and react poorly to light. An aneurysm pressing on this nerve is one dangerous possibility. Sudden ptosis with headache, eye pain, abnormal eye movement, or a larger pupil requires emergency imaging, not watchful waiting.",
+        "on_screen": ["Look for double vision", "Check for abnormal eye position", "Sudden pain or a large pupil needs emergency care"],
+        "icon": "third-nerve-ptosis",
+        "source_ids": ["AAO-EYEWIKI:THIRD-NERVE-2026", "AAO:DANGEROUS-PTOSIS-2023"]
+      },
+      {
+        "heading": "A smaller pupil suggests another pathway",
+        "narration": "Horner syndrome usually causes a mild droop with a smaller pupil on the same side. The pupil difference becomes more noticeable in darkness because the affected pupil does not dilate normally. Sweating on that side of the face may also change. The sympathetic nerve pathway travels through the brain, neck, and chest. A new painful Horner pattern, especially with sudden head or neck pain, is an emergency because carotid artery dissection must be excluded.",
+        "on_screen": ["Mild droop plus a small pupil", "Difference is clearer in darkness", "New head or neck pain is an emergency"],
+        "icon": "Horner-ptosis",
+        "source_ids": ["AAO-EYEWIKI:HORNER-2026", "AAO:DANGEROUS-PTOSIS-2023"]
+      },
+      {
+        "heading": "Do not miss the wider neurological picture",
+        "narration": "Ptosis alone is not the usual public warning sign for stroke, but a sudden eyelid change can occur within a larger neurological syndrome. Call emergency services if it arrives with facial or arm weakness, numbness, speech difficulty, confusion, trouble seeing, severe unexplained headache, dizziness, or loss of balance. After head or eye trauma, rapid swelling, vision loss, or inability to move the eye also needs urgent evaluation.",
+        "on_screen": ["Check face, arm, speech, and balance", "Sudden vision trouble matters", "Trauma changes the urgency"],
+        "icon": "neurological-red-flags",
+        "source_ids": ["CDC:STROKE-SIGNS-2026", "AAO:DANGEROUS-PTOSIS-2023"]
+      },
+      {
+        "heading": "How clinicians find the cause",
+        "narration": "Now, let us go deeper. The clinician asks when the droop began, whether it fluctuates, and about contact lenses, surgery, injury, medicines, swallowing, breathing, and neurological symptoms. Old photographs can establish duration. Examination compares eyelid height and creases, pupil size in light and darkness, eye movements, muscle strength, and the eyelid response to sustained gaze. Blood tests, medication tests, or imaging are then selected for the suspected cause. Treatment follows the diagnosis, not the cosmetic appearance alone.",
+        "on_screen": ["Establish timing and fluctuation", "Examine pupils and eye movements", "Choose tests for the suspected pathway"],
+        "icon": "ptosis-evaluation",
+        "source_ids": ["PUBMED:ACQUIRED-PTOSIS-2021", "PUBMED:PTOSIS-MASQUERADE-2017", "NINDS:MYASTHENIA-2026", "AAO-EYEWIKI:THIRD-NERVE-2026"]
+      },
+      {
+        "heading": "Three essential takeaways",
+        "narration": "Number one, a gradual stable droop is often related to the eyelid lifting attachment, but a new droop still deserves a proper examination. Number two, fluctuation, double vision, unequal pupils, abnormal eye movement, or weakness can reveal a muscle or nerve disorder. Number three, seek emergency care for sudden ptosis with severe headache, head or neck pain, stroke signs, injury, vision loss, or difficulty swallowing or breathing.",
+        "on_screen": ["Gradual does not mean ignore", "Associated signs identify the pathway", "Know the emergency combinations"],
+        "icon": "checklist",
+        "source_ids": ["AAO:DANGEROUS-PTOSIS-2023", "NINDS:MYASTHENIA-2026", "AAO-EYEWIKI:THIRD-NERVE-2026", "AAO-EYEWIKI:HORNER-2026", "CDC:STROKE-SIGNS-2026"]
+      }
+    ],
+    "closing": "On the next episode, we will explain why your eyes can move on their own, including common forms of nystagmus and the warning signs that need urgent assessment. Until then, treat a suddenly drooping eyelid as a symptom to investigate, not simply a cosmetic change.",
+    "description": "One drooping eyelid may result from common age-related stretching, a mechanical eyelid problem, myasthenia gravis, third-nerve palsy, Horner syndrome, or another neurological condition. This episode explains the patterns, examination, and emergency warning signs.",
+    "thumbnail_text": "WHY IS ONE EYELID DROOPING?"
+  }
+}
