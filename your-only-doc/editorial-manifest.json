@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "workflow": "chatgpt-reviewed-v20",
-  "updated_at": "2026-09-27T09:26:25Z",
-  "next_episode_number": 49,
+  "updated_at": "2026-09-27T09:31:16Z",
+  "next_episode_number": 50,
   "next_planned_topic": {
-    "id": "convergence-insufficiency",
-    "title": "Why Your Eyes Struggle to Work Together Up Close",
-    "reason": "It follows the strabismus episode by explaining near-work eye coordination, reading symptoms, diagnosis, evidence-based exercises, and conditions that can mimic convergence insufficiency."
+    "id": "visual-refocusing",
+    "title": "Why Your Vision Takes Time to Refocus",
+    "reason": "It follows convergence insufficiency by explaining accommodation when shifting between near and far, age-related slowing, medication and metabolic contributors, practical evaluation, and warning signs."
   },
   "packets": [
     {
@@ -288,6 +288,13 @@
       "title": "E48: Why One Eye Turns In or Out",
       "file": "episodes/E48-eye-turning-strabismus.json",
       "status": "ready"
+    },
+    {
+      "episode_number": 49,
+      "topic_id": "convergence-insufficiency",
+      "title": "E49: Why Your Eyes Struggle to Work Together Up Close",
+      "file": "episodes/E49-convergence-insufficiency.json",
+      "status": "ready"
     }
   ],
   "evergreen_sequence": [
@@ -434,6 +441,10 @@
     {
       "id": "convergence-insufficiency",
       "title": "Why Your Eyes Struggle to Work Together Up Close"
+    },
+    {
+      "id": "visual-refocusing",
+      "title": "Why Your Vision Takes Time to Refocus"
     }
   ],
   "editorial_policy": {
