@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "workflow": "chatgpt-reviewed-v20",
-  "updated_at": "2026-09-27T09:24:09Z",
-  "next_episode_number": 48,
+  "updated_at": "2026-09-27T09:26:25Z",
+  "next_episode_number": 49,
   "next_planned_topic": {
-    "id": "eye-turning-strabismus",
-    "title": "Why One Eye Turns In or Out",
-    "reason": "It continues the eye-health sequence by explaining strabismus, amblyopia risk in children, double vision in adults, and when a new eye turn needs urgent assessment."
+    "id": "convergence-insufficiency",
+    "title": "Why Your Eyes Struggle to Work Together Up Close",
+    "reason": "It follows the strabismus episode by explaining near-work eye coordination, reading symptoms, diagnosis, evidence-based exercises, and conditions that can mimic convergence insufficiency."
   },
   "packets": [
     {
@@ -281,6 +281,13 @@
       "title": "E47: Why Your Eyes Move on Their Own",
       "file": "episodes/E47-involuntary-eye-movements.json",
       "status": "ready"
+    },
+    {
+      "episode_number": 48,
+      "topic_id": "eye-turning-strabismus",
+      "title": "E48: Why One Eye Turns In or Out",
+      "file": "episodes/E48-eye-turning-strabismus.json",
+      "status": "ready"
     }
   ],
   "evergreen_sequence": [
@@ -423,6 +430,10 @@
     {
       "id": "eye-turning-strabismus",
       "title": "Why One Eye Turns In or Out"
+    },
+    {
+      "id": "convergence-insufficiency",
+      "title": "Why Your Eyes Struggle to Work Together Up Close"
     }
   ],
   "editorial_policy": {
