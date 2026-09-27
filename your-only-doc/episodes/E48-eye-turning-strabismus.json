@@ -1,0 +1,159 @@
+{
+  "schema": 2,
+  "editorial": {
+    "workflow": "chatgpt-reviewed-v20",
+    "reviewed_by": "ChatGPT medical editorial workflow",
+    "reviewed_on": "2026-09-27",
+    "episode_number": 48,
+    "language": "English",
+    "spoken_host_name_allowed": false,
+    "long_dashes_allowed": false,
+    "target_minutes": 10
+  },
+  "topic_id": "eye-turning-strabismus",
+  "topic": {
+    "id": "eye-turning-strabismus",
+    "title": "Why One Eye Turns In or Out",
+    "audience_question": "Why can one eye turn inward or outward, how does this affect vision, and when is a new eye turn urgent?",
+    "pubmed_query": "strabismus esotropia exotropia amblyopia children adults sudden onset diplopia treatment",
+    "icon_keywords": ["strabismus", "esotropia", "exotropia", "amblyopia", "eye-alignment"],
+    "category": "eye-health"
+  },
+  "sources": [
+    {
+      "id": "AAPOS:STRABISMUS-2024",
+      "title": "Strabismus",
+      "abstract": "The American Association for Pediatric Ophthalmology and Strabismus defines strabismus as eye misalignment, describes inward, outward, and vertical forms, explains amblyopia risk, and reviews optical, prism, exercise, and surgical treatments.",
+      "journal": "American Association for Pediatric Ophthalmology and Strabismus",
+      "year": "2024",
+      "url": "https://aapos.org/glossary/strabismus",
+      "doi": null
+    },
+    {
+      "id": "AAPOS:ESOTROPIA-2024",
+      "title": "Esotropia",
+      "abstract": "AAPOS explains that esotropia is inward turning of one or both eyes. Constant crossing at any age, or any crossing beyond about four months of age, should be assessed. Causes and treatment vary with onset, focusing error, constancy, and associated disease.",
+      "journal": "American Association for Pediatric Ophthalmology and Strabismus",
+      "year": "2024",
+      "url": "https://aapos.org/glossary/esotropia",
+      "doi": null
+    },
+    {
+      "id": "AAPOS:EXOTROPIA-2025",
+      "title": "Exotropia",
+      "abstract": "AAPOS describes exotropia as outward turning that may be intermittent or constant. Intermittent exotropia may become noticeable with fatigue, illness, bright light, or distance viewing and may become more frequent over time.",
+      "journal": "American Association for Pediatric Ophthalmology and Strabismus",
+      "year": "2025",
+      "url": "https://aapos.org/glossary/exotropia",
+      "doi": null
+    },
+    {
+      "id": "AAPOS:AMBLYOPIA-2026",
+      "title": "Amblyopia",
+      "abstract": "AAPOS explains that amblyopia is reduced vision caused by abnormal visual development in childhood. Strabismus can lead the brain to ignore one eye, and early detection and treatment can prevent permanent vision loss.",
+      "journal": "American Association for Pediatric Ophthalmology and Strabismus",
+      "year": "2026",
+      "url": "https://aapos.org/glossary/amblyopia",
+      "doi": null
+    },
+    {
+      "id": "AAPOS:ADULT-STRABISMUS-2026",
+      "title": "Adult Strabismus",
+      "abstract": "AAPOS explains that adult eye misalignment can cause double vision and impair depth perception and daily function. Prism and eye-muscle surgery may improve alignment and symptoms, and treatment is reconstructive rather than merely cosmetic.",
+      "journal": "American Association for Pediatric Ophthalmology and Strabismus",
+      "year": "2026",
+      "url": "https://aapos.org/patient/patient-resources/adult-strabismus-new",
+      "doi": null
+    },
+    {
+      "id": "PUBMED:PEDIATRIC-EYE-SCREENING-2022",
+      "title": "Screening, Diagnosis, and Treatment of Pediatric Ocular Diseases",
+      "abstract": "This peer reviewed clinical review describes childhood vision screening, strabismus and amblyopia detection, and current treatments. Early identification of visual disruption can prevent lifelong impairment.",
+      "journal": "Children",
+      "year": "2022",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36553382/",
+      "doi": "10.3390/children9121939"
+    },
+    {
+      "id": "CDC:STROKE-SIGNS-2026",
+      "title": "Signs and Symptoms of Stroke",
+      "abstract": "The Centers for Disease Control and Prevention lists sudden trouble seeing, weakness or numbness, speech difficulty, loss of balance, and severe unexplained headache as stroke warning signs requiring immediate emergency action.",
+      "journal": "Centers for Disease Control and Prevention",
+      "year": "2026",
+      "url": "https://www.cdc.gov/stroke/signs-symptoms/index.html",
+      "doi": null
+    }
+  ],
+  "episode": {
+    "title": "E48: Why One Eye Turns In or Out",
+    "hook": "Hello and welcome to the Your Only Doc podcast. Imagine taking a family photograph and noticing that one child's eye points toward the nose while the other looks at the camera. Or imagine waking as an adult and suddenly seeing two images because one eye no longer lines up. Eye misalignment is called strabismus. It can be constant or intermittent, begin in childhood or adulthood, and mean very different things depending on when it starts.",
+    "sections": [
+      {
+        "heading": "The high yield summary",
+        "narration": "Too busy? Here is your high yield summary. An inward turn is esotropia, an outward turn is exotropia, and an eye can also sit higher or lower than the other. Children may suppress the image from one eye and develop amblyopia without complaining of double vision. Adults with a new eye turn often see double and need prompt assessment. Sudden misalignment with severe headache, weakness, numbness, speech trouble, imbalance, drooping eyelid, unequal pupils, or trauma is an emergency.",
+        "on_screen": ["Inward, outward, or vertical turn", "Children may suppress one image", "Sudden neurological signs are urgent"],
+        "icon": "strabismus-summary",
+        "source_ids": ["AAPOS:STRABISMUS-2024", "AAPOS:AMBLYOPIA-2026", "CDC:STROKE-SIGNS-2026"]
+      },
+      {
+        "heading": "Alignment requires teamwork",
+        "narration": "Six muscles move each eye, but alignment depends on much more than muscle strength. The brain must coordinate both eyes so they point at the same target and combine two images into one. Strabismus may affect one eye or alternate between them. It may appear only when tired or focusing at a certain distance, or remain present all the time. The direction and pattern help identify the cause.",
+        "on_screen": ["Six muscles move each eye", "The brain coordinates both eyes", "Pattern and distance provide clues"],
+        "icon": "binocular-alignment",
+        "source_ids": ["AAPOS:STRABISMUS-2024", "AAPOS:ADULT-STRABISMUS-2026"]
+      },
+      {
+        "heading": "Inward and outward turns behave differently",
+        "narration": "Esotropia points an eye toward the nose. Some children cross because farsighted focusing also pulls the eyes inward, and proper glasses may greatly improve alignment. Exotropia points an eye outward. An intermittent outward drift may appear when a person is tired, ill, daydreaming, looking far away, or in bright sunlight. Neither pattern can be diagnosed reliably from one photograph, because camera angle and facial anatomy can create a false appearance.",
+        "on_screen": ["Esotropia turns inward", "Exotropia turns outward", "One photograph can mislead"],
+        "icon": "esotropia-exotropia",
+        "source_ids": ["AAPOS:ESOTROPIA-2024", "AAPOS:EXOTROPIA-2025"]
+      },
+      {
+        "heading": "When a baby's crossing needs assessment",
+        "narration": "Small intermittent crossing can occur during the first few months while visual control develops. Constant crossing at any age is concerning, and any inward turn that continues beyond about four months should be examined. A wide nasal bridge or eyelid folds can make straight eyes look crossed, called pseudostrabismus, but appearance alone cannot prove that the eyes are aligned. Pediatric eye examination settles the question.",
+        "on_screen": ["Brief early crossing can occur", "Constant crossing is concerning", "Pseudostrabismus can mimic a turn"],
+        "icon": "infant-eye-alignment",
+        "source_ids": ["AAPOS:ESOTROPIA-2024", "PUBMED:PEDIATRIC-EYE-SCREENING-2022"]
+      },
+      {
+        "heading": "Amblyopia is not the same as strabismus",
+        "narration": "Strabismus describes where the eyes point. Amblyopia describes reduced vision because the developing brain did not learn to use an eye normally. When a child's eyes point in different directions, the brain may ignore one image to avoid confusion. The child may never report blur because the stronger eye takes over. Glasses, patching, or atropine may treat amblyopia, but eye alignment may need separate treatment. Earlier care gives visual development the best chance.",
+        "on_screen": ["Strabismus is alignment", "Amblyopia is reduced visual development", "Treat vision and alignment separately"],
+        "icon": "amblyopia-development",
+        "source_ids": ["AAPOS:AMBLYOPIA-2026", "PUBMED:PEDIATRIC-EYE-SCREENING-2022"]
+      },
+      {
+        "heading": "A new adult eye turn needs an explanation",
+        "narration": "Adults may have childhood strabismus that returns, but a new turn can result from a cranial nerve palsy, thyroid eye disease, trauma, diabetes-related nerve injury, myasthenia, orbital disease, or stroke. New double vision is common because an adult brain usually does not suppress the second image. Covering either eye may stop binocular double vision temporarily, but this does not identify the cause and should not delay assessment.",
+        "on_screen": ["Adult causes differ", "New misalignment often causes double vision", "Temporary covering is not a diagnosis"],
+        "icon": "adult-strabismus",
+        "source_ids": ["AAPOS:STRABISMUS-2024", "AAPOS:ADULT-STRABISMUS-2026"]
+      },
+      {
+        "heading": "Know the emergency combinations",
+        "narration": "Call emergency services for sudden eye misalignment or double vision with weakness, numbness, speech difficulty, confusion, severe unexplained headache, trouble walking, dizziness, or loss of balance. Sudden drooping eyelid, unequal pupils, severe eye or head pain, or recent head and orbital trauma also need emergency evaluation. Even if the symptoms disappear after minutes, a transient ischemic attack remains possible and still requires urgent medical care.",
+        "on_screen": ["Sudden double vision can be neurological", "Check pupils, eyelids, speech, and balance", "Brief symptoms still matter"],
+        "icon": "strabismus-red-flags",
+        "source_ids": ["CDC:STROKE-SIGNS-2026", "AAPOS:STRABISMUS-2024"]
+      },
+      {
+        "heading": "How clinicians measure and treat it",
+        "narration": "Now, let us go deeper. Examination measures alignment at distance and near, with each eye covered in turn and in different gaze positions. Clinicians test vision in each eye, focusing power, eye movement, pupils, depth perception, and eye health. Treatment follows the pattern and goal. Options include glasses, amblyopia therapy, prisms, selected exercises, botulinum toxin, or eye-muscle surgery. Adult surgery can improve function and quality of life; it is not merely cosmetic.",
+        "on_screen": ["Measure distance, near, and gaze", "Test each eye separately", "Match treatment to the cause and goal"],
+        "icon": "strabismus-examination",
+        "source_ids": ["AAPOS:STRABISMUS-2024", "AAPOS:ESOTROPIA-2024", "AAPOS:ADULT-STRABISMUS-2026"]
+      },
+      {
+        "heading": "Three essential takeaways",
+        "narration": "Number one, strabismus means eye misalignment, while amblyopia means reduced visual development, and a child can have either or both. Number two, constant crossing at any age, crossing beyond early infancy, or an increasingly frequent outward drift deserves a complete eye examination. Number three, seek emergency care for sudden eye turning or double vision with headache, weakness, numbness, speech change, imbalance, eyelid droop, unequal pupils, severe pain, or trauma.",
+        "on_screen": ["Alignment and vision are different", "Early examination protects development", "Know the emergency warning signs"],
+        "icon": "checklist",
+        "source_ids": ["AAPOS:AMBLYOPIA-2026", "AAPOS:ESOTROPIA-2024", "AAPOS:EXOTROPIA-2025", "CDC:STROKE-SIGNS-2026"]
+      }
+    ],
+    "closing": "On the next episode, we will explain why your eyes can struggle to work together up close, including convergence insufficiency, reading symptoms, useful tests, and treatments. Until then, remember that straight-looking eyes do not guarantee equal vision, and a new eye turn should never be dismissed.",
+    "description": "Strabismus can turn one eye inward, outward, upward, or downward. This episode explains esotropia, exotropia, amblyopia risk, childhood and adult patterns, examination, treatment, and emergency warning signs.",
+    "thumbnail_text": "WHY DOES ONE EYE TURN?"
+  }
+}
