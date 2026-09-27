@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "workflow": "chatgpt-reviewed-v20",
-  "updated_at": "2026-09-26T09:12:14Z",
-  "next_episode_number": 47,
+  "updated_at": "2026-09-27T09:24:09Z",
+  "next_episode_number": 48,
   "next_planned_topic": {
-    "id": "involuntary-eye-movements",
-    "title": "Why Your Eyes Move on Their Own",
-    "reason": "It continues the eye and neurological sequence by explaining nystagmus, common lifelong patterns, acquired causes, and warning signs that need urgent assessment."
+    "id": "eye-turning-strabismus",
+    "title": "Why One Eye Turns In or Out",
+    "reason": "It continues the eye-health sequence by explaining strabismus, amblyopia risk in children, double vision in adults, and when a new eye turn needs urgent assessment."
   },
   "packets": [
     {
@@ -274,6 +274,13 @@
       "title": "E46: Why One Eyelid Starts Drooping",
       "file": "episodes/E46-drooping-eyelid.json",
       "status": "ready"
+    },
+    {
+      "episode_number": 47,
+      "topic_id": "involuntary-eye-movements",
+      "title": "E47: Why Your Eyes Move on Their Own",
+      "file": "episodes/E47-involuntary-eye-movements.json",
+      "status": "ready"
     }
   ],
   "evergreen_sequence": [
@@ -412,6 +419,10 @@
     {
       "id": "involuntary-eye-movements",
       "title": "Why Your Eyes Move on Their Own"
+    },
+    {
+      "id": "eye-turning-strabismus",
+      "title": "Why One Eye Turns In or Out"
     }
   ],
   "editorial_policy": {
