@@ -1,0 +1,159 @@
+{
+  "schema": 2,
+  "editorial": {
+    "workflow": "chatgpt-reviewed-v20",
+    "reviewed_by": "ChatGPT medical editorial workflow",
+    "reviewed_on": "2026-09-27",
+    "episode_number": 49,
+    "language": "English",
+    "spoken_host_name_allowed": false,
+    "long_dashes_allowed": false,
+    "target_minutes": 10
+  },
+  "topic_id": "convergence-insufficiency",
+  "topic": {
+    "id": "convergence-insufficiency",
+    "title": "Why Your Eyes Struggle to Work Together Up Close",
+    "audience_question": "Why can reading or close work cause eye strain, blur, double vision, and loss of place even when distance vision seems normal?",
+    "pubmed_query": "convergence insufficiency diagnosis near point fusional vergence randomized trial vision therapy reading outcomes",
+    "icon_keywords": ["convergence", "binocular-vision", "reading", "eye-strain", "double-vision"],
+    "category": "eye-health"
+  },
+  "sources": [
+    {
+      "id": "NEI:CI-2024",
+      "title": "Convergence Insufficiency",
+      "abstract": "The National Eye Institute explains that convergence insufficiency causes difficulty coordinating the eyes for near tasks, with blur, double vision, headache, tired eyes, trouble concentrating, and loss of place. Diagnosis requires an eye examination, and treatment may include convergence exercises, prism glasses, or surgery in selected cases.",
+      "journal": "National Eye Institute",
+      "year": "2024",
+      "url": "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/convergence-insufficiency",
+      "doi": null
+    },
+    {
+      "id": "AAPOS:CI-2024",
+      "title": "Convergence Insufficiency",
+      "abstract": "AAPOS describes convergence insufficiency as failure to keep both eyes working together at near while distance alignment can remain normal. Symptoms include double vision, headache, eye strain, moving or blurry words, and closing one eye. Examination includes near point of convergence, fusional vergence, alignment, refraction, eye movements, and accommodation.",
+      "journal": "American Association for Pediatric Ophthalmology and Strabismus",
+      "year": "2024",
+      "url": "https://aapos.org/glossary/convergence-insufficiency",
+      "doi": null
+    },
+    {
+      "id": "CITT:CHILD-TREATMENT-2008",
+      "title": "Randomized Clinical Trial of Treatments for Symptomatic Convergence Insufficiency in Children",
+      "abstract": "This multicenter randomized trial of 221 children aged 9 to 17 found that office-based vergence and accommodative therapy with home reinforcement produced better symptom and clinical outcomes than home pencil pushups, home computer therapy with pushups, or office placebo after 12 weeks.",
+      "journal": "Archives of Ophthalmology",
+      "year": "2008",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18852411/",
+      "doi": "10.1001/archopht.126.10.1336"
+    },
+    {
+      "id": "COCHRANE:CI-2020",
+      "title": "Interventions for Convergence Insufficiency: A Network Meta-analysis",
+      "abstract": "The Cochrane review found high-certainty evidence in children that office-based vergence and accommodative therapy with home reinforcement was more effective for clinical treatment success than home pencil pushups, home computer therapy, or placebo. Evidence comparing nonsurgical treatments in adults was less clear.",
+      "journal": "Cochrane Database of Systematic Reviews",
+      "year": "2020",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33263359/",
+      "doi": "10.1002/14651858.CD006768.pub3"
+    },
+    {
+      "id": "CITT-ART:READING-2019",
+      "title": "Effect of Vergence and Accommodative Therapy on Reading in Children with Convergence Insufficiency",
+      "abstract": "In this randomized trial of 310 children aged 9 to 14, office-based therapy improved clinical convergence measures but did not improve standardized reading performance more than placebo after 16 weeks. Treatment should not be presented as a cure for reading disorders.",
+      "journal": "Optometry and Vision Science",
+      "year": "2019",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31651592/",
+      "doi": "10.1097/OPX.0000000000001442"
+    },
+    {
+      "id": "CINAPS:ADULT-2020",
+      "title": "Convergence Insufficiency Neuro-mechanism in Adult Population Study Randomized Clinical Trial",
+      "abstract": "This double-masked randomized trial examined office-based vergence and accommodative therapy in young adults with symptomatic convergence insufficiency and reported improvements in clinical signs and symptoms, while the broader adult evidence base remains smaller and less certain than the pediatric evidence.",
+      "journal": "Optometry and Vision Science",
+      "year": "2020",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33186192/",
+      "doi": "10.1097/OPX.0000000000001604"
+    },
+    {
+      "id": "CDC:STROKE-SIGNS-2026",
+      "title": "Signs and Symptoms of Stroke",
+      "abstract": "The Centers for Disease Control and Prevention lists sudden trouble seeing, weakness or numbness, speech difficulty, loss of balance, and severe unexplained headache as stroke warning signs requiring immediate emergency action.",
+      "journal": "Centers for Disease Control and Prevention",
+      "year": "2026",
+      "url": "https://www.cdc.gov/stroke/signs-symptoms/index.html",
+      "doi": null
+    }
+  ],
+  "episode": {
+    "title": "E49: Why Your Eyes Struggle to Work Together Up Close",
+    "hook": "Hello and welcome to the Your Only Doc podcast. Imagine that distance signs look clear, but after ten minutes of reading your eyes ache, the words blur or seem to move, and you keep losing your place. Closing one eye briefly makes the page easier. The problem may not be sharpness in either eye. It may be the effort required to keep both eyes aimed at the same nearby target.",
+    "sections": [
+      {
+        "heading": "The high yield summary",
+        "narration": "Too busy? Here is your high yield summary. Convergence insufficiency means the eyes cannot comfortably maintain their inward teamwork for close work, even though they may look straight at distance. It can cause eye strain, headache, blur, double vision, moving words, loss of place, or closing one eye. A routine sight chart can miss it. Diagnosis needs binocular testing, and treatment should follow a complete eye examination rather than a self-prescribed exercise.",
+        "on_screen": ["Near teamwork fails", "Distance vision may look normal", "Binocular testing is required"],
+        "icon": "convergence-summary",
+        "source_ids": ["NEI:CI-2024", "AAPOS:CI-2024"]
+      },
+      {
+        "heading": "What convergence normally does",
+        "narration": "When a target moves closer, both eyes turn inward, the lenses change focus, and the pupils adjust. The brain then fuses the two views into one stable image. In convergence insufficiency, the eyes tend to drift outward at near or cannot sustain enough inward alignment. The person may compensate for a while, then symptoms build as the task continues. Looking far away may feel normal because less convergence is required.",
+        "on_screen": ["Eyes turn inward at near", "The brain fuses two views", "Symptoms build with sustained work"],
+        "icon": "near-convergence",
+        "source_ids": ["NEI:CI-2024", "AAPOS:CI-2024"]
+      },
+      {
+        "heading": "The symptoms can look like a reading problem",
+        "narration": "A child may reread lines, rub the eyes, avoid homework, lose concentration, or report that print swims. An adult may develop headache, fatigue, blur, or intermittent double vision after screens, sewing, or paperwork. These experiences are real, but they are not specific. Dry eye, an outdated prescription, focusing weakness, migraine, strabismus, and language-based reading difficulty can create overlapping complaints. Symptoms alone cannot name the cause.",
+        "on_screen": ["Loss of place and fatigue", "Near tasks reveal symptoms", "Many conditions can overlap"],
+        "icon": "reading-symptoms",
+        "source_ids": ["AAPOS:CI-2024", "CITT-ART:READING-2019"]
+      },
+      {
+        "heading": "A sight chart is not enough",
+        "narration": "A complete examination checks vision and prescription in each eye, eye health, movement, alignment at distance and near, and near focusing. The clinician measures how close a target can approach before the eyes separate or double vision begins, called the near point of convergence. Prisms test how much inward reserve the eyes can produce, called positive fusional vergence. Repeated, consistent findings matter more than one tired attempt.",
+        "on_screen": ["Check refraction and eye health", "Measure near point", "Test fusional vergence"],
+        "icon": "binocular-exam",
+        "source_ids": ["AAPOS:CI-2024", "CITT-ART:READING-2019"]
+      },
+      {
+        "heading": "Treatment evidence needs careful wording",
+        "narration": "For symptomatic children, the strongest trial evidence supports structured office-based vergence and accommodative therapy with home reinforcement over pencil pushups alone, home computer therapy, or placebo for improving clinical convergence outcomes. Adult studies are smaller, so certainty is lower. Some people may use prescribed home exercises or prism, depending on age, findings, access, cost, and goals. Treatment should be monitored and adjusted, not copied from an online video.",
+        "on_screen": ["Structured therapy has pediatric evidence", "Adult evidence is less certain", "Treatment must match the examination"],
+        "icon": "convergence-therapy",
+        "source_ids": ["CITT:CHILD-TREATMENT-2008", "COCHRANE:CI-2020", "CINAPS:ADULT-2020"]
+      },
+      {
+        "heading": "Do not promise a cure for dyslexia or attention",
+        "narration": "Treating convergence can improve eye coordination and may make near work more comfortable. That is different from teaching the brain to decode language. In a large randomized trial, office-based therapy did not improve standardized reading scores more than placebo. Another trial found no advantage for attention. A child can have convergence insufficiency and dyslexia, attention-deficit disorder, or both. Each problem deserves its own assessment and evidence-based support.",
+        "on_screen": ["Comfort is not literacy", "Reading scores did not improve", "Evaluate coexisting problems separately"],
+        "icon": "reading-evidence",
+        "source_ids": ["CITT-ART:READING-2019", "NEI:CI-2024"]
+      },
+      {
+        "heading": "Know when the pattern is not routine",
+        "narration": "Longstanding symptoms that appear only during near work usually allow a scheduled eye appointment. Sudden new double vision, a new outward eye drift, or symptoms after concussion need prompt assessment. Seek emergency care when sudden visual trouble comes with weakness, numbness, facial droop, speech difficulty, severe unexplained headache, confusion, or loss of balance. Do not label a sudden neurological change as ordinary convergence insufficiency.",
+        "on_screen": ["Sudden change needs assessment", "Concussion can alter convergence", "Neurological signs are an emergency"],
+        "icon": "convergence-red-flags",
+        "source_ids": ["AAPOS:CI-2024", "CDC:STROKE-SIGNS-2026"]
+      },
+      {
+        "heading": "How to use the diagnosis well",
+        "narration": "Now, let us go deeper. A useful diagnosis links symptoms with reproducible signs and follows change over time. Before therapy, correct a meaningful glasses prescription and identify dry eye, focusing weakness, or strabismus. During care, track the near point, fusional reserves, symptom pattern, and whether daily tasks actually feel easier. Improvement on one number is not enough if function is unchanged, and symptom improvement alone does not prove that convergence normalized.",
+        "on_screen": ["Link symptoms with measured signs", "Treat contributing problems", "Track function and examination together"],
+        "icon": "clinical-follow-up",
+        "source_ids": ["AAPOS:CI-2024", "CITT-ART:READING-2019", "COCHRANE:CI-2020"]
+      },
+      {
+        "heading": "Three essential takeaways",
+        "narration": "Number one, clear distance vision does not rule out convergence insufficiency, because the problem is maintaining binocular alignment at near. Number two, get a complete eye examination before starting exercises, and use treatment matched to measured findings. Number three, therapy may improve convergence and comfort, but it is not a proven cure for dyslexia or attention problems, and sudden double vision with neurological symptoms requires emergency care.",
+        "on_screen": ["Distance clarity can hide near difficulty", "Measure before treating", "Respect evidence and red flags"],
+        "icon": "checklist",
+        "source_ids": ["NEI:CI-2024", "COCHRANE:CI-2020", "CITT-ART:READING-2019", "CDC:STROKE-SIGNS-2026"]
+      }
+    ],
+    "closing": "On the next episode, we will explain why your vision can take time to refocus when you look from a phone to something far away, including accommodation, age-related change, medicines, and warning signs. Until then, remember that comfortable reading depends on sharp sight, steady focus, and two eyes working together.",
+    "description": "Convergence insufficiency can make reading and close work uncomfortable even when distance vision is clear. This episode explains symptoms, binocular testing, treatment evidence, reading claims, follow-up, and urgent warning signs.",
+    "thumbnail_text": "WHY READING STRAINS YOUR EYES"
+  }
+}
