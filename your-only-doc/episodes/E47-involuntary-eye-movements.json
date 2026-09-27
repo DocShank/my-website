@@ -1,0 +1,159 @@
+{
+  "schema": 2,
+  "editorial": {
+    "workflow": "chatgpt-reviewed-v20",
+    "reviewed_by": "ChatGPT medical editorial workflow",
+    "reviewed_on": "2026-09-27",
+    "episode_number": 47,
+    "language": "English",
+    "spoken_host_name_allowed": false,
+    "long_dashes_allowed": false,
+    "target_minutes": 10
+  },
+  "topic_id": "involuntary-eye-movements",
+  "topic": {
+    "id": "involuntary-eye-movements",
+    "title": "Why Your Eyes Move on Their Own",
+    "audience_question": "What causes involuntary eye movements, and when does new nystagmus need urgent assessment?",
+    "pubmed_query": "nystagmus infantile acquired oscillopsia vestibular central stroke diagnosis treatment",
+    "icon_keywords": ["nystagmus", "eye-movement", "oscillopsia", "vestibular", "neurology"],
+    "category": "eye-health"
+  },
+  "sources": [
+    {
+      "id": "AAO:NYSTAGMUS-2026",
+      "title": "What Is Nystagmus?",
+      "abstract": "The American Academy of Ophthalmology describes nystagmus as involuntary, rapid, repetitive eye movement that may be horizontal, vertical, or rotary. It reviews infantile and acquired forms, symptoms, examination, and treatment approaches.",
+      "journal": "American Academy of Ophthalmology",
+      "year": "2026",
+      "url": "https://www.aao.org/eye-health/diseases/what-is-nystagmus",
+      "doi": null
+    },
+    {
+      "id": "AAPOS:NYSTAGMUS-2025",
+      "title": "Nystagmus",
+      "abstract": "The American Association for Pediatric Ophthalmology and Strabismus distinguishes early-onset from acquired nystagmus, explains associated eye and neurological disorders, and recommends medical and eye assessment for any new nystagmus.",
+      "journal": "American Association for Pediatric Ophthalmology and Strabismus",
+      "year": "2025",
+      "url": "https://aapos.org/glossary/nystagmus",
+      "doi": null
+    },
+    {
+      "id": "MEDLINEPLUS:NYSTAGMUS-2025",
+      "title": "Nystagmus",
+      "abstract": "MedlinePlus explains that nystagmus may affect vision, balance, and coordination. Acquired causes include medicines, alcohol, inner-ear disease, head injury, stroke, nutritional deficiency, multiple sclerosis, tumors, and other neurological disorders.",
+      "journal": "MedlinePlus, National Library of Medicine",
+      "year": "2025",
+      "url": "https://medlineplus.gov/ency/article/003037.htm",
+      "doi": null
+    },
+    {
+      "id": "SAEM:GRACE3-DIZZINESS-2023",
+      "title": "GRACE-3: Acute Dizziness and Vertigo in the Emergency Department",
+      "abstract": "This evidence-based emergency medicine guideline recommends that trained clinicians use the HINTS examination in acute vestibular syndrome with nystagmus to distinguish central causes such as stroke from peripheral inner-ear causes, with targeted imaging for central or equivocal findings.",
+      "journal": "Society for Academic Emergency Medicine",
+      "year": "2023",
+      "url": "https://www.saem.org/publications/grace/grace-3",
+      "doi": "10.1111/acem.14728"
+    },
+    {
+      "id": "PUBMED:INFANTILE-NYSTAGMUS-2015",
+      "title": "Infantile Nystagmus Syndrome: Clinical Characteristics, Current Theories of Pathogenesis, Diagnosis, and Management",
+      "abstract": "This peer reviewed clinical review explains that infantile nystagmus has varied manifestations and may be associated with ocular, neurological, systemic, or genetic conditions, requiring a structured diagnostic approach.",
+      "journal": "Canadian Journal of Ophthalmology",
+      "year": "2015",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26651297/",
+      "doi": "10.1016/j.jcjo.2015.07.010"
+    },
+    {
+      "id": "PUBMED:NYSTAGMUS-REVIEW-2025",
+      "title": "Nystagmus in Clinical Practice: From Diagnosis to Treatment, A Comprehensive Review",
+      "abstract": "This comprehensive review classifies physiological and pathological nystagmus and discusses visual effects, examination, imaging, eye tracking, treatment of underlying disease, optical correction, medicines, and selected surgical approaches.",
+      "journal": "Clinical Ophthalmology",
+      "year": "2025",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40401036/",
+      "doi": "10.2147/OPTH.S523224"
+    },
+    {
+      "id": "NINDS:MS-2025",
+      "title": "Multiple Sclerosis",
+      "abstract": "The National Institute of Neurological Disorders and Stroke notes that multiple sclerosis can cause uncontrolled horizontal or vertical eye movements, double vision, imbalance, and other neurological symptoms through injury to the central nervous system.",
+      "journal": "National Institute of Neurological Disorders and Stroke",
+      "year": "2025",
+      "url": "https://www.ninds.nih.gov/health-information/disorders/multiple-sclerosis-ms",
+      "doi": null
+    }
+  ],
+  "episode": {
+    "title": "E47: Why Your Eyes Move on Their Own",
+    "hook": "Hello and welcome to the Your Only Doc podcast. Imagine trying to read a sign while the letters seem to bounce, or noticing that a child's eyes repeatedly move from side to side even though the child is looking straight ahead. Repetitive involuntary eye movement is called nystagmus. It can begin in infancy and remain stable for life, or appear suddenly because something has changed in the inner ear, brain, medicine list, or nervous system.",
+    "sections": [
+      {
+        "heading": "The high yield summary",
+        "narration": "Too busy? Here is your high yield summary. Nystagmus describes rhythmic eye movement that a person does not intentionally produce. Early-onset nystagmus often behaves very differently from a new movement that begins in adulthood. Any newly acquired nystagmus needs medical assessment. Seek emergency care when it begins suddenly with continuous severe dizziness, inability to walk, new weakness or numbness, double vision, speech difficulty, severe headache, confusion, hearing loss, or recent head injury.",
+        "on_screen": ["Early-onset and acquired forms differ", "New nystagmus needs assessment", "Sudden neurological signs are an emergency"],
+        "icon": "nystagmus-summary",
+        "source_ids": ["AAO:NYSTAGMUS-2026", "AAPOS:NYSTAGMUS-2025", "SAEM:GRACE3-DIZZINESS-2023"]
+      },
+      {
+        "heading": "What the eyes are doing",
+        "narration": "The movements may be horizontal, vertical, or twisting. In jerk nystagmus, the eyes drift one way and make a faster corrective movement the other way. In pendular nystagmus, movement is more evenly paced in both directions. Direction, speed, gaze position, and whether both eyes move together help clinicians locate the affected system. A short video can document an episode, but it cannot safely identify the cause by itself.",
+        "on_screen": ["Horizontal, vertical, or twisting", "Jerk and pendular patterns", "Direction and gaze provide clues"],
+        "icon": "nystagmus-patterns",
+        "source_ids": ["AAO:NYSTAGMUS-2026", "PUBMED:NYSTAGMUS-REVIEW-2025"]
+      },
+      {
+        "heading": "Some repetitive movement is physiological",
+        "narration": "The eye movement system normally keeps images steady while the head moves. Repetitive movements can appear when watching scenery pass from a moving vehicle, during specific vestibular testing, or briefly at extreme side gaze. These responses are not the same as persistent nystagmus during ordinary viewing. The inner ear, brainstem, cerebellum, and visual pathways must cooperate continuously, so disturbance anywhere in that network can alter the pattern.",
+        "on_screen": ["Eyes stabilize images during head movement", "Some testing responses are normal", "Persistent movement needs context"],
+        "icon": "vestibulo-ocular-reflex",
+        "source_ids": ["MEDLINEPLUS:NYSTAGMUS-2025", "PUBMED:NYSTAGMUS-REVIEW-2025"]
+      },
+      {
+        "heading": "Infantile nystagmus starts early",
+        "narration": "Infantile nystagmus usually appears within the first months of life. The world often does not seem to bounce because the developing brain adapts to the movement. Vision can still be reduced. Movement may quiet in one direction, called a null point, so a child may turn or tilt the head to see more clearly. That head posture is a visual strategy, not bad behavior, and persistent neck strain deserves attention.",
+        "on_screen": ["Usually begins in early infancy", "The brain often adapts", "A null point may cause a head turn"],
+        "icon": "infantile-nystagmus",
+        "source_ids": ["AAPOS:NYSTAGMUS-2025", "PUBMED:INFANTILE-NYSTAGMUS-2015"]
+      },
+      {
+        "heading": "Children need a complete eye assessment",
+        "narration": "Nystagmus in a baby can occur by itself or accompany reduced visual input from cataract, albinism, severe focusing error, retinal disease, optic nerve underdevelopment, or other conditions. That is why simply naming the movement is not enough. An ophthalmic examination checks visual behavior, focusing error, eye alignment, pupils, the retina, and optic nerves. Depending on age and findings, clinicians may add retinal testing, genetic assessment, or brain imaging.",
+        "on_screen": ["Look for an underlying eye condition", "Check retina and optic nerves", "Testing depends on the examination"],
+        "icon": "child-eye-exam",
+        "source_ids": ["AAPOS:NYSTAGMUS-2025", "PUBMED:INFANTILE-NYSTAGMUS-2015"]
+      },
+      {
+        "heading": "Acquired nystagmus feels different",
+        "narration": "When nystagmus develops later, people may describe oscillopsia, the illusion that the room or objects are moving. They may also have blurred vision, imbalance, nausea, or vertigo. Causes include inner-ear disorders, medicine effects, excess alcohol, nutritional deficiency, head injury, multiple sclerosis, stroke, tumors, or other brain and nerve disorders. Do not stop a prescribed medicine suddenly. Bring the full medicine and substance list to the assessment.",
+        "on_screen": ["Oscillopsia means a moving visual world", "Inner ear and brain causes differ", "Review medicines without stopping them abruptly"],
+        "icon": "acquired-nystagmus",
+        "source_ids": ["MEDLINEPLUS:NYSTAGMUS-2025", "NINDS:MS-2025", "PUBMED:NYSTAGMUS-REVIEW-2025"]
+      },
+      {
+        "heading": "Sudden dizziness needs trained examination",
+        "narration": "New continuous dizziness with nystagmus may come from vestibular neuritis in the inner ear, but a stroke in the brainstem or cerebellum can look similar. Trained clinicians use the timing, neurological examination, gait, hearing, and specific eye movement tests to separate these possibilities. The HINTS examination is not a home test and can be misleading without training. If you cannot stand or walk normally, or have new neurological symptoms, call emergency services.",
+        "on_screen": ["Inner-ear disease can mimic stroke", "HINTS requires trained clinicians", "Severe gait or neurological change is urgent"],
+        "icon": "acute-vestibular-warning",
+        "source_ids": ["SAEM:GRACE3-DIZZINESS-2023", "MEDLINEPLUS:NYSTAGMUS-2025"]
+      },
+      {
+        "heading": "How clinicians investigate and treat it",
+        "narration": "Now, let us go deeper. The examination records onset, triggers, direction, gaze dependence, vision, eye alignment, pupils, hearing, balance, coordination, and other neurological signs. Video goggles or eye tracking may measure movements. Imaging, blood tests, vestibular tests, retinal studies, or genetic testing are chosen from the findings. Treatment targets the cause. Glasses or contact lenses may improve vision, rehabilitation can help balance, and selected medicines or eye-muscle surgery may reduce symptoms or improve a useful head position.",
+        "on_screen": ["Characterize the movement first", "Choose tests from the pattern", "Treat the cause and functional impact"],
+        "icon": "nystagmus-evaluation",
+        "source_ids": ["AAO:NYSTAGMUS-2026", "AAPOS:NYSTAGMUS-2025", "PUBMED:NYSTAGMUS-REVIEW-2025"]
+      },
+      {
+        "heading": "Three essential takeaways",
+        "narration": "Number one, nystagmus is a sign, not a single diagnosis, and early-onset movement differs from movement acquired later. Number two, a child with nystagmus needs a complete eye assessment, while any new adult-onset movement needs evaluation for medicines, inner-ear disease, and neurological causes. Number three, seek emergency care for sudden nystagmus with severe continuous dizziness, inability to walk, weakness, numbness, double vision, speech change, severe headache, confusion, hearing loss, or head injury.",
+        "on_screen": ["A sign with many causes", "New onset always needs assessment", "Know the emergency combinations"],
+        "icon": "checklist",
+        "source_ids": ["AAPOS:NYSTAGMUS-2025", "MEDLINEPLUS:NYSTAGMUS-2025", "SAEM:GRACE3-DIZZINESS-2023"]
+      }
+    ],
+    "closing": "On the next episode, we will explain why one eye can turn inward or outward, what strabismus means for vision, and when a new eye turn needs urgent assessment. Until then, remember that the most important clue is not simply how the eyes move, but when the movement began and what arrived with it.",
+    "description": "Nystagmus may begin in infancy or develop later from an eye, inner-ear, medicine-related, or neurological cause. This episode explains common movement patterns, oscillopsia, evaluation, treatment, and emergency warning signs.",
+    "thumbnail_text": "WHY DO MY EYES MOVE?"
+  }
+}
