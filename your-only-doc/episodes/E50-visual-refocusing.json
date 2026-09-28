@@ -1,0 +1,177 @@
+{
+  "schema": 2,
+  "editorial": {
+    "workflow": "chatgpt-reviewed-v20",
+    "reviewed_by": "ChatGPT medical editorial workflow",
+    "reviewed_on": "2026-09-28",
+    "episode_number": 50,
+    "language": "English",
+    "spoken_host_name_allowed": false,
+    "long_dashes_allowed": false,
+    "target_minutes": 10
+  },
+  "topic_id": "visual-refocusing",
+  "topic": {
+    "id": "visual-refocusing",
+    "title": "Why Your Vision Takes Time to Refocus",
+    "audience_question": "Why can vision remain blurry for a moment when shifting from a phone or book to something far away, or back again?",
+    "pubmed_query": "ocular accommodation facility delayed refocusing presbyopia accommodative insufficiency spasm medication glucose refractive change",
+    "icon_keywords": ["accommodation", "refocusing", "presbyopia", "lens", "blur"],
+    "category": "eye-health"
+  },
+  "sources": [
+    {
+      "id": "AAO:PRESBYOPIA-2026",
+      "title": "What Is Presbyopia?",
+      "abstract": "The American Academy of Ophthalmology explains that presbyopia is the gradual age-related loss of near focusing ability. The natural lens becomes less flexible, making close objects harder to focus on, commonly beginning in the early to mid-forties.",
+      "journal": "American Academy of Ophthalmology",
+      "year": "2026",
+      "url": "https://www.aao.org/eye-health/diseases/what-is-presbyopia",
+      "doi": null
+    },
+    {
+      "id": "NEI:PRESBYOPIA-2019",
+      "title": "Presbyopia",
+      "abstract": "The National Eye Institute describes presbyopia as an age-related change in which the eye lens becomes harder and less flexible, so it cannot focus light from nearby objects correctly on the retina. Reading glasses, contact lenses, or other optical corrections can restore useful near vision.",
+      "journal": "National Eye Institute",
+      "year": "2019",
+      "url": "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/presbyopia",
+      "doi": null
+    },
+    {
+      "id": "AOA:ACCOMMODATIVE-DYSFUNCTION-2026",
+      "title": "Accommodative Dysfunction",
+      "abstract": "The American Optometric Association describes accommodative dysfunction as an eye-focusing problem that can blur near or distance vision and make rapid shifts between distances difficult, particularly with sustained near-work demands. Diagnosis requires assessment of focusing, eye teaming, and ocular health.",
+      "journal": "American Optometric Association",
+      "year": "2026",
+      "url": "https://www.aoa.org/healthy-eyes/eye-and-vision-conditions/accommodative-dysfunction",
+      "doi": null
+    },
+    {
+      "id": "NCBI:ACCOMMODATIVE-INSUFFICIENCY-2025",
+      "title": "Accommodative Insufficiency",
+      "abstract": "This clinical review describes reduced accommodative amplitude or poor ability to sustain near focus, with near blur, eye strain, frontal headache, reduced reading stamina, and sometimes double vision when vergence dysfunction coexists. Examination distinguishes it from refractive, binocular, ocular, and neurological causes.",
+      "journal": "StatPearls, National Library of Medicine",
+      "year": "2025",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36508537/",
+      "doi": null
+    },
+    {
+      "id": "PUBMED:ACCOMMODATIVE-SPASM-2022",
+      "title": "Accommodative Spasm and Its Different Treatment Approaches: A Systematic Review",
+      "abstract": "This systematic review describes accommodative spasm as excessive or persistent focusing effort that can produce unstable refraction and distance blur after near work. It emphasizes comprehensive clinical diagnosis because treatment evidence and approaches vary.",
+      "journal": "European Journal of Ophthalmology",
+      "year": "2022",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36384286/",
+      "doi": "10.1177/11206721221136856"
+    },
+    {
+      "id": "PUBMED:DIABETES-REFRACTION-2018",
+      "title": "Refractive Changes Associated with Diabetes Mellitus",
+      "abstract": "This review explains that people with diabetes can experience transient visual disturbance from refractive changes associated with changing blood glucose levels, although the direction and mechanism of the shift are not completely predictable.",
+      "journal": "Seminars in Ophthalmology",
+      "year": "2018",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30199309/",
+      "doi": "10.1080/08820538.2018.1519582"
+    },
+    {
+      "id": "PUBMED:DRUG-ACCOMMODATION-2010",
+      "title": "Drug-induced Myopia, Hyperopia and Accommodation Disorders",
+      "abstract": "This review documents that medicines acting on autonomic pathways can alter accommodation and refraction. New focusing difficulty should be reviewed with a clinician or pharmacist rather than prompting a patient to stop prescribed medicine independently.",
+      "journal": "Drug Safety",
+      "year": "2010",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/20738037/",
+      "doi": "10.2165/11536380-000000000-00000"
+    },
+    {
+      "id": "NEI:ANGLE-CLOSURE-2026",
+      "title": "Types of Glaucoma",
+      "abstract": "The National Eye Institute identifies acute angle-closure glaucoma as a medical emergency. Sudden intense eye pain, red eye, blurry vision, and nausea require immediate evaluation because rapid pressure elevation can cause permanent vision loss.",
+      "journal": "National Eye Institute",
+      "year": "2026",
+      "url": "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/glaucoma/types-glaucoma",
+      "doi": null
+    },
+    {
+      "id": "CDC:STROKE-SIGNS-2026",
+      "title": "Signs and Symptoms of Stroke",
+      "abstract": "The Centers for Disease Control and Prevention lists sudden trouble seeing, weakness or numbness, speech difficulty, loss of balance, and severe unexplained headache as stroke warning signs requiring immediate emergency action.",
+      "journal": "Centers for Disease Control and Prevention",
+      "year": "2026",
+      "url": "https://www.cdc.gov/stroke/signs-symptoms/index.html",
+      "doi": null
+    }
+  ],
+  "episode": {
+    "title": "E50: Why Your Vision Takes Time to Refocus",
+    "hook": "Hello and welcome to the Your Only Doc podcast. Imagine looking up from a phone to read a sign across the room. For a few seconds the sign is soft, then it snaps into focus. Later, the reverse happens when you return to the screen. That delay can come from normal focusing effort, age-related lens change, an uncorrected prescription, or a focusing disorder. The timing and accompanying symptoms help separate inconvenience from warning sign.",
+    "sections": [
+      {
+        "heading": "The high yield summary",
+        "narration": "Too busy? Here is your high yield summary. Refocusing is called accommodation. A muscle inside the eye changes the shape and optical power of the natural lens when you switch between near and far. Brief blur after prolonged close work can occur, but repeated delay, headache, eye strain, or reduced reading stamina deserves an eye examination. Age, refractive error, focusing dysfunction, medicines, and changing glucose can contribute. Sudden persistent blur or neurological symptoms need urgent assessment.",
+        "on_screen": ["Accommodation changes lens focus", "Repeated delay deserves examination", "Sudden persistent change can be urgent"],
+        "icon": "refocusing-summary",
+        "source_ids": ["AAO:PRESBYOPIA-2026", "AOA:ACCOMMODATIVE-DYSFUNCTION-2026", "CDC:STROKE-SIGNS-2026"]
+      },
+      {
+        "heading": "Your eyes use an internal autofocus",
+        "narration": "For distance, the focusing system relaxes and the natural lens becomes relatively flatter. For near work, the ciliary muscle contracts and allows the lens to become rounder, increasing its focusing power. The pupils and eye alignment also change as part of the near response. Refocusing therefore depends on the lens, muscle, nerves, prescription, and binocular coordination, not on willpower or simply trying harder to see.",
+        "on_screen": ["Distance relaxes focus", "Near work increases lens power", "Focusing and eye alignment cooperate"],
+        "icon": "accommodation-mechanism",
+        "source_ids": ["NEI:PRESBYOPIA-2019", "AOA:ACCOMMODATIVE-DYSFUNCTION-2026"]
+      },
+      {
+        "heading": "Near work can expose a focusing problem",
+        "narration": "Accommodative insufficiency means the eye cannot produce or sustain the expected amount of near focus. It may cause near blur, brow ache, fatigue, short reading stamina, or avoidance of close tasks. Accommodative infacility means focus changes too slowly between distances. At the opposite extreme, accommodative spasm can hold near focus too strongly, leaving distance vision temporarily blurry after a long close task. These patterns require measurement rather than guesswork.",
+        "on_screen": ["Too little focusing power", "Slow focus switching", "Near focus may remain locked"],
+        "icon": "accommodative-patterns",
+        "source_ids": ["NCBI:ACCOMMODATIVE-INSUFFICIENCY-2025", "AOA:ACCOMMODATIVE-DYSFUNCTION-2026", "PUBMED:ACCOMMODATIVE-SPASM-2022"]
+      },
+      {
+        "heading": "Age changes the natural lens",
+        "narration": "Presbyopia is normal aging, not a disease caused by reading too much. The lens becomes harder and less flexible, so close focus needs more help. People often notice smaller print, dim light, or the need to hold material farther away, usually beginning in the early to mid-forties. Reading glasses, bifocals, progressives, or contact lens strategies can compensate, but they do not make the lens young again.",
+        "on_screen": ["The lens stiffens with age", "Near work becomes harder", "Optical correction restores useful focus"],
+        "icon": "presbyopia",
+        "source_ids": ["AAO:PRESBYOPIA-2026", "NEI:PRESBYOPIA-2019"]
+      },
+      {
+        "heading": "Prescription and teamwork can imitate each other",
+        "narration": "Uncorrected farsightedness makes the focusing system work even at distance, while nearsightedness or astigmatism can blur one or more ranges. Convergence problems can add strain or double vision because accommodation and eye alignment are linked. Dry eye may also create fluctuating clarity that briefly improves after blinking. This is why buying stronger reading glasses without an examination can relieve one distance while hiding the actual combination of problems.",
+        "on_screen": ["Refraction affects every distance", "Focusing and convergence interact", "Blink-related blur suggests the surface"],
+        "icon": "refraction-teamwork",
+        "source_ids": ["AOA:ACCOMMODATIVE-DYSFUNCTION-2026", "NCBI:ACCOMMODATIVE-INSUFFICIENCY-2025"]
+      },
+      {
+        "heading": "Medicines and glucose can shift focus",
+        "narration": "Medicines with anticholinergic or other autonomic effects can reduce accommodation or change refraction. Do not stop a prescribed medicine on your own; review the timing, dose, and alternatives with the prescriber or pharmacist. Diabetes can also cause temporary refractive changes when glucose changes substantially. A rapidly changing glasses prescription should prompt medical and eye evaluation, especially with thirst, frequent urination, weight change, or known diabetes.",
+        "on_screen": ["Some medicines alter accommodation", "Glucose shifts can blur vision", "Review causes before changing glasses"],
+        "icon": "medicine-glucose-focus",
+        "source_ids": ["PUBMED:DRUG-ACCOMMODATION-2010", "PUBMED:DIABETES-REFRACTION-2018"]
+      },
+      {
+        "heading": "The examination tests more than sharpness",
+        "narration": "Now, let us go deeper. A clinician checks distance and near vision, refraction, eye health, pupils, movement, and alignment. Accommodation can be tested by measuring how much near focus remains, whether it can be sustained, and how rapidly it changes through alternating lenses. Dilating drops may temporarily relax accommodation to reveal hidden farsightedness or spasm. Treatment can include the correct prescription, near addition, managed exercises, medicine review, or care for an underlying disorder.",
+        "on_screen": ["Measure focus strength and speed", "Relax focus when needed", "Treat the measured cause"],
+        "icon": "accommodation-exam",
+        "source_ids": ["AOA:ACCOMMODATIVE-DYSFUNCTION-2026", "NCBI:ACCOMMODATIVE-INSUFFICIENCY-2025", "PUBMED:ACCOMMODATIVE-SPASM-2022"]
+      },
+      {
+        "heading": "Recognize the emergency patterns",
+        "narration": "A gradual, repeatable delay between near and far usually allows a scheduled appointment. Seek emergency care for sudden vision loss or persistent new blur with facial droop, weakness, numbness, speech difficulty, confusion, severe unexplained headache, or loss of balance. A suddenly red, intensely painful eye with blurry vision, halos, headache, or nausea may be acute angle-closure glaucoma. Do not wait for either pattern to refocus by itself.",
+        "on_screen": ["Sudden neurological signs are urgent", "Painful red eye with blur is urgent", "Persistent sudden blur is not eye strain"],
+        "icon": "refocusing-red-flags",
+        "source_ids": ["CDC:STROKE-SIGNS-2026", "NEI:ANGLE-CLOSURE-2026"]
+      },
+      {
+        "heading": "Three essential takeaways",
+        "narration": "Number one, refocusing depends on accommodation, refraction, the eye surface, and binocular coordination, so one symptom can have several causes. Number two, age-related presbyopia is common, but frequent delay, strain, headache, double vision, or changing clarity deserves a complete examination before self-treatment. Number three, review medicine and glucose changes safely, and seek emergency help for sudden persistent visual change with neurological signs or a painful red eye with nausea.",
+        "on_screen": ["Several systems create clear focus", "Measure before self-treating", "Know the emergency combinations"],
+        "icon": "checklist",
+        "source_ids": ["AAO:PRESBYOPIA-2026", "PUBMED:DRUG-ACCOMMODATION-2010", "PUBMED:DIABETES-REFRACTION-2018", "CDC:STROKE-SIGNS-2026", "NEI:ANGLE-CLOSURE-2026"]
+      }
+    ],
+    "closing": "On the next episode, we will explain why your glasses prescription can keep changing, including normal variation, dry eye, cataract, corneal shape, diabetes, and when repeated shifts need investigation. Until then, notice whether blur follows distance, time, blinking, medicine, or symptoms, because the pattern often points toward the cause.",
+    "description": "Refocusing between near and far depends on accommodation, refraction, binocular coordination, and eye health. This episode explains normal focusing, presbyopia, accommodative dysfunction, medication and glucose effects, examination, and emergency warning signs.",
+    "thumbnail_text": "WHY FOCUS TAKES TIME"
+  }
+}
