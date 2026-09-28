@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "workflow": "chatgpt-reviewed-v20",
-  "updated_at": "2026-09-27T09:31:16Z",
-  "next_episode_number": 50,
+  "updated_at": "2026-09-28T09:15:30Z",
+  "next_episode_number": 51,
   "next_planned_topic": {
-    "id": "visual-refocusing",
-    "title": "Why Your Vision Takes Time to Refocus",
-    "reason": "It follows convergence insufficiency by explaining accommodation when shifting between near and far, age-related slowing, medication and metabolic contributors, practical evaluation, and warning signs."
+    "id": "changing-glasses-prescription",
+    "title": "Why Your Glasses Prescription Keeps Changing",
+    "reason": "It follows visual refocusing by separating normal measurement variation from dry eye, cataract, corneal shape change, diabetes-related shifts, and other causes that need investigation."
   },
   "packets": [
     {
@@ -295,6 +295,13 @@
       "title": "E49: Why Your Eyes Struggle to Work Together Up Close",
       "file": "episodes/E49-convergence-insufficiency.json",
       "status": "ready"
+    },
+    {
+      "episode_number": 50,
+      "topic_id": "visual-refocusing",
+      "title": "E50: Why Your Vision Takes Time to Refocus",
+      "file": "episodes/E50-visual-refocusing.json",
+      "status": "ready"
     }
   ],
   "evergreen_sequence": [
@@ -445,6 +452,10 @@
     {
       "id": "visual-refocusing",
       "title": "Why Your Vision Takes Time to Refocus"
+    },
+    {
+      "id": "changing-glasses-prescription",
+      "title": "Why Your Glasses Prescription Keeps Changing"
     }
   ],
   "editorial_policy": {
