@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "workflow": "chatgpt-reviewed-v20",
-  "updated_at": "2026-09-28T09:15:30Z",
-  "next_episode_number": 51,
+  "updated_at": "2026-09-29T09:08:56Z",
+  "next_episode_number": 52,
   "next_planned_topic": {
-    "id": "changing-glasses-prescription",
-    "title": "Why Your Glasses Prescription Keeps Changing",
-    "reason": "It follows visual refocusing by separating normal measurement variation from dry eye, cataract, corneal shape change, diabetes-related shifts, and other causes that need investigation."
+    "id": "myopia-progression",
+    "title": "Why Nearsightedness Gets Worse",
+    "reason": "It follows changing prescriptions by explaining childhood eye growth, progression risk, outdoor time, optical correction, and evidence-based approaches that can slow myopia."
   },
   "packets": [
     {
@@ -302,6 +302,13 @@
       "title": "E50: Why Your Vision Takes Time to Refocus",
       "file": "episodes/E50-visual-refocusing.json",
       "status": "ready"
+    },
+    {
+      "episode_number": 51,
+      "topic_id": "changing-glasses-prescription",
+      "title": "E51: Why Your Glasses Prescription Keeps Changing",
+      "file": "episodes/E51-changing-glasses-prescription.json",
+      "status": "ready"
     }
   ],
   "evergreen_sequence": [
@@ -456,6 +463,10 @@
     {
       "id": "changing-glasses-prescription",
       "title": "Why Your Glasses Prescription Keeps Changing"
+    },
+    {
+      "id": "myopia-progression",
+      "title": "Why Nearsightedness Gets Worse"
     }
   ],
   "editorial_policy": {
