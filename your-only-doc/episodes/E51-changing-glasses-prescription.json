@@ -1,0 +1,177 @@
+{
+  "schema": 2,
+  "editorial": {
+    "workflow": "chatgpt-reviewed-v20",
+    "reviewed_by": "ChatGPT medical editorial workflow",
+    "reviewed_on": "2026-09-29",
+    "episode_number": 51,
+    "language": "English",
+    "spoken_host_name_allowed": false,
+    "long_dashes_allowed": false,
+    "target_minutes": 10
+  },
+  "topic_id": "changing-glasses-prescription",
+  "topic": {
+    "id": "changing-glasses-prescription",
+    "title": "Why Your Glasses Prescription Keeps Changing",
+    "audience_question": "Why can a glasses prescription change repeatedly, and when does that pattern need more than another pair of lenses?",
+    "pubmed_query": "changing spectacle prescription refraction variability dry eye cataract keratoconus diabetes refractive shift",
+    "icon_keywords": ["glasses", "refraction", "cornea", "cataract", "glucose"],
+    "category": "eye-health"
+  },
+  "sources": [
+    {
+      "id": "NEI:REFRACTIVE-ERRORS-2025",
+      "title": "Refractive Errors",
+      "abstract": "The National Eye Institute explains that refractive error occurs when eye shape prevents light from focusing correctly on the retina. Myopia, hyperopia, astigmatism, and presbyopia can cause blur, and an eye examination determines the optical correction needed.",
+      "journal": "National Eye Institute",
+      "year": "2025",
+      "url": "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/refractive-errors",
+      "doi": null
+    },
+    {
+      "id": "PUBMED:REFRACTION-VARIABILITY-2025",
+      "title": "Determining the Variability Associated with Visual Acuity and Refractive Error Measurements: A Systematic Review",
+      "abstract": "This systematic review found meaningful measurement variability in adult visual acuity and refractive error testing. A prescription is therefore an estimate made within a range, and small differences between examinations do not automatically prove disease progression.",
+      "journal": "Ophthalmology",
+      "year": "2025",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40288446/",
+      "doi": "10.1016/j.ophtha.2025.04.021"
+    },
+    {
+      "id": "NEI:DRY-EYE-2025",
+      "title": "Dry Eye",
+      "abstract": "The National Eye Institute lists burning, scratchiness, redness, and blurry vision among dry-eye symptoms. Evaluation can include examination of the eye surface and measurement of tear quantity, tear persistence, and eyelid structure.",
+      "journal": "National Eye Institute",
+      "year": "2025",
+      "url": "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/dry-eye",
+      "doi": null
+    },
+    {
+      "id": "NEI:CATARACTS-2025",
+      "title": "Cataracts",
+      "abstract": "The National Eye Institute explains that cataracts cloud the natural lens and can cause blurry or hazy vision, faded color, glare, halos, poor night vision, double vision in one eye, and frequent changes in a glasses or contact lens prescription.",
+      "journal": "National Eye Institute",
+      "year": "2025",
+      "url": "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/cataracts",
+      "doi": null
+    },
+    {
+      "id": "AAO:KERATOCONUS-2026",
+      "title": "What Is Keratoconus?",
+      "abstract": "The American Academy of Ophthalmology describes keratoconus as progressive thinning and bulging of the cornea. The altered corneal shape can create irregular astigmatism, blur, glare, and frequent optical changes that may require corneal imaging and specialized correction.",
+      "journal": "American Academy of Ophthalmology",
+      "year": "2026",
+      "url": "https://www.aao.org/eye-health/diseases/what-is-keratoconus",
+      "doi": null
+    },
+    {
+      "id": "PUBMED:DIABETES-REFRACTION-2018",
+      "title": "Refractive Changes Associated with Diabetes Mellitus",
+      "abstract": "This review explains that changing blood glucose can produce transient refractive shifts and visual disturbance in diabetes. The direction of change is not reliably predictable, so unstable vision should prompt medical and eye evaluation rather than repeated spectacle changes alone.",
+      "journal": "Seminars in Ophthalmology",
+      "year": "2018",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30199309/",
+      "doi": "10.1080/08820538.2018.1519582"
+    },
+    {
+      "id": "NEI:PRESBYOPIA-2019",
+      "title": "Presbyopia",
+      "abstract": "The National Eye Institute describes presbyopia as a normal age-related loss of near focusing ability caused by a lens that becomes harder and less flexible. Near correction commonly needs adjustment over time.",
+      "journal": "National Eye Institute",
+      "year": "2019",
+      "url": "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/presbyopia",
+      "doi": null
+    },
+    {
+      "id": "NEI:ANGLE-CLOSURE-2026",
+      "title": "Types of Glaucoma",
+      "abstract": "The National Eye Institute identifies acute angle-closure glaucoma as a medical emergency. Sudden intense eye pain, red eye, blurry vision, and nausea require immediate evaluation because rapid pressure elevation can cause permanent vision loss.",
+      "journal": "National Eye Institute",
+      "year": "2026",
+      "url": "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/glaucoma/types-glaucoma",
+      "doi": null
+    },
+    {
+      "id": "CDC:STROKE-SIGNS-2026",
+      "title": "Signs and Symptoms of Stroke",
+      "abstract": "The Centers for Disease Control and Prevention lists sudden trouble seeing, weakness or numbness, speech difficulty, loss of balance, and severe unexplained headache as stroke warning signs requiring immediate emergency action.",
+      "journal": "Centers for Disease Control and Prevention",
+      "year": "2026",
+      "url": "https://www.cdc.gov/stroke/signs-symptoms/index.html",
+      "doi": null
+    }
+  ],
+  "episode": {
+    "title": "E51: Why Your Glasses Prescription Keeps Changing",
+    "hook": "Hello and welcome to the Your Only Doc podcast. Imagine collecting new glasses, seeing beautifully for a month, then noticing blur again. Another test gives a different prescription. That can feel as if your eyes are rapidly failing, but a prescription is not a permanent label. It is a measurement of how your eyes focus on that day. Small shifts can reflect testing conditions, while repeated or larger changes can reveal something in the tear film, lens, cornea, or metabolism.",
+    "sections": [
+      {
+        "heading": "The high yield summary",
+        "narration": "Too busy? Here is your high yield summary. A glasses prescription can change because the eye grows, near focus ages, the tear surface fluctuates, the lens develops cataract, the cornea changes shape, or blood glucose shifts. Small differences between tests may be measurement variation. Frequent, one-sided, or rapidly worsening change needs a complete eye examination, not endless replacement glasses. Sudden visual loss, neurological symptoms, or a painful red eye with nausea needs emergency care.",
+        "on_screen": ["A prescription is a measurement", "Repeated shifts need a cause", "Sudden warning signs are urgent"],
+        "icon": "prescription-summary",
+        "source_ids": ["NEI:REFRACTIVE-ERRORS-2025", "PUBMED:REFRACTION-VARIABILITY-2025", "NEI:ANGLE-CLOSURE-2026", "CDC:STROKE-SIGNS-2026"]
+      },
+      {
+        "heading": "A prescription is a snapshot",
+        "narration": "The sphere corrects nearsightedness or farsightedness. Cylinder and axis correct astigmatism. An add supplies extra near power. The final prescription combines measurements with your responses and the clinician's judgment. Even healthy eyes do not produce identical answers every time. Pupil size, focusing effort, fatigue, lighting, test distance, and examiner technique can create small differences. A minor change without symptoms may not require new lenses, especially when vision remains clear and comfortable.",
+        "on_screen": ["Sphere sets distance power", "Cylinder and axis correct astigmatism", "Small test differences happen"],
+        "icon": "refraction-snapshot",
+        "source_ids": ["NEI:REFRACTIVE-ERRORS-2025", "PUBMED:REFRACTION-VARIABILITY-2025"]
+      },
+      {
+        "heading": "Growth and aging move the target",
+        "narration": "In children and teenagers, eye growth can increase nearsightedness, so regular changes may reflect a developing eye. In adulthood, prescriptions are often steadier, but they are not frozen. From the forties onward, presbyopia gradually reduces near focusing ability, so reading or progressive lenses may need adjustment. These changes are common, yet age alone should not be used to dismiss a sudden shift, a large difference between the two eyes, or vision that glasses cannot sharpen.",
+        "on_screen": ["Growing eyes may become more myopic", "Presbyopia changes near correction", "Age does not explain every shift"],
+        "icon": "age-and-refraction",
+        "source_ids": ["NEI:REFRACTIVE-ERRORS-2025", "NEI:PRESBYOPIA-2019"]
+      },
+      {
+        "heading": "The tear film can change the answer",
+        "narration": "Light meets the tear film before it reaches the cornea. If that surface breaks up between blinks, letters may sharpen, smear, then sharpen again. Dry eye can therefore make both daily vision and refraction testing fluctuate. Burning, grittiness, redness, watering, or blur that improves after blinking are useful clues. Treating the ocular surface before finalizing expensive lenses can produce a more stable result, but persistent symptoms still need examination rather than repeated use of random eye drops.",
+        "on_screen": ["Tears form the first optical surface", "Blink-related blur can fluctuate", "Stabilize the surface before prescribing"],
+        "icon": "tear-film-optics",
+        "source_ids": ["NEI:DRY-EYE-2025", "NEI:REFRACTIVE-ERRORS-2025"]
+      },
+      {
+        "heading": "The natural lens can become cloudy",
+        "narration": "A cataract changes more than clarity. As the natural lens clouds and its optical properties change, a person may become more nearsighted or develop other refractive shifts. Frequent prescription updates, glare, halos, faded color, poor night vision, or double vision in one eye can appear together. Early on, new glasses may help. When cataract limits daily life despite correction, the conversation shifts from stronger lenses to whether cataract surgery is appropriate.",
+        "on_screen": ["Cataract changes lens optics", "Glare and night trouble add clues", "Glasses cannot remove clouding"],
+        "icon": "cataract-prescription",
+        "source_ids": ["NEI:CATARACTS-2025"]
+      },
+      {
+        "heading": "The cornea can change shape",
+        "narration": "Astigmatism comes from unequal curvature, often in the cornea. In keratoconus, the cornea becomes thinner and bulges forward, creating increasingly irregular focus. Warning patterns include rapidly changing astigmatism, ghost images, glare, poor correction with ordinary glasses, or one eye changing much more than the other. Corneal topography or tomography maps the shape. Early identification matters because treatment may stabilize the cornea, while specialized contact lenses can improve optical quality.",
+        "on_screen": ["Corneal shape controls focus", "Rapid irregular astigmatism needs mapping", "Early detection changes options"],
+        "icon": "corneal-topography",
+        "source_ids": ["AAO:KERATOCONUS-2026", "NEI:REFRACTIVE-ERRORS-2025"]
+      },
+      {
+        "heading": "Glucose can temporarily shift focus",
+        "narration": "Changing blood glucose can alter refraction, sometimes over days or weeks. The direction is not predictable enough to diagnose diabetes from a glasses test. If vision and prescription fluctuate alongside increased thirst, frequent urination, unexplained weight change, fatigue, or known diabetes, arrange medical review and glucose testing. When glucose is changing rapidly, a newly ordered prescription may soon feel wrong. Stabilizing the medical problem and then repeating refraction can prevent an avoidable cycle of replacement lenses.",
+        "on_screen": ["Glucose shifts can alter refraction", "Symptoms need medical review", "Repeat refraction after stabilization"],
+        "icon": "glucose-and-vision",
+        "source_ids": ["PUBMED:DIABETES-REFRACTION-2018"]
+      },
+      {
+        "heading": "The examination looks for the cause",
+        "narration": "Now, let us go deeper. The useful question is not only, what power makes the chart clearer? It is, why did the power change? A complete assessment compares old prescriptions, tests each eye, checks whether blinking stabilizes vision, examines the cornea and lens, measures eye pressure, and dilates the pupils when indicated. Corneal mapping, retinal examination, or medical testing may follow. Seek emergency care for sudden persistent vision loss, a curtain over vision, new weakness or speech trouble, or a red painful eye with headache or nausea.",
+        "on_screen": ["Compare the pattern over time", "Examine surface, cornea, lens, and retina", "Emergency combinations cannot wait"],
+        "icon": "complete-eye-exam",
+        "source_ids": ["NEI:DRY-EYE-2025", "NEI:CATARACTS-2025", "AAO:KERATOCONUS-2026", "NEI:ANGLE-CLOSURE-2026", "CDC:STROKE-SIGNS-2026"]
+      },
+      {
+        "heading": "Three essential takeaways",
+        "narration": "Number one, a prescription is a snapshot, so a small difference between tests can be normal measurement variation. Number two, repeated or rapid changes can come from dry eye, cataract, corneal shape, glucose, growth, or aging, and the pattern should be investigated before simply buying stronger glasses. Number three, arrange timely examination when one eye changes, vision will not sharpen, or other symptoms appear, and seek emergency help for sudden persistent loss, neurological signs, or a painful red eye with nausea.",
+        "on_screen": ["Small shifts may be measurement noise", "Repeated shifts need an explanation", "Recognize urgent warning patterns"],
+        "icon": "checklist",
+        "source_ids": ["PUBMED:REFRACTION-VARIABILITY-2025", "NEI:DRY-EYE-2025", "NEI:CATARACTS-2025", "AAO:KERATOCONUS-2026", "PUBMED:DIABETES-REFRACTION-2018", "NEI:ANGLE-CLOSURE-2026", "CDC:STROKE-SIGNS-2026"]
+      }
+    ],
+    "closing": "On the next episode, we will explain why nearsightedness can get worse, especially during childhood, what eye growth has to do with it, and which approaches can slow progression. Until then, keep old prescriptions or lens records when possible, because the direction and speed of change can be as informative as the newest number.",
+    "description": "A changing glasses prescription may reflect measurement variation, growth, presbyopia, dry eye, cataract, corneal shape change, or shifting blood glucose. This episode explains the patterns that need investigation and the warning signs that require urgent care.",
+    "thumbnail_text": "WHY YOUR PRESCRIPTION CHANGES"
+  }
+}
