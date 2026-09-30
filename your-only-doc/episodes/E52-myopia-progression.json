@@ -1,0 +1,168 @@
+{
+  "schema": 2,
+  "editorial": {
+    "workflow": "chatgpt-reviewed-v20",
+    "reviewed_by": "ChatGPT medical editorial workflow",
+    "reviewed_on": "2026-09-30",
+    "episode_number": 52,
+    "language": "English",
+    "spoken_host_name_allowed": false,
+    "long_dashes_allowed": false,
+    "target_minutes": 10
+  },
+  "topic_id": "myopia-progression",
+  "topic": {
+    "id": "myopia-progression",
+    "title": "Why Nearsightedness Gets Worse",
+    "audience_question": "Why does nearsightedness often increase during childhood, and what can safely slow its progression?",
+    "pubmed_query": "childhood myopia progression axial elongation outdoor time atropine multifocal contact lens orthokeratology randomized trial",
+    "icon_keywords": ["myopia", "eye-growth", "outdoor-time", "atropine", "multifocal-contact-lens"],
+    "category": "eye-health"
+  },
+  "sources": [
+    {
+      "id": "NEI:MYOPIA-2026",
+      "title": "Nearsightedness (Myopia)",
+      "abstract": "The National Eye Institute explains that myopia makes distant objects blurry because light focuses in front of the retina, commonly when the eye is too long from front to back. It often begins between ages 6 and 14 and may worsen into the early twenties. High myopia increases the risk of retinal detachment and other eye disease.",
+      "journal": "National Eye Institute",
+      "year": "2026",
+      "url": "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/nearsightedness-myopia",
+      "doi": null
+    },
+    {
+      "id": "AAPOS:MYOPIA-CONTROL-2023",
+      "title": "Treatment of Increasing Myopia in Children",
+      "abstract": "The American Association for Pediatric Ophthalmology and Strabismus describes outdoor time, low-dose atropine, multifocal or dual-focus contact lenses, and orthokeratology as approaches considered for childhood myopia. It stresses careful contact lens use because infection can threaten vision.",
+      "journal": "American Association for Pediatric Ophthalmology and Strabismus",
+      "year": "2023",
+      "url": "https://aapos.org/glossary/treatment-for-progressive-myopia",
+      "doi": null
+    },
+    {
+      "id": "COCHRANE:MYOPIA-CONTROL-2025",
+      "title": "Interventions for Myopia Control in Children: A Living Systematic Review and Network Meta-analysis",
+      "abstract": "This Cochrane review compared spectacle, contact lens, orthokeratology, and pharmacologic strategies for slowing refractive progression and axial elongation. Several interventions showed benefit, but certainty, comparative size, adverse effects, and durability varied across treatments and follow-up periods.",
+      "journal": "Cochrane Database of Systematic Reviews",
+      "year": "2025",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39945354/",
+      "doi": "10.1002/14651858.CD014758.pub3"
+    },
+    {
+      "id": "JAMA:OUTDOOR-RCT-2015",
+      "title": "Effect of Time Spent Outdoors at School on the Development of Myopia Among Children in China",
+      "abstract": "In this cluster randomized trial, adding 40 minutes of outdoor activity during each school day reduced the three-year incidence of myopia among 6-year-old children compared with usual school activity. Outdoor time is better established for reducing onset than for reversing existing myopia.",
+      "journal": "JAMA",
+      "year": "2015",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26372583/",
+      "doi": "10.1001/jama.2015.10803"
+    },
+    {
+      "id": "JAMA:BLINK-RCT-2020",
+      "title": "Effect of High Add Power, Medium Add Power, or Single-Vision Contact Lenses on Myopia Progression in Children",
+      "abstract": "The three-year BLINK randomized clinical trial found that high-add multifocal soft contact lenses slowed myopia progression and axial growth in children aged 7 to 11 compared with single-vision contact lenses. The result supports a treatment option under professional fitting and monitoring.",
+      "journal": "JAMA",
+      "year": "2020",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32780139/",
+      "doi": "10.1001/jama.2020.10834"
+    },
+    {
+      "id": "JAMA:ATROPINE-PEDIG-2023",
+      "title": "Low-Dose 0.01% Atropine Eye Drops vs Placebo for Myopia Control",
+      "abstract": "In this US randomized clinical trial, nightly atropine 0.01% did not slow myopia progression or axial elongation over two years compared with placebo. The result shows that atropine evidence cannot be generalized across every concentration, formulation, population, or child.",
+      "journal": "JAMA Ophthalmology",
+      "year": "2023",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37440213/",
+      "doi": "10.1001/jamaophthalmol.2023.2855"
+    },
+    {
+      "id": "IMI:CLINICAL-MANAGEMENT-2019",
+      "title": "IMI Clinical Management Guidelines Report",
+      "abstract": "The International Myopia Institute recommends individualized risk assessment, accurate refraction, binocular and ocular health evaluation, discussion of treatment benefits and limitations, and ongoing monitoring of refraction and, where available, axial length.",
+      "journal": "Investigative Ophthalmology and Visual Science",
+      "year": "2019",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30817832/",
+      "doi": "10.1167/iovs.18-25977"
+    },
+    {
+      "id": "NEI:RETINAL-DETACHMENT-2026",
+      "title": "Retinal Detachment",
+      "abstract": "The National Eye Institute identifies severe myopia as a risk factor for retinal detachment. Sudden new floaters, flashes of light, or a curtain or shadow over vision require immediate dilated eye assessment because retinal detachment is an emergency.",
+      "journal": "National Eye Institute",
+      "year": "2026",
+      "url": "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/retinal-detachment",
+      "doi": null
+    }
+  ],
+  "episode": {
+    "title": "E52: Why Nearsightedness Gets Worse",
+    "hook": "Hello and welcome to the Your Only Doc podcast. Imagine a child who first needs glasses to read the classroom board. One year later the board is blurry again, and the new prescription is stronger. The glasses did not weaken the eyes. More often, the eye continued growing during childhood, moving the point of focus farther in front of the retina. The important question is not whether correction is needed, but how quickly the myopia is progressing and whether a safe control strategy should be discussed.",
+    "sections": [
+      {
+        "heading": "The high yield summary",
+        "narration": "Too busy? Here is your high yield summary. Nearsightedness usually worsens because the growing eye becomes too long from front to back. It often progresses through childhood and adolescence. Family history, younger age at onset, and less outdoor time can increase concern. Correct glasses do not cause progression. Outdoor activity may reduce the chance of myopia starting. Special contact lenses, orthokeratology, or atropine may slow progression in selected children, but treatment must be individualized and monitored.",
+        "on_screen": ["Myopia often reflects eye elongation", "Correct glasses do not weaken eyes", "Control treatment needs monitoring"],
+        "icon": "myopia-summary",
+        "source_ids": ["NEI:MYOPIA-2026", "AAPOS:MYOPIA-CONTROL-2023", "IMI:CLINICAL-MANAGEMENT-2019"]
+      },
+      {
+        "heading": "The eye can outgrow its focus",
+        "narration": "In a normally focused eye, light lands on the retina. In myopia, it lands in front of the retina, so distance becomes blurry while near vision may remain clearer. The usual driver in childhood is axial elongation, meaning the eyeball lengthens. A stronger minus prescription moves the image back onto the retina, but it does not shorten the eye. That is why glasses restore clarity without removing the biological tendency to progress.",
+        "on_screen": ["Light focuses before the retina", "Axial length can increase", "Correction restores focus, not eye length"],
+        "icon": "axial-myopia",
+        "source_ids": ["NEI:MYOPIA-2026", "IMI:CLINICAL-MANAGEMENT-2019"]
+      },
+      {
+        "heading": "Progression is fastest in growing years",
+        "narration": "Myopia commonly begins during school age and may keep changing into the early twenties. An earlier start leaves more growing years in which the prescription can increase. Having one or two myopic parents raises risk, but genes are not destiny. Clinicians also look at the child's age, recent prescription change, eye length when available, and lifestyle. One stronger test does not define a trend. The rate across repeated, comparable examinations is what guides decisions.",
+        "on_screen": ["Earlier onset can mean more progression", "Family history changes risk", "Follow the rate over time"],
+        "icon": "myopia-growth-years",
+        "source_ids": ["NEI:MYOPIA-2026", "AAPOS:MYOPIA-CONTROL-2023", "IMI:CLINICAL-MANAGEMENT-2019"]
+      },
+      {
+        "heading": "Outdoor time helps most before onset",
+        "narration": "Randomized school studies show that increasing outdoor time can reduce the number of children who become myopic. The benefit appears related to being outdoors and bright environmental light, not simply replacing a screen with a book indoors. Outdoor time is healthy, inexpensive, and useful, but it is not a cure and will not reverse an elongated eye. For a child who is already progressing, lifestyle advice may need to be combined with a clinically selected treatment.",
+        "on_screen": ["Outdoor time lowers onset risk", "Bright outdoor exposure matters", "It does not reverse myopia"],
+        "icon": "outdoor-time",
+        "source_ids": ["JAMA:OUTDOOR-RCT-2015", "AAPOS:MYOPIA-CONTROL-2023", "COCHRANE:MYOPIA-CONTROL-2025"]
+      },
+      {
+        "heading": "Near work is about habits, not blame",
+        "narration": "Long periods of close work and limited outdoor exposure are associated with myopia, but reading and studying are not moral failures and parents should not blame a child. Build practical habits: use good lighting, hold material at a comfortable distance, take regular distance breaks, and balance close work with outdoor activity. Screen breaks can reduce discomfort, but they do not replace myopia monitoring or a proven control treatment when progression is documented. The goal is sustainable behavior, not banning education or technology.",
+        "on_screen": ["Avoid blame", "Break up prolonged near work", "Habits do not replace monitoring"],
+        "icon": "near-work-habits",
+        "source_ids": ["AAPOS:MYOPIA-CONTROL-2023", "IMI:CLINICAL-MANAGEMENT-2019"]
+      },
+      {
+        "heading": "Optical treatments change retinal focus",
+        "narration": "Some dual-focus or multifocal soft contact lenses provide clear central vision while changing peripheral focus signals linked with eye growth. In the BLINK trial, high-add multifocal contacts slowed both prescription change and axial elongation. Orthokeratology uses specially fitted lenses overnight to reshape the corneal surface temporarily. Both approaches require trained fitting, follow-up, and excellent hygiene. Redness, pain, light sensitivity, discharge, or sudden blur while using contacts needs prompt evaluation for infection.",
+        "on_screen": ["Multifocal designs can slow growth", "Orthokeratology reshapes the cornea", "Contact lens safety is essential"],
+        "icon": "optical-myopia-control",
+        "source_ids": ["JAMA:BLINK-RCT-2020", "AAPOS:MYOPIA-CONTROL-2023", "COCHRANE:MYOPIA-CONTROL-2025"]
+      },
+      {
+        "heading": "Atropine is not one universal recipe",
+        "narration": "Atropine drops can slow progression in some children, and concentration affects both benefit and side effects such as light sensitivity or near blur. Evidence varies by dose, formulation, population, and study. Importantly, a US trial found that 0.01 percent atropine was no better than placebo over two years. Now, let us go deeper. This is why atropine should be prescribed and reviewed by an eye professional, with response measured rather than assumed.",
+        "on_screen": ["Dose and response vary", "Very low dose may not work for everyone", "Measure benefit and side effects"],
+        "icon": "atropine-myopia-control",
+        "source_ids": ["JAMA:ATROPINE-PEDIG-2023", "COCHRANE:MYOPIA-CONTROL-2025", "AAPOS:MYOPIA-CONTROL-2023"]
+      },
+      {
+        "heading": "Monitoring protects long-term vision",
+        "narration": "A proper visit confirms refraction, often with dilating drops in children, checks eye alignment and health, and compares change over time. Axial length can add useful information when available. Treatment may be changed if progression continues or side effects appear. High myopia matters beyond thicker glasses because it raises lifetime risk of retinal detachment and other eye disease. Sudden flashes, a shower of new floaters, or a curtain or shadow over vision requires emergency dilated retinal assessment.",
+        "on_screen": ["Confirm change with reliable exams", "Track refraction and eye length", "Flashes, floaters, or curtain are urgent"],
+        "icon": "myopia-monitoring",
+        "source_ids": ["IMI:CLINICAL-MANAGEMENT-2019", "NEI:MYOPIA-2026", "NEI:RETINAL-DETACHMENT-2026"]
+      },
+      {
+        "heading": "Three essential takeaways",
+        "narration": "Number one, childhood myopia usually worsens because the eye elongates during growth, not because properly prescribed glasses make it weak. Number two, encourage regular outdoor time and healthy near-work habits, then discuss proven control options when repeated examinations show meaningful progression. Number three, treatment choice depends on age, rate, eye health, family preferences, safety, and measured response, and sudden flashes, many new floaters, or a curtain over vision needs emergency care.",
+        "on_screen": ["Eye growth drives progression", "Combine habits with evidence-based care", "Monitor treatment and retinal warnings"],
+        "icon": "checklist",
+        "source_ids": ["NEI:MYOPIA-2026", "JAMA:OUTDOOR-RCT-2015", "COCHRANE:MYOPIA-CONTROL-2025", "IMI:CLINICAL-MANAGEMENT-2019", "NEI:RETINAL-DETACHMENT-2026"]
+      }
+    ],
+    "closing": "On the next episode, we will explain why one eye can become weaker during childhood, how amblyopia develops even when the eye looks normal, and why treatment works best while the visual system is still developing. Until then, keep every prescription and examination date, because the speed of change helps determine whether ordinary correction is enough or myopia control should be discussed.",
+    "description": "Childhood myopia often worsens as the eye elongates. This episode explains risk, outdoor time, near-work habits, multifocal contacts, orthokeratology, atropine evidence, monitoring, and retinal warning signs.",
+    "thumbnail_text": "WHY MYOPIA GETS WORSE"
+  }
+}
