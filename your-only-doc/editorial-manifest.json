@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "workflow": "chatgpt-reviewed-v20",
-  "updated_at": "2026-09-29T09:08:56Z",
-  "next_episode_number": 52,
+  "updated_at": "2026-09-30T09:26:25Z",
+  "next_episode_number": 53,
   "next_planned_topic": {
-    "id": "myopia-progression",
-    "title": "Why Nearsightedness Gets Worse",
-    "reason": "It follows changing prescriptions by explaining childhood eye growth, progression risk, outdoor time, optical correction, and evidence-based approaches that can slow myopia."
+    "id": "amblyopia-childhood",
+    "title": "Why One Eye Becomes Weaker in Childhood",
+    "reason": "It follows childhood myopia by explaining how unequal focus, eye misalignment, or visual deprivation can suppress vision development and why treatment is time-sensitive."
   },
   "packets": [
     {
@@ -309,6 +309,13 @@
       "title": "E51: Why Your Glasses Prescription Keeps Changing",
       "file": "episodes/E51-changing-glasses-prescription.json",
       "status": "ready"
+    },
+    {
+      "episode_number": 52,
+      "topic_id": "myopia-progression",
+      "title": "E52: Why Nearsightedness Gets Worse",
+      "file": "episodes/E52-myopia-progression.json",
+      "status": "ready"
     }
   ],
   "evergreen_sequence": [
@@ -467,6 +474,10 @@
     {
       "id": "myopia-progression",
       "title": "Why Nearsightedness Gets Worse"
+    },
+    {
+      "id": "amblyopia-childhood",
+      "title": "Why One Eye Becomes Weaker in Childhood"
     }
   ],
   "editorial_policy": {
