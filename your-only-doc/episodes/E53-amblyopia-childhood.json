@@ -1,0 +1,159 @@
+{
+  "schema": 2,
+  "editorial": {
+    "workflow": "chatgpt-reviewed-v20",
+    "reviewed_by": "ChatGPT medical editorial workflow",
+    "reviewed_on": "2026-10-01",
+    "episode_number": 53,
+    "language": "English",
+    "spoken_host_name_allowed": false,
+    "long_dashes_allowed": false,
+    "target_minutes": 10
+  },
+  "topic_id": "amblyopia-childhood",
+  "topic": {
+    "id": "amblyopia-childhood",
+    "title": "Why One Eye Becomes Weaker in Childhood",
+    "audience_question": "How can one eye become weaker even when it looks normal, and why is early treatment important?",
+    "pubmed_query": "childhood amblyopia anisometropia strabismus deprivation refractive correction patching atropine randomized trial",
+    "icon_keywords": ["amblyopia", "child-vision", "glasses", "eye-patch", "atropine"],
+    "category": "eye-health"
+  },
+  "sources": [
+    {
+      "id": "NEI:AMBLYOPIA-2026",
+      "title": "Amblyopia (Lazy Eye)",
+      "abstract": "The National Eye Institute explains that amblyopia is reduced vision caused by abnormal visual development, usually in one eye. Common causes include unequal refractive error, strabismus, and conditions that block vision. Treatment may include glasses, patching the stronger eye, or atropine drops, and it is generally more effective when started early.",
+      "journal": "National Eye Institute",
+      "year": "2026",
+      "url": "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/amblyopia-lazy-eye",
+      "doi": null
+    },
+    {
+      "id": "AAPOS:AMBLYOPIA-2026",
+      "title": "Amblyopia",
+      "abstract": "The American Association for Pediatric Ophthalmology and Strabismus describes refractive, strabismic, and deprivation amblyopia. It emphasizes finding and treating the underlying cause, correcting focus, and encouraging use of the weaker eye with patching or atropine when prescribed.",
+      "journal": "American Association for Pediatric Ophthalmology and Strabismus",
+      "year": "2026",
+      "url": "https://www.aapos.org/glossary/amblyopia",
+      "doi": null
+    },
+    {
+      "id": "USPSTF:CHILD-VISION-2017",
+      "title": "Vision in Children Ages 6 Months to 5 Years: Screening",
+      "abstract": "The US Preventive Services Task Force recommends vision screening at least once for all children aged 3 to 5 years to detect amblyopia or its risk factors. It concludes that screening and treatment provide a moderate net benefit in this age group.",
+      "journal": "US Preventive Services Task Force",
+      "year": "2017",
+      "url": "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/vision-in-children-ages-6-months-to-5-years-screening",
+      "doi": null
+    },
+    {
+      "id": "OPHTH:OPTICAL-TREATMENT-2006",
+      "title": "Treatment of Anisometropic Amblyopia in Children With Refractive Correction",
+      "abstract": "In children aged 3 to younger than 7 years with untreated anisometropic amblyopia, spectacle correction alone improved visual acuity by at least 2 lines in most participants and resolved amblyopia in a subset. The study supports allowing time to measure the optical treatment effect before adding another therapy when appropriate.",
+      "journal": "Ophthalmology",
+      "year": "2006",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16751032/",
+      "doi": "10.1016/j.ophtha.2006.01.068"
+    },
+    {
+      "id": "ARCHOPHTH:PATCHING-2003",
+      "title": "A Randomized Trial of Patching Regimens for Treatment of Moderate Amblyopia in Children",
+      "abstract": "In children younger than 7 years with moderate amblyopia, prescribed patching for 2 hours daily produced improvement similar in magnitude to 6 hours daily after 4 months when both groups also performed near activities. Dose still needs individual prescribing and follow-up.",
+      "journal": "Archives of Ophthalmology",
+      "year": "2003",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/12742836/",
+      "doi": "10.1001/archopht.121.5.603"
+    },
+    {
+      "id": "ARCHOPHTH:ATROPINE-2002",
+      "title": "A Randomized Trial of Atropine Versus Patching for Treatment of Moderate Amblyopia in Children",
+      "abstract": "A multicenter randomized trial of 419 children younger than 7 years found substantial improvement with both atropine and patching for moderate amblyopia. Patching improved slightly faster, but the difference at 6 months was small and both were acceptable initial treatments.",
+      "journal": "Archives of Ophthalmology",
+      "year": "2002",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/11879129/",
+      "doi": "10.1001/archopht.120.3.268"
+    },
+    {
+      "id": "ARCHOPHTH:OLDER-CHILDREN-2005",
+      "title": "Randomized Trial of Treatment of Amblyopia in Children Aged 7 to 17 Years",
+      "abstract": "This randomized trial showed that optical correction alone improved vision in some older children, and that additional treatment benefited many children aged 7 to 12. Response was less frequent in teenagers, especially when previously treated, but older age alone was not a reason to withhold assessment.",
+      "journal": "Archives of Ophthalmology",
+      "year": "2005",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/15824215/",
+      "doi": "10.1001/archopht.123.4.437"
+    }
+  ],
+  "episode": {
+    "title": "E53: Why One Eye Becomes Weaker in Childhood",
+    "hook": "Hello and welcome to the Your Only Doc podcast. Imagine a child who reads, plays, and watches television without complaint. At a school vision check, one eye reads the chart clearly while the other struggles. The eye may look completely normal. The problem is that during early development, the brain learned to rely on the clearer image and suppress the blurrier one. This is amblyopia. It is not laziness, and waiting for a child to report blur can miss valuable treatment time.",
+    "sections": [
+      {
+        "heading": "The high yield summary",
+        "narration": "Too busy? Here is your high yield summary. Amblyopia is reduced vision caused by abnormal visual development, usually in one eye. It can arise from unequal prescriptions, an eye turn, or anything that blocks a clear image, such as cataract or a drooping eyelid. Children often do not notice because the stronger eye compensates. Treatment corrects the cause and trains the brain to use the weaker eye. Earlier care is best, but some older children can still improve.",
+        "on_screen": ["The brain favors one image", "Children may not notice", "Early treatment is best"],
+        "icon": "amblyopia-summary",
+        "source_ids": ["NEI:AMBLYOPIA-2026", "AAPOS:AMBLYOPIA-2026", "ARCHOPHTH:OLDER-CHILDREN-2005"]
+      },
+      {
+        "heading": "Amblyopia develops in the visual brain",
+        "narration": "Seeing is learned. Each eye sends an image, and the developing brain combines them. If one image stays blurred or misaligned, the brain may suppress it to avoid confusion. Over time, the weaker pathway fails to develop normal detail vision. This is why simply looking at the eye is not enough. A child can have a healthy retina and clear cornea yet still see poorly because the brain has not learned to process that eye well.",
+        "on_screen": ["Vision develops after birth", "Blur or misalignment drives suppression", "A normal-looking eye can be weak"],
+        "icon": "visual-development",
+        "source_ids": ["NEI:AMBLYOPIA-2026", "AAPOS:AMBLYOPIA-2026"]
+      },
+      {
+        "heading": "Three pathways can weaken an eye",
+        "narration": "The first pathway is unequal focus, called anisometropia, when one eye has more farsightedness, nearsightedness, or astigmatism. The second is strabismus, when the eyes do not point together and the brain ignores the turned eye. The third is deprivation, when cataract, corneal clouding, or a severe drooping lid blocks vision. Deprivation can damage development quickly, so removing the obstruction may be urgent, followed by treatment for any remaining amblyopia.",
+        "on_screen": ["Unequal focus", "Eye misalignment", "Blocked visual input"],
+        "icon": "amblyopia-causes",
+        "source_ids": ["NEI:AMBLYOPIA-2026", "AAPOS:AMBLYOPIA-2026"]
+      },
+      {
+        "heading": "Why children may seem completely well",
+        "narration": "A child compares the world with both eyes open, not one eye at a time. If the stronger eye sees clearly, daily life may feel normal. There may be no squinting, pain, redness, or obvious eye turn. That is why age-appropriate vision screening matters. The US Preventive Services Task Force recommends screening at least once between ages 3 and 5. A failed screen is not a diagnosis, but it should lead to a complete eye examination.",
+        "on_screen": ["The stronger eye can hide the problem", "Symptoms may be absent", "Screen, then confirm with an exam"],
+        "icon": "child-vision-screening",
+        "source_ids": ["USPSTF:CHILD-VISION-2017", "NEI:AMBLYOPIA-2026"]
+      },
+      {
+        "heading": "Glasses may be the first treatment",
+        "narration": "The examination measures each eye separately, checks alignment and eye health, and often uses dilating drops to reveal the full prescription. When unequal focus is the cause, correctly prescribed glasses provide the brain with a clearer image. In a clinical study of young children with anisometropic amblyopia, glasses alone improved vision by at least two chart lines in most participants and completely resolved the difference in some. Improvement can continue over weeks, so follow-up matters.",
+        "on_screen": ["Measure each eye separately", "Correct the optical blur", "Allow time and recheck"],
+        "icon": "amblyopia-glasses",
+        "source_ids": ["OPHTH:OPTICAL-TREATMENT-2006", "AAPOS:AMBLYOPIA-2026"]
+      },
+      {
+        "heading": "Patching makes the weaker eye work",
+        "narration": "If glasses are not enough, an eye professional may cover the stronger eye for prescribed periods so the child must use the weaker one. More hours are not automatically better. In moderate amblyopia, a randomized trial found that two prescribed hours daily produced improvement similar to six hours at four months. The dose depends on severity and response. Patching the wrong eye or changing the schedule without review can be harmful, so families need a specific plan and repeat acuity checks.",
+        "on_screen": ["Patch the stronger eye", "Dose is prescribed", "Check progress and both eyes"],
+        "icon": "eye-patch",
+        "source_ids": ["ARCHOPHTH:PATCHING-2003", "AAPOS:AMBLYOPIA-2026"]
+      },
+      {
+        "heading": "Atropine offers another route",
+        "narration": "Atropine placed in the stronger eye temporarily blurs near focus, encouraging use of the amblyopic eye. In a large randomized trial of moderate amblyopia, both atropine and patching produced substantial improvement. The choice depends on the prescription, age, severity, family routine, and side effects. Atropine must be prescribed. Light sensitivity and near blur can occur, and unusual flushing, fever, dry mouth, fast heartbeat, or behavioral change needs prompt medical advice.",
+        "on_screen": ["Blur the stronger eye temporarily", "Atropine and patching both work", "Use only as prescribed"],
+        "icon": "atropine-drops",
+        "source_ids": ["ARCHOPHTH:ATROPINE-2002", "NEI:AMBLYOPIA-2026", "AAPOS:AMBLYOPIA-2026"]
+      },
+      {
+        "heading": "Timing matters, but do not assume it is too late",
+        "narration": "Now, let us go deeper. Visual plasticity is greatest in early childhood, which is why detection and treatment should not be delayed. Yet age is not an on-off switch. Trials show that some children aged 7 to 12, and selected teenagers, can still improve. A white pupil in a photo or room light, a new constant eye turn, or an eyelid that blocks the pupil needs prompt assessment because cataract or another eye disease may be obstructing vision. Treat the cause, then rehabilitate the pathway.",
+        "on_screen": ["Early plasticity offers opportunity", "Older children may still improve", "A white pupil needs prompt assessment"],
+        "icon": "amblyopia-timing",
+        "source_ids": ["ARCHOPHTH:OLDER-CHILDREN-2005", "AAPOS:AMBLYOPIA-2026", "NEI:AMBLYOPIA-2026"]
+      },
+      {
+        "heading": "Three essential takeaways",
+        "narration": "Number one, amblyopia is a developmental vision problem in which the brain favors one eye, and the child may have no complaint. Number two, find and correct the cause, then use glasses, patching, atropine, or surgery only according to an eye professional's plan. Number three, earlier treatment offers the best opportunity, but older children should still be assessed, and a white pupil, blocked pupil, or new constant eye turn deserves prompt attention.",
+        "on_screen": ["The stronger eye can conceal weakness", "Treat the cause and train vision", "Act early and assess warning signs"],
+        "icon": "checklist",
+        "source_ids": ["NEI:AMBLYOPIA-2026", "AAPOS:AMBLYOPIA-2026", "USPSTF:CHILD-VISION-2017", "ARCHOPHTH:OLDER-CHILDREN-2005"]
+      }
+    ],
+    "closing": "On the next episode, we will explain why a child's pupil can look white in a photograph, when it may be a camera effect, and why a true white reflex needs urgent eye examination. Until then, make sure every child has age-appropriate vision screening, because clear vision in one eye can hide poor development in the other.",
+    "description": "Amblyopia develops when the brain favors one eye during childhood. This episode explains unequal focus, eye turns, visual deprivation, screening, glasses, patching, atropine, treatment timing, and warning signs.",
+    "thumbnail_text": "WHY ONE EYE GETS WEAKER"
+  }
+}
