@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "workflow": "chatgpt-reviewed-v20",
-  "updated_at": "2026-09-30T09:26:25Z",
-  "next_episode_number": 53,
+  "updated_at": "2026-10-01T09:12:46Z",
+  "next_episode_number": 54,
   "next_planned_topic": {
-    "id": "amblyopia-childhood",
-    "title": "Why One Eye Becomes Weaker in Childhood",
-    "reason": "It follows childhood myopia by explaining how unequal focus, eye misalignment, or visual deprivation can suppress vision development and why treatment is time-sensitive."
+    "id": "white-pupil-childhood",
+    "title": "Why a Child's Pupil Looks White in Photos",
+    "reason": "It follows amblyopia by explaining when a white pupil may be a camera artifact and why true leukocoria requires prompt examination for cataract, retinal disease, or retinoblastoma."
   },
   "packets": [
     {
@@ -316,6 +316,13 @@
       "title": "E52: Why Nearsightedness Gets Worse",
       "file": "episodes/E52-myopia-progression.json",
       "status": "ready"
+    },
+    {
+      "episode_number": 53,
+      "topic_id": "amblyopia-childhood",
+      "title": "E53: Why One Eye Becomes Weaker in Childhood",
+      "file": "episodes/E53-amblyopia-childhood.json",
+      "status": "ready"
     }
   ],
   "evergreen_sequence": [
@@ -478,6 +485,10 @@
     {
       "id": "amblyopia-childhood",
       "title": "Why One Eye Becomes Weaker in Childhood"
+    },
+    {
+      "id": "white-pupil-childhood",
+      "title": "Why a Child's Pupil Looks White in Photos"
     }
   ],
   "editorial_policy": {
