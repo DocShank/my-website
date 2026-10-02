@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "workflow": "chatgpt-reviewed-v20",
-  "updated_at": "2026-10-01T09:12:46Z",
-  "next_episode_number": 54,
+  "updated_at": "2026-10-02T09:08:01Z",
+  "next_episode_number": 55,
   "next_planned_topic": {
-    "id": "white-pupil-childhood",
-    "title": "Why a Child's Pupil Looks White in Photos",
-    "reason": "It follows amblyopia by explaining when a white pupil may be a camera artifact and why true leukocoria requires prompt examination for cataract, retinal disease, or retinoblastoma."
+    "id": "retinopathy-prematurity-screening",
+    "title": "Why Premature Babies Need Eye Screening",
+    "reason": "It follows childhood leukocoria by explaining how incomplete retinal vascular development can lead to retinopathy of prematurity and why screening must follow gestational age, birth weight, and neonatal course."
   },
   "packets": [
     {
@@ -323,6 +323,13 @@
       "title": "E53: Why One Eye Becomes Weaker in Childhood",
       "file": "episodes/E53-amblyopia-childhood.json",
       "status": "ready"
+    },
+    {
+      "episode_number": 54,
+      "topic_id": "white-pupil-childhood",
+      "title": "E54: Why a Child's Pupil Looks White in Photos",
+      "file": "episodes/E54-white-pupil-childhood.json",
+      "status": "ready"
     }
   ],
   "evergreen_sequence": [
@@ -489,6 +496,10 @@
     {
       "id": "white-pupil-childhood",
       "title": "Why a Child's Pupil Looks White in Photos"
+    },
+    {
+      "id": "retinopathy-prematurity-screening",
+      "title": "Why Premature Babies Need Eye Screening"
     }
   ],
   "editorial_policy": {
