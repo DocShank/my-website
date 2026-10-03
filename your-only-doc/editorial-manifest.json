@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "workflow": "chatgpt-reviewed-v20",
-  "updated_at": "2026-10-02T09:08:01Z",
-  "next_episode_number": 55,
+  "updated_at": "2026-10-03T09:48:09Z",
+  "next_episode_number": 56,
   "next_planned_topic": {
-    "id": "retinopathy-prematurity-screening",
-    "title": "Why Premature Babies Need Eye Screening",
-    "reason": "It follows childhood leukocoria by explaining how incomplete retinal vascular development can lead to retinopathy of prematurity and why screening must follow gestational age, birth weight, and neonatal course."
+    "id": "childhood-vision-screening",
+    "title": "Why Children Need Vision Screening Before School",
+    "reason": "It follows neonatal ROP screening by broadening to routine childhood detection of refractive error, amblyopia, strabismus, and abnormal red reflex before symptoms or school difficulties appear."
   },
   "packets": [
     {
@@ -330,6 +330,13 @@
       "title": "E54: Why a Child's Pupil Looks White in Photos",
       "file": "episodes/E54-white-pupil-childhood.json",
       "status": "ready"
+    },
+    {
+      "episode_number": 55,
+      "topic_id": "retinopathy-prematurity-screening",
+      "title": "E55: Why Premature Babies Need Eye Screening",
+      "file": "episodes/E55-retinopathy-prematurity-screening.json",
+      "status": "ready"
     }
   ],
   "evergreen_sequence": [
@@ -500,6 +507,10 @@
     {
       "id": "retinopathy-prematurity-screening",
       "title": "Why Premature Babies Need Eye Screening"
+    },
+    {
+      "id": "childhood-vision-screening",
+      "title": "Why Children Need Vision Screening Before School"
     }
   ],
   "editorial_policy": {
