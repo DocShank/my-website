@@ -1,0 +1,159 @@
+{
+  "schema": 2,
+  "editorial": {
+    "workflow": "chatgpt-reviewed-v20",
+    "reviewed_by": "ChatGPT medical editorial workflow",
+    "reviewed_on": "2026-10-03",
+    "episode_number": 55,
+    "language": "English",
+    "spoken_host_name_allowed": false,
+    "long_dashes_allowed": false,
+    "target_minutes": 10
+  },
+  "topic_id": "retinopathy-prematurity-screening",
+  "topic": {
+    "id": "retinopathy-prematurity-screening",
+    "title": "Why Premature Babies Need Eye Screening",
+    "audience_question": "Why do premature babies need retinal examinations even when their eyes look normal, and why must follow-up continue after hospital discharge?",
+    "pubmed_query": "retinopathy of prematurity screening gestational age birth weight timing follow-up laser anti-VEGF",
+    "icon_keywords": ["premature-baby", "retina", "eye-screening", "incubator", "follow-up"],
+    "category": "eye-health"
+  },
+  "sources": [
+    {
+      "id": "AAP:ROP-SCREENING-2018",
+      "title": "Screening Examination of Premature Infants for Retinopathy of Prematurity",
+      "abstract": "This joint policy statement from the American Academy of Pediatrics, American Academy of Ophthalmology, AAPOS, and allied organizations defines risk-based screening, examination timing, follow-up intervals, and responsibilities for ensuring continuity after transfer or discharge.",
+      "journal": "Pediatrics",
+      "year": "2018",
+      "url": "https://publications.aap.org/pediatrics/article/142/6/e20183061/37478/Screening-Examination-of-Premature-Infants-for",
+      "doi": "10.1542/peds.2018-3061"
+    },
+    {
+      "id": "NEI:ROP-2026",
+      "title": "Retinopathy of Prematurity",
+      "abstract": "The National Eye Institute explains that ROP results from abnormal retinal blood vessel growth after premature birth. Early disease has no visible symptoms, diagnosis requires a dilated examination, and management ranges from observation to laser, injections, or surgery depending on severity.",
+      "journal": "National Eye Institute",
+      "year": "2026",
+      "url": "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/retinopathy-prematurity",
+      "doi": null
+    },
+    {
+      "id": "AAPOS:ROP-2025",
+      "title": "Retinopathy of Prematurity",
+      "abstract": "AAPOS describes how immature retinal vessels may grow abnormally, how ROP is classified by zone, stage, and plus disease, and why examinations must continue after discharge because progression cannot be recognized by looking at the baby.",
+      "journal": "American Association for Pediatric Ophthalmology and Strabismus",
+      "year": "2025",
+      "url": "https://www.aapos.org/glossary/retinopathy-of-prematurity",
+      "doi": null
+    },
+    {
+      "id": "ETROP:EARLY-TREATMENT-2003",
+      "title": "Revised Indications for the Treatment of Retinopathy of Prematurity",
+      "abstract": "The ETROP randomized trial found that earlier treatment of high-risk prethreshold disease reduced unfavorable visual and structural outcomes and established treatment recommendations for type 1 ROP based on retinal zone, stage, and plus disease.",
+      "journal": "Archives of Ophthalmology",
+      "year": "2003",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/14662586/",
+      "doi": "10.1001/archopht.121.12.1684"
+    },
+    {
+      "id": "ICROP3:CLASSIFICATION-2021",
+      "title": "International Classification of Retinopathy of Prematurity, Third Edition",
+      "abstract": "ICROP3 standardizes descriptions of retinal location, stage, vascular abnormality, aggressive ROP, regression, and reactivation, including patterns that may follow anti-VEGF treatment.",
+      "journal": "Ophthalmology",
+      "year": "2021",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34247850/",
+      "doi": "10.1016/j.ophtha.2021.05.031"
+    },
+    {
+      "id": "RAINBOW:ROP-2019",
+      "title": "Ranibizumab Versus Laser Therapy for Very Low Birthweight Infants With Retinopathy of Prematurity",
+      "abstract": "The RAINBOW randomized trial compared two ranibizumab doses with laser therapy for ROP in very low birthweight infants, contributing evidence for anti-VEGF treatment while emphasizing questions about dose, retreatment, and long-term effects.",
+      "journal": "The Lancet",
+      "year": "2019",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31522845/",
+      "doi": "10.1016/S0140-6736(19)31344-3"
+    },
+    {
+      "id": "RAINBOW:5-YEAR-2024",
+      "title": "Five-Year Outcomes of the RAINBOW Randomised Trial",
+      "abstract": "Five-year follow-up of RAINBOW compared ocular, visual, and developmental outcomes after ranibizumab or laser, illustrating why treatment decisions and continued surveillance require specialist care rather than a one-time procedure.",
+      "journal": "eClinicalMedicine",
+      "year": "2024",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38638400/",
+      "doi": "10.1016/j.eclinm.2024.102567"
+    }
+  ],
+  "episode": {
+    "title": "E55: Why Premature Babies Need Eye Screening",
+    "hook": "Hello and welcome. Imagine bringing a premature baby home after weeks in intensive care. The oxygen monitor is gone, feeding is improving, and both eyes look completely normal. Then you see an eye appointment on the discharge plan and wonder whether it can wait. It cannot. Retinopathy of prematurity often gives parents nothing to see, yet the retina may be changing during a narrow window when screening and treatment can preserve vision.",
+    "sections": [
+      {
+        "heading": "The high yield summary",
+        "narration": "Too busy? Here is your high yield summary. Retinopathy of prematurity, or ROP, affects incompletely developed retinal blood vessels in babies born early. Early ROP causes no visible symptoms and most mild disease resolves, but severe disease can scar or detach the retina. Screening is a scheduled series of dilated retinal examinations, not a one-time test. The exact start and follow-up dates depend on gestational age, birth weight, neonatal course, and what each examination shows. Discharge does not cancel the schedule.",
+        "on_screen": ["ROP may have no visible signs", "Screening is a series", "Discharge does not end follow-up"],
+        "icon": "rop-summary",
+        "source_ids": ["AAP:ROP-SCREENING-2018", "NEI:ROP-2026", "AAPOS:ROP-2025"]
+      },
+      {
+        "heading": "Why premature retinas are vulnerable",
+        "narration": "Retinal blood vessels normally grow outward during pregnancy and finish near the expected due date. Very early birth interrupts that protected environment while much of the peripheral retina still lacks mature vessels. Changing oxygen needs, illness, growth, and local chemical signals can then disturb normal development. Abnormal vessels may grow where the vascular and avascular retina meet. These fragile vessels can leak, form scar tissue, and pull the retina away from the eye wall.",
+        "on_screen": ["Retinal vessels mature late in pregnancy", "Early birth interrupts development", "Abnormal growth can pull the retina"],
+        "icon": "retinal-vessel-development",
+        "source_ids": ["NEI:ROP-2026", "AAPOS:ROP-2025", "ICROP3:CLASSIFICATION-2021"]
+      },
+      {
+        "heading": "Which babies are screened",
+        "narration": "In common United States guidance, infants born at 30 weeks gestation or earlier, or weighing 1500 grams or less, are screened. Selected larger or more mature premature infants are also examined when their neonatal course was unstable or a clinician believes risk is higher. Other countries and hospitals adapt criteria to local patterns and resources. Parents should therefore follow the neonatal team's written plan rather than trying to decide eligibility from a single number.",
+        "on_screen": ["Gestational age matters", "Birth weight matters", "Clinical course can expand eligibility"],
+        "icon": "screening-eligibility",
+        "source_ids": ["AAP:ROP-SCREENING-2018", "NEI:ROP-2026", "AAPOS:ROP-2025"]
+      },
+      {
+        "heading": "Timing follows retinal development",
+        "narration": "The first examination is scheduled from both age at birth and time since birth because ROP appears according to retinal maturity, not convenience or hospital discharge. The ophthalmologist then chooses the next interval from the most immature retinal zone and any disease found. A baby may need another examination in days or weeks. The series ends only when documented retinal development or regression meets specialist criteria. Never assume that one reassuring examination clears every later risk.",
+        "on_screen": ["Timing uses two age measures", "Findings set the next interval", "One normal exam may not finish screening"],
+        "icon": "rop-timeline",
+        "source_ids": ["AAP:ROP-SCREENING-2018", "NEI:ROP-2026", "AAPOS:ROP-2025"]
+      },
+      {
+        "heading": "What the eye specialist records",
+        "narration": "After dilating the pupils, the specialist maps three main features. Zone describes how far retinal vessels have grown. Stage describes the structural change at the border of vascular and avascular retina. Plus disease describes concerning dilation and twisting of posterior vessels. These features, together with extent and the baby's course, distinguish disease that can be watched from type 1 or aggressive ROP that may need prompt treatment.",
+        "on_screen": ["Zone means location", "Stage means structural severity", "Plus disease means vascular activity"],
+        "icon": "zone-stage-plus",
+        "source_ids": ["ICROP3:CLASSIFICATION-2021", "AAPOS:ROP-2025", "ETROP:EARLY-TREATMENT-2003"]
+      },
+      {
+        "heading": "Most cases are watched, some need treatment",
+        "narration": "Most mild ROP improves as normal vessels continue growing. When the pattern reaches treatment criteria, waiting can raise the risk of retinal detachment. Laser treats the peripheral retina that has not developed vessels. Anti-VEGF medicine injected into the eye reduces signals driving abnormal vessel growth. The best choice depends on disease location, medical stability, follow-up reliability, and specialist judgment. Surgery may be needed if detachment develops, but preventing that stage is the goal.",
+        "on_screen": ["Mild ROP often regresses", "Laser or anti-VEGF for severe disease", "Prevent retinal detachment"],
+        "icon": "rop-treatment",
+        "source_ids": ["ETROP:EARLY-TREATMENT-2003", "RAINBOW:ROP-2019", "NEI:ROP-2026"]
+      },
+      {
+        "heading": "Treatment does not end surveillance",
+        "narration": "Laser usually leaves a visible treatment pattern, while anti-VEGF can allow more peripheral vascular growth. However, ROP can reactivate later after an injection, so follow-up may extend longer. Trials support specialist use of both approaches but do not turn either into a simple universal choice. Premature children also have higher later risks of nearsightedness, strabismus, amblyopia, and retinal problems, making long-term eye care important even after acute ROP settles.",
+        "on_screen": ["ROP can reactivate", "Follow-up differs by treatment", "Prematurity carries later eye risks"],
+        "icon": "long-term-eye-care",
+        "source_ids": ["ICROP3:CLASSIFICATION-2021", "RAINBOW:ROP-2019", "RAINBOW:5-YEAR-2024", "AAPOS:ROP-2025"]
+      },
+      {
+        "heading": "Make the discharge plan failure-proof",
+        "narration": "Now, let us go deeper. Before leaving the hospital, confirm the appointment date, location, clinician, and transport plan. Ask who will reschedule if the baby is transferred or readmitted. Keep the neonatal summary and previous eye findings together. If an appointment becomes impossible, call the eye team immediately rather than waiting for the next routine visit. Do not use normal-looking eyes, comfort, or good visual behavior as reassurance because early ROP is invisible at home.",
+        "on_screen": ["Leave with a booked appointment", "Transfers need a handoff", "Call immediately if a visit is disrupted"],
+        "icon": "discharge-checklist",
+        "source_ids": ["AAP:ROP-SCREENING-2018", "AAPOS:ROP-2025", "NEI:ROP-2026"]
+      },
+      {
+        "heading": "Three essential takeaways",
+        "narration": "Number one, premature babies need retinal screening because serious ROP can progress without pain, redness, or any sign a parent can see. Number two, screening is a timed series based on gestational age, birth weight, neonatal course, and retinal findings, so every appointment matters after discharge. Number three, mild disease often resolves, while severe disease may need laser or an eye injection, followed by careful surveillance for reactivation and later childhood vision problems.",
+        "on_screen": ["ROP can be silent", "Keep every timed examination", "Treatment still requires follow-up"],
+        "icon": "checklist",
+        "source_ids": ["AAP:ROP-SCREENING-2018", "NEI:ROP-2026", "ETROP:EARLY-TREATMENT-2003", "ICROP3:CLASSIFICATION-2021"]
+      }
+    ],
+    "closing": "On the next episode, we will explain why children need vision screening before school, what screening can detect before a child complains, and when a failed check needs a full eye examination. Until then, protect a premature baby's sight by treating every scheduled retinal examination as time-sensitive care.",
+    "description": "Premature babies can develop retinopathy of prematurity without visible symptoms. This episode explains retinal development, screening eligibility and timing, examination findings, treatment options, and why follow-up must continue after discharge.",
+    "thumbnail_text": "PREMATURE BABY EYE SCREENING"
+  }
+}
