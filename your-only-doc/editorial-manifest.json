@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "workflow": "chatgpt-reviewed-v20",
-  "updated_at": "2026-10-03T09:48:09Z",
-  "next_episode_number": 56,
+  "updated_at": "2026-10-04T08:49:17Z",
+  "next_episode_number": 57,
   "next_planned_topic": {
-    "id": "childhood-vision-screening",
-    "title": "Why Children Need Vision Screening Before School",
-    "reason": "It follows neonatal ROP screening by broadening to routine childhood detection of refractive error, amblyopia, strabismus, and abnormal red reflex before symptoms or school difficulties appear."
+    "id": "child-squinting",
+    "title": "Why a Child Keeps Squinting",
+    "reason": "It follows routine childhood vision screening by explaining how squinting may temporarily sharpen blur, signal refractive error or eye alignment problems, and indicate when a full eye examination is needed."
   },
   "packets": [
     {
@@ -337,6 +337,13 @@
       "title": "E55: Why Premature Babies Need Eye Screening",
       "file": "episodes/E55-retinopathy-prematurity-screening.json",
       "status": "ready"
+    },
+    {
+      "episode_number": 56,
+      "topic_id": "childhood-vision-screening",
+      "title": "E56: Why Children Need Vision Screening Before School",
+      "file": "episodes/E56-childhood-vision-screening.json",
+      "status": "ready"
     }
   ],
   "evergreen_sequence": [
@@ -511,6 +518,10 @@
     {
       "id": "childhood-vision-screening",
       "title": "Why Children Need Vision Screening Before School"
+    },
+    {
+      "id": "child-squinting",
+      "title": "Why a Child Keeps Squinting"
     }
   ],
   "editorial_policy": {
