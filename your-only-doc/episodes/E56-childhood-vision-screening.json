@@ -1,0 +1,168 @@
+{
+  "schema": 2,
+  "editorial": {
+    "workflow": "chatgpt-reviewed-v20",
+    "reviewed_by": "ChatGPT medical editorial workflow",
+    "reviewed_on": "2026-10-04",
+    "episode_number": 56,
+    "language": "English",
+    "spoken_host_name_allowed": false,
+    "long_dashes_allowed": false,
+    "target_minutes": 10
+  },
+  "topic_id": "childhood-vision-screening",
+  "topic": {
+    "id": "childhood-vision-screening",
+    "title": "Why Children Need Vision Screening Before School",
+    "audience_question": "Why should children have vision screening before school even when they do not complain, and what happens after an abnormal result?",
+    "pubmed_query": "preschool childhood vision screening amblyopia refractive error strabismus photoscreening visual acuity referral",
+    "icon_keywords": ["child-vision", "eye-chart", "photoscreening", "amblyopia", "school"],
+    "category": "eye-health"
+  },
+  "sources": [
+    {
+      "id": "AAP:VISUAL-ASSESSMENT-2016",
+      "title": "Visual System Assessment in Infants, Children, and Young Adults by Pediatricians",
+      "abstract": "This joint policy statement from the American Academy of Pediatrics, American Academy of Ophthalmology, AAPOS, and allied organizations recommends age-appropriate visual assessment throughout childhood and referral when screening reveals an abnormality or cannot be completed reliably.",
+      "journal": "Pediatrics",
+      "year": "2016",
+      "url": "https://publications.aap.org/pediatrics/article/137/1/e20153596/52809/Visual-System-Assessment-in-Infants-Children-and",
+      "doi": "10.1542/peds.2015-3596"
+    },
+    {
+      "id": "AAP:VISION-PROCEDURES-2016",
+      "title": "Procedures for the Evaluation of the Visual System by Pediatricians",
+      "abstract": "This clinical report describes childhood visual history, external inspection, pupil and red reflex assessment, ocular alignment, fixation behavior, instrument-based screening, and monocular visual acuity testing.",
+      "journal": "Pediatrics",
+      "year": "2016",
+      "url": "https://publications.aap.org/pediatrics/article/137/1/e20153597/52806/Procedures-for-the-Evaluation-of-the-Visual-System",
+      "doi": "10.1542/peds.2015-3597"
+    },
+    {
+      "id": "USPSTF:CHILD-VISION-2017",
+      "title": "Vision in Children Ages 6 Months to 5 Years: Screening",
+      "abstract": "The USPSTF recommends screening all children at least once between ages 3 and 5 years to detect amblyopia or its risk factors, concluding with moderate certainty that screening has a moderate net benefit in this age group.",
+      "journal": "U.S. Preventive Services Task Force",
+      "year": "2017",
+      "url": "https://www.uspreventiveservicestaskforce.org/uspstf/document/RecommendationStatementFinal/vision-in-children-ages-6-months-to-5-years-screening",
+      "doi": null
+    },
+    {
+      "id": "AAPOS:SCREENING-RECOMMENDATIONS-2026",
+      "title": "Vision Screening Recommendations",
+      "abstract": "AAPOS provides age-specific recommendations for red reflex, fixation, alignment, instrument-based screening, and visual acuity testing, with referral criteria and repeated screening every one to two years after age five.",
+      "journal": "American Association for Pediatric Ophthalmology and Strabismus",
+      "year": "2026",
+      "url": "https://www.aapos.org/syndicated/vision-screening",
+      "doi": null
+    },
+    {
+      "id": "AAPOS:VISION-SCREENING-2026",
+      "title": "Vision Screening",
+      "abstract": "AAPOS explains that screening is a repeated, age-adapted process using light examination, fixation behavior, instruments, or eye charts. A refer result means a possible problem requiring a complete eye examination, not a diagnosis.",
+      "journal": "American Association for Pediatric Ophthalmology and Strabismus",
+      "year": "2026",
+      "url": "https://www.aapos.org/glossary/vision-screening-description",
+      "doi": null
+    },
+    {
+      "id": "AAPOS:PHOTOSCREENING-2026",
+      "title": "Photoscreening",
+      "abstract": "AAPOS describes photoscreening as an instrument-based method that can detect amblyopia risk factors in children who cannot yet cooperate with an eye chart, while noting that monocular visual acuity remains the standard when feasible.",
+      "journal": "American Association for Pediatric Ophthalmology and Strabismus",
+      "year": "2026",
+      "url": "https://www.aapos.org/glossary/photoscreening",
+      "doi": null
+    },
+    {
+      "id": "NEI:AMBLYOPIA-2026",
+      "title": "Amblyopia (Lazy Eye)",
+      "abstract": "The National Eye Institute explains that amblyopia develops when the brain and an eye do not work together normally. Early treatment with glasses, patching, drops, or treatment of an underlying eye problem usually prevents long-term visual loss.",
+      "journal": "National Eye Institute",
+      "year": "2026",
+      "url": "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/amblyopia-lazy-eye",
+      "doi": null
+    },
+    {
+      "id": "ALSPAC:AMBLYOPIA-SCREENING-2001",
+      "title": "Screening for Amblyopia in Preschool Children: A Population-Based Randomised Controlled Trial",
+      "abstract": "This randomized population study found that different preschool screening approaches varied in sensitivity and false-positive rates. Photorefraction detected more straight-eyed amblyopia before 37 months than visual acuity testing but also generated more false positives.",
+      "journal": "Ophthalmic Epidemiology",
+      "year": "2001",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/11922382/",
+      "doi": "10.1080/09286586.2001.11644257"
+    }
+  ],
+  "episode": {
+    "title": "E56: Why Children Need Vision Screening Before School",
+    "hook": "Hello and welcome. Imagine a four-year-old who runs, draws, recognizes faces, and never says that anything looks blurry. At preschool, one eye is covered during a simple vision check. Suddenly, the child cannot identify shapes that were easy with the other eye. Nothing had looked wrong at home because the stronger eye had been doing the work. That is exactly why children need screening before school rather than waiting for a complaint.",
+    "sections": [
+      {
+        "heading": "The high yield summary",
+        "narration": "Too busy? Here is your high yield summary. Vision screening looks for children who may have reduced sight, unequal focusing, an eye turn, an abnormal red reflex, or another reason for a full eye examination. It begins with age-appropriate checks in infancy and becomes more precise as children can match shapes or letters. All children should be screened during the preschool years. A pass lowers concern but does not guarantee perfect eye health. A refer result is not a diagnosis, but it must be followed.",
+        "on_screen": ["Screen before symptoms", "Test each eye separately", "Refer means complete examination"],
+        "icon": "vision-screening-summary",
+        "source_ids": ["AAP:VISUAL-ASSESSMENT-2016", "USPSTF:CHILD-VISION-2017", "AAPOS:VISION-SCREENING-2026"]
+      },
+      {
+        "heading": "Children may not know one eye is weak",
+        "narration": "Young children have no adult baseline for comparison. They may assume everyone sees as they do, and one clear eye can hide blur in the other. They can also compensate by moving closer, tilting the head, avoiding detailed tasks, or relying on memory. Amblyopia develops when the brain favors one eye because of unequal prescription, strabismus, or an obstruction such as cataract. Early childhood is the best opportunity to restore balanced visual development.",
+        "on_screen": ["One eye can hide the other", "Children may not report blur", "Early treatment supports visual development"],
+        "icon": "hidden-vision-loss",
+        "source_ids": ["NEI:AMBLYOPIA-2026", "USPSTF:CHILD-VISION-2017", "AAPOS:VISION-SCREENING-2026"]
+      },
+      {
+        "heading": "Screening starts before an eye chart",
+        "narration": "In babies and toddlers, clinicians ask about family history and development, inspect the eyelids and pupils, compare red reflexes, watch whether both eyes fix and follow, and check alignment. These steps can reveal cataract, eye turn, unequal pupils, drooping eyelids, or abnormal visual behavior. Children at higher risk, including those born prematurely or with a strong family history, developmental concerns, or an abnormal examination, may need direct specialist assessment rather than routine screening alone.",
+        "on_screen": ["History and external inspection", "Red reflex and alignment", "High-risk children may need direct referral"],
+        "icon": "infant-eye-check",
+        "source_ids": ["AAP:VISUAL-ASSESSMENT-2016", "AAP:VISION-PROCEDURES-2016", "USPSTF:CHILD-VISION-2017"]
+      },
+      {
+        "heading": "Pictures and instruments help before reading",
+        "narration": "Instrument-based screening uses reflected light or photographs to estimate focusing errors and detect some alignment or pupil abnormalities. It is useful when a child is too young, nonverbal, or unable to cooperate with a chart. The machine does not measure the child's lived visual acuity and does not replace a complete examination. Like every screening test, it can miss problems or create a false alarm, so the result must be interpreted within the child's age, behavior, and examination.",
+        "on_screen": ["Useful before chart cooperation", "Finds amblyopia risk factors", "Not a complete eye examination"],
+        "icon": "photoscreener",
+        "source_ids": ["AAPOS:PHOTOSCREENING-2026", "AAPOS:VISION-SCREENING-2026", "ALSPAC:AMBLYOPIA-SCREENING-2001"]
+      },
+      {
+        "heading": "Chart testing must compare both eyes",
+        "narration": "By preschool age, many children can match familiar shapes or the letters H, O, T, and V. Each eye is tested separately with the other fully covered because binocular testing can conceal a weak eye. The screener uses age-appropriate pass levels and also notes a meaningful difference between the eyes. Poor attention, unfamiliar symbols, peeking, or an incorrect testing distance can distort results, which is why standardized technique and repeatability matter.",
+        "on_screen": ["Use child-friendly symbols", "Cover one eye completely", "Technique affects accuracy"],
+        "icon": "preschool-eye-chart",
+        "source_ids": ["AAP:VISION-PROCEDURES-2016", "AAPOS:SCREENING-RECOMMENDATIONS-2026", "AAPOS:VISION-SCREENING-2026"]
+      },
+      {
+        "heading": "A failed screen needs diagnostic follow-up",
+        "narration": "A screening failure may reflect refractive error, amblyopia, strabismus, or another eye condition, but only a full examination can determine the cause. The eye professional measures vision, alignment, focusing, and eye health, often using drops to relax focusing and reveal the true prescription. Treatment may be as simple as glasses. Amblyopia may also require patching or drops for the stronger eye, while cataract or other structural disease needs condition-specific care.",
+        "on_screen": ["Screening finds risk", "Examination establishes the diagnosis", "Treatment depends on the cause"],
+        "icon": "diagnostic-eye-exam",
+        "source_ids": ["NEI:AMBLYOPIA-2026", "AAPOS:VISION-SCREENING-2026", "USPSTF:CHILD-VISION-2017"]
+      },
+      {
+        "heading": "Passing once does not end screening",
+        "narration": "Eyes and prescriptions change as a child grows. A child who passes at age three can later develop myopia, alignment problems, or another condition. AAPOS recommends repeated screening every one to two years after age five, while local health systems may use different schedules. Screening should happen sooner whenever parents or teachers notice squinting, closing one eye, headaches with near work, an eye turn, a white pupil, trouble tracking, or declining classroom performance.",
+        "on_screen": ["Vision changes with growth", "Repeat screening after age five", "Symptoms override the calendar"],
+        "icon": "repeat-vision-checks",
+        "source_ids": ["AAPOS:SCREENING-RECOMMENDATIONS-2026", "AAP:VISUAL-ASSESSMENT-2016", "AAPOS:VISION-SCREENING-2026"]
+      },
+      {
+        "heading": "Close the gap between screening and care",
+        "narration": "Now, let us go deeper. The benefit of screening disappears when a referral form stays in a school bag. Ask for the exact result, which eye did not pass, and where the complete examination should occur. Book the visit promptly and bring the screening record. If a child was unable to cooperate twice, do not label that as a pass. Arrange professional evaluation, especially when there are developmental differences, risk factors, or any visible eye abnormality.",
+        "on_screen": ["Get the written result", "Book the complete examination", "Repeatedly untestable is not a pass"],
+        "icon": "referral-follow-through",
+        "source_ids": ["AAP:VISUAL-ASSESSMENT-2016", "AAPOS:SCREENING-RECOMMENDATIONS-2026", "AAPOS:VISION-SCREENING-2026"]
+      },
+      {
+        "heading": "Three essential takeaways",
+        "narration": "Number one, children can have important vision loss without complaining because one eye may compensate for the other. Number two, screening changes with age, from red reflex and alignment checks to instruments and separate-eye chart testing, and every child should be screened during the preschool years. Number three, a failed or repeatedly incomplete screen needs a complete eye examination, because early treatment of refractive error, amblyopia, strabismus, or structural disease can protect developing vision.",
+        "on_screen": ["Children may not complain", "Use age-appropriate screening", "Follow every referral"],
+        "icon": "checklist",
+        "source_ids": ["USPSTF:CHILD-VISION-2017", "NEI:AMBLYOPIA-2026", "AAP:VISUAL-ASSESSMENT-2016", "AAPOS:VISION-SCREENING-2026"]
+      }
+    ],
+    "closing": "On the next episode, we will explain why a child keeps squinting, when it suggests a focusing problem, and which warning signs need an eye examination rather than observation. Until then, treat vision screening as the beginning of protection, and make sure every abnormal result reaches complete care.",
+    "description": "Children may have reduced vision in one eye without noticing it. This episode explains infant checks, photoscreening, preschool eye charts, amblyopia risk, referral, and why screening must continue after school begins.",
+    "thumbnail_text": "VISION CHECK BEFORE SCHOOL"
+  }
+}
