@@ -1,0 +1,168 @@
+{
+  "schema": 2,
+  "editorial": {
+    "workflow": "chatgpt-reviewed-v20",
+    "reviewed_by": "ChatGPT medical editorial workflow",
+    "reviewed_on": "2026-10-06",
+    "episode_number": 57,
+    "language": "English",
+    "spoken_host_name_allowed": false,
+    "long_dashes_allowed": false,
+    "target_minutes": 10
+  },
+  "topic_id": "child-squinting",
+  "topic": {
+    "id": "child-squinting",
+    "title": "Why a Child Keeps Squinting",
+    "audience_question": "Why does a child keep narrowing the eyelids or closing one eye, and when does that need an eye examination?",
+    "pubmed_query": "child squinting eyelid pinhole refractive error myopia astigmatism strabismus intermittent exotropia",
+    "icon_keywords": ["child-vision", "squinting", "refractive-error", "strabismus", "eye-exam"],
+    "category": "eye-health"
+  },
+  "sources": [
+    {
+      "id": "NEI:REFRACTIVE-ERRORS-2026",
+      "title": "Refractive Errors",
+      "abstract": "The National Eye Institute explains that refractive errors occur when the eye cannot focus light correctly on the retina. Symptoms include blurry vision, squinting, headaches, eye strain, and difficulty focusing, and diagnosis requires a comprehensive eye examination.",
+      "journal": "National Eye Institute",
+      "year": "2026",
+      "url": "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/refractive-errors",
+      "doi": null
+    },
+    {
+      "id": "NEI:MYOPIA-2026",
+      "title": "Nearsightedness (Myopia)",
+      "abstract": "The National Eye Institute describes childhood myopia as a refractive error that makes distant objects blurry. Common signs include squinting to see clearly and eye strain, and an eye examination establishes the diagnosis.",
+      "journal": "National Eye Institute",
+      "year": "2026",
+      "url": "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/nearsightedness-myopia",
+      "doi": null
+    },
+    {
+      "id": "AAPOS:REFRACTIVE-CHILDREN-2026",
+      "title": "Refractive Errors in Children",
+      "abstract": "AAPOS explains that myopia, hyperopia, and astigmatism can blur or distort a child's vision. Children may not complain, particularly when one eye sees better, and cycloplegic dilation allows an accurate measurement of prescription while the focusing muscles are relaxed.",
+      "journal": "American Association for Pediatric Ophthalmology and Strabismus",
+      "year": "2026",
+      "url": "https://www.aapos.org/glossary/refractive-errors-in-children",
+      "doi": null
+    },
+    {
+      "id": "AAPOS:EXOTROPIA-2026",
+      "title": "Exotropia",
+      "abstract": "AAPOS describes exotropia as outward drifting of one eye. In intermittent exotropia, some children squint or close one eye, particularly in bright sunlight, and evaluation measures alignment, vision, and refractive error.",
+      "journal": "American Association for Pediatric Ophthalmology and Strabismus",
+      "year": "2026",
+      "url": "https://www.aapos.org/glossary/exotropia",
+      "doi": null
+    },
+    {
+      "id": "AAPOS:CONVERGENCE-2026",
+      "title": "Convergence Insufficiency",
+      "abstract": "AAPOS explains that convergence insufficiency can cause blurry or double vision, headaches, eye strain, moving words, and squinting or closing one eye during reading. A complete examination also checks refractive error, focusing, and strabismus because symptoms overlap.",
+      "journal": "American Association for Pediatric Ophthalmology and Strabismus",
+      "year": "2026",
+      "url": "https://www.aapos.org/glossary/convergence-insufficiency",
+      "doi": null
+    },
+    {
+      "id": "AAPOS:ALLERGIC-CONJUNCTIVITIS-2026",
+      "title": "Allergic Conjunctivitis",
+      "abstract": "AAPOS describes itching as the main symptom of allergic conjunctivitis, often with redness, tearing, burning, and eyelid swelling. Irritation can make children rub or partly close their eyes, but persistent visual behavior still requires evaluation.",
+      "journal": "American Association for Pediatric Ophthalmology and Strabismus",
+      "year": "2026",
+      "url": "https://www.aapos.org/glossary/allergic-conjunctivitis",
+      "doi": null
+    },
+    {
+      "id": "VISION:PINHOLE-2023",
+      "title": "Applications of Pinhole Effect in Clinical Vision Science",
+      "abstract": "This peer reviewed clinical review explains that a small aperture limits peripheral light rays and increases depth of focus, which can temporarily improve retinal image quality when refractive blur is present. It is an optical clue rather than treatment.",
+      "journal": "Journal of Cataract and Refractive Surgery",
+      "year": "2024",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38133648/",
+      "doi": "10.1097/j.jcrs.0000000000001318"
+    },
+    {
+      "id": "AAO:CONJUNCTIVITIS-2026",
+      "title": "Conjunctivitis: What Is Pink Eye?",
+      "abstract": "The American Academy of Ophthalmology advises urgent ophthalmic assessment when a red eye is accompanied by moderate or severe pain, light sensitivity, blurred vision, intense redness, or worsening symptoms.",
+      "journal": "American Academy of Ophthalmology",
+      "year": "2026",
+      "url": "https://www.aao.org/eye-health/diseases/pink-eye-conjunctivitis",
+      "doi": null
+    }
+  ],
+  "episode": {
+    "title": "E57: Why a Child Keeps Squinting",
+    "hook": "Hello and welcome. Imagine a child watching television with narrowed eyelids, moving closer, and tilting the head. Outdoors, the same child sometimes closes one eye. The child says everything is fine, and the behavior disappears during play. Squinting can be a small experiment the visual system performs to sharpen a blurry image. It can also be a clue to eye alignment, focusing, or irritation. The pattern matters more than the gesture alone.",
+    "sections": [
+      {
+        "heading": "The high yield summary",
+        "narration": "Too busy? Here is your high yield summary. Repeated squinting is not a diagnosis. Narrowing the eyelids may briefly sharpen refractive blur, while closing one eye can reduce visual confusion from an alignment problem. Notice whether it happens for distance, reading, bright light, or one side only. Arrange a complete eye examination if it persists, affects school or play, or comes with an eye turn. Pain, marked redness, light sensitivity, injury, or reduced vision needs prompt care.",
+        "on_screen": ["Pattern matters", "Blur and alignment are common clues", "Pain or reduced vision needs prompt care"],
+        "icon": "squinting-summary",
+        "source_ids": ["NEI:REFRACTIVE-ERRORS-2026", "AAPOS:REFRACTIVE-CHILDREN-2026", "AAPOS:EXOTROPIA-2026", "AAO:CONJUNCTIVITIS-2026"]
+      },
+      {
+        "heading": "Why narrowing the eyelids can sharpen blur",
+        "narration": "Partly closing the eyelids creates a smaller opening for light. Like a pinhole, this blocks some unfocused peripheral rays and increases depth of focus, so letters or faces may look temporarily clearer. That is why squinting can point toward an uncorrected prescription. It does not strengthen the eyes, stop myopia, or replace glasses. If the child repeatedly uses this optical workaround, the underlying reason deserves measurement.",
+        "on_screen": ["Smaller opening", "Temporary sharper image", "A clue, not treatment"],
+        "icon": "pinhole-effect",
+        "source_ids": ["VISION:PINHOLE-2023", "NEI:REFRACTIVE-ERRORS-2026"]
+      },
+      {
+        "heading": "Distance squinting often suggests refractive blur",
+        "narration": "A child who squints at the board, television, road signs, or faces across a room may be nearsighted. Astigmatism can distort vision at several distances. Farsighted children may use extra focusing effort and develop headaches, near difficulty, or an inward eye turn when the demand is high. Children often do not report blur because they assume their view is normal, especially when one eye compensates for the other.",
+        "on_screen": ["Distance blur can suggest myopia", "Astigmatism distorts focus", "One eye may hide the problem"],
+        "icon": "refractive-blur",
+        "source_ids": ["NEI:MYOPIA-2026", "AAPOS:REFRACTIVE-CHILDREN-2026", "NEI:REFRACTIVE-ERRORS-2026"]
+      },
+      {
+        "heading": "Squinting can also mean an eye turn",
+        "narration": "Families use the word squint for two different things: narrowing the eyelids and strabismus, where one eye turns in, out, up, or down. Watch the pupils while the child looks at a target. An eye that drifts, even intermittently, needs professional assessment. A visible turn may interfere with binocular vision and can contribute to amblyopia in childhood. Photographs or a short video can help document a pattern that disappears in the clinic.",
+        "on_screen": ["Eyelid narrowing is not strabismus", "Look for pupil misalignment", "Record intermittent changes"],
+        "icon": "eye-alignment",
+        "source_ids": ["AAPOS:EXOTROPIA-2026", "AAPOS:REFRACTIVE-CHILDREN-2026"]
+      },
+      {
+        "heading": "Closing one eye in sunlight is a useful clue",
+        "narration": "Some children with intermittent exotropia close or squint one eye in bright sunlight. The exact reason is not fully understood, but closing one eye can remove the need to combine two poorly aligned images. Do not diagnose exotropia from sunlight behavior alone. Note which eye closes, whether an eye drifts when tired or daydreaming, and whether the pattern is becoming more frequent, then bring those observations to the examination.",
+        "on_screen": ["Bright light may reveal the pattern", "One eye may drift outward", "Track frequency and side"],
+        "icon": "sunlight-eye-closure",
+        "source_ids": ["AAPOS:EXOTROPIA-2026"]
+      },
+      {
+        "heading": "Near work creates a different pattern",
+        "narration": "During reading, look for squinting or closing one eye together with headaches, eye strain, double vision, words that move, loss of place, or avoidance of close work. Convergence insufficiency is one possible cause, but similar symptoms can come from refractive error, focusing difficulty, or fatigue. Reading trouble should never be assigned to one eye condition without a complete assessment, and eye exercises should not be started from an online guess.",
+        "on_screen": ["Symptoms during reading", "Several causes can overlap", "Examine before treating"],
+        "icon": "near-work-symptoms",
+        "source_ids": ["AAPOS:CONVERGENCE-2026", "AAPOS:REFRACTIVE-CHILDREN-2026"]
+      },
+      {
+        "heading": "Irritation and warning signs change the urgency",
+        "narration": "Itchy, watery, red eyes and eyelid swelling can accompany allergy and make a child partly close or rub the eyes. But pain, strong light sensitivity, intense redness, blurred or reduced vision, chemical exposure, or an eye injury should not be watched at home. Seek prompt medical assessment. Sudden neurologic symptoms, severe headache, weakness, or trouble speaking require emergency care rather than a routine optical appointment.",
+        "on_screen": ["Itching suggests allergy", "Pain and light sensitivity are warnings", "Injury or vision loss needs prompt care"],
+        "icon": "eye-warning-signs",
+        "source_ids": ["AAPOS:ALLERGIC-CONJUNCTIVITIS-2026", "AAO:CONJUNCTIVITIS-2026"]
+      },
+      {
+        "heading": "What the complete examination looks for",
+        "narration": "Now, let us go deeper. The clinician measures each eye separately, checks pupils and eye health, observes alignment at distance and near, and tests focusing and eye movements. Dilating drops relax a child's powerful focusing muscles so the true prescription can be measured accurately. Bring the screening record, photographs or videos, and notes about distance, reading, sunlight, tiredness, and which eye closes. Those details turn a vague symptom into a useful clinical pattern.",
+        "on_screen": ["Test each eye", "Check alignment and focusing", "Dilation reveals the prescription"],
+        "icon": "complete-child-eye-exam",
+        "source_ids": ["AAPOS:REFRACTIVE-CHILDREN-2026", "AAPOS:EXOTROPIA-2026", "AAPOS:CONVERGENCE-2026"]
+      },
+      {
+        "heading": "Three essential takeaways",
+        "narration": "Number one, repeated eyelid squinting can temporarily sharpen refractive blur, but it does not correct the cause. Number two, closing one eye or a visible eye drift can signal an alignment problem, especially when it appears in sunlight, during reading, or when the child is tired. Number three, record the pattern and arrange a complete eye examination, while seeking prompt care for pain, injury, marked redness, light sensitivity, or reduced vision.",
+        "on_screen": ["Squinting can mask blur", "One-eye closure can reveal misalignment", "Examine persistent or urgent patterns"],
+        "icon": "checklist",
+        "source_ids": ["VISION:PINHOLE-2023", "AAPOS:EXOTROPIA-2026", "AAPOS:CONVERGENCE-2026", "AAO:CONJUNCTIVITIS-2026"]
+      }
+    ],
+    "closing": "On the next episode, we will explain why a child keeps rubbing their eyes, when allergy or irritation is likely, and which persistent patterns deserve an examination. Until then, do not ask a child to stop squinting without asking what the eyes are trying to overcome.",
+    "description": "Children may narrow their eyelids to sharpen blur or close one eye when the eyes are not aligning comfortably. This episode explains refractive error, intermittent exotropia, near-work symptoms, irritation, warning signs, and what a complete eye examination checks.",
+    "thumbnail_text": "WHY CHILDREN SQUINT"
+  }
+}
