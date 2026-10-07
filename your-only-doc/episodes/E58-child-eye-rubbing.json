@@ -1,0 +1,229 @@
+{
+  "schema": 2,
+  "editorial": {
+    "workflow": "chatgpt-reviewed-v20",
+    "reviewed_by": "ChatGPT medical editorial workflow",
+    "reviewed_on": "2026-10-07",
+    "episode_number": 58,
+    "language": "English",
+    "spoken_host_name_allowed": false,
+    "long_dashes_allowed": false,
+    "target_minutes": 10
+  },
+  "topic_id": "child-eye-rubbing",
+  "topic": {
+    "id": "child-eye-rubbing",
+    "title": "Why a Child Keeps Rubbing Their Eyes",
+    "audience_question": "When is a child's repeated eye rubbing caused by allergy or irritation, and when should it prompt an eye examination?",
+    "pubmed_query": "children eye rubbing allergic conjunctivitis blepharitis keratoconus corneal topography",
+    "icon_keywords": [
+      "child",
+      "eye-rubbing",
+      "allergy",
+      "cornea"
+    ],
+    "category": "eye-health"
+  },
+  "sources": [
+    {
+      "id": "AAPOS:ALLERGY-2025",
+      "title": "Allergic Conjunctivitis",
+      "abstract": "AAPOS describes itch, tearing, redness, and swelling from allergens. Avoiding triggers, artificial tears, and clinician-guided allergy drops can help. Steroid drops require ophthalmologist supervision. Clinical text updated August 2025; page metadata updated March 30, 2026.",
+      "journal": "American Association for Pediatric Ophthalmology and Strabismus",
+      "year": "2025",
+      "url": "https://aapos.org/glossary/allergic-conjunctivitis",
+      "doi": null
+    },
+    {
+      "id": "NHS:BLEPHARITIS-2025",
+      "title": "Blepharitis",
+      "abstract": "Reviewed June 12, 2025. Eyelid inflammation can cause itching, grittiness, lash crusts, and morning sticking. Warm compresses and gentle lid cleaning are recommended; pain or vision change needs urgent assessment.",
+      "journal": "National Health Service",
+      "year": "2025",
+      "url": "https://www.nhs.uk/conditions/blepharitis/",
+      "doi": null
+    },
+    {
+      "id": "NEI:PINK-EYE-2025",
+      "title": "Pink Eye",
+      "abstract": "Updated November 5, 2025. Infectious, allergic, and irritant conjunctivitis have overlapping symptoms. Hand hygiene and separate towels reduce infection spread. Persistent symptoms, significant pain, vision changes, and newborn eye symptoms need medical assessment.",
+      "journal": "National Eye Institute",
+      "year": "2025",
+      "url": "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/pink-eye",
+      "doi": null
+    },
+    {
+      "id": "CDC:PINK-EYE-TREATMENT-2024",
+      "title": "How to Treat Pink Eye",
+      "abstract": "Dated April 15, 2024. Cold compresses and artificial tears relieve symptoms. Antibiotics do not treat viral conjunctivitis. Pain, light sensitivity, persistent blurred vision, intense redness, or worsening symptoms warrant medical care; newborns need immediate assessment.",
+      "journal": "Centers for Disease Control and Prevention",
+      "year": "2024",
+      "url": "https://www.cdc.gov/conjunctivitis/treatment/index.html",
+      "doi": null
+    },
+    {
+      "id": "AAPOS:KERATOCONUS-2024",
+      "title": "Keratoconus",
+      "abstract": "Clinical text updated October 2024. Keratoconus involves corneal thinning and distortion, often recognized around adolescence. Rubbing and allergy are associated factors, not a complete explanation of causation. Corneal topography can identify abnormal shape.",
+      "journal": "American Association for Pediatric Ophthalmology and Strabismus",
+      "year": "2024",
+      "url": "https://www.aapos.org/glossary/keratoconus",
+      "doi": null
+    },
+    {
+      "id": "NIU:RUBBING-2025",
+      "title": "The Effects of Eye Rubbing on Corneal Topography and Biomechanics in Children With Allergic Conjunctivitis",
+      "abstract": "Published October 2025. This cross-sectional study compared children aged eight to fourteen with allergic conjunctivitis against healthy controls. Rubbing frequency was associated with selected corneal shape measures. Observational associations cannot establish causation or predict an individual child's future keratoconus.",
+      "journal": "Translational Vision Science & Technology",
+      "year": "2025",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41090994/",
+      "doi": "10.1167/tvst.14.10.18"
+    },
+    {
+      "id": "AAPOS:REFRACTIVE-CHILDREN",
+      "title": "Refractive Errors in Children",
+      "abstract": "AAPOS explains pediatric myopia, hyperopia, and astigmatism, which can blur vision or increase focusing effort. A complete examination, including cycloplegic refraction when indicated, measures the child's prescription. Clinical text updated November 2025; page metadata updated March 30, 2026.",
+      "journal": "American Association for Pediatric Ophthalmology and Strabismus",
+      "year": "2025",
+      "url": "https://aapos.org/glossary/refractive-errors-in-children",
+      "doi": null
+    }
+  ],
+  "episode": {
+    "title": "E58: Why a Child Keeps Rubbing Their Eyes",
+    "hook": "Hello and welcome. You ask a child to stop rubbing their eyes, and a minute later the hands return. After school, the eyes look watery. At bedtime, the child presses both fists into the eyelids. Is this tiredness, allergy, or a vision problem? Repeated rubbing is a symptom worth understanding, especially when simply saying stop does not help. Start by asking what the child feels: itching, grittiness, pain, or difficulty seeing.",
+    "sections": [
+      {
+        "heading": "The high yield summary",
+        "narration": "Too busy? Here is your high yield summary. Itching with watery, red eyes often points toward allergy. Crusts around the lashes suggest an eyelid problem. Discharge can accompany infection, and blurred vision deserves an examination. Reduce rubbing by treating the irritation, not by scolding. A cool clean compress can help mild discomfort. Pain, light sensitivity, reduced vision, or worsening redness needs prompt assessment. Persistent rubbing also deserves a planned eye visit.",
+        "on_screen": [
+          "Identify the sensation",
+          "Treat the cause",
+          "Recognize warning signs"
+        ],
+        "icon": "eye-summary",
+        "source_ids": [
+          "AAPOS:ALLERGY-2025",
+          "NHS:BLEPHARITIS-2025",
+          "CDC:PINK-EYE-TREATMENT-2024"
+        ]
+      },
+      {
+        "heading": "When itching is the main clue",
+        "narration": "Allergy becomes more likely when itching dominates, often with watering, swelling, and symptoms in both eyes. Pollen, dust, or pets may provide a pattern, although allergy can happen throughout the year. Sneezing or eczema adds context without proving the diagnosis. Allergic conjunctivitis is not contagious. A painful eye or a child avoiding light should not automatically be labeled allergy, because severe allergic disease and other conditions can affect the cornea.",
+        "on_screen": [
+          "Itch is a strong clue",
+          "Watch for triggers",
+          "Pain changes the assessment"
+        ],
+        "icon": "allergy",
+        "source_ids": [
+          "AAPOS:ALLERGY-2025",
+          "CDC:PINK-EYE-TREATMENT-2024"
+        ]
+      },
+      {
+        "heading": "Look at the eyelid edges",
+        "narration": "Blepharitis means inflammation around the eyelid margins. It can produce itchy lids, a sandy sensation, flakes at the lash roots, or lids that stick in the morning. The problem may involve skin bacteria, skin inflammation, or eyelid oil glands. Gentle cleaning and a comfortably warm compress may help when a clinician confirms this pattern. Avoid vigorous scrubbing. Persistent symptoms need review rather than repeated attempts with whatever eye drops happen to be available.",
+        "on_screen": [
+          "Lash crusts",
+          "Gritty discomfort",
+          "Gentle lid care"
+        ],
+        "icon": "eyelid",
+        "source_ids": [
+          "NHS:BLEPHARITIS-2025"
+        ]
+      },
+      {
+        "heading": "Redness does not identify the cause",
+        "narration": "Viral or bacterial conjunctivitis can also make eyes uncomfortable, watery, or sticky. Symptoms overlap, so discharge alone cannot settle every diagnosis. Wash hands before and after helping with eye care, and avoid sharing towels. Antibiotics do not treat viral conjunctivitis or allergy. Do not borrow another person's prescription. If a newborn has red swollen lids or eye discharge, seek medical care immediately rather than trying home treatment first.",
+        "on_screen": [
+          "Symptoms overlap",
+          "Wash hands and separate towels",
+          "Newborn symptoms need immediate care"
+        ],
+        "icon": "eye-infection",
+        "source_ids": [
+          "NEI:PINK-EYE-2025",
+          "CDC:PINK-EYE-TREATMENT-2024"
+        ]
+      },
+      {
+        "heading": "Do not overlook a vision problem",
+        "narration": "Rubbing itself does not prove a child needs glasses. But rubbing together with repeated squinting, headaches, trouble seeing the board, or avoidance of reading warrants a complete assessment. Refractive errors can make images blurry or require extra focusing effort. Children may not recognize that their vision is different. Checking each eye separately matters because the better eye can conceal a problem. A school screening is helpful, but persistent symptoms still deserve clinical evaluation.",
+        "on_screen": [
+          "Rubbing is not a prescription test",
+          "Notice squinting and blur",
+          "Check each eye"
+        ],
+        "icon": "child-vision",
+        "source_ids": [
+          "AAPOS:REFRACTIVE-CHILDREN"
+        ]
+      },
+      {
+        "heading": "Why frequent forceful rubbing matters",
+        "narration": "Now, let us go deeper. The cornea is the clear front window that helps focus light. In keratoconus it becomes thinner and irregular, distorting vision. Frequent rubbing is associated with this condition. A 2025 observational study in children with allergic conjunctivitis also linked rubbing frequency with certain corneal shape changes. That does not prove rubbing alone causes keratoconus or mean every child who rubs will develop it. It supports reducing forceful rubbing and controlling the underlying irritation.",
+        "on_screen": [
+          "Corneal shape affects vision",
+          "Association is not certainty",
+          "Control irritation and rubbing"
+        ],
+        "icon": "cornea",
+        "source_ids": [
+          "AAPOS:KERATOCONUS-2024",
+          "NIU:RUBBING-2025"
+        ]
+      },
+      {
+        "heading": "Help the child without guessing at medication",
+        "narration": "For mild irritation, try a clean cool compress over closed eyes and ask about suitable lubricating drops. Remove obvious irritants and keep hands clean. Allergy medicine choices depend on the child's age and the actual diagnosis. Steroid eye drops require an ophthalmologist's prescription and monitoring because they can raise eye pressure, promote cataracts, or worsen infection. Keep a simple record of timing, triggers, redness, discharge, and whether one or both eyes are affected.",
+        "on_screen": [
+          "Cool compress for mild irritation",
+          "Choose drops with professional advice",
+          "Steroids need monitoring"
+        ],
+        "icon": "eye-care",
+        "source_ids": [
+          "AAPOS:ALLERGY-2025",
+          "CDC:PINK-EYE-TREATMENT-2024",
+          "NEI:PINK-EYE-2025"
+        ]
+      },
+      {
+        "heading": "Know when to arrange an examination",
+        "narration": "Seek prompt assessment for pain, significant light sensitivity, intense redness, or vision that stays blurry after discharge is cleared. Symptoms that worsen or fail to improve need review. Repeated rubbing with worsening blur or frequent prescription changes also deserves an eye examination; a specialist may check corneal shape when indicated. Bring your observations rather than trying to reproduce the rubbing in the clinic. The aim is to identify what keeps drawing the child's hands back.",
+        "on_screen": [
+          "Pain or persistent blur",
+          "Worsening symptoms",
+          "Consider the cornea when indicated"
+        ],
+        "icon": "warning",
+        "source_ids": [
+          "CDC:PINK-EYE-TREATMENT-2024",
+          "AAPOS:KERATOCONUS-2024"
+        ]
+      },
+      {
+        "heading": "Three essential takeaways",
+        "narration": "Number one, identify the pattern: itch, lash crusts, discharge, and blurred vision suggest different possibilities. Number two, relieve the cause and reduce forceful rubbing; use clean compresses and clinician-guided treatment rather than borrowed drops. Number three, arrange an examination for persistent symptoms, and seek prompt care for pain, light sensitivity, marked redness, or reduced vision. Rubbing is a clue to discomfort, not a diagnosis by itself.",
+        "on_screen": [
+          "Identify the pattern",
+          "Relieve discomfort safely",
+          "Examine persistent or urgent symptoms"
+        ],
+        "icon": "checklist",
+        "source_ids": [
+          "AAPOS:ALLERGY-2025",
+          "NHS:BLEPHARITIS-2025",
+          "CDC:PINK-EYE-TREATMENT-2024",
+          "AAPOS:KERATOCONUS-2024"
+        ]
+      }
+    ],
+    "closing": "On the next episode, we will explain why a child keeps blinking, how irritation differs from a blinking tic, and when an examination helps. Until then, replace the instruction to stop rubbing with a better question: what is making the eyes uncomfortable?",
+    "description": "A practical guide to repeated childhood eye rubbing, including allergy, eyelid inflammation, infection, refractive symptoms, corneal risk, safe symptom relief, and warning signs. Observational evidence is distinguished from proof of causation.",
+    "thumbnail_text": "WHY CHILDREN RUB THEIR EYES"
+  }
+}
