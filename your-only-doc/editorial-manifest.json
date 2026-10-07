@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "workflow": "chatgpt-reviewed-v20",
-  "updated_at": "2026-10-06T09:30:02Z",
-  "next_episode_number": 58,
+  "updated_at": "2026-10-07T09:40:39Z",
+  "next_episode_number": 59,
   "next_planned_topic": {
-    "id": "child-eye-rubbing",
-    "title": "Why a Child Keeps Rubbing Their Eyes",
-    "reason": "It follows squinting by separating common irritation and allergy from visual strain, eyelid disease, and warning signs that need a complete eye examination."
+    "id": "child-excessive-blinking",
+    "title": "Why a Child Keeps Blinking",
+    "reason": "It follows eye rubbing by explaining ocular irritation, refractive and alignment checks, and how blinking tics differ from eye disease."
   },
   "packets": [
     {
@@ -351,6 +351,13 @@
       "title": "E57: Why a Child Keeps Squinting",
       "file": "episodes/E57-child-squinting.json",
       "status": "ready"
+    },
+    {
+      "episode_number": 58,
+      "topic_id": "child-eye-rubbing",
+      "title": "E58: Why a Child Keeps Rubbing Their Eyes",
+      "file": "episodes/E58-child-eye-rubbing.json",
+      "status": "ready"
     }
   ],
   "evergreen_sequence": [
@@ -533,6 +540,10 @@
     {
       "id": "child-eye-rubbing",
       "title": "Why a Child Keeps Rubbing Their Eyes"
+    },
+    {
+      "id": "child-excessive-blinking",
+      "title": "Why a Child Keeps Blinking"
     }
   ],
   "editorial_policy": {
