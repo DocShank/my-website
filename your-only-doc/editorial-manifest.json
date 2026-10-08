@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "workflow": "chatgpt-reviewed-v20",
-  "updated_at": "2026-10-07T09:40:39Z",
-  "next_episode_number": 59,
+  "updated_at": "2026-10-08T09:34:07Z",
+  "next_episode_number": 60,
   "next_planned_topic": {
-    "id": "child-excessive-blinking",
-    "title": "Why a Child Keeps Blinking",
-    "reason": "It follows eye rubbing by explaining ocular irritation, refractive and alignment checks, and how blinking tics differ from eye disease."
+    "id": "child-head-tilt",
+    "title": "Why a Child Tilts Their Head to See",
+    "reason": "It follows excessive blinking by explaining how head posture can compensate for eye alignment, vision, eyelid, or neck problems."
   },
   "packets": [
     {
@@ -358,6 +358,13 @@
       "title": "E58: Why a Child Keeps Rubbing Their Eyes",
       "file": "episodes/E58-child-eye-rubbing.json",
       "status": "ready"
+    },
+    {
+      "episode_number": 59,
+      "topic_id": "child-excessive-blinking",
+      "title": "E59: Why a Child Keeps Blinking",
+      "file": "episodes/E59-child-excessive-blinking.json",
+      "status": "ready"
     }
   ],
   "evergreen_sequence": [
@@ -544,6 +551,10 @@
     {
       "id": "child-excessive-blinking",
       "title": "Why a Child Keeps Blinking"
+    },
+    {
+      "id": "child-head-tilt",
+      "title": "Why a Child Tilts Their Head to See"
     }
   ],
   "editorial_policy": {
