@@ -1,0 +1,230 @@
+{
+  "schema": 2,
+  "editorial": {
+    "workflow": "chatgpt-reviewed-v20",
+    "reviewed_by": "ChatGPT medical editorial workflow",
+    "reviewed_on": "2026-10-08",
+    "episode_number": 59,
+    "language": "English",
+    "spoken_host_name_allowed": false,
+    "long_dashes_allowed": false,
+    "target_minutes": 10
+  },
+  "topic_id": "child-excessive-blinking",
+  "topic": {
+    "id": "child-excessive-blinking",
+    "title": "Why a Child Keeps Blinking",
+    "audience_question": "When is frequent blinking caused by eye irritation, a vision problem, or a childhood tic?",
+    "pubmed_query": "excessive blinking children ocular surface refractive error strabismus tic disorder",
+    "icon_keywords": [
+      "child",
+      "blinking",
+      "eye-exam",
+      "tic"
+    ],
+    "category": "eye-health"
+  },
+  "sources": [
+    {
+      "id": "AAPOS:BLINKING-2024",
+      "title": "Excessive Blinking in Children",
+      "abstract": "AAPOS explains that frequent blinking may reflect an eye or eyelid problem, habit, refractive error, strabismus, environmental change, or stress. The eye examination checks for lashes touching the eye, scratches, infection, foreign material, allergy, glasses need, and alignment. Tics often begin near age five and usually resolve without treatment.",
+      "journal": "American Association for Pediatric Ophthalmology and Strabismus",
+      "year": "2024",
+      "url": "https://aapos.org/browse/glossary/entry?GlossaryKey=97c46441-5775-46c6-a7a0-071cb00f1d62",
+      "doi": null
+    },
+    {
+      "id": "CDC:TIC-DIAGNOSIS-2026",
+      "title": "Diagnosing Tic Disorders",
+      "abstract": "Updated March 24, 2026. Tic disorders are classified by motor or vocal features and duration. A repeated movement alone does not establish Tourette syndrome. Healthcare assessment is advised for sudden repeated movements or sounds, and treatment can help when tics cause injury, distress, or interference with daily life.",
+      "journal": "Centers for Disease Control and Prevention",
+      "year": "2026",
+      "url": "https://www.cdc.gov/tourette-syndrome/diagnosis/index.html",
+      "doi": null
+    },
+    {
+      "id": "CDC:TIC-TREATMENT-2026",
+      "title": "Treatment of Tourette Syndrome",
+      "abstract": "Updated March 24, 2026. Not every tic requires treatment. Behavioral treatment, including comprehensive behavioral intervention for tics, and medication may be considered when symptoms cause pain, injury, distress, or meaningful interference.",
+      "journal": "Centers for Disease Control and Prevention",
+      "year": "2026",
+      "url": "https://www.cdc.gov/tourette-syndrome/treatment/index.html",
+      "doi": null
+    },
+    {
+      "id": "COATS:BLINKING-2001",
+      "title": "Excessive Blinking in Childhood: A Prospective Evaluation of 99 Children",
+      "abstract": "This prospective case series found multiple causes, most commonly eyelid or front-surface abnormalities, habit tics, uncorrected refractive error, and intermittent exotropia. Most cases were benign or self-limiting, and careful history plus standard eye examination usually identified the cause.",
+      "journal": "Ophthalmology",
+      "year": "2001",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/11535449/",
+      "doi": "10.1016/S0161-6420(01)00644-3"
+    },
+    {
+      "id": "AAPOS:ALLERGY-2025",
+      "title": "Allergic Conjunctivitis",
+      "abstract": "AAPOS describes itching, redness, tearing, and eyelid swelling with allergic conjunctivitis. Avoiding triggers, cool compresses, artificial tears, and clinician-directed medicines may help. Steroid eye drops require eye-specialist supervision.",
+      "journal": "American Association for Pediatric Ophthalmology and Strabismus",
+      "year": "2025",
+      "url": "https://aapos.org/glossary/allergic-conjunctivitis",
+      "doi": null
+    },
+    {
+      "id": "AAPOS:REFRACTIVE-CHILDREN",
+      "title": "Refractive Errors in Children",
+      "abstract": "AAPOS explains that myopia, hyperopia, and astigmatism can blur vision or increase focusing effort. A complete pediatric eye examination can measure the prescription and assess whether glasses are needed.",
+      "journal": "American Association for Pediatric Ophthalmology and Strabismus",
+      "year": "2025",
+      "url": "https://aapos.org/glossary/refractive-errors-in-children",
+      "doi": null
+    },
+    {
+      "id": "CDC:PINK-EYE-TREATMENT-2024",
+      "title": "How to Treat Pink Eye",
+      "abstract": "CDC advises medical assessment for eye pain, light sensitivity, persistent blurred vision, intense redness, or symptoms that worsen or fail to improve. Antibiotics do not treat viral conjunctivitis.",
+      "journal": "Centers for Disease Control and Prevention",
+      "year": "2024",
+      "url": "https://www.cdc.gov/conjunctivitis/treatment/index.html",
+      "doi": null
+    }
+  ],
+  "episode": {
+    "title": "E59: Why a Child Keeps Blinking",
+    "hook": "Hello and welcome. A child begins blinking hard during homework. By dinner, the blinking is frequent enough that everyone notices. The child may say nothing hurts, yet the family wonders about screens, eyesight, or a neurological illness. Frequent blinking is usually not a sign of something dangerous, but it is a useful clue. The first step is not to demand that the child stop. It is to ask whether the eye feels itchy, gritty, painful, bright, or difficult to focus.",
+    "sections": [
+      {
+        "heading": "The high yield summary",
+        "narration": "Too busy? Here is your high yield summary. Frequent blinking in children can come from irritation at the front of the eye, allergy, a need for glasses, an eye alignment problem, or a simple motor tic. Look for redness, discharge, itching, pain, light sensitivity, and blurred vision. Arrange an eye examination when blinking persists or the cause is unclear. Seek prompt care for pain, reduced vision, marked redness, or strong light sensitivity.",
+        "on_screen": [
+          "Check the eye first",
+          "Consider vision and alignment",
+          "Recognize warning signs"
+        ],
+        "icon": "eye-summary",
+        "source_ids": [
+          "AAPOS:BLINKING-2024",
+          "COATS:BLINKING-2001",
+          "CDC:PINK-EYE-TREATMENT-2024"
+        ]
+      },
+      {
+        "heading": "Blinking protects the eye",
+        "narration": "Blinking spreads tears across the clear front surface, clears small particles, and responds to bright light or discomfort. A child may blink more in dry air, wind, dust, or after prolonged concentration. That does not mean every episode is caused by screens. Notice whether blinking improves outdoors, worsens in one room, follows swimming, or appears with a gritty feeling. A pattern can guide the examination, but it cannot replace one.",
+        "on_screen": [
+          "Tears protect the surface",
+          "Environment can change blinking",
+          "Patterns provide clues"
+        ],
+        "icon": "tear-film",
+        "source_ids": [
+          "AAPOS:BLINKING-2024",
+          "COATS:BLINKING-2001"
+        ]
+      },
+      {
+        "heading": "Irritation and allergy leave clues",
+        "narration": "Itching, watering, redness, and puffy lids make allergy more likely, especially when both eyes are involved. A turned-in eyelash, tiny scratch, infection, or speck under the lid can also trigger repeated blinking. Discourage rubbing and do not share leftover eye drops. A cool clean compress may soothe mild allergy symptoms. Steroid drops should never be started without an eye specialist because they can cause serious complications.",
+        "on_screen": [
+          "Itching suggests allergy",
+          "Check lashes and surface",
+          "Avoid unsupervised steroid drops"
+        ],
+        "icon": "allergy-eye",
+        "source_ids": [
+          "AAPOS:ALLERGY-2025",
+          "AAPOS:BLINKING-2024"
+        ]
+      },
+      {
+        "heading": "Vision and alignment also matter",
+        "narration": "Some children blink or squeeze their eyelids when trying to sharpen an unclear image. Nearsightedness, farsightedness, or astigmatism may be part of the problem. Intermittent outward drifting of an eye can also produce blinking, especially in bright light or when the child is tired. Ask about sitting close, losing place while reading, headaches, closing one eye, or an eye that sometimes wanders. A proper examination checks both prescription and alignment.",
+        "on_screen": [
+          "Blur can provoke squeezing",
+          "Watch for a wandering eye",
+          "Examine refraction and alignment"
+        ],
+        "icon": "vision-check",
+        "source_ids": [
+          "AAPOS:BLINKING-2024",
+          "AAPOS:REFRACTIVE-CHILDREN",
+          "COATS:BLINKING-2001"
+        ]
+      },
+      {
+        "heading": "When blinking behaves like a tic",
+        "narration": "A motor tic is a repeated movement that can happen without an eye disease. Blinking tics often fluctuate, becoming more noticeable with tiredness, excitement, or stress. Other movements or sounds may occur, but one blinking movement does not mean Tourette syndrome. Clinicians distinguish tic disorders by the kinds of tics present and how long they have lasted. Avoid criticism or repeated commands to stop, because attention and stress can make the experience harder.",
+        "on_screen": [
+          "Tics can wax and wane",
+          "One tic is not Tourette syndrome",
+          "Respond without blame"
+        ],
+        "icon": "tic-pattern",
+        "source_ids": [
+          "AAPOS:BLINKING-2024",
+          "CDC:TIC-DIAGNOSIS-2026"
+        ]
+      },
+      {
+        "heading": "What the examination can reveal",
+        "narration": "Now, let us go deeper. The clinician asks when the blinking began, whether one or both eyes are involved, and what makes it better or worse. The eye examination looks for lashes touching the eye, surface scratches, foreign material, infection, allergy, refractive error, and misalignment. A prospective series of 99 children found several different causes, while most cases were benign or self-limiting. Routine brain scans are not the starting point when the history and examination are reassuring.",
+        "on_screen": [
+          "History narrows the cause",
+          "Examine surface and vision",
+          "Imaging is not routine"
+        ],
+        "icon": "eye-exam",
+        "source_ids": [
+          "AAPOS:BLINKING-2024",
+          "COATS:BLINKING-2001"
+        ]
+      },
+      {
+        "heading": "When additional help is useful",
+        "narration": "If the eyes are healthy and blinking fits a mild tic, observation may be enough. Speak with the child's healthcare professional when movements or sounds persist, multiply, cause pain, attract bullying, or interfere with school and daily life. Evidence-based behavioral treatment can help troublesome tics, and medicine is reserved for selected situations. Sudden unusual movements with weakness, loss of awareness, imbalance, or another neurological change require prompt medical assessment rather than an assumption that this is a simple tic.",
+        "on_screen": [
+          "Mild tics may need observation",
+          "Treat distress or impairment",
+          "New neurological signs need care"
+        ],
+        "icon": "care-pathway",
+        "source_ids": [
+          "CDC:TIC-DIAGNOSIS-2026",
+          "CDC:TIC-TREATMENT-2026"
+        ]
+      },
+      {
+        "heading": "Red flags from the eye",
+        "narration": "Do not wait for a routine appointment if blinking comes with significant eye pain, strong light sensitivity, persistent blurred vision, intense redness, or rapidly worsening symptoms. A chemical splash, penetrating injury, or suspected object in the eye also needs urgent care. Newborn eye redness or discharge requires immediate assessment. When symptoms are mild but blinking continues for weeks, schedule an eye examination so a treatable surface, prescription, or alignment problem is not missed.",
+        "on_screen": [
+          "Pain or light sensitivity",
+          "Blur or intense redness",
+          "Injury needs urgent care"
+        ],
+        "icon": "warning-eye",
+        "source_ids": [
+          "CDC:PINK-EYE-TREATMENT-2024",
+          "AAPOS:BLINKING-2024"
+        ]
+      },
+      {
+        "heading": "Three essential takeaways",
+        "narration": "Number one, frequent blinking is a symptom with several possible causes, so look for irritation, allergy, blur, and eye drifting. Number two, a blinking tic is often temporary and does not by itself mean Tourette syndrome; respond calmly and assess its duration and impact. Number three, arrange an eye examination when blinking persists, and seek prompt care for pain, light sensitivity, reduced vision, severe redness, injury, or new neurological symptoms.",
+        "on_screen": [
+          "Find the cause",
+          "Do not shame a tic",
+          "Act on warning signs"
+        ],
+        "icon": "checklist",
+        "source_ids": [
+          "AAPOS:BLINKING-2024",
+          "CDC:TIC-DIAGNOSIS-2026",
+          "CDC:PINK-EYE-TREATMENT-2024"
+        ]
+      }
+    ],
+    "closing": "On the next episode, we will explain why a child may tilt or turn their head to see. Follow the Your Only Doc podcast for clear, evidence-based medical explanations. Stay curious and stay safe.",
+    "description": "Frequent blinking in a child may reflect eye irritation, allergy, a glasses or alignment problem, or a motor tic. This episode explains how to tell these patterns apart, what an eye examination checks, and which warning signs need prompt care.",
+    "thumbnail_text": "WHY KIDS BLINK SO MUCH"
+  }
+}
