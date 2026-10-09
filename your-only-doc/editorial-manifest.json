@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "workflow": "chatgpt-reviewed-v20",
-  "updated_at": "2026-10-08T09:34:07Z",
-  "next_episode_number": 60,
+  "updated_at": "2026-10-09T09:12:58Z",
+  "next_episode_number": 61,
   "next_planned_topic": {
-    "id": "child-head-tilt",
-    "title": "Why a Child Tilts Their Head to See",
-    "reason": "It follows excessive blinking by explaining how head posture can compensate for eye alignment, vision, eyelid, or neck problems."
+    "id": "child-closes-one-eye-bright-light",
+    "title": "Why a Child Closes One Eye in Bright Light",
+    "reason": "It follows abnormal head posture by explaining how bright light can reveal intermittent eye misalignment, glare sensitivity, or reduced vision in one eye."
   },
   "packets": [
     {
@@ -365,6 +365,13 @@
       "title": "E59: Why a Child Keeps Blinking",
       "file": "episodes/E59-child-excessive-blinking.json",
       "status": "ready"
+    },
+    {
+      "episode_number": 60,
+      "topic_id": "child-head-tilt",
+      "title": "E60: Why a Child Tilts Their Head to See",
+      "file": "episodes/E60-child-head-tilt.json",
+      "status": "ready"
     }
   ],
   "evergreen_sequence": [
@@ -555,6 +562,10 @@
     {
       "id": "child-head-tilt",
       "title": "Why a Child Tilts Their Head to See"
+    },
+    {
+      "id": "child-closes-one-eye-bright-light",
+      "title": "Why a Child Closes One Eye in Bright Light"
     }
   ],
   "editorial_policy": {
