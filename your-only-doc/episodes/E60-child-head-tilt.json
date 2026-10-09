@@ -1,0 +1,234 @@
+{
+  "schema": 2,
+  "editorial": {
+    "workflow": "chatgpt-reviewed-v20",
+    "reviewed_by": "ChatGPT medical editorial workflow",
+    "reviewed_on": "2026-10-09",
+    "episode_number": 60,
+    "language": "English",
+    "spoken_host_name_allowed": false,
+    "long_dashes_allowed": false,
+    "target_minutes": 10
+  },
+  "topic_id": "child-head-tilt",
+  "topic": {
+    "id": "child-head-tilt",
+    "title": "Why a Child Tilts Their Head to See",
+    "audience_question": "Why does a child repeatedly tilt, turn, raise, or lower the head when looking at something?",
+    "pubmed_query": "child abnormal head posture ocular torticollis strabismus nystagmus ptosis",
+    "icon_keywords": [
+      "child",
+      "head-tilt",
+      "strabismus",
+      "eye-exam"
+    ],
+    "category": "eye-health"
+  },
+  "sources": [
+    {
+      "id": "AAPOS:HEAD-POSITION-2024",
+      "title": "Abnormal Head Position",
+      "abstract": "AAPOS explains that a child may tilt, turn, raise, or lower the head to reduce strabismus, damp nystagmus, favor the better-seeing eye, see beneath a droopy eyelid, or compensate for refractive error. Nonocular causes include tight neck muscles, skeletal or movement problems, and unilateral hearing loss. Full eye examination helps distinguish these causes.",
+      "journal": "American Association for Pediatric Ophthalmology and Strabismus",
+      "year": "2024",
+      "url": "https://www.aapos.org/glossary/abnormal-head-position",
+      "doi": null
+    },
+    {
+      "id": "AAPOS:NYSTAGMUS",
+      "title": "Nystagmus",
+      "abstract": "AAPOS describes how some children with nystagmus adopt a head position where eye movement is reduced and vision is clearer. Treatment depends on the cause and may include glasses or eye muscle surgery when the posture is substantial.",
+      "journal": "American Association for Pediatric Ophthalmology and Strabismus",
+      "year": "2026",
+      "url": "https://aapos.org/glossary/nystagmus",
+      "doi": null
+    },
+    {
+      "id": "AAPOS:PTOSIS",
+      "title": "Ptosis",
+      "abstract": "AAPOS notes that a droopy eyelid can obstruct vision and lead a child to hold the chin up to see underneath it. Ptosis may also contribute to astigmatism or amblyopia and requires assessment of vision and eyelid function.",
+      "journal": "American Association for Pediatric Ophthalmology and Strabismus",
+      "year": "2026",
+      "url": "https://aapos.org/glossary/ptosis",
+      "doi": null
+    },
+    {
+      "id": "AAPOS:DUANE-2024",
+      "title": "Duane Syndrome",
+      "abstract": "AAPOS describes Duane syndrome as a congenital eye movement disorder in which a person may turn the head to keep the eyes straighter. Old photographs may reveal that the posture and movement limitation were present in early childhood.",
+      "journal": "American Association for Pediatric Ophthalmology and Strabismus",
+      "year": "2024",
+      "url": "https://aapos.org/glossary/duane-syndrome",
+      "doi": null
+    },
+    {
+      "id": "AKBARI:AHP-2022",
+      "title": "Ocular Abnormal Head Posture: A Literature Review",
+      "abstract": "This review emphasizes distinguishing ocular from orthopedic and neurological causes through comprehensive eye examination. Important ocular causes include nystagmus, superior oblique palsy, and Duane retraction syndrome. Longstanding abnormal posture may contribute to facial asymmetry and musculoskeletal change.",
+      "journal": "Journal of Current Ophthalmology",
+      "year": "2022",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35128182/",
+      "doi": "10.4103/joco.JOCO_114_20"
+    },
+    {
+      "id": "NICE:CHILD-NEURO-2019",
+      "title": "Suspected Neurological Conditions: Recognition and Referral, Children Under 16",
+      "abstract": "NICE recommends immediate emergency assessment for abnormal neck posture after recent head or neck trauma. It notes that abnormal head tilt can occasionally precede other signs of a posterior fossa tumor, including ataxia, vomiting, and headache. Isolated persistent tilt warrants ophthalmic assessment.",
+      "journal": "National Institute for Health and Care Excellence",
+      "year": "2019",
+      "url": "https://www.nice.org.uk/guidance/ng127/chapter/recommendations-for-children-aged-under-16",
+      "doi": null
+    },
+    {
+      "id": "RCH:TORTICOLLIS",
+      "title": "Clinical Practice Guideline: Acquired Torticollis",
+      "abstract": "The Royal Children's Hospital guideline lists trauma, fever, swallowing difficulty, headache, double vision, light sensitivity, and ataxia as important history features. Assessment includes neck, neurological, eye, and ear, nose, and throat examination.",
+      "journal": "Royal Children's Hospital Melbourne",
+      "year": "2026",
+      "url": "https://www.rch.org.au/clinicalguide/guideline_index/Acquired_torticollis/",
+      "doi": null
+    }
+  ],
+  "episode": {
+    "title": "E60: Why a Child Tilts Their Head to See",
+    "hook": "Hello and welcome. A child watches television with the face turned slightly to one side. During reading, the chin lifts. In family photographs, the same shoulder always seems closer to the ear. Adults may call this a habit or poor posture, but the child may be choosing the position that gives the clearest, most comfortable view. A repeated head tilt deserves attention because the source may be the eyes, the neck, or, less commonly, the nervous system.",
+    "sections": [
+      {
+        "heading": "The high yield summary",
+        "narration": "Too busy? Here is your high yield summary. A child may tilt or turn the head to keep misaligned eyes working together, reduce shaky eye movements, favor the better-seeing eye, or look beneath a droopy eyelid. Tight neck muscles and other non-eye conditions can create a similar posture. Do not repeatedly force the head straight before finding the cause. Persistent tilt needs an eye examination. Sudden painful tilt, trauma, vomiting, imbalance, weakness, or severe headache needs prompt medical assessment.",
+        "on_screen": [
+          "The posture may improve vision",
+          "Eye and neck causes can look alike",
+          "Know the urgent warning signs"
+        ],
+        "icon": "head-position-summary",
+        "source_ids": [
+          "AAPOS:HEAD-POSITION-2024",
+          "NICE:CHILD-NEURO-2019",
+          "RCH:TORTICOLLIS"
+        ]
+      },
+      {
+        "heading": "The child may be compensating",
+        "narration": "Head position is not just tilt. A child may turn the face, raise or lower the chin, or combine several movements. When the cause is ocular, the posture often places the eyes where alignment is better or vision is clearer. Notice whether it appears for distance, near work, bright light, or one direction of gaze. Also check old photographs. A posture visible across many months is different from one that appeared suddenly this morning.",
+        "on_screen": [
+          "Tilt, turn, chin up, or chin down",
+          "Watch when it appears",
+          "Compare older photographs"
+        ],
+        "icon": "posture-pattern",
+        "source_ids": [
+          "AAPOS:HEAD-POSITION-2024",
+          "AAPOS:DUANE-2024",
+          "AKBARI:AHP-2022"
+        ]
+      },
+      {
+        "heading": "Eye alignment can drive the turn",
+        "narration": "Some forms of strabismus change with the direction of gaze. The child may turn toward a position where the eyes are straighter, reducing double vision or eye strain. In Duane syndrome, for example, one eye has limited horizontal movement and a head turn can improve alignment when looking forward. The eyes may look straight only because the child is compensating, so examining them solely in the preferred posture can hide the problem.",
+        "on_screen": [
+          "Alignment changes with gaze",
+          "A head turn may reduce strain",
+          "Check the eyes with the head straight"
+        ],
+        "icon": "eye-alignment",
+        "source_ids": [
+          "AAPOS:HEAD-POSITION-2024",
+          "AAPOS:DUANE-2024",
+          "AKBARI:AHP-2022"
+        ]
+      },
+      {
+        "heading": "Shaky eyes may have a best position",
+        "narration": "With nystagmus, the eyes move repetitively. Some children discover a direction of gaze where that movement slows and vision improves. They then turn or tilt the head so the eyes can remain in that useful position while facing the object. This is sometimes called a null point. Not every child with nystagmus has one. The posture should be assessed rather than corrected by repeated reminders, because it may be serving a visual purpose.",
+        "on_screen": [
+          "Nystagmus means repetitive eye movement",
+          "A best gaze position may exist",
+          "The posture can improve clarity"
+        ],
+        "icon": "nystagmus",
+        "source_ids": [
+          "AAPOS:NYSTAGMUS",
+          "AAPOS:HEAD-POSITION-2024",
+          "AKBARI:AHP-2022"
+        ]
+      },
+      {
+        "heading": "The eyelid or unequal vision can matter",
+        "narration": "A child with a droopy upper eyelid may lift the chin to see below it. Another child may turn so the better-seeing eye faces the target more directly. Uncorrected refractive error or a large prescription difference between the eyes can contribute. These problems matter during visual development because untreated blur, misalignment, or obstruction may lead to amblyopia. The examination therefore checks each eye separately, not just how both eyes appear together.",
+        "on_screen": [
+          "Chin up can signal ptosis",
+          "One eye may see better",
+          "Test each eye separately"
+        ],
+        "icon": "ptosis-vision",
+        "source_ids": [
+          "AAPOS:PTOSIS",
+          "AAPOS:HEAD-POSITION-2024"
+        ]
+      },
+      {
+        "heading": "Not every tilt begins in the eyes",
+        "narration": "Now, let us go deeper. Congenital muscular torticollis can make an infant prefer one head position because a neck muscle is shortened or tight. Neck injury, inflammation, bone problems, hearing asymmetry, and some movement or neurological disorders can also alter posture. Pain and restricted neck movement suggest a musculoskeletal source, but mixed causes can occur. That is why a child may need coordinated assessment rather than an assumption based on appearance alone.",
+        "on_screen": [
+          "Neck muscles can be the source",
+          "Pain and restriction are clues",
+          "More than one cause can coexist"
+        ],
+        "icon": "neck-assessment",
+        "source_ids": [
+          "AAPOS:HEAD-POSITION-2024",
+          "RCH:TORTICOLLIS",
+          "AKBARI:AHP-2022"
+        ]
+      },
+      {
+        "heading": "What the examination checks",
+        "narration": "The clinician observes the child naturally, then measures vision in each eye, prescription, eye alignment, eye movements, nystagmus, eyelid position, pupils, and the health of the eyes. The posture is compared at different viewing distances and gaze directions. Neck movement, tenderness, hearing clues, and a neurological examination may also be needed. Covering one eye briefly can sometimes change an ocular posture, but families should not use prolonged patching as a home diagnostic test.",
+        "on_screen": [
+          "Observe before correcting",
+          "Test vision, movement, and lids",
+          "Examine the neck and nervous system"
+        ],
+        "icon": "full-examination",
+        "source_ids": [
+          "AAPOS:HEAD-POSITION-2024",
+          "RCH:TORTICOLLIS",
+          "AKBARI:AHP-2022"
+        ]
+      },
+      {
+        "heading": "When the tilt is urgent",
+        "narration": "Seek urgent care when a new head tilt follows head or neck trauma, or comes with severe neck pain, fever, difficulty swallowing, persistent vomiting, severe headache, double vision, imbalance, weakness, unusual sleepiness, or a seizure. These features do not prove a dangerous cause, but they change the level of concern. A painless, longstanding tilt without other symptoms is usually assessed less urgently, yet it still deserves a planned eye examination rather than indefinite observation.",
+        "on_screen": [
+          "Trauma needs emergency assessment",
+          "Neurological symptoms raise concern",
+          "Persistent tilt still needs evaluation"
+        ],
+        "icon": "warning",
+        "source_ids": [
+          "NICE:CHILD-NEURO-2019",
+          "RCH:TORTICOLLIS"
+        ]
+      },
+      {
+        "heading": "Three essential takeaways",
+        "narration": "Number one, a child may tilt or turn the head because that position genuinely improves vision or eye alignment. Number two, eye, eyelid, neck, hearing, and neurological causes can resemble one another, so persistent posture needs proper assessment. Number three, do not force the head straight or start patching on your own, and seek urgent care when the tilt is sudden, painful, follows trauma, or appears with vomiting, headache, imbalance, weakness, or double vision.",
+        "on_screen": [
+          "The posture may be purposeful",
+          "Find the true cause",
+          "Act quickly on red flags"
+        ],
+        "icon": "checklist",
+        "source_ids": [
+          "AAPOS:HEAD-POSITION-2024",
+          "NICE:CHILD-NEURO-2019",
+          "RCH:TORTICOLLIS"
+        ]
+      }
+    ],
+    "closing": "On the next episode, we will explain why a child closes one eye in bright light. Follow the Your Only Doc podcast for clear, evidence-based medical explanations. Stay curious and stay safe.",
+    "description": "A repeated head tilt may help a child compensate for eye misalignment, nystagmus, unequal vision, or a droopy eyelid, but neck and neurological causes can look similar. This episode explains what to notice, how clinicians evaluate the posture, and which warning signs need urgent care.",
+    "thumbnail_text": "WHY DOES MY CHILD TILT?"
+  }
+}
