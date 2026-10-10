@@ -1,0 +1,235 @@
+{
+  "schema": 2,
+  "editorial": {
+    "workflow": "chatgpt-reviewed-v20",
+    "reviewed_by": "ChatGPT medical editorial workflow",
+    "reviewed_on": "2026-10-10",
+    "episode_number": 61,
+    "language": "English",
+    "spoken_host_name_allowed": false,
+    "long_dashes_allowed": false,
+    "target_minutes": 10
+  },
+  "topic_id": "child-closes-one-eye-bright-light",
+  "topic": {
+    "id": "child-closes-one-eye-bright-light",
+    "title": "Why a Child Closes One Eye in Bright Light",
+    "audience_question": "Why does a child repeatedly close or cover one eye outdoors or under bright light?",
+    "pubmed_query": "child monocular eye closure bright sunlight intermittent exotropia photophobia",
+    "icon_keywords": [
+      "child",
+      "bright-light",
+      "one-eye-closed",
+      "eye-alignment"
+    ],
+    "category": "eye-health"
+  },
+  "sources": [
+    {
+      "id": "AAPOS:EXOTROPIA",
+      "title": "Exotropia",
+      "abstract": "AAPOS explains that intermittent exotropia may appear with fatigue, illness, or daydreaming, and that children sometimes squint or close one eye, especially in bright sunlight. Evaluation and treatment depend on frequency, control, visual function, and symptoms.",
+      "journal": "American Association for Pediatric Ophthalmology and Strabismus",
+      "year": "2026",
+      "url": "https://www.aapos.org/glossary/exotropia",
+      "doi": null
+    },
+    {
+      "id": "AAO:STRABISMUS-PPP-2023",
+      "title": "Esotropia and Exotropia Preferred Practice Pattern",
+      "abstract": "The AAO guideline describes evaluation of childhood strabismus, including visual acuity, alignment at distance and near, ocular motility, cycloplegic refraction, binocular function, and ocular health. It notes that people with exotropia may close one eye in bright light.",
+      "journal": "Ophthalmology",
+      "year": "2023",
+      "url": "https://www.aaojournal.org/article/S0161-6420(22)00864-8/fulltext",
+      "doi": "10.1016/j.ophtha.2022.11.004"
+    },
+    {
+      "id": "PEDIG:PATCHING-2014",
+      "title": "A Randomized Trial Comparing Part-time Patching with Observation for Children 3 to 10 Years of Age with Intermittent Exotropia",
+      "abstract": "In children with previously untreated intermittent exotropia, short-term deterioration was uncommon with either observation or prescribed part-time patching. The study supports individualized management and does not justify unsupervised patching.",
+      "journal": "Ophthalmology",
+      "year": "2014",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25234012/",
+      "doi": "10.1016/j.ophtha.2014.07.021"
+    },
+    {
+      "id": "COCHRANE:IXT-2021",
+      "title": "Interventions for Intermittent Exotropia",
+      "abstract": "This systematic review found some clinical benefit from patching compared with observation in children, while emphasizing limitations in the evidence and uncertainty about several treatments. Management choices should reflect the individual child's findings.",
+      "journal": "Cochrane Database of Systematic Reviews",
+      "year": "2021",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34516656/",
+      "doi": "10.1002/14651858.CD003737.pub4"
+    },
+    {
+      "id": "WIGGINS:MONOCULAR-CLOSURE-1990",
+      "title": "Monocular Eye Closure in Sunlight",
+      "abstract": "This clinical study found that one-eye closure in sunlight was associated with intermittent exotropia but was not unique to it. Participants who closed one eye described discomfort from high light intensity, often relieved by closing an eye.",
+      "journal": "Journal of Pediatric Ophthalmology and Strabismus",
+      "year": "1990",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/2324913/",
+      "doi": "10.3928/0191-3913-19900101-05"
+    },
+    {
+      "id": "MEDLINEPLUS:PHOTOPHOBIA-2025",
+      "title": "Photophobia",
+      "abstract": "MedlinePlus describes light sensitivity as a symptom with ocular, headache-related, neurological, and medication causes. Severe eye pain in low light or light sensitivity with red eye, blurred vision, headache, or neck stiffness warrants medical attention.",
+      "journal": "U.S. National Library of Medicine",
+      "year": "2025",
+      "url": "https://medlineplus.gov/ency/article/003041.htm",
+      "doi": null
+    },
+    {
+      "id": "AAPOS:AMBLYOPIA",
+      "title": "Amblyopia",
+      "abstract": "AAPOS explains that unequal vision or eye misalignment during childhood can cause the brain to favor one eye. Early recognition matters because treatment is generally more effective while vision is developing.",
+      "journal": "American Association for Pediatric Ophthalmology and Strabismus",
+      "year": "2026",
+      "url": "https://www.aapos.org/glossary/amblyopia",
+      "doi": null
+    }
+  ],
+  "episode": {
+    "title": "E61: Why a Child Closes One Eye in Bright Light",
+    "hook": "Hello and welcome. A child steps outdoors, looks toward the playground, and immediately closes one eye. Indoors, both eyes seem open and straight. The family may assume the sun is simply too bright, but repeated one-eye closure can be a useful clue. It often appears when the two eyes are struggling to stay aligned, although light sensitivity, unequal vision, or an eye problem can produce a similar behavior.",
+    "sections": [
+      {
+        "heading": "The high yield summary",
+        "narration": "Too busy? Here is your high yield summary. Closing one eye in bright sunlight is a classic sign of intermittent exotropia, where one eye sometimes drifts outward. It is not proof of that diagnosis. Notice whether an eye turns, which eye closes, and whether there is pain, redness, headache, or blurred vision. Arrange an eye examination if the behavior repeats. Seek urgent care for severe pain, marked redness, sudden vision change, injury, or neurological symptoms.",
+        "on_screen": [
+          "A classic clue, not a diagnosis",
+          "Watch for an outward eye turn",
+          "Pain or vision loss needs prompt care"
+        ],
+        "icon": "bright-light-summary",
+        "source_ids": [
+          "AAPOS:EXOTROPIA",
+          "AAO:STRABISMUS-PPP-2023",
+          "MEDLINEPLUS:PHOTOPHOBIA-2025"
+        ]
+      },
+      {
+        "heading": "Why alignment can fail outdoors",
+        "narration": "Intermittent exotropia means the eyes are usually aligned but one eye drifts outward at times. Distance viewing, tiredness, illness, or inattention may make control harder. Bright sunlight can also trigger squinting or closure. With one eye shut, the child no longer has to combine two competing images. The behavior may happen before adults clearly notice the outward drift, so a short phone video can help the clinician see the pattern.",
+        "on_screen": [
+          "The outward turn comes and goes",
+          "Distance and fatigue may reveal it",
+          "A brief video can document the pattern"
+        ],
+        "icon": "intermittent-exotropia",
+        "source_ids": [
+          "AAPOS:EXOTROPIA",
+          "AAO:STRABISMUS-PPP-2023",
+          "WIGGINS:MONOCULAR-CLOSURE-1990"
+        ]
+      },
+      {
+        "heading": "The same sign has other explanations",
+        "narration": "Some children close one eye because intense light feels uncomfortable, even without strabismus. Others may favor the better-seeing eye when the two eyes have different prescriptions, amblyopia, or disease affecting one eye. Eyelid spasm, corneal irritation, inflammation inside the eye, migraine, and recent injury can also create light avoidance. The useful question is not simply which diagnosis fits, but what other symptoms travel with the behavior.",
+        "on_screen": [
+          "Light discomfort can cause closure",
+          "One eye may see more clearly",
+          "Symptoms narrow the possibilities"
+        ],
+        "icon": "differential-causes",
+        "source_ids": [
+          "WIGGINS:MONOCULAR-CLOSURE-1990",
+          "MEDLINEPLUS:PHOTOPHOBIA-2025",
+          "AAPOS:AMBLYOPIA"
+        ]
+      },
+      {
+        "heading": "What families should observe",
+        "narration": "Watch without repeatedly asking the child to keep both eyes open. Does the same eye close every time, or does it alternate? Is there an outward drift just before closure? Does it happen only outdoors, or also while watching television or looking far away? Ask about double vision, blur, headache, eye rubbing, and pain. Record when it occurs and bring photographs or brief videos, but never ask the child to stare toward the sun.",
+        "on_screen": [
+          "Same eye or alternating eyes?",
+          "Look for drift before closure",
+          "Never test by staring at the sun"
+        ],
+        "icon": "home-observation",
+        "source_ids": [
+          "AAPOS:EXOTROPIA",
+          "AAO:STRABISMUS-PPP-2023",
+          "MEDLINEPLUS:PHOTOPHOBIA-2025"
+        ]
+      },
+      {
+        "heading": "Why each eye must be tested",
+        "narration": "A child may function normally with both eyes open while one eye sees less clearly. That difference can be missed unless vision is measured separately in each eye. During childhood, persistent blur or misalignment can lead the brain to favor one eye, producing amblyopia. Early assessment matters because visual development is still changing. Normal school performance does not rule out a meaningful difference between the eyes.",
+        "on_screen": [
+          "Test one eye at a time",
+          "Children can adapt to unequal vision",
+          "Early assessment protects development"
+        ],
+        "icon": "separate-eye-testing",
+        "source_ids": [
+          "AAPOS:AMBLYOPIA",
+          "AAO:STRABISMUS-PPP-2023"
+        ]
+      },
+      {
+        "heading": "What the complete examination includes",
+        "narration": "Now, let us go deeper. The clinician measures vision in each eye, checks alignment at distance and near, watches eye movements, and tests how well the eyes work together. Dilating drops allow accurate measurement of prescription and examination of the inner eye. The history helps distinguish painless sunlight closure from true photophobia. Because intermittent findings can disappear in the clinic, family videos and observations can add valuable evidence.",
+        "on_screen": [
+          "Vision and alignment at several distances",
+          "Dilated prescription and eye health check",
+          "History and videos complete the picture"
+        ],
+        "icon": "pediatric-eye-exam",
+        "source_ids": [
+          "AAO:STRABISMUS-PPP-2023",
+          "AAPOS:EXOTROPIA",
+          "MEDLINEPLUS:PHOTOPHOBIA-2025"
+        ]
+      },
+      {
+        "heading": "Treatment follows the findings",
+        "narration": "Some children with well-controlled intermittent exotropia are observed with scheduled examinations. Glasses may correct blur and sometimes improve alignment control. Patching is prescribed in selected children, especially when one eye is preferred, but trials show that deterioration can be uncommon during careful observation too. Surgery may be considered when the outward turn is frequent, control is worsening, binocular vision is affected, or symptoms are troublesome. Sunglasses may improve comfort but do not correct misalignment.",
+        "on_screen": [
+          "Observation can be appropriate",
+          "Glasses or patching need a prescription",
+          "Surgery depends on control and function"
+        ],
+        "icon": "individual-treatment",
+        "source_ids": [
+          "AAPOS:EXOTROPIA",
+          "PEDIG:PATCHING-2014",
+          "COCHRANE:IXT-2021"
+        ]
+      },
+      {
+        "heading": "When bright light signals urgency",
+        "narration": "Prompt assessment is important if light suddenly causes significant eye pain, especially with redness, blurred vision, excessive tearing, a cloudy cornea, injury, or a new unequal pupil. Severe headache, vomiting, neck stiffness, weakness, confusion, or unusual sleepiness raises concern beyond ordinary eye alignment. Do not use leftover antibiotic or steroid drops. A longstanding, painless pattern is usually less urgent, but repeated one-eye closure still deserves a planned eye examination.",
+        "on_screen": [
+          "Pain and redness are warning signs",
+          "Sudden vision or neurological change is urgent",
+          "Avoid unprescribed eye drops"
+        ],
+        "icon": "urgent-eye-signs",
+        "source_ids": [
+          "MEDLINEPLUS:PHOTOPHOBIA-2025",
+          "AAO:STRABISMUS-PPP-2023"
+        ]
+      },
+      {
+        "heading": "Three essential takeaways",
+        "narration": "Number one, repeated one-eye closure in bright light is strongly associated with intermittent outward eye drifting, but it has other possible causes. Number two, document the pattern safely and arrange a complete examination that tests each eye separately, alignment, prescription, and eye health. Number three, do not start patching or eye drops on your own, and seek urgent care when closure comes with pain, redness, injury, sudden vision change, severe headache, or neurological symptoms.",
+        "on_screen": [
+          "A clue, not a diagnosis",
+          "Examine both vision and alignment",
+          "Escalate pain or sudden change"
+        ],
+        "icon": "checklist",
+        "source_ids": [
+          "AAPOS:EXOTROPIA",
+          "AAO:STRABISMUS-PPP-2023",
+          "MEDLINEPLUS:PHOTOPHOBIA-2025",
+          "PEDIG:PATCHING-2014"
+        ]
+      }
+    ],
+    "closing": "On the next episode, we will explain why a child holds books very close. Follow the Your Only Doc podcast for clear, evidence-based medical explanations. Stay curious and stay safe.",
+    "description": "Repeatedly closing one eye in bright light can be a clue to intermittent exotropia, but light sensitivity and unequal vision can look similar. This episode explains what to observe, what the eye examination checks, and which warning signs need prompt care.",
+    "thumbnail_text": "WHY ONE EYE CLOSES"
+  }
+}
