@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "workflow": "chatgpt-reviewed-v20",
-  "updated_at": "2026-10-09T09:12:58Z",
-  "next_episode_number": 61,
+  "updated_at": "2026-10-10T09:10:18Z",
+  "next_episode_number": 62,
   "next_planned_topic": {
-    "id": "child-closes-one-eye-bright-light",
-    "title": "Why a Child Closes One Eye in Bright Light",
-    "reason": "It follows abnormal head posture by explaining how bright light can reveal intermittent eye misalignment, glare sensitivity, or reduced vision in one eye."
+    "id": "child-holds-books-close",
+    "title": "Why a Child Holds Books Very Close",
+    "reason": "It follows bright-light eye closure by examining another visual behavior that can reflect refractive error, reduced vision, focusing difficulty, or simple preference."
   },
   "packets": [
     {
@@ -372,6 +372,13 @@
       "title": "E60: Why a Child Tilts Their Head to See",
       "file": "episodes/E60-child-head-tilt.json",
       "status": "ready"
+    },
+    {
+      "episode_number": 61,
+      "topic_id": "child-closes-one-eye-bright-light",
+      "title": "E61: Why a Child Closes One Eye in Bright Light",
+      "file": "episodes/E61-child-closes-one-eye-bright-light.json",
+      "status": "ready"
     }
   ],
   "evergreen_sequence": [
@@ -566,6 +573,10 @@
     {
       "id": "child-closes-one-eye-bright-light",
       "title": "Why a Child Closes One Eye in Bright Light"
+    },
+    {
+      "id": "child-holds-books-close",
+      "title": "Why a Child Holds Books Very Close"
     }
   ],
   "editorial_policy": {
