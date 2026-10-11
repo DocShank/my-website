@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "workflow": "chatgpt-reviewed-v20",
-  "updated_at": "2026-10-10T09:10:18Z",
-  "next_episode_number": 62,
+  "updated_at": "2026-10-11T09:21:00Z",
+  "next_episode_number": 63,
   "next_planned_topic": {
-    "id": "child-holds-books-close",
-    "title": "Why a Child Holds Books Very Close",
-    "reason": "It follows bright-light eye closure by examining another visual behavior that can reflect refractive error, reduced vision, focusing difficulty, or simple preference."
+    "id": "child-reading-headaches",
+    "title": "Why a Child Gets Headaches While Reading",
+    "reason": "It follows close reading distance by examining eyestrain, refractive error, binocular coordination, and non-eye causes of headaches during near work."
   },
   "packets": [
     {
@@ -379,6 +379,13 @@
       "title": "E61: Why a Child Closes One Eye in Bright Light",
       "file": "episodes/E61-child-closes-one-eye-bright-light.json",
       "status": "ready"
+    },
+    {
+      "episode_number": 62,
+      "topic_id": "child-holds-books-close",
+      "title": "E62: Why a Child Holds Books Very Close",
+      "file": "episodes/E62-child-holds-books-close.json",
+      "status": "ready"
     }
   ],
   "evergreen_sequence": [
@@ -577,6 +584,10 @@
     {
       "id": "child-holds-books-close",
       "title": "Why a Child Holds Books Very Close"
+    },
+    {
+      "id": "child-reading-headaches",
+      "title": "Why a Child Gets Headaches While Reading"
     }
   ],
   "editorial_policy": {
