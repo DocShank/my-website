@@ -1,0 +1,233 @@
+{
+  "schema": 2,
+  "editorial": {
+    "workflow": "chatgpt-reviewed-v20",
+    "reviewed_by": "ChatGPT medical editorial workflow",
+    "reviewed_on": "2026-10-11",
+    "episode_number": 62,
+    "language": "English",
+    "spoken_host_name_allowed": false,
+    "long_dashes_allowed": false,
+    "target_minutes": 10
+  },
+  "topic_id": "child-holds-books-close",
+  "topic": {
+    "id": "child-holds-books-close",
+    "title": "Why a Child Holds Books Very Close",
+    "audience_question": "Why does a child bring books, tablets, toys, or other objects unusually close to the face?",
+    "pubmed_query": "child holds reading material close myopia refractive error amblyopia cycloplegic refraction",
+    "icon_keywords": [
+      "child",
+      "close-reading",
+      "myopia",
+      "eye-exam"
+    ],
+    "category": "eye-health"
+  },
+  "sources": [
+    {
+      "id": "AAPOS:REFRACTIVE-ERRORS",
+      "title": "Refractive Errors in Children",
+      "abstract": "AAPOS explains myopia, hyperopia, astigmatism, and unequal prescriptions between the eyes. Significant uncorrected refractive error can interfere with visual development and may cause amblyopia, while treatment depends on age, type, and severity.",
+      "journal": "American Association for Pediatric Ophthalmology and Strabismus",
+      "year": "2026",
+      "url": "https://engage.aapos.org/glossary/refractive-errors-in-children",
+      "doi": null
+    },
+    {
+      "id": "AAPOS:MYOPIA-CHILDREN",
+      "title": "Myopia and Treatment of Myopia in Children",
+      "abstract": "AAPOS describes myopia as blurred distance vision caused by the eye focusing light in front of the retina. Childhood myopia often progresses during school years, and management may include glasses, contact lenses, low-dose atropine, or specialized optical treatments selected with an eye-care professional.",
+      "journal": "American Association for Pediatric Ophthalmology and Strabismus",
+      "year": "2026",
+      "url": "https://aapos.org/glossary/myopia-and-treatment-of-myopia-in-children",
+      "doi": null
+    },
+    {
+      "id": "NEI:MYOPIA-2024",
+      "title": "Nearsightedness (Myopia)",
+      "abstract": "The National Eye Institute explains that myopia makes distant objects blurry while near objects remain clearer. It commonly begins between ages 6 and 14, may progress into early adulthood, and is diagnosed through an eye examination.",
+      "journal": "National Eye Institute",
+      "year": "2024",
+      "url": "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/nearsightedness-myopia",
+      "doi": null
+    },
+    {
+      "id": "AAO:PEDIATRIC-EYE-PPP-2023",
+      "title": "Pediatric Eye Evaluations Preferred Practice Pattern",
+      "abstract": "The AAO guideline outlines pediatric eye evaluation, including history, monocular visual acuity, alignment and motility, pupils, external and internal eye examination, and cycloplegic refraction when indicated. Children with symptoms or failed screening require appropriate examination.",
+      "journal": "Ophthalmology",
+      "year": "2023",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10680450/",
+      "doi": "10.1016/j.ophtha.2022.11.005"
+    },
+    {
+      "id": "AAPOS:ANISOMETROPIA",
+      "title": "Anisometropia",
+      "abstract": "AAPOS explains that the two eyes can have different refractive errors. Children often have no obvious symptoms because the brain relies on the clearer eye, but untreated anisometropia can produce amblyopia.",
+      "journal": "American Association for Pediatric Ophthalmology and Strabismus",
+      "year": "2026",
+      "url": "https://patients.aapos.org/glossary/anisometropia",
+      "doi": null
+    },
+    {
+      "id": "AAPOS:VISION-SCREENING",
+      "title": "Vision Screening",
+      "abstract": "AAPOS describes screening as a way to identify children at risk for vision problems. A failed or incomplete screening requires a full eye examination, while concerning visual behavior can justify evaluation even if a prior screening was passed.",
+      "journal": "American Association for Pediatric Ophthalmology and Strabismus",
+      "year": "2026",
+      "url": "https://www.aapos.org/glossary/vision-screening-description",
+      "doi": null
+    },
+    {
+      "id": "COCHRANE:MYOPIA-CONTROL-2023",
+      "title": "Interventions for Myopia Control in Children: A Living Systematic Review and Network Meta-analysis",
+      "abstract": "This living review compares optical and pharmacological interventions intended to slow childhood myopia progression. Benefits and certainty vary by intervention, supporting individualized treatment and follow-up rather than unsupervised therapy.",
+      "journal": "Cochrane Database of Systematic Reviews",
+      "year": "2023",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36809645/",
+      "doi": "10.1002/14651858.CD014758.pub2"
+    }
+  ],
+  "episode": {
+    "title": "E62: Why a Child Holds Books Very Close",
+    "hook": "Hello and welcome. A child reads with the book only a few centimeters from the face. The tablet comes closer and closer, yet the child says everything looks fine. Adults may call it a habit, poor posture, or too much screen time. Sometimes it is simply a preferred reading position. But repeated close viewing can also be the child's practical solution to blur that no one else can see.",
+    "sections": [
+      {
+        "heading": "The high yield summary",
+        "narration": "Too busy? Here is your high yield summary. Holding books or screens unusually close can be a sign of nearsightedness, especially when the child also squints at distant objects, sits near the television, or struggles to see the classroom board. It is not diagnostic by itself. Unequal vision, astigmatism, reduced vision, or habit can look similar. Persistent behavior deserves vision testing in each eye and, when indicated, a dilated examination with accurate measurement of prescription.",
+        "on_screen": [
+          "Close viewing can signal blurred distance vision",
+          "The behavior is not a diagnosis",
+          "Test each eye separately"
+        ],
+        "icon": "close-reading-summary",
+        "source_ids": [
+          "NEI:MYOPIA-2024",
+          "AAPOS:REFRACTIVE-ERRORS",
+          "AAO:PEDIATRIC-EYE-PPP-2023"
+        ]
+      },
+      {
+        "heading": "Why bringing a book closer may help",
+        "narration": "A closer object creates a larger image, which can make small details easier to recognize. In myopia, nearby objects are clearer than distant ones, so a child may naturally shorten the reading distance. The more revealing clues may occur across the room: copying from the board, recognizing faces, watching television, or seeing road signs. A child who has always seen this way may not realize that other people see more clearly.",
+        "on_screen": [
+          "Closer objects look larger",
+          "Myopia mainly blurs distance",
+          "Children may not recognize their blur"
+        ],
+        "icon": "near-versus-distance",
+        "source_ids": [
+          "NEI:MYOPIA-2024",
+          "AAPOS:MYOPIA-CHILDREN"
+        ]
+      },
+      {
+        "heading": "Other refractive errors can contribute",
+        "narration": "Astigmatism can blur or distort vision at more than one distance. Significant farsightedness may require extra focusing effort and cause fatigue, although many children compensate remarkably well. If one eye has a much stronger prescription than the other, the clearer eye may do most of the work without an obvious complaint. These patterns cannot be separated reliably by watching reading distance alone.",
+        "on_screen": [
+          "Astigmatism can blur at several distances",
+          "Farsighted children may compensate",
+          "The two eyes may have different prescriptions"
+        ],
+        "icon": "refractive-errors",
+        "source_ids": [
+          "AAPOS:REFRACTIVE-ERRORS",
+          "AAPOS:ANISOMETROPIA"
+        ]
+      },
+      {
+        "heading": "What families should observe",
+        "narration": "Notice whether close viewing happens with books, screens, toys, or all detailed tasks. Ask whether the board looks blurry, whether words move or double, and whether reading causes headache or eye strain. Watch for squinting, covering one eye, losing the place, or turning the head. Compare the behavior with older photographs and school reports. Do not repeatedly pull the object away as a test, because that measures frustration more than vision.",
+        "on_screen": [
+          "Near tasks only or distance too?",
+          "Ask about blur, strain, and double vision",
+          "Observe without turning it into a test"
+        ],
+        "icon": "family-observation",
+        "source_ids": [
+          "AAPOS:MYOPIA-CHILDREN",
+          "AAO:PEDIATRIC-EYE-PPP-2023",
+          "AAPOS:VISION-SCREENING"
+        ]
+      },
+      {
+        "heading": "Why screening may not be enough",
+        "narration": "Vision screening is valuable, but it is a brief check rather than a complete diagnosis. A child may pass an earlier screening and develop myopia later. Young children may guess, peek, lose attention, or be difficult to test. Unequal prescriptions can also be subtle when the better eye compensates. Repeated close viewing, a failed screening, or concern from a parent or teacher is a reason to arrange a proper eye evaluation.",
+        "on_screen": [
+          "Screening is a safety net",
+          "Vision can change after a pass",
+          "Persistent concern deserves evaluation"
+        ],
+        "icon": "screening-follow-up",
+        "source_ids": [
+          "AAPOS:VISION-SCREENING",
+          "AAPOS:ANISOMETROPIA",
+          "AAO:PEDIATRIC-EYE-PPP-2023"
+        ]
+      },
+      {
+        "heading": "What the eye examination checks",
+        "narration": "Now, let us go deeper. The clinician measures visual acuity in each eye, checks alignment and eye movements, examines the pupils and eye structures, and measures refractive error. Dilating drops temporarily relax the child's powerful focusing system, allowing a more accurate prescription. Without cycloplegia, testing may make some children appear more nearsighted or hide farsightedness. The examination also checks whether reduced vision improves fully with the correct lenses.",
+        "on_screen": [
+          "Measure each eye independently",
+          "Check alignment and eye health",
+          "Dilation improves prescription accuracy"
+        ],
+        "icon": "cycloplegic-examination",
+        "source_ids": [
+          "AAO:PEDIATRIC-EYE-PPP-2023",
+          "AAPOS:REFRACTIVE-ERRORS"
+        ]
+      },
+      {
+        "heading": "Treatment depends on the diagnosis",
+        "narration": "Glasses are the usual first treatment when refractive error meaningfully affects vision or development. If one eye remains weaker, amblyopia treatment may also be needed. For progressing myopia, clinicians may discuss specialized spectacle or contact lenses, or low-dose atropine, depending on age, prescription, access, and family preference. Evidence supports several options, but none should be started without measurements, safety review, and follow-up. Simply undercorrecting glasses is not a reliable home strategy.",
+        "on_screen": [
+          "Glasses correct the measured blur",
+          "Amblyopia may need additional treatment",
+          "Myopia control requires monitoring"
+        ],
+        "icon": "individual-treatment",
+        "source_ids": [
+          "AAPOS:REFRACTIVE-ERRORS",
+          "AAPOS:MYOPIA-CHILDREN",
+          "COCHRANE:MYOPIA-CONTROL-2023"
+        ]
+      },
+      {
+        "heading": "When close viewing needs faster attention",
+        "narration": "Arrange prompt assessment if the behavior appears suddenly or comes with eye pain, marked redness, injury, a new eye turn, a drooping eyelid, a white pupil in photographs, or a noticeable loss of vision. Severe headache with vomiting, weakness, imbalance, confusion, or double vision needs urgent medical evaluation. Most children who hold material close do not have an emergency, but sudden change and additional neurological or eye signs alter the level of concern.",
+        "on_screen": [
+          "Sudden change needs attention",
+          "Eye pain or visible abnormality matters",
+          "Neurological symptoms are urgent"
+        ],
+        "icon": "warning-signs",
+        "source_ids": [
+          "AAO:PEDIATRIC-EYE-PPP-2023",
+          "AAPOS:VISION-SCREENING"
+        ]
+      },
+      {
+        "heading": "Three essential takeaways",
+        "narration": "Number one, holding books very close often points toward myopia, but the behavior alone cannot identify the cause. Number two, look for distance blur, squinting, unequal eye use, strain, and school difficulty, then arrange testing of each eye and an accurate refraction. Number three, use the prescribed correction and follow-up plan rather than guessing with old glasses, patching, or eye drops, and seek faster care when the change is sudden or accompanied by pain, redness, visible eye changes, or neurological symptoms.",
+        "on_screen": [
+          "Common clue, several causes",
+          "Test vision and prescription properly",
+          "Act promptly on sudden or painful change"
+        ],
+        "icon": "checklist",
+        "source_ids": [
+          "NEI:MYOPIA-2024",
+          "AAPOS:REFRACTIVE-ERRORS",
+          "AAO:PEDIATRIC-EYE-PPP-2023",
+          "AAPOS:MYOPIA-CHILDREN"
+        ]
+      }
+    ],
+    "closing": "On the next episode, we will explain why a child gets headaches while reading. Follow the Your Only Doc podcast for clear, evidence-based medical explanations. Stay curious and stay safe.",
+    "description": "Holding books or screens very close can be a clue to myopia, unequal prescriptions, or another vision problem, but it may also be a preference. This episode explains what families should observe, how pediatric refraction is measured, and when the behavior needs prompt evaluation.",
+    "thumbnail_text": "WHY SO CLOSE?"
+  }
+}
