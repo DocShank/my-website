@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "workflow": "chatgpt-reviewed-v20",
-  "updated_at": "2026-10-11T09:21:00Z",
-  "next_episode_number": 63,
+  "updated_at": "2026-10-12T09:24:07Z",
+  "next_episode_number": 64,
   "next_planned_topic": {
-    "id": "child-reading-headaches",
-    "title": "Why a Child Gets Headaches While Reading",
-    "reason": "It follows close reading distance by examining eyestrain, refractive error, binocular coordination, and non-eye causes of headaches during near work."
+    "id": "child-loses-place-reading",
+    "title": "Why a Child Loses Their Place While Reading",
+    "reason": "It follows reading-related headaches by separating eye movement or binocular problems from attention, language, and learning causes of losing one's place."
   },
   "packets": [
     {
@@ -386,6 +386,13 @@
       "title": "E62: Why a Child Holds Books Very Close",
       "file": "episodes/E62-child-holds-books-close.json",
       "status": "ready"
+    },
+    {
+      "episode_number": 63,
+      "topic_id": "child-reading-headaches",
+      "title": "E63: Why a Child Gets Headaches While Reading",
+      "file": "episodes/E63-child-reading-headaches.json",
+      "status": "ready"
     }
   ],
   "evergreen_sequence": [
@@ -588,6 +595,10 @@
     {
       "id": "child-reading-headaches",
       "title": "Why a Child Gets Headaches While Reading"
+    },
+    {
+      "id": "child-loses-place-reading",
+      "title": "Why a Child Loses Their Place While Reading"
     }
   ],
   "editorial_policy": {
