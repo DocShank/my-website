@@ -1,0 +1,244 @@
+{
+  "schema": 2,
+  "editorial": {
+    "workflow": "chatgpt-reviewed-v20",
+    "reviewed_by": "ChatGPT medical editorial workflow",
+    "reviewed_on": "2026-10-12",
+    "episode_number": 63,
+    "language": "English",
+    "spoken_host_name_allowed": false,
+    "long_dashes_allowed": false,
+    "target_minutes": 10
+  },
+  "topic_id": "child-reading-headaches",
+  "topic": {
+    "id": "child-reading-headaches",
+    "title": "Why a Child Gets Headaches While Reading",
+    "audience_question": "Why does a child develop a headache during reading, homework, or other close work?",
+    "pubmed_query": "child headache reading refractive error convergence insufficiency migraine randomized trial",
+    "icon_keywords": [
+      "child",
+      "reading",
+      "headache",
+      "eye-exam"
+    ],
+    "category": "eye-health"
+  },
+  "sources": [
+    {
+      "id": "AAPOS:HEADACHES-CHILDREN",
+      "title": "Headaches in Children",
+      "abstract": "AAPOS explains that most childhood headaches are not caused by the eyes. Uncorrected refractive error, focusing difficulty, or reduced convergence can occasionally contribute, especially with prolonged reading. Headache patterns and associated symptoms guide further assessment.",
+      "journal": "American Association for Pediatric Ophthalmology and Strabismus",
+      "year": "2026",
+      "url": "https://www.aapos.org/glossary/headaches-in-children",
+      "doi": null
+    },
+    {
+      "id": "AAPOS:CONVERGENCE-INSUFFICIENCY",
+      "title": "Convergence Insufficiency",
+      "abstract": "AAPOS describes convergence insufficiency as difficulty keeping the eyes turned inward for near work. Symptoms can include headache, eye strain, blurred or double vision, loss of place, and closing one eye while reading. Diagnosis requires specific eye-alignment measurements.",
+      "journal": "American Association for Pediatric Ophthalmology and Strabismus",
+      "year": "2026",
+      "url": "https://www.aapos.org/glossary/convergence-insufficiency",
+      "doi": null
+    },
+    {
+      "id": "AAPOS:REFRACTIVE-ERRORS",
+      "title": "Refractive Errors in Children",
+      "abstract": "AAPOS outlines myopia, hyperopia, astigmatism, and unequal prescriptions. Significant uncorrected refractive error can reduce clarity or increase visual effort, and accurate pediatric refraction may require dilating drops.",
+      "journal": "American Association for Pediatric Ophthalmology and Strabismus",
+      "year": "2026",
+      "url": "https://engage.aapos.org/glossary/refractive-errors-in-children",
+      "doi": null
+    },
+    {
+      "id": "AAO:PEDIATRIC-EYE-PPP-2023",
+      "title": "Pediatric Eye Evaluations Preferred Practice Pattern",
+      "abstract": "The AAO guideline describes pediatric evaluation including monocular visual acuity, pupils, alignment, motility, external and internal eye examination, and cycloplegic refraction. Symptoms and examination findings determine whether further testing is needed.",
+      "journal": "Ophthalmology",
+      "year": "2023",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10680450/",
+      "doi": "10.1016/j.ophtha.2022.11.005"
+    },
+    {
+      "id": "NICE:CHILD-HEADACHE-2019",
+      "title": "Suspected Neurological Conditions: Recognition and Referral, Children Under 16",
+      "abstract": "NICE recommends same-day assessment for children under 12 with headache that wakes them, is present on waking, progressively worsens, is triggered by coughing or bending, accompanies fever and meningism, follows head injury, or is associated with vomiting, ataxia, lethargy, or altered consciousness.",
+      "journal": "National Institute for Health and Care Excellence",
+      "year": "2019",
+      "url": "https://www.nice.org.uk/guidance/ng127/chapter/recommendations-for-children-aged-under-16",
+      "doi": null
+    },
+    {
+      "id": "NINDS:HEADACHE-2026",
+      "title": "Headache",
+      "abstract": "NINDS reviews primary and secondary headache disorders and identifies urgent features such as a first or worst severe headache, fever with nausea or vomiting, neurological deficits, confusion, loss of consciousness, or headache following injury.",
+      "journal": "National Institute of Neurological Disorders and Stroke",
+      "year": "2026",
+      "url": "https://www.ninds.nih.gov/health-information/disorders/headache",
+      "doi": null
+    },
+    {
+      "id": "CITTART:TREATMENT-2019",
+      "title": "Treatment of Symptomatic Convergence Insufficiency in Children Enrolled in the CITT-ART",
+      "abstract": "This randomized clinical trial found that office-based vergence and accommodative therapy improved objective convergence measures in children with symptomatic convergence insufficiency compared with placebo therapy.",
+      "journal": "Optometry and Vision Science",
+      "year": "2019",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31651593/",
+      "doi": "10.1097/OPX.0000000000001443"
+    },
+    {
+      "id": "CITTART:READING-2019",
+      "title": "Effect of Vergence and Accommodative Therapy on Reading in Children with Convergence Insufficiency",
+      "abstract": "In this randomized trial, therapy improved convergence function but did not produce superior gains in standardized reading performance compared with placebo therapy. Treating convergence insufficiency should not be presented as a general cure for reading difficulty.",
+      "journal": "Optometry and Vision Science",
+      "year": "2019",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6855328/",
+      "doi": "10.1097/OPX.0000000000001442"
+    }
+  ],
+  "episode": {
+    "title": "E63: Why a Child Gets Headaches While Reading",
+    "hook": "Hello and welcome. A child begins homework without difficulty, but twenty minutes later rubs the forehead, loses concentration, and asks to stop reading. The headache improves after the book closes, so the family assumes the eyes must be responsible. Sometimes visual effort is part of the problem. Often it is not the whole explanation. The timing, accompanying symptoms, and examination findings are what separate eye strain from migraine, tension-type headache, and less common medical causes.",
+    "sections": [
+      {
+        "heading": "The high yield summary",
+        "narration": "Too busy? Here is your high yield summary. Reading headaches can come from uncorrected prescription, focusing effort, dry or irritated eyes, or difficulty turning the eyes inward together. Migraine, tension, poor sleep, dehydration, missed meals, and stress are also common possibilities. Record when the pain starts, where it is felt, how long it lasts, and what comes with it. Recurrent symptoms deserve assessment, while headache with vomiting, fever and stiff neck, imbalance, weakness, confusion, injury, or a sudden severe onset needs urgent care.",
+        "on_screen": [
+          "Reading can reveal several headache triggers",
+          "Track the pattern and associated symptoms",
+          "Recognize urgent warning signs"
+        ],
+        "icon": "reading-headache-summary",
+        "source_ids": [
+          "AAPOS:HEADACHES-CHILDREN",
+          "NINDS:HEADACHE-2026",
+          "NICE:CHILD-HEADACHE-2019"
+        ]
+      },
+      {
+        "heading": "The pattern is more useful than one episode",
+        "narration": "A headache diary can reveal whether pain occurs only with close work or also on weekends, after sports, during travel, or on waking. Note the reading duration, screen use, sleep, meals, fluid intake, stress, medicines, and menstrual timing when relevant. Record nausea, light or sound sensitivity, visual shapes, blur, and double vision. This history helps distinguish a reproducible near-work symptom from a broader headache disorder.",
+        "on_screen": [
+          "Record timing and duration",
+          "Include sleep, meals, and stress",
+          "Note nausea, light sensitivity, or double vision"
+        ],
+        "icon": "headache-diary",
+        "source_ids": [
+          "AAPOS:HEADACHES-CHILDREN",
+          "NINDS:HEADACHE-2026"
+        ]
+      },
+      {
+        "heading": "Blur and focusing effort can contribute",
+        "narration": "Uncorrected farsightedness or astigmatism may increase effort during prolonged close work, while myopia mainly causes distance blur. An outdated or inaccurate prescription can also matter. Yet finding a small refractive error does not prove it caused the headache. The strongest clue is a consistent relationship between visual work and symptoms, supported by examination and improvement with the correct treatment rather than assumption alone.",
+        "on_screen": [
+          "Some prescriptions increase near effort",
+          "A refractive error may be incidental",
+          "Diagnosis needs pattern plus examination"
+        ],
+        "icon": "refractive-effort",
+        "source_ids": [
+          "AAPOS:REFRACTIVE-ERRORS",
+          "AAPOS:HEADACHES-CHILDREN",
+          "AAO:PEDIATRIC-EYE-PPP-2023"
+        ]
+      },
+      {
+        "heading": "The eyes must work together at near",
+        "narration": "During reading, both eyes turn inward so the same word remains single. In convergence insufficiency, this coordination is weak or difficult to sustain. A child may report headache, tired eyes, blur, double vision, words moving, loss of place, or needing to close one eye. These symptoms overlap with attention and reading problems, so convergence insufficiency cannot be diagnosed from a checklist alone. It requires measurements at near.",
+        "on_screen": [
+          "Both eyes converge during reading",
+          "Symptoms include strain, blur, and double vision",
+          "Specific alignment tests confirm the diagnosis"
+        ],
+        "icon": "convergence",
+        "source_ids": [
+          "AAPOS:CONVERGENCE-INSUFFICIENCY",
+          "CITTART:TREATMENT-2019"
+        ]
+      },
+      {
+        "heading": "Many reading headaches are not eye disease",
+        "narration": "A child with migraine may develop headache, nausea, light sensitivity, sound sensitivity, or temporary visual phenomena during homework simply because sustained concentration, glare, or fatigue acts as a trigger. Tension-type headache, poor posture, insufficient sleep, missed meals, dehydration, anxiety, and illness can also appear during study time. An eye examination can exclude important visual contributors, but normal eyes should redirect attention to the broader headache history.",
+        "on_screen": [
+          "Homework can trigger migraine",
+          "Daily routines influence headache",
+          "Normal eyes prompt a broader evaluation"
+        ],
+        "icon": "non-eye-causes",
+        "source_ids": [
+          "AAPOS:HEADACHES-CHILDREN",
+          "NINDS:HEADACHE-2026"
+        ]
+      },
+      {
+        "heading": "What the examination checks",
+        "narration": "Now, let us go deeper. The clinician measures vision in each eye, prescription, focusing response, eye alignment at distance and near, convergence, eye movements, pupils, and eye health. Dilating drops may be used for an accurate pediatric refraction and to examine the optic nerves and retina. The general assessment can include blood pressure and a neurological examination. Imaging is not automatically required when the history and examinations are reassuring.",
+        "on_screen": [
+          "Test each eye and the prescription",
+          "Measure focusing and convergence",
+          "Check optic nerves and neurological signs"
+        ],
+        "icon": "complete-assessment",
+        "source_ids": [
+          "AAO:PEDIATRIC-EYE-PPP-2023",
+          "AAPOS:REFRACTIVE-ERRORS",
+          "AAPOS:HEADACHES-CHILDREN",
+          "NICE:CHILD-HEADACHE-2019"
+        ]
+      },
+      {
+        "heading": "Treatment must match the cause",
+        "narration": "A meaningful refractive error is treated with the correct lenses. Confirmed symptomatic convergence insufficiency may improve with prescribed vergence and accommodative therapy, but families should not improvise exercises from social media. Trials show therapy can improve convergence signs and symptoms without automatically improving standardized reading performance. Migraine or recurrent non-eye headache needs its own plan, including appropriate lifestyle measures, medicines when indicated, and follow-up with the child's clinician.",
+        "on_screen": [
+          "Correct measured visual problems",
+          "Use supervised convergence treatment",
+          "Reading difficulty may need separate support"
+        ],
+        "icon": "cause-specific-treatment",
+        "source_ids": [
+          "AAPOS:CONVERGENCE-INSUFFICIENCY",
+          "CITTART:TREATMENT-2019",
+          "CITTART:READING-2019",
+          "AAPOS:HEADACHES-CHILDREN"
+        ]
+      },
+      {
+        "heading": "When a headache needs urgent assessment",
+        "narration": "Seek same-day or emergency assessment for a sudden severe headache, headache after significant injury, fever with neck stiffness, persistent vomiting, new weakness, imbalance, confusion, seizure, unusual sleepiness, or loss of vision. In younger children, pain that wakes them at night, is present on waking, progressively worsens, or is triggered by coughing, sneezing, or bending deserves prompt review. These signs do not prove a dangerous condition, but they should not be managed as ordinary eye strain.",
+        "on_screen": [
+          "Sudden severe pain is urgent",
+          "Vomiting or neurological change matters",
+          "Night or early-morning headache needs review"
+        ],
+        "icon": "headache-red-flags",
+        "source_ids": [
+          "NICE:CHILD-HEADACHE-2019",
+          "NINDS:HEADACHE-2026"
+        ]
+      },
+      {
+        "heading": "Three essential takeaways",
+        "narration": "Number one, a headache during reading can involve the eyes, but migraine, tension, routines, and other medical causes are often equally important. Number two, keep a detailed pattern record and obtain an examination that checks prescription, focusing, convergence, eye health, blood pressure, and neurological signs when appropriate. Number three, treat the confirmed cause rather than guessing with old glasses or exercises, and seek urgent care for sudden severe pain, vomiting, fever with neck stiffness, injury, vision loss, or neurological symptoms.",
+        "on_screen": [
+          "Do not assume every reading headache is visual",
+          "Examine the eyes and the whole child",
+          "Escalate urgent warning signs"
+        ],
+        "icon": "checklist",
+        "source_ids": [
+          "AAPOS:HEADACHES-CHILDREN",
+          "AAO:PEDIATRIC-EYE-PPP-2023",
+          "NICE:CHILD-HEADACHE-2019",
+          "NINDS:HEADACHE-2026"
+        ]
+      }
+    ],
+    "closing": "On the next episode, we will explain why a child loses their place while reading. Follow the Your Only Doc podcast for clear, evidence-based medical explanations. Stay curious and stay safe.",
+    "description": "Headaches during reading may involve refractive error, focusing, or convergence, but migraine, tension, sleep, hydration, and other medical causes can look similar. This episode explains what to track, what the examination checks, and which warning signs need urgent care.",
+    "thumbnail_text": "READING CAUSES HEADACHE?"
+  }
+}
