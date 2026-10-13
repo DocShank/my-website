@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "workflow": "chatgpt-reviewed-v20",
-  "updated_at": "2026-10-12T09:24:07Z",
-  "next_episode_number": 64,
+  "updated_at": "2026-10-13T08:56:40.240Z",
+  "next_episode_number": 65,
   "next_planned_topic": {
-    "id": "child-loses-place-reading",
-    "title": "Why a Child Loses Their Place While Reading",
-    "reason": "It follows reading-related headaches by separating eye movement or binocular problems from attention, language, and learning causes of losing one's place."
+    "id": "child-slow-reading-clear-vision",
+    "title": "Why a Child Reads Slowly Despite Seeing Clearly",
+    "reason": "It follows place-keeping difficulty by separating visual clarity from decoding, fluency, language, attention, and comprehension."
   },
   "packets": [
     {
@@ -393,6 +393,13 @@
       "title": "E63: Why a Child Gets Headaches While Reading",
       "file": "episodes/E63-child-reading-headaches.json",
       "status": "ready"
+    },
+    {
+      "episode_number": 64,
+      "topic_id": "child-loses-place-reading",
+      "title": "E64: Why a Child Loses Their Place While Reading",
+      "file": "episodes/E64-child-loses-place-reading.json",
+      "status": "ready"
     }
   ],
   "evergreen_sequence": [
@@ -599,6 +606,10 @@
     {
       "id": "child-loses-place-reading",
       "title": "Why a Child Loses Their Place While Reading"
+    },
+    {
+      "id": "child-slow-reading-clear-vision",
+      "title": "Why a Child Reads Slowly Despite Seeing Clearly"
     }
   ],
   "editorial_policy": {
