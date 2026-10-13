@@ -1,0 +1,168 @@
+{
+  "schema": 2,
+  "editorial": {
+    "workflow": "chatgpt-reviewed-v20",
+    "reviewed_by": "ChatGPT medical editorial workflow",
+    "reviewed_on": "2026-10-13",
+    "episode_number": 64,
+    "language": "English",
+    "spoken_host_name_allowed": false,
+    "long_dashes_allowed": false,
+    "target_minutes": 10
+  },
+  "topic_id": "child-loses-place-reading",
+  "topic": {
+    "id": "child-loses-place-reading",
+    "title": "Why a Child Loses Their Place While Reading",
+    "audience_question": "Why does a child repeatedly skip a line, reread words, or need a finger to keep their place while reading?",
+    "pubmed_query": "child loses place reading convergence insufficiency dyslexia eye movements randomized clinical trial",
+    "icon_keywords": ["child", "reading", "place-marker", "eye-exam"],
+    "category": "eye-health"
+  },
+  "sources": [
+    {
+      "id": "AAPOS:CONVERGENCE-INSUFFICIENCY",
+      "title": "Convergence Insufficiency",
+      "abstract": "AAPOS explains that convergence insufficiency can cause double vision, headache, eye strain, blur, words appearing to move, and difficulty concentrating during near work. Diagnosis requires a symptom history and measurements of near convergence and fusional vergence.",
+      "journal": "American Association for Pediatric Ophthalmology and Strabismus",
+      "year": "2024",
+      "url": "https://www.aapos.org/glossary/convergence-insufficiency",
+      "doi": null
+    },
+    {
+      "id": "AAPOS:VISION-THERAPY",
+      "title": "Vision Therapy",
+      "abstract": "AAPOS states that skipping words or losing one's place may be a sign of a reading problem rather than its visual cause. Dyslexia is language based, and behavioral vision therapy has not been shown to improve learning disabilities, although prescribed orthoptic exercises can help specific eye movement disorders such as convergence insufficiency.",
+      "journal": "American Association for Pediatric Ophthalmology and Strabismus",
+      "year": "2024",
+      "url": "https://aapos.org/glossary/vision-therapy",
+      "doi": null
+    },
+    {
+      "id": "AAP-AAO-AAPOS:DYSLEXIA-VISION",
+      "title": "Learning Disabilities, Dyslexia and Vision",
+      "abstract": "The joint professional statement describes dyslexia and most learning disabilities as language-based neurocognitive conditions rather than disorders caused by the eyes. Vision problems may interfere with reading and should be treated, but evidence-based educational instruction remains central for reading disability.",
+      "journal": "American Academy of Pediatrics, American Academy of Ophthalmology, and American Association for Pediatric Ophthalmology and Strabismus",
+      "year": "2011",
+      "url": "https://aapos.org/about/policy-statements",
+      "doi": null
+    },
+    {
+      "id": "AAP:READING-DISORDERS-2022",
+      "title": "Reading Disorders: What Parents Need to Know",
+      "abstract": "The American Academy of Pediatrics explains that reading depends on phonemic awareness, phonics, vocabulary, fluency, and comprehension. Reading disorders require a broader evaluation and benefit from early evidence-based educational intervention.",
+      "journal": "HealthyChildren.org, American Academy of Pediatrics",
+      "year": "2022",
+      "url": "https://www.healthychildren.org/English/health-issues/conditions/learning-disabilities/Pages/reading-disorders-what-parents-need-to-know.aspx",
+      "doi": null
+    },
+    {
+      "id": "AAO:PEDIATRIC-EYE-PPP-2023",
+      "title": "Pediatric Eye Evaluations Preferred Practice Pattern",
+      "abstract": "The AAO guideline describes pediatric evaluation including visual acuity in each eye, pupils, alignment, motility, external and internal eye examination, and cycloplegic refraction when indicated.",
+      "journal": "Ophthalmology",
+      "year": "2023",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10680450/",
+      "doi": "10.1016/j.ophtha.2022.11.005"
+    },
+    {
+      "id": "AAPOS:REFRACTIVE-ERRORS",
+      "title": "Refractive Errors in Children",
+      "abstract": "AAPOS outlines myopia, hyperopia, astigmatism, and unequal prescriptions. Significant refractive error can reduce clarity or increase visual effort, and accurate pediatric refraction may require dilating drops.",
+      "journal": "American Association for Pediatric Ophthalmology and Strabismus",
+      "year": "2026",
+      "url": "https://engage.aapos.org/glossary/refractive-errors-in-children",
+      "doi": null
+    },
+    {
+      "id": "CITTART:TREATMENT-2019",
+      "title": "Treatment of Symptomatic Convergence Insufficiency in Children Enrolled in the CITT-ART",
+      "abstract": "This randomized clinical trial found that office-based vergence and accommodative therapy improved objective convergence measures and symptoms in children with symptomatic convergence insufficiency compared with placebo therapy.",
+      "journal": "Optometry and Vision Science",
+      "year": "2019",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31651593/",
+      "doi": "10.1097/OPX.0000000000001443"
+    },
+    {
+      "id": "CITTART:READING-2019",
+      "title": "Effect of Vergence and Accommodative Therapy on Reading in Children with Convergence Insufficiency",
+      "abstract": "In this randomized trial of 310 children, vergence and accommodative therapy did not improve standardized reading performance more than placebo therapy, despite improvement in convergence function.",
+      "journal": "Optometry and Vision Science",
+      "year": "2019",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31651592/",
+      "doi": "10.1097/OPX.0000000000001442"
+    }
+  ],
+  "episode": {
+    "title": "E64: Why a Child Loses Their Place While Reading",
+    "hook": "Hello and welcome. A child reads the first line, jumps to the third, goes back, and uses a finger to find the missing sentence. The family wonders whether the eyes are failing to track. That is possible in a few specific conditions, but losing one's place is not a diagnosis. It can appear when text is visually uncomfortable, when reading skills are still developing, or when language, attention, and comprehension are carrying too much load.",
+    "sections": [
+      {
+        "heading": "The high yield summary",
+        "narration": "Too busy? Here is your high yield summary. First ask whether the child sees clearly and comfortably, or reports blur, double vision, headache, eye strain, or words moving. A proper eye assessment can identify refractive error, eye misalignment, focusing difficulty, or convergence insufficiency. But skipping lines and losing place commonly occur with reading disorders, attention difficulty, fatigue, or material that is too demanding. Check both vision and reading development rather than assuming one explains everything.",
+        "on_screen": ["Check visual comfort", "Assess reading and attention", "Avoid a single-cause assumption"],
+        "icon": "reading-place-summary",
+        "source_ids": ["AAPOS:CONVERGENCE-INSUFFICIENCY", "AAPOS:VISION-THERAPY", "AAP:READING-DISORDERS-2022"]
+      },
+      {
+        "heading": "Observe exactly what happens",
+        "narration": "Watch without turning reading into a test. Does the child lose the next line after reaching the right margin, skip short words, reread the same sentence, or stop because meaning has been lost? Note whether the problem appears with large print, familiar stories, screens, copying, or only dense school text. Ask about pain, blur, double vision, and whether one eye is closed. These details guide the right evaluation.",
+        "on_screen": ["Identify the reading pattern", "Compare easy and dense text", "Ask about visual symptoms"],
+        "icon": "observe-reading",
+        "source_ids": ["AAPOS:CONVERGENCE-INSUFFICIENCY", "AAP:READING-DISORDERS-2022"]
+      },
+      {
+        "heading": "Clear sight is only one part",
+        "narration": "A child may lose place because print is blurred by uncorrected farsightedness, astigmatism, or unequal vision. Eye alignment and focusing also matter during close work. Yet a child can read the smallest letters on an eye chart and still struggle with decoding or comprehension. A screening is valuable, but persistent symptoms or a failed screen may require a complete examination rather than repeated guesses with old glasses.",
+        "on_screen": ["Check vision in each eye", "Assess alignment and focusing", "Normal acuity does not test reading"],
+        "icon": "vision-components",
+        "source_ids": ["AAPOS:REFRACTIVE-ERRORS", "AAO:PEDIATRIC-EYE-PPP-2023", "AAP-AAO-AAPOS:DYSLEXIA-VISION"]
+      },
+      {
+        "heading": "When the eyes do not sustain near alignment",
+        "narration": "With convergence insufficiency, the eyes may have difficulty remaining turned inward together for near work. Symptoms can include eye strain, headache, blur, double vision, words seeming to move, and reduced concentration. Those clues make an eye assessment reasonable. Diagnosis requires measurements such as the near point of convergence and fusional vergence. Losing place by itself cannot confirm the condition.",
+        "on_screen": ["Look for blur or double vision", "Measure convergence at near", "One symptom cannot diagnose it"],
+        "icon": "near-alignment",
+        "source_ids": ["AAPOS:CONVERGENCE-INSUFFICIENCY", "CITTART:TREATMENT-2019"]
+      },
+      {
+        "heading": "Reading is a language task",
+        "narration": "Reading requires matching sounds to letters, recognizing words, building fluency, remembering the sentence, and understanding meaning. When decoding is slow, a child may look back repeatedly or lose the line while working out a word. Dyslexia is not caused by weak eye muscles or letters physically moving. It is a language-based learning difference, and it deserves educational assessment and structured reading support.",
+        "on_screen": ["Reading combines several skills", "Dyslexia is language based", "Educational support matters"],
+        "icon": "language-reading",
+        "source_ids": ["AAP-AAO-AAPOS:DYSLEXIA-VISION", "AAP:READING-DISORDERS-2022", "AAPOS:VISION-THERAPY"]
+      },
+      {
+        "heading": "Attention and task design can change performance",
+        "narration": "Place keeping often worsens when a child is tired, distracted, anxious, rushed, or reading text beyond their current level. Compare performance after sleep, during a short quiet session, and with appropriately spaced print. A finger, ruler, or blank card beneath the line can be a practical temporary aid. It supports place keeping, but it does not identify the underlying cause or replace assessment when difficulty persists.",
+        "on_screen": ["Consider fatigue and distraction", "Match text to reading level", "Use a simple line guide"],
+        "icon": "reading-support",
+        "source_ids": ["AAP:READING-DISORDERS-2022", "AAPOS:VISION-THERAPY"]
+      },
+      {
+        "heading": "What a complete evaluation separates",
+        "narration": "Now, let us go deeper. The eye examination checks vision in each eye, prescription, pupils, eye health, alignment, movements, focusing, and convergence when symptoms suggest it. The reading evaluation examines phonemic awareness, phonics, vocabulary, fluency, comprehension, language, memory, and attention. Teachers, pediatricians, eye professionals, and reading specialists answer different parts of the question. The strongest plan connects those findings instead of making one test do every job.",
+        "on_screen": ["Eye exam checks visual function", "Reading assessment checks language skills", "Combine findings across professionals"],
+        "icon": "multidisciplinary-evaluation",
+        "source_ids": ["AAO:PEDIATRIC-EYE-PPP-2023", "AAP:READING-DISORDERS-2022", "AAP-AAO-AAPOS:DYSLEXIA-VISION"]
+      },
+      {
+        "heading": "Treat the confirmed problem",
+        "narration": "Correct a meaningful prescription and treat a diagnosed eye alignment or focusing disorder. Prescribed convergence therapy can improve symptoms and convergence measurements in symptomatic convergence insufficiency. However, a large randomized trial did not show greater improvement in standardized reading performance than placebo therapy. Eye treatment should relieve the visual problem it actually treats, while dyslexia or other reading difficulty receives evidence-based educational instruction. Be cautious with expensive programs promising one visual cure for every school problem.",
+        "on_screen": ["Correct confirmed eye problems", "Do not promise a reading cure", "Use evidence-based instruction"],
+        "icon": "matched-treatment",
+        "source_ids": ["CITTART:TREATMENT-2019", "CITTART:READING-2019", "AAPOS:VISION-THERAPY", "AAP-AAO-AAPOS:DYSLEXIA-VISION"]
+      },
+      {
+        "heading": "Three essential takeaways",
+        "narration": "Number one, losing place is a useful observation, not proof of an eye-tracking disorder. Number two, arrange an eye assessment when there is blur, double vision, pain, headache, eye turning, failed screening, or persistent difficulty, and seek a reading evaluation when decoding, fluency, or comprehension is affected. Number three, match treatment to the confirmed cause: glasses or specific eye care for visual problems, and structured educational support for reading disorders.",
+        "on_screen": ["Describe the pattern precisely", "Evaluate vision and reading", "Treat the confirmed cause"],
+        "icon": "checklist",
+        "source_ids": ["AAPOS:CONVERGENCE-INSUFFICIENCY", "AAO:PEDIATRIC-EYE-PPP-2023", "AAP:READING-DISORDERS-2022", "CITTART:READING-2019"]
+      }
+    ],
+    "closing": "On the next episode, we will explain why a child reads slowly despite seeing the page clearly. Follow the Your Only Doc podcast for clear, evidence-based medical explanations. Stay curious and stay safe.",
+    "description": "Losing one's place while reading can accompany visual discomfort, convergence insufficiency, developing reading skills, attention difficulty, or a language-based reading disorder. This episode explains what to observe, which evaluations help, and why treatment must match the confirmed cause.",
+    "thumbnail_text": "KEEPS LOSING THE LINE?"
+  }
+}
