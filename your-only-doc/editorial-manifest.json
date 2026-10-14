@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "workflow": "chatgpt-reviewed-v20",
-  "updated_at": "2026-10-13T08:56:40.240Z",
-  "next_episode_number": 65,
+  "updated_at": "2026-10-14T09:44:12.418Z",
+  "next_episode_number": 66,
   "next_planned_topic": {
-    "id": "child-slow-reading-clear-vision",
-    "title": "Why a Child Reads Slowly Despite Seeing Clearly",
-    "reason": "It follows place-keeping difficulty by separating visual clarity from decoding, fluency, language, attention, and comprehension."
+    "id": "child-reverses-letters-words",
+    "title": "Why a Child Reverses Letters or Words",
+    "reason": "It follows slow reading by explaining which reversals can be normal in early learning, when persistence suggests a reading or writing difficulty, and why reversal is not the definition of dyslexia."
   },
   "packets": [
     {
@@ -400,6 +400,13 @@
       "title": "E64: Why a Child Loses Their Place While Reading",
       "file": "episodes/E64-child-loses-place-reading.json",
       "status": "ready"
+    },
+    {
+      "episode_number": 65,
+      "topic_id": "child-slow-reading-clear-vision",
+      "title": "E65: Why a Child Reads Slowly Despite Seeing Clearly",
+      "file": "episodes/E65-child-slow-reading-clear-vision.json",
+      "status": "ready"
     }
   ],
   "evergreen_sequence": [
@@ -610,6 +617,10 @@
     {
       "id": "child-slow-reading-clear-vision",
       "title": "Why a Child Reads Slowly Despite Seeing Clearly"
+    },
+    {
+      "id": "child-reverses-letters-words",
+      "title": "Why a Child Reverses Letters or Words"
     }
   ],
   "editorial_policy": {
