@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "workflow": "chatgpt-reviewed-v20",
-  "updated_at": "2026-10-14T09:44:12.418Z",
-  "next_episode_number": 66,
+  "updated_at": "2026-10-15T09:10:00.000Z",
+  "next_episode_number": 67,
   "next_planned_topic": {
-    "id": "child-reverses-letters-words",
-    "title": "Why a Child Reverses Letters or Words",
-    "reason": "It follows slow reading by explaining which reversals can be normal in early learning, when persistence suggests a reading or writing difficulty, and why reversal is not the definition of dyslexia."
+    "id": "child-copying-board-difficulty",
+    "title": "Why a Child Struggles to Copy From the Board",
+    "reason": "It follows letter reversals by separating visual clarity and eye movement from working memory, attention, language, spatial organization, and writing speed."
   },
   "packets": [
     {
@@ -407,6 +407,13 @@
       "title": "E65: Why a Child Reads Slowly Despite Seeing Clearly",
       "file": "episodes/E65-child-slow-reading-clear-vision.json",
       "status": "ready"
+    },
+    {
+      "episode_number": 66,
+      "topic_id": "child-reverses-letters-words",
+      "title": "E66: Why a Child Reverses Letters or Words",
+      "file": "episodes/E66-child-reverses-letters-words.json",
+      "status": "ready"
     }
   ],
   "evergreen_sequence": [
@@ -621,6 +628,10 @@
     {
       "id": "child-reverses-letters-words",
       "title": "Why a Child Reverses Letters or Words"
+    },
+    {
+      "id": "child-copying-board-difficulty",
+      "title": "Why a Child Struggles to Copy From the Board"
     }
   ],
   "editorial_policy": {
