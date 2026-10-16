@@ -1,0 +1,159 @@
+{
+  "schema": 2,
+  "editorial": {
+    "workflow": "chatgpt-reviewed-v20",
+    "reviewed_by": "ChatGPT medical editorial workflow",
+    "reviewed_on": "2026-10-16",
+    "episode_number": 67,
+    "language": "English",
+    "spoken_host_name_allowed": false,
+    "long_dashes_allowed": false,
+    "target_minutes": 10
+  },
+  "topic_id": "child-copying-board-difficulty",
+  "topic": {
+    "id": "child-copying-board-difficulty",
+    "title": "Why a Child Struggles to Copy From the Board",
+    "audience_question": "Why can a child read the board but still copy it slowly, incompletely, or inaccurately?",
+    "pubmed_query": "children copying from board handwriting visual motor working memory attention",
+    "icon_keywords": ["child", "classroom-board", "handwriting", "assessment"],
+    "category": "child-development"
+  },
+  "sources": [
+    {
+      "id": "AAPOS:VISION-THERAPY",
+      "title": "Vision Therapy",
+      "abstract": "AAPOS explains that refractive errors can make the board hard to see and that strabismus or amblyopia may also affect visual function. It distinguishes treatable eye disorders from language-based learning problems and unsupported behavioral vision therapy claims.",
+      "journal": "American Association for Pediatric Ophthalmology and Strabismus",
+      "year": "2024",
+      "url": "https://www.aapos.org/glossary/vision-therapy",
+      "doi": null
+    },
+    {
+      "id": "AAPOS:LEARNING-DISABILITIES",
+      "title": "Learning Disabilities",
+      "abstract": "AAPOS describes learning disabilities as neurological differences that may affect reading, writing, spelling, organization, language, mathematics, or fine motor skills. Children who fail vision screening should receive an eye evaluation, while educational assessment addresses learning needs.",
+      "journal": "American Association for Pediatric Ophthalmology and Strabismus",
+      "year": "2024",
+      "url": "https://www.aapos.org/glossary/learning-disabilities",
+      "doi": null
+    },
+    {
+      "id": "AAO:PEDIATRIC-EYE-PPP-2023",
+      "title": "Pediatric Eye Evaluations Preferred Practice Pattern",
+      "abstract": "The AAO guideline describes age-appropriate assessment of visual acuity in each eye, pupils, ocular alignment, motility, external and internal eye health, and cycloplegic refraction when indicated.",
+      "journal": "Ophthalmology",
+      "year": "2023",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10680450/",
+      "doi": "10.1016/j.ophtha.2022.11.005"
+    },
+    {
+      "id": "MALDARELLI:COPYING-2015",
+      "title": "Development of Early Handwriting: Visual-Motor Control During Letter Copying",
+      "abstract": "Eye-tracking research showed that copying requires coordinated perceptual, motor, cognitive, and linguistic processes. Kindergarten children copied single letters efficiently, but increased cognitive demand from letter strings disrupted writing efficiency.",
+      "journal": "Developmental Psychology",
+      "year": "2015",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4478098/",
+      "doi": "10.1037/a0039424"
+    },
+    {
+      "id": "HOY:HANDWRITING-REVIEW-2011",
+      "title": "A Systematic Review of Interventions to Improve Handwriting",
+      "abstract": "A systematic review of controlled studies found that handwriting interventions without handwriting practice, or with fewer than 20 practice sessions, were ineffective. Effective occupational therapy approaches included adequate task-specific handwriting practice.",
+      "journal": "Canadian Journal of Occupational Therapy",
+      "year": "2011",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/21395194/",
+      "doi": "10.2182/cjot.2011.78.1.3"
+    },
+    {
+      "id": "PFEIFFER:VMI-2015",
+      "title": "Developmental Test of Visual-Motor Integration as an Outcome Measure for Handwriting Interventions",
+      "abstract": "Visual-motor integration has small to moderate associations with handwriting, but one component test should not stand alone. Handwriting, fine motor, environmental, and clinical observations provide additional information for assessment and progress monitoring.",
+      "journal": "American Journal of Occupational Therapy",
+      "year": "2015",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4482580/",
+      "doi": "10.5014/ajot.2015.015826"
+    },
+    {
+      "id": "ROSENBLUM:LEGIBILITY-2022",
+      "title": "Handwriting Legibility Across Different Writing Tasks in School-Aged Children",
+      "abstract": "The study compared handwriting legibility across careful copying, fast copying, and free writing, emphasizing that performance changes with task demands and that classroom writing includes copying from the board as well as generating text.",
+      "journal": "Hong Kong Journal of Occupational Therapy",
+      "year": "2022",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9279878/",
+      "doi": "10.1177/15691861221075709"
+    }
+  ],
+  "episode": {
+    "title": "E67: Why a Child Struggles to Copy From the Board",
+    "hook": "Hello and welcome. The teacher writes three lines on the board. One child is still copying the first line when the board is erased. Letters are missing, words appear in the wrong place, and the child is blamed for being careless. Yet copying is not one simple skill. The child must see the board, choose a small piece of information, remember it while looking down, find the correct place on the page, and write it accurately. A weakness at any step can produce the same unfinished notebook.",
+    "sections": [
+      {
+        "heading": "The high yield summary",
+        "narration": "Too busy? Here is your high yield summary. Difficulty copying from the board can come from blurred distance vision, eye alignment or focusing symptoms, slow handwriting, weak visual-motor coordination, limited working memory, attention difficulty, language or learning problems, or simply too much information presented too quickly. Watch the pattern instead of guessing. Check vision when the board is unclear or the child has visual symptoms. Evaluate handwriting and learning when seeing is clear but transferring information remains slow or inaccurate.",
+        "on_screen": ["Copying uses several systems", "Separate seeing from transferring", "Match evaluation to the pattern"],
+        "icon": "copying-summary",
+        "source_ids": ["AAPOS:VISION-THERAPY", "AAPOS:LEARNING-DISABILITIES", "MALDARELLI:COPYING-2015"]
+      },
+      {
+        "heading": "What the task demands",
+        "narration": "Board copying repeatedly shifts between far and near. The child locates the next word, holds its letters and order in mind, moves the eyes to the notebook, relocates the correct line, and controls the pencil. Longer chunks reduce the number of gaze shifts but require more memory. Shorter chunks are easier to remember but take more time. Young writers may pause in the middle of letters when the information load rises because perceptual, motor, and cognitive processes are not yet automatic.",
+        "on_screen": ["Look", "Remember", "Relocate and write"],
+        "icon": "copying-sequence",
+        "source_ids": ["MALDARELLI:COPYING-2015", "PFEIFFER:VMI-2015"]
+      },
+      {
+        "heading": "When distance vision is the barrier",
+        "narration": "Myopia or uncorrected astigmatism can make board writing blurred. A child may squint, move closer, copy from a classmate, or do better with a page placed nearby. Unequal vision, amblyopia, or strabismus can also coexist. These clues justify an eye examination, especially after a failed screening. The assessment should measure each eye separately, prescription, alignment, movements, pupils, and eye health. Glasses help when blur is the problem, but they do not automatically correct every copying difficulty.",
+        "on_screen": ["Is the board clear?", "Test each eye", "Treat confirmed visual problems"],
+        "icon": "distance-vision",
+        "source_ids": ["AAPOS:VISION-THERAPY", "AAO:PEDIATRIC-EYE-PPP-2023"]
+      },
+      {
+        "heading": "When handwriting slows the transfer",
+        "narration": "Some children can read the board aloud but cannot write quickly enough. Letter formation may require conscious effort, pencil control may be immature, spacing may drift, or the hand may tire. Visual-motor integration matters because the child must convert a seen form into an organized movement. However, a visual-motor score alone cannot explain handwriting. Direct samples of copying, writing from dictation, and original writing show whether the difficulty is speed, legibility, spelling, planning, or several factors together.",
+        "on_screen": ["Readable is not always fluent", "Assess real writing tasks", "One test is not the diagnosis"],
+        "icon": "handwriting-transfer",
+        "source_ids": ["PFEIFFER:VMI-2015", "ROSENBLUM:LEGIBILITY-2022"]
+      },
+      {
+        "heading": "Memory, attention, and language",
+        "narration": "A child may see every word clearly but lose part of it during the glance from board to page. Working memory holds the selected chunk while the hand writes. Attention helps the child return to the correct point rather than repeat or skip a line. Language and spelling knowledge make familiar words easier to store than unfamiliar strings. That is why copying may worsen with long sentences, new vocabulary, noise, time pressure, or fatigue even when the eye examination is normal.",
+        "on_screen": ["Hold the chunk in mind", "Return to the right place", "Complex material raises demand"],
+        "icon": "memory-attention-language",
+        "source_ids": ["MALDARELLI:COPYING-2015", "AAPOS:LEARNING-DISABILITIES"]
+      },
+      {
+        "heading": "Observe before labeling",
+        "narration": "Compare near copying with board copying. Ask whether the child can copy a short word but not a sentence, whether oral answers are stronger than written work, and whether mistakes increase when speed matters. Look for headaches, double vision, eye closing, squinting, poor pencil control, pain, distractibility, reading difficulty, and spelling problems. Review examples from different days and subjects. A consistent pattern is more useful than one messy page completed during a rushed lesson.",
+        "on_screen": ["Near versus far", "Short versus long", "Accuracy versus speed"],
+        "icon": "pattern-observation",
+        "source_ids": ["ROSENBLUM:LEGIBILITY-2022", "AAPOS:VISION-THERAPY", "MALDARELLI:COPYING-2015"]
+      },
+      {
+        "heading": "What a focused evaluation includes",
+        "narration": "Now, let us go deeper. Start with the child's history, classroom samples, vision screening, and teacher observations. An eye professional evaluates clarity and ocular function when symptoms or screening findings suggest a visual problem. An occupational therapy assessment may examine functional handwriting, fine motor control, posture, endurance, and visual-motor skills. Educational or neurodevelopmental assessment can examine reading, spelling, language, attention, processing speed, and working memory. The goal is a functional explanation, not a vague label such as poor visual processing.",
+        "on_screen": ["Eye evaluation when indicated", "Functional handwriting assessment", "Learning and attention assessment"],
+        "icon": "focused-evaluation",
+        "source_ids": ["AAO:PEDIATRIC-EYE-PPP-2023", "PFEIFFER:VMI-2015", "AAPOS:LEARNING-DISABILITIES"]
+      },
+      {
+        "heading": "Practical support at school",
+        "narration": "While assessment proceeds, reduce unnecessary copying load. Provide printed or digital notes, seat the child where the board is clear, keep material visible longer, divide instructions into short sections, and allow extra time. Teach the child to copy one meaningful chunk, check it, then continue. If handwriting is the barrier, use explicit, repeated handwriting practice and consider occupational therapy guidance. Evidence favors adequate task-specific practice rather than exercises that never include actual writing. Track completed work, accuracy, comfort, and independence.",
+        "on_screen": ["Reduce avoidable copying", "Break information into chunks", "Practice the actual skill"],
+        "icon": "school-support",
+        "source_ids": ["HOY:HANDWRITING-REVIEW-2011", "PFEIFFER:VMI-2015", "AAPOS:LEARNING-DISABILITIES"]
+      },
+      {
+        "heading": "Three essential takeaways",
+        "narration": "Number one, copying from the board combines distance vision, visual attention, working memory, place finding, spelling, and handwriting, so one symptom can have several explanations. Number two, compare near and far copying and assess the child's real pattern, including clarity, speed, errors, fatigue, and learning skills. Number three, treat confirmed eye problems, provide practical classroom access, and use targeted handwriting or educational support instead of assuming that generic eye exercises will solve every copying problem.",
+        "on_screen": ["Copying is a multi-step task", "Evaluate the pattern", "Use targeted support"],
+        "icon": "checklist",
+        "source_ids": ["AAPOS:VISION-THERAPY", "AAO:PEDIATRIC-EYE-PPP-2023", "HOY:HANDWRITING-REVIEW-2011", "MALDARELLI:COPYING-2015"]
+      }
+    ],
+    "closing": "On the next episode, we will explain why a child writes very slowly. Follow the Your Only Doc podcast for clear, evidence-based medical explanations. Stay curious and stay safe.",
+    "description": "Copying from the board requires much more than clear eyesight. This episode explains how vision, working memory, attention, language, visual-motor coordination, and handwriting speed interact, and how to choose the right evaluation and support.",
+    "thumbnail_text": "CAN'T COPY THE BOARD?"
+  }
+}
