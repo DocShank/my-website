@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "workflow": "chatgpt-reviewed-v20",
-  "updated_at": "2026-10-15T09:10:00.000Z",
-  "next_episode_number": 67,
+  "updated_at": "2026-10-16T09:35:00.000Z",
+  "next_episode_number": 68,
   "next_planned_topic": {
-    "id": "child-copying-board-difficulty",
-    "title": "Why a Child Struggles to Copy From the Board",
-    "reason": "It follows letter reversals by separating visual clarity and eye movement from working memory, attention, language, spatial organization, and writing speed."
+    "id": "child-writes-very-slowly",
+    "title": "Why a Child Writes Very Slowly",
+    "reason": "It follows board-copying difficulty by focusing on handwriting automaticity, fine motor control, spelling load, processing speed, fatigue, and when targeted assessment is useful."
   },
   "packets": [
     {
@@ -414,6 +414,13 @@
       "title": "E66: Why a Child Reverses Letters or Words",
       "file": "episodes/E66-child-reverses-letters-words.json",
       "status": "ready"
+    },
+    {
+      "episode_number": 67,
+      "topic_id": "child-copying-board-difficulty",
+      "title": "E67: Why a Child Struggles to Copy From the Board",
+      "file": "episodes/E67-child-copying-board-difficulty.json",
+      "status": "ready"
     }
   ],
   "evergreen_sequence": [
@@ -632,6 +639,10 @@
     {
       "id": "child-copying-board-difficulty",
       "title": "Why a Child Struggles to Copy From the Board"
+    },
+    {
+      "id": "child-writes-very-slowly",
+      "title": "Why a Child Writes Very Slowly"
     }
   ],
   "editorial_policy": {
