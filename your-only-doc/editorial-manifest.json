@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "workflow": "chatgpt-reviewed-v20",
-  "updated_at": "2026-10-17T09:45:00.000Z",
-  "next_episode_number": 69,
+  "updated_at": "2026-10-18T09:43:36.000Z",
+  "next_episode_number": 70,
   "next_planned_topic": {
     "id": "child-handwriting-hard-to-read",
     "title": "Why a Child's Handwriting Is Hard to Read",
-    "reason": "It follows slow writing by separating letter formation, spacing, alignment, motor control, spelling corrections, and task demands while explaining when functional assessment is useful."
+    "reason": "The measles update is a timely public health interruption. The evergreen sequence resumes with handwriting legibility, separating letter formation, spacing, alignment, motor control, spelling corrections, and task demands while explaining when functional assessment is useful."
   },
   "packets": [
     {
@@ -427,6 +427,13 @@
       "topic_id": "child-writes-very-slowly",
       "title": "E68: Why a Child Writes Very Slowly",
       "file": "episodes/E68-child-writes-very-slowly.json",
+      "status": "ready"
+    },
+    {
+      "episode_number": 69,
+      "topic_id": "october-2026-measles-update",
+      "title": "E69: What the October 2026 Measles Update Means",
+      "file": "episodes/E69-october-2026-measles-update.json",
       "status": "ready"
     }
   ],
