@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "workflow": "chatgpt-reviewed-v20",
-  "updated_at": "2026-10-18T09:43:36.000Z",
-  "next_episode_number": 70,
+  "updated_at": "2026-10-19T09:27:33.000Z",
+  "next_episode_number": 71,
   "next_planned_topic": {
-    "id": "child-handwriting-hard-to-read",
-    "title": "Why a Child's Handwriting Is Hard to Read",
-    "reason": "The measles update is a timely public health interruption. The evergreen sequence resumes with handwriting legibility, separating letter formation, spacing, alignment, motor control, spelling corrections, and task demands while explaining when functional assessment is useful."
+    "id": "child-avoids-writing-tasks",
+    "title": "Why a Child Avoids Writing Tasks",
+    "reason": "It follows handwriting legibility by examining pain, motor effort, language load, attention, anxiety, frustration, and practical classroom support."
   },
   "packets": [
     {
@@ -435,6 +435,13 @@
       "title": "E69: What the October 2026 Measles Update Means",
       "file": "episodes/E69-october-2026-measles-update.json",
       "status": "ready"
+    },
+    {
+      "episode_number": 70,
+      "topic_id": "child-handwriting-hard-to-read",
+      "title": "E70: Why a Child's Handwriting Is Hard to Read",
+      "file": "episodes/E70-child-handwriting-hard-to-read.json",
+      "status": "ready"
     }
   ],
   "evergreen_sequence": [
@@ -661,6 +668,10 @@
     {
       "id": "child-handwriting-hard-to-read",
       "title": "Why a Child's Handwriting Is Hard to Read"
+    },
+    {
+      "id": "child-avoids-writing-tasks",
+      "title": "Why a Child Avoids Writing Tasks"
     }
   ],
   "editorial_policy": {
