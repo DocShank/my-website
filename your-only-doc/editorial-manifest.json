@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "workflow": "chatgpt-reviewed-v20",
-  "updated_at": "2026-10-19T09:27:33.000Z",
-  "next_episode_number": 71,
+  "updated_at": "2026-10-20T09:43:00.000Z",
+  "next_episode_number": 72,
   "next_planned_topic": {
-    "id": "child-avoids-writing-tasks",
-    "title": "Why a Child Avoids Writing Tasks",
-    "reason": "It follows handwriting legibility by examining pain, motor effort, language load, attention, anxiety, frustration, and practical classroom support."
+    "id": "child-hand-pain-writing",
+    "title": "Why a Child's Hand Hurts When Writing",
+    "reason": "It follows writing avoidance by examining grip pressure, posture, fatigue, overuse, joint and nerve symptoms, injury, and when pain needs medical or occupational therapy assessment."
   },
   "packets": [
     {
@@ -442,6 +442,13 @@
       "title": "E70: Why a Child's Handwriting Is Hard to Read",
       "file": "episodes/E70-child-handwriting-hard-to-read.json",
       "status": "ready"
+    },
+    {
+      "episode_number": 71,
+      "topic_id": "child-avoids-writing-tasks",
+      "title": "E71: Why a Child Avoids Writing Tasks",
+      "file": "episodes/E71-child-avoids-writing-tasks.json",
+      "status": "ready"
     }
   ],
   "evergreen_sequence": [
@@ -672,6 +679,10 @@
     {
       "id": "child-avoids-writing-tasks",
       "title": "Why a Child Avoids Writing Tasks"
+    },
+    {
+      "id": "child-hand-pain-writing",
+      "title": "Why a Child's Hand Hurts When Writing"
     }
   ],
   "editorial_policy": {
