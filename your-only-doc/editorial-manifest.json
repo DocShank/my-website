@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "workflow": "chatgpt-reviewed-v20",
-  "updated_at": "2026-10-20T09:43:00.000Z",
-  "next_episode_number": 72,
+  "updated_at": "2026-10-21T09:09:00.000Z",
+  "next_episode_number": 73,
   "next_planned_topic": {
-    "id": "child-hand-pain-writing",
-    "title": "Why a Child's Hand Hurts When Writing",
-    "reason": "It follows writing avoidance by examining grip pressure, posture, fatigue, overuse, joint and nerve symptoms, injury, and when pain needs medical or occupational therapy assessment."
+    "id": "child-presses-too-hard-pencil",
+    "title": "Why a Child Presses Too Hard With a Pencil",
+    "reason": "It follows writing-related hand pain by examining pressure regulation, motor control, sensory feedback, fatigue, tool choice, and practical ways to reduce excessive force."
   },
   "packets": [
     {
@@ -449,6 +449,13 @@
       "title": "E71: Why a Child Avoids Writing Tasks",
       "file": "episodes/E71-child-avoids-writing-tasks.json",
       "status": "ready"
+    },
+    {
+      "episode_number": 72,
+      "topic_id": "child-hand-pain-writing",
+      "title": "E72: Why a Child's Hand Hurts When Writing",
+      "file": "episodes/E72-child-hand-pain-writing.json",
+      "status": "ready"
     }
   ],
   "evergreen_sequence": [
@@ -683,6 +690,10 @@
     {
       "id": "child-hand-pain-writing",
       "title": "Why a Child's Hand Hurts When Writing"
+    },
+    {
+      "id": "child-presses-too-hard-pencil",
+      "title": "Why a Child Presses Too Hard With a Pencil"
     }
   ],
   "editorial_policy": {
