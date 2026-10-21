@@ -1,0 +1,150 @@
+{
+  "schema": 2,
+  "editorial": {
+    "workflow": "chatgpt-reviewed-v20",
+    "reviewed_by": "ChatGPT medical editorial workflow",
+    "reviewed_on": "2026-10-21",
+    "episode_number": 72,
+    "language": "English",
+    "spoken_host_name_allowed": false,
+    "long_dashes_allowed": false,
+    "target_minutes": 10
+  },
+  "topic_id": "child-hand-pain-writing",
+  "topic": {
+    "id": "child-hand-pain-writing",
+    "title": "Why a Child's Hand Hurts When Writing",
+    "audience_question": "Why does a child's hand hurt during writing, and when does the pain need clinical assessment?",
+    "pubmed_query": "child hand pain fatigue handwriting grip force dysgraphia developmental coordination disorder",
+    "icon_keywords": ["child", "hand-pain", "pencil", "writing"],
+    "category": "child-development"
+  },
+  "sources": [
+    {
+      "id": "BIOTTEAU:DCD-DYSGRAPHIA-2019",
+      "title": "Developmental Coordination Disorder and Dysgraphia: Signs and Symptoms, Diagnosis, and Rehabilitation",
+      "abstract": "This clinical review describes handwriting as a complex motor task and notes that inefficient handwriting can produce fatigue, cramp, physical pain, and avoidance. It recommends multidisciplinary assessment when handwriting limits function.",
+      "journal": "Neuropsychiatric Disease and Treatment",
+      "year": "2019",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6626900/",
+      "doi": "10.2147/NDT.S120514"
+    },
+    {
+      "id": "LIN:GRIP-KINETICS-2022",
+      "title": "Pen-Grip Kinetics in Children With and Without Handwriting Difficulties",
+      "abstract": "This study compared pen-grip kinetics during handwriting and discusses muscle fatigue and soreness reported by some children with handwriting difficulty. Grip force alone did not provide a simple diagnostic pattern.",
+      "journal": "PLOS ONE",
+      "year": "2022",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9231762/",
+      "doi": "10.1371/journal.pone.0270466"
+    },
+    {
+      "id": "BLANK:DCD-GUIDELINE-2019",
+      "title": "International Clinical Practice Recommendations on Developmental Coordination Disorder",
+      "abstract": "The international guideline recommends evaluating motor coordination when difficulties interfere with school or daily activities and are not better explained by another neurological, sensory, or medical condition.",
+      "journal": "Developmental Medicine and Child Neurology",
+      "year": "2019",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6850610/",
+      "doi": "10.1111/dmcn.14132"
+    },
+    {
+      "id": "RETTINGER:SENSOGRIP-2024",
+      "title": "Evaluating the Experiences of Occupational Therapists and Children Using the SensoGrip Pressure-Sensitive Pen",
+      "abstract": "This multimethods study reports fatigue, hand shaking, and pain during writing among some participating children and shows how pressure can be measured as one part of a functional handwriting assessment.",
+      "journal": "JMIR Rehabilitation and Assistive Technologies",
+      "year": "2024",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10958334/",
+      "doi": "10.2196/51116"
+    },
+    {
+      "id": "O'DEA:DCD-EXPERIENCE-2021",
+      "title": "Children and Young People's Experiences of Living With Developmental Coordination Disorder",
+      "abstract": "This systematic review and meta-ethnography found that handwriting problems could involve speed, legibility, fatigue, and pain and could restrict participation at school.",
+      "journal": "PLOS ONE",
+      "year": "2021",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7932121/",
+      "doi": "10.1371/journal.pone.0245738"
+    },
+    {
+      "id": "AAP:PEDIATRIC-HAND-INJURIES-2022",
+      "title": "You Can Handle It: Pediatric Hand Injuries From Toddlers to Teens",
+      "abstract": "This American Academy of Pediatrics review outlines pediatric hand injury evaluation, including mechanism, deformity, tenderness, motion, sensation, and circulation.",
+      "journal": "Pediatrics in Review",
+      "year": "2022",
+      "url": "https://publications.aap.org/pediatricsinreview/article/43/2/116/184648/You-Can-Handle-It-Pediatric-Hand-Injuries-from",
+      "doi": "10.1542/pir.2021-004987"
+    }
+  ],
+  "episode": {
+    "title": "E72: Why a Child's Hand Hurts When Writing",
+    "hook": "Hello and welcome. A child starts a worksheet, grips the pencil tightly, writes two lines, then shakes the hand and says it hurts. An adult may assume the child is avoiding work. But pain is not a character flaw, and it is not something a child should simply push through. The useful questions are where it hurts, when it starts, what the hand is doing, and whether anything else is changing.",
+    "sections": [
+      {
+        "heading": "The high yield summary",
+        "narration": "Too busy? Here is your high yield summary. Hand pain during writing can come from sustained muscle effort, excessive pressure, awkward wrist or body position, poor handwriting automaticity, or a writing load beyond the child's current endurance. Pain can also reflect an injury, joint inflammation, or nerve or neurological symptoms. Reduce the painful load, observe the pattern, and arrange assessment when pain is persistent, focal, worsening, or accompanied by swelling, weakness, numbness, fever, injury, or loss of function.",
+        "on_screen": ["Pain is information", "Observe timing and location", "Check for warning signs"],
+        "icon": "hand-pain-summary",
+        "source_ids": ["BIOTTEAU:DCD-DYSGRAPHIA-2019", "LIN:GRIP-KINETICS-2022", "AAP:PEDIATRIC-HAND-INJURIES-2022"]
+      },
+      {
+        "heading": "Start with the pain pattern",
+        "narration": "Ask the child to point with one finger to the painful spot. Does discomfort begin immediately or after several minutes? Is it an ache in the fingers and forearm, a cramp, sharp wrist pain, burning, tingling, or stiffness? Does it happen with drawing, scissors, buttons, gaming, sports, or only long writing? Compare school days with weekends. Record how long the child writes before symptoms begin and how long recovery takes. A repeatable pattern is more useful than guessing from one pencil grip.",
+        "on_screen": ["Where does it hurt?", "When does it begin?", "Which other tasks trigger it?"],
+        "icon": "pain-pattern",
+        "source_ids": ["BIOTTEAU:DCD-DYSGRAPHIA-2019", "O'DEA:DCD-EXPERIENCE-2021", "AAP:PEDIATRIC-HAND-INJURIES-2022"]
+      },
+      {
+        "heading": "Why writing can become physically costly",
+        "narration": "Efficient handwriting distributes work across the fingers, wrist, forearm, shoulder, vision, and posture. When letter movements are not automatic, the child may stabilize too many joints, press hard, hold the pencil rigidly, or use the whole arm for every stroke. The same page then demands more attention and muscular effort. Research links handwriting difficulty with fatigue and soreness, but pressure varies between children. A tight-looking grip may be part of the problem, not a diagnosis by itself.",
+        "on_screen": ["Writing uses the whole upper limb", "Extra stabilization costs effort", "Grip appearance is not a diagnosis"],
+        "icon": "writing-effort",
+        "source_ids": ["LIN:GRIP-KINETICS-2022", "RETTINGER:SENSOGRIP-2024", "BIOTTEAU:DCD-DYSGRAPHIA-2019"]
+      },
+      {
+        "heading": "Look beyond the fingers",
+        "narration": "Watch the child at a comfortable table. Are the feet supported? Are the shoulders lifted, the trunk twisted, or the wrist sharply bent? Is the paper stable and angled for the writing hand? Does the child squeeze harder as the page continues? Also ask about broader coordination: dressing, utensils, tying laces, catching a ball, or learning new movements. Handwriting pain does not prove developmental coordination disorder, but persistent motor difficulties across daily activities support a structured evaluation.",
+        "on_screen": ["Feet, trunk, shoulder, wrist", "Watch pressure over time", "Ask about daily motor skills"],
+        "icon": "writing-posture",
+        "source_ids": ["BLANK:DCD-GUIDELINE-2019", "BIOTTEAU:DCD-DYSGRAPHIA-2019", "RETTINGER:SENSOGRIP-2024"]
+      },
+      {
+        "heading": "Do not miss injury or illness",
+        "narration": "Pain after a fall, jammed finger, sports impact, or repetitive strain needs an injury history and examination. Seek prompt medical care for deformity, marked swelling, severe tenderness, inability to move a finger or wrist normally, altered color or temperature, numbness, weakness, or worsening pain. Fever with a red, hot, swollen joint or hand also needs urgent assessment. New tremor, loss of previously fluent writing, or weakness on one side requires medical evaluation rather than a new pencil or more practice.",
+        "on_screen": ["Injury, swelling, or deformity", "Numbness or weakness", "Fever or sudden loss of skill"],
+        "icon": "hand-warning-signs",
+        "source_ids": ["AAP:PEDIATRIC-HAND-INJURIES-2022", "BLANK:DCD-GUIDELINE-2019"]
+      },
+      {
+        "heading": "A functional assessment",
+        "narration": "Now, let us go deeper. Bring real writing samples and compare short versus long tasks, copying versus original sentences, and handwriting versus typing or dictation. Note pain location, onset time, pressure, posture, speed, readability, and fatigue. A clinician can assess injury, joint, nerve, or neurological concerns. An occupational therapist can examine functional handwriting, endurance, motor coordination, and the classroom setup. Educational assessment may be needed when spelling, language, or written expression also breaks down. The goal is to identify the limiting system, not force one label.",
+        "on_screen": ["Compare task conditions", "Measure pain and performance", "Match assessment to the problem"],
+        "icon": "handwriting-assessment",
+        "source_ids": ["BLANK:DCD-GUIDELINE-2019", "BIOTTEAU:DCD-DYSGRAPHIA-2019", "LIN:GRIP-KINETICS-2022"]
+      },
+      {
+        "heading": "Make writing safer today",
+        "narration": "Stop before pain escalates. Use shorter writing blocks with planned movement breaks, reduce unnecessary copying, and allow typing, dictation, or oral answers when the learning goal is not handwriting. Support the feet and forearms, keep the wrist near neutral, angle the paper, and invite a lighter pressure without repeatedly policing the child's fingers. A comfortable pencil size or grip aid may help one child and distract another. Test changes one at a time and keep only those that reduce pain or improve function.",
+        "on_screen": ["Short blocks and planned breaks", "Neutral supported position", "Test one change at a time"],
+        "icon": "writing-comfort",
+        "source_ids": ["O'DEA:DCD-EXPERIENCE-2021", "RETTINGER:SENSOGRIP-2024", "BIOTTEAU:DCD-DYSGRAPHIA-2019"]
+      },
+      {
+        "heading": "Build capacity without forcing pain",
+        "narration": "Once injury and medical causes are addressed, practice should target the observed problem. That may mean explicit letter formation, smoother movement patterns, graded endurance, posture, or classroom accommodations. More squeezing exercises are not automatically the answer, and perfect-looking finger placement is not the main outcome. Track whether the child can write meaningful work with less pain, less fatigue, and adequate speed and clarity. If symptoms persist despite reasonable changes, reassess rather than simply increasing practice time.",
+        "on_screen": ["Target the confirmed barrier", "Function matters more than appearance", "Persistent pain needs reassessment"],
+        "icon": "graded-writing-practice",
+        "source_ids": ["BLANK:DCD-GUIDELINE-2019", "BIOTTEAU:DCD-DYSGRAPHIA-2019", "LIN:GRIP-KINETICS-2022"]
+      },
+      {
+        "heading": "Three essential takeaways",
+        "narration": "Number one, hand pain during writing is a symptom to investigate, not misbehavior and not an expected price of learning. Number two, document the location, timing, writing load, posture, pressure, related tasks, and warning signs, then compare different ways of producing schoolwork. Number three, reduce painful demands now and seek the right assessment when pain persists or when there is injury, swelling, fever, numbness, weakness, deformity, or loss of function.",
+        "on_screen": ["Pain deserves investigation", "Observe the complete pattern", "Reduce load and escalate warning signs"],
+        "icon": "checklist",
+        "source_ids": ["BIOTTEAU:DCD-DYSGRAPHIA-2019", "BLANK:DCD-GUIDELINE-2019", "AAP:PEDIATRIC-HAND-INJURIES-2022"]
+      }
+    ],
+    "closing": "On the next episode, we will explain why a child presses too hard with a pencil. Follow the Your Only Doc podcast for clear, evidence-based medical explanations. Stay curious and stay safe.",
+    "description": "Hand pain during writing may reflect fatigue, excessive pressure, posture, inefficient motor control, injury, inflammation, or nerve symptoms. This episode explains what to observe, how to reduce strain, and when a child needs assessment.",
+    "thumbnail_text": "WHY DOES WRITING HURT?"
+  }
+}
