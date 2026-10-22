@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "workflow": "chatgpt-reviewed-v20",
-  "updated_at": "2026-10-21T09:09:00.000Z",
-  "next_episode_number": 73,
+  "updated_at": "2026-10-22T08:52:00.000Z",
+  "next_episode_number": 74,
   "next_planned_topic": {
-    "id": "child-presses-too-hard-pencil",
-    "title": "Why a Child Presses Too Hard With a Pencil",
-    "reason": "It follows writing-related hand pain by examining pressure regulation, motor control, sensory feedback, fatigue, tool choice, and practical ways to reduce excessive force."
+    "id": "child-holds-pencil-differently",
+    "title": "Why a Child Holds a Pencil Differently",
+    "reason": "It follows excessive pencil pressure by distinguishing normal mature grasp variation from grips that cause pain, fatigue, restricted movement, slow output, or reduced legibility."
   },
   "packets": [
     {
@@ -456,6 +456,13 @@
       "title": "E72: Why a Child's Hand Hurts When Writing",
       "file": "episodes/E72-child-hand-pain-writing.json",
       "status": "ready"
+    },
+    {
+      "episode_number": 73,
+      "topic_id": "child-presses-too-hard-pencil",
+      "title": "E73: Why a Child Presses Too Hard With a Pencil",
+      "file": "episodes/E73-child-presses-too-hard-pencil.json",
+      "status": "ready"
     }
   ],
   "evergreen_sequence": [
@@ -694,6 +701,10 @@
     {
       "id": "child-presses-too-hard-pencil",
       "title": "Why a Child Presses Too Hard With a Pencil"
+    },
+    {
+      "id": "child-holds-pencil-differently",
+      "title": "Why a Child Holds a Pencil Differently"
     }
   ],
   "editorial_policy": {
