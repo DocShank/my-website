@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "workflow": "chatgpt-reviewed-v20",
-  "updated_at": "2026-10-22T08:52:00.000Z",
-  "next_episode_number": 74,
+  "updated_at": "2026-10-23T09:11:00.000Z",
+  "next_episode_number": 75,
   "next_planned_topic": {
-    "id": "child-holds-pencil-differently",
-    "title": "Why a Child Holds a Pencil Differently",
-    "reason": "It follows excessive pencil pressure by distinguishing normal mature grasp variation from grips that cause pain, fatigue, restricted movement, slow output, or reduced legibility."
+    "id": "child-switches-hands-writing",
+    "title": "Why a Child Switches Hands While Writing",
+    "reason": "It follows pencil-grasp variation by explaining handedness development, task demands, fatigue, motor coordination, injury or weakness, and when switching hands needs assessment."
   },
   "packets": [
     {
@@ -463,6 +463,13 @@
       "title": "E73: Why a Child Presses Too Hard With a Pencil",
       "file": "episodes/E73-child-presses-too-hard-pencil.json",
       "status": "ready"
+    },
+    {
+      "episode_number": 74,
+      "topic_id": "child-holds-pencil-differently",
+      "title": "E74: Why a Child Holds a Pencil Differently",
+      "file": "episodes/E74-child-holds-pencil-differently.json",
+      "status": "ready"
     }
   ],
   "evergreen_sequence": [
@@ -705,6 +712,10 @@
     {
       "id": "child-holds-pencil-differently",
       "title": "Why a Child Holds a Pencil Differently"
+    },
+    {
+      "id": "child-switches-hands-writing",
+      "title": "Why a Child Switches Hands While Writing"
     }
   ],
   "editorial_policy": {
