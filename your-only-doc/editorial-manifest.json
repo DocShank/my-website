@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "workflow": "chatgpt-reviewed-v20",
-  "updated_at": "2026-10-23T09:11:00.000Z",
-  "next_episode_number": 75,
+  "updated_at": "2026-10-24T09:45:00.000Z",
+  "next_episode_number": 76,
   "next_planned_topic": {
-    "id": "child-switches-hands-writing",
-    "title": "Why a Child Switches Hands While Writing",
-    "reason": "It follows pencil-grasp variation by explaining handedness development, task demands, fatigue, motor coordination, injury or weakness, and when switching hands needs assessment."
+    "id": "child-uses-whole-arm-writing",
+    "title": "Why a Child Uses the Whole Arm to Write",
+    "reason": "It follows hand preference by explaining how proximal stability, fine motor development, posture, fatigue, and motor coordination affect whether writing comes from the shoulder, wrist, or fingers."
   },
   "packets": [
     {
@@ -470,6 +470,13 @@
       "title": "E74: Why a Child Holds a Pencil Differently",
       "file": "episodes/E74-child-holds-pencil-differently.json",
       "status": "ready"
+    },
+    {
+      "episode_number": 75,
+      "topic_id": "child-switches-hands-writing",
+      "title": "E75: Why a Child Switches Hands While Writing",
+      "file": "episodes/E75-child-switches-hands-writing.json",
+      "status": "ready"
     }
   ],
   "evergreen_sequence": [
@@ -716,6 +723,10 @@
     {
       "id": "child-switches-hands-writing",
       "title": "Why a Child Switches Hands While Writing"
+    },
+    {
+      "id": "child-uses-whole-arm-writing",
+      "title": "Why a Child Uses the Whole Arm to Write"
     }
   ],
   "editorial_policy": {
