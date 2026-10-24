@@ -1,0 +1,150 @@
+{
+  "schema": 2,
+  "editorial": {
+    "workflow": "chatgpt-reviewed-v20",
+    "reviewed_by": "ChatGPT medical editorial workflow",
+    "reviewed_on": "2026-10-24",
+    "episode_number": 75,
+    "language": "English",
+    "spoken_host_name_allowed": false,
+    "long_dashes_allowed": false,
+    "target_minutes": 10
+  },
+  "topic_id": "child-switches-hands-writing",
+  "topic": {
+    "id": "child-switches-hands-writing",
+    "title": "Why a Child Switches Hands While Writing",
+    "audience_question": "Why does a child change hands while drawing or writing, and when does that need assessment?",
+    "pubmed_query": "child hand preference switching hands writing handedness development manual dexterity",
+    "icon_keywords": ["child", "hand-preference", "handwriting", "motor-development"],
+    "category": "child-development"
+  },
+  "sources": [
+    {
+      "id": "RCH:HAND-PREFERENCE-2005",
+      "title": "Hand Preference",
+      "abstract": "This pediatric occupational therapy guide explains that hand preference often begins developing between ages two and four, that switching is common then, and that a clearer preference is usually established between ages four and six. It advises observation rather than forcing a hand.",
+      "journal": "Royal Children's Hospital Melbourne Occupational Therapy",
+      "year": "2005",
+      "url": "https://www.rch.org.au/uploadedfiles/main/content/ot/infosheet_b.pdf",
+      "doi": null
+    },
+    {
+      "id": "AAP:HAND-SKILLS-ONE-YEAR",
+      "title": "Hand and Finger Skills: 1 Year Olds",
+      "abstract": "American Academy of Pediatrics guidance describes the emergence of hand skills and notes that some toddlers may show a hand tendency while others continue to use both hands.",
+      "journal": "HealthyChildren.org, American Academy of Pediatrics",
+      "year": "2009",
+      "url": "https://www.healthychildren.org/English/ages-stages/toddler/pages/Hand-and-Finger-Skills-1-Year-Olds.aspx",
+      "doi": null
+    },
+    {
+      "id": "SCHAROUN:HAND-PREFERENCE-2009",
+      "title": "The Development of Hand Preference in Children: The Effect of Task Demands and Links With Manual Dexterity",
+      "abstract": "This study of children ages four to eleven found weaker hand preference in younger children and showed that task demands influenced hand selection, supporting repeated observation across activities rather than judgment from one task.",
+      "journal": "Brain and Cognition",
+      "year": "2009",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/19457603/",
+      "doi": "10.1016/j.bandc.2009.04.009"
+    },
+    {
+      "id": "SCHAROUN:HAND-SELECTION-2014",
+      "title": "Hand Preference, Performance Abilities, and Hand Selection in Children",
+      "abstract": "This peer reviewed review explains that hand preference and actual hand choice vary with age, task position, task complexity, and motor performance. It emphasizes that preference is not identical to skill in every situation.",
+      "journal": "Frontiers in Psychology",
+      "year": "2014",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3927078/",
+      "doi": "10.3389/fpsyg.2014.00082"
+    },
+    {
+      "id": "BLANK:DCD-GUIDELINE-2019",
+      "title": "International Clinical Practice Recommendations on Developmental Coordination Disorder",
+      "abstract": "The international guideline recommends evaluating motor coordination when difficulty meaningfully interferes with school or daily activities and is not better explained by a neurological, sensory, intellectual, or medical condition.",
+      "journal": "Developmental Medicine and Child Neurology",
+      "year": "2019",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6850610/",
+      "doi": "10.1111/dmcn.14132"
+    },
+    {
+      "id": "AAP:MOTOR-DELAYS-2013",
+      "title": "Motor Delays: Early Identification and Evaluation",
+      "abstract": "This American Academy of Pediatrics clinical report emphasizes developmental surveillance, motor symmetry, and evaluation when early hand preference or asymmetrical hand use suggests weakness or another motor abnormality.",
+      "journal": "Pediatrics",
+      "year": "2013",
+      "url": "https://publications.aap.org/pediatrics/article/131/6/e2016/31072/Motor-Delays-Early-Identification-and-Evaluation",
+      "doi": "10.1542/peds.2013-1056"
+    }
+  ],
+  "episode": {
+    "title": "E75: Why a Child Switches Hands While Writing",
+    "hook": "Hello and welcome. A child starts drawing with the right hand, reaches across the page, then transfers the pencil to the left. During a longer sentence, the pencil changes hands again. An adult may wonder whether this means the child is ambidextrous, confused, or delayed. Sometimes it is ordinary development. Sometimes the task, the position of the paper, fatigue, pain, or weakness is changing the choice. The pattern matters more than one switch.",
+    "sections": [
+      {
+        "heading": "The high yield summary",
+        "narration": "Too busy? Here is your high yield summary. Hand preference develops gradually, and switching is common in younger children. A clearer preference is often established between four and six years, but age ranges are not strict deadlines. Place tools at the body's midline, let the child choose, and do not force right-handed or left-handed writing. Observe whether switching happens because the pencil crosses the page, the task becomes harder, or one hand becomes tired or painful. Persistent school difficulty or new asymmetry needs assessment.",
+        "on_screen": ["Preference develops gradually", "Do not force a hand", "Observe why the switch occurs"],
+        "icon": "hand-preference-summary",
+        "source_ids": ["RCH:HAND-PREFERENCE-2005", "SCHAROUN:HAND-PREFERENCE-2009", "SCHAROUN:HAND-SELECTION-2014"]
+      },
+      {
+        "heading": "Preference is not a single moment",
+        "narration": "Hand preference means consistently favoring one hand for the skilled part of an activity while the other hand supports. It is not decided by which hand grabs one nearby crayon. A child may write with one hand, throw with the other, or change choices while skill is developing. Preference also differs from performance. One hand may be chosen more often even when the other can complete a simple task. Repeated observation across days and activities gives a clearer picture.",
+        "on_screen": ["Choice across repeated tasks", "One hand works while one supports", "Preference and skill can differ"],
+        "icon": "repeated-hand-observation",
+        "source_ids": ["RCH:HAND-PREFERENCE-2005", "SCHAROUN:HAND-SELECTION-2014", "AAP:HAND-SKILLS-ONE-YEAR"]
+      },
+      {
+        "heading": "Age changes the meaning",
+        "narration": "Switching hands during toddler and early preschool play can be expected. The Royal Children's Hospital notes that preference commonly begins to develop from two to four years and becomes clearer from four to six. Research also finds weaker preference in younger children than in older children. This does not create a diagnosis at a birthday. It tells us to interpret hand switching alongside the child's opportunities, motor skills, task experience, and progress over time.",
+        "on_screen": ["Switching can be normal early", "Preference usually becomes clearer", "Follow progress over time"],
+        "icon": "handedness-development",
+        "source_ids": ["RCH:HAND-PREFERENCE-2005", "SCHAROUN:HAND-PREFERENCE-2009", "AAP:HAND-SKILLS-ONE-YEAR"]
+      },
+      {
+        "heading": "The task can choose the hand",
+        "narration": "A pencil placed beside the right hand invites the right hand. Marks on the far left may invite the left. Younger children may avoid crossing the body's midline and simply use the hand nearest the target. Task complexity also changes selection. Drawing a large circle, writing a familiar name, cutting, and placing small pegs do not demand identical control. Put the pencil in the center, watch which hand begins, and notice whether the other hand stabilizes the paper.",
+        "on_screen": ["Place tools at midline", "Task demands affect selection", "Watch the helping hand"],
+        "icon": "task-dependent-hand-choice",
+        "source_ids": ["SCHAROUN:HAND-PREFERENCE-2009", "SCHAROUN:HAND-SELECTION-2014", "RCH:HAND-PREFERENCE-2005"]
+      },
+      {
+        "heading": "Why switching may increase",
+        "narration": "A child may switch when the first hand tires, when pressure or grip makes writing uncomfortable, or when the page position favors the other hand. Switching can also appear when control is not yet automatic and the child is searching for an easier strategy. Ask whether the hand hurts, whether writing slows, and whether the same pattern appears with eating, scissors, buttons, or play. Switching by itself is not proof of ambidexterity, dysgraphia, or developmental coordination disorder.",
+        "on_screen": ["Fatigue or discomfort", "Page position and task demand", "Switching alone is not a diagnosis"],
+        "icon": "reasons-for-hand-switching",
+        "source_ids": ["SCHAROUN:HAND-SELECTION-2014", "BLANK:DCD-GUIDELINE-2019", "RCH:HAND-PREFERENCE-2005"]
+      },
+      {
+        "heading": "A deeper observation",
+        "narration": "Now, let us go deeper. Observe several short tasks without correcting the child. Place each tool centrally. Record the starting hand, when a switch occurs, whether the child crosses the midline, and what the supporting hand does. Compare short and longer writing, drawing, feeding, throwing, cutting, and small-object tasks. Also record speed, readability, pain, and fatigue. This simple pattern helps distinguish normal variation from a functional problem and gives an occupational therapist or clinician useful information.",
+        "on_screen": ["Observe without correcting", "Compare several activities", "Record function and symptoms"],
+        "icon": "hand-preference-assessment",
+        "source_ids": ["RCH:HAND-PREFERENCE-2005", "SCHAROUN:HAND-PREFERENCE-2009", "BLANK:DCD-GUIDELINE-2019"]
+      },
+      {
+        "heading": "Support a preference without forcing it",
+        "narration": "Offer plenty of two-handed activities such as opening containers, threading, building, stirring, and holding paper while drawing. Once repeated observation shows a clear preferred hand, encourage that hand for the skilled part and teach the other hand to stabilize or assist. Adjust seating, paper angle, and tool position for left-handed or right-handed use. Do not repeatedly move the pencil into an adult's preferred hand. The goal is consistent, comfortable performance, not conformity.",
+        "on_screen": ["Build two-handed coordination", "Support the observed preference", "Adapt the setup"],
+        "icon": "support-hand-preference",
+        "source_ids": ["RCH:HAND-PREFERENCE-2005", "SCHAROUN:HAND-SELECTION-2014"]
+      },
+      {
+        "heading": "When switching needs assessment",
+        "narration": "Seek assessment when an older child switches because neither hand can write comfortably or efficiently, when writing remains very slow or unreadable, or when broader coordination problems limit school and daily life. Medical review is important for a sudden change, new weakness, numbness, tremor, swelling, pain, loss of a previous skill, or consistent avoidance of one side. In infancy, very early fixed handedness can signal asymmetry and deserves developmental evaluation rather than celebration as advanced handedness.",
+        "on_screen": ["Persistent functional limitation", "Sudden change or one-sided weakness", "Very early fixed preference"],
+        "icon": "hand-switching-red-flags",
+        "source_ids": ["BLANK:DCD-GUIDELINE-2019", "AAP:MOTOR-DELAYS-2013", "RCH:HAND-PREFERENCE-2005"]
+      },
+      {
+        "heading": "Three essential takeaways",
+        "narration": "Number one, switching hands is often part of early development, and preference becomes clearer through repeated skilled activities. Number two, place tools at the midline, observe several tasks, and support the child's emerging preference without forcing a particular hand. Number three, arrange occupational therapy or medical assessment when switching accompanies pain, poor endurance, persistent school limitation, loss of skill, or new one-sided neurological symptoms.",
+        "on_screen": ["Development takes time", "Observe and support, do not force", "Escalate pain, limitation, or asymmetry"],
+        "icon": "checklist",
+        "source_ids": ["RCH:HAND-PREFERENCE-2005", "SCHAROUN:HAND-PREFERENCE-2009", "BLANK:DCD-GUIDELINE-2019", "AAP:MOTOR-DELAYS-2013"]
+      }
+    ],
+    "closing": "On the next episode, we will explain why a child uses the whole arm to write. Follow the Your Only Doc podcast for clear, evidence-based medical explanations. Stay curious and stay safe.",
+    "description": "Children may switch hands because preference is still developing, the task changes, or one hand becomes tired or uncomfortable. This episode explains what to observe, how to support emerging handedness, and when assessment is needed.",
+    "thumbnail_text": "WHY SWITCH HANDS?"
+  }
+}
