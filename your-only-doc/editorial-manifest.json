@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "workflow": "chatgpt-reviewed-v20",
-  "updated_at": "2026-10-24T09:45:00.000Z",
-  "next_episode_number": 76,
+  "updated_at": "2026-10-25T08:50:00.000Z",
+  "next_episode_number": 77,
   "next_planned_topic": {
     "id": "child-uses-whole-arm-writing",
     "title": "Why a Child Uses the Whole Arm to Write",
@@ -476,6 +476,13 @@
       "topic_id": "child-switches-hands-writing",
       "title": "E75: Why a Child Switches Hands While Writing",
       "file": "episodes/E75-child-switches-hands-writing.json",
+      "status": "ready"
+    },
+    {
+      "episode_number": 76,
+      "topic_id": "october-2026-ebola-expansion",
+      "title": "E76: What the October 2026 Ebola Expansion Means",
+      "file": "episodes/E76-october-2026-ebola-expansion.json",
       "status": "ready"
     }
   ],
