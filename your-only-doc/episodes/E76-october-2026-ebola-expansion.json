@@ -1,0 +1,159 @@
+{
+  "schema": 2,
+  "editorial": {
+    "workflow": "chatgpt-reviewed-v20",
+    "reviewed_by": "ChatGPT medical editorial workflow",
+    "reviewed_on": "2026-10-25",
+    "episode_number": 76,
+    "language": "English",
+    "spoken_host_name_allowed": false,
+    "long_dashes_allowed": false,
+    "target_minutes": 10
+  },
+  "topic_id": "october-2026-ebola-expansion",
+  "topic": {
+    "id": "october-2026-ebola-expansion",
+    "title": "What the October 2026 Ebola Expansion Means",
+    "audience_question": "What changed in the Bundibugyo Ebola outbreak in October 2026, and who needs to take action?",
+    "pubmed_query": "Bundibugyo virus disease 2026 outbreak clinical features transmission travelers",
+    "icon_keywords": ["ebola", "public-health", "travel", "outbreak-response"],
+    "category": "public-health"
+  },
+  "sources": [
+    {
+      "id": "WHO:DON622-2026",
+      "title": "Ebola Disease Caused by Bundibugyo Virus: Democratic Republic of the Congo, Kenya and Nigeria",
+      "abstract": "WHO reported on 23 October 2026 that sustained transmission continued in the Democratic Republic of the Congo, with 9704 confirmed cases and 4687 deaths reported through 20 October, plus imported and linked cases in Kenya and an imported case in Nigeria.",
+      "journal": "World Health Organization Disease Outbreak News",
+      "year": "2026",
+      "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON622",
+      "doi": null
+    },
+    {
+      "id": "WHO:BVD-PHEIC-2026",
+      "title": "Epidemic of Ebola Disease Caused by Bundibugyo Virus Determined a Public Health Emergency of International Concern",
+      "abstract": "WHO's emergency determination and temporary recommendations emphasize rapid isolation, diagnosis, case management, contact tracing, cross-border surveillance, laboratory capacity, infection prevention, and community engagement.",
+      "journal": "World Health Organization",
+      "year": "2026",
+      "url": "https://www.who.int/news/item/17-05-2026-epidemic-of-ebola-disease-in-the-democratic-republic-of-the-congo-and-uganda-determined-a-public-health-emergency-of-international-concern",
+      "doi": null
+    },
+    {
+      "id": "CDC:EBOLA-SITUATION-2026",
+      "title": "Ebola Outbreak: Current Situation",
+      "abstract": "CDC describes the Bundibugyo outbreak as a rapidly expanding international response event while noting that no outbreak-associated case has been confirmed in the United States and that risk to the general U.S. public remains low.",
+      "journal": "Centers for Disease Control and Prevention",
+      "year": "2026",
+      "url": "https://www.cdc.gov/ebola/situation-summary/index.html",
+      "doi": null
+    },
+    {
+      "id": "CDC:EBOLA-SYMPTOMS-2024",
+      "title": "Signs and Symptoms of Ebola Disease",
+      "abstract": "CDC states that symptoms can begin two to 21 days after exposure, usually around eight to ten days, and can include fever, weakness, aches, gastrointestinal symptoms, rash, and unexplained bleeding or bruising.",
+      "journal": "Centers for Disease Control and Prevention",
+      "year": "2024",
+      "url": "https://www.cdc.gov/ebola/signs-symptoms/index.html",
+      "doi": null
+    },
+    {
+      "id": "CDC:EBOLA-TRAVEL-2026",
+      "title": "Information for Travelers Returning from Ebola-Affected Areas",
+      "abstract": "CDC provides current entry restrictions, screening, and 21-day health monitoring instructions for travelers from affected countries and advises symptomatic travelers to isolate and contact public health authorities before seeking in-person care.",
+      "journal": "Centers for Disease Control and Prevention",
+      "year": "2026",
+      "url": "https://www.cdc.gov/ebola/situation-summary/returning-travelers.html",
+      "doi": null
+    },
+    {
+      "id": "CDC:EBOLA-CLINICAL-2026",
+      "title": "Clinical Guidance for Ebola Disease",
+      "abstract": "CDC states that no FDA-approved vaccine or specific treatment exists for Bundibugyo virus disease and emphasizes supportive care, exposure assessment, public health coordination, testing, isolation, and infection control.",
+      "journal": "Centers for Disease Control and Prevention",
+      "year": "2026",
+      "url": "https://www.cdc.gov/ebola/hcp/clinical-guidance/index.html",
+      "doi": null
+    },
+    {
+      "id": "CDC:MMWR-BVD-CLINICAL-2026",
+      "title": "Clinical Characteristics of Patients with Ebola Disease Caused by Bundibugyo Virus: Uganda, 2026",
+      "abstract": "This MMWR field report describes clinical findings among early Ugandan cases and reiterates that transmission occurs through direct contact with infectious blood or other body fluids.",
+      "journal": "Morbidity and Mortality Weekly Report",
+      "year": "2026",
+      "url": "https://www.cdc.gov/mmwr/volumes/75/wr/mm7535a2.htm",
+      "doi": null
+    }
+  ],
+  "episode": {
+    "title": "E76: What the October 2026 Ebola Expansion Means",
+    "hook": "Hello and welcome. Imagine hearing that an Ebola outbreak has crossed borders, then seeing a frightening number without knowing what it means for you. On October 23, the World Health Organization reported continued high transmission of Bundibugyo virus disease in the Democratic Republic of the Congo, linked cases in Kenya, and an imported case in Nigeria. This is a serious regional emergency. It does not mean that Ebola is spreading casually through everyday contact around the world.",
+    "sections": [
+      {
+        "heading": "The high yield summary",
+        "narration": "Too busy? Here is your high yield summary. The outbreak has expanded geographically and requires strong international action. Ebola spreads through direct contact with infectious blood or other body fluids, contaminated materials, or infected animals, not through routine distant contact. Risk depends on travel and exposure, not headlines alone. Symptoms can begin two to 21 days after exposure. Anyone who becomes ill after relevant travel or contact should separate from others and call public health authorities before arriving at a clinic.",
+        "on_screen": ["Serious regional expansion", "Direct fluid exposure drives risk", "Symptoms after exposure need urgent action"],
+        "icon": "ebola-update-summary",
+        "source_ids": ["WHO:DON622-2026", "CDC:EBOLA-SYMPTOMS-2024", "CDC:MMWR-BVD-CLINICAL-2026"]
+      },
+      {
+        "heading": "What changed in October",
+        "narration": "WHO reported 9704 confirmed cases and 4687 deaths in the Democratic Republic of the Congo through October 20. That included 976 additional confirmed cases and 482 deaths since the October 8 update. Kenya had nine cases, including eight known contacts of its imported case, with no evidence of wider community transmission at that report. Nigeria confirmed one imported case under investigation. These numbers are dated snapshots and will change, so use the latest official dashboard before making decisions.",
+        "on_screen": ["Data through October 20", "DRC transmission remains high", "Imported and linked cases reported"],
+        "icon": "outbreak-map-update",
+        "source_ids": ["WHO:DON622-2026", "CDC:EBOLA-SITUATION-2026"]
+      },
+      {
+        "heading": "How infection actually spreads",
+        "narration": "A person with Ebola becomes infectious after symptoms begin. Transmission requires direct contact through broken skin or the eyes, nose, or mouth with infectious blood or body fluids. Risk also comes from contaminated needles, medical equipment, bedding, surfaces, unsafe burial contact, and some infected animals. Caring for a sick person without protection creates much more risk than sharing a city or airplane with someone who has no symptoms. Exposure history is therefore central to every assessment.",
+        "on_screen": ["Infectious after symptoms begin", "Blood and body-fluid contact", "Exposure history matters"],
+        "icon": "ebola-transmission",
+        "source_ids": ["CDC:MMWR-BVD-CLINICAL-2026", "CDC:EBOLA-CLINICAL-2026", "WHO:BVD-PHEIC-2026"]
+      },
+      {
+        "heading": "Who should pay close attention",
+        "narration": "The highest concern is for people who had direct contact with a patient, body fluids, contaminated objects, laboratory material, or a body during funeral preparation. Healthcare workers, caregivers, laboratory staff, burial workers, and household contacts need formal exposure assessment when protection may have failed. Travel alone does not equal infection, but recent presence in an affected area changes how symptoms are evaluated. People without relevant travel or contact should not interpret every fever as Ebola.",
+        "on_screen": ["Direct contacts", "Healthcare and laboratory exposure", "Travel changes symptom assessment"],
+        "icon": "ebola-exposure-risk",
+        "source_ids": ["WHO:DON622-2026", "CDC:EBOLA-TRAVEL-2026", "CDC:EBOLA-CLINICAL-2026"]
+      },
+      {
+        "heading": "Symptoms and the 21-day window",
+        "narration": "Symptoms usually begin suddenly. They can include fever or feeling feverish, severe tiredness, headache, muscle aches, sore throat, loss of appetite, vomiting, diarrhea, abdominal pain, rash, or unexplained bruising or bleeding. Bleeding is not required and may appear late. The incubation period is two to 21 days, with symptoms commonly starting around eight to ten days after exposure. A person who remains well beyond 21 days after the last possible exposure is outside the recognized incubation window.",
+        "on_screen": ["Early symptoms can look nonspecific", "Bleeding is not required", "Incubation is 2 to 21 days"],
+        "icon": "ebola-symptom-timeline",
+        "source_ids": ["CDC:EBOLA-SYMPTOMS-2024", "CDC:MMWR-BVD-CLINICAL-2026"]
+      },
+      {
+        "heading": "A deeper clinical approach",
+        "narration": "Now, let us go deeper. A compatible illness is not enough for diagnosis. Clinicians first ask about travel, dates, contact with illness or death, healthcare visits, funerals, animal exposure, and protective equipment. If exposure and symptoms fit, the patient should be isolated immediately and public health authorities contacted before routine movement through a facility. Testing and transfer require coordination. Malaria and other common infections remain important alternatives, and urgent supportive treatment should not be delayed while the exposure assessment proceeds.",
+        "on_screen": ["Symptoms plus exposure history", "Isolate and notify", "Evaluate other urgent infections"],
+        "icon": "ebola-clinical-triage",
+        "source_ids": ["CDC:EBOLA-CLINICAL-2026", "WHO:BVD-PHEIC-2026", "CDC:EBOLA-TRAVEL-2026"]
+      },
+      {
+        "heading": "What travelers need to do",
+        "narration": "Travel guidance can change quickly. CDC currently lists specific U.S. restrictions, attestations, airport screening, and monitoring rules for people recently in affected countries, including additional requirements scheduled after November 3. Check the official CDC page and airline instructions before any journey. After relevant travel, follow public health monitoring directions for 21 days. If symptoms develop, stay apart from others and telephone the designated public health service before using public transport or walking into a waiting room.",
+        "on_screen": ["Check current rules before travel", "Monitor for 21 days", "Call before seeking in-person care"],
+        "icon": "ebola-travel-guidance",
+        "source_ids": ["CDC:EBOLA-TRAVEL-2026", "WHO:DON622-2026"]
+      },
+      {
+        "heading": "Care and outbreak control",
+        "narration": "There is no approved vaccine or specific antiviral treatment for Bundibugyo virus disease. Care focuses on early supportive treatment, including fluids, electrolytes, oxygen, blood-pressure support, and treatment of complications and other infections as clinically indicated. Outbreak control depends on rapid diagnosis, safe isolation, trained infection prevention, contact tracing, laboratory capacity, safe and dignified burials, and trusted community communication. WHO advises against blanket restrictions on travel or trade, while countries may apply their own targeted entry measures.",
+        "on_screen": ["Early supportive care", "Isolation and contact tracing", "Community trust matters"],
+        "icon": "ebola-care-response",
+        "source_ids": ["CDC:EBOLA-CLINICAL-2026", "WHO:BVD-PHEIC-2026", "WHO:DON622-2026"]
+      },
+      {
+        "heading": "Three essential takeaways",
+        "narration": "Number one, the October update shows major continued transmission in the Democratic Republic of the Congo and cross-border spread that demands coordinated public-health action. Number two, personal risk comes mainly from direct exposure to infectious body fluids or contaminated materials, not ordinary distant contact. Number three, after relevant travel or exposure, monitor for 21 days and, if symptoms appear, isolate and call public health authorities before presenting for care.",
+        "on_screen": ["The regional emergency has expanded", "Direct exposure determines risk", "Isolate and call if symptoms appear"],
+        "icon": "checklist",
+        "source_ids": ["WHO:DON622-2026", "CDC:MMWR-BVD-CLINICAL-2026", "CDC:EBOLA-TRAVEL-2026"]
+      }
+    ],
+    "closing": "On the next episode, we will return to our planned sequence and explain why a child uses the whole arm to write. Follow the Your Only Doc podcast for clear, evidence-based medical explanations. Stay curious and stay safe.",
+    "description": "WHO's October 2026 update documents continued high Bundibugyo Ebola transmission and new cross-border cases. This episode explains what changed, how exposure occurs, which symptoms matter, and what travelers and clinicians should do.",
+    "thumbnail_text": "EBOLA UPDATE: WHAT CHANGED?"
+  }
+}
