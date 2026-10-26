@@ -1,0 +1,159 @@
+{
+  "schema": 2,
+  "editorial": {
+    "workflow": "chatgpt-reviewed-v20",
+    "reviewed_by": "ChatGPT medical editorial workflow",
+    "reviewed_on": "2026-10-26",
+    "episode_number": 77,
+    "language": "English",
+    "spoken_host_name_allowed": false,
+    "long_dashes_allowed": false,
+    "target_minutes": 10
+  },
+  "topic_id": "child-uses-whole-arm-writing",
+  "topic": {
+    "id": "child-uses-whole-arm-writing",
+    "title": "Why a Child Uses the Whole Arm to Write",
+    "audience_question": "Why does a child move the shoulder and elbow instead of the fingers while writing, and when does it matter?",
+    "pubmed_query": "child handwriting proximal distal movement shoulder elbow wrist fingers posture stability",
+    "icon_keywords": ["child", "whole-arm-writing", "handwriting", "motor-control"],
+    "category": "child-development"
+  },
+  "sources": [
+    {
+      "id": "RACHER:PROXIMAL-DISTAL-2021",
+      "title": "Proximal and Distal Movement Patterns During a Graphomotor Task in Typically Developing Children and Children With Handwriting Problems",
+      "abstract": "This motion-analysis study found that distal joints moved more than proximal joints during graphomotor tasks and that children with handwriting difficulties showed different movement patterns at the shoulder and upper back, while cautioning that causation remains uncertain.",
+      "journal": "Human Movement Science",
+      "year": "2021",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8690895/",
+      "doi": null
+    },
+    {
+      "id": "GERTH:MUSCLE-ACTIVITY-2023",
+      "title": "Muscle Activity During Handwriting on a Tablet: An Electromyographic Analysis of the Writing Process in Children and Adults",
+      "abstract": "This study describes how developing writers use proximal and distal upper-limb muscles differently from skilled adults and notes a developmental shift toward greater wrist and finger contribution with writing experience.",
+      "journal": "Children",
+      "year": "2023",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10137273/",
+      "doi": null
+    },
+    {
+      "id": "NAIDER:HANDWRITING-MUSCLE-2007",
+      "title": "Analysis of Proximal and Distal Muscle Activity During Handwriting Tasks",
+      "abstract": "Electromyography in third- and fourth-grade children found that proximal shoulder muscle activity appeared to provide stability and that more economical proximal and distal activity was associated with faster writing.",
+      "journal": "American Journal of Occupational Therapy",
+      "year": "2007",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17685171/",
+      "doi": "10.5014/ajot.61.4.392"
+    },
+    {
+      "id": "AAP:HANDWRITING-DIGITAL-AGE",
+      "title": "The Importance of Handwriting in the Digital Age",
+      "abstract": "American Academy of Pediatrics guidance explains that handwriting requires coordinated brain, nerve, muscle, visual-motor, core, shoulder, hand, and finger function and recommends age-appropriate drawing and movement practice.",
+      "journal": "HealthyChildren.org, American Academy of Pediatrics",
+      "year": "2025",
+      "url": "https://www.healthychildren.org/English/family-life/Media/Pages/The-Importance-of-Handwriting-in-the-Digital-Age.aspx",
+      "doi": null
+    },
+    {
+      "id": "RCH:PENCIL-GRIP-2005",
+      "title": "Developing a Pencil Grip",
+      "abstract": "This pediatric occupational therapy guide describes practical activities that support wrist position and controlled pencil use, including drawing on vertical surfaces and testing age-appropriate hand activities.",
+      "journal": "Royal Children's Hospital Melbourne Occupational Therapy",
+      "year": "2005",
+      "url": "https://www.rch.org.au/uploadedFiles/Main/Content/ot/InfoSheet_A.pdf",
+      "doi": null
+    },
+    {
+      "id": "NHS:POSTURAL-CONTROL-WRITING",
+      "title": "Postural Control for School Activities",
+      "abstract": "This NHS children's occupational therapy resource recommends a stable seated setup with supported feet, the body positioned at the back of the chair, and arms resting comfortably on the table.",
+      "journal": "Sussex Community NHS Foundation Trust",
+      "year": "2026",
+      "url": "https://www.sussexcommunity.nhs.uk/patients-and-visitors/resources/patient-resources/childrens-occupational-therapy-resource-for-primary-schools-0/postural-control",
+      "doi": null
+    },
+    {
+      "id": "BLANK:DCD-GUIDELINE-2019",
+      "title": "International Clinical Practice Recommendations on Developmental Coordination Disorder",
+      "abstract": "The international guideline recommends evaluating motor coordination when difficulties interfere with school or daily activities and are not better explained by another neurological, sensory, intellectual, or medical condition.",
+      "journal": "Developmental Medicine and Child Neurology",
+      "year": "2019",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6850610/",
+      "doi": "10.1111/dmcn.14132"
+    }
+  ],
+  "episode": {
+    "title": "E77: Why a Child Uses the Whole Arm to Write",
+    "hook": "Hello and welcome. A child writes one short word, but the movement seems to begin at the shoulder. The elbow slides across the desk, the wrist stays stiff, and the whole body follows the pencil. An adult may immediately call this poor fine motor control. Sometimes it is part of learning. Sometimes the letters are large, the table does not fit, or the hand is searching for stability. The important question is whether the movement helps or limits the writing.",
+    "sections": [
+      {
+        "heading": "The high yield summary",
+        "narration": "Too busy? Here is your high yield summary. Younger writers often use more shoulder and elbow movement while finger and wrist control develops. Large shapes also require more movement from the arm than small letters. A stable trunk, supported feet, comfortable forearm position, and suitable desk height give the fingers a better base. Whole-arm movement matters when it persists with stiff joints, pain, fatigue, very slow or unreadable writing, or wider motor difficulty. Observe function before trying to suppress the movement.",
+        "on_screen": ["Arm use can be developmental", "Task size changes movement", "Function determines concern"],
+        "icon": "whole-arm-writing-summary",
+        "source_ids": ["RACHER:PROXIMAL-DISTAL-2021", "GERTH:MUSCLE-ACTIVITY-2023", "AAP:HANDWRITING-DIGITAL-AGE"]
+      },
+      {
+        "heading": "Writing divides work across joints",
+        "narration": "The shoulder and elbow position the arm and help keep the hand over the writing surface. The wrist, thumb, and fingers make smaller adjustments that shape letters. Skilled writing does not mean the arm is motionless. It means proximal joints provide a relatively stable base while distal joints contribute precise movement. Motion analysis shows a general pattern of greater movement at the fingers and wrist, less at the elbow, and still less at the shoulder and upper back during small graphomotor tasks.",
+        "on_screen": ["Shoulder and elbow position", "Wrist and fingers refine", "Stability and mobility work together"],
+        "icon": "writing-joint-roles",
+        "source_ids": ["RACHER:PROXIMAL-DISTAL-2021", "NAIDER:HANDWRITING-MUSCLE-2007", "GERTH:MUSCLE-ACTIVITY-2023"]
+      },
+      {
+        "heading": "Development changes the movement",
+        "narration": "Beginning writers have not yet automated letter formation. They may lift the forearm, move the elbow, pause often, and use extra muscles to control the pencil. With experience, movement can become smoother and more economical, with greater contribution from the wrist and fingers for small writing. Development is not identical for every child. Age, practice, task familiarity, and the surface all change the pattern, so one observation cannot define a delay.",
+        "on_screen": ["Beginners use more movement", "Control becomes more economical", "One sample cannot diagnose delay"],
+        "icon": "writing-motor-development",
+        "source_ids": ["GERTH:MUSCLE-ACTIVITY-2023", "AAP:HANDWRITING-DIGITAL-AGE", "RACHER:PROXIMAL-DISTAL-2021"]
+      },
+      {
+        "heading": "Size and surface matter",
+        "narration": "Writing a small word and drawing a large rainbow are different motor tasks. Larger marks naturally recruit more shoulder and elbow motion. A low-friction tablet can also challenge a beginner differently from paper. Vertical drawing may encourage wrist extension and gives useful practice with shoulder control, but it should complement rather than replace ordinary writing. Before labeling the movement abnormal, compare the child on paper, a board, large drawing, and small handwriting.",
+        "on_screen": ["Large marks need more arm movement", "Surfaces change control", "Compare several tasks"],
+        "icon": "writing-size-surface",
+        "source_ids": ["GERTH:MUSCLE-ACTIVITY-2023", "RCH:PENCIL-GRIP-2005", "AAP:HANDWRITING-DIGITAL-AGE"]
+      },
+      {
+        "heading": "The setup can create compensation",
+        "narration": "If the chair is too high, the feet dangle and the body loses a stable base. If the desk is too high, the shoulder may rise. If it is too low, the child may collapse forward. Paper placed far away can make the elbow and trunk chase the pencil. Aim for supported feet, hips and knees comfortably bent, the body back in the chair, forearms resting on the table, and paper close enough for relaxed shoulders. Then observe again.",
+        "on_screen": ["Support the feet", "Match chair and desk height", "Keep paper within easy reach"],
+        "icon": "writing-posture-setup",
+        "source_ids": ["NHS:POSTURAL-CONTROL-WRITING", "NAIDER:HANDWRITING-MUSCLE-2007", "RCH:PENCIL-GRIP-2005"]
+      },
+      {
+        "heading": "A deeper functional assessment",
+        "narration": "Now, let us go deeper. First record a short writing sample without correction. Note letter size, speed, readability, pain, fatigue, grip pressure, wrist position, elbow movement, shoulder elevation, and trunk motion. Compare a familiar word, copying, original writing, coloring, and a longer assignment. Then change one variable at a time, such as foot support, desk height, paper position, pencil, or task size. A useful change improves comfort or output, not merely appearance.",
+        "on_screen": ["Record before changing", "Compare different tasks", "Change one variable at a time"],
+        "icon": "whole-arm-assessment",
+        "source_ids": ["RACHER:PROXIMAL-DISTAL-2021", "BLANK:DCD-GUIDELINE-2019", "NHS:POSTURAL-CONTROL-WRITING"]
+      },
+      {
+        "heading": "Practice precision without forcing stillness",
+        "narration": "Use brief practice while the child is comfortable. Begin with large controlled shapes, then gradually reduce their size. Try chalkboards, easels, mazes, tracing, coloring with small strokes, and short letter practice. Activities for core, shoulder, wrist, hand, and finger control can support the components of writing, but isolated strengthening is not automatically the treatment. The child still needs direct, meaningful handwriting practice with clear teaching and feedback. Stop before pain or frustration turns practice into endurance testing.",
+        "on_screen": ["Large to smaller movements", "Practice the whole skill", "Stop before pain or frustration"],
+        "icon": "graded-writing-practice",
+        "source_ids": ["AAP:HANDWRITING-DIGITAL-AGE", "RCH:PENCIL-GRIP-2005", "BLANK:DCD-GUIDELINE-2019"]
+      },
+      {
+        "heading": "When broader evaluation is needed",
+        "narration": "Arrange assessment when whole-arm writing persists with pain, marked fatigue, poor endurance, very slow output, illegibility, avoidance, or difficulty keeping up at school. Mention problems with dressing, utensils, scissors, ball skills, balance, or learning other movements because a broader coordination pattern may matter. Seek medical review for a sudden change, new weakness, numbness, tremor, swelling, loss of a previous skill, or symptoms after injury. Arm movement alone does not diagnose developmental coordination disorder or a neurological condition.",
+        "on_screen": ["Persistent school limitation", "Difficulty across daily motor tasks", "Sudden change needs medical review"],
+        "icon": "whole-arm-writing-red-flags",
+        "source_ids": ["BLANK:DCD-GUIDELINE-2019", "RACHER:PROXIMAL-DISTAL-2021", "NHS:POSTURAL-CONTROL-WRITING"]
+      },
+      {
+        "heading": "Three essential takeaways",
+        "narration": "Number one, shoulder and elbow movement can be normal in beginning writers and during large drawing, while small fluent writing usually uses more wrist and finger control. Number two, check posture, desk height, foot support, paper position, task size, comfort, speed, and readability before correcting the movement. Number three, use graded meaningful practice and seek occupational therapy or medical assessment when pain, regression, neurological symptoms, broader coordination difficulty, or persistent school limitation is present.",
+        "on_screen": ["Movement depends on development and task", "Fix the setup before blaming the child", "Escalate meaningful problems"],
+        "icon": "checklist",
+        "source_ids": ["GERTH:MUSCLE-ACTIVITY-2023", "NHS:POSTURAL-CONTROL-WRITING", "BLANK:DCD-GUIDELINE-2019"]
+      }
+    ],
+    "closing": "On the next episode, we will explain why a child slouches while writing. Follow the Your Only Doc podcast for clear, evidence-based medical explanations. Stay curious and stay safe.",
+    "description": "Whole-arm writing can reflect development, task size, posture, surface, fatigue, or motor coordination. This episode explains what is normal, how to improve the setup, and when broader assessment is needed.",
+    "thumbnail_text": "WHY THE WHOLE ARM?"
+  }
+}
