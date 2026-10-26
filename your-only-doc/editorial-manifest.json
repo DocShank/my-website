@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "workflow": "chatgpt-reviewed-v20",
-  "updated_at": "2026-10-25T08:50:00.000Z",
-  "next_episode_number": 77,
+  "updated_at": "2026-10-26T09:29:00.000Z",
+  "next_episode_number": 78,
   "next_planned_topic": {
-    "id": "child-uses-whole-arm-writing",
-    "title": "Why a Child Uses the Whole Arm to Write",
-    "reason": "It follows hand preference by explaining how proximal stability, fine motor development, posture, fatigue, and motor coordination affect whether writing comes from the shoulder, wrist, or fingers."
+    "id": "child-slouches-writing",
+    "title": "Why a Child Slouches While Writing",
+    "reason": "It follows whole-arm writing by explaining how chair and desk fit, visual demands, fatigue, core and postural control, pain, and motor coordination can change writing posture."
   },
   "packets": [
     {
@@ -484,6 +484,13 @@
       "title": "E76: What the October 2026 Ebola Expansion Means",
       "file": "episodes/E76-october-2026-ebola-expansion.json",
       "status": "ready"
+    },
+    {
+      "episode_number": 77,
+      "topic_id": "child-uses-whole-arm-writing",
+      "title": "E77: Why a Child Uses the Whole Arm to Write",
+      "file": "episodes/E77-child-uses-whole-arm-writing.json",
+      "status": "ready"
     }
   ],
   "evergreen_sequence": [
@@ -734,6 +741,10 @@
     {
       "id": "child-uses-whole-arm-writing",
       "title": "Why a Child Uses the Whole Arm to Write"
+    },
+    {
+      "id": "child-slouches-writing",
+      "title": "Why a Child Slouches While Writing"
     }
   ],
   "editorial_policy": {
