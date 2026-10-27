@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "workflow": "chatgpt-reviewed-v20",
-  "updated_at": "2026-10-26T09:29:00.000Z",
-  "next_episode_number": 78,
+  "updated_at": "2026-10-27T08:56:00.000Z",
+  "next_episode_number": 79,
   "next_planned_topic": {
-    "id": "child-slouches-writing",
-    "title": "Why a Child Slouches While Writing",
-    "reason": "It follows whole-arm writing by explaining how chair and desk fit, visual demands, fatigue, core and postural control, pain, and motor coordination can change writing posture."
+    "id": "child-tilts-paper-writing",
+    "title": "Why a Child Tilts the Paper While Writing",
+    "reason": "It follows writing posture by explaining how handedness, paper angle, wrist position, visual access, comfort, and motor coordination influence page placement."
   },
   "packets": [
     {
@@ -490,6 +490,13 @@
       "topic_id": "child-uses-whole-arm-writing",
       "title": "E77: Why a Child Uses the Whole Arm to Write",
       "file": "episodes/E77-child-uses-whole-arm-writing.json",
+      "status": "ready"
+    },
+    {
+      "episode_number": 78,
+      "topic_id": "child-slouches-writing",
+      "title": "E78: Why a Child Slouches While Writing",
+      "file": "episodes/E78-child-slouches-writing.json",
       "status": "ready"
     }
   ],
