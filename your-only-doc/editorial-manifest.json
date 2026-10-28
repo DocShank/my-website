@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "workflow": "chatgpt-reviewed-v20",
-  "updated_at": "2026-10-27T08:56:00.000Z",
-  "next_episode_number": 79,
+  "updated_at": "2026-10-28T09:35:00.000Z",
+  "next_episode_number": 80,
   "next_planned_topic": {
-    "id": "child-tilts-paper-writing",
-    "title": "Why a Child Tilts the Paper While Writing",
-    "reason": "It follows writing posture by explaining how handedness, paper angle, wrist position, visual access, comfort, and motor coordination influence page placement."
+    "id": "child-hooks-wrist-writing",
+    "title": "Why a Child Hooks the Wrist While Writing",
+    "reason": "It follows paper position by explaining how handedness, visual access, page placement, pencil grip, wrist comfort, and learned compensation can produce a hooked writing posture."
   },
   "packets": [
     {
@@ -497,6 +497,13 @@
       "topic_id": "child-slouches-writing",
       "title": "E78: Why a Child Slouches While Writing",
       "file": "episodes/E78-child-slouches-writing.json",
+      "status": "ready"
+    },
+    {
+      "episode_number": 79,
+      "topic_id": "child-tilts-paper-writing",
+      "title": "E79: Why a Child Tilts the Paper While Writing",
+      "file": "episodes/E79-child-tilts-paper-writing.json",
       "status": "ready"
     }
   ],
