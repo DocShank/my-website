@@ -1,0 +1,159 @@
+{
+  "schema": 2,
+  "editorial": {
+    "workflow": "chatgpt-reviewed-v20",
+    "reviewed_by": "ChatGPT medical editorial workflow",
+    "reviewed_on": "2026-10-29",
+    "episode_number": 80,
+    "language": "English",
+    "spoken_host_name_allowed": false,
+    "long_dashes_allowed": false,
+    "target_minutes": 10
+  },
+  "topic_id": "child-hooks-wrist-writing",
+  "topic": {
+    "id": "child-hooks-wrist-writing",
+    "title": "Why a Child Hooks the Wrist While Writing",
+    "audience_question": "Why does a child bend the wrist above the writing line, especially when left-handed, and when should it be changed or assessed?",
+    "pubmed_query": "child handwriting hooked wrist inverted posture left handed paper position comfort pain",
+    "icon_keywords": ["child", "hooked-wrist", "handwriting", "left-handed"],
+    "category": "child-development"
+  },
+  "sources": [
+    {
+      "id": "HSE:HANDWRITING-DIFFICULTIES-2025",
+      "title": "Handwriting: Common Difficulties and Strategies",
+      "abstract": "Ireland's Health Service Executive recommends adapting paper angle, pencil position, and writing surface for left-handed children to improve visual access and wrist comfort.",
+      "journal": "Health Service Executive Ireland",
+      "year": "2025",
+      "url": "https://www2.hse.ie/babies-children/disabilities/handwriting/common-difficulties/",
+      "doi": null
+    },
+    {
+      "id": "HSE:HANDWRITING-POSTURE-PAPER-2025",
+      "title": "How to Start, Posture, Paper and Pencil Grasp",
+      "abstract": "HSE guidance emphasizes flexible seating, handedness-specific paper tilt, comfortable grasp, readability, and function rather than enforcing one perfect writing position.",
+      "journal": "Health Service Executive Ireland",
+      "year": "2025",
+      "url": "https://www2.hse.ie/babies-children/disabilities/handwriting/posture-pencil-grasp/",
+      "doi": null
+    },
+    {
+      "id": "BCUHB:HANDWRITING-LEFT-HANDED",
+      "title": "Handwriting",
+      "abstract": "This NHS occupational therapy resource explains how paper placement, arm and wrist position, lighting, space, and the supporting hand can reduce fatigue and tension for left-handed writers.",
+      "journal": "Betsi Cadwaladr University Health Board",
+      "year": "2026",
+      "url": "https://bcuhb.nhs.wales/services/occupational-therapy/childrens-occupational-therapy/service-areas/east-area-wrexham-and-flintshire/universal-provision/handwriting/",
+      "doi": null
+    },
+    {
+      "id": "LINCOLNSHIRE-NHS:FIRST-MOVE-HANDWRITING",
+      "title": "First Move: Principles Underlying Good Handwriting",
+      "abstract": "This pediatric therapy resource describes the hooked grasp as a possible compensation for viewing the line and recommends early attention to paper position and pencil grip without treating left-handedness as abnormal.",
+      "journal": "Lincolnshire Children's Therapy Services NHS",
+      "year": "2026",
+      "url": "https://www.lincolnshirechildrenstherapyservices.nhs.uk/our-services/resource-library/first-move",
+      "doi": null
+    },
+    {
+      "id": "GUIARD:LEFT-HAND-WRITING-POSTURE-1984",
+      "title": "Writing Postures in Left-Handers: Inverters Are Hand-Crossers",
+      "abstract": "This behavioral study describes inverted left-handed writing as part of a coordinated strategy involving page rotation, forearm orientation, and placement of the non-writing hand rather than evidence of a neurological abnormality.",
+      "journal": "Neuropsychologia",
+      "year": "1984",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/6483183/",
+      "doi": "10.1016/0028-3932(84)90051-4"
+    },
+    {
+      "id": "SCHWELLNUS:WRITING-FORCES-2013",
+      "title": "Writing Forces Associated With Four Pencil Grasp Patterns in Grade 4 Children",
+      "abstract": "This study found differences in writing forces among grasp categories but cautioned against referral based only on an unusual grasp when handwriting remains age-appropriate and functional.",
+      "journal": "American Journal of Occupational Therapy",
+      "year": "2013",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3722657/",
+      "doi": "10.5014/ajot.2013.005538"
+    },
+    {
+      "id": "PORTNOY:UPPER-LIMB-KINEMATICS-2022",
+      "title": "Upper Limb Kinematics of Handwriting Among Children With and Without Developmental Coordination Disorder",
+      "abstract": "Three-dimensional motion analysis found different upper-limb movement patterns in children with developmental coordination disorder and linked atypical wrist postures with reduced legibility in that group, without making wrist posture alone diagnostic.",
+      "journal": "Sensors",
+      "year": "2022",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9741266/",
+      "doi": "10.3390/s22239224"
+    }
+  ],
+  "episode": {
+    "title": "E80: Why a Child Hooks the Wrist While Writing",
+    "hook": "Hello and welcome. A child begins writing with the wrist curved over the top of the pencil. The hand sits above the line, the elbow lifts, and the head leans sideways to see the letters. An adult may call the position wrong, especially if the child is left-handed. But a hooked wrist is often a learned solution to a practical problem. The real question is whether that solution is comfortable and effective.",
+    "sections": [
+      {
+        "heading": "The high yield summary",
+        "narration": "Too busy? Here is your high yield summary. A hooked wrist is most familiar in left-handed writing and can develop when the child is trying to see the line, avoid smearing, or adapt to page and letter direction. It is not automatically a disorder. First adjust paper location and angle, pencil position, lighting, elbow space, and the helping hand. Keep changes that improve comfort and function. Assessment matters when the posture causes pain, fatigue, numbness, poor endurance, illegibility, or difficulty keeping up.",
+        "on_screen": ["Hooking can be compensation", "Adjust the setup first", "Function determines concern"],
+        "icon": "hooked-wrist-summary",
+        "source_ids": ["HSE:HANDWRITING-DIFFICULTIES-2025", "LINCOLNSHIRE-NHS:FIRST-MOVE-HANDWRITING", "GUIARD:LEFT-HAND-WRITING-POSTURE-1984"]
+      },
+      {
+        "heading": "Why the wrist moves above the line",
+        "narration": "In left-to-right writing, a right hand usually pulls the pencil across the page. A left hand often pushes it toward the writing. If the hand covers the new letters, the child may raise the wrist above the line to improve the view. The posture can also keep the pencil behind the hand or protect wet ink from smearing. Research describes this as part of a coordinated strategy involving the page, forearm, wrist, and other hand, not a sign of abnormal brain organization.",
+        "on_screen": ["The left hand pushes across the line", "Hooking can improve visual access", "The whole writing strategy matters"],
+        "icon": "left-hand-writing-path",
+        "source_ids": ["GUIARD:LEFT-HAND-WRITING-POSTURE-1984", "BCUHB:HANDWRITING-LEFT-HANDED", "LINCOLNSHIRE-NHS:FIRST-MOVE-HANDWRITING"]
+      },
+      {
+        "heading": "Start with the paper, not the wrist",
+        "narration": "Place the page mainly on the same side as the writing hand. For many left-handed children, lifting the top left corner and rotating the page slightly can bring the forearm below the line. Let the child experiment rather than chase a single angle. The non-writing hand should stabilize and advance the paper. If the page stays straight, sits too far right, or keeps drifting, the wrist may hook again even after repeated reminders.",
+        "on_screen": ["Place paper toward the writing side", "Raise the top left corner for many left-handers", "Use the helping hand"],
+        "icon": "paper-position-wrist",
+        "source_ids": ["HSE:HANDWRITING-POSTURE-PAPER-2025", "BCUHB:HANDWRITING-LEFT-HANDED", "LINCOLNSHIRE-NHS:FIRST-MOVE-HANDWRITING"]
+      },
+      {
+        "heading": "Improve the child's view",
+        "narration": "A child may bend the wrist because the fingers and pencil hide the writing. Holding the pencil a little farther from the tip can open the view. Good light should reach the page without the writing hand casting a shadow. Fast-drying ink can reduce concern about smearing. A sloped writing board may place the wrist in a more comfortable position. These are trials, not mandatory equipment, and each should remain only if writing becomes easier.",
+        "on_screen": ["Hold slightly farther from the tip", "Reduce shadow and smearing", "Trial a sloped surface"],
+        "icon": "visual-access-wrist",
+        "source_ids": ["HSE:HANDWRITING-DIFFICULTIES-2025", "BCUHB:HANDWRITING-LEFT-HANDED", "HSE:HANDWRITING-POSTURE-PAPER-2025"]
+      },
+      {
+        "heading": "Appearance does not equal impairment",
+        "narration": "Some unusual grasps and wrist positions still produce comfortable, fast, readable writing. Studies of pencil grasps show that force patterns can differ, but an unconventional appearance alone is not enough reason for referral. Ask whether the child reports pain, presses very hard, tires early, shakes the hand, writes slowly, or loses legibility over time. Also compare short work with a longer classroom task because a strategy may function well for one sentence but not for a full page.",
+        "on_screen": ["Unusual can still be functional", "Ask about pain and fatigue", "Compare short and long writing"],
+        "icon": "function-over-appearance",
+        "source_ids": ["SCHWELLNUS:WRITING-FORCES-2013", "PORTNOY:UPPER-LIMB-KINEMATICS-2022", "HSE:HANDWRITING-POSTURE-PAPER-2025"]
+      },
+      {
+        "heading": "A deeper functional assessment",
+        "narration": "Now, let us go deeper. Record a normal writing sample before correction. Note handedness, page angle, wrist position, pencil distance from the tip, grip pressure, head position, helping-hand use, pain, speed, and readability. Then change one variable at a time. Rotate the page, move it sideways, adjust the pencil, improve lighting, or add a slope. A meaningful improvement is less discomfort or better output, not merely a straighter-looking wrist for a photograph.",
+        "on_screen": ["Observe before correcting", "Change one factor at a time", "Measure comfort and output"],
+        "icon": "hooked-wrist-assessment",
+        "source_ids": ["HSE:HANDWRITING-DIFFICULTIES-2025", "BCUHB:HANDWRITING-LEFT-HANDED", "PORTNOY:UPPER-LIMB-KINEMATICS-2022"]
+      },
+      {
+        "heading": "Teach a useful alternative gently",
+        "narration": "If hooking is uncomfortable or inefficient, teach the full setup rather than pushing the wrist down. Mark the preferred paper angle with tape, position the page to the writing side, support the forearm, and practice short familiar words. Demonstrate from the child's handed side. A vertical board can provide brief practice with a different wrist position, but direct handwriting practice is still necessary. Avoid forcing a hand switch or criticizing left-handedness, which does not solve the mechanical problem.",
+        "on_screen": ["Teach the entire setup", "Use short direct practice", "Never force a hand switch"],
+        "icon": "comfortable-wrist-practice",
+        "source_ids": ["LINCOLNSHIRE-NHS:FIRST-MOVE-HANDWRITING", "HSE:HANDWRITING-POSTURE-PAPER-2025", "GUIARD:LEFT-HAND-WRITING-POSTURE-1984"]
+      },
+      {
+        "heading": "When evaluation is appropriate",
+        "narration": "Seek occupational therapy or school assessment when the hooked posture persists with pain, marked fatigue, numbness, poor endurance, slow or unreadable work, avoidance, or difficulty completing expected tasks. Mention problems with scissors, dressing, utensils, balance, or learning other movements because broader coordination may matter. Medical review is needed for swelling, joint stiffness, pain that continues outside writing, sudden weakness or tremor, altered sensation, injury, or loss of a previously established skill.",
+        "on_screen": ["Persistent limitation needs assessment", "Report wider motor concerns", "Sudden or inflammatory symptoms need medical review"],
+        "icon": "hooked-wrist-red-flags",
+        "source_ids": ["PORTNOY:UPPER-LIMB-KINEMATICS-2022", "SCHWELLNUS:WRITING-FORCES-2013", "HSE:HANDWRITING-DIFFICULTIES-2025"]
+      },
+      {
+        "heading": "Three essential takeaways",
+        "narration": "Number one, a hooked wrist, especially in a left-handed writer, is often an adaptation for seeing the line and moving across the page, not a diagnosis. Number two, adjust paper position, helper-hand use, pencil placement, lighting, space, and surface before repeatedly correcting the wrist. Number three, seek assessment when the posture causes persistent pain, fatigue, numbness, poor endurance, unreadable or slow work, broader motor difficulty, sudden neurological change, swelling, injury, or loss of skill.",
+        "on_screen": ["Understand the compensation", "Fix the writing system", "Escalate pain or functional loss"],
+        "icon": "checklist",
+        "source_ids": ["GUIARD:LEFT-HAND-WRITING-POSTURE-1984", "BCUHB:HANDWRITING-LEFT-HANDED", "PORTNOY:UPPER-LIMB-KINEMATICS-2022"]
+      }
+    ],
+    "closing": "On the next episode, we will explain why a child's letters drift above or below the line. Follow the Your Only Doc podcast for clear, evidence-based medical explanations. Stay curious and stay safe.",
+    "description": "A hooked writing wrist can be a practical adaptation, especially for left-handed children. This episode explains visual access, paper placement, comfort, functional assessment, and warning signs.",
+    "thumbnail_text": "WHY HOOK THE WRIST?"
+  }
+}
