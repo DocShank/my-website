@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "workflow": "chatgpt-reviewed-v20",
-  "updated_at": "2026-10-28T09:35:00.000Z",
-  "next_episode_number": 80,
+  "updated_at": "2026-10-29T09:37:50.000Z",
+  "next_episode_number": 81,
   "next_planned_topic": {
-    "id": "child-hooks-wrist-writing",
-    "title": "Why a Child Hooks the Wrist While Writing",
-    "reason": "It follows paper position by explaining how handedness, visual access, page placement, pencil grip, wrist comfort, and learned compensation can produce a hooked writing posture."
+    "id": "child-letters-drift-line",
+    "title": "Why a Child's Letters Drift Above or Below the Line",
+    "reason": "It follows wrist and page positioning by explaining how visual-motor integration, letter formation, spatial planning, line awareness, attention, and motor control affect baseline placement."
   },
   "packets": [
     {
@@ -504,6 +504,13 @@
       "topic_id": "child-tilts-paper-writing",
       "title": "E79: Why a Child Tilts the Paper While Writing",
       "file": "episodes/E79-child-tilts-paper-writing.json",
+      "status": "ready"
+    },
+    {
+      "episode_number": 80,
+      "topic_id": "child-hooks-wrist-writing",
+      "title": "E80: Why a Child Hooks the Wrist While Writing",
+      "file": "episodes/E80-child-hooks-wrist-writing.json",
       "status": "ready"
     }
   ],
