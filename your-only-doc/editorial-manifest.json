@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "workflow": "chatgpt-reviewed-v20",
-  "updated_at": "2026-10-29T09:37:50.000Z",
-  "next_episode_number": 81,
+  "updated_at": "2026-10-30T09:03:41.000Z",
+  "next_episode_number": 82,
   "next_planned_topic": {
-    "id": "child-letters-drift-line",
-    "title": "Why a Child's Letters Drift Above or Below the Line",
-    "reason": "It follows wrist and page positioning by explaining how visual-motor integration, letter formation, spatial planning, line awareness, attention, and motor control affect baseline placement."
+    "id": "child-uneven-word-spacing",
+    "title": "Why a Child Leaves Uneven Spaces Between Words",
+    "reason": "It follows baseline placement by explaining how language boundaries, visual-spatial planning, motor timing, attention, and writing fluency affect the gaps between words."
   },
   "packets": [
     {
@@ -511,6 +511,13 @@
       "topic_id": "child-hooks-wrist-writing",
       "title": "E80: Why a Child Hooks the Wrist While Writing",
       "file": "episodes/E80-child-hooks-wrist-writing.json",
+      "status": "ready"
+    },
+    {
+      "episode_number": 81,
+      "topic_id": "child-letters-drift-line",
+      "title": "E81: Why a Child's Letters Drift Above or Below the Line",
+      "file": "episodes/E81-child-letters-drift-line.json",
       "status": "ready"
     }
   ],
