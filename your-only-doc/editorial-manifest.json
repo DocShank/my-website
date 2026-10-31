@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "workflow": "chatgpt-reviewed-v20",
-  "updated_at": "2026-10-30T09:03:41.000Z",
-  "next_episode_number": 82,
+  "updated_at": "2026-10-31T09:13:34.000Z",
+  "next_episode_number": 83,
   "next_planned_topic": {
-    "id": "child-uneven-word-spacing",
-    "title": "Why a Child Leaves Uneven Spaces Between Words",
-    "reason": "It follows baseline placement by explaining how language boundaries, visual-spatial planning, motor timing, attention, and writing fluency affect the gaps between words."
+    "id": "child-crowds-letters-together",
+    "title": "Why a Child Crowds Letters Together Inside Words",
+    "reason": "It follows spacing between words by explaining how letter formation, motor timing, visual-spatial control, writing speed, and orthographic fluency affect spacing within words."
   },
   "packets": [
     {
@@ -518,6 +518,13 @@
       "topic_id": "child-letters-drift-line",
       "title": "E81: Why a Child's Letters Drift Above or Below the Line",
       "file": "episodes/E81-child-letters-drift-line.json",
+      "status": "ready"
+    },
+    {
+      "episode_number": 82,
+      "topic_id": "child-uneven-word-spacing",
+      "title": "E82: Why a Child Leaves Uneven Spaces Between Words",
+      "file": "episodes/E82-child-uneven-word-spacing.json",
       "status": "ready"
     }
   ],
