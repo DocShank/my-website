@@ -1,0 +1,159 @@
+{
+  "schema": 2,
+  "editorial": {
+    "workflow": "chatgpt-reviewed-v20",
+    "reviewed_by": "ChatGPT medical editorial workflow",
+    "reviewed_on": "2026-10-31",
+    "episode_number": 82,
+    "language": "English",
+    "spoken_host_name_allowed": false,
+    "long_dashes_allowed": false,
+    "target_minutes": 10
+  },
+  "topic_id": "child-uneven-word-spacing",
+  "topic": {
+    "id": "child-uneven-word-spacing",
+    "title": "Why a Child Leaves Uneven Spaces Between Words",
+    "audience_question": "Why does a child leave no gap between some words and very large gaps between others, and when does this need assessment?",
+    "pubmed_query": "child handwriting uneven word spacing visual spatial attention dysgraphia intervention",
+    "icon_keywords": ["child", "handwriting", "word-spacing", "legibility"],
+    "category": "child-development"
+  },
+  "sources": [
+    {
+      "id": "HSE:HANDWRITING-LEGIBILITY-2026",
+      "title": "Handwriting: Legibility and Pencil Pressure",
+      "abstract": "Ireland's Health Service Executive recommends concrete visual spacers, finger spacing, and brief verbal prompts when children have difficulty leaving consistent gaps between words or letters.",
+      "journal": "Health Service Executive Ireland",
+      "year": "2026",
+      "url": "https://www2.hse.ie/babies-children/disabilities/handwriting/pencil-pressure/",
+      "doi": null
+    },
+    {
+      "id": "HSE:HANDWRITING-DEVELOPMENT-2025",
+      "title": "Handwriting: Development and Difficulties",
+      "abstract": "HSE guidance describes handwriting as a developing task involving visual perception, visual-motor coordination, posture, hand control, motor planning, attention, memory, language, and practice.",
+      "journal": "Health Service Executive Ireland",
+      "year": "2025",
+      "url": "https://www2.hse.ie/babies-children/disabilities/handwriting/development/",
+      "doi": null
+    },
+    {
+      "id": "SOMERSET-NHS:HANDWRITING-SPACING-2025",
+      "title": "Handwriting",
+      "abstract": "This NHS pediatric therapy guidance recommends a simple spacebar for children who understand word gaps but apply them inconsistently, followed by review of which spaces are too small or too large.",
+      "journal": "Somerset NHS Foundation Trust",
+      "year": "2025",
+      "url": "https://www.somersetft.nhs.uk/children-and-young-peoples-therapy-service/handwriting/",
+      "doi": null
+    },
+    {
+      "id": "BCUHB:WORD-SPACING",
+      "title": "Spaces in Between Words",
+      "abstract": "This NHS occupational therapy resource recommends explicit spacing instruction, temporary visual markers, self-review, and alternatives to finger spacing for left-handed children.",
+      "journal": "Betsi Cadwaladr University Health Board",
+      "year": "2017",
+      "url": "https://bcuhb.nhs.wales/services/hospital-services/occupational-therapy/childrens-occupational-therapy/childrens-occupational-therapy-documents/spacing-in-between-words/",
+      "doi": null
+    },
+    {
+      "id": "BERNINGER:LEGIBILITY-DIMENSIONS-2006",
+      "title": "Dimensions of Good and Poor Handwriting Legibility in First and Second Graders",
+      "abstract": "This study assessed word spacing as one component of visual-spatial arrangement and showed that handwriting legibility reflects distinct contributions from motor programs, page organization, and letter formation settings.",
+      "journal": "Developmental Neuropsychology",
+      "year": "2006",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16390288/",
+      "doi": "10.1207/s15326942dn2901_4"
+    },
+    {
+      "id": "FEDER:HANDWRITING-DEVELOPMENT-2007",
+      "title": "Handwriting Development, Competency, and Intervention",
+      "abstract": "This clinical review identifies fine motor control, visual-motor integration, motor planning, visual perception, sustained attention, and environmental factors as contributors to handwriting performance.",
+      "journal": "Developmental Medicine and Child Neurology",
+      "year": "2007",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17376144/",
+      "doi": "10.1111/j.1469-8749.2007.00312.x"
+    },
+    {
+      "id": "KIM:HANDWRITING-FLUENCY-META-ANALYSIS-2022",
+      "title": "Promoting Handwriting Fluency for Preschool and Elementary-Age Students",
+      "abstract": "This meta-analysis describes handwriting instruction built around explicit modeling, repeated practice with letters, words, and sentences, feedback, self-evaluation, and performance monitoring.",
+      "journal": "Frontiers in Psychology",
+      "year": "2022",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9204270/",
+      "doi": "10.3389/fpsyg.2022.841573"
+    }
+  ],
+  "episode": {
+    "title": "E82: Why a Child Leaves Uneven Spaces Between Words",
+    "hook": "Hello and welcome. A child writes, thedog ran to school. The next line has a gap so wide that one sentence looks like two. When asked to fix it, the child may add random spaces or stop after every letter. What appears to be untidy writing can reflect several developing skills. The child must know where one word ends, pause the pencil, judge a useful distance, and begin the next word while still holding the sentence in mind.",
+    "sections": [
+      {
+        "heading": "The high yield summary",
+        "narration": "Too busy? Here is your high yield summary. Uneven word spacing may come from an immature concept of word boundaries, inconsistent visual-spatial planning, attention changes, or handwriting that is not yet automatic. Teach one clear spacing rule, use a temporary finger, card, stick, dot, or box as a visual guide, and practise short sentences. Then fade the guide and teach self-checking. Seek assessment when spacing remains far below expectations, makes writing hard to read, or appears with major slowness, pain, language difficulty, broader motor concerns, or loss of skill.",
+        "on_screen": ["Word spacing is a learned skill", "Use one temporary visual guide", "Assess persistent functional difficulty"],
+        "icon": "word-spacing-summary",
+        "source_ids": ["HSE:HANDWRITING-LEGIBILITY-2026", "SOMERSET-NHS:HANDWRITING-SPACING-2025", "FEDER:HANDWRITING-DEVELOPMENT-2007"]
+      },
+      {
+        "heading": "A space represents a word boundary",
+        "narration": "Before the hand can leave a gap, the child must recognize a word as a separate language unit. Spoken sentences flow continuously, so beginning writers may join short words or split a longer word where they hear a pause. Ask the child to say the sentence slowly and move a counter for each word before writing. If the child cannot identify the words orally, a bigger finger spacer will not solve the main problem. The language concept must be taught directly.",
+        "on_screen": ["Speech does not contain visible gaps", "Count words before writing", "Teach the language concept directly"],
+        "icon": "spoken-word-boundaries",
+        "source_ids": ["HSE:HANDWRITING-DEVELOPMENT-2025", "BERNINGER:LEGIBILITY-DIMENSIONS-2006", "FEDER:HANDWRITING-DEVELOPMENT-2007"]
+      },
+      {
+        "heading": "Spacing also requires motor timing",
+        "narration": "Once a word ends, the writing movement must stop, travel across the page without making a mark, and restart at a consistent distance. That sequence competes with spelling, letter formation, and remembering the sentence. A child may space accurately when copying three familiar words but crowd them during independent composition or when rushing. Compare similar tasks and note whether spacing deteriorates with longer work, fatigue, complex spelling, or divided attention rather than treating one sample as a diagnosis.",
+        "on_screen": ["Stop, move, and restart", "Writing demands compete for attention", "Compare equivalent tasks"],
+        "icon": "spacing-motor-timing",
+        "source_ids": ["BERNINGER:LEGIBILITY-DIMENSIONS-2006", "HSE:HANDWRITING-DEVELOPMENT-2025", "FEDER:HANDWRITING-DEVELOPMENT-2007"]
+      },
+      {
+        "heading": "Choose one concrete spacing cue",
+        "narration": "For a right-handed writer, the index finger of the helping hand can mark the gap. A small card, clean stick, straw, or homemade spacebar may be easier for a left-handed child because the writing hand does not have to cross over the other hand. Another option is one pencil dot after each word, erased later. Choose one method, define the expected gap, and use it consistently. Too many different cues can add confusion instead of reducing it.",
+        "on_screen": ["Use a finger or simple spacer", "Adapt for handedness", "Keep the rule consistent"],
+        "icon": "concrete-word-spacer",
+        "source_ids": ["HSE:HANDWRITING-LEGIBILITY-2026", "BCUHB:WORD-SPACING", "SOMERSET-NHS:HANDWRITING-SPACING-2025"]
+      },
+      {
+        "heading": "Make the page easier to organize",
+        "narration": "Graph paper can make distance visible: one letter per box and a blank box between words. For ordinary paper, try slightly larger writing space, a clear left margin, and fewer words on each line. Teach the child to start a new line rather than squeeze the final words into the margin. These supports should reveal the spacing rule, not become permanent equipment. Once the child succeeds reliably, reduce the visual help while keeping the same spoken reminder.",
+        "on_screen": ["Make distance visible", "Protect the right margin", "Fade support after success"],
+        "icon": "page-spacing-layout",
+        "source_ids": ["BCUHB:WORD-SPACING", "SOMERSET-NHS:HANDWRITING-SPACING-2025", "HSE:HANDWRITING-LEGIBILITY-2026"]
+      },
+      {
+        "heading": "A deeper functional assessment",
+        "narration": "Now, let us go deeper. Collect an unprompted classroom sample. Mark gaps that are absent, very small, or unusually large. Compare copying, dictation, and original writing. Note speed, letter spacing, spelling, line placement, attention, posture, pain, fatigue, visual distance, and whether the helping hand stabilizes the page. Then change one factor and repeat a similar sentence. Improvement with a spacer suggests the rule needs external support. Persistent difficulty across tasks may justify broader assessment.",
+        "on_screen": ["Start with an unprompted sample", "Compare three writing conditions", "Change one factor at a time"],
+        "icon": "word-spacing-assessment",
+        "source_ids": ["FEDER:HANDWRITING-DEVELOPMENT-2007", "BERNINGER:LEGIBILITY-DIMENSIONS-2006", "SOMERSET-NHS:HANDWRITING-SPACING-2025"]
+      },
+      {
+        "heading": "Teach practice and self-checking",
+        "narration": "Use short, meaningful sentences and model the routine: finish the word, say space, move the pencil, then start again. After writing, ask the child to highlight the gaps and circle one example that is just right. Explicit handwriting instruction with repeated practice, feedback, and self-evaluation is better supported than unrelated hand exercises alone. Build accuracy first, then increase sentence length and speed. Praise a specific change, such as every word is separated, rather than saying the page is neat.",
+        "on_screen": ["Model the spacing routine", "Teach the child to self-check", "Increase speed after accuracy"],
+        "icon": "spacing-practice-feedback",
+        "source_ids": ["KIM:HANDWRITING-FLUENCY-META-ANALYSIS-2022", "BCUHB:WORD-SPACING", "HSE:HANDWRITING-LEGIBILITY-2026"]
+      },
+      {
+        "heading": "When evaluation is appropriate",
+        "narration": "Ask the teacher, occupational therapist, or learning specialist for assessment when spacing remains markedly inconsistent despite clear teaching and practice, makes sentences difficult to read, or prevents timely classroom work. Mention spelling, reading, oral language, attention, and fine motor concerns because spacing can be one part of a broader writing difficulty. Arrange vision assessment for blur, double vision, headaches, squinting, or unusually close viewing. Sudden weakness, tremor, altered sensation, injury, pain, or loss of previously established writing skill needs medical review.",
+        "on_screen": ["Persistent limitation needs assessment", "Report language and motor concerns", "Sudden loss needs medical review"],
+        "icon": "word-spacing-red-flags",
+        "source_ids": ["HSE:HANDWRITING-DEVELOPMENT-2025", "FEDER:HANDWRITING-DEVELOPMENT-2007", "BERNINGER:LEGIBILITY-DIMENSIONS-2006"]
+      },
+      {
+        "heading": "Three essential takeaways",
+        "narration": "Number one, uneven spaces can reflect developing word awareness, visual-spatial planning, motor timing, attention, and handwriting fluency, not simple carelessness. Number two, teach one clear word-spacing rule with a temporary finger, card, stick, dot, or box, then use direct sentence practice and self-checking before fading the aid. Number three, seek assessment when spacing remains functionally limiting despite instruction, occurs with language, vision, attention, pain, or broader motor concerns, or represents a sudden loss of an established skill.",
+        "on_screen": ["Understand the complete task", "Teach one spacing routine", "Escalate persistent or sudden problems"],
+        "icon": "checklist",
+        "source_ids": ["HSE:HANDWRITING-LEGIBILITY-2026", "KIM:HANDWRITING-FLUENCY-META-ANALYSIS-2022", "FEDER:HANDWRITING-DEVELOPMENT-2007"]
+      }
+    ],
+    "closing": "On the next episode, we will explain why a child crowds letters together inside words. Follow the Your Only Doc podcast for clear, evidence-based medical explanations. Stay curious and stay safe.",
+    "description": "Uneven word spacing can reflect developing word awareness, visual-spatial planning, motor timing, attention, or handwriting fluency. This episode explains practical support and when to seek assessment.",
+    "thumbnail_text": "WHY WORD SPACES CHANGE"
+  }
+}
