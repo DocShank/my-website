@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "workflow": "chatgpt-reviewed-v20",
-  "updated_at": "2026-10-31T09:13:34.000Z",
-  "next_episode_number": 83,
+  "updated_at": "2026-11-01T09:15:17.000Z",
+  "next_episode_number": 84,
   "next_planned_topic": {
-    "id": "child-crowds-letters-together",
-    "title": "Why a Child Crowds Letters Together Inside Words",
-    "reason": "It follows spacing between words by explaining how letter formation, motor timing, visual-spatial control, writing speed, and orthographic fluency affect spacing within words."
+    "id": "child-inconsistent-letter-size",
+    "title": "Why a Child's Letters Change Size Within the Same Word",
+    "reason": "It follows within-word spacing by explaining how letter formation, visual references, movement scaling, motor control, attention, and writing speed affect consistent letter size."
   },
   "packets": [
     {
@@ -525,6 +525,13 @@
       "topic_id": "child-uneven-word-spacing",
       "title": "E82: Why a Child Leaves Uneven Spaces Between Words",
       "file": "episodes/E82-child-uneven-word-spacing.json",
+      "status": "ready"
+    },
+    {
+      "episode_number": 83,
+      "topic_id": "child-crowds-letters-together",
+      "title": "E83: Why a Child Crowds Letters Together Inside Words",
+      "file": "episodes/E83-child-crowds-letters-together.json",
       "status": "ready"
     }
   ],
