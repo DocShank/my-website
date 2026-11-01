@@ -1,0 +1,159 @@
+{
+  "schema": 2,
+  "editorial": {
+    "workflow": "chatgpt-reviewed-v20",
+    "reviewed_by": "ChatGPT medical editorial workflow",
+    "reviewed_on": "2026-11-01",
+    "episode_number": 83,
+    "language": "English",
+    "spoken_host_name_allowed": false,
+    "long_dashes_allowed": false,
+    "target_minutes": 10
+  },
+  "topic_id": "child-crowds-letters-together",
+  "topic": {
+    "id": "child-crowds-letters-together",
+    "title": "Why a Child Crowds Letters Together Inside Words",
+    "audience_question": "Why do a child's letters touch or overlap inside words, and when should crowded handwriting be assessed?",
+    "pubmed_query": "child handwriting crowded letter spacing within words legibility visual motor intervention",
+    "icon_keywords": ["child", "handwriting", "letter-spacing", "crowded-words"],
+    "category": "child-development"
+  },
+  "sources": [
+    {
+      "id": "HSE:HANDWRITING-LEGIBILITY-2026",
+      "title": "Handwriting: Legibility and Pencil Pressure",
+      "abstract": "Ireland's Health Service Executive recommends concrete visual spacers, finger spacing, and brief prompts when children have difficulty spacing letters or words consistently.",
+      "journal": "Health Service Executive Ireland",
+      "year": "2026",
+      "url": "https://www2.hse.ie/babies-children/disabilities/handwriting/pencil-pressure/",
+      "doi": null
+    },
+    {
+      "id": "HSE:HANDWRITING-DEVELOPMENT-2025",
+      "title": "Handwriting: Development and Difficulties",
+      "abstract": "HSE guidance describes handwriting as a developing task involving visual perception, visual-motor coordination, posture, hand control, motor planning, attention, memory, and language.",
+      "journal": "Health Service Executive Ireland",
+      "year": "2025",
+      "url": "https://www2.hse.ie/babies-children/disabilities/handwriting/development/",
+      "doi": null
+    },
+    {
+      "id": "BEDSLUTON-NHS:HANDWRITING-TYPING-2024",
+      "title": "Handwriting and Typing",
+      "abstract": "This NHS pediatric resource notes that letter placement and spacing are common challenges during handwriting development and recommends visual guides, graph paper, and observation of letter movements.",
+      "journal": "Bedfordshire and Luton Children's Health",
+      "year": "2024",
+      "url": "https://www.bedslutonchildrenshealth.nhs.uk/child-development-and-growing-up/hand-skills/handwriting-and-typing/",
+      "doi": null
+    },
+    {
+      "id": "BERNINGER:LEGIBILITY-DIMENSIONS-2006",
+      "title": "Dimensions of Good and Poor Handwriting Legibility in First and Second Graders",
+      "abstract": "This study assessed spacing between letters within words as part of visual-spatial page organization and found that legibility reflects distinct motor, spatial, and letter formation processes.",
+      "journal": "Developmental Neuropsychology",
+      "year": "2006",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16390288/",
+      "doi": "10.1207/s15326942dn2901_4"
+    },
+    {
+      "id": "ROSENBLUM:LEGIBILITY-TASKS-2022",
+      "title": "Handwriting Legibility Across Different Writing Tasks in School-Aged Children",
+      "abstract": "A study of 148 children found that handwriting legibility differed across careful copying, fast copying, and free writing, supporting assessment under more than one task demand.",
+      "journal": "British Journal of Occupational Therapy",
+      "year": "2022",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9279878/",
+      "doi": "10.1177/03080226211070452"
+    },
+    {
+      "id": "ENGEL:HANDWRITING-PROGRAMS-2018",
+      "title": "Curriculum-Based Handwriting Programs: A Systematic Review With Effect Sizes",
+      "abstract": "This systematic review found small to medium improvements in legibility from classroom handwriting programs, while evidence for gains in speed and fluency was mixed or insufficient.",
+      "journal": "American Journal of Occupational Therapy",
+      "year": "2018",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5915229/",
+      "doi": "10.5014/ajot.2018.027110"
+    },
+    {
+      "id": "ROSENBLUM:HANDWRITING-INDICATORS-2025",
+      "title": "Assessment Indicators That Influence Handwriting Difficulties Among Children in Educational Settings",
+      "abstract": "This study found that letter spacing was among the legibility indicators associated with the severity of handwriting difficulty and also identified visuomotor and somatosensory measures as relevant indicators.",
+      "journal": "Children",
+      "year": "2025",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12218408/",
+      "doi": "10.3390/children12070881"
+    }
+  ],
+  "episode": {
+    "title": "E83: Why a Child Crowds Letters Together Inside Words",
+    "hook": "Hello and welcome. A child writes the word little, but the letters press so tightly together that it looks like one dark shape. In another word, two letters overlap and a reader has to guess what was meant. Telling the child to spread the letters out sounds simple. Yet the hand must finish one letter, judge a tiny distance, and begin the next while maintaining the word, spelling, line, and writing speed. Crowding can appear when that sequence is not yet automatic.",
+    "sections": [
+      {
+        "heading": "The high yield summary",
+        "narration": "Too busy? Here is your high yield summary. Crowded letters may reflect immature letter formation, inconsistent visual-spatial control, motor timing, excessive speed, or limited attention available for spacing. First make sure the child forms each letter clearly. Then teach one small, consistent within-word gap using enlarged models, graph paper, or brief visual markers. Practise real words slowly before increasing speed. Seek assessment when crowding persists, makes writing unreadable, limits classroom output, or occurs with pain, major slowness, vision symptoms, broader motor difficulty, or loss of skill.",
+        "on_screen": ["Crowding has several causes", "Teach a small consistent gap", "Assess persistent functional difficulty"],
+        "icon": "crowded-letters-summary",
+        "source_ids": ["HSE:HANDWRITING-LEGIBILITY-2026", "BEDSLUTON-NHS:HANDWRITING-TYPING-2024", "BERNINGER:LEGIBILITY-DIMENSIONS-2006"]
+      },
+      {
+        "heading": "Spacing begins with clear letter formation",
+        "narration": "A child cannot reliably space letters that do not have stable starting and finishing points. An open a may merge with the next stroke. A long final line on n may enter the following letter. Before adding spacers, watch the child write common letters and identify where each one ends. Teach a few related letter patterns at a time. Clear formation creates a visible boundary inside the word and reduces the need to guess where one letter stops and the next begins.",
+        "on_screen": ["Find each letter's endpoint", "Correct unstable strokes first", "Practise related letter patterns"],
+        "icon": "letter-endpoints",
+        "source_ids": ["BEDSLUTON-NHS:HANDWRITING-TYPING-2024", "ROSENBLUM:LEGIBILITY-TASKS-2022", "BERNINGER:LEGIBILITY-DIMENSIONS-2006"]
+      },
+      {
+        "heading": "The gap is a controlled movement",
+        "narration": "Within a word, the pencil must travel from one letter to the next without leaving either a large word-like break or no separation at all. Print usually needs a small visible gap. Joined writing needs clear joins and recognizable letter shapes rather than separate spaces. The child must scale this movement repeatedly while spelling and remembering the word. That is why spacing may look acceptable in a copied alphabet but collapse during a sentence or when the child writes quickly.",
+        "on_screen": ["Control the travel between letters", "Print and joined writing differ", "Task demands change performance"],
+        "icon": "within-word-movement",
+        "source_ids": ["BERNINGER:LEGIBILITY-DIMENSIONS-2006", "HSE:HANDWRITING-DEVELOPMENT-2025", "ROSENBLUM:LEGIBILITY-TASKS-2022"]
+      },
+      {
+        "heading": "Make the spacing visible",
+        "narration": "Enlarge one target word and show the child the narrow white channels between letters. Graph paper can provide a temporary structure, with one printed letter in each box before moving to ordinary lines. A small pencil dot can mark the next starting position and then be erased. Avoid using a full finger gap inside words because that cue is designed for spaces between words. The aim is a small repeatable distance that keeps each letter identifiable.",
+        "on_screen": ["Show the white space", "Use boxes or temporary dots", "Keep within-word gaps small"],
+        "icon": "visible-letter-gaps",
+        "source_ids": ["HSE:HANDWRITING-LEGIBILITY-2026", "BEDSLUTON-NHS:HANDWRITING-TYPING-2024", "BERNINGER:LEGIBILITY-DIMENSIONS-2006"]
+      },
+      {
+        "heading": "Slow down without stopping fluency",
+        "narration": "Ask for a comfortable pace that preserves recognizable letters rather than the slowest possible writing. Use short familiar words so spelling does not consume all attention. Practise one line accurately, then repeat it slightly faster while keeping the same spacing. Research shows legibility can change across careful copying, fast copying, and free writing, so improvement at one speed may not transfer immediately. Build accuracy first, but practise the classroom pace as the skill becomes stable.",
+        "on_screen": ["Use familiar words", "Accuracy comes before speed", "Practise more than one task pace"],
+        "icon": "spacing-speed-balance",
+        "source_ids": ["ROSENBLUM:LEGIBILITY-TASKS-2022", "ENGEL:HANDWRITING-PROGRAMS-2018", "HSE:HANDWRITING-DEVELOPMENT-2025"]
+      },
+      {
+        "heading": "A deeper functional assessment",
+        "narration": "Now, let us go deeper. Collect unprompted samples from careful copying, fast copying, and original writing. Mark which letter pairs touch, overlap, or spread too far apart. Note letter formation, size, line alignment, pencil pressure, speed, pain, fatigue, attention, posture, paper position, and visual distance. Then test one change, such as a larger model, boxes, slower pace, or a corrected ending stroke. Compare similar words. The goal is better readability and efficiency, not mechanically identical gaps.",
+        "on_screen": ["Sample several writing tasks", "Identify specific crowded pairs", "Test one change at a time"],
+        "icon": "letter-spacing-assessment",
+        "source_ids": ["ROSENBLUM:LEGIBILITY-TASKS-2022", "ROSENBLUM:HANDWRITING-INDICATORS-2025", "BERNINGER:LEGIBILITY-DIMENSIONS-2006"]
+      },
+      {
+        "heading": "Use direct practice and feedback",
+        "narration": "Choose one measurable goal, such as every letter in five target words can be recognized without guessing. Model the words, let the child copy them, then use them in a short sentence. Ask the child to underline one well-spaced word and repair one crowded word. Curriculum-based handwriting programs can improve legibility, although speed gains are less consistent. This supports direct handwriting practice with feedback and self-checking instead of relying only on unrelated strengthening or visual games.",
+        "on_screen": ["Choose one measurable goal", "Practise words in sentences", "Teach self-checking"],
+        "icon": "direct-spacing-practice",
+        "source_ids": ["ENGEL:HANDWRITING-PROGRAMS-2018", "ROSENBLUM:LEGIBILITY-TASKS-2022", "HSE:HANDWRITING-LEGIBILITY-2026"]
+      },
+      {
+        "heading": "When evaluation is appropriate",
+        "narration": "Ask the teacher or occupational therapist for assessment when crowded writing remains well below classroom expectations despite explicit practice, or when it is unreadable, very slow, painful, tiring, or avoided. Mention difficulties with spelling, reading, attention, buttons, scissors, drawing, balance, or learning movements because a broader profile may matter. Arrange vision assessment for blur, double vision, headaches, squinting, or unusually close viewing. Sudden weakness, tremor, altered sensation, injury, or loss of established skill needs medical review.",
+        "on_screen": ["Persistent limitation needs assessment", "Report broader learning or motor concerns", "Sudden loss needs medical review"],
+        "icon": "crowded-letters-red-flags",
+        "source_ids": ["HSE:HANDWRITING-DEVELOPMENT-2025", "ROSENBLUM:HANDWRITING-INDICATORS-2025", "BEDSLUTON-NHS:HANDWRITING-TYPING-2024"]
+      },
+      {
+        "heading": "Three essential takeaways",
+        "narration": "Number one, crowded letters can arise from unstable letter formation, visual-spatial control, motor timing, speed, or limited attention for spacing, not simple carelessness. Number two, teach clear starting and finishing strokes, show a small consistent gap with enlarged models, boxes, or temporary dots, and practise real words before increasing speed. Number three, seek assessment when crowding persists despite instruction, limits readable or timely work, causes pain or avoidance, occurs with vision or broader developmental concerns, or represents a sudden loss of skill.",
+        "on_screen": ["Stabilize letter formation", "Teach a visible small gap", "Escalate persistent or sudden problems"],
+        "icon": "checklist",
+        "source_ids": ["BERNINGER:LEGIBILITY-DIMENSIONS-2006", "ENGEL:HANDWRITING-PROGRAMS-2018", "ROSENBLUM:HANDWRITING-INDICATORS-2025"]
+      }
+    ],
+    "closing": "On the next episode, we will explain why a child's letters change size within the same word. Follow the Your Only Doc podcast for clear, evidence-based medical explanations. Stay curious and stay safe.",
+    "description": "Crowded letters can reflect developing letter formation, visual-spatial control, motor timing, attention, or writing speed. This episode explains practical support and when to seek assessment.",
+    "thumbnail_text": "WHY LETTERS CROWD"
+  }
+}
