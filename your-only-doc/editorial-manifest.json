@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "workflow": "chatgpt-reviewed-v20",
-  "updated_at": "2026-11-01T09:15:17.000Z",
-  "next_episode_number": 84,
+  "updated_at": "2026-11-02T09:21:09.000Z",
+  "next_episode_number": 85,
   "next_planned_topic": {
-    "id": "child-inconsistent-letter-size",
-    "title": "Why a Child's Letters Change Size Within the Same Word",
-    "reason": "It follows within-word spacing by explaining how letter formation, visual references, movement scaling, motor control, attention, and writing speed affect consistent letter size."
+    "id": "child-inconsistent-letter-slant",
+    "title": "Why a Child's Letters Slant in Different Directions",
+    "reason": "It follows letter size by explaining how stroke formation, wrist and paper position, visual references, movement consistency, attention, and speed affect letter slant."
   },
   "packets": [
     {
@@ -532,6 +532,13 @@
       "topic_id": "child-crowds-letters-together",
       "title": "E83: Why a Child Crowds Letters Together Inside Words",
       "file": "episodes/E83-child-crowds-letters-together.json",
+      "status": "ready"
+    },
+    {
+      "episode_number": 84,
+      "topic_id": "child-inconsistent-letter-size",
+      "title": "E84: Why a Child's Letters Change Size Within the Same Word",
+      "file": "episodes/E84-child-inconsistent-letter-size.json",
       "status": "ready"
     }
   ],
