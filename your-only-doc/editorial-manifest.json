@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "workflow": "chatgpt-reviewed-v20",
-  "updated_at": "2026-11-02T09:21:09.000Z",
-  "next_episode_number": 85,
+  "updated_at": "2026-11-03T09:13:24.000Z",
+  "next_episode_number": 86,
   "next_planned_topic": {
     "id": "child-inconsistent-letter-slant",
     "title": "Why a Child's Letters Slant in Different Directions",
-    "reason": "It follows letter size by explaining how stroke formation, wrist and paper position, visual references, movement consistency, attention, and speed affect letter slant."
+    "reason": "It resumes the evergreen handwriting sequence after the timely Shamonda virus interruption and explains how stroke formation, wrist and paper position, visual references, movement consistency, attention, and speed affect letter slant."
   },
   "packets": [
     {
@@ -539,6 +539,13 @@
       "topic_id": "child-inconsistent-letter-size",
       "title": "E84: Why a Child's Letters Change Size Within the Same Word",
       "file": "episodes/E84-child-inconsistent-letter-size.json",
+      "status": "ready"
+    },
+    {
+      "episode_number": 85,
+      "topic_id": "shamonda-first-human-case-2026",
+      "title": "E85: What the First Human Shamonda Virus Case Means",
+      "file": "episodes/E85-shamonda-first-human-case.json",
       "status": "ready"
     }
   ],
