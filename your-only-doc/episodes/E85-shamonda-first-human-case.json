@@ -1,0 +1,150 @@
+{
+  "schema": 2,
+  "editorial": {
+    "workflow": "chatgpt-reviewed-v20",
+    "reviewed_by": "ChatGPT medical editorial workflow",
+    "reviewed_on": "2026-11-03",
+    "episode_number": 85,
+    "language": "English",
+    "spoken_host_name_allowed": false,
+    "long_dashes_allowed": false,
+    "target_minutes": 10
+  },
+  "topic_id": "shamonda-first-human-case-2026",
+  "topic": {
+    "id": "shamonda-first-human-case-2026",
+    "title": "What the First Human Shamonda Virus Case Means",
+    "audience_question": "What does the first documented human Shamonda virus infection mean, and what is known about risk to the public?",
+    "pubmed_query": "Shamonda virus human infection encephalitis Europe 2026 orthobunyavirus",
+    "icon_keywords": ["virus", "midge", "encephalitis", "one-health"],
+    "category": "public-health"
+  },
+  "sources": [
+    {
+      "id": "WHO:SHAMONDA-FRANCE-2026",
+      "title": "Shamonda Virus in Human, France",
+      "abstract": "WHO reports the first laboratory confirmed human Shamonda virus infection, emphasizes that one case cannot define population risk, and recommends coordinated human, animal, and vector surveillance.",
+      "journal": "World Health Organization Disease Outbreak News",
+      "year": "2026",
+      "url": "https://www.who.int/emergencies/disease-outbreak-news/item/shamonda-virus-in-human---france",
+      "doi": null
+    },
+    {
+      "id": "ECDC:SHAMONDA-EVENT-2026",
+      "title": "First Detection of Shamonda Virus in an Immunocompromised Patient, France",
+      "abstract": "ECDC describes the first reported human infection, the ongoing investigation, animal circulation in Europe, and the leading but unconfirmed hypothesis of vector exposure.",
+      "journal": "European Centre for Disease Prevention and Control",
+      "year": "2026",
+      "url": "https://www.ecdc.europa.eu/en/public-health-events/2026-evd-00036/2026-10-27",
+      "doi": null
+    },
+    {
+      "id": "FRANCE:SHAMONDA-MINISTRY-2026",
+      "title": "Shamonda Virus: A First Detection in a Human",
+      "abstract": "The French health ministry reports that the patient was severely immunocompromised and that clinical, laboratory, and epidemiologic investigations are continuing within a One Health framework.",
+      "journal": "French Ministry of Health",
+      "year": "2026",
+      "url": "https://sante.gouv.fr/actualites-presse/presse/communiques-de-presse/article/virus-shamonda-une-premiere-detection-chez-l-etre-humain",
+      "doi": null
+    },
+    {
+      "id": "SPF:SHAMONDA-UPDATE-2026",
+      "title": "Shamonda Virus: What Is Known About the First Human Case",
+      "abstract": "Public Health France reports no identified person to person transmission and no identified risk to the general population at the time of publication, while investigations continue.",
+      "journal": "Sante publique France",
+      "year": "2026",
+      "url": "https://inpes.santepubliquefrance.fr/les-actualites/virus-shamonda-un-premier-cas-humain-detecte-en-france-que-sait",
+      "doi": null
+    },
+    {
+      "id": "EUROSURVEILLANCE:SHAMONDA-ENCEPHALITIS-2026",
+      "title": "Fatal Encephalitis Caused by Shamonda Virus Europe 1 in a Patient With a Severely Weakened Immune System, France, 2026",
+      "abstract": "The case report documents metatranscriptomic detection, confirmation by reverse transcription polymerase chain reaction, viral RNA in serial samples, and high viral loads in central nervous system tissue.",
+      "journal": "Eurosurveillance",
+      "year": "2026",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13695005/",
+      "doi": "10.2807/1560-7917.ES.2026.31.42.2600883"
+    },
+    {
+      "id": "CDC:EID-SHAMONDA-EUROPE-2026",
+      "title": "Emergence of Shamonda Orthobunyavirus, Central Europe, 2026",
+      "abstract": "This peer reviewed animal outbreak investigation describes clinical disease in cattle, molecular identification of Shamonda virus, genome analysis, and the need for continued surveillance.",
+      "journal": "Emerging Infectious Diseases",
+      "year": "2026",
+      "url": "https://wwwnc.cdc.gov/eid/article/32/12/26-1496_article",
+      "doi": "10.3201/eid3212.261496"
+    }
+  ],
+  "episode": {
+    "title": "E85: What the First Human Shamonda Virus Case Means",
+    "hook": "Hello and welcome. A report says that a virus previously known mainly in animals has been found in a person for the first time. That sounds alarming, especially when the patient developed severe brain inflammation and died. But a first detected case does not automatically mean a new epidemic. The responsible response is to separate what has been confirmed from what scientists still need to learn.",
+    "sections": [
+      {
+        "heading": "The high yield summary",
+        "narration": "Too busy? Here is your high yield summary. France reported the first documented human infection with Shamonda virus in a severely immunocompromised older adult. The patient developed encephalitis, and laboratory testing found the virus in multiple samples. No additional human cases or person to person transmission had been identified when WHO published its notice on November 2, 2026. The route of infection is unknown. Exposure to an infected biting midge is plausible, but not proven. One case cannot establish the risk to the general population, so surveillance and careful investigation are more appropriate than broad conclusions.",
+        "on_screen": ["One confirmed human case", "Transmission route unknown", "Population risk remains uncertain"],
+        "icon": "shamonda-summary",
+        "source_ids": ["WHO:SHAMONDA-FRANCE-2026", "ECDC:SHAMONDA-EVENT-2026", "SPF:SHAMONDA-UPDATE-2026"]
+      },
+      {
+        "heading": "What happened in the reported case",
+        "narration": "The patient lived in eastern France and had a severely weakened immune system. He developed visual disturbance, confusion, loss of consciousness, and seizures before encephalitis was diagnosed. Metagenomic testing found Shamonda virus genetic material in cerebrospinal fluid, and targeted testing confirmed it. Viral RNA was also detected in other stored samples, while extensive testing did not identify another cause. These findings support a real infection, but the patient's unusual vulnerability matters when interpreting severity.",
+        "on_screen": ["Severe immune suppression", "Encephalitis developed", "Multiple laboratory methods agreed"],
+        "icon": "case-timeline",
+        "source_ids": ["WHO:SHAMONDA-FRANCE-2026", "EUROSURVEILLANCE:SHAMONDA-ENCEPHALITIS-2026", "FRANCE:SHAMONDA-MINISTRY-2026"]
+      },
+      {
+        "heading": "What Shamonda virus is",
+        "narration": "Shamonda virus is an orthobunyavirus in the Simbu group. It was first identified in cattle in Nigeria in the 1960s and was detected in European livestock during the summer of 2026. Related animal disease investigations describe fever, reduced activity, diarrhea, and lower milk production in cattle. Biting midges transmit several viruses in this group among animals. That animal pattern gives investigators a reasonable hypothesis, but it does not prove how this human infection occurred.",
+        "on_screen": ["Orthobunyavirus", "Known mainly in livestock", "Midges transmit related animal infections"],
+        "icon": "virus-and-livestock",
+        "source_ids": ["CDC:EID-SHAMONDA-EUROPE-2026", "WHO:SHAMONDA-FRANCE-2026", "ECDC:SHAMONDA-EVENT-2026"]
+      },
+      {
+        "heading": "What is not yet known",
+        "narration": "Scientists do not yet know how often people are exposed, whether most infections cause no symptoms, which groups may be at greatest risk, or whether the virus reliably causes human illness. They also do not know the confirmed route in this case. Investigators considered mosquito or midge exposure and assessed transfusion and food related possibilities. No evidence currently shows sustained human transmission. Absence of evidence is not a guarantee, but it is also not permission to assume a dangerous new pattern.",
+        "on_screen": ["Frequency unknown", "Clinical spectrum unknown", "No sustained human transmission shown"],
+        "icon": "evidence-gaps",
+        "source_ids": ["WHO:SHAMONDA-FRANCE-2026", "SPF:SHAMONDA-UPDATE-2026", "ECDC:SHAMONDA-EVENT-2026"]
+      },
+      {
+        "heading": "What the public should do now",
+        "narration": "For most people, this report does not create a reason to seek testing or emergency care simply because they live in Europe. Follow national public health advice, use ordinary measures that reduce biting insect exposure when relevant, and avoid speculation about food, animals, or travel that authorities have not supported. People with major immune suppression should continue the individualized infection prevention plan given by their clinical team and ask that team about new local advisories rather than changing treatment on their own.",
+        "on_screen": ["No routine testing advised", "Follow local guidance", "Do not change treatment alone"],
+        "icon": "public-guidance",
+        "source_ids": ["WHO:SHAMONDA-FRANCE-2026", "FRANCE:SHAMONDA-MINISTRY-2026", "SPF:SHAMONDA-UPDATE-2026"]
+      },
+      {
+        "heading": "A deeper clinical interpretation",
+        "narration": "Now, let us go deeper. A single case can prove biological possibility without estimating probability. Strong laboratory evidence makes infection credible, yet one severely immunocompromised patient cannot tell us the typical outcome in healthy people. Clinicians also distinguish infection, causation, and contribution. Viral detection in the nervous system plus exclusion of alternatives supports a causal role in encephalitis, but public health risk still depends on exposure frequency, transmission efficiency, host susceptibility, and whether more cases appear.",
+        "on_screen": ["Possibility is not probability", "One patient cannot define severity", "Risk depends on transmission and susceptibility"],
+        "icon": "clinical-interpretation",
+        "source_ids": ["EUROSURVEILLANCE:SHAMONDA-ENCEPHALITIS-2026", "WHO:SHAMONDA-FRANCE-2026", "ECDC:SHAMONDA-EVENT-2026"]
+      },
+      {
+        "heading": "Why One Health surveillance matters",
+        "narration": "This event links human medicine, veterinary surveillance, entomology, and environmental monitoring. Animal detections can show where and when the virus is circulating. Vector studies can identify which insects carry it. Human testing and carefully designed antibody surveys can look for missed infections. Genomic comparison can connect or separate transmission events. Combining those streams is how authorities can replace uncertainty with a measured risk estimate without overreacting to a single report.",
+        "on_screen": ["Track animals", "Study vectors", "Connect human and genomic data"],
+        "icon": "one-health-surveillance",
+        "source_ids": ["WHO:SHAMONDA-FRANCE-2026", "CDC:EID-SHAMONDA-EUROPE-2026", "ECDC:SHAMONDA-EVENT-2026"]
+      },
+      {
+        "heading": "When symptoms need urgent care",
+        "narration": "Regardless of the suspected cause, new confusion, seizures, loss of consciousness, severe weakness, or a severe headache with fever and neurological change requires urgent medical assessment. These symptoms have many more common causes than Shamonda virus, and prompt evaluation should not wait for a rare diagnosis. Tell clinicians about immune suppression, recent travel, insect exposure, animal contact, and local public health notices because those details help guide appropriate testing.",
+        "on_screen": ["Confusion or seizures are urgent", "Common causes remain more likely", "Share exposure and immune history"],
+        "icon": "encephalitis-red-flags",
+        "source_ids": ["WHO:SHAMONDA-FRANCE-2026", "EUROSURVEILLANCE:SHAMONDA-ENCEPHALITIS-2026", "ECDC:SHAMONDA-EVENT-2026"]
+      },
+      {
+        "heading": "Three essential takeaways",
+        "narration": "Number one, the first confirmed human Shamonda virus infection proves that human infection can occur, but it does not establish how common or dangerous it is for the general population. Number two, the patient was severely immunocompromised, the transmission route remains unconfirmed, and no sustained person to person spread has been identified. Number three, the useful response is coordinated surveillance, careful clinical evaluation of relevant severe illness, and updated guidance as evidence develops, not unsupported claims or changes to personal treatment.",
+        "on_screen": ["One case does not quantify risk", "Major uncertainties remain", "Surveillance should guide action"],
+        "icon": "checklist",
+        "source_ids": ["WHO:SHAMONDA-FRANCE-2026", "SPF:SHAMONDA-UPDATE-2026", "EUROSURVEILLANCE:SHAMONDA-ENCEPHALITIS-2026"]
+      }
+    ],
+    "closing": "On the next episode, we will explain why a child's letters slant in different directions. Follow the Your Only Doc podcast for clear, evidence-based medical explanations. Stay curious and stay safe.",
+    "description": "The first documented human Shamonda virus infection raises important questions, but one case cannot define population risk. This episode explains what is confirmed, what remains unknown, and what a measured public health response looks like.",
+    "thumbnail_text": "FIRST HUMAN SHAMONDA CASE"
+  }
+}
