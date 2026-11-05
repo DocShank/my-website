@@ -1,0 +1,168 @@
+{
+  "schema": 2,
+  "editorial": {
+    "workflow": "chatgpt-reviewed-v20",
+    "reviewed_by": "ChatGPT medical editorial workflow",
+    "reviewed_on": "2026-11-05",
+    "episode_number": 87,
+    "language": "English",
+    "spoken_host_name_allowed": false,
+    "long_dashes_allowed": false,
+    "target_minutes": 10
+  },
+  "topic_id": "child-mixes-capitals-lowercase",
+  "topic": {
+    "id": "child-mixes-capitals-lowercase",
+    "title": "Why a Child Mixes Capital and Lowercase Letters",
+    "audience_question": "Why does a child switch unpredictably between capital and lowercase letters, and when should the pattern be assessed?",
+    "pubmed_query": "children uppercase lowercase letter knowledge handwriting automaticity intervention",
+    "icon_keywords": ["child", "handwriting", "capital-letters", "lowercase-letters"],
+    "category": "child-development"
+  },
+  "sources": [
+    {
+      "id": "HSE:FORMATION-2025",
+      "title": "Handwriting: Pre-Writing and Formation",
+      "abstract": "Ireland's Health Service Executive recommends teaching letter shapes through consistent formation patterns and grouping letters by shared movements so children can learn efficient, repeatable motor plans.",
+      "journal": "Health Service Executive Ireland",
+      "year": "2025",
+      "url": "https://www2.hse.ie/babies-children/disabilities/handwriting/pre-writing-formation/",
+      "doi": null
+    },
+    {
+      "id": "HSE:DEVELOPMENT-2025",
+      "title": "Handwriting: Development and Difficulties",
+      "abstract": "HSE guidance explains that handwriting depends on visual perception, visual motor coordination, memory, attention, language, posture, planning, and hand control, with legibility and speed developing over time.",
+      "journal": "Health Service Executive Ireland",
+      "year": "2025",
+      "url": "https://www2.hse.ie/babies-children/disabilities/handwriting/development/",
+      "doi": null
+    },
+    {
+      "id": "NHS:BEDSLUTON-HANDWRITING-2024",
+      "title": "Handwriting and Typing",
+      "abstract": "This NHS resource recommends teaching lowercase letters first, introducing one letter at a time when needed, grouping letters by movement or height, and using short frequent practice with clear starting cues.",
+      "journal": "Bedfordshire and Luton Children's Health Services",
+      "year": "2024",
+      "url": "https://www.bedslutonchildrenshealth.nhs.uk/child-development-and-growing-up/hand-skills/handwriting-and-typing/",
+      "doi": null
+    },
+    {
+      "id": "BCUHB:ALPHABET-FORMATION-2026",
+      "title": "Handwriting: Alphabet Knowledge and Letter Formation",
+      "abstract": "This NHS occupational therapy resource recommends confirming alphabet knowledge, using alphabet strips and visual reminders, grouping letters by movement, and progressing from imitation to copying and independent recall.",
+      "journal": "Betsi Cadwaladr University Health Board",
+      "year": "2026",
+      "url": "https://bcuhb.nhs.wales/services/occupational-therapy/childrens-occupational-therapy/service-areas/east-area-wrexham-and-flintshire/universal-provision/handwriting/",
+      "doi": null
+    },
+    {
+      "id": "DFE:ENGLISH-CURRICULUM-2014",
+      "title": "National Curriculum in England: English Programmes of Study",
+      "abstract": "The curriculum distinguishes lowercase and capital formation and teaches capitals for sentence beginnings, names, places, days of the week, and the personal pronoun I.",
+      "journal": "United Kingdom Department for Education",
+      "year": "2014",
+      "url": "https://www.gov.uk/government/publications/national-curriculum-in-england-english-programmes-of-study/national-curriculum-in-england-english-programmes-of-study",
+      "doi": null
+    },
+    {
+      "id": "FENTON:COGNITIVE-STRATEGIES-2024",
+      "title": "Cognitive Strategies Utilised by Early Learners When Writing Alphabet Letters From Memory",
+      "abstract": "A study of 408 Year 1 and Year 2 children found that accurate lowercase letter writing from memory involved attention, perception, recall, planning, performance, and self-evaluation strategies.",
+      "journal": "Australian Occupational Therapy Journal",
+      "year": "2024",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38738299/",
+      "doi": null
+    },
+    {
+      "id": "ZYlSTRA:KINDERGARTEN-INTERVENTION-2016",
+      "title": "Effectiveness of a Handwriting Intervention With At-Risk Kindergarteners",
+      "abstract": "An occupational therapist led handwriting intervention produced greater gains in legibility and in uppercase, lowercase, and letter sound recognition than standard instruction in a small controlled study.",
+      "journal": "American Journal of Occupational Therapy",
+      "year": "2016",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27089293/",
+      "doi": "10.5014/ajot.2016.018820"
+    },
+    {
+      "id": "SIH:HANDWRITING-TYPING-2025",
+      "title": "The Impact of Handwriting and Typing Practice in Children's Letter and Word Learning",
+      "abstract": "In a controlled experiment with prereaders, handwriting practice produced higher accuracy across letter and word naming, writing, and visual identification tasks than typing practice.",
+      "journal": "Acta Psychologica",
+      "year": "2025",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39908696/",
+      "doi": null
+    }
+  ],
+  "episode": {
+    "title": "E87: Why a Child Mixes Capital and Lowercase Letters",
+    "hook": "Hello and welcome. A child writes the word rabbit as capital R, lowercase a, capital B, lowercase b, capital I, and lowercase t. The letters may be recognizable, but the switches seem random. An adult may say, use small letters, yet that instruction asks the child to coordinate several different skills at once: recognizing letter pairs, recalling two shapes, choosing the correct case, forming the letter, and applying the rule while also spelling the word.",
+    "sections": [
+      {
+        "heading": "The high yield summary",
+        "narration": "Too busy? Here is your high yield summary. Mixed capitalization can occur when a child knows one form of a letter better than the other, has not automated lowercase formation, forgets capitalization rules during a demanding task, copies from mixed models, or uses the easier shape when uncertain. First check whether the child can identify and write each capital and lowercase pair separately. Teach the rule and the movement, use a consistent alphabet reference, practise short words and sentences, and build self-checking. Seek assessment when the pattern persists despite instruction, substantially limits writing, or occurs with broader language, reading, attention, visual, or motor concerns.",
+        "on_screen": ["Check letter pairs", "Teach the rule and the movement", "Assess persistent functional difficulty"],
+        "icon": "mixed-case-summary",
+        "source_ids": ["BCUHB:ALPHABET-FORMATION-2026", "DFE:ENGLISH-CURRICULUM-2014", "FENTON:COGNITIVE-STRATEGIES-2024"]
+      },
+      {
+        "heading": "Two forms must map to one letter",
+        "narration": "Capital A and lowercase a represent the same letter, but they do not look or move exactly alike. Some pairs are visually similar, such as C and c. Others, such as G and g, can differ substantially. A child may recognize a sound and retrieve only the more familiar shape. Before treating the problem as punctuation, test whether the child can match, name, and write both members of each pair without seeing a model.",
+        "on_screen": ["One letter can have two forms", "Some pairs look very different", "Test recognition and recall"],
+        "icon": "uppercase-lowercase-pairs",
+        "source_ids": ["BCUHB:ALPHABET-FORMATION-2026", "NHS:BEDSLUTON-HANDWRITING-2024", "FENTON:COGNITIVE-STRATEGIES-2024"]
+      },
+      {
+        "heading": "Lowercase often needs more practice",
+        "narration": "Children often encounter capitals in names, signs, blocks, and alphabet displays. Capitals can also be easier to construct from simple straight or curved strokes. Lowercase writing requires more varied starting points, heights, ascenders, and descenders. NHS guidance therefore recommends beginning systematic handwriting teaching with lowercase letters and grouping them by shared movement. A child who defaults to capitals may be choosing the motor pattern that is easiest to retrieve.",
+        "on_screen": ["Capitals may be more familiar", "Lowercase forms vary more", "Group letters by movement"],
+        "icon": "lowercase-learning",
+        "source_ids": ["NHS:BEDSLUTON-HANDWRITING-2024", "HSE:FORMATION-2025", "BCUHB:ALPHABET-FORMATION-2026"]
+      },
+      {
+        "heading": "Knowing the rule is not enough",
+        "narration": "The child may correctly explain that a sentence starts with a capital and still mix cases while writing. During composition, attention is divided among ideas, spelling, spacing, punctuation, and pencil movement. If lowercase formation is not automatic, the correct case can disappear under that load. Compare isolated letters, copied words, dictated words, and an original sentence. The task where switching begins helps identify whether the main issue is knowledge, recall, formation, or divided attention.",
+        "on_screen": ["Rules compete with other demands", "Automaticity protects accuracy", "Compare different writing tasks"],
+        "icon": "rule-versus-automaticity",
+        "source_ids": ["HSE:DEVELOPMENT-2025", "FENTON:COGNITIVE-STRATEGIES-2024", "DFE:ENGLISH-CURRICULUM-2014"]
+      },
+      {
+        "heading": "Teach where capitals belong",
+        "narration": "Use a short rule set that matches the child's stage: capitals begin sentences, names, specific places, days of the week, and the word I. Everything else in an ordinary sentence usually begins lowercase. Mark the first letter space in one color and proper names in another. Then ask the child to explain each capital choice. The goal is not memorizing a correction after every mistake. It is building a decision the child can apply independently.",
+        "on_screen": ["Start sentences with capitals", "Capitalize names and specific places", "Ask the child to explain the choice"],
+        "icon": "capitalization-rules",
+        "source_ids": ["DFE:ENGLISH-CURRICULUM-2014", "BCUHB:ALPHABET-FORMATION-2026", "HSE:FORMATION-2025"]
+      },
+      {
+        "heading": "A deeper functional assessment",
+        "narration": "Now, let us go deeper. Make a simple grid with capitals on one side and lowercase partners on the other. Ask the child to match them, name them, copy them, and write them from memory. Then sample a name, a familiar word, a dictated sentence, and independent writing. Record which letters switch, whether the child notices, whether a visual model helps, and whether accuracy changes with speed. Also note spelling, reading, language, attention, formation, size, reversals, fatigue, and pain. Assess the whole pattern, not one unusual word.",
+        "on_screen": ["Test recognition through recall", "Sample several task levels", "Map associated difficulties"],
+        "icon": "mixed-case-assessment",
+        "source_ids": ["FENTON:COGNITIVE-STRATEGIES-2024", "BCUHB:ALPHABET-FORMATION-2026", "HSE:DEVELOPMENT-2025"]
+      },
+      {
+        "heading": "Practise pairs in meaningful writing",
+        "narration": "Choose three confused pairs at a time. Show the capital, lowercase form, sound, starting point, and stroke sequence. Let the child copy each form, write it from memory, use the lowercase letter inside a familiar word, and use the capital in a name or sentence beginning. Finish with one self-check question: which capitals have a reason? Handwriting practice supports letter learning, and structured intervention can improve both legibility and recognition. Fade the alphabet strip as recall becomes reliable.",
+        "on_screen": ["Teach a few pairs at a time", "Use each form in context", "Fade prompts gradually"],
+        "icon": "case-pair-practice",
+        "source_ids": ["ZYlSTRA:KINDERGARTEN-INTERVENTION-2016", "SIH:HANDWRITING-TYPING-2025", "HSE:FORMATION-2025"]
+      },
+      {
+        "heading": "When evaluation is appropriate",
+        "narration": "Ask the teacher or occupational therapist for assessment when mixed case persists despite explicit teaching, is well below classroom expectations, or makes writing slow, difficult to read, frustrating, or avoided. Include reading, spelling, language, attention, and visual concerns because mixed case alone does not identify a diagnosis. Arrange vision assessment for blur, double vision, headaches, squinting, or unusually close viewing. Sudden loss of established writing or language ability, weakness, tremor, or altered sensation needs medical review.",
+        "on_screen": ["Persistent difficulty needs assessment", "Mixed case alone is not a diagnosis", "Sudden loss needs medical review"],
+        "icon": "mixed-case-red-flags",
+        "source_ids": ["HSE:DEVELOPMENT-2025", "BCUHB:ALPHABET-FORMATION-2026", "FENTON:COGNITIVE-STRATEGIES-2024"]
+      },
+      {
+        "heading": "Three essential takeaways",
+        "narration": "Number one, mixed capitals and lowercase letters can reflect incomplete letter-pair knowledge, weak lowercase automaticity, uncertain capitalization rules, or overload during writing, not simple carelessness. Number two, test recognition, matching, copying, and recall, then teach a few pairs with consistent formation, meaningful word and sentence practice, visual references, and self-checking. Number three, seek assessment when the pattern remains functionally limiting despite instruction, occurs with broader learning, attention, visual, or motor concerns, or represents a sudden loss of an established skill.",
+        "on_screen": ["Identify the missing skill", "Teach pairs in meaningful context", "Escalate persistent or sudden problems"],
+        "icon": "checklist",
+        "source_ids": ["DFE:ENGLISH-CURRICULUM-2014", "FENTON:COGNITIVE-STRATEGIES-2024", "ZYlSTRA:KINDERGARTEN-INTERVENTION-2016"]
+      }
+    ],
+    "closing": "On the next episode, we will explain why a child leaves out letters when writing words. Follow the Your Only Doc podcast for clear, evidence-based medical explanations. Stay curious and stay safe.",
+    "description": "Mixed capitalization can reflect letter-pair knowledge, formation, memory, automaticity, or competing writing demands. This episode explains practical teaching and when assessment is appropriate.",
+    "thumbnail_text": "WHY LETTER CASE GETS MIXED"
+  }
+}
