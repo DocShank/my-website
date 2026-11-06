@@ -1,0 +1,168 @@
+{
+  "schema": 2,
+  "editorial": {
+    "workflow": "chatgpt-reviewed-v20",
+    "reviewed_by": "ChatGPT medical editorial workflow",
+    "reviewed_on": "2026-11-06",
+    "episode_number": 88,
+    "language": "English",
+    "spoken_host_name_allowed": false,
+    "long_dashes_allowed": false,
+    "target_minutes": 10
+  },
+  "topic_id": "child-omits-letters-in-words",
+  "topic": {
+    "id": "child-omits-letters-in-words",
+    "title": "Why a Child Leaves Out Letters When Writing Words",
+    "audience_question": "Why does a child omit letters while writing words, and when should the pattern be assessed?",
+    "pubmed_query": "children spelling letter omissions phonological awareness working memory handwriting",
+    "icon_keywords": ["child", "spelling", "missing-letters", "handwriting"],
+    "category": "child-development"
+  },
+  "sources": [
+    {
+      "id": "ASHA:WRITTEN-LANGUAGE-2026",
+      "title": "Written Language Disorders",
+      "abstract": "The American Speech-Language-Hearing Association explains that spelling requires segmenting spoken words into phonemes, mapping those sounds to graphemes in order, and using phonological, orthographic, morphological, and semantic knowledge.",
+      "journal": "American Speech-Language-Hearing Association",
+      "year": "2026",
+      "url": "https://www.asha.org/practice-portal/clinical-topics/written-language-disorders/",
+      "doi": null
+    },
+    {
+      "id": "ASHA:SPELLING-ERROR-ANALYSIS-2026",
+      "title": "Linguistic Analysis of Spelling Errors",
+      "abstract": "ASHA demonstrates how omitted sounds, silent letters, doubled letters, and endings can reflect different weaknesses in phonemic awareness, spelling-pattern knowledge, stored word representations, or morphological awareness.",
+      "journal": "American Speech-Language-Hearing Association",
+      "year": "2026",
+      "url": "https://www.asha.org/Practice-Portal/Clinical-Topics/Written-Language-Disorders/Linguistic-Analysis-of-Spelling-Errors/",
+      "doi": null
+    },
+    {
+      "id": "DFE:WRITING-FRAMEWORK-2025",
+      "title": "The Writing Framework",
+      "abstract": "The Department for Education describes how pupils use phonics, spelling patterns, and morphemes to spell and emphasizes sequenced teaching that manages working-memory demands and develops automatic transcription.",
+      "journal": "United Kingdom Department for Education",
+      "year": "2025",
+      "url": "https://www.gov.uk/government/publications/the-writing-framework",
+      "doi": null
+    },
+    {
+      "id": "DFE:ENGLISH-CURRICULUM-2014",
+      "title": "National Curriculum in England: English Programmes of Study",
+      "abstract": "The curriculum recommends teaching children to segment spoken words into phonemes, represent each phoneme with an appropriate grapheme, practise common exception words, and write taught patterns from dictation.",
+      "journal": "United Kingdom Department for Education",
+      "year": "2014",
+      "url": "https://www.gov.uk/government/publications/national-curriculum-in-england-english-programmes-of-study/national-curriculum-in-england-english-programmes-of-study",
+      "doi": null
+    },
+    {
+      "id": "IES:EFFECTIVE-WRITERS-2012",
+      "title": "Teaching Elementary School Students to Be Effective Writers",
+      "abstract": "This evidence-based practice guide recommends teaching students to become fluent in handwriting, spelling, sentence construction, typing, and word processing as part of effective writing instruction.",
+      "journal": "United States Institute of Education Sciences",
+      "year": "2012",
+      "url": "https://ies.ed.gov/ncee/wwc/PracticeGuide/17/Published",
+      "doi": null
+    },
+    {
+      "id": "SUMNER:SPELLING-HANDWRITING-2014",
+      "title": "The Influence of Spelling Ability on Handwriting Production: Children With and Without Dyslexia",
+      "abstract": "A digital handwriting study found that spelling ability and pauses within words strongly predicted written productivity, showing how nonautomatic spelling can constrain handwriting output.",
+      "journal": "Journal of Experimental Psychology: Learning, Memory, and Cognition",
+      "year": "2014",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24548322/",
+      "doi": "10.1037/a0035785"
+    },
+    {
+      "id": "RE:SPELLING-WORKING-MEMORY-2014",
+      "title": "Spelling Errors Among Children With ADHD Symptoms: The Role of Working Memory",
+      "abstract": "A controlled study examined spelling under ordinary and additional memory-load conditions, illustrating how cognitive load can influence written spelling performance in children with attention difficulties.",
+      "journal": "Research in Developmental Disabilities",
+      "year": "2014",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24922595/",
+      "doi": "10.1016/j.ridd.2014.05.010"
+    },
+    {
+      "id": "MAURER:GRAPHOMOTOR-SPELLING-2023",
+      "title": "From Scribbles to Script: Graphomotor Skills' Impact on Spelling in Early Primary School",
+      "abstract": "A longitudinal study of first-grade children found that graphomotor skill predicted later spelling, supporting interaction between handwriting control and spelling development while not reducing spelling to motor ability alone.",
+      "journal": "Children",
+      "year": "2023",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38136088/",
+      "doi": "10.3390/children10121886"
+    }
+  ],
+  "episode": {
+    "title": "E88: Why a Child Leaves Out Letters When Writing Words",
+    "hook": "Hello and welcome. A child says the word plant correctly but writes p, a, t. Another child writes jumping as jumpin and leaves off the ending. The missing letters may look like careless pencil work, but the point of failure can occur before the pencil moves. The child must hear the word, separate its sounds, choose letters or letter groups, remember their order, form them, and check that the complete word reached the page.",
+    "sections": [
+      {
+        "heading": "The high yield summary",
+        "narration": "Too busy? Here is your high yield summary. Missing letters can reflect difficulty hearing every sound in a word, limited knowledge of spelling patterns or word endings, weak recall of the complete written word, high working-memory demand, or handwriting that is not yet automatic. Do not correct every omission in the same way. First identify whether a sound, spelling pattern, morpheme, or written movement is missing. Use sound segmentation, letter boxes, explicit pattern teaching, short dictation, and self-checking. Seek assessment when omissions persist despite instruction, are well below expectations, or occur with broader speech, language, reading, attention, visual, or motor concerns.",
+        "on_screen": ["Find what was omitted", "Match teaching to the error", "Assess persistent difficulty"],
+        "icon": "missing-letter-summary",
+        "source_ids": ["ASHA:WRITTEN-LANGUAGE-2026", "ASHA:SPELLING-ERROR-ANALYSIS-2026", "DFE:WRITING-FRAMEWORK-2025"]
+      },
+      {
+        "heading": "First ask whether the sound was heard",
+        "narration": "To spell an unfamiliar word, the child must break speech into individual sounds. Consonant clusters can be difficult because sounds overlap. Plant contains several consonants close together, and a child may record the most noticeable sounds while missing l or n. Say the word naturally, then stretch it without distorting it. Ask the child to tap or place one counter for each sound before choosing letters. If the child cannot identify the missing sound orally, copying the completed word does not teach the underlying step.",
+        "on_screen": ["Segment the spoken word", "Clusters hide quieter sounds", "Count sounds before letters"],
+        "icon": "phoneme-segmentation",
+        "source_ids": ["ASHA:WRITTEN-LANGUAGE-2026", "DFE:ENGLISH-CURRICULUM-2014", "ASHA:SPELLING-ERROR-ANALYSIS-2026"]
+      },
+      {
+        "heading": "One sound may need several letters",
+        "narration": "A child can hear every sound and still omit part of its spelling. English may represent one sound with two or more letters, as in sh, ch, or igh. Silent letters and doubled consonants cannot always be recovered by listening alone. These errors require teaching the word pattern and repeated retrieval, not simply saying the word more loudly. Compare related examples and explain which letters work together as one grapheme.",
+        "on_screen": ["Sounds and letters are not one to one", "Teach grapheme patterns", "Silent letters need word knowledge"],
+        "icon": "grapheme-patterns",
+        "source_ids": ["ASHA:WRITTEN-LANGUAGE-2026", "DFE:WRITING-FRAMEWORK-2025", "DFE:ENGLISH-CURRICULUM-2014"]
+      },
+      {
+        "heading": "Endings carry meaning",
+        "narration": "The omitted part may be a meaningful unit rather than an isolated sound. A child might write jump for jumped, cat for cats, or play for playing. Ask whether the child understands the tense, number, or meaning added by the ending. Build the word visibly from base plus suffix, read both forms, and use each in a sentence. This links spelling to grammar and meaning instead of treating the ending as an extra decoration.",
+        "on_screen": ["Check suffixes", "Build base plus ending", "Connect spelling with meaning"],
+        "icon": "morphology-endings",
+        "source_ids": ["ASHA:WRITTEN-LANGUAGE-2026", "ASHA:SPELLING-ERROR-ANALYSIS-2026", "DFE:ENGLISH-CURRICULUM-2014"]
+      },
+      {
+        "heading": "Task demand can make letters disappear",
+        "narration": "A child may spell a word correctly alone but omit letters inside a sentence. Composition adds ideas, grammar, punctuation, spacing, and handwriting to the same limited workspace. Research shows that spelling difficulty can increase within-word pauses and constrain writing output. Compare copying, dictation, and independent writing. If omissions appear mainly during composition, reduce the competing load, rehearse the sentence aloud, and strengthen spelling and handwriting until more of the process becomes automatic.",
+        "on_screen": ["Compare isolated words and sentences", "Working memory has limits", "Build transcription automaticity"],
+        "icon": "working-memory-load",
+        "source_ids": ["DFE:WRITING-FRAMEWORK-2025", "SUMNER:SPELLING-HANDWRITING-2014", "RE:SPELLING-WORKING-MEMORY-2014"]
+      },
+      {
+        "heading": "A deeper error analysis",
+        "narration": "Now, let us go deeper. Collect ordinary samples and classify each omission. Was a spoken sound absent, was part of a multi-letter grapheme missing, was a silent letter forgotten, was a suffix dropped, or did the pencil skip a known letter during fast writing? Ask the child to read the written word aloud and compare it with the target. Then test recognition, oral segmentation, letter selection, writing from memory, and use in a sentence. The pattern tells you which level needs instruction.",
+        "on_screen": ["Classify the omission", "Compare written and spoken forms", "Test the suspected level"],
+        "icon": "spelling-error-analysis",
+        "source_ids": ["ASHA:SPELLING-ERROR-ANALYSIS-2026", "ASHA:WRITTEN-LANGUAGE-2026", "SUMNER:SPELLING-HANDWRITING-2014"]
+      },
+      {
+        "heading": "Use structured practice and checking",
+        "narration": "Choose a small set of words sharing the target feature. Say each word, segment it, map sounds or morphemes into boxes, write it from memory, and use it in a short dictated sentence. Then cover the model and retrieve it again later. Teach one checking routine: point under each part while reading the word slowly, then ask whether every sound and meaningful ending is represented. Frequent focused practice is more useful than repeatedly copying a long corrected list without analysis.",
+        "on_screen": ["Map the word structure", "Retrieve instead of only copying", "Check every part"],
+        "icon": "structured-spelling-practice",
+        "source_ids": ["DFE:ENGLISH-CURRICULUM-2014", "IES:EFFECTIVE-WRITERS-2012", "ASHA:WRITTEN-LANGUAGE-2026"]
+      },
+      {
+        "heading": "When evaluation is appropriate",
+        "narration": "Ask the teacher, speech-language pathologist, educational specialist, or occupational therapist for assessment when omissions persist despite explicit instruction, occur across many familiar words, or make writing unusually slow, brief, frustrating, or hard to understand. Assessment should consider speech sounds, language, phonological awareness, reading, spelling patterns, morphology, attention, memory, and handwriting. A sudden loss of established spelling or writing ability, especially with weakness, speech change, confusion, seizure, or severe headache, needs urgent medical evaluation.",
+        "on_screen": ["Persistent omissions need assessment", "Evaluate language and transcription together", "Sudden loss is urgent"],
+        "icon": "missing-letter-red-flags",
+        "source_ids": ["ASHA:WRITTEN-LANGUAGE-2026", "ASHA:SPELLING-ERROR-ANALYSIS-2026", "MAURER:GRAPHOMOTOR-SPELLING-2023"]
+      },
+      {
+        "heading": "Three essential takeaways",
+        "narration": "Number one, omitted letters can come from missed speech sounds, incomplete spelling-pattern or suffix knowledge, weak word recall, working-memory overload, or nonautomatic handwriting, so the visible error does not reveal the cause by itself. Number two, classify the omission, then use sound or morpheme mapping, explicit pattern teaching, retrieval practice, short dictation, and a consistent self-check. Number three, seek assessment when omissions remain functionally limiting despite teaching, occur with broader speech, language, reading, attention, or motor concerns, or represent a sudden loss of an established skill.",
+        "on_screen": ["Diagnose the error level", "Teach and retrieve the missing part", "Escalate persistent or sudden problems"],
+        "icon": "checklist",
+        "source_ids": ["ASHA:WRITTEN-LANGUAGE-2026", "DFE:WRITING-FRAMEWORK-2025", "IES:EFFECTIVE-WRITERS-2012"]
+      }
+    ],
+    "closing": "On the next episode, we will explain why a child spells the same word differently each time. Follow the Your Only Doc podcast for clear, evidence-based medical explanations. Stay curious and stay safe.",
+    "description": "Letter omissions can reflect phonological awareness, spelling-pattern knowledge, morphology, memory load, or handwriting automaticity. This episode explains how to identify the missing step and when assessment is appropriate.",
+    "thumbnail_text": "WHY LETTERS GO MISSING"
+  }
+}
