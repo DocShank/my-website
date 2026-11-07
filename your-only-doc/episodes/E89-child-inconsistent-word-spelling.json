@@ -1,0 +1,172 @@
+{
+  "schema": 2,
+  "editorial": {
+    "workflow": "chatgpt-reviewed-v20",
+    "reviewed_by": "ChatGPT medical editorial workflow",
+    "reviewed_on": "2026-11-07",
+    "episode_number": 89,
+    "language": "English",
+    "spoken_host_name_allowed": false,
+    "long_dashes_allowed": false,
+    "target_minutes": 10
+  },
+  "topic_id": "child-inconsistent-word-spelling",
+  "topic": {
+    "id": "child-inconsistent-word-spelling",
+    "title": "Why a Child Spells the Same Word Differently Each Time",
+    "audience_question": "Why might a child spell one word several different ways on the same page?",
+    "pubmed_query": "children inconsistent spelling orthographic representations phonological morphological working memory",
+    "icon_keywords": [
+      "spelling",
+      "pencil",
+      "word"
+    ],
+    "category": "child-development"
+  },
+  "sources": [
+    {
+      "id": "ASHA:WLD",
+      "title": "Written Language Disorders",
+      "abstract": "ASHA describes spelling as the mapping of phonemes to graphemes in the correct order. Accurate spelling draws on phonological knowledge, orthographic patterns, stored mental graphemic representations, meaning, and morphology. Strong word representations support fluent, accurate spelling with less cognitive effort.",
+      "journal": "American Speech-Language-Hearing Association",
+      "year": "2026",
+      "url": "https://www.asha.org/practice-portal/clinical-topics/written-language-disorders/",
+      "doi": null
+    },
+    {
+      "id": "ASHA:SPELLING-ERRORS",
+      "title": "Linguistic Analysis of Spelling Errors",
+      "abstract": "ASHA presents a framework for examining misspellings through phonemic awareness, orthographic pattern awareness, mental graphemic representations, and morphological awareness. Error analysis can reveal which linguistic knowledge a learner is applying rather than treating every misspelling as the same problem.",
+      "journal": "American Speech-Language-Hearing Association",
+      "year": "2026",
+      "url": "https://www.asha.org/practice-portal/clinical-topics/written-language-disorders/linguistic-analysis-of-spelling-errors/",
+      "doi": null
+    },
+    {
+      "id": "DFE:WRITING-2025",
+      "title": "Writing Framework Summary",
+      "abstract": "The Department for Education states that writing places significant demands on working memory. Sequenced teaching and increasing automaticity in spelling and handwriting can reduce transcription demands and leave more capacity for composition.",
+      "journal": "UK Department for Education",
+      "year": "2025",
+      "url": "https://www.gov.uk/government/publications/the-writing-framework/writing-framework-summary",
+      "doi": null
+    },
+    {
+      "id": "IES:WRITING-2018",
+      "title": "Teaching Elementary School Students to Be Effective Writers",
+      "abstract": "This practice guide recommends connecting spelling instruction with writing, teaching commonly used and frequently misspelled words, and helping students generate and check plausible spellings through phonological awareness, phonics, morphology, analogy, and editing tools.",
+      "journal": "Institute of Education Sciences What Works Clearinghouse",
+      "year": "2018",
+      "url": "https://ies.ed.gov/ncee/wwc/PracticeGuide/17",
+      "doi": null
+    },
+    {
+      "id": "MASTERSON:JSLHR-2012",
+      "title": "Linguistic Pattern Analysis of Misspellings of Typically Developing Writers in Grades 1-9",
+      "abstract": "Analysis of misspellings across grades found phonological, orthographic, and morphological error patterns during typical development. The findings indicate that building a robust orthographic lexicon that coordinates these forms of knowledge is gradual and nonlinear.",
+      "journal": "Journal of Speech, Language, and Hearing Research",
+      "year": "2012",
+      "url": "https://pubs.asha.org/doi/10.1044/1092-4388(2012/10-0335)",
+      "doi": "10.1044/1092-4388(2012/10-0335)"
+    },
+    {
+      "id": "BROWN:QJEP-2012",
+      "title": "Are Word Representations Abstract or Instance-Based? Effects of Spelling Inconsistency in Orthographic Learning",
+      "abstract": "In children learning novel written forms, exposure to an alternative phonologically equivalent spelling increased later production of that alternative. The study supports the importance of consistent encounters in forming word-specific orthographic representations.",
+      "journal": "Quarterly Journal of Experimental Psychology",
+      "year": "2012",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/21875176/",
+      "doi": "10.1080/17470218.2011.606143"
+    },
+    {
+      "id": "SUMNER:JEP-2014",
+      "title": "The Influence of Spelling Ability on Handwriting Production: Children With and Without Dyslexia",
+      "abstract": "This study found a close relationship between spelling ability, within-word pauses, and handwriting productivity. It illustrates how uncertainty about spelling can interrupt the physical production of written words, while not making any single error pattern diagnostic by itself.",
+      "journal": "Journal of Experimental Psychology: Learning, Memory, and Cognition",
+      "year": "2014",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24548322/",
+      "doi": "10.1037/a0035785"
+    },
+    {
+      "id": "TREIMAN:CDP-2017",
+      "title": "Learning to Spell: Phonology and Beyond",
+      "abstract": "This review explains that alphabetic spelling uses sound-letter links together with context-sensitive phonological patterns, morphology, and graphotactic patterns. Learning is easier when these sources converge and harder when they conflict.",
+      "journal": "Child Development Perspectives",
+      "year": "2017",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28628367/",
+      "doi": "10.1111/cdep.12220"
+    }
+  ],
+  "episode": {
+    "title": "E89: Why a Child Spells the Same Word Differently Each Time",
+    "hook": "A child writes the word because three times on one page. First it is becos, then becaus, then becuse. It can look careless because the child seemed to know the word a moment ago. But spelling is not retrieved from a single mental box. A writer may rebuild a word from sounds, remembered letter patterns, meaningful word parts, and a stored image of the whole word. If that representation is still developing, the route used can change from one attempt to the next.",
+    "sections": [
+      {
+        "heading": "The high yield summary",
+        "narration": "Too busy? Here is your high yield summary. Different spellings of the same word can appear when a child has only a partial sound map, is choosing between plausible letter patterns, or has not stored a stable written form. Performance may also change when a sentence demands attention to ideas, handwriting, punctuation, and spelling at once. Look at the pattern of errors, not one word alone. Clear teaching and repeated correct practice can help, while persistent difficulty across tasks deserves assessment rather than blame.",
+        "on_screen": ["Knowledge may be partial", "Writing load can change performance", "Study the error pattern"],
+        "icon": "spelling",
+        "source_ids": ["ASHA:WLD", "DFE:WRITING-2025", "MASTERSON:JSLHR-2012"]
+      },
+      {
+        "heading": "One sound can invite several choices",
+        "narration": "Spelling begins with hearing the sound sequence and mapping sounds to letters, but English often offers more than one plausible choice. A long e sound might be written with ee, ea, e, or another pattern depending on the word. A child who is rebuilding the word from sound may choose differently on separate attempts. That does not mean the attempts are random. Each version can show what sound-letter knowledge the child used and where that knowledge stopped being certain.",
+        "on_screen": ["Hear the sound sequence", "Choose letter patterns", "Uncertainty can vary"],
+        "icon": "ear",
+        "source_ids": ["ASHA:WLD", "TREIMAN:CDP-2017"]
+      },
+      {
+        "heading": "Patterns and word parts guide spelling",
+        "narration": "Writers also use knowledge about which letter groups are allowed, where they usually appear, and how roots and endings keep meaning stable. The past tense ending ed can sound different in jumped, played, and wanted, yet its spelling remains connected to meaning. If a child relies on sound during one attempt and remembers the meaningful ending during another, the same word may change. Useful teaching therefore includes phonology, orthographic patterns, and morphology rather than memorizing isolated letter strings only.",
+        "on_screen": ["Allowed letter patterns", "Roots and endings", "Sound plus meaning"],
+        "icon": "word-parts",
+        "source_ids": ["ASHA:WLD", "IES:WRITING-2018", "TREIMAN:CDP-2017"]
+      },
+      {
+        "heading": "A stable word image takes time",
+        "narration": "With repeated accurate encounters, the written form of a familiar word becomes stored in long-term memory. ASHA calls this a mental graphemic representation. When that representation is strong, the spelling can be retrieved quickly. When it is incomplete, the child may reconstruct the word and produce a different plausible version. Research with novel spellings also shows that seeing competing forms can influence what is written later, which is one reason feedback should clearly return attention to the correct form.",
+        "on_screen": ["Build a stored word form", "Retrieve instead of rebuild", "Correct feedback matters"],
+        "icon": "memory",
+        "source_ids": ["ASHA:WLD", "BROWN:QJEP-2012"]
+      },
+      {
+        "heading": "The task can change the result",
+        "narration": "A child may spell a word correctly in a short list and differently inside a story. In connected writing, working memory is also holding the idea, sentence order, punctuation, and handwriting plan. If spelling is not automatic, that competition can expose uncertainty. Pauses within words have also been linked with spelling ability and writing productivity. So compare dictation, copying, sentence writing, and independent composition. The contrast can reveal whether the main challenge appears during word learning or when many demands arrive together.",
+        "on_screen": ["Lists differ from stories", "Working memory has limits", "Compare several tasks"],
+        "icon": "brain",
+        "source_ids": ["DFE:WRITING-2025", "SUMNER:JEP-2014"]
+      },
+      {
+        "heading": "Read the errors as evidence",
+        "narration": "Now, let us go deeper. Write down several real examples and ask four questions. Are all the sounds represented? Are the chosen letter patterns possible in English? Are roots, prefixes, or endings preserved? Does the child recognize the correct version when shown choices? This linguistic analysis separates phonological, orthographic, morphological, and word-specific knowledge. It is more informative than a total error count, and it helps adults select instruction that matches the missing knowledge.",
+        "on_screen": ["Check sounds", "Check patterns and word parts", "Check recognition"],
+        "icon": "magnifier",
+        "source_ids": ["ASHA:SPELLING-ERRORS", "MASTERSON:JSLHR-2012"]
+      },
+      {
+        "heading": "Practice should make one form stable",
+        "narration": "Choose a small set of useful words from the child's own writing. Say each word, stretch or segment its sounds, mark the tricky pattern, and connect any meaningful root or ending. Then look at the correct word, cover it, write it from memory, and check it immediately. Return to the word after a delay and use it in a sentence. Brief, accurate retrieval across days is more useful than copying a misspelled form repeatedly or completing a long list without feedback.",
+        "on_screen": ["Analyze the word", "Retrieve and check", "Revisit across days"],
+        "icon": "practice",
+        "source_ids": ["IES:WRITING-2018", "ASHA:WLD", "BROWN:QJEP-2012"]
+      },
+      {
+        "heading": "When to seek a fuller assessment",
+        "narration": "Inconsistency alone does not diagnose dyslexia, attention-deficit hyperactivity disorder, or a written language disorder. Seek support when spelling remains well below what teaching and age would suggest, errors persist across tasks, progress is limited despite structured practice, or reading, spoken language, handwriting, and school participation are also affected. A teacher, speech-language professional, psychologist, or occupational therapist may examine different parts of the problem. Vision or hearing concerns should be assessed through the appropriate health professional.",
+        "on_screen": ["One sign is not a diagnosis", "Look across skills and settings", "Match assessment to the concern"],
+        "icon": "assessment",
+        "source_ids": ["ASHA:WLD", "ASHA:SPELLING-ERRORS", "SUMNER:JEP-2014"]
+      },
+      {
+        "heading": "Three essential takeaways",
+        "narration": "Number one, changing spellings often show that sound, pattern, meaning, and word-specific memory are not yet working together automatically. Number two, compare several attempts and tasks, then analyze which sounds, patterns, and word parts the child is using. Number three, teach a small number of useful words explicitly, practice accurate retrieval with prompt feedback, and seek assessment when the difficulty is persistent, broad, or limiting daily learning.",
+        "on_screen": ["Find the unstable knowledge", "Compare and analyze", "Teach, revisit, assess"],
+        "icon": "checklist",
+        "source_ids": ["ASHA:WLD", "IES:WRITING-2018", "MASTERSON:JSLHR-2012"]
+      }
+    ],
+    "closing": "On the next episode, we will explain why a child puts letters in the wrong order, what letter sequence errors can reveal, and when they need closer assessment. Follow the Your Only Doc podcast for clear, evidence based health and development explanations. Stay curious and stay safe.",
+    "description": "Why can one child produce several spellings of the same word on a single page? This episode explains sound mapping, orthographic patterns, morphology, word-specific memory, writing load, practical teaching, and when persistent difficulty deserves assessment.",
+    "thumbnail_text": "WHY SPELLING KEEPS CHANGING"
+  }
+}
