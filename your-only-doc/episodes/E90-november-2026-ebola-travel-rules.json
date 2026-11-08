@@ -1,0 +1,230 @@
+{
+  "schema": 2,
+  "editorial": {
+    "workflow": "chatgpt-reviewed-v20",
+    "reviewed_by": "ChatGPT medical editorial workflow",
+    "reviewed_on": "2026-11-08",
+    "episode_number": 90,
+    "language": "English",
+    "spoken_host_name_allowed": false,
+    "long_dashes_allowed": false,
+    "target_minutes": 10
+  },
+  "topic_id": "november-2026-ebola-travel-rules",
+  "topic": {
+    "id": "november-2026-ebola-travel-rules",
+    "title": "What the November 2026 Ebola Travel Rules Mean",
+    "audience_question": "What do the new Ebola travel restrictions and screening rules actually mean for travelers?",
+    "pubmed_query": "Bundibugyo virus disease Ebola travel screening incubation transmission outbreak 2026",
+    "icon_keywords": [
+      "airplane",
+      "passport",
+      "virus"
+    ],
+    "category": "public-health"
+  },
+  "sources": [
+    {
+      "id": "WHO:DON625-2026",
+      "title": "Ebola Disease Caused by Bundibugyo Virus, Democratic Republic of the Congo, Kenya and Nigeria",
+      "abstract": "WHO reported on November 6, 2026 that sustained high-level transmission continued in the Democratic Republic of the Congo, with 10,668 confirmed cases and 5,198 deaths reported through November 3 across 67 health zones. WHO advised strengthened surveillance, early detection, cross-border coordination, and preparedness, while advising against general restrictions on travel or trade.",
+      "journal": "World Health Organization Disease Outbreak News",
+      "year": "2026",
+      "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON625",
+      "doi": null
+    },
+    {
+      "id": "CDC:EBOLA-SITUATION-2026",
+      "title": "Ebola Outbreak: Current Situation",
+      "abstract": "CDC's November 6 update describes the expanding Bundibugyo virus disease outbreak, assesses risk to the American public and travelers as low, and summarizes temporary U.S. travel restrictions, screening measures, and precautions for travelers.",
+      "journal": "US Centers for Disease Control and Prevention",
+      "year": "2026",
+      "url": "https://www.cdc.gov/ebola/situation-summary/",
+      "doi": null
+    },
+    {
+      "id": "CDC:RETURNING-TRAVELERS-2026",
+      "title": "Information for Travelers Returning from Ebola-Affected Areas",
+      "abstract": "CDC explains that international air travelers to or through the United States must attest that they have not been in the Democratic Republic of the Congo during the previous 21 days. It also details separate restrictions or screening arrangements for recent travel in DRC, Uganda, and South Sudan.",
+      "journal": "US Centers for Disease Control and Prevention",
+      "year": "2026",
+      "url": "https://www.cdc.gov/ebola/situation-summary/returning-travelers.html",
+      "doi": null
+    },
+    {
+      "id": "CDC:ATTESTATION-ORDER-2026",
+      "title": "Requirement for Attestation by All Persons Traveling by Air to the United States",
+      "abstract": "The CDC order requires people boarding an international flight into or connecting through the United States after November 3, 2026 to attest that they were not present in DRC during the 21 days before boarding. False or misleading statements can carry legal consequences.",
+      "journal": "US Centers for Disease Control and Prevention",
+      "year": "2026",
+      "url": "https://www.cdc.gov/port-health/legal-authorities/attestation-order.html",
+      "doi": null
+    },
+    {
+      "id": "CDC:TRAVEL-NOTICE-2026",
+      "title": "Ebola Bundibugyo Virus Disease in the Democratic Republic of the Congo and Uganda",
+      "abstract": "CDC advises avoiding all travel to Ituri and Nord-Kivu except for humanitarian or emergency response, avoiding nonessential travel to Haut-Uele and Tshopo, using enhanced precautions elsewhere in DRC and Uganda, and monitoring for symptoms for 21 days after leaving.",
+      "journal": "CDC Travelers' Health",
+      "year": "2026",
+      "url": "https://wwwnc.cdc.gov/travel/notices/level2/ebola-drc-uganda",
+      "doi": null
+    },
+    {
+      "id": "WHO:EBOLA-FACTS",
+      "title": "Ebola Disease",
+      "abstract": "WHO states that Ebola can spread through direct contact with the blood or body fluids of a symptomatic infected person or contaminated objects. People do not transmit Ebola before symptoms. The incubation period is 2 to 21 days, and early intensive supportive care improves survival.",
+      "journal": "World Health Organization",
+      "year": "2025",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/ebola-disease",
+      "doi": null
+    },
+    {
+      "id": "ECDC:BVD-2026-11-06",
+      "title": "Ebola Disease Outbreak Caused by Bundibugyo Virus, Multi-country, 2026",
+      "abstract": "ECDC reported 10,741 confirmed cases and 5,230 deaths in DRC through November 4, 2026. It assessed the likelihood of infection for EU and EEA residents traveling to affected areas as low and the general EU and EEA population risk as very low, while describing multiple national screening and travel measures.",
+      "journal": "European Centre for Disease Prevention and Control",
+      "year": "2026",
+      "url": "https://www.ecdc.europa.eu/en/public-health-events/2026-eip-00026/2026-11-06",
+      "doi": null
+    }
+  ],
+  "episode": {
+    "title": "E90: What the November 2026 Ebola Travel Rules Mean",
+    "hook": "Imagine checking in for a flight to the United States and being asked to sign a statement about travel to the Democratic Republic of the Congo. You may never have been near the outbreak, yet the form appears. The rule is real, but it does not mean Ebola spreads through airports like a common respiratory virus. It is a targeted measure built around where someone traveled, when they left, and the longest recognized incubation period.",
+    "sections": [
+      {
+        "heading": "The high yield summary",
+        "narration": "Too busy? Here is your high yield summary. The Bundibugyo Ebola outbreak remains severe in parts of the Democratic Republic of the Congo. The United States now requires international air travelers to attest that they were not in DRC during the previous 21 days. Recent presence in DRC can block boarding to the United States until that window passes. Different rules apply after travel in Uganda or South Sudan. These policies do not mean casual airport contact spreads Ebola. Direct contact with infectious body fluids is the central risk.",
+        "on_screen": [
+          "DRC outbreak remains severe",
+          "New 21-day travel controls",
+          "Body-fluid contact drives risk"
+        ],
+        "icon": "passport",
+        "source_ids": [
+          "WHO:DON625-2026",
+          "CDC:RETURNING-TRAVELERS-2026",
+          "WHO:EBOLA-FACTS"
+        ]
+      },
+      {
+        "heading": "Why the rules changed",
+        "narration": "WHO reported on November 6 that sustained high-level transmission continued in DRC. Through November 3, authorities had reported 10,668 confirmed cases and 5,198 deaths across 67 health zones. ECDC reported newer totals through November 4. No new country had reported a case since WHO's previous update, but the outbreak's size, geographic spread, and community deaths support stronger detection and preparedness. The rules aim to reduce importation and identify higher-risk travelers early.",
+        "on_screen": [
+          "High-level transmission continues",
+          "Multiple affected provinces",
+          "Preparedness at borders"
+        ],
+        "icon": "outbreak-map",
+        "source_ids": [
+          "WHO:DON625-2026",
+          "ECDC:BVD-2026-11-06"
+        ]
+      },
+      {
+        "heading": "What the U.S. attestation means",
+        "narration": "After November 3, anyone boarding an international flight into or connecting through the United States must sign an attestation stating that they were not in DRC during the prior 21 days. The form asks about travel history, not symptoms alone. It must be answered truthfully because false information can have legal consequences. Travelers should review current requirements before booking or changing a route.",
+        "on_screen": [
+          "Applies to U.S.-bound flights",
+          "Declare the previous 21 days",
+          "Answer truthfully"
+        ],
+        "icon": "document",
+        "source_ids": [
+          "CDC:ATTESTATION-ORDER-2026",
+          "CDC:RETURNING-TRAVELERS-2026"
+        ]
+      },
+      {
+        "heading": "Recent travel in DRC",
+        "narration": "A person who has been in DRC during the previous 21 days cannot board a commercial flight with a U.S. destination, including a connecting itinerary. CDC says this applies even if the aircraft stopped in DRC and the traveler did not leave the plane. The traveler should remain outside the United States until 21 days after leaving DRC. Local DRC authorities and other destination countries may impose additional measures, so one country's rule should never be assumed to cover the whole journey.",
+        "on_screen": [
+          "DRC presence affects boarding",
+          "Connections also count",
+          "Check every destination"
+        ],
+        "icon": "airplane",
+        "source_ids": [
+          "CDC:RETURNING-TRAVELERS-2026",
+          "CDC:EBOLA-SITUATION-2026"
+        ]
+      },
+      {
+        "heading": "Uganda and South Sudan are different",
+        "narration": "The U.S. rules distinguish citizenship and travel location. Non-U.S. citizens and non-U.S. nationals, including lawful permanent residents, who were in Uganda or South Sudan within 21 days may be temporarily unable to enter. U.S. citizens and nationals who were there, but not in DRC, may enter through designated airports for screening. These details can change. Use the official CDC page and contact the airline before departure rather than relying on an old screenshot.",
+        "on_screen": [
+          "Rules depend on travel history",
+          "Citizenship can change the process",
+          "Verify before departure"
+        ],
+        "icon": "screening",
+        "source_ids": [
+          "CDC:RETURNING-TRAVELERS-2026",
+          "CDC:EBOLA-SITUATION-2026"
+        ]
+      },
+      {
+        "heading": "Why the window is 21 days",
+        "narration": "Now, let us go deeper. Ebola's incubation period ranges from 2 to 21 days. During that interval, an infected person may feel well, but WHO states that people do not transmit Ebola before symptoms begin. Transmission requires direct contact through broken skin or mucous membranes with infectious blood or other body fluids, or with contaminated materials. The 21-day policy window therefore covers the longest recognized interval in which symptoms could appear after an exposure. It is not evidence that every traveler was exposed.",
+        "on_screen": [
+          "Incubation: 2 to 21 days",
+          "No transmission before symptoms",
+          "Direct contact is required"
+        ],
+        "icon": "timeline",
+        "source_ids": [
+          "WHO:EBOLA-FACTS",
+          "CDC:TRAVEL-NOTICE-2026"
+        ]
+      },
+      {
+        "heading": "Risk depends on contact, not fear",
+        "narration": "CDC assesses overall risk to the American public and travelers as low, while ECDC assesses general population risk in the EU and EEA as very low. Risk rises with direct care of a sick person without appropriate protection, contact with contaminated blood or body fluids, unsafe burial practices, or exposure to infected wildlife. Ordinary travelers should not stigmatize people from affected countries. A passport or nationality does not transmit infection. A specific exposure history and symptoms guide the medical response.",
+        "on_screen": [
+          "General risk remains low",
+          "Exposure determines risk",
+          "Do not stigmatize travelers"
+        ],
+        "icon": "risk-scale",
+        "source_ids": [
+          "CDC:EBOLA-SITUATION-2026",
+          "ECDC:BVD-2026-11-06",
+          "WHO:EBOLA-FACTS"
+        ]
+      },
+      {
+        "heading": "What to do after possible exposure",
+        "narration": "Anyone who develops fever, severe weakness, headache, muscle pain, vomiting, diarrhea, abdominal pain, or unexplained bleeding within 21 days after leaving an affected area should separate from others, avoid further travel, and contact public-health authorities or a healthcare facility immediately. Call before arriving so staff can prepare safely. Do not conceal the itinerary and do not travel while symptomatic. Early testing, isolation, and supportive care protect the patient, household, healthcare workers, and community.",
+        "on_screen": [
+          "Watch for symptoms",
+          "Do not travel when ill",
+          "Call ahead immediately"
+        ],
+        "icon": "warning",
+        "source_ids": [
+          "CDC:TRAVEL-NOTICE-2026",
+          "WHO:EBOLA-FACTS",
+          "WHO:DON625-2026"
+        ]
+      },
+      {
+        "heading": "Three essential takeaways",
+        "narration": "Number one, the new rules are targeted travel controls built around recent presence in affected countries and a 21-day incubation window. Number two, Ebola does not spread through casual contact with a healthy traveler before symptoms; direct contact with infectious body fluids is the main risk. Number three, verify official requirements before every flight, report travel honestly, and if symptoms appear after a possible exposure, stop traveling, separate from others, and call public-health or medical services before arrival.",
+        "on_screen": [
+          "Understand the 21-day rule",
+          "Know how Ebola spreads",
+          "Verify, disclose, and act early"
+        ],
+        "icon": "checklist",
+        "source_ids": [
+          "CDC:RETURNING-TRAVELERS-2026",
+          "WHO:EBOLA-FACTS",
+          "CDC:TRAVEL-NOTICE-2026"
+        ]
+      }
+    ],
+    "closing": "On the next episode, we will return to the evergreen sequence and explain why a child puts letters in the wrong order, what those sequence errors can reveal, and when closer assessment is useful. Follow the Your Only Doc podcast for clear, evidence based health and development explanations. Stay curious and stay safe.",
+    "description": "The November 2026 Ebola travel rules can look alarming without context. This episode explains the U.S. attestation, 21-day restrictions and screening, how Ebola actually spreads, the current risk assessment, and what to do after possible exposure or symptoms.",
+    "thumbnail_text": "NEW EBOLA TRAVEL RULES"
+  }
+}
