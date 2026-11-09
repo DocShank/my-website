@@ -1,0 +1,240 @@
+{
+  "schema": 2,
+  "editorial": {
+    "workflow": "chatgpt-reviewed-v20",
+    "reviewed_by": "ChatGPT medical editorial workflow",
+    "reviewed_on": "2026-11-09",
+    "episode_number": 91,
+    "language": "English",
+    "spoken_host_name_allowed": false,
+    "long_dashes_allowed": false,
+    "target_minutes": 10
+  },
+  "topic_id": "child-transposes-letters-in-words",
+  "topic": {
+    "id": "child-transposes-letters-in-words",
+    "title": "Why a Child Puts Letters in the Wrong Order",
+    "audience_question": "Why might a child write all the right letters but place some of them in the wrong order?",
+    "pubmed_query": "children spelling letter transposition position encoding phonological orthographic working memory handwriting",
+    "icon_keywords": [
+      "letters",
+      "sequence",
+      "pencil"
+    ],
+    "category": "child-development"
+  },
+  "sources": [
+    {
+      "id": "ASHA:WLD",
+      "title": "Written Language Disorders",
+      "abstract": "ASHA describes spelling as segmenting spoken words into phonemes and mapping those phonemes to graphemes in the correct written order. Spelling also relies on orthographic patterns, stored word representations, morphology, and automatic retrieval.",
+      "journal": "American Speech-Language-Hearing Association",
+      "year": "2026",
+      "url": "https://www.asha.org/practice-portal/clinical-topics/written-language-disorders/",
+      "doi": null
+    },
+    {
+      "id": "ASHA:SPELLING-ERRORS",
+      "title": "Linguistic Analysis of Spelling Errors",
+      "abstract": "ASHA presents a framework for analyzing misspellings through phonemic awareness, orthographic pattern awareness, mental graphemic representations, and morphological awareness. The pattern within an error can reveal which knowledge the learner is using.",
+      "journal": "American Speech-Language-Hearing Association",
+      "year": "2026",
+      "url": "https://www.asha.org/practice-portal/clinical-topics/written-language-disorders/linguistic-analysis-of-spelling-errors/",
+      "doi": null
+    },
+    {
+      "id": "DFE:WRITING-2025",
+      "title": "Writing Framework Summary",
+      "abstract": "The Department for Education states that writing places significant demands on working memory. Sequenced instruction and increasing automaticity in spelling and handwriting can reduce transcription demands and preserve capacity for composition.",
+      "journal": "UK Department for Education",
+      "year": "2025",
+      "url": "https://www.gov.uk/government/publications/the-writing-framework/writing-framework-summary",
+      "doi": null
+    },
+    {
+      "id": "DFE:ENGLISH-CURRICULUM",
+      "title": "National Curriculum in England: English Programmes of Study",
+      "abstract": "The curriculum recommends teaching children to segment spoken words into individual phonemes and represent them with appropriate graphemes. It also emphasizes word-specific rehearsal, writing from memory, reading spellings back, and correcting taught words.",
+      "journal": "UK Department for Education",
+      "year": "2014",
+      "url": "https://www.gov.uk/government/publications/national-curriculum-in-england-english-programmes-of-study/national-curriculum-in-england-english-programmes-of-study",
+      "doi": null
+    },
+    {
+      "id": "IES:EFFECTIVE-WRITERS",
+      "title": "Teaching Elementary School Students to Be Effective Writers",
+      "abstract": "The What Works Clearinghouse practice guide recommends explicit instruction and regular practice in handwriting and spelling. It includes phonological awareness, spelling phonics, morphology, word study, and applying spelling knowledge in authentic writing.",
+      "journal": "Institute of Education Sciences What Works Clearinghouse",
+      "year": "2018",
+      "url": "https://ies.ed.gov/ncee/wwc/PracticeGuide/17",
+      "doi": null
+    },
+    {
+      "id": "KOHLER:COGNEUROPSYCH-2018",
+      "title": "Developmental Graphemic Buffer Dysgraphia in English: A Single Case Study",
+      "abstract": "A detailed case study described a child with additions, deletions, substitutions, and transpositions across spoken and written spelling tasks. The authors used the concept of a temporary graphemic buffer to explain difficulty maintaining letter identities and order, while emphasizing systematic assessment.",
+      "journal": "Cognitive Neuropsychology",
+      "year": "2018",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28906170/",
+      "doi": null
+    },
+    {
+      "id": "CASSAR:JEC-2014",
+      "title": "How Does Graphotactic Knowledge Influence Children's Learning of New Spellings?",
+      "abstract": "Children's recall of novel spellings was affected by the legality and position of letter patterns. Some transpositions occurred when children remembered that a double consonant was present but not which consonant was doubled, illustrating the role of positional orthographic knowledge.",
+      "journal": "Journal of Experimental Child Psychology",
+      "year": "2014",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24109466/",
+      "doi": null
+    },
+    {
+      "id": "ALSTAD:READWRIT-2014",
+      "title": "Influence of Handwriting Skills During Spelling in Primary and Lower Secondary Grades",
+      "abstract": "Research across Grades 2 to 9 found that graphomotor skills influenced the success and timing of spelling particularly in primary grades, while orthographic knowledge remained important later. The findings support examining both linguistic and motor aspects of written spelling.",
+      "journal": "Reading and Writing",
+      "year": "2014",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24204357/",
+      "doi": null
+    }
+  ],
+  "episode": {
+    "title": "E91: Why a Child Puts Letters in the Wrong Order",
+    "hook": "A child wants to write the word friend. Every expected letter is on the page, but the middle becomes freind. In another word, two neighboring letters trade places. Adults may call this carelessness or confuse it with writing a letter backward. Those are different events. A transposition keeps the letters but changes their sequence. To understand why it happens, we need to ask how the child heard the sound order, remembered the spelling, placed each letter, and managed the act of writing.",
+    "sections": [
+      {
+        "heading": "The high yield summary",
+        "narration": "Too busy? Here is your high yield summary. Letter transpositions can arise when a child is still learning to hold sounds and letters in sequence, encode each letter's position, retrieve a stable spelling, or coordinate handwriting under load. One error is not a diagnosis. Compare copying, dictation, oral spelling, typing, and independent writing. Teach the word structure explicitly, practice the correct sequence from memory, and use immediate feedback. Persistent errors across tasks, especially with broader reading or language difficulty, deserve fuller assessment.",
+        "on_screen": [
+          "Sequence can break at several points",
+          "Compare different tasks",
+          "One error is not a diagnosis"
+        ],
+        "icon": "sequence",
+        "source_ids": [
+          "ASHA:WLD",
+          "DFE:WRITING-2025",
+          "KOHLER:COGNEUROPSYCH-2018"
+        ]
+      },
+      {
+        "heading": "Spelling must preserve sound order",
+        "narration": "For an unfamiliar word, a child first segments the spoken form into phonemes, then maps those sounds to letters or letter groups in order. If two sounds are not separated clearly, or the sequence fades while the child is writing, the chosen letters may appear in the wrong positions. Ask the child to say the word slowly and move one counter for each sound before choosing letters. This shows whether the sequence problem begins in listening and segmentation or appears later in writing.",
+        "on_screen": [
+          "Hear each phoneme",
+          "Keep the sound sequence",
+          "Map sounds to letters"
+        ],
+        "icon": "ear",
+        "source_ids": [
+          "ASHA:WLD",
+          "DFE:ENGLISH-CURRICULUM"
+        ]
+      },
+      {
+        "heading": "Letter position is its own information",
+        "narration": "Knowing which letters belong to a word is not enough. The spelling system must also preserve where each letter goes. Research on learning novel spellings shows that children can remember a feature, such as a doubled consonant, yet misremember its position. This helps explain why a child may include the right ingredients but arrange them incorrectly. Positional knowledge becomes more reliable through accurate encounters, comparison with the correct form, and retrieval rather than repeated guessing.",
+        "on_screen": [
+          "Identity and position differ",
+          "Middle letters can be vulnerable",
+          "Accurate retrieval builds order"
+        ],
+        "icon": "letter-tiles",
+        "source_ids": [
+          "CASSAR:JEC-2014",
+          "ASHA:WLD"
+        ]
+      },
+      {
+        "heading": "Stored word forms can compete",
+        "narration": "Familiar words are usually retrieved from stored mental representations rather than rebuilt from scratch. When that representation is incomplete, a child may rely on sound, a familiar letter pattern, or a similar word. English combinations such as ie and ei are especially easy to confuse when both look familiar. The useful question is not simply whether the spelling is wrong. Ask whether it is phonologically plausible, follows an allowed pattern, preserves a meaningful word part, or resembles another known word.",
+        "on_screen": [
+          "Retrieve a stored word form",
+          "Competing patterns can interfere",
+          "Analyze what the error preserves"
+        ],
+        "icon": "memory",
+        "source_ids": [
+          "ASHA:SPELLING-ERRORS",
+          "ASHA:WLD"
+        ]
+      },
+      {
+        "heading": "Writing load can expose the problem",
+        "narration": "A child may arrange letters correctly with tiles but transpose them during a long sentence. Writing also requires holding an idea, planning language, forming letters, spacing words, and monitoring punctuation. When spelling and handwriting are not automatic, these demands compete for limited working memory. Graphomotor skill can influence spelling performance, particularly in younger children. That does not make every sequence error a motor problem, but it explains why performance may worsen with speed, fatigue, or complex composition.",
+        "on_screen": [
+          "Writing has competing demands",
+          "Automaticity frees attention",
+          "Task difficulty changes performance"
+        ],
+        "icon": "brain",
+        "source_ids": [
+          "DFE:WRITING-2025",
+          "ALSTAD:READWRIT-2014"
+        ]
+      },
+      {
+        "heading": "Compare tasks to locate the breakdown",
+        "narration": "Now, let us go deeper. Ask the child to copy the word, spell it from dictation, say the letters aloud, arrange letter tiles, type it, and use it in a sentence. Correct copying with errors in dictation points toward spelling retrieval or sound mapping. The same transposition in oral spelling, typing, and handwriting suggests a sequence problem beyond pencil control. Errors only during handwriting may direct attention toward visual tracking, speed, or graphomotor demands. This comparison guides support without guessing.",
+        "on_screen": [
+          "Copy",
+          "Say, build, and type",
+          "Write in a sentence"
+        ],
+        "icon": "compare",
+        "source_ids": [
+          "KOHLER:COGNEUROPSYCH-2018",
+          "ASHA:SPELLING-ERRORS",
+          "ALSTAD:READWRIT-2014"
+        ]
+      },
+      {
+        "heading": "Practice the sequence explicitly",
+        "narration": "Choose a few useful words rather than a long list. Say the word, segment its sounds, build it with separate letter tiles, and read the completed word. Then mix the tiles and rebuild it. Next, cover the model, write the word from memory, check immediately, and correct the entire word once. Return after a short delay and use it in a sentence. Short, accurate practice connects sound order, letter position, visual memory, and handwriting without rehearsing the error.",
+        "on_screen": [
+          "Segment and build",
+          "Cover, write, and check",
+          "Retrieve again later"
+        ],
+        "icon": "practice",
+        "source_ids": [
+          "DFE:ENGLISH-CURRICULUM",
+          "IES:EFFECTIVE-WRITERS",
+          "ASHA:WLD"
+        ]
+      },
+      {
+        "heading": "When closer assessment helps",
+        "narration": "Transposing letters occasionally can occur during learning. It is not, by itself, proof of dyslexia, attention-deficit hyperactivity disorder, or dysgraphia. Seek school or clinical assessment when the pattern persists despite clear instruction, appears across many tasks, is far below expected progress, or accompanies difficulty with phonological awareness, reading accuracy, spoken language, handwriting, or daily participation. Assessment may involve a teacher, speech-language professional, psychologist, or occupational therapist depending on the broader pattern.",
+        "on_screen": [
+          "Occasional errors can occur",
+          "Persistence and impact matter",
+          "Assess the broader pattern"
+        ],
+        "icon": "assessment",
+        "source_ids": [
+          "ASHA:WLD",
+          "ASHA:SPELLING-ERRORS",
+          "KOHLER:COGNEUROPSYCH-2018"
+        ]
+      },
+      {
+        "heading": "Three essential takeaways",
+        "narration": "Number one, a transposition means letter order changed, and the cause may involve sound sequencing, positional spelling knowledge, temporary memory, or writing demands. Number two, compare copying, speaking, tiles, typing, dictation, and independent writing before deciding where the breakdown occurs. Number three, teach a small set of words with explicit sound-to-letter sequencing, accurate retrieval, and prompt correction, then seek fuller assessment when the pattern is persistent, widespread, or limiting the child's learning.",
+        "on_screen": [
+          "Define the sequence error",
+          "Compare tasks",
+          "Teach precisely and reassess"
+        ],
+        "icon": "checklist",
+        "source_ids": [
+          "ASHA:WLD",
+          "DFE:ENGLISH-CURRICULUM",
+          "IES:EFFECTIVE-WRITERS"
+        ]
+      }
+    ],
+    "closing": "On the next episode, we will explain why a child confuses similar sounds when spelling, how speech-sound distinctions affect letter choices, and when the pattern needs closer evaluation. Follow the Your Only Doc podcast for clear, evidence based health and development explanations. Stay curious and stay safe.",
+    "description": "Why might a child write the correct letters in the wrong order? This episode separates transpositions from reversals and explains sound sequencing, letter-position encoding, stored spellings, working memory, handwriting demands, practical teaching, and when assessment is appropriate.",
+    "thumbnail_text": "WHY LETTER ORDER CHANGES"
+  }
+}
