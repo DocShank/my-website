@@ -1,0 +1,241 @@
+{
+  "schema": 2,
+  "editorial": {
+    "workflow": "chatgpt-reviewed-v20",
+    "reviewed_by": "ChatGPT medical editorial workflow",
+    "reviewed_on": "2026-11-10",
+    "episode_number": 92,
+    "language": "English",
+    "spoken_host_name_allowed": false,
+    "long_dashes_allowed": false,
+    "target_minutes": 10
+  },
+  "topic_id": "child-confuses-similar-sounds-spelling",
+  "topic": {
+    "id": "child-confuses-similar-sounds-spelling",
+    "title": "Why a Child Confuses Similar Sounds When Spelling",
+    "audience_question": "Why might a child spell one sound with the letter for a similar sound?",
+    "pubmed_query": "children spelling similar speech sounds phoneme discrimination phonological awareness speech sound disorder intervention",
+    "icon_keywords": [
+      "ear",
+      "speech-sounds",
+      "letters"
+    ],
+    "category": "child-development"
+  },
+  "sources": [
+    {
+      "id": "ASHA:WLD",
+      "title": "Written Language Disorders",
+      "abstract": "ASHA describes spelling as mapping phonemes to graphemes in the correct order. Assessment can examine phoneme discrimination, phonological awareness, sound-symbol relationships, orthographic knowledge, and patterns across reading and writing.",
+      "journal": "American Speech-Language-Hearing Association",
+      "year": "2026",
+      "url": "https://www.asha.org/practice-portal/clinical-topics/written-language-disorders/",
+      "doi": null
+    },
+    {
+      "id": "ASHA:WLD-SIGNS",
+      "title": "Signs and Symptoms of Written Language Disorders",
+      "abstract": "ASHA lists difficulty with sound-letter relationships and phonological awareness among possible signs of written language difficulty. It emphasizes that cultural and linguistic variation can influence observed patterns and must be considered during evaluation.",
+      "journal": "American Speech-Language-Hearing Association",
+      "year": "2026",
+      "url": "https://www.asha.org/practice-portal/clinical-topics/written-language-disorders/signs-and-symptoms-of-written-language-disorders/",
+      "doi": null
+    },
+    {
+      "id": "ASHA:SSD",
+      "title": "Speech Sound Disorders: Articulation and Phonology",
+      "abstract": "ASHA explains that phonological processing includes phonological awareness, memory, and retrieval. Receptive tasks can help separate perception and awareness from speech production, while integrated phonological awareness links speech-sound work with letter knowledge.",
+      "journal": "American Speech-Language-Hearing Association",
+      "year": "2026",
+      "url": "https://www.asha.org/practice-portal/clinical-topics/articulation-and-phonology/",
+      "doi": null
+    },
+    {
+      "id": "ASHA:SPELLING-ERRORS",
+      "title": "Linguistic Analysis of Spelling Errors",
+      "abstract": "ASHA presents a framework for analyzing misspellings through phonemic awareness, orthographic pattern awareness, mental graphemic representations, and morphological awareness rather than treating every error as equivalent.",
+      "journal": "American Speech-Language-Hearing Association",
+      "year": "2026",
+      "url": "https://www.asha.org/practice-portal/clinical-topics/written-language-disorders/linguistic-analysis-of-spelling-errors/",
+      "doi": null
+    },
+    {
+      "id": "ASHA:PHONOLOGICAL-PROCESSING",
+      "title": "Phonological Processing",
+      "abstract": "ASHA defines phonological awareness as conscious access to the sound structure of language, including identifying, blending, segmenting, and manipulating sounds. These skills support decoding and spelling.",
+      "journal": "American Speech-Language-Hearing Association",
+      "year": "2026",
+      "url": "https://www.asha.org/public/speech/development/phonological-processing/",
+      "doi": null
+    },
+    {
+      "id": "MCNEILL:SSD-SPELLING-2017",
+      "title": "Spelling Ability of Children With a Speech Sound Disorder With and Without Phonological Awareness Difficulties",
+      "abstract": "A study of children with inconsistent speech sound disorder found poorer spelling than age peers, with greater difficulty among children whose speech disorder persisted. The authors support integrating speech production and spelling goals when appropriate.",
+      "journal": "Language, Speech, and Hearing Services in Schools",
+      "year": "2017",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28475658/",
+      "doi": null
+    },
+    {
+      "id": "PRESTON:SSD-INTERVENTION-2022",
+      "title": "Speech Perception and Phonological Awareness Intervention for Children With Speech Sound Disorders",
+      "abstract": "This clinical research supports combining speech perception, phonological awareness, speech production, and letter knowledge within intervention for some children with speech sound disorders and literacy risk.",
+      "journal": "Language, Speech, and Hearing Services in Schools",
+      "year": "2022",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35377730/",
+      "doi": null
+    },
+    {
+      "id": "IES:EFFECTIVE-WRITERS",
+      "title": "Teaching Elementary School Students to Be Effective Writers",
+      "abstract": "The What Works Clearinghouse practice guide recommends explicit instruction and regular practice in spelling, including phonological awareness, spelling phonics, morphology, word study, and application in authentic writing.",
+      "journal": "Institute of Education Sciences What Works Clearinghouse",
+      "year": "2018",
+      "url": "https://ies.ed.gov/ncee/wwc/PracticeGuide/17",
+      "doi": null
+    }
+  ],
+  "episode": {
+    "title": "E92: Why a Child Confuses Similar Sounds When Spelling",
+    "hook": "A child hears the word pig and writes big. Another writes van when the teacher said fan. The chosen letter is not random. Each pair represents sounds that are formed in almost the same place, with one important difference. It can look like carelessness, yet the error may begin in listening, speech production, sound awareness, or the connection between a sound and its letter. The pattern matters more than one misspelled word.",
+    "sections": [
+      {
+        "heading": "The high yield summary",
+        "narration": "Too busy? Here is your high yield summary. Similar sounds such as p and b, t and d, or f and v share many features, so a child must notice the small contrast and map it to the correct letter. One substitution is not a diagnosis. Check whether the child can hear the difference without speaking, say each sound, separate sounds within words, and spell the contrast across several tasks. Teach the contrast explicitly and assess persistent patterns in context.",
+        "on_screen": [
+          "Small sound contrast",
+          "Check listening, speaking, and spelling",
+          "One error is not a diagnosis"
+        ],
+        "icon": "ear",
+        "source_ids": [
+          "ASHA:WLD",
+          "ASHA:SSD",
+          "ASHA:PHONOLOGICAL-PROCESSING"
+        ]
+      },
+      {
+        "heading": "Similar sounds share features",
+        "narration": "Put two fingers lightly on your throat and alternate f with v. The lips and teeth stay nearly the same, but the voice switches on for v. A similar voice contrast separates p from b and t from d. Other pairs differ by where the tongue touches or how air moves. Children do not need technical labels first. They need repeated, meaningful chances to hear, feel, and compare the contrast.",
+        "on_screen": [
+          "Feel the voice switch",
+          "Compare mouth position",
+          "Notice the contrast"
+        ],
+        "icon": "speech-sounds",
+        "source_ids": [
+          "ASHA:SSD",
+          "PRESTON:SSD-INTERVENTION-2022"
+        ]
+      },
+      {
+        "heading": "Listening and speaking are different tests",
+        "narration": "A child may understand two sounds as different but pronounce them similarly. Another may say both accurately yet struggle to judge them inside unfamiliar words. Test listening without requiring speech. Say two words and ask whether they are the same or different, or ask the child to point to the picture you name. Receptive tasks reduce the chance that a production error is mistaken for a perception problem.",
+        "on_screen": [
+          "Listen without speaking",
+          "Same or different",
+          "Point to the word heard"
+        ],
+        "icon": "compare",
+        "source_ids": [
+          "ASHA:SSD",
+          "ASHA:WLD"
+        ]
+      },
+      {
+        "heading": "Phonological awareness supports spelling",
+        "narration": "Spelling requires more than hearing the whole word. The child must notice its individual phonemes, keep their order, and connect each one with a grapheme. Ask for the first sound in fan, then compare it with van. Try blending separate sounds into a word and segmenting a word into counters. Difficulty across these tasks suggests that the sound structure itself needs teaching, not simply more copying.",
+        "on_screen": [
+          "Identify each phoneme",
+          "Blend and segment",
+          "Connect sound to letter"
+        ],
+        "icon": "letter-tiles",
+        "source_ids": [
+          "ASHA:PHONOLOGICAL-PROCESSING",
+          "ASHA:WLD",
+          "IES:EFFECTIVE-WRITERS"
+        ]
+      },
+      {
+        "heading": "Speech patterns can influence spelling",
+        "narration": "Speech and spelling can interact, but the relationship is not automatic. Some children with speech sound disorders also show weaknesses in phonological awareness or spelling, while others do not. If a child consistently says and spells a sound the same incorrect way, examine both skills. If speech is accurate but spelling is not, focus more closely on sound awareness, letter knowledge, and stored spelling patterns.",
+        "on_screen": [
+          "Speech and spelling can interact",
+          "Patterns differ between children",
+          "Assess both when needed"
+        ],
+        "icon": "speech-bubble",
+        "source_ids": [
+          "ASHA:SSD",
+          "MCNEILL:SSD-SPELLING-2017",
+          "PRESTON:SSD-INTERVENTION-2022"
+        ]
+      },
+      {
+        "heading": "Language background changes interpretation",
+        "narration": "Now, let us go deeper. Accent, dialect, and multilingual development affect which sound contrasts a child has learned and how those sounds map across languages. A pattern that differs from classroom English is not automatically a disorder. Ask which languages the child hears and uses, examine performance in those languages when possible, and compare the pattern with appropriate language peers. Evaluation must separate difference from difficulty.",
+        "on_screen": [
+          "Know the child's languages",
+          "Variation is not disorder",
+          "Use appropriate comparisons"
+        ],
+        "icon": "languages",
+        "source_ids": [
+          "ASHA:WLD-SIGNS",
+          "ASHA:SSD"
+        ]
+      },
+      {
+        "heading": "Teach the contrast and the letters together",
+        "narration": "Choose one contrast and a few familiar words. Let the child hear the pair, watch the mouth, and feel whether the voice is on. Sort pictures by their first sound. Place the matching letters above each group, then build, write, and read the words. Include an unfamiliar word to check whether the rule transfers. Short accurate practice connects perception, production, phonological awareness, and letter knowledge.",
+        "on_screen": [
+          "Hear, see, and feel",
+          "Sort by sound",
+          "Build, write, and read"
+        ],
+        "icon": "practice",
+        "source_ids": [
+          "PRESTON:SSD-INTERVENTION-2022",
+          "ASHA:SSD",
+          "IES:EFFECTIVE-WRITERS"
+        ]
+      },
+      {
+        "heading": "When closer assessment helps",
+        "narration": "Seek school or clinical assessment when substitutions are frequent, persist despite explicit teaching, occur across many sound pairs, or accompany difficulty with speech clarity, phonological awareness, reading, or classroom participation. Concerns about hearing or inconsistent responses to speech also deserve a hearing check. Depending on the pattern, assessment may involve the teacher, a speech-language professional, a reading specialist, and an audiologist. Spelling alone cannot identify the cause.",
+        "on_screen": [
+          "Persistence matters",
+          "Check the broader pattern",
+          "Spelling alone cannot diagnose"
+        ],
+        "icon": "assessment",
+        "source_ids": [
+          "ASHA:WLD",
+          "ASHA:WLD-SIGNS",
+          "ASHA:SSD"
+        ]
+      },
+      {
+        "heading": "Three essential takeaways",
+        "narration": "Number one, similar sounds differ by small features, and a spelling substitution may begin in perception, production, phonological awareness, or sound-to-letter mapping. Number two, compare listening without speaking, speech production, sound segmentation, and spelling across several words while respecting the child's language background. Number three, teach one contrast explicitly with listening, mouth cues, picture sorting, letters, reading, and writing, then seek fuller assessment when the pattern is persistent or limiting learning.",
+        "on_screen": [
+          "Find the level of difficulty",
+          "Respect language background",
+          "Teach precisely and reassess"
+        ],
+        "icon": "checklist",
+        "source_ids": [
+          "ASHA:WLD",
+          "ASHA:SSD",
+          "PRESTON:SSD-INTERVENTION-2022"
+        ]
+      }
+    ],
+    "closing": "On the next episode, we will explain why a child misspells word endings, including plurals, past tense, and other small endings that carry important meaning. Follow the Your Only Doc podcast for clear, evidence based health and development explanations. Stay curious and stay safe.",
+    "description": "Why might a child spell one sound with the letter for a similar sound? This episode explains sound contrasts, listening and speech production, phonological awareness, language variation, practical teaching, and when closer assessment is appropriate.",
+    "thumbnail_text": "WHY SOUNDS GET SWITCHED"
+  }
+}
