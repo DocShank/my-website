@@ -1,0 +1,241 @@
+{
+  "schema": 2,
+  "editorial": {
+    "workflow": "chatgpt-reviewed-v20",
+    "reviewed_by": "ChatGPT medical editorial workflow",
+    "reviewed_on": "2026-11-11",
+    "episode_number": 93,
+    "language": "English",
+    "spoken_host_name_allowed": false,
+    "long_dashes_allowed": false,
+    "target_minutes": 10
+  },
+  "topic_id": "child-misspells-word-endings",
+  "topic": {
+    "id": "child-misspells-word-endings",
+    "title": "Why a Child Misspells Word Endings",
+    "audience_question": "Why might a child omit or misspell endings such as s, ed, and ing?",
+    "pubmed_query": "children spelling inflectional morphology suffixes final consonant clusters word endings",
+    "icon_keywords": [
+      "word-ending",
+      "suffix",
+      "pencil"
+    ],
+    "category": "child-development"
+  },
+  "sources": [
+    {
+      "id": "ASHA:WLD",
+      "title": "Written Language Disorders",
+      "abstract": "ASHA explains that spelling draws on phonological, orthographic, semantic, and morphological knowledge. Inflectional morphology marks tense, number, possession, or comparison, while stored representations include words and affixes.",
+      "journal": "American Speech-Language-Hearing Association",
+      "year": "2026",
+      "url": "https://www.asha.org/practice-portal/clinical-topics/written-language-disorders/",
+      "doi": null
+    },
+    {
+      "id": "ASHA:WLD-SIGNS",
+      "title": "Signs and Symptoms of Written Language Disorders",
+      "abstract": "ASHA includes difficulty with common bound morphemes such as ing and ed, omission of plural s and past tense ed, and difficulty integrating phonological, orthographic, and morphological information among possible written language concerns.",
+      "journal": "American Speech-Language-Hearing Association",
+      "year": "2026",
+      "url": "https://www.asha.org/practice-portal/clinical-topics/written-language-disorders/signs-and-symptoms-of-written-language-disorders/",
+      "doi": null
+    },
+    {
+      "id": "IES:EFFECTIVE-WRITERS",
+      "title": "Teaching Elementary School Students to Be Effective Writers",
+      "abstract": "The What Works Clearinghouse practice guide recommends explicit spelling instruction, including morphological spelling. It illustrates that regular past tense ed keeps one spelling although it can sound different across words.",
+      "journal": "Institute of Education Sciences What Works Clearinghouse",
+      "year": "2018",
+      "url": "https://ies.ed.gov/ncee/wwc/PracticeGuide/17",
+      "doi": null
+    },
+    {
+      "id": "IES:FOUNDATIONAL-READING",
+      "title": "Foundational Skills to Support Reading for Understanding in Kindergarten Through 3rd Grade",
+      "abstract": "The Institute of Education Sciences recommends explicit teaching of suffixes such as s, ed, ing, and est, with practice building, modifying, writing, and reading words containing those parts.",
+      "journal": "Institute of Education Sciences What Works Clearinghouse",
+      "year": "2016",
+      "url": "https://ies.ed.gov/ncee/wwc/Docs/PracticeGuide/wwc_foundationalreading_070516.pdf",
+      "doi": null
+    },
+    {
+      "id": "TREIMAN:CHILDDEV-1996",
+      "title": "Effects of Morphology on Children's Spelling of Final Consonant Clusters",
+      "abstract": "Experiments found that children showed different omission patterns when final consonants crossed a morpheme boundary, as in an inflected word, compared with consonants belonging to one morpheme. Even early readers used some morphological information.",
+      "journal": "Child Development",
+      "year": "1996",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/8812040/",
+      "doi": null
+    },
+    {
+      "id": "DEVONSHIRE:SPELLING-2005",
+      "title": "What Young Children Do and Do Not Know About the Spelling of Inflections and Derivations",
+      "abstract": "Children aged 5 to 8 showed awareness that inflectional suffixes affect spelling, while spelling difficulty limited how consistently they could apply that knowledge. Older children could use a shown derivational pattern in related words.",
+      "journal": "Developmental Science",
+      "year": "2005",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16246249/",
+      "doi": null
+    },
+    {
+      "id": "NUNES:CHILDDEV-2007",
+      "title": "How Children Learn About Morphological Spelling Rules",
+      "abstract": "A two-year longitudinal study found that children's word-specific learning of inflectional spellings may support their later use of broader morphological spelling rules.",
+      "journal": "Child Development",
+      "year": "2007",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17650143/",
+      "doi": null
+    },
+    {
+      "id": "KEMP:READWRIT-1997",
+      "title": "Morphological Spelling Strategies: Developmental Stages and Processes",
+      "abstract": "Longitudinal evidence suggests that children may first learn ending patterns as letter sequences, then gradually restrict them according to grammatical category and meaning. Grammatical awareness predicted later success with inflectional spelling.",
+      "journal": "Reading and Writing",
+      "year": "1997",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/9232379/",
+      "doi": null
+    }
+  ],
+  "episode": {
+    "title": "E93: Why a Child Misspells Word Endings",
+    "hook": "A child writes, The dog jump over two log. The main words are recognizable, but the small endings have disappeared. Another child writes walked as walkt because that is what the ending sounds like. These errors are not all the same. A word ending may carry sound, spelling, grammar, and meaning at once. To help accurately, we need to find which layer is breaking down.",
+    "sections": [
+      {
+        "heading": "The high yield summary",
+        "narration": "Too busy? Here is your high yield summary. Endings such as s, ed, and ing are meaningful word parts called morphemes. A child must hear the final sounds, understand what the ending means, know its conventional spelling, and apply any spelling change to the base word. One omitted ending is not a diagnosis. Compare speaking, reading, building, and writing the same word family, then teach the ending's sound, meaning, and spelling together.",
+        "on_screen": [
+          "Endings carry meaning",
+          "Sound and spelling may differ",
+          "Compare the whole word family"
+        ],
+        "icon": "word-ending",
+        "source_ids": [
+          "ASHA:WLD",
+          "IES:EFFECTIVE-WRITERS",
+          "IES:FOUNDATIONAL-READING"
+        ]
+      },
+      {
+        "heading": "The ending may be hard to hear",
+        "narration": "Some endings create crowded final sound sequences. In jumped, the final consonants arrive quickly. In dogs, the plural ending sounds like z, while in cats it sounds like s. Ask the child to repeat the word, stretch the ending, and move one counter for each final sound. If the sound is missing before writing begins, phonological awareness or speech production may need closer attention.",
+        "on_screen": [
+          "Listen to the final sounds",
+          "Final clusters can be crowded",
+          "Check before writing"
+        ],
+        "icon": "ear",
+        "source_ids": [
+          "ASHA:WLD",
+          "TREIMAN:CHILDDEV-1996"
+        ]
+      },
+      {
+        "heading": "One spelling can have several sounds",
+        "narration": "The regular past tense ending ed sounds different in walked, played, and wanted, yet its spelling stays ed because it marks the same grammatical idea. A child who writes only by sound may choose t, d, or id. Teach that English spelling preserves meaning as well as pronunciation. Group examples by sound, then circle the shared ed so the stable written pattern becomes visible.",
+        "on_screen": [
+          "Walked, played, wanted",
+          "Different sounds",
+          "The same ed meaning"
+        ],
+        "icon": "suffix",
+        "source_ids": [
+          "IES:EFFECTIVE-WRITERS",
+          "ASHA:WLD",
+          "KEMP:READWRIT-1997"
+        ]
+      },
+      {
+        "heading": "Grammar determines whether an ending belongs",
+        "narration": "A child may spell the ending correctly when it is requested alone but omit it in a sentence. That can reflect difficulty using tense, number, possession, or agreement, not simply forgetting letters. Compare one dog with two dogs, today I jump with yesterday I jumped, and the child plays with the children play. Ask what changed in meaning before asking which letters changed.",
+        "on_screen": [
+          "Number",
+          "Tense",
+          "Agreement and possession"
+        ],
+        "icon": "grammar",
+        "source_ids": [
+          "ASHA:WLD",
+          "ASHA:WLD-SIGNS",
+          "DEVONSHIRE:SPELLING-2005"
+        ]
+      },
+      {
+        "heading": "The base word may change",
+        "narration": "Adding an ending sometimes changes the base spelling. Hop becomes hopping with a doubled p, make becomes making without the final e, and carry becomes carried with y changing to i. These patterns should be taught as comparisons, not as isolated corrections. The child needs to identify the base, name the suffix, notice the junction, and explain what changed before writing the completed word.",
+        "on_screen": [
+          "Find the base word",
+          "Add the suffix",
+          "Check the junction"
+        ],
+        "icon": "letter-tiles",
+        "source_ids": [
+          "ASHA:WLD",
+          "IES:FOUNDATIONAL-READING"
+        ]
+      },
+      {
+        "heading": "Compare tasks to locate the difficulty",
+        "narration": "Now, let us go deeper. Ask the child to say a sentence, choose the correct ending from two options, build the word with separate base and suffix cards, read it, and write it from memory. Accurate speaking with inaccurate spelling points toward written mapping. Missing endings in both speech and writing may involve broader language skills. Accurate single words but omissions in sentences may reflect attention, working memory, or grammatical load.",
+        "on_screen": [
+          "Say it",
+          "Build and read it",
+          "Write it in a sentence"
+        ],
+        "icon": "compare",
+        "source_ids": [
+          "ASHA:WLD",
+          "ASHA:WLD-SIGNS",
+          "TREIMAN:CHILDDEV-1996"
+        ]
+      },
+      {
+        "heading": "Teach word families explicitly",
+        "narration": "Choose one useful base word and build a small family: jump, jumps, jumped, jumping. Use color or a line to keep the base visible and another color for each ending. Say what every form means, read it, cover it, write it, and check it. Then use each form in a sentence. Repeated accurate experience with specific words can help children discover broader morphological rules.",
+        "on_screen": [
+          "Keep the base visible",
+          "Link ending to meaning",
+          "Read, write, and use"
+        ],
+        "icon": "word-family",
+        "source_ids": [
+          "NUNES:CHILDDEV-2007",
+          "IES:FOUNDATIONAL-READING",
+          "IES:EFFECTIVE-WRITERS"
+        ]
+      },
+      {
+        "heading": "When closer assessment helps",
+        "narration": "Occasional ending errors are expected while spelling develops. Seek school or clinical assessment when omissions remain frequent despite clear instruction, appear in both speech and writing, affect many grammatical endings, or accompany difficulty with speech sounds, reading, language comprehension, or sentence construction. Consider the child's dialect and languages because grammatical forms vary. Assessment should describe the pattern and its effect on learning, not infer a diagnosis from one worksheet.",
+        "on_screen": [
+          "Persistence matters",
+          "Check speech and writing",
+          "Respect language variation"
+        ],
+        "icon": "assessment",
+        "source_ids": [
+          "ASHA:WLD",
+          "ASHA:WLD-SIGNS"
+        ]
+      },
+      {
+        "heading": "Three essential takeaways",
+        "narration": "Number one, word endings carry grammatical meaning, and their sounds do not always reveal their conventional spelling. Number two, compare hearing, speaking, grammatical understanding, word building, reading, and sentence writing to find where the breakdown occurs. Number three, teach the base and ending together through word families, explicit meaning, repeated retrieval, and immediate feedback, then seek fuller assessment when the pattern is persistent, widespread, or limiting the child's learning.",
+        "on_screen": [
+          "Meaning guides spelling",
+          "Compare several tasks",
+          "Teach families and reassess"
+        ],
+        "icon": "checklist",
+        "source_ids": [
+          "ASHA:WLD",
+          "IES:EFFECTIVE-WRITERS",
+          "NUNES:CHILDDEV-2007"
+        ]
+      }
+    ],
+    "closing": "On the next episode, we will explain why a child misspells unstressed vowels, including the quiet vowel sounds that can make familiar words surprisingly difficult to write. Follow the Your Only Doc podcast for clear, evidence based health and development explanations. Stay curious and stay safe.",
+    "description": "Why might a child omit or misspell s, ed, ing, and other endings? This episode explains final sound clusters, grammatical meaning, stable suffix spellings, base-word changes, practical teaching, and when closer assessment is appropriate.",
+    "thumbnail_text": "WHY WORD ENDINGS DISAPPEAR"
+  }
+}
