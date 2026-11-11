@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "workflow": "chatgpt-reviewed-v20",
-  "updated_at": "2026-11-10T09:21:28.000Z",
-  "next_episode_number": 93,
+  "updated_at": "2026-11-11T09:35:46.000Z",
+  "next_episode_number": 94,
   "next_planned_topic": {
-    "id": "child-misspells-word-endings",
-    "title": "Why a Child Misspells Word Endings",
-    "reason": "It follows similar-sound substitutions by explaining how final sound clusters, grammatical meaning, and fixed suffix spellings affect plurals, past tense, and other word endings."
+    "id": "child-misspells-unstressed-vowels",
+    "title": "Why a Child Misspells Unstressed Vowels",
+    "reason": "It follows word endings by examining quiet vowel sounds, syllable stress, schwa, and the need to connect pronunciation with stable written word forms."
   },
   "packets": [
     {
@@ -595,6 +595,13 @@
       "topic_id": "child-confuses-similar-sounds-spelling",
       "title": "E92: Why a Child Confuses Similar Sounds When Spelling",
       "file": "episodes/E92-child-confuses-similar-sounds-spelling.json",
+      "status": "ready"
+    },
+    {
+      "episode_number": 93,
+      "topic_id": "child-misspells-word-endings",
+      "title": "E93: Why a Child Misspells Word Endings",
+      "file": "episodes/E93-child-misspells-word-endings.json",
       "status": "ready"
     }
   ],
