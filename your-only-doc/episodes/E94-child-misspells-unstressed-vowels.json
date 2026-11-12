@@ -1,0 +1,244 @@
+{
+  "schema": 2,
+  "editorial": {
+    "workflow": "chatgpt-reviewed-v20",
+    "reviewed_by": "ChatGPT medical editorial workflow",
+    "reviewed_on": "2026-11-12",
+    "episode_number": 94,
+    "language": "English",
+    "spoken_host_name_allowed": false,
+    "long_dashes_allowed": false,
+    "target_minutes": 10
+  },
+  "topic_id": "child-misspells-unstressed-vowels",
+  "topic": {
+    "id": "child-misspells-unstressed-vowels",
+    "title": "Why a Child Misspells Unstressed Vowels",
+    "audience_question": "Why might a child omit or choose the wrong vowel in a quiet, unstressed syllable?",
+    "pubmed_query": "children spelling unstressed vowels schwa syllable stress orthographic learning morphology",
+    "icon_keywords": [
+      "schwa",
+      "syllable",
+      "vowel"
+    ],
+    "category": "child-development"
+  },
+  "sources": [
+    {
+      "id": "ASHA:WLD",
+      "title": "Written Language Disorders",
+      "abstract": "ASHA describes spelling as integrating phonological awareness, syllable stress, orthographic patterns, stored written word forms, morphology, and meaning. Assessment should examine these components in context.",
+      "journal": "American Speech-Language-Hearing Association",
+      "year": "2026",
+      "url": "https://www.asha.org/practice-portal/clinical-topics/written-language-disorders/",
+      "doi": null
+    },
+    {
+      "id": "ASHA:SPELLING-ERRORS",
+      "title": "Linguistic Analysis of Spelling Errors",
+      "abstract": "ASHA recommends analyzing spelling errors by phonemic awareness, orthographic pattern awareness, mental graphemic representations, and morphological awareness rather than treating all vowel errors as equivalent.",
+      "journal": "American Speech-Language-Hearing Association",
+      "year": "2026",
+      "url": "https://www.asha.org/practice-portal/clinical-topics/written-language-disorders/linguistic-analysis-of-spelling-errors/",
+      "doi": null
+    },
+    {
+      "id": "IES:PRISMS",
+      "title": "Providing Reading Interventions for Students in Middle School Toolkit",
+      "abstract": "The Institute of Education Sciences recommends explicit work with schwa, syllables, vowel patterns, affixes, and multisyllabic word parts, while considering the learner's home language and dialect.",
+      "journal": "Institute of Education Sciences",
+      "year": "2026",
+      "url": "https://ies.ed.gov/ncee/rel/reading-intervention-grades-6-8/pro-learning-module1-assess",
+      "doi": null
+    },
+    {
+      "id": "DFE:ENGLISH-CURRICULUM",
+      "title": "National Curriculum in England: English Programmes of Study",
+      "abstract": "The curriculum explains that spelling requires phoneme to grapheme mapping but is more variable than reading. It recommends word-specific rehearsal, reading spellings back, applying patterns in dictated sentences, and correcting taught words.",
+      "journal": "UK Department for Education",
+      "year": "2014",
+      "url": "https://www.gov.uk/government/publications/national-curriculum-in-england-english-programmes-of-study/national-curriculum-in-england-english-programmes-of-study",
+      "doi": null
+    },
+    {
+      "id": "NAEYC:SCHWA-2015",
+      "title": "Letter Names Can Cause Confusion and Other Things to Know About Letter Sound Relationships",
+      "abstract": "NAEYC explains that schwa in an unstressed syllable can be represented by different vowel letters. It recommends teaching the correct written form and using related known words rather than distorting pronunciation to reveal a letter.",
+      "journal": "National Association for the Education of Young Children",
+      "year": "2015",
+      "url": "https://www.naeyc.org/resources/pubs/yc/mar2015/letter-sound-relationships",
+      "doi": null
+    },
+    {
+      "id": "HOLLIMAN:JRESREAD-2018",
+      "title": "The Development of Stress Sensitivity and Its Contribution to Word Reading in School-Aged Children",
+      "abstract": "Research found that sensitivity to stress patterns and vowel reduction developed across childhood. At ages 5 to 7, performance on a stress task explained unique variation in spelling after accounting for phonological awareness and vocabulary.",
+      "journal": "Journal of Research in Reading",
+      "year": "2018",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6162047/",
+      "doi": null
+    },
+    {
+      "id": "TREIMAN:JECP-1993",
+      "title": "Phonology and Spelling: The Case of Syllabic Consonants",
+      "abstract": "Experiments showed that English phonological structure influenced children's spellings. Vowel omissions and misorderings were more common around syllabic consonants, illustrating why a weak or reduced vowel may be difficult to represent.",
+      "journal": "Journal of Experimental Child Psychology",
+      "year": "1993",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/8301240/",
+      "doi": null
+    },
+    {
+      "id": "CARAVOLAS:SPELLING-2015",
+      "title": "The Role of Phonology, Morphology, and Orthography in English and Russian Spelling",
+      "abstract": "Cross-linguistic research found that spelling performance reflects contributions from phonology, morphology, and orthography, with the balance shaped by the writing system and language being learned.",
+      "journal": "Dyslexia",
+      "year": "2015",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25828423/",
+      "doi": null
+    }
+  ],
+  "episode": {
+    "title": "E94: Why a Child Misspells Unstressed Vowels",
+    "hook": "A child writes animal without the i, or chooses a different vowel in the first syllable of about. When the word is spoken naturally, that vowel is quiet and blurred. It may sound like a short uh even though the correct spelling uses a, e, i, o, or u. The child is not necessarily failing to listen. English speech has reduced vowels, and their letters often cannot be recovered from sound alone.",
+    "sections": [
+      {
+        "heading": "The high yield summary",
+        "narration": "Too busy? Here is your high yield summary. In an unstressed syllable, a vowel may reduce toward schwa, the neutral sound heard in the first syllable of about. Several vowel letters can represent that sound, so sounding out may not identify the correct one. Teach the syllable, stress pattern, written word, and useful word family together. Compare listening, speaking, reading, and spelling, and assess persistent patterns without treating one weak-vowel error as a diagnosis.",
+        "on_screen": [
+          "Unstressed vowels can reduce",
+          "Sound may not reveal the letter",
+          "Teach stress and spelling together"
+        ],
+        "icon": "schwa",
+        "source_ids": [
+          "ASHA:WLD",
+          "NAEYC:SCHWA-2015",
+          "HOLLIMAN:JRESREAD-2018"
+        ]
+      },
+      {
+        "heading": "Stress changes vowel clarity",
+        "narration": "Say the word photograph, then photography. The strongest syllable moves, and some vowels change quality. Stressed vowels are usually clearer and longer. Unstressed vowels may become shorter and more central, often approaching schwa. Ask the child to say a multisyllabic word naturally, tap each syllable, and mark the strongest beat. This makes the quiet syllable visible without pretending that every vowel is equally clear.",
+        "on_screen": [
+          "Tap each syllable",
+          "Mark the strongest beat",
+          "Notice the reduced vowel"
+        ],
+        "icon": "syllable",
+        "source_ids": [
+          "HOLLIMAN:JRESREAD-2018",
+          "ASHA:WLD",
+          "IES:PRISMS"
+        ]
+      },
+      {
+        "heading": "Schwa does not name its letter",
+        "narration": "The schwa sound can be written with different vowel letters. The first vowel in about is a, while the quiet vowel in pencil is i. A child who writes only what is heard may omit the vowel or choose another plausible one. Do not turn a word into an unnatural pronunciation just to expose the spelling. Show the correct form, name the uncertain vowel, and practice retrieving it accurately.",
+        "on_screen": [
+          "One sound, several possible vowels",
+          "Avoid artificial pronunciation",
+          "Reveal and retrieve the spelling"
+        ],
+        "icon": "vowel",
+        "source_ids": [
+          "NAEYC:SCHWA-2015",
+          "DFE:ENGLISH-CURRICULUM",
+          "TREIMAN:JECP-1993"
+        ]
+      },
+      {
+        "heading": "First check the syllable structure",
+        "narration": "Before choosing a vowel, check whether the child represents every syllable. Say family or memory and ask for one block per spoken part. Then compare the blocks with the written word. If an entire weak syllable disappears in speech or spelling, the task differs from choosing the wrong vowel inside a preserved syllable. That distinction guides whether to emphasize syllable awareness, speech production, or written-word memory.",
+        "on_screen": [
+          "Count spoken syllables",
+          "Keep every word part",
+          "Then identify the vowel"
+        ],
+        "icon": "blocks",
+        "source_ids": [
+          "ASHA:WLD",
+          "TREIMAN:JECP-1993",
+          "IES:PRISMS"
+        ]
+      },
+      {
+        "heading": "Related words can reveal the vowel",
+        "narration": "A related word sometimes places stress on the uncertain vowel and makes it clearer. The first vowel in define is easier to connect with definition, and the family around magic supports magician. Meaningful word families also preserve roots and affixes even when pronunciation shifts. This strategy does not solve every word, but it connects sound, meaning, morphology, and a stable written pattern instead of relying on guessing.",
+        "on_screen": [
+          "Find a related word",
+          "Listen for a clearer vowel",
+          "Keep the meaningful word part"
+        ],
+        "icon": "word-family",
+        "source_ids": [
+          "ASHA:WLD",
+          "NAEYC:SCHWA-2015",
+          "CARAVOLAS:SPELLING-2015"
+        ]
+      },
+      {
+        "heading": "Compare tasks to locate the difficulty",
+        "narration": "Now, let us go deeper. Ask the child to repeat the word, tap its syllables, identify the strong syllable, choose between two printed spellings, read the correct form, and write it from memory. Correct recognition with weak recall suggests an unstable stored spelling. Missing syllables in both speaking and writing point elsewhere. Accurate spelling in a list but errors in sentences may reflect retrieval speed or the competing demands of composition.",
+        "on_screen": [
+          "Say and tap",
+          "Choose and read",
+          "Write from memory"
+        ],
+        "icon": "compare",
+        "source_ids": [
+          "ASHA:WLD",
+          "ASHA:SPELLING-ERRORS",
+          "HOLLIMAN:JRESREAD-2018"
+        ]
+      },
+      {
+        "heading": "Practice the exact word accurately",
+        "narration": "Choose a few useful words. Say each naturally, divide it into syllables, mark the stress, and underline the uncertain vowel. Connect a related word when helpful. Then cover the model, write the word, check immediately, and correct the whole word once. Return after a short delay and use it in a sentence. Word-specific rehearsal matters because English offers several plausible spellings for the same reduced sound.",
+        "on_screen": [
+          "Mark the uncertain vowel",
+          "Cover, write, and check",
+          "Retrieve again in context"
+        ],
+        "icon": "practice",
+        "source_ids": [
+          "DFE:ENGLISH-CURRICULUM",
+          "ASHA:WLD",
+          "IES:PRISMS"
+        ]
+      },
+      {
+        "heading": "When closer assessment helps",
+        "narration": "Unstressed-vowel errors can occur during normal spelling development. Seek school or clinical assessment when they remain frequent despite explicit teaching, involve omitted syllables, affect reading of multisyllabic words, or appear with broader speech, language, or literacy difficulty. Accent, dialect, and multilingual experience shape stress and vowel patterns, so evaluation must consider the child's languages. Spelling alone cannot identify a disorder or its cause.",
+        "on_screen": [
+          "Persistence and impact matter",
+          "Check broader language and literacy",
+          "Respect language variation"
+        ],
+        "icon": "assessment",
+        "source_ids": [
+          "ASHA:WLD",
+          "IES:PRISMS",
+          "CARAVOLAS:SPELLING-2015"
+        ]
+      },
+      {
+        "heading": "Three essential takeaways",
+        "narration": "Number one, an unstressed vowel may reduce to schwa, so its sound often does not identify the correct vowel letter. Number two, compare syllable awareness, stress, speech, recognition, reading, and spelling before deciding where the breakdown occurs. Number three, teach the natural pronunciation and exact written form through syllable marking, useful word families, repeated retrieval, and prompt feedback, then seek fuller assessment when the pattern is persistent or limits learning.",
+        "on_screen": [
+          "Schwa hides vowel identity",
+          "Compare several language tasks",
+          "Teach exact spellings and reassess"
+        ],
+        "icon": "checklist",
+        "source_ids": [
+          "ASHA:WLD",
+          "NAEYC:SCHWA-2015",
+          "HOLLIMAN:JRESREAD-2018"
+        ]
+      }
+    ],
+    "closing": "On the next episode, we will explain why a child misspells words with double letters, how letter position and syllable structure affect doubling, and which patterns need direct teaching. Follow the Your Only Doc podcast for clear, evidence based health and development explanations. Stay curious and stay safe.",
+    "description": "Why might a child omit or choose the wrong vowel in a quiet syllable? This episode explains stress, schwa, syllable structure, word families, accurate practice, and when closer assessment is appropriate.",
+    "thumbnail_text": "WHY QUIET VOWELS GET MISSED"
+  }
+}
