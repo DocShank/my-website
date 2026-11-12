@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "workflow": "chatgpt-reviewed-v20",
-  "updated_at": "2026-11-11T09:35:46.000Z",
-  "next_episode_number": 94,
+  "updated_at": "2026-11-12T09:10:33.000Z",
+  "next_episode_number": 95,
   "next_planned_topic": {
-    "id": "child-misspells-unstressed-vowels",
-    "title": "Why a Child Misspells Unstressed Vowels",
-    "reason": "It follows word endings by examining quiet vowel sounds, syllable stress, schwa, and the need to connect pronunciation with stable written word forms."
+    "id": "child-misspells-double-letters",
+    "title": "Why a Child Misspells Words With Double Letters",
+    "reason": "It follows unstressed vowels by explaining how syllable structure, vowel patterns, suffix boundaries, and stored word forms determine when consonants are doubled."
   },
   "packets": [
     {
@@ -602,6 +602,13 @@
       "topic_id": "child-misspells-word-endings",
       "title": "E93: Why a Child Misspells Word Endings",
       "file": "episodes/E93-child-misspells-word-endings.json",
+      "status": "ready"
+    },
+    {
+      "episode_number": 94,
+      "topic_id": "child-misspells-unstressed-vowels",
+      "title": "E94: Why a Child Misspells Unstressed Vowels",
+      "file": "episodes/E94-child-misspells-unstressed-vowels.json",
       "status": "ready"
     }
   ],
