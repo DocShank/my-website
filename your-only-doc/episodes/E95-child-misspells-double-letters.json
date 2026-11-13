@@ -1,0 +1,244 @@
+{
+  "schema": 2,
+  "editorial": {
+    "workflow": "chatgpt-reviewed-v20",
+    "reviewed_by": "ChatGPT medical editorial workflow",
+    "reviewed_on": "2026-11-13",
+    "episode_number": 95,
+    "language": "English",
+    "spoken_host_name_allowed": false,
+    "long_dashes_allowed": false,
+    "target_minutes": 10
+  },
+  "topic_id": "child-misspells-double-letters",
+  "topic": {
+    "id": "child-misspells-double-letters",
+    "title": "Why a Child Misspells Words With Double Letters",
+    "audience_question": "Why might a child omit a doubled consonant or double the wrong letter?",
+    "pubmed_query": "children spelling double consonants consonant doubling orthographic patterns suffixes vowel length",
+    "icon_keywords": [
+      "double-letters",
+      "syllable",
+      "word-building"
+    ],
+    "category": "child-development"
+  },
+  "sources": [
+    {
+      "id": "ASHA:WLD",
+      "title": "Written Language Disorders",
+      "abstract": "ASHA explains that spelling integrates phonological, orthographic, morphological, and semantic knowledge. It specifically uses hop to hopped as an example of a base-word change when a suffix is added.",
+      "journal": "American Speech-Language-Hearing Association",
+      "year": "2026",
+      "url": "https://www.asha.org/practice-portal/clinical-topics/written-language-disorders/",
+      "doi": null
+    },
+    {
+      "id": "ASHA:SPELLING-ERRORS",
+      "title": "Linguistic Analysis of Spelling Errors",
+      "abstract": "ASHA identifies within-word doubling errors as evidence to examine orthographic pattern awareness, alongside phonemic awareness, stored written forms, and morphological knowledge.",
+      "journal": "American Speech-Language-Hearing Association",
+      "year": "2026",
+      "url": "https://www.asha.org/practice-portal/clinical-topics/written-language-disorders/linguistic-analysis-of-spelling-errors/",
+      "doi": null
+    },
+    {
+      "id": "IES:DOUBLE-CONSONANT",
+      "title": "A Second-Grade Teacher's Guide to Supporting Family Involvement in Foundational Reading Skills",
+      "abstract": "The Institute of Education Sciences provides explicit instruction and practice for doubling the final consonant of selected one-syllable words before adding ed or ing, using examples such as stopped and swimming.",
+      "journal": "Institute of Education Sciences",
+      "year": "2020",
+      "url": "https://ies.ed.gov/ies/2025/01/second-grade-teachers-guide-supporting-family-involvement-foundational-reading-skills",
+      "doi": null
+    },
+    {
+      "id": "DFE:ENGLISH-CURRICULUM",
+      "title": "National Curriculum in England: English Programmes of Study",
+      "abstract": "The curriculum recommends explicit teaching of spelling rules, suffixes, syllable boundaries, reading back written words, word-specific rehearsal, dictated sentences, and prompt correction of taught spellings.",
+      "journal": "UK Department for Education",
+      "year": "2014",
+      "url": "https://www.gov.uk/government/publications/national-curriculum-in-england-english-programmes-of-study/national-curriculum-in-england-english-programmes-of-study",
+      "doi": null
+    },
+    {
+      "id": "ZHANG:JECP-2023",
+      "title": "Double Trouble: Using Spellings of Different Lengths to Represent Vowel Length in English",
+      "abstract": "A spelling-production study found that use of medial double consonants after short vowels increased with grade level but remained difficult. The authors highlight statistical learning and explicit instruction in mastering these patterns.",
+      "journal": "Journal of Experimental Child Psychology",
+      "year": "2023",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36871325/",
+      "doi": null
+    },
+    {
+      "id": "CASSAR:JEDPSYCH-1997",
+      "title": "The Beginnings of Orthographic Knowledge: Children's Knowledge of Double Letters in Words",
+      "abstract": "Research showed that young children possess some early knowledge about where doubled letters are plausible in English words, even before their own spellings are conventionally accurate.",
+      "journal": "Journal of Educational Psychology",
+      "year": "1997",
+      "url": "https://doi.org/10.1037/0022-0663.89.4.631",
+      "doi": "10.1037/0022-0663.89.4.631"
+    },
+    {
+      "id": "DEACON:JCHILDLANG-2011",
+      "title": "When Cues Collide: Children's Sensitivity to Letter and Meaning Patterns in Spelling Words in English",
+      "abstract": "Experiments with children aged 7 to 9 found sensitivity to both orthographic and morphological information. These cues sometimes supported correct spelling and sometimes competed.",
+      "journal": "Journal of Child Language",
+      "year": "2011",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/20950518/",
+      "doi": null
+    },
+    {
+      "id": "ZHANG:TREIMAN-2020",
+      "title": "Spelling",
+      "abstract": "A research review describes children's early learning of graphotactic patterns, including that doubled consonants are common in medial and final positions but highly unusual at the beginning of English words.",
+      "journal": "Oxford Research Encyclopedia of Education",
+      "year": "2020",
+      "url": "https://cpb-us-w2.wpmucdn.com/sites.wustl.edu/dist/0/2113/files/2019/09/Zhang_Treiman_2020_Encyclopedia.pdf",
+      "doi": null
+    }
+  ],
+  "episode": {
+    "title": "E95: Why a Child Misspells Words With Double Letters",
+    "hook": "A child writes hoping when the sentence means hopping. Another writes trafic, or adds two letters where only one belongs. The doubled consonant is usually not a second sound. It is a written signal shaped by vowel patterns, syllable boundaries, word position, and suffixes. Because several explanations can produce the same visible error, simply saying remember the double letter often does not teach the pattern the child needs.",
+    "sections": [
+      {
+        "heading": "The high yield summary",
+        "narration": "Too busy? Here is your high yield summary. Double consonants often help preserve a short vowel, mark a syllable boundary, or show what happened when a suffix joined a base word. Some belong to the stored spelling of a particular word. One missed double letter is not a diagnosis. Compare hearing, reading, word building, and writing. Teach the exact pattern with contrasting examples, then practice retrieving the correct word in context.",
+        "on_screen": [
+          "Double letters carry spelling information",
+          "Compare the base and completed word",
+          "One error is not a diagnosis"
+        ],
+        "icon": "double-letters",
+        "source_ids": [
+          "ASHA:WLD",
+          "ZHANG:JECP-2023",
+          "DFE:ENGLISH-CURRICULUM"
+        ]
+      },
+      {
+        "heading": "Two letters usually represent one consonant",
+        "narration": "In rabbit, letter, and traffic, the doubled consonant is not normally pronounced twice. Its value is orthographic. It helps organize the written word and can signal information about the preceding vowel or the syllable division. Ask the child to say the word and count its speech sounds, then compare that count with its letters. This separates sound segmentation from knowledge of the written pattern.",
+        "on_screen": [
+          "One consonant sound",
+          "Two written letters",
+          "Sound count and letter count differ"
+        ],
+        "icon": "sound-to-print",
+        "source_ids": [
+          "ASHA:WLD",
+          "CASSAR:JEDPSYCH-1997",
+          "ZHANG:TREIMAN-2020"
+        ]
+      },
+      {
+        "heading": "Position limits what looks possible",
+        "narration": "English allows doubled consonants in the middle or at the end of many words, but almost never at the beginning. Young children can become sensitive to this pattern before they spell every word conventionally. That knowledge helps reject an unlikely form, but it does not identify the exact spelling by itself. A child still needs experience with which consonants double and in which words.",
+        "on_screen": [
+          "Middle and final doubling occur",
+          "Initial doubling is unusual",
+          "Position narrows the choices"
+        ],
+        "icon": "word-position",
+        "source_ids": [
+          "CASSAR:JEDPSYCH-1997",
+          "ZHANG:TREIMAN-2020",
+          "ASHA:SPELLING-ERRORS"
+        ]
+      },
+      {
+        "heading": "The preceding vowel provides a clue",
+        "narration": "In many two-syllable words, a doubled medial consonant follows a stressed short vowel, as in rabbit, while a single consonant often follows a long vowel, as in tiger. This is a tendency, not a perfect shortcut for every English word. Research shows that learning this relationship takes time. Teach contrasting groups and keep exceptions available rather than asking children to invent a universal rule.",
+        "on_screen": [
+          "Rabbit has a short vowel",
+          "Tiger has a long vowel",
+          "Useful pattern, not perfect rule"
+        ],
+        "icon": "vowel-pattern",
+        "source_ids": [
+          "ZHANG:JECP-2023",
+          "ZHANG:TREIMAN-2020",
+          "DEACON:JCHILDLANG-2011"
+        ]
+      },
+      {
+        "heading": "Suffixes can trigger doubling",
+        "narration": "Compare hop with hopping and hope with hoping. Before adding ing, the final p in hop doubles, helping preserve the short vowel. Hope already uses silent e to signal a long vowel, so the e drops and the p stays single. With longer words, stress also matters, as in beginning compared with visiting. Teach the base, the suffix, and the junction rather than memorizing the finished word as an unexplained exception.",
+        "on_screen": [
+          "Hop becomes hopping",
+          "Hope becomes hoping",
+          "Inspect the base-suffix junction"
+        ],
+        "icon": "word-building",
+        "source_ids": [
+          "ASHA:WLD",
+          "IES:DOUBLE-CONSONANT",
+          "DFE:ENGLISH-CURRICULUM"
+        ]
+      },
+      {
+        "heading": "Compare tasks to locate the breakdown",
+        "narration": "Now, let us go deeper. Ask the child to choose between hoping and hopping in a sentence, separate a base from its suffix, sort words by vowel pattern, read each form, and write it from memory. Correct recognition with weak recall suggests an unstable stored spelling. Errors only after adding suffixes point toward morphological or junction rules. Broad doubling errors across unrelated words suggest that positional and orthographic patterns need direct instruction.",
+        "on_screen": [
+          "Choose by meaning",
+          "Build base plus suffix",
+          "Read and write from memory"
+        ],
+        "icon": "compare",
+        "source_ids": [
+          "ASHA:WLD",
+          "ASHA:SPELLING-ERRORS",
+          "DEACON:JCHILDLANG-2011"
+        ]
+      },
+      {
+        "heading": "Practice contrasts, not isolated corrections",
+        "narration": "Use a small set such as hop, hopping, hope, hoping, run, running, visit, and visiting. Mark the vowel, box the final consonant, add the suffix card, and explain whether doubling occurs. Then cover the model, write the word, check immediately, and use it in a sentence. Add fixed spellings such as traffic separately, because not every doubled consonant comes from adding a suffix.",
+        "on_screen": [
+          "Mark vowel and final consonant",
+          "Add the suffix visibly",
+          "Retrieve in a sentence"
+        ],
+        "icon": "practice",
+        "source_ids": [
+          "IES:DOUBLE-CONSONANT",
+          "DFE:ENGLISH-CURRICULUM",
+          "ASHA:WLD"
+        ]
+      },
+      {
+        "heading": "When closer assessment helps",
+        "narration": "Double-letter errors can occur during normal spelling development. Seek school or clinical assessment when they remain frequent despite explicit instruction, occur with many spelling patterns, or accompany difficulty with phonological awareness, multisyllabic words, reading accuracy, language, or written expression. Assessment should examine actual error patterns across tasks and consider the child's dialect and languages. No single missed consonant can establish dyslexia or another disorder.",
+        "on_screen": [
+          "Persistence and impact matter",
+          "Examine the wider spelling pattern",
+          "One error cannot diagnose"
+        ],
+        "icon": "assessment",
+        "source_ids": [
+          "ASHA:WLD",
+          "ASHA:SPELLING-ERRORS",
+          "ZHANG:JECP-2023"
+        ]
+      },
+      {
+        "heading": "Three essential takeaways",
+        "narration": "Number one, doubled consonants usually represent spelling structure rather than an extra consonant sound. Number two, check word position, the preceding vowel, syllable stress, the base word, and any suffix before deciding why doubling belongs. Number three, teach contrasting word families with visible word building, accurate retrieval, and immediate feedback, while treating fixed word spellings separately and seeking fuller assessment only when the pattern is persistent or limits learning.",
+        "on_screen": [
+          "Double letters encode structure",
+          "Inspect vowel, stress, and suffix",
+          "Teach contrasts and reassess"
+        ],
+        "icon": "checklist",
+        "source_ids": [
+          "ASHA:WLD",
+          "IES:DOUBLE-CONSONANT",
+          "ZHANG:JECP-2023"
+        ]
+      }
+    ],
+    "closing": "On the next episode, we will explain why a child confuses homophones when spelling, how meaning selects the written form, and why sounding out alone cannot separate words such as there, their, and they're. Follow the Your Only Doc podcast for clear, evidence based health and development explanations. Stay curious and stay safe.",
+    "description": "Why might a child omit a doubled consonant or double the wrong letter? This episode explains vowel patterns, word position, suffix rules, stored spellings, practical teaching, and when closer assessment is appropriate.",
+    "thumbnail_text": "WHY DOUBLE LETTERS GO WRONG"
+  }
+}
