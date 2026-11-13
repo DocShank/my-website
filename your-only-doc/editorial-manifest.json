@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "workflow": "chatgpt-reviewed-v20",
-  "updated_at": "2026-11-12T09:10:33.000Z",
-  "next_episode_number": 95,
+  "updated_at": "2026-11-13T09:13:57.000Z",
+  "next_episode_number": 96,
   "next_planned_topic": {
-    "id": "child-misspells-double-letters",
-    "title": "Why a Child Misspells Words With Double Letters",
-    "reason": "It follows unstressed vowels by explaining how syllable structure, vowel patterns, suffix boundaries, and stored word forms determine when consonants are doubled."
+    "id": "child-confuses-homophones-spelling",
+    "title": "Why a Child Confuses Homophones When Spelling",
+    "reason": "It follows double-letter patterns by explaining why identical pronunciations can map to different written words and how grammar, meaning, and stored word forms guide the choice."
   },
   "packets": [
     {
@@ -609,6 +609,13 @@
       "topic_id": "child-misspells-unstressed-vowels",
       "title": "E94: Why a Child Misspells Unstressed Vowels",
       "file": "episodes/E94-child-misspells-unstressed-vowels.json",
+      "status": "ready"
+    },
+    {
+      "episode_number": 95,
+      "topic_id": "child-misspells-double-letters",
+      "title": "E95: Why a Child Misspells Words With Double Letters",
+      "file": "episodes/E95-child-misspells-double-letters.json",
       "status": "ready"
     }
   ],
