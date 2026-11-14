@@ -1,0 +1,141 @@
+{
+  "schema": 2,
+  "editorial": {
+    "workflow": "chatgpt-reviewed-v20",
+    "reviewed_by": "ChatGPT medical editorial workflow",
+    "reviewed_on": "2026-11-14",
+    "episode_number": 96,
+    "language": "English",
+    "spoken_host_name_allowed": false,
+    "long_dashes_allowed": false,
+    "target_minutes": 10
+  },
+  "topic_id": "mers-qatar-2026",
+  "topic": {
+    "id": "mers-qatar-2026",
+    "title": "What the New MERS Cases in Qatar Mean",
+    "audience_question": "What do the newly reported MERS cases in Qatar mean for residents, travelers, and people who work with camels?",
+    "pubmed_query": "MERS-CoV Qatar dromedary camel zoonotic transmission traveler prevention healthcare infection control",
+    "icon_keywords": ["mers", "camel", "respiratory-health"],
+    "category": "current-public-health"
+  },
+  "sources": [
+    {
+      "id": "WHO:DON626",
+      "title": "Middle East Respiratory Syndrome (MERS), Qatar",
+      "abstract": "WHO reports two laboratory-confirmed MERS cases in Qatar, both involving men over 50 with chronic conditions and occupational dromedary exposure. All 99 identified contacts tested negative and no secondary cases were found.",
+      "journal": "World Health Organization Disease Outbreak News",
+      "year": "2026",
+      "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON626",
+      "doi": null
+    },
+    {
+      "id": "WHO:MERS-FACT",
+      "title": "Middle East Respiratory Syndrome Coronavirus (MERS-CoV)",
+      "abstract": "WHO explains MERS symptoms, dromedary-to-human and limited person-to-person transmission, severe-disease risk factors, food and animal-contact precautions, and the absence of a licensed vaccine or specific treatment.",
+      "journal": "World Health Organization",
+      "year": "2025",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/middle-east-respiratory-syndrome-coronavirus-%28mers-cov%29",
+      "doi": null
+    },
+    {
+      "id": "CDC:MERS-ABOUT",
+      "title": "About Middle East Respiratory Syndrome (MERS)",
+      "abstract": "CDC describes symptoms, incubation up to 14 days, higher-risk exposures, prevention around camels and raw camel products, and advice to call a clinician when relevant exposure is followed by respiratory illness.",
+      "journal": "US Centers for Disease Control and Prevention",
+      "year": "2026",
+      "url": "https://www.cdc.gov/mers/about/",
+      "doi": null
+    },
+    {
+      "id": "CDC:MERS-TESTING",
+      "title": "Diagnostic Testing for MERS",
+      "abstract": "CDC testing guidance links compatible illness with epidemiologic risk during the preceding 14 days, including travel, healthcare exposure, direct camel contact, or close contact with a confirmed case.",
+      "journal": "US Centers for Disease Control and Prevention",
+      "year": "2024",
+      "url": "https://www.cdc.gov/mers/hcp/diagnosis-testing/index.html",
+      "doi": null
+    },
+    {
+      "id": "ECDC:MERS-2026-11",
+      "title": "MERS-CoV Multi-country Monthly Update",
+      "abstract": "ECDC reports that sustained human-to-human transmission in the general population remains very unlikely and assesses the current risk to the EU and EEA as low.",
+      "journal": "European Centre for Disease Prevention and Control",
+      "year": "2026",
+      "url": "https://www.ecdc.europa.eu/en/public-health-events/2012-eip-00049/2026-11-10",
+      "doi": null
+    }
+  ],
+  "episode": {
+    "title": "E96: What the New MERS Cases in Qatar Mean",
+    "hook": "A headline says Qatar has reported its first MERS cases since 2022. That can sound like a rapidly spreading outbreak, but the details tell a more precise story. Two men who worked closely with dromedary camels became ill. Both recovered, every identified contact tested negative, and investigators found no secondary cases. The lesson is not panic. It is knowing which exposures matter and what to do if illness follows.",
+    "sections": [
+      {
+        "heading": "The high yield summary",
+        "narration": "Too busy? Here is your high yield summary. WHO reported two laboratory-confirmed MERS cases in Qatar, confirmed in August and notified internationally in October. Both involved occupational camel exposure, and one man also cared for ill young camels and drank raw camel milk. The cases were unlinked. All 99 contacts tested negative, with no secondary transmission. Ordinary travel does not need to stop, but camel and healthcare exposures deserve attention.",
+        "on_screen": ["Two unlinked cases", "No secondary cases found", "Focus on relevant exposure"],
+        "icon": "case-update",
+        "source_ids": ["WHO:DON626", "CDC:MERS-ABOUT", "ECDC:MERS-2026-11"]
+      },
+      {
+        "heading": "What Qatar reported",
+        "narration": "The patients were men over 50 with chronic medical conditions. One developed symptoms in July and the other in August. Both had sustained occupational contact with dromedaries at separate farms, and investigators found no epidemiological link between them. Both were hospitalized and later discharged in stable condition. WHO therefore describes these as sporadic infections probably acquired from camels, not evidence of sustained spread between people.",
+        "on_screen": ["Men over 50", "Separate camel farms", "Both recovered"],
+        "icon": "investigation",
+        "source_ids": ["WHO:DON626"]
+      },
+      {
+        "heading": "What MERS is",
+        "narration": "MERS is a respiratory illness caused by a coronavirus called MERS-CoV. Infection can cause no symptoms, a mild illness, or severe pneumonia. Typical symptoms include fever, cough, and shortness of breath. Diarrhea, nausea, or vomiting can also occur. Symptoms usually begin about five or six days after exposure, but the recognized range extends from two to 14 days. Diagnosis requires specific laboratory testing.",
+        "on_screen": ["Fever, cough, breathlessness", "Mild to severe illness", "Testing confirms diagnosis"],
+        "icon": "respiratory-health",
+        "source_ids": ["WHO:MERS-FACT", "CDC:MERS-ABOUT", "CDC:MERS-TESTING"]
+      },
+      {
+        "heading": "How transmission happens",
+        "narration": "Dromedary camels are the main animal reservoir. People can be infected through direct or indirect camel contact, including contact with secretions or raw camel products. An infected person can sometimes transmit the virus during close contact, especially in healthcare settings before the illness is recognized and precautions begin. Limited household spread has also occurred, but sustained person-to-person transmission has not been documented.",
+        "on_screen": ["Dromedaries are the reservoir", "Close contact can spread infection", "Healthcare recognition matters"],
+        "icon": "transmission",
+        "source_ids": ["WHO:DON626", "WHO:MERS-FACT", "CDC:MERS-ABOUT"]
+      },
+      {
+        "heading": "Who faces greater risk",
+        "narration": "Risk has two parts: the chance of exposure and the chance of severe disease. Camel workers, breeders, handlers, and people visiting farms have more opportunity for zoonotic exposure. Older adults, immunocompromised people, and those with conditions such as diabetes, kidney disease, cancer, or chronic lung disease are more likely to become severely ill. People in these groups should avoid close contact with dromedaries and raw camel products.",
+        "on_screen": ["Exposure and severity differ", "Chronic illness raises concern", "Avoid close camel contact"],
+        "icon": "risk-factors",
+        "source_ids": ["WHO:DON626", "WHO:MERS-FACT", "CDC:MERS-ABOUT"]
+      },
+      {
+        "heading": "How to interpret two cases",
+        "narration": "Now, let us go deeper. A case count alone cannot show whether a virus is spreading widely. Investigators ask whether cases are linked, whether contacts become infected, and whether transmission continues through generations. Here, the two farms were separate, 99 contacts were monitored for 14 days, all tested negative, and no secondary cases appeared. That supports sporadic animal-to-human spillover. Surveillance remains important because delayed recognition can allow healthcare transmission.",
+        "on_screen": ["Trace links", "Test and monitor contacts", "Look for continued transmission"],
+        "icon": "risk-assessment",
+        "source_ids": ["WHO:DON626", "ECDC:MERS-2026-11"]
+      },
+      {
+        "heading": "Practical prevention",
+        "narration": "Wash hands before and after animal contact, and avoid touching sick camels. Do not drink raw camel milk or camel urine, and do not eat camel meat that is undercooked. Pasteurization and proper cooking reduce foodborne risks. If you have a condition associated with severe MERS, avoid close camel contact at farms, markets, and barns. WHO advises against travel or trade restrictions, and CDC does not recommend changing travel plans solely because of MERS.",
+        "on_screen": ["Wash hands around animals", "Avoid raw camel products", "No general travel restriction"],
+        "icon": "prevention",
+        "source_ids": ["WHO:DON626", "WHO:MERS-FACT", "CDC:MERS-ABOUT"]
+      },
+      {
+        "heading": "When to seek medical advice",
+        "narration": "If fever, cough, shortness of breath, or another respiratory illness develops within 14 days after direct camel contact, a relevant healthcare visit, or close contact with a confirmed case, call a healthcare provider and describe the exposure before arriving. Severe breathlessness, blue lips, confusion, fainting, or rapidly worsening illness needs emergency assessment. Most respiratory symptoms are not MERS, but exposure history helps clinicians decide about isolation, public health consultation, and testing.",
+        "on_screen": ["Call before arrival", "Describe travel and exposure", "Emergency signs need urgent care"],
+        "icon": "seek-care",
+        "source_ids": ["CDC:MERS-ABOUT", "CDC:MERS-TESTING", "WHO:DON626"]
+      },
+      {
+        "heading": "Three essential takeaways",
+        "narration": "Number one, Qatar reported two unlinked camel-associated MERS cases, but contact investigation found no secondary transmission. Number two, prevention should focus on close camel contact, raw camel products, hand hygiene, and early precautions in healthcare, not fear of ordinary daily contact. Number three, if compatible respiratory illness follows a relevant exposure within 14 days, call a clinician, explain the exposure clearly, and seek urgent help for severe or rapidly worsening breathing problems.",
+        "on_screen": ["No secondary transmission found", "Target the real exposures", "Report exposure with symptoms"],
+        "icon": "checklist",
+        "source_ids": ["WHO:DON626", "WHO:MERS-FACT", "CDC:MERS-ABOUT", "CDC:MERS-TESTING"]
+      }
+    ],
+    "closing": "On the next episode, we will explain why a child confuses homophones when spelling, how meaning and grammar select the written form, and why sounding out alone cannot separate words that sound the same. Follow the Your Only Doc podcast for clear, evidence based health and development explanations. Stay curious and stay safe.",
+    "description": "Two MERS cases in Qatar were linked to occupational camel exposure, with no secondary infections found. This episode explains the evidence, practical prevention, travel implications, and when symptoms need medical advice.",
+    "thumbnail_text": "NEW MERS CASES EXPLAINED"
+  }
+}
