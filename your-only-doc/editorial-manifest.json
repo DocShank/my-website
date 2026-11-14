@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "workflow": "chatgpt-reviewed-v20",
-  "updated_at": "2026-11-13T09:13:57.000Z",
-  "next_episode_number": 96,
+  "updated_at": "2026-11-14T09:16:53.000Z",
+  "next_episode_number": 97,
   "next_planned_topic": {
     "id": "child-confuses-homophones-spelling",
     "title": "Why a Child Confuses Homophones When Spelling",
@@ -616,6 +616,13 @@
       "topic_id": "child-misspells-double-letters",
       "title": "E95: Why a Child Misspells Words With Double Letters",
       "file": "episodes/E95-child-misspells-double-letters.json",
+      "status": "ready"
+    },
+    {
+      "episode_number": 96,
+      "topic_id": "mers-qatar-2026",
+      "title": "E96: What the New MERS Cases in Qatar Mean",
+      "file": "episodes/E96-mers-qatar-2026.json",
       "status": "ready"
     }
   ],
