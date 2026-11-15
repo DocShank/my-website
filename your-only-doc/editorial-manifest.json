@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "workflow": "chatgpt-reviewed-v20",
-  "updated_at": "2026-11-14T09:16:53.000Z",
-  "next_episode_number": 97,
+  "updated_at": "2026-11-15T09:10:04.000Z",
+  "next_episode_number": 98,
   "next_planned_topic": {
-    "id": "child-confuses-homophones-spelling",
-    "title": "Why a Child Confuses Homophones When Spelling",
-    "reason": "It follows double-letter patterns by explaining why identical pronunciations can map to different written words and how grammar, meaning, and stored word forms guide the choice."
+    "id": "child-misspells-silent-letters",
+    "title": "Why a Child Misspells Words With Silent Letters",
+    "reason": "It follows homophones by explaining another limit of sound-only spelling: written word history and morphological families can preserve letters that are weak or absent in everyday pronunciation."
   },
   "packets": [
     {
@@ -623,6 +623,13 @@
       "topic_id": "mers-qatar-2026",
       "title": "E96: What the New MERS Cases in Qatar Mean",
       "file": "episodes/E96-mers-qatar-2026.json",
+      "status": "ready"
+    },
+    {
+      "episode_number": 97,
+      "topic_id": "child-confuses-homophones-spelling",
+      "title": "E97: Why a Child Confuses Homophones When Spelling",
+      "file": "episodes/E97-child-confuses-homophones-spelling.json",
       "status": "ready"
     }
   ],
