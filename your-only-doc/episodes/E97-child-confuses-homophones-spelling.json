@@ -1,0 +1,159 @@
+{
+  "schema": 2,
+  "editorial": {
+    "workflow": "chatgpt-reviewed-v20",
+    "reviewed_by": "ChatGPT medical editorial workflow",
+    "reviewed_on": "2026-11-15",
+    "episode_number": 97,
+    "language": "English",
+    "spoken_host_name_allowed": false,
+    "long_dashes_allowed": false,
+    "target_minutes": 10
+  },
+  "topic_id": "child-confuses-homophones-spelling",
+  "topic": {
+    "id": "child-confuses-homophones-spelling",
+    "title": "Why a Child Confuses Homophones When Spelling",
+    "audience_question": "Why can a child know how a word sounds but choose the wrong spelling for its meaning?",
+    "pubmed_query": "children homophone spelling semantic context grammar morphology orthographic representations",
+    "icon_keywords": ["homophones", "meaning", "sentence-context"],
+    "category": "child-development"
+  },
+  "sources": [
+    {
+      "id": "ASHA:WLD",
+      "title": "Written Language Disorders",
+      "abstract": "ASHA explains that spelling integrates phonological, orthographic, semantic, and morphological knowledge. Semantic knowledge helps writers choose among homophones such as there, their, and they're.",
+      "journal": "American Speech-Language-Hearing Association",
+      "year": "2026",
+      "url": "https://www.asha.org/practice-portal/clinical-topics/written-language-disorders/",
+      "doi": null
+    },
+    {
+      "id": "ASHA:SPELLING-ERRORS",
+      "title": "Linguistic Analysis of Spelling Errors",
+      "abstract": "ASHA recommends examining spelling errors across phonological, orthographic, semantic, and morphological dimensions rather than treating all incorrect words as the same problem.",
+      "journal": "American Speech-Language-Hearing Association",
+      "year": "2026",
+      "url": "https://www.asha.org/practice-portal/clinical-topics/written-language-disorders/linguistic-analysis-of-spelling-errors/",
+      "doi": null
+    },
+    {
+      "id": "DFE:ENGLISH-CURRICULUM",
+      "title": "National Curriculum in England: English Programmes of Study",
+      "abstract": "The curriculum introduces common homophones as children move toward word-specific spelling knowledge and recommends explicit attention to spelling, meaning, grammar, and sentence use.",
+      "journal": "UK Department for Education",
+      "year": "2014",
+      "url": "https://www.gov.uk/government/publications/national-curriculum-in-england-english-programmes-of-study/national-curriculum-in-england-english-programmes-of-study",
+      "doi": null
+    },
+    {
+      "id": "OFSTED:ENGLISH-REVIEW",
+      "title": "Research Review Series: English",
+      "abstract": "The review notes that children must understand spoken context to distinguish homophones and that spelling should be taught explicitly after the alphabetic code is established.",
+      "journal": "UK Office for Standards in Education",
+      "year": "2022",
+      "url": "https://www.gov.uk/government/publications/curriculum-research-review-series-english/curriculum-research-review-series-english",
+      "doi": null
+    },
+    {
+      "id": "BEVERIDGE:JCHILDLANG-1991",
+      "title": "The Influence of Linguistic Context on Young Children's Understanding of Homophonic Words",
+      "abstract": "A study of children aged three to six found that richer linguistic context improved identification of the intended secondary meanings of homophones.",
+      "journal": "Journal of Child Language",
+      "year": "1991",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/1874838/",
+      "doi": "10.1017/S0305000900011168"
+    },
+    {
+      "id": "TREIMAN:SSR-2017",
+      "title": "Learning to Spell: Phonology and Beyond",
+      "abstract": "This research review presents spelling as the integration of phonological, orthographic, morphological, and context-sensitive patterns, with difficulty increasing when cues conflict.",
+      "journal": "Scientific Studies of Reading",
+      "year": "2017",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28628367/",
+      "doi": null
+    },
+    {
+      "id": "DEACON:JCHILDLANG-2011",
+      "title": "When Cues Collide: Children's Sensitivity to Letter and Meaning Patterns in Spelling Words in English",
+      "abstract": "Experiments showed that children respond to both orthographic and morphological information and that competing cues can sometimes produce spelling errors.",
+      "journal": "Journal of Child Language",
+      "year": "2011",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/20950518/",
+      "doi": "10.1017/S0305000910000322"
+    }
+  ],
+  "episode": {
+    "title": "E97: Why a Child Confuses Homophones When Spelling",
+    "hook": "A child writes, Their going to the park, even though they can explain exactly what the sentence means. When you say there, their, and they're aloud, the ear receives the same sound. The pencil, however, must choose among three written words. That choice depends on meaning, grammar, and memory for spelling, not clearer hearing. So repeating the word more loudly usually gives the child no new clue.",
+    "sections": [
+      {
+        "heading": "The high yield summary",
+        "narration": "Too busy? Here is your high yield summary. Homophones share a pronunciation but have different meanings and often different spellings. Sounding out cannot select the correct form by itself. The child must identify the intended meaning, notice the word's grammatical job, and retrieve its stored spelling. Teach small contrast sets inside meaningful sentences, explain why each choice fits, and check whether the difficulty is limited to homophones or part of a broader spelling or language pattern.",
+        "on_screen": ["Same sound, different written word", "Meaning and grammar choose", "One error is not a diagnosis"],
+        "icon": "homophones",
+        "source_ids": ["ASHA:WLD", "DFE:ENGLISH-CURRICULUM", "TREIMAN:SSR-2017"]
+      },
+      {
+        "heading": "Why listening is not enough",
+        "narration": "For sea and see, or flour and flower, the speech sounds do not reveal which spelling belongs. Phonics still helps the child produce a plausible sound pattern, but both candidates pass that test. Successful spelling therefore requires another route: connect the sound to a specific meaning and retrieve the written form associated with that meaning. A phonically reasonable homophone error can show that sound analysis worked while word selection did not.",
+        "on_screen": ["Both spellings match the sound", "Phonics narrows but cannot finish", "Meaning selects the form"],
+        "icon": "sound-to-meaning",
+        "source_ids": ["ASHA:WLD", "OFSTED:ENGLISH-REVIEW", "TREIMAN:SSR-2017"]
+      },
+      {
+        "heading": "Sentence meaning supplies the first clue",
+        "narration": "Compare I can see the sea with The flower is beside the flour. The surrounding words activate different meanings even when the target sounds identical. Research with young children found that richer linguistic context improved recognition of the intended homophone meaning. Do not test a homophone by saying it alone. Give a complete, unambiguous sentence and ask the child to explain the intended word before spelling it.",
+        "on_screen": ["Use a complete sentence", "Explain the intended meaning", "Avoid isolated dictation"],
+        "icon": "sentence-context",
+        "source_ids": ["BEVERIDGE:JCHILDLANG-1991", "ASHA:WLD", "DFE:ENGLISH-CURRICULUM"]
+      },
+      {
+        "heading": "Grammar can rule choices in or out",
+        "narration": "There can point to a place, their marks possession, and they're contracts they are. In They're carrying their bags over there, each position demands a different grammatical function. Ask what job the word performs: Is it naming, showing possession, describing an action, or replacing a longer phrase? Grammar does not solve every homophone pair, but it gives a reliable decision process for many common sets.",
+        "on_screen": ["There: place", "Their: possession", "They're: they are"],
+        "icon": "grammar",
+        "source_ids": ["ASHA:WLD", "DFE:ENGLISH-CURRICULUM", "OFSTED:ENGLISH-REVIEW"]
+      },
+      {
+        "heading": "Each meaning needs a stored spelling",
+        "narration": "Even after understanding the sentence, a child may know the correct meaning but not recall its letter sequence. Accurate spelling becomes faster when written word forms are well established in long-term memory. Reading the words in varied sentences, noticing their distinctive letters, writing them from memory, and receiving immediate correction strengthen that link. A memory cue should connect spelling to meaning, not merely decorate the word.",
+        "on_screen": ["Meaning plus written form", "Retrieve, check, and correct", "Build a stable word memory"],
+        "icon": "word-memory",
+        "source_ids": ["ASHA:WLD", "TREIMAN:SSR-2017", "DEACON:JCHILDLANG-2011"]
+      },
+      {
+        "heading": "Compare tasks to locate the breakdown",
+        "narration": "Now, let us go deeper. Present two spellings and ask the child to match each one to a picture, definition, and sentence. Then remove the choices and request the spelling from memory. Finally, ask the child to use each word in an original sentence. Correct matching with weak recall suggests an unstable written representation. Incorrect meaning or sentence choices suggest vocabulary, semantic, or grammatical knowledge also needs teaching.",
+        "on_screen": ["Match meaning and spelling", "Retrieve without choices", "Use each word in context"],
+        "icon": "assessment",
+        "source_ids": ["ASHA:WLD", "ASHA:SPELLING-ERRORS", "BEVERIDGE:JCHILDLANG-1991"]
+      },
+      {
+        "heading": "Teach contrasts with a decision routine",
+        "narration": "Choose one small set, such as to, too, and two. First, say what the sentence means. Second, name the word's job. Third, select the spelling and explain the clue. Fourth, cover the model, write the sentence, and check it immediately. Mix old and new examples over several days, then include the words in authentic writing. Repeated copying without decisions may rehearse letters but does not teach when each form belongs.",
+        "on_screen": ["Meaning first", "Name the grammatical job", "Choose, explain, retrieve"],
+        "icon": "practice",
+        "source_ids": ["DFE:ENGLISH-CURRICULUM", "OFSTED:ENGLISH-REVIEW", "ASHA:WLD"]
+      },
+      {
+        "heading": "When broader assessment helps",
+        "narration": "Homophone substitutions are common during spelling development and can also appear in hurried adult writing. Consider school or clinical assessment when errors remain frequent despite explicit teaching, significantly limit written expression, or occur alongside difficulty with vocabulary, grammar, phonological awareness, reading, or many other spelling patterns. Assessment should sample connected writing and structured tasks, and consider the child's languages and dialect. Homophone errors alone do not diagnose dyslexia, language disorder, or an attention condition.",
+        "on_screen": ["Persistence and impact matter", "Check the wider language pattern", "One error type cannot diagnose"],
+        "icon": "support",
+        "source_ids": ["ASHA:WLD", "ASHA:SPELLING-ERRORS", "TREIMAN:SSR-2017"]
+      },
+      {
+        "heading": "Three essential takeaways",
+        "narration": "Number one, homophones sound the same, so sound analysis alone cannot choose the correct written word. Number two, teach the child to use sentence meaning, grammatical function, morphology, and a stored spelling together. Number three, practice small contrast sets through explanation, retrieval, immediate feedback, and connected writing, while seeking broader assessment only when persistent errors resist instruction or occur with wider difficulties in language, reading, or spelling.",
+        "on_screen": ["Sound alone cannot choose", "Combine meaning, grammar, and memory", "Practice decisions in real writing"],
+        "icon": "checklist",
+        "source_ids": ["ASHA:WLD", "DFE:ENGLISH-CURRICULUM", "TREIMAN:SSR-2017"]
+      }
+    ],
+    "closing": "On the next episode, we will explain why a child misspells words with silent letters, how written history and word families preserve letters that speech may hide, and how to teach these spellings without relying on guessing. Follow the Your Only Doc podcast for clear, evidence based health and development explanations. Stay curious and stay safe.",
+    "description": "Why does a child write the wrong there, their, or they're even when the sentence makes sense? This episode explains how meaning, grammar, morphology, and stored word forms guide homophone spelling.",
+    "thumbnail_text": "WHY HOMOPHONES GET CONFUSED"
+  }
+}
