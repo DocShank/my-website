@@ -1,0 +1,159 @@
+{
+  "schema": 2,
+  "editorial": {
+    "workflow": "chatgpt-reviewed-v20",
+    "reviewed_by": "ChatGPT medical editorial workflow",
+    "reviewed_on": "2026-11-17",
+    "episode_number": 98,
+    "language": "English",
+    "spoken_host_name_allowed": false,
+    "long_dashes_allowed": false,
+    "target_minutes": 10
+  },
+  "topic_id": "child-misspells-silent-letters",
+  "topic": {
+    "id": "child-misspells-silent-letters",
+    "title": "Why a Child Misspells Words With Silent Letters",
+    "audience_question": "Why does a child leave out letters that cannot be heard, and how can those spellings be taught logically?",
+    "pubmed_query": "children spelling silent letters orthographic knowledge morphology word families developmental language disorder",
+    "icon_keywords": ["silent-letters", "word-family", "spelling"],
+    "category": "child-development"
+  },
+  "sources": [
+    {
+      "id": "ASHA:WLD",
+      "title": "Written Language Disorders",
+      "abstract": "ASHA describes spelling as an integration of phonological, orthographic, morphological, and semantic knowledge, including silent e patterns and stored written representations.",
+      "journal": "American Speech-Language-Hearing Association",
+      "year": "2026",
+      "url": "https://www.asha.org/practice-portal/clinical-topics/written-language-disorders/",
+      "doi": null
+    },
+    {
+      "id": "ASHA:SPELLING-ERRORS",
+      "title": "Linguistic Analysis of Spelling Errors",
+      "abstract": "ASHA distinguishes omissions linked to phonological awareness from silent-letter errors involving orthographic patterns or weak mental graphemic representations.",
+      "journal": "American Speech-Language-Hearing Association",
+      "year": "2026",
+      "url": "https://www.asha.org/practice-portal/clinical-topics/written-language-disorders/linguistic-analysis-of-spelling-errors/",
+      "doi": null
+    },
+    {
+      "id": "DFE:ENGLISH-CURRICULUM",
+      "title": "National Curriculum in England: English Programmes of Study",
+      "abstract": "The curriculum notes that spelling becomes harder when pronunciation does not transparently reveal written form, including silent letters, and recommends word-specific rehearsal and sentence application.",
+      "journal": "UK Department for Education",
+      "year": "2014",
+      "url": "https://www.gov.uk/government/publications/national-curriculum-in-england-english-programmes-of-study/national-curriculum-in-england-english-programmes-of-study",
+      "doi": null
+    },
+    {
+      "id": "CORDIER:LSHSS-2021",
+      "title": "The Sound of Silence: Sensitivity to Silent Letters in Children With and Without Developmental Language Disorder",
+      "abstract": "A dictated spelling study found silent letters were difficult for all groups and especially for children with developmental language disorder, who more often omitted them rather than substituting another plausible silent letter.",
+      "journal": "Language, Speech, and Hearing Services in Schools",
+      "year": "2021",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34185580/",
+      "doi": "10.1044/2021_LSHSS-21-00004"
+    },
+    {
+      "id": "SENEPART:JCL-2006",
+      "title": "Morphological Knowledge as Revealed in Children's Spelling Accuracy and Reports of Spelling Strategies",
+      "abstract": "Children spelled silent consonant endings more successfully when a related word revealed the otherwise silent letter than when no familiar derivative supplied that clue.",
+      "journal": "Journal of Child Language",
+      "year": "2006",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16808925/",
+      "doi": null
+    },
+    {
+      "id": "CASELLIS:SSR-2013",
+      "title": "Children Benefit From Morphological Relatedness When They Learn to Spell New Words",
+      "abstract": "Eight-year-old children learned spellings with silent letters more accurately when a morphologically related form justified the hidden letter.",
+      "journal": "Scientific Studies of Reading",
+      "year": "2013",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24109464/",
+      "doi": null
+    },
+    {
+      "id": "DEACON:JCHILDLANG-2011",
+      "title": "When Cues Collide: Children's Sensitivity to Letter and Meaning Patterns in Spelling Words in English",
+      "abstract": "Experiments showed that children use both orthographic and morphological patterns and may err when those sources of information compete.",
+      "journal": "Journal of Child Language",
+      "year": "2011",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/20950518/",
+      "doi": "10.1017/S0305000910000322"
+    }
+  ],
+  "episode": {
+    "title": "E98: Why a Child Misspells Words With Silent Letters",
+    "hook": "A child writes nife for knife, bom for bomb, or hop when the sentence needs hope. Each attempt captures the sounds that reach the ear. The missing letter cannot be recovered simply by stretching the pronunciation, because it is silent. Yet these letters are not all random decorations. Some change another sound, some connect related words, and some belong to a spelling that must become familiar through accurate reading and writing.",
+    "sections": [
+      {
+        "heading": "The high yield summary",
+        "narration": "Too busy? Here is your high yield summary. Silent-letter errors are understandable because speech does not provide every written letter. First identify the pattern. A silent e may change a vowel, a hidden consonant may appear in a related word, and another letter may belong to a fixed spelling shaped by English history. Teach the reason when one exists, practice the whole written word when it does not, and assess the child's wider reading, language, and spelling profile before drawing conclusions.",
+        "on_screen": ["Speech does not reveal every letter", "Classify the silent-letter pattern", "One error is not a diagnosis"],
+        "icon": "silent-letters",
+        "source_ids": ["ASHA:WLD", "DFE:ENGLISH-CURRICULUM", "CORDIER:LSHSS-2021"]
+      },
+      {
+        "heading": "Why sounding out reaches a limit",
+        "narration": "Sound segmentation helps a child represent the phonemes in a word, but a silent letter contributes no separate phoneme. Knife and nife can therefore sound identical when read aloud. The first attempt shows useful phonological knowledge, yet conventional spelling also requires orthographic knowledge about permitted letter patterns and memory for specific written words. Repeating the pronunciation offers no new information about the missing k.",
+        "on_screen": ["No separate sound for the letter", "A plausible attempt can still be incorrect", "Orthographic knowledge must contribute"],
+        "icon": "sound-to-print",
+        "source_ids": ["ASHA:WLD", "ASHA:SPELLING-ERRORS", "DFE:ENGLISH-CURRICULUM"]
+      },
+      {
+        "heading": "Some silent letters change another sound",
+        "narration": "Compare hop with hope, kit with kite, and cub with cube. Final e is not pronounced as a separate sound, but it often helps signal the preceding vowel pattern. This is more informative than saying the e does nothing. Let the child read and spell contrast pairs, mark the vowel, then explain how the final e changes the written pattern. Keep exceptions separate so a useful tendency is not presented as a perfect rule.",
+        "on_screen": ["Hop and hope", "Kit and kite", "Silent e can signal a vowel pattern"],
+        "icon": "silent-e",
+        "source_ids": ["ASHA:WLD", "ASHA:SPELLING-ERRORS", "DFE:ENGLISH-CURRICULUM"]
+      },
+      {
+        "heading": "Word position can organize the pattern",
+        "narration": "Silent letters often occur in recurring positions or clusters, as with initial kn in know and knee, initial wr in write and wrist, or final mb in lamb and comb. Sorting examples by position helps the child learn a pattern rather than a disconnected list. It does not make every word predictable, but it narrows the possibilities and builds awareness of letter sequences that belong in English words.",
+        "on_screen": ["Initial kn", "Initial wr", "Final mb"],
+        "icon": "word-position",
+        "source_ids": ["ASHA:WLD", "DFE:ENGLISH-CURRICULUM", "CORDIER:LSHSS-2021"]
+      },
+      {
+        "heading": "A word family can reveal the hidden letter",
+        "narration": "The b in bomb becomes audible in bombard, the g in sign appears in signal, and the n in autumn can be heard in autumnal. Related forms preserve meaning and provide a reason for the spelling. Research shows that children can use morphological relatives to learn otherwise hidden letters. Ask the child to find the base, say the related word that reveals the consonant, and keep both spellings visible together.",
+        "on_screen": ["Bomb and bombard", "Sign and signal", "Autumn and autumnal"],
+        "icon": "word-family",
+        "source_ids": ["SENEPART:JCL-2006", "CASELLIS:SSR-2013", "DEACON:JCHILDLANG-2011"]
+      },
+      {
+        "heading": "Different errors point to different needs",
+        "narration": "Now, let us go deeper. Ask the child to spell regular words, silent e contrasts, patterned clusters, and words whose relatives reveal a hidden consonant. Then compare reading, recognition, and spelling from memory. Correct recognition with weak recall suggests an unstable stored form. Improvement after seeing a related word suggests morphology is a useful route. Broad omissions in both heard and silent segments may require closer examination of phonological processing as well.",
+        "on_screen": ["Compare word types", "Read, recognize, and retrieve", "Look for the error pattern"],
+        "icon": "assessment",
+        "source_ids": ["ASHA:SPELLING-ERRORS", "CORDIER:LSHSS-2021", "SENEPART:JCL-2006"]
+      },
+      {
+        "heading": "Practice by pattern and retrieval",
+        "narration": "Teach a small group with one shared explanation. Read the word, identify the silent letter, explain its job or family link, cover it, write it from memory, and check immediately. Later, mix that group with previously learned patterns and use the words in sentences. For spellings without a helpful rule or relative, emphasize accurate repeated retrieval of the whole word. Copying many times without recalling or explaining is less informative.",
+        "on_screen": ["Group by explanation", "Cover, retrieve, and check", "Apply in a sentence"],
+        "icon": "practice",
+        "source_ids": ["DFE:ENGLISH-CURRICULUM", "ASHA:WLD", "CASELLIS:SSR-2013"]
+      },
+      {
+        "heading": "When broader assessment helps",
+        "narration": "Silent-letter mistakes occur during normal spelling development. Seek school or clinical assessment when they remain frequent despite explicit instruction, significantly restrict written expression, or occur with persistent difficulty in word reading, phonological awareness, vocabulary, grammar, or many other spelling patterns. Children with developmental language disorder can have particular difficulty, but a silent-letter omission by itself does not diagnose that condition, dyslexia, or any other disorder.",
+        "on_screen": ["Persistence and impact matter", "Examine reading and language too", "One pattern cannot diagnose"],
+        "icon": "support",
+        "source_ids": ["ASHA:WLD", "CORDIER:LSHSS-2021", "ASHA:SPELLING-ERRORS"]
+      },
+      {
+        "heading": "Three essential takeaways",
+        "narration": "Number one, a silent letter cannot be recovered from sound alone, so plausible omissions are not evidence that the child was careless. Number two, determine whether the letter changes another sound, follows a positional pattern, appears in a related word, or must be stored as part of the whole spelling. Number three, teach small pattern groups through explanation, retrieval, immediate feedback, and sentence use, while seeking broader assessment only when difficulties persist and affect wider literacy.",
+        "on_screen": ["Sound alone is insufficient", "Find the letter's role", "Teach patterns and retrieve accurately"],
+        "icon": "checklist",
+        "source_ids": ["ASHA:WLD", "DFE:ENGLISH-CURRICULUM", "CORDIER:LSHSS-2021", "CASELLIS:SSR-2013"]
+      }
+    ],
+    "closing": "On the next episode, we will explain why a child spells related words inconsistently, how base words and suffixes preserve meaning across a word family, and how to teach those connections clearly. Follow the Your Only Doc podcast for clear, evidence based health and development explanations. Stay curious and stay safe.",
+    "description": "Why does a child omit the k in knife or the b in bomb? This episode separates silent e patterns, positional clusters, meaningful word families, and spellings that require accurate whole-word memory.",
+    "thumbnail_text": "WHY SILENT LETTERS DISAPPEAR"
+  }
+}
