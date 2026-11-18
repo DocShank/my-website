@@ -1,0 +1,159 @@
+{
+  "schema": 2,
+  "editorial": {
+    "workflow": "chatgpt-reviewed-v20",
+    "reviewed_by": "ChatGPT medical editorial workflow",
+    "reviewed_on": "2026-11-18",
+    "episode_number": 99,
+    "language": "English",
+    "spoken_host_name_allowed": false,
+    "long_dashes_allowed": false,
+    "target_minutes": 10
+  },
+  "topic_id": "us-measles-elimination-status-2026",
+  "topic": {
+    "id": "us-measles-elimination-status-2026",
+    "title": "What Losing Measles Elimination Status Means",
+    "audience_question": "What does the loss of measles elimination status in the United States mean for families, vaccination, and exposure response?",
+    "pubmed_query": "measles elimination status United States endemic transmission MMR vaccine postexposure prophylaxis isolation",
+    "icon_keywords": ["measles", "mmr-vaccine", "public-health"],
+    "category": "current-public-health"
+  },
+  "sources": [
+    {
+      "id": "CDC:ELIMINATION-LOSS-2026",
+      "title": "Joint Statement: Loss of U.S. Measles Elimination Status",
+      "abstract": "CDC announced on 17 November 2026 that the United States had lost measles elimination status and emphasized MMR vaccination, surveillance, laboratory testing, outbreak response, and closing local vaccination gaps.",
+      "journal": "US Centers for Disease Control and Prevention",
+      "year": "2026",
+      "url": "https://www.cdc.gov/media/releases/2026/loss-of-usmeasles-elimination-status.html",
+      "doi": null
+    },
+    {
+      "id": "PAHO:MEASLES-QA-2026",
+      "title": "Measles in the Americas: Questions and Answers",
+      "abstract": "PAHO explains that the United States lost verification after continuous transmission of the same measles lineage for at least 12 months. Imported cases alone do not remove elimination status.",
+      "journal": "Pan American Health Organization",
+      "year": "2026",
+      "url": "https://www.paho.org/en/news/17-11-2026-measles-americas-questions-and-answers-technical-reference-journalists-and-public",
+      "doi": null
+    },
+    {
+      "id": "PAHO:REGIONAL-ACTION-2026",
+      "title": "PAHO Urges Countries to Step Up Efforts to Stop Measles Outbreaks",
+      "abstract": "PAHO reports that endemic transmission was re-established in the United States, Mexico, and Bolivia and calls for vaccination, surveillance, and rapid outbreak response.",
+      "journal": "Pan American Health Organization",
+      "year": "2026",
+      "url": "https://www.paho.org/en/news/17-11-2026-paho-urges-countries-step-efforts-stop-measles-outbreaks-and-move-towards",
+      "doi": null
+    },
+    {
+      "id": "CDC:MEASLES-EXPOSED",
+      "title": "Measles: What to Do If You Get Sick or Exposed",
+      "abstract": "CDC describes early symptoms, airborne spread, calling ahead before care, staying home through the fourth day after rash onset, urgent warning signs, and prompt contact with a clinician after exposure.",
+      "journal": "US Centers for Disease Control and Prevention",
+      "year": "2026",
+      "url": "https://www.cdc.gov/measles/if-sick-exposed/index.html",
+      "doi": null
+    },
+    {
+      "id": "CDC:MEASLES-VACCINE",
+      "title": "Measles Vaccine Recommendations",
+      "abstract": "CDC recommends two MMR doses for children, reports approximately 93 percent effectiveness after one dose and 97 percent after two doses, and outlines postexposure vaccination or immune globulin for eligible susceptible contacts.",
+      "journal": "US Centers for Disease Control and Prevention",
+      "year": "2026",
+      "url": "https://www.cdc.gov/measles/hcp/vaccine-considerations/",
+      "doi": null
+    },
+    {
+      "id": "CDC:MEASLES-CLINICAL",
+      "title": "Clinical Overview of Measles",
+      "abstract": "CDC describes fever, cough, coryza, conjunctivitis, Koplik spots, rash progression, airborne precautions, laboratory confirmation, and contagiousness from four days before through four days after rash onset.",
+      "journal": "US Centers for Disease Control and Prevention",
+      "year": "2026",
+      "url": "https://www.cdc.gov/measles/hcp/clinical-overview/",
+      "doi": null
+    },
+    {
+      "id": "WHO:MEASLES-SURGE-2025",
+      "title": "Measles Deaths Down 88 Percent Since 2000, but Cases Surge",
+      "abstract": "WHO defines elimination as absence of endemic transmission for more than 12 months and notes serious complications including pneumonia, encephalitis, and blindness.",
+      "journal": "World Health Organization",
+      "year": "2025",
+      "url": "https://www.who.int/news/item/28-11-2025-measles-deaths-down-88--since-2000--but-cases-surge",
+      "doi": null
+    }
+  ],
+  "episode": {
+    "title": "E99: What Losing Measles Elimination Status Means",
+    "hook": "The United States has lost its measles elimination status. That sentence can sound as if measles suddenly appeared everywhere overnight. It did not. The designation changed because evidence showed a transmission chain continuing for at least 12 months. This is a serious public-health setback, but it is also a precise classification. Understanding that distinction helps families respond with vaccination and early reporting instead of panic.",
+    "sections": [
+      {
+        "heading": "The high yield summary",
+        "narration": "Too busy? Here is your high yield summary. On November 17, 2026, CDC and PAHO announced that the United States had lost measles elimination status. The same measles lineage had circulated continuously for at least 12 months, meeting the definition of re-established endemic transmission. This does not mean every community has an outbreak. It means vaccination gaps allowed transmission to persist. Check documented immunity, follow local alerts, and call ahead if exposure is followed by fever, cough, red eyes, or rash.",
+        "on_screen": ["Transmission continued at least 12 months", "Not every community has an outbreak", "Vaccination and rapid response matter"],
+        "icon": "public-health-alert",
+        "source_ids": ["CDC:ELIMINATION-LOSS-2026", "PAHO:MEASLES-QA-2026", "PAHO:REGIONAL-ACTION-2026"]
+      },
+      {
+        "heading": "What elimination actually means",
+        "narration": "Elimination is not eradication. Eradication would mean the virus no longer circulates anywhere. Measles elimination means endemic transmission has been interrupted in a defined country or region for at least 12 months while strong surveillance continues. Imported cases can still occur after elimination. A country loses the designation only when epidemiological and laboratory evidence supports an uninterrupted local transmission chain lasting 12 months or longer.",
+        "on_screen": ["Elimination is not eradication", "Imported cases can still occur", "Sustained local transmission changes status"],
+        "icon": "definition",
+        "source_ids": ["PAHO:MEASLES-QA-2026", "WHO:MEASLES-SURGE-2025"]
+      },
+      {
+        "heading": "Why the status changed",
+        "narration": "PAHO's independent commission reviewed evidence from across the Americas. For the United States, the relevant outbreak began on January 20, 2025, and reached the 12-month threshold on January 20, 2026. The commission concluded that endemic transmission had been re-established. Sequencing helps connect viruses by genotype and lineage, while case interviews, locations, timing, and contact investigations show whether the apparent chain is truly continuous.",
+        "on_screen": ["Outbreak began January 20, 2025", "Twelve-month threshold reached", "Epidemiology plus sequencing"],
+        "icon": "transmission-chain",
+        "source_ids": ["PAHO:MEASLES-QA-2026", "CDC:ELIMINATION-LOSS-2026"]
+      },
+      {
+        "heading": "Why the classification matters",
+        "narration": "A prolonged chain means susceptible people remain connected across outbreaks instead of each introduction being stopped quickly. Measles can cause pneumonia, brain inflammation, hospitalization, and death. The classification also signals where public health must improve: vaccination access, trusted communication, early diagnosis, laboratory confirmation, contact tracing, and rapid outbreak control. It does not replace local risk information, because transmission can be concentrated in particular communities.",
+        "on_screen": ["Preventable severe complications", "Close local vaccination gaps", "Local risk still varies"],
+        "icon": "risk",
+        "source_ids": ["CDC:ELIMINATION-LOSS-2026", "PAHO:REGIONAL-ACTION-2026", "WHO:MEASLES-SURGE-2025"]
+      },
+      {
+        "heading": "Recognize the clinical pattern",
+        "narration": "Measles usually begins with high fever, cough, runny nose, and red or watery eyes. Small Koplik spots may appear inside the mouth, followed by a rash that typically starts on the face and spreads downward. A person can transmit the virus from four days before through four days after the rash begins. Because measles spreads through the air, entering a shared waiting room without warning can expose others.",
+        "on_screen": ["Fever, cough, runny nose, red eyes", "Rash usually spreads downward", "Call before entering care"],
+        "icon": "symptoms",
+        "source_ids": ["CDC:MEASLES-CLINICAL", "CDC:MEASLES-EXPOSED"]
+      },
+      {
+        "heading": "How public health proves sustained spread",
+        "narration": "Now, let us go deeper. A large case count alone does not prove that endemic transmission returned. Investigators distinguish separate imported cases from one continuing chain. They combine rash-onset dates, travel and contact histories, geographic links, laboratory confirmation, genotype, and more detailed sequencing. The designation changes only when that combined evidence supports continuous circulation for at least 12 months. This is why testing and prompt reporting matter even when one case seems isolated.",
+        "on_screen": ["Count alone is insufficient", "Link cases across time and place", "Laboratory and field evidence combine"],
+        "icon": "epidemiology",
+        "source_ids": ["PAHO:MEASLES-QA-2026", "CDC:MEASLES-CLINICAL", "CDC:ELIMINATION-LOSS-2026"]
+      },
+      {
+        "heading": "Vaccination remains the main protection",
+        "narration": "CDC recommends two MMR doses for children and vaccination for people without acceptable evidence of immunity, unless a contraindication applies. One dose is about 93 percent effective against measles, and two doses are about 97 percent effective. Check records rather than assuming. Pregnancy, severe immune suppression, and other circumstances can change what is appropriate, so people with questions should use a clinician or public-health service for individualized guidance.",
+        "on_screen": ["Check documented immunity", "One dose about 93 percent effective", "Two doses about 97 percent effective"],
+        "icon": "mmr-vaccine",
+        "source_ids": ["CDC:MEASLES-VACCINE", "CDC:ELIMINATION-LOSS-2026"]
+      },
+      {
+        "heading": "What to do after exposure or symptoms",
+        "narration": "After a known exposure, contact a healthcare provider or public-health department immediately. For eligible susceptible people, MMR within 72 hours or immune globulin within six days may reduce risk or illness severity. Do not arrive unannounced if fever, cough, red eyes, or rash develops. Call first so airborne precautions can be arranged. Trouble breathing, dehydration, confusion, persistent severe fever or headache, blue color, or rapid worsening requires emergency care, again with advance notice when possible.",
+        "on_screen": ["Report exposure immediately", "Postexposure options are time sensitive", "Warn the facility before arrival"],
+        "icon": "seek-care",
+        "source_ids": ["CDC:MEASLES-EXPOSED", "CDC:MEASLES-VACCINE", "CDC:MEASLES-CLINICAL"]
+      },
+      {
+        "heading": "Three essential takeaways",
+        "narration": "Number one, losing elimination status means measles transmission continued for at least 12 months, not that every part of the United States has an outbreak. Number two, documented MMR immunity, local surveillance, and rapid response remain the strongest tools for stopping transmission. Number three, report an exposure promptly, call ahead before seeking care for compatible symptoms, and obtain emergency help for severe breathing difficulty, dehydration, confusion, blue color, or rapidly worsening illness.",
+        "on_screen": ["Understand the designation", "Verify protection", "Act quickly after exposure"],
+        "icon": "checklist",
+        "source_ids": ["PAHO:MEASLES-QA-2026", "CDC:MEASLES-VACCINE", "CDC:MEASLES-EXPOSED"]
+      }
+    ],
+    "closing": "On the next episode, we will explain why a child spells related words inconsistently, how base words and suffixes preserve meaning across a word family, and how to teach those connections clearly. Follow the Your Only Doc podcast for clear, evidence based health and development explanations. Stay curious and stay safe.",
+    "description": "The United States has lost measles elimination status. This episode explains the 12-month transmission criterion, why the designation changed, MMR protection, exposure response, and when symptoms need urgent care.",
+    "thumbnail_text": "MEASLES STATUS LOST"
+  }
+}
