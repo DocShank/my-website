@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "workflow": "chatgpt-reviewed-v20",
-  "updated_at": "2026-11-17T09:07:44.000Z",
-  "next_episode_number": 99,
+  "updated_at": "2026-11-18T09:34:14.000Z",
+  "next_episode_number": 100,
   "next_planned_topic": {
     "id": "child-spells-related-words-inconsistently",
     "title": "Why a Child Spells Related Words Inconsistently",
@@ -637,6 +637,13 @@
       "topic_id": "child-misspells-silent-letters",
       "title": "E98: Why a Child Misspells Words With Silent Letters",
       "file": "episodes/E98-child-misspells-silent-letters.json",
+      "status": "ready"
+    },
+    {
+      "episode_number": 99,
+      "topic_id": "us-measles-elimination-status-2026",
+      "title": "E99: What Losing Measles Elimination Status Means",
+      "file": "episodes/E99-us-measles-elimination-status-2026.json",
       "status": "ready"
     }
   ],
