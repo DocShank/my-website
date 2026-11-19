@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "workflow": "chatgpt-reviewed-v20",
-  "updated_at": "2026-11-18T09:34:14.000Z",
-  "next_episode_number": 100,
+  "updated_at": "2026-11-19T09:27:00.000Z",
+  "next_episode_number": 101,
   "next_planned_topic": {
-    "id": "child-spells-related-words-inconsistently",
-    "title": "Why a Child Spells Related Words Inconsistently",
-    "reason": "It follows silent letters by showing how base words, affixes, and shared meaning can stabilize spelling across a morphological word family even when pronunciation changes."
+    "id": "child-confuses-contractions-and-possessives",
+    "title": "Why a Child Confuses Contractions and Possessives",
+    "reason": "It follows morphological word families by showing how apostrophes mark two different structures: omitted letters in contractions and ownership in possessives."
   },
   "packets": [
     {
@@ -644,6 +644,13 @@
       "topic_id": "us-measles-elimination-status-2026",
       "title": "E99: What Losing Measles Elimination Status Means",
       "file": "episodes/E99-us-measles-elimination-status-2026.json",
+      "status": "ready"
+    },
+    {
+      "episode_number": 100,
+      "topic_id": "child-spells-related-words-inconsistently",
+      "title": "E100: Why a Child Spells Related Words Inconsistently",
+      "file": "episodes/E100-child-spells-related-words-inconsistently.json",
       "status": "ready"
     }
   ],
