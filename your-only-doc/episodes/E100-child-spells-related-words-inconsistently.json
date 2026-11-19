@@ -1,0 +1,159 @@
+{
+  "schema": 2,
+  "editorial": {
+    "workflow": "chatgpt-reviewed-v20",
+    "reviewed_by": "ChatGPT medical editorial workflow",
+    "reviewed_on": "2026-11-19",
+    "episode_number": 100,
+    "language": "English",
+    "spoken_host_name_allowed": false,
+    "long_dashes_allowed": false,
+    "target_minutes": 10
+  },
+  "topic_id": "child-spells-related-words-inconsistently",
+  "topic": {
+    "id": "child-spells-related-words-inconsistently",
+    "title": "Why a Child Spells Related Words Inconsistently",
+    "audience_question": "Why can a child spell one word correctly but misspell another word from the same family?",
+    "pubmed_query": "child spelling morphological awareness word families base words affixes intervention",
+    "icon_keywords": ["spelling", "word-family", "morphology"],
+    "category": "child-development"
+  },
+  "sources": [
+    {
+      "id": "ASHA:WRITTEN-LANGUAGE",
+      "title": "Written Language Disorders",
+      "abstract": "ASHA explains that spelling draws on phonological, orthographic, semantic, and morphological knowledge, including base words, affixes, word families, and spelling changes when morphemes are joined.",
+      "journal": "American Speech-Language-Hearing Association",
+      "year": "2026",
+      "url": "https://www.asha.org/practice-portal/clinical-topics/written-language-disorders/",
+      "doi": null
+    },
+    {
+      "id": "ASHA:SPELLING-ERRORS",
+      "title": "Linguistic Analysis of Spelling Errors",
+      "abstract": "ASHA demonstrates how spelling errors can be analyzed for phonemic, orthographic, mental graphemic, and morphological knowledge rather than counted only as right or wrong.",
+      "journal": "American Speech-Language-Hearing Association",
+      "year": "2026",
+      "url": "https://www.asha.org/practice-portal/clinical-topics/written-language-disorders/linguistic-analysis-of-spelling-errors/",
+      "doi": null
+    },
+    {
+      "id": "DFE:ENGLISH-CURRICULUM",
+      "title": "National Curriculum in England: English Programmes of Study",
+      "abstract": "The curriculum calls for explicit use of root words, prefixes, suffixes, morphology, orthography, and rules for adding endings across primary grades.",
+      "journal": "UK Department for Education",
+      "year": "2014",
+      "url": "https://www.gov.uk/government/publications/national-curriculum-in-england-english-programmes-of-study/national-curriculum-in-england-english-programmes-of-study",
+      "doi": null
+    },
+    {
+      "id": "PMID:9232379",
+      "title": "Morphological Spelling Strategies: Developmental Stages and Processes",
+      "abstract": "This longitudinal study found that children may initially use spelling patterns without understanding their grammatical purpose, then gradually restrict them to the correct word categories and forms.",
+      "journal": "Developmental Psychology",
+      "year": "1997",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/9232379/",
+      "doi": "10.1037/0012-1649.33.4.637"
+    },
+    {
+      "id": "PMID:18952810",
+      "title": "Integrated Morphological Awareness Intervention as a Tool for Improving Literacy",
+      "abstract": "A small randomized study of children with spelling difficulties tested instruction integrating morphology with phonology, orthography, syntax, and semantics, including rules for adding suffixes to base words.",
+      "journal": "Language, Speech, and Hearing Services in Schools",
+      "year": "2008",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18952810/",
+      "doi": "10.1044/0161-1461(2008/08-0009)"
+    },
+    {
+      "id": "PMID:20799003",
+      "title": "A Meta-Analysis of Morphological Interventions",
+      "abstract": "A meta-analysis found significant benefits of morphological instruction across several literacy outcomes, including a smaller but significant effect on spelling for children with literacy difficulties.",
+      "journal": "Annals of Dyslexia",
+      "year": "2010",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/20799003/",
+      "doi": "10.1007/s11881-010-0041-x"
+    },
+    {
+      "id": "PMID:24109464",
+      "title": "Children Benefit From Morphological Relatedness When They Learn to Spell New Words",
+      "abstract": "Eight-year-old children learned plausible new spellings more successfully when a related word supplied a meaningful morphological clue to an otherwise silent letter.",
+      "journal": "Language and Speech",
+      "year": "2014",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24109464/",
+      "doi": "10.1177/0023830913507693"
+    }
+  ],
+  "episode": {
+    "title": "E100: Why a Child Spells Related Words Inconsistently",
+    "hook": "A child writes help correctly, then spells helpful as h-e-l-f-u-l. Later, the same child writes hoped correctly but turns hoping into hopeing. It can look careless because the base word was already known. In reality, related words ask the brain to coordinate sound, meaning, stored letter patterns, and the rule at the boundary between a base and an ending. The inconsistency can show exactly which connection is not secure yet.",
+    "sections": [
+      {
+        "heading": "The high yield summary",
+        "narration": "Too busy? Here is your high yield summary. Related words are not copied mechanically. A child must recognize the base, understand what a prefix or suffix contributes, retrieve the base spelling, and know whether the spelling stays stable or changes when parts join. Compare several members of one family, say the meaning of each part, and practice the joining rule. Persistent difficulty across many patterns deserves a broader literacy assessment.",
+        "on_screen": ["Find the base", "Explain each meaningful part", "Teach the joining rule"],
+        "icon": "word-family",
+        "source_ids": ["ASHA:WRITTEN-LANGUAGE", "DFE:ENGLISH-CURRICULUM"]
+      },
+      {
+        "heading": "What makes a word family",
+        "narration": "A morphological word family connects words by both structure and meaning. Help, helpful, helpless, and helper share the base help. The suffixes add information, but the base continues to carry the central meaning. This is different from grouping words only because they rhyme. Knowing a family lets a child reuse one reliable spelling across several words instead of memorizing every item as unrelated.",
+        "on_screen": ["help", "help plus ful", "help plus less"],
+        "icon": "morpheme-blocks",
+        "source_ids": ["ASHA:WRITTEN-LANGUAGE", "DFE:ENGLISH-CURRICULUM"]
+      },
+      {
+        "heading": "Why sound alone can mislead",
+        "narration": "English spelling represents more than pronunciation. In sign, the g is silent, but it becomes audible in signal and signature. A child relying only on the sounds in sign may omit that letter and miss the family connection. Research shows that related words can help children learn spellings that sound alone cannot explain. Meaning supplies another route into the written form.",
+        "on_screen": ["sign", "signal", "signature"],
+        "icon": "sound-and-meaning",
+        "source_ids": ["ASHA:WRITTEN-LANGUAGE", "PMID:24109464"]
+      },
+      {
+        "heading": "When the base stays stable",
+        "narration": "Many additions are straightforward. Re plus read becomes reread. Help plus er becomes helper. Care plus less becomes careless. The child still has to spot the base inside the longer word and treat common affixes as meaningful spelling units. If helper becomes helpr, the child may be recording the spoken syllables without retrieving the fixed spelling of the base and suffix.",
+        "on_screen": ["reread", "helper", "careless"],
+        "icon": "stable-base",
+        "source_ids": ["ASHA:WRITTEN-LANGUAGE", "DFE:ENGLISH-CURRICULUM", "ASHA:SPELLING-ERRORS"]
+      },
+      {
+        "heading": "When the junction changes",
+        "narration": "Other families require a spelling adjustment where parts meet. Hope loses its final e in hoping. Happy changes y to i in happiness. Run doubles the final consonant in running. These are not random exceptions, and they should not be taught as vague visual memory. The useful question is: what is the base, what is being added, and what rule applies at that junction?",
+        "on_screen": ["hope plus ing equals hoping", "happy plus ness equals happiness", "run plus ing equals running"],
+        "icon": "spelling-junction",
+        "source_ids": ["ASHA:WRITTEN-LANGUAGE", "DFE:ENGLISH-CURRICULUM", "PMID:18952810"]
+      },
+      {
+        "heading": "Look beneath a wrong answer",
+        "narration": "Now, let us go deeper. Two incorrect spellings may reveal different needs. Writing jumpt for jumped preserves the sounds but misses the past-tense spelling. Writing hopeing preserves the base but misses the final-e rule. Writing magition for magician may show uncertainty about a derived form. An error analysis asks which layer broke down: sound sequence, letter pattern, morpheme, stored word form, or joining convention.",
+        "on_screen": ["Analyze the pattern", "Do not count errors only", "Match teaching to the layer"],
+        "icon": "error-analysis",
+        "source_ids": ["ASHA:SPELLING-ERRORS", "PMID:9232379", "ASHA:WRITTEN-LANGUAGE"]
+      },
+      {
+        "heading": "A practical teaching routine",
+        "narration": "Start with a familiar base such as act. Build act, acts, acted, acting, action, and active. Say what each added part means, mark the shared letters, and notice any change at the join. Then remove the cards and ask the child to spell selected members in short sentences. Mix old and new families over later days so the child must retrieve the pattern, not merely copy it.",
+        "on_screen": ["Build", "Explain", "Retrieve"],
+        "icon": "teaching-routine",
+        "source_ids": ["DFE:ENGLISH-CURRICULUM", "PMID:18952810", "PMID:20799003"]
+      },
+      {
+        "heading": "When to seek a fuller assessment",
+        "narration": "Occasional inconsistency is expected while patterns are developing. Consider a school literacy review or evaluation by a qualified speech-language or learning professional when difficulty persists despite explicit teaching, affects many word families, or occurs alongside weak sound awareness, slow word reading, poor written expression, or trouble understanding prefixes and suffixes. Assessment should sample real errors and the language systems behind them, not rely on one spelling score.",
+        "on_screen": ["Persistent despite teaching", "Multiple literacy areas affected", "Assess the underlying pattern"],
+        "icon": "assessment",
+        "source_ids": ["ASHA:WRITTEN-LANGUAGE", "ASHA:SPELLING-ERRORS", "PMID:20799003"]
+      },
+      {
+        "heading": "Three essential takeaways",
+        "narration": "Number one, related words become easier when a child sees the shared base and understands the meaning of each added part. Number two, teach both stable families and predictable junction changes, using comparison and retrieval rather than copying alone. Number three, if inconsistent spelling remains broad and persistent, analyze the errors and assess phonological, orthographic, morphological, and written-language skills together.",
+        "on_screen": ["Connect structure and meaning", "Teach the join", "Assess persistent patterns"],
+        "icon": "checklist",
+        "source_ids": ["ASHA:WRITTEN-LANGUAGE", "PMID:18952810", "PMID:20799003"]
+      }
+    ],
+    "closing": "On the next episode, we will explain why a child confuses contractions and possessives, what the apostrophe is doing in each case, and how to teach the difference clearly. Follow the Your Only Doc podcast for clear, evidence based health and development explanations. Stay curious and stay safe.",
+    "description": "Why can a child spell one member of a word family correctly but miss another? This episode explains bases, affixes, spelling junctions, error analysis, practical teaching, and when persistent difficulty deserves assessment.",
+    "thumbnail_text": "RELATED WORDS, DIFFERENT SPELLING"
+  }
+}
