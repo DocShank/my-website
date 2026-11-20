@@ -1,0 +1,159 @@
+{
+  "schema": 2,
+  "editorial": {
+    "workflow": "chatgpt-reviewed-v20",
+    "reviewed_by": "ChatGPT medical editorial workflow",
+    "reviewed_on": "2026-11-20",
+    "episode_number": 101,
+    "language": "English",
+    "spoken_host_name_allowed": false,
+    "long_dashes_allowed": false,
+    "target_minutes": 10
+  },
+  "topic_id": "child-confuses-contractions-and-possessives",
+  "topic": {
+    "id": "child-confuses-contractions-and-possessives",
+    "title": "Why a Child Confuses Contractions and Possessives",
+    "audience_question": "Why does a child know that apostrophes belong in some words but place them incorrectly in contractions, possessives, and plurals?",
+    "pubmed_query": "children apostrophe contractions possessives spelling morphology punctuation instruction",
+    "icon_keywords": ["apostrophe", "contraction", "possessive"],
+    "category": "child-development"
+  },
+  "sources": [
+    {
+      "id": "ASHA:WRITTEN-LANGUAGE",
+      "title": "Written Language Disorders",
+      "abstract": "ASHA explains that successful writing integrates orthography, morphology, syntax, semantics, spelling, punctuation, and knowledge of inflectional forms including possession.",
+      "journal": "American Speech-Language-Hearing Association",
+      "year": "2026",
+      "url": "https://www.asha.org/practice-portal/clinical-topics/written-language-disorders/",
+      "doi": null
+    },
+    {
+      "id": "ASHA:READING-WRITING-DISORDERS",
+      "title": "Disorders of Reading and Writing",
+      "abstract": "ASHA recommends assessing and treating grammatical sentences, morphology, spelling, punctuation, and editing in connected writing rather than considering each convention in isolation.",
+      "journal": "American Speech-Language-Hearing Association",
+      "year": "2026",
+      "url": "https://www.asha.org/Practice-Portal/Clinical-Topics/Written-Language-Disorders/Disorders-of-Reading-and-Writing/",
+      "doi": null
+    },
+    {
+      "id": "DFE:ENGLISH-CURRICULUM",
+      "title": "National Curriculum in England: English Programmes of Study",
+      "abstract": "The curriculum explicitly distinguishes apostrophes representing omitted letters in contractions from apostrophes marking singular and plural possession.",
+      "journal": "UK Department for Education",
+      "year": "2014",
+      "url": "https://www.gov.uk/government/publications/national-curriculum-in-england-english-programmes-of-study/national-curriculum-in-england-english-programmes-of-study",
+      "doi": null
+    },
+    {
+      "id": "DFE:KS1-GRAMMAR-FRAMEWORK",
+      "title": "Key Stage 1 English Grammar, Punctuation and Spelling Test Framework",
+      "abstract": "The framework treats contractions and singular possessives as distinct spelling and punctuation knowledge and rejects apostrophes used merely to form regular plurals.",
+      "journal": "UK Department for Education",
+      "year": "2020",
+      "url": "https://www.gov.uk/government/publications/key-stage-1-english-grammar-punctuation-and-spelling-test-framework/key-stage-1-english-grammar-punctuation-and-spelling-test-framework",
+      "doi": null
+    },
+    {
+      "id": "STUART:APOSTROPHES-2004",
+      "title": "Use of Apostrophes by Six to Nine Year Old Children",
+      "abstract": "A study of 312 primary pupils found effects of teaching on contractive and possessive apostrophe use, while overall correct use remained low enough to support continued consolidation and practice.",
+      "journal": "Educational Psychology",
+      "year": "2004",
+      "url": "https://doi.org/10.1080/0144341042000211643",
+      "doi": "10.1080/0144341042000211643"
+    },
+    {
+      "id": "PMID:16246249",
+      "title": "What Young Children Do and Do Not Know About the Spelling of Inflections and Derivations",
+      "abstract": "Experiments with children aged five to ten showed emerging awareness that suffix morphemes affect spelling, alongside limits caused by spelling difficulty.",
+      "journal": "Developmental Science",
+      "year": "2005",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16246249/",
+      "doi": "10.1111/j.1467-7687.2005.00456.x"
+    },
+    {
+      "id": "PMID:9232379",
+      "title": "Morphological Spelling Strategies: Developmental Stages and Processes",
+      "abstract": "A longitudinal study found that children may initially apply written patterns without understanding their grammatical basis and later learn to restrict them to the appropriate word forms.",
+      "journal": "Developmental Psychology",
+      "year": "1997",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/9232379/",
+      "doi": "10.1037/0012-1649.33.4.637"
+    }
+  ],
+  "episode": {
+    "title": "E101: Why a Child Confuses Contractions and Possessives",
+    "hook": "A child writes the dog's bowl correctly, then adds an apostrophe to the dogs are barking. A few lines later, the child writes its raining without one. This is not simply forgetting a punctuation mark. The same small symbol is doing two different grammatical jobs, and regular plurals add another form that sounds similar but needs no apostrophe. The child has to identify the structure before deciding where the mark belongs.",
+    "sections": [
+      {
+        "heading": "The high yield summary",
+        "narration": "Too busy? Here is your high yield summary. In a contraction, an apostrophe marks missing letters: do not becomes don't. In a possessive noun, it marks a relationship: the girl's coat. A regular plural usually takes no apostrophe: two girls. Teach the child to expand contractions, ask who or what is related to the noun, and check whether the word is only naming more than one.",
+        "on_screen": ["Missing letters", "Possession or relationship", "Plural alone needs no apostrophe"],
+        "icon": "apostrophe-jobs",
+        "source_ids": ["DFE:ENGLISH-CURRICULUM", "DFE:KS1-GRAMMAR-FRAMEWORK", "ASHA:WRITTEN-LANGUAGE"]
+      },
+      {
+        "heading": "Why the symbol is confusing",
+        "narration": "The apostrophe is silent. A child cannot hear its position directly, and spoken contractions may be learned long before their written forms. The ending sound in dogs, dog's, and dogs' can also sound identical. Solving the spelling therefore requires grammar and meaning, not sound alone. Children may notice that apostrophes often appear near a final s, then overapply that visual pattern before understanding why it is there.",
+        "on_screen": ["The mark is silent", "Sound alone is insufficient", "Meaning determines the job"],
+        "icon": "silent-symbol",
+        "source_ids": ["STUART:APOSTROPHES-2004", "PMID:9232379", "ASHA:WRITTEN-LANGUAGE"]
+      },
+      {
+        "heading": "Contractions mark omitted letters",
+        "narration": "A contraction compresses words. I am becomes I'm, she is becomes she's, and cannot becomes can't. A reliable routine is to write the full words, cross out the letters that disappear, close the space, and place the apostrophe where those letters were removed. Expansion also checks meaning. She's can mean she is or she has, so the surrounding sentence must decide which full form fits.",
+        "on_screen": ["Write the full form", "Remove letters", "Place the apostrophe"],
+        "icon": "contraction",
+        "source_ids": ["DFE:ENGLISH-CURRICULUM", "DFE:KS1-GRAMMAR-FRAMEWORK"]
+      },
+      {
+        "heading": "Possessives mark a relationship",
+        "narration": "Possessives do more than show literal ownership. The child's backpack shows ownership, but the school's roof and today's weather show broader relationships. For one singular noun, the usual pattern is noun, apostrophe, s. Ask two questions: what is the related object or idea, and which noun has that relationship? This makes the apostrophe serve meaning instead of becoming a decoration placed before every final s.",
+        "on_screen": ["the child's backpack", "the school's roof", "today's weather"],
+        "icon": "possessive",
+        "source_ids": ["DFE:ENGLISH-CURRICULUM", "ASHA:WRITTEN-LANGUAGE"]
+      },
+      {
+        "heading": "Plural possession needs another decision",
+        "narration": "For a regular plural already ending in s, place the apostrophe after that s: the girls' coats. For an irregular plural without a final s, add apostrophe s: the children's coats. First make the noun singular or plural, then mark the possessive relationship. Keeping those decisions in order prevents girl's, girls, and girls' from being treated as interchangeable versions of one sound.",
+        "on_screen": ["girl's coat", "girls' coats", "children's coats"],
+        "icon": "plural-possession",
+        "source_ids": ["DFE:ENGLISH-CURRICULUM", "DFE:KS1-GRAMMAR-FRAMEWORK", "PMID:16246249"]
+      },
+      {
+        "heading": "Use the sentence to identify the job",
+        "narration": "Now, let us go deeper. Before inserting any mark, label the construction. Can the word expand into two words? Then it is a contraction. Does a noun have a relationship with something that follows or is understood? Then it may be possessive. Is the word simply naming more than one? Then it is plural. This three-way decision is more dependable than memorizing that apostrophes go with the letter s.",
+        "on_screen": ["Expand it", "Find the relationship", "Check for plural only"],
+        "icon": "decision-tree",
+        "source_ids": ["DFE:ENGLISH-CURRICULUM", "STUART:APOSTROPHES-2004", "PMID:9232379"]
+      },
+      {
+        "heading": "The special pair its and it's",
+        "narration": "It's always expands to it is or it has. Its is the possessive form, like his and hers, and has no apostrophe. Test the sentence by replacing the word with it is. It's time works because it is time makes sense. The dog wagged its tail does not become the dog wagged it is tail, so the possessive form is required. Expansion turns a memorized exception into a usable check.",
+        "on_screen": ["it's equals it is or it has", "its shows a relationship", "Use the expansion test"],
+        "icon": "its-versus-its",
+        "source_ids": ["DFE:ENGLISH-CURRICULUM", "DFE:KS1-GRAMMAR-FRAMEWORK"]
+      },
+      {
+        "heading": "Practice and when to assess",
+        "narration": "Use short sentence pairs that contrast one feature at a time, then return to them across several days. Ask the child to explain each choice, edit a deliberate error, and apply the rule in real writing. Seek a fuller school or language assessment when punctuation difficulty persists despite explicit teaching and appears with broad problems in spelling, grammar, sentence construction, reading, or self-correction. The pattern matters more than one isolated mistake.",
+        "on_screen": ["Contrast", "Explain", "Apply in real writing"],
+        "icon": "guided-practice",
+        "source_ids": ["STUART:APOSTROPHES-2004", "ASHA:READING-WRITING-DISORDERS", "ASHA:WRITTEN-LANGUAGE"]
+      },
+      {
+        "heading": "Three essential takeaways",
+        "narration": "Number one, identify the apostrophe's job before placing it: missing letters or a possessive relationship. Number two, separate possession from plurality, using girl's for one possessor, girls' for regular plural possessors, and girls for more than one with no possession. Number three, teach expansion, meaning, and sentence editing together, and assess wider written-language skills if confusion remains persistent and broad.",
+        "on_screen": ["Name the job", "Separate plural from possessive", "Teach in sentences"],
+        "icon": "checklist",
+        "source_ids": ["DFE:ENGLISH-CURRICULUM", "STUART:APOSTROPHES-2004", "ASHA:READING-WRITING-DISORDERS"]
+      }
+    ],
+    "closing": "On the next episode, we will explain why a child confuses plural and possessive endings, how grammar changes the spelling decision, and how to teach the contrast clearly. Follow the Your Only Doc podcast for clear, evidence based health and development explanations. Stay curious and stay safe.",
+    "description": "Why does a child place apostrophes correctly in one sentence and incorrectly in another? This episode separates contractions, singular and plural possessives, regular plurals, its and it's, practical teaching, and assessment.",
+    "thumbnail_text": "APOSTROPHE: WHICH JOB?"
+  }
+}
