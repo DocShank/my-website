@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "workflow": "chatgpt-reviewed-v20",
-  "updated_at": "2026-11-20T09:41:12.000Z",
-  "next_episode_number": 102,
+  "updated_at": "2026-11-21T08:55:19.000Z",
+  "next_episode_number": 103,
   "next_planned_topic": {
-    "id": "child-confuses-plural-and-possessive-endings",
-    "title": "Why a Child Confuses Plural and Possessive Endings",
-    "reason": "It follows the two jobs of apostrophes by isolating the grammatical contrast among regular plurals, singular possessives, and plural possessives."
+    "id": "child-misspells-irregular-plurals",
+    "title": "Why a Child Misspells Irregular Plurals",
+    "reason": "It follows regular and possessive endings by explaining why forms such as children, mice, and feet must be learned through morphology, meaning, and repeated comparison rather than one universal plural ending."
   },
   "packets": [
     {
@@ -658,6 +658,13 @@
       "topic_id": "child-confuses-contractions-and-possessives",
       "title": "E101: Why a Child Confuses Contractions and Possessives",
       "file": "episodes/E101-child-confuses-contractions-and-possessives.json",
+      "status": "ready"
+    },
+    {
+      "episode_number": 102,
+      "topic_id": "child-confuses-plural-and-possessive-endings",
+      "title": "E102: Why a Child Confuses Plural and Possessive Endings",
+      "file": "episodes/E102-child-confuses-plural-and-possessive-endings.json",
       "status": "ready"
     }
   ],
