@@ -1,0 +1,159 @@
+{
+  "schema": 2,
+  "editorial": {
+    "workflow": "chatgpt-reviewed-v20",
+    "reviewed_by": "ChatGPT medical editorial workflow",
+    "reviewed_on": "2026-11-21",
+    "episode_number": 102,
+    "language": "English",
+    "spoken_host_name_allowed": false,
+    "long_dashes_allowed": false,
+    "target_minutes": 10
+  },
+  "topic_id": "child-confuses-plural-and-possessive-endings",
+  "topic": {
+    "id": "child-confuses-plural-and-possessive-endings",
+    "title": "Why a Child Confuses Plural and Possessive Endings",
+    "audience_question": "Why does a child mix up dogs, dog's, and dogs' even after learning the apostrophe rule?",
+    "pubmed_query": "children spelling plural possessive apostrophe inflectional morphology grammatical awareness",
+    "icon_keywords": ["plural", "possessive", "apostrophe"],
+    "category": "child-development"
+  },
+  "sources": [
+    {
+      "id": "ASHA:WRITTEN-LANGUAGE",
+      "title": "Written Language Disorders",
+      "abstract": "ASHA explains that spelling depends on phonological, orthographic, semantic, and morphological knowledge, including inflectional forms marking number and possession.",
+      "journal": "American Speech-Language-Hearing Association",
+      "year": "2026",
+      "url": "https://www.asha.org/practice-portal/clinical-topics/written-language-disorders/",
+      "doi": null
+    },
+    {
+      "id": "ASHA:SIGNS-WRITTEN-LANGUAGE",
+      "title": "Signs and Symptoms of Written Language Disorders",
+      "abstract": "ASHA identifies persistent difficulty with inflectional morphology, grammatical judgment, punctuation, spelling patterns, and self-correction as relevant features in written-language assessment.",
+      "journal": "American Speech-Language-Hearing Association",
+      "year": "2026",
+      "url": "https://www.asha.org/practice-portal/clinical-topics/written-language-disorders/signs-and-symptoms-of-written-language-disorders/",
+      "doi": null
+    },
+    {
+      "id": "DFE:ENGLISH-CURRICULUM",
+      "title": "National Curriculum in England: English Programmes of Study",
+      "abstract": "The curriculum distinguishes regular plural endings from singular possessives and teaches apostrophe placement after regular plural forms and before s with irregular plurals.",
+      "journal": "UK Department for Education",
+      "year": "2014",
+      "url": "https://www.gov.uk/government/publications/national-curriculum-in-england-english-programmes-of-study/national-curriculum-in-england-english-programmes-of-study",
+      "doi": null
+    },
+    {
+      "id": "DFE:KS1-GRAMMAR-FRAMEWORK",
+      "title": "Key Stage 1 English Grammar, Punctuation and Spelling Test Framework",
+      "abstract": "The framework states that an apostrophe should not be used merely to form a plural unless the construction is legitimately plural possessive.",
+      "journal": "UK Department for Education",
+      "year": "2020",
+      "url": "https://www.gov.uk/government/publications/key-stage-1-english-grammar-punctuation-and-spelling-test-framework/key-stage-1-english-grammar-punctuation-and-spelling-test-framework",
+      "doi": null
+    },
+    {
+      "id": "BRYANT:POSSESSION-1997",
+      "title": "Spelling With Apostrophes and Understanding Possession",
+      "abstract": "Two intervention studies with children aged nine to eleven found substantial difficulty with possessive apostrophes, improvement after teaching, and an association with grammatical awareness.",
+      "journal": "British Journal of Educational Psychology",
+      "year": "1997",
+      "url": "https://doi.org/10.1111/j.2044-8279.1997.tb01229.x",
+      "doi": "10.1111/j.2044-8279.1997.tb01229.x"
+    },
+    {
+      "id": "PMID:12625436",
+      "title": "Do Beez Buzz? Rule-Based and Frequency-Based Knowledge in Learning to Spell Plural S",
+      "abstract": "Experiments with children and adults found that correct regular plural spellings may reflect learned letter patterns as well as explicit understanding of the plural rule.",
+      "journal": "Child Development",
+      "year": "2003",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/12625436/",
+      "doi": "10.1111/1467-8624.00519"
+    },
+    {
+      "id": "PMID:9232379",
+      "title": "Morphological Spelling Strategies: Developmental Stages and Processes",
+      "abstract": "A longitudinal study found that children may initially apply spelling patterns without understanding their grammatical role and later learn to restrict them to the correct categories.",
+      "journal": "Developmental Psychology",
+      "year": "1997",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/9232379/",
+      "doi": "10.1037/0012-1649.33.4.637"
+    }
+  ],
+  "episode": {
+    "title": "E102: Why a Child Confuses Plural and Possessive Endings",
+    "hook": "A child writes three dog's in the yard, then writes the dogs bowl with no apostrophe. The child remembers that an s often appears at the end and that apostrophes somehow belong near it, but those clues are not enough. Dogs, dog's, and dogs' can sound almost identical. The correct written form depends on whether the sentence means more than one, a relationship with one noun, or a relationship with several nouns.",
+    "sections": [
+      {
+        "heading": "The high yield summary",
+        "narration": "Too busy? Here is your high yield summary. A plural answers how many: two dogs. A possessive answers whose or what relationship: the dog's bowl. A regular plural possessive combines both decisions: the dogs' bowls. Teach the child to decide number first and possession second. Do not start by asking where the apostrophe goes, because placement only makes sense after the grammatical structure is clear.",
+        "on_screen": ["Plural: how many?", "Possessive: whose?", "Decide number before possession"],
+        "icon": "plural-possessive-summary",
+        "source_ids": ["DFE:ENGLISH-CURRICULUM", "DFE:KS1-GRAMMAR-FRAMEWORK", "ASHA:WRITTEN-LANGUAGE"]
+      },
+      {
+        "heading": "Why the endings sound alike",
+        "narration": "In speech, dogs, dog's, and dogs' commonly end with the same sound. The apostrophe has no sound of its own. That means a child cannot solve the spelling by listening more carefully. The sentence must be interpreted. Research also suggests that children may produce a familiar ending correctly from repeated letter patterns before they fully understand the grammatical rule, which explains why performance can look inconsistent.",
+        "on_screen": ["Same ending sound", "Silent apostrophe", "Grammar decides the form"],
+        "icon": "sound-versus-grammar",
+        "source_ids": ["PMID:12625436", "PMID:9232379", "BRYANT:POSSESSION-1997"]
+      },
+      {
+        "heading": "Plural means more than one",
+        "narration": "A regular plural usually adds s or es with no apostrophe: cats, buses, lunches. The word is simply naming more than one. Before adding anything, ask whether the sentence is counting or identifying multiple items. If yes, form the plural and stop. Writing apple's for several apples reflects an extra punctuation mark, but the deeper error is failure to distinguish number from possession.",
+        "on_screen": ["one cat, two cats", "one bus, two buses", "No apostrophe for plural alone"],
+        "icon": "regular-plural",
+        "source_ids": ["DFE:ENGLISH-CURRICULUM", "DFE:KS1-GRAMMAR-FRAMEWORK", "PMID:12625436"]
+      },
+      {
+        "heading": "Singular possessive adds apostrophe s",
+        "narration": "When one singular noun has a relationship with something, the usual form is apostrophe s: the dog's bowl, the teacher's desk, the baby's blanket. Possession includes ownership, association, and other relationships. Ask whose bowl, whose desk, or whose blanket. Then identify the single possessor and attach apostrophe s to that noun. This meaning step prevents random apostrophes before every final s.",
+        "on_screen": ["one possessor", "dog plus apostrophe s", "Ask whose or which relationship"],
+        "icon": "singular-possessive",
+        "source_ids": ["DFE:ENGLISH-CURRICULUM", "BRYANT:POSSESSION-1997", "ASHA:WRITTEN-LANGUAGE"]
+      },
+      {
+        "heading": "Regular plural possessive ends s apostrophe",
+        "narration": "When several regular plural nouns share the relationship, make the plural first, then add the apostrophe: the dogs' bowls or the teachers' desks. The final s already marks more than one, so another s is not added. Have the child physically write dogs, pause, confirm that several dogs are involved, and then add the apostrophe to show that the bowls are related to them.",
+        "on_screen": ["make dogs first", "confirm several possessors", "add apostrophe after s"],
+        "icon": "plural-possessive",
+        "source_ids": ["DFE:ENGLISH-CURRICULUM", "DFE:KS1-GRAMMAR-FRAMEWORK", "BRYANT:POSSESSION-1997"]
+      },
+      {
+        "heading": "Irregular plurals keep their own form",
+        "narration": "Now, let us go deeper. Some plurals do not end in s: children, men, women, mice, and people. Because the plural form lacks a final s, add apostrophe s for possession: children's books and men's shoes. The sequence still works. Identify several possessors, write the correct irregular plural, then mark the relationship. Do not change children into childrens before adding the apostrophe.",
+        "on_screen": ["children", "children plus apostrophe s", "children's books"],
+        "icon": "irregular-plural-possessive",
+        "source_ids": ["DFE:ENGLISH-CURRICULUM", "BRYANT:POSSESSION-1997"]
+      },
+      {
+        "heading": "Contrast the meanings in full sentences",
+        "narration": "Use sentence triplets rather than isolated words. The dog runs means one dog. The dogs run means several dogs. The dog's lead is red means one dog has a lead. The dogs' leads are red means several dogs have leads. Ask the child to draw or point to the matching picture, explain the meaning, and only then write the form. Meaning makes punctuation visible.",
+        "on_screen": ["one dog", "several dogs", "one or several possessors"],
+        "icon": "sentence-contrast",
+        "source_ids": ["BRYANT:POSSESSION-1997", "PMID:9232379", "ASHA:WRITTEN-LANGUAGE"]
+      },
+      {
+        "heading": "Practice and when to assess",
+        "narration": "Mix plural, singular possessive, and plural possessive examples so the child must choose, not repeat one pattern. Include editing, sentence creation, and spaced review. Persistent confusion deserves a broader school or speech-language assessment when it continues despite explicit teaching and appears alongside difficulty with plural grammar, spelling, sentence construction, reading, punctuation, or self-correction. One occasional apostrophe error alone does not establish a disorder.",
+        "on_screen": ["Mix the three forms", "Explain every choice", "Assess persistent broad difficulty"],
+        "icon": "assessment-practice",
+        "source_ids": ["ASHA:SIGNS-WRITTEN-LANGUAGE", "ASHA:WRITTEN-LANGUAGE", "BRYANT:POSSESSION-1997"]
+      },
+      {
+        "heading": "Three essential takeaways",
+        "narration": "Number one, decide whether the noun means one or more than one before thinking about possession. Number two, regular plurals take no apostrophe, singular possessives usually take apostrophe s, and regular plural possessives place the apostrophe after the existing s. Number three, teach the contrast through sentence meaning, explanation, and editing, and seek assessment if the difficulty remains persistent across wider written-language skills.",
+        "on_screen": ["Decide number first", "Mark possession second", "Teach through meaning"],
+        "icon": "checklist",
+        "source_ids": ["DFE:ENGLISH-CURRICULUM", "BRYANT:POSSESSION-1997", "ASHA:SIGNS-WRITTEN-LANGUAGE"]
+      }
+    ],
+    "closing": "On the next episode, we will explain why a child misspells irregular plurals, why forms such as children, mice, and feet do not follow one simple ending rule, and how to teach them clearly. Follow the Your Only Doc podcast for clear, evidence based health and development explanations. Stay curious and stay safe.",
+    "description": "Why does a child mix up dogs, dog's, and dogs'? This episode explains regular plurals, singular possessives, regular and irregular plural possessives, sentence-based teaching, and when persistent confusion deserves assessment.",
+    "thumbnail_text": "DOGS, DOG'S, OR DOGS'?"
+  }
+}
