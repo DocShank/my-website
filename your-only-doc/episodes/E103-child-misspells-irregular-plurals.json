@@ -1,0 +1,159 @@
+{
+  "schema": 2,
+  "editorial": {
+    "workflow": "chatgpt-reviewed-v20",
+    "reviewed_by": "ChatGPT medical editorial workflow",
+    "reviewed_on": "2026-11-22",
+    "episode_number": 103,
+    "language": "English",
+    "spoken_host_name_allowed": false,
+    "long_dashes_allowed": false,
+    "target_minutes": 10
+  },
+  "topic_id": "child-misspells-irregular-plurals",
+  "topic": {
+    "id": "child-misspells-irregular-plurals",
+    "title": "Why a Child Misspells Irregular Plurals",
+    "audience_question": "Why does a child write childs, mouses, or foots after correctly learning that plurals usually add s?",
+    "pubmed_query": "children irregular plural overregularization morphology spelling language development",
+    "icon_keywords": ["irregular-plural", "morphology", "spelling"],
+    "category": "child-development"
+  },
+  "sources": [
+    {
+      "id": "ASHA:WRITTEN-LANGUAGE",
+      "title": "Written Language Disorders",
+      "abstract": "ASHA explains that spelling draws on phonology, orthography, semantics, stored word forms, and inflectional morphology, including changes that mark number.",
+      "journal": "American Speech-Language-Hearing Association",
+      "year": "2026",
+      "url": "https://www.asha.org/practice-portal/clinical-topics/written-language-disorders/",
+      "doi": null
+    },
+    {
+      "id": "ASHA:SIGNS-WRITTEN-LANGUAGE",
+      "title": "Signs and Symptoms of Written Language Disorders",
+      "abstract": "ASHA notes that persistent difficulty with plural inflections, morphological awareness, irregular spelling patterns, grammar, and self-correction may be relevant in written-language assessment.",
+      "journal": "American Speech-Language-Hearing Association",
+      "year": "2026",
+      "url": "https://www.asha.org/practice-portal/clinical-topics/written-language-disorders/signs-and-symptoms-of-written-language-disorders/",
+      "doi": null
+    },
+    {
+      "id": "DFE:ENGLISH-CURRICULUM",
+      "title": "National Curriculum in England: English Programmes of Study",
+      "abstract": "The curriculum calls for explicit teaching of singular and plural grammar, spelling conventions, irregular forms, morphology, proofreading, and possessives built from irregular plurals.",
+      "journal": "UK Department for Education",
+      "year": "2014",
+      "url": "https://www.gov.uk/government/publications/national-curriculum-in-england-english-programmes-of-study/national-curriculum-in-england-english-programmes-of-study",
+      "doi": null
+    },
+    {
+      "id": "PMID:8550732",
+      "title": "Children's Overregularization of English Plurals: A Quantitative Analysis",
+      "abstract": "Analysis of ten children's speech found low but developmentally patterned errors such as foots and mans, with irregular forms retrieved from memory while the regular rule acts as a default.",
+      "journal": "Journal of Child Language",
+      "year": "1995",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/8550732/",
+      "doi": "10.1017/S0305000900009880"
+    },
+    {
+      "id": "PMCID:PMC3337723",
+      "title": "The Role of Phonology in Children's Acquisition of the Plural",
+      "abstract": "This study and review explain that plural learning depends on interacting morphological, syntactic, semantic, and phonological abilities rather than one isolated rule.",
+      "journal": "Language Learning and Development",
+      "year": "2011",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3337723/",
+      "doi": "10.1080/15475441.2011.604685"
+    },
+    {
+      "id": "PMID:12625436",
+      "title": "Do Beez Buzz? Rule-Based and Frequency-Based Knowledge in Learning to Spell Plural S",
+      "abstract": "Experiments found that children can spell regular plural endings using familiar letter patterns even before fully abstracting the grammatical rule.",
+      "journal": "Child Development",
+      "year": "2003",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/12625436/",
+      "doi": "10.1111/1467-8624.00519"
+    },
+    {
+      "id": "PMCID:PMC9878158",
+      "title": "Variation in Morpho-Lexical Development Within and Between Diagnoses in Children With Neurodevelopmental Disorders",
+      "abstract": "The review describes regular and irregular plural development, expected overregularizations such as childs, and substantial individual variation across children.",
+      "journal": "Frontiers in Psychology",
+      "year": "2023",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9878158/",
+      "doi": "10.3389/fpsyg.2022.1063174"
+    }
+  ],
+  "episode": {
+    "title": "E103: Why a Child Misspells Irregular Plurals",
+    "hook": "A child who once said children correctly begins writing childs. Another child writes mouses, foots, and tooths. It may seem as if learning has gone backward. Often, the opposite is happening. The child has discovered a powerful rule: add s to mean more than one. The problem is that English also preserves a smaller set of plural forms that must compete with that default rule and be retrieved accurately when needed.",
+    "sections": [
+      {
+        "heading": "The high yield summary",
+        "narration": "Too busy? Here is your high yield summary. Most English nouns form plurals with s or es, but irregular plurals change internally, add a different ending, or remain unchanged. Errors such as childs and foots are called overregularizations because the child applies a productive rule where an exception is required. Teach irregular forms in meaningful pairs and families, compare them with regular forms, and revisit them through speaking, reading, and writing.",
+        "on_screen": ["Regular rule: add s or es", "Irregular forms must be retrieved", "Compare and revisit"],
+        "icon": "plural-summary",
+        "source_ids": ["ASHA:WRITTEN-LANGUAGE", "PMID:8550732", "DFE:ENGLISH-CURRICULUM"]
+      },
+      {
+        "heading": "Why a correct form may become incorrect",
+        "narration": "Young children may first repeat a familiar irregular form as one stored word. Later, after noticing the regular plural pattern, they may generate foots or mans. Research describes this as a developmental overregularization pattern, not simple loss of knowledge. The default rule becomes available, but retrieval of the irregular form is not yet fast or reliable enough to block it every time.",
+        "on_screen": ["Stored form first", "Rule becomes productive", "Retrieval must block the default"],
+        "icon": "overregularization",
+        "source_ids": ["PMID:8550732", "PMCID:PMC9878158"]
+      },
+      {
+        "heading": "Irregular does not mean one pattern",
+        "narration": "Some plurals change a vowel, as in man to men, foot to feet, and mouse to mice. Some add a special ending, as in child to children and ox to oxen. Others stay unchanged, as in one sheep and two sheep. Because these forms do not share one universal transformation, children need strong word-specific representations as well as awareness that the words express more than one.",
+        "on_screen": ["vowel change", "special ending", "no visible change"],
+        "icon": "irregular-patterns",
+        "source_ids": ["ASHA:WRITTEN-LANGUAGE", "DFE:ENGLISH-CURRICULUM", "PMCID:PMC3337723"]
+      },
+      {
+        "heading": "Sound, grammar, and memory work together",
+        "narration": "Plural learning is not only about adding letters. The child must understand the quantity in the sentence, choose a plural noun, retrieve its spoken form, and map that form to spelling. Phonology also matters because plural sounds occur in different sound environments. A child may succeed in conversation yet hesitate in writing, where the exact letter sequence must be recalled without the support of immediate speech.",
+        "on_screen": ["Understand quantity", "Choose the plural form", "Retrieve the spelling"],
+        "icon": "language-systems",
+        "source_ids": ["PMCID:PMC3337723", "ASHA:WRITTEN-LANGUAGE", "PMID:12625436"]
+      },
+      {
+        "heading": "Teach pairs inside real sentences",
+        "narration": "Begin with a visible contrast: one mouse, two mice. Say both forms, arrange pictures into one and more-than-one groups, read the pair, and write each word in a short sentence. Then mix it with a regular pair such as one house, two houses. The comparison tells the child not only what mice is, but also why the ordinary s rule does not apply to that noun.",
+        "on_screen": ["one mouse", "two mice", "contrast with houses"],
+        "icon": "pair-practice",
+        "source_ids": ["DFE:ENGLISH-CURRICULUM", "PMID:8550732", "PMCID:PMC3337723"]
+      },
+      {
+        "heading": "Organize forms for deeper learning",
+        "narration": "Now, let us go deeper. Group irregular plurals by what changes. Place man and woman with internal vowel changes, child and ox with added material, and sheep and deer with unchanged forms. Then ask the child to explain the group and use each plural in context. This does not create a false rule. It reduces memory load by organizing exceptions around visible similarities and meaningful contrasts.",
+        "on_screen": ["change inside", "add a special ending", "stay unchanged"],
+        "icon": "word-sort",
+        "source_ids": ["ASHA:WRITTEN-LANGUAGE", "DFE:ENGLISH-CURRICULUM", "PMCID:PMC9878158"]
+      },
+      {
+        "heading": "Watch for possessive forms",
+        "narration": "Irregular plurals become harder when possession is added. Children's books begins with the already plural word children, then adds apostrophe s to mark the relationship. It is not childrens, childrens', or childrens's. Teach the steps in order: retrieve the irregular plural, confirm that it means several, then add the possessive marker. The grammar must be settled before punctuation is placed.",
+        "on_screen": ["child", "children", "children's books"],
+        "icon": "irregular-possessive",
+        "source_ids": ["DFE:ENGLISH-CURRICULUM", "ASHA:WRITTEN-LANGUAGE"]
+      },
+      {
+        "heading": "Practice and when to assess",
+        "narration": "Use spaced retrieval rather than copying a list repeatedly. Revisit a few forms after a day and again after several days, mixing speaking, reading, sentence completion, and independent writing. Consider a fuller school or speech-language assessment when irregular plural difficulty remains persistent and broad, especially with problems in regular plurals, other grammatical endings, word reading, spelling, sentence construction, or self-correction. Dialect and language background must also be considered.",
+        "on_screen": ["Retrieve over time", "Use forms in sentences", "Assess persistent broad patterns"],
+        "icon": "practice-assessment",
+        "source_ids": ["ASHA:SIGNS-WRITTEN-LANGUAGE", "ASHA:WRITTEN-LANGUAGE", "PMCID:PMC9878158"]
+      },
+      {
+        "heading": "Three essential takeaways",
+        "narration": "Number one, forms such as childs and foots often show that a child has learned the regular plural rule but has not yet retrieved the irregular form reliably. Number two, teach irregular plurals as meaningful singular-plural pairs, organized by how the word changes and practiced in real sentences. Number three, assess wider language and literacy skills when errors remain persistent across plurals, other grammar, reading, spelling, and writing.",
+        "on_screen": ["Recognize overregularization", "Teach meaningful pairs", "Assess the wider pattern"],
+        "icon": "checklist",
+        "source_ids": ["PMID:8550732", "ASHA:WRITTEN-LANGUAGE", "ASHA:SIGNS-WRITTEN-LANGUAGE"]
+      }
+    ],
+    "closing": "On the next episode, we will explain why a child confuses plural s with verb s, how the same ending performs different grammatical jobs, and how to teach the contrast clearly. Follow the Your Only Doc podcast for clear, evidence based health and development explanations. Stay curious and stay safe.",
+    "description": "Why does a child write childs, mouses, or foots? This episode explains developmental overregularization, types of irregular plurals, practical comparison and retrieval strategies, possessive forms, and when persistent errors deserve assessment.",
+    "thumbnail_text": "CHILDS OR CHILDREN?"
+  }
+}
