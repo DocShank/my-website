@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "workflow": "chatgpt-reviewed-v20",
-  "updated_at": "2026-11-21T08:55:19.000Z",
-  "next_episode_number": 103,
+  "updated_at": "2026-11-22T09:22:15.000Z",
+  "next_episode_number": 104,
   "next_planned_topic": {
-    "id": "child-misspells-irregular-plurals",
-    "title": "Why a Child Misspells Irregular Plurals",
-    "reason": "It follows regular and possessive endings by explaining why forms such as children, mice, and feet must be learned through morphology, meaning, and repeated comparison rather than one universal plural ending."
+    "id": "child-confuses-plural-and-verb-s",
+    "title": "Why a Child Confuses Plural S With Verb S",
+    "reason": "It follows irregular plurals by separating two common uses of the same written ending: number on nouns and third-person singular agreement on present-tense verbs."
   },
   "packets": [
     {
@@ -665,6 +665,13 @@
       "topic_id": "child-confuses-plural-and-possessive-endings",
       "title": "E102: Why a Child Confuses Plural and Possessive Endings",
       "file": "episodes/E102-child-confuses-plural-and-possessive-endings.json",
+      "status": "ready"
+    },
+    {
+      "episode_number": 103,
+      "topic_id": "child-misspells-irregular-plurals",
+      "title": "E103: Why a Child Misspells Irregular Plurals",
+      "file": "episodes/E103-child-misspells-irregular-plurals.json",
       "status": "ready"
     }
   ],
