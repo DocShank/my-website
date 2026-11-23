@@ -1,8 +1,8 @@
 {
   "schema": 1,
   "workflow": "chatgpt-reviewed-v20",
-  "updated_at": "2026-11-22T09:22:15.000Z",
-  "next_episode_number": 104,
+  "updated_at": "2026-11-23T09:53:57.000Z",
+  "next_episode_number": 105,
   "next_planned_topic": {
     "id": "child-confuses-plural-and-verb-s",
     "title": "Why a Child Confuses Plural S With Verb S",
@@ -672,6 +672,13 @@
       "topic_id": "child-misspells-irregular-plurals",
       "title": "E103: Why a Child Misspells Irregular Plurals",
       "file": "episodes/E103-child-misspells-irregular-plurals.json",
+      "status": "ready"
+    },
+    {
+      "episode_number": 104,
+      "topic_id": "early-2026-flu-signals",
+      "title": "E104: What the Early 2026 Flu Signals Mean",
+      "file": "episodes/E104-early-2026-flu-signals.json",
       "status": "ready"
     }
   ],
