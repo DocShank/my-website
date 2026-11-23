@@ -1,0 +1,159 @@
+{
+  "schema": 2,
+  "editorial": {
+    "workflow": "chatgpt-reviewed-v20",
+    "reviewed_by": "ChatGPT medical editorial workflow",
+    "reviewed_on": "2026-11-23",
+    "episode_number": 104,
+    "language": "English",
+    "spoken_host_name_allowed": false,
+    "long_dashes_allowed": false,
+    "target_minutes": 10
+  },
+  "topic_id": "early-2026-flu-signals",
+  "topic": {
+    "id": "early-2026-flu-signals",
+    "title": "What the Early 2026 Flu Signals Mean",
+    "audience_question": "What should families do when flu activity rises early and severe outcomes are already being reported?",
+    "pubmed_query": "influenza early antiviral treatment oseltamivir children hospitalization outcomes vaccination 2026 2027",
+    "icon_keywords": ["influenza", "vaccination", "antiviral"],
+    "category": "current-public-health"
+  },
+  "sources": [
+    {
+      "id": "CDC:FLUVIEW-W45-2026",
+      "title": "Weekly US Influenza Surveillance Report: Key Updates for Week 45, Ending November 14, 2026",
+      "abstract": "CDC reported on November 20, 2026 that multiple influenza indicators were increasing nationally. Two pediatric deaths from the 2026 to 2027 season were newly reported, bringing the season total to seven. Current severity was classified as low. CDC cautioned that an earlier increase does not necessarily predict a higher peak or greater overall severity.",
+      "journal": "US Centers for Disease Control and Prevention",
+      "year": "2026",
+      "url": "https://www.cdc.gov/fluview/surveillance/2026-week-45.html",
+      "doi": null
+    },
+    {
+      "id": "CDC:FLU-VACCINE-FACTS-2026",
+      "title": "Key Facts About Seasonal Flu Vaccine",
+      "abstract": "CDC recommends seasonal influenza vaccination for everyone aged six months and older in the United States, with rare exceptions. Vaccination can reduce influenza illness and severe outcomes, and protection takes about two weeks to develop.",
+      "journal": "US Centers for Disease Control and Prevention",
+      "year": "2026",
+      "url": "https://www.cdc.gov/flu/vaccines/keyfacts.html",
+      "doi": null
+    },
+    {
+      "id": "CDC:FLU-ANTIVIRALS-CLINICIANS-2026",
+      "title": "Influenza Antiviral Medications: Summary for Clinicians",
+      "abstract": "CDC recommends antiviral treatment as soon as possible for people hospitalized with influenza, those with severe or progressive illness, and those at higher risk of complications. Treatment decisions for these priority groups should not wait for laboratory confirmation. Benefit is greatest when treatment starts early, especially within 48 hours of symptom onset.",
+      "journal": "US Centers for Disease Control and Prevention",
+      "year": "2026",
+      "url": "https://www.cdc.gov/flu/hcp/antivirals/summary-clinicians.html",
+      "doi": null
+    },
+    {
+      "id": "CDC:RESPIRATORY-WARNING-SIGNS-2026",
+      "title": "About Respiratory Illnesses",
+      "abstract": "CDC lists emergency warning signs for respiratory-virus complications. These include breathing difficulty, persistent chest or abdominal pain, confusion, seizures, lack of urination, severe weakness, and illness that improves then worsens in adults, with child-specific signs including ribs pulling in, blue lips or face, dehydration, poor alertness, and any fever in a baby younger than 12 weeks.",
+      "journal": "US Centers for Disease Control and Prevention",
+      "year": "2026",
+      "url": "https://www.cdc.gov/respiratory-viruses/about/index.html",
+      "doi": null
+    },
+    {
+      "id": "CDC:HIGH-RISK-FLU",
+      "title": "People at Increased Risk for Flu Complications",
+      "abstract": "Groups at increased risk include adults aged 65 years and older, children younger than five years and especially those younger than two, pregnant people, and people with specified chronic medical conditions or weakened immune systems.",
+      "journal": "US Centers for Disease Control and Prevention",
+      "year": "2026",
+      "url": "https://www.cdc.gov/flu/highrisk/index.htm",
+      "doi": null
+    },
+    {
+      "id": "CDC:FLU-SICK-CARE",
+      "title": "Flu: What To Do If You Get Sick",
+      "abstract": "CDC recommends keeping a person with influenza away from others when possible, using cleaner air and hygiene measures to reduce spread, and not giving aspirin or salicylate-containing products to children or teenagers with suspected or confirmed flu because of the risk of Reye syndrome.",
+      "journal": "US Centers for Disease Control and Prevention",
+      "year": "2026",
+      "url": "https://www.cdc.gov/flu/takingcare/index.html",
+      "doi": null
+    },
+    {
+      "id": "PMID:36121673",
+      "title": "Association of Early Oseltamivir With Improved Outcomes in Hospitalized Children With Influenza, 2007 to 2020",
+      "abstract": "In a multicenter retrospective cohort of 55,799 hospitalized children, oseltamivir given on hospital day zero or one was associated with shorter hospital stay and lower adjusted odds of readmission, late intensive care transfer, and the composite of death or extracorporeal membrane oxygenation. The observational design supports association rather than proof of causation.",
+      "journal": "JAMA Pediatrics",
+      "year": "2022",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36121673/",
+      "doi": "10.1001/jamapediatrics.2022.3261"
+    }
+  ],
+  "episode": {
+    "title": "E104: What the Early 2026 Flu Signals Mean",
+    "hook": "Flu can feel ordinary until it suddenly is not. Imagine a child who develops fever and cough on Monday. By Tuesday the child is breathing faster, drinking very little, and barely urinating. The family planned to wait for a test, but the more important question is whether this child needs urgent care and whether treatment should begin early. New national data make that question timely, but the numbers need careful interpretation.",
+    "sections": [
+      {
+        "heading": "The high yield summary",
+        "narration": "Too busy? Here is your high yield summary. CDC reported on November 20 that flu activity was increasing nationally. Seven influenza-associated pediatric deaths had been reported for this season, while current severity was still classified as low. An early rise does not prove the season will become unusually severe. Get vaccinated if you are eligible and not yet vaccinated. If you are high risk and develop flu symptoms, contact a clinician promptly because antiviral treatment works best when started early. Seek emergency care for breathing difficulty, dehydration, confusion, seizures, blue lips or face, or illness that improves then sharply worsens.",
+        "on_screen": ["Activity is rising", "Early rise does not predict final severity", "Vaccinate, treat early, know warning signs"],
+        "icon": "flu-summary",
+        "source_ids": ["CDC:FLUVIEW-W45-2026", "CDC:FLU-VACCINE-FACTS-2026", "CDC:FLU-ANTIVIRALS-CLINICIANS-2026", "CDC:RESPIRATORY-WARNING-SIGNS-2026"]
+      },
+      {
+        "heading": "What the surveillance report actually says",
+        "narration": "The Week 45 report showed several indicators increasing, including positive tests, emergency visits, and hospital admissions. Almost all viruses reported by public health laboratories that week were influenza A. CDC also estimated millions of illnesses, tens of thousands of hospitalizations, and thousands of deaths so far. These are burden estimates, not confirmed case counts, and they are revised as more data arrive. Surveillance describes population trends. It cannot predict exactly how one person's illness will progress.",
+        "on_screen": ["Multiple indicators rising", "Mostly influenza A in reported samples", "Population trend, not personal prediction"],
+        "icon": "surveillance-chart",
+        "source_ids": ["CDC:FLUVIEW-W45-2026"]
+      },
+      {
+        "heading": "Seven pediatric deaths need context",
+        "narration": "Each pediatric death is serious, but the total is preliminary and can rise because investigations take time. A reported death means influenza was laboratory confirmed in a person younger than 18 with a compatible illness. The count does not tell us that every child with flu is in danger, and it should not be used alone to label the whole season. The practical lesson is to recognize children at higher risk and respond quickly when warning signs appear.",
+        "on_screen": ["Preliminary reports", "Laboratory-confirmed definition", "Respond to risk and warning signs"],
+        "icon": "pediatric-safety",
+        "source_ids": ["CDC:FLUVIEW-W45-2026", "CDC:HIGH-RISK-FLU", "CDC:RESPIRATORY-WARNING-SIGNS-2026"]
+      },
+      {
+        "heading": "Vaccination still matters now",
+        "narration": "CDC recommends seasonal flu vaccination for everyone aged six months and older, with rare exceptions. Protection takes about two weeks to develop, so vaccination is prevention for the weeks ahead, not treatment for symptoms that started today. It is still useful while influenza is circulating. Ask a clinician which product fits age, pregnancy, allergies, and medical history. Children receiving flu vaccine for the first time may need two doses, so families should not delay that conversation.",
+        "on_screen": ["Six months and older", "Protection takes about two weeks", "Some children need two doses"],
+        "icon": "vaccine",
+        "source_ids": ["CDC:FLU-VACCINE-FACTS-2026"]
+      },
+      {
+        "heading": "Know who is at higher risk",
+        "narration": "Higher-risk groups include adults 65 and older, children younger than five and especially younger than two, pregnant people, and people with conditions such as asthma, diabetes, heart disease, neurologic disease, or weakened immunity. Risk does not mean severe illness is inevitable. It means the threshold for calling a clinician should be lower. Do not wait several days to ask whether antiviral treatment is appropriate.",
+        "on_screen": ["Young children and older adults", "Pregnancy and chronic conditions", "Call early about treatment"],
+        "icon": "high-risk-groups",
+        "source_ids": ["CDC:HIGH-RISK-FLU", "CDC:FLU-ANTIVIRALS-CLINICIANS-2026"]
+      },
+      {
+        "heading": "Why timing changes treatment decisions",
+        "narration": "Now, let us go deeper. Prescription antivirals can shorten illness and may reduce complications. Benefit is greatest when treatment begins within 48 hours, but later treatment may still help people who are hospitalized or severely ill. CDC says clinicians should not wait for a positive test before treating hospitalized patients, severe or progressive illness, or higher-risk patients with suspected flu. A large observational study in hospitalized children linked early oseltamivir with shorter stays and fewer serious outcomes, although observational evidence cannot prove causation by itself.",
+        "on_screen": ["Best benefit starts early", "Priority groups should not wait for a test", "Evidence supports prompt treatment"],
+        "icon": "antiviral-clock",
+        "source_ids": ["CDC:FLU-ANTIVIRALS-CLINICIANS-2026", "PMID:36121673"]
+      },
+      {
+        "heading": "Emergency signs are more important than the label",
+        "narration": "Seek emergency help for trouble breathing, blue lips or face, ribs pulling in with each breath, chest pain, severe dehydration, confusion, poor alertness, seizures, or severe weakness. In a baby younger than 12 weeks, any fever needs immediate medical evaluation. A fever or cough that improves and then returns or worsens can signal a complication. These lists are not complete. Severe or concerning symptoms deserve care even if a home flu test is negative.",
+        "on_screen": ["Breathing trouble", "Dehydration or poor alertness", "Better, then worse"],
+        "icon": "emergency-warning",
+        "source_ids": ["CDC:RESPIRATORY-WARNING-SIGNS-2026"]
+      },
+      {
+        "heading": "What to do in the first day",
+        "narration": "Write down when symptoms began, check whether the sick person is in a higher-risk group, and call promptly if treatment may be needed. Encourage fluids and monitor breathing, alertness, and urination. Keep the sick person away from others when possible, improve indoor airflow, cover coughs, and clean hands. Do not give aspirin to a child or teenager with suspected flu because of the risk of Reye syndrome. Use fever medicines only as directed for age and medical history.",
+        "on_screen": ["Record symptom onset", "Monitor breathing and hydration", "Reduce spread at home"],
+        "icon": "first-day-plan",
+        "source_ids": ["CDC:FLU-ANTIVIRALS-CLINICIANS-2026", "CDC:RESPIRATORY-WARNING-SIGNS-2026", "CDC:FLU-SICK-CARE"]
+      },
+      {
+        "heading": "Three essential takeaways",
+        "narration": "Number one, rising flu activity is a reason to prepare, not proof that the final season will be unusually severe. Number two, vaccination remains useful, and people at higher risk should contact a clinician early because antiviral benefit is greatest when treatment starts promptly. Number three, seek urgent help for breathing difficulty, dehydration, confusion, seizures, blue lips or face, severe weakness, or symptoms that improve and then worsen.",
+        "on_screen": ["Interpret trends carefully", "Prevent and treat early", "Act on warning signs"],
+        "icon": "checklist",
+        "source_ids": ["CDC:FLUVIEW-W45-2026", "CDC:FLU-VACCINE-FACTS-2026", "CDC:FLU-ANTIVIRALS-CLINICIANS-2026", "CDC:RESPIRATORY-WARNING-SIGNS-2026"]
+      }
+    ],
+    "closing": "On the next episode, we will explain why a child confuses plural s with verb s, how the same ending performs two grammatical jobs, and how to teach the difference clearly. Follow the Your Only Doc podcast for clear, evidence based health and development explanations. Stay curious and stay safe.",
+    "description": "CDC's November 20 FluView showed influenza activity increasing early in the 2026 to 2027 season. This episode explains what the signals do and do not mean, who is at higher risk, why vaccination and early antivirals matter, and which warning signs need urgent care.",
+    "thumbnail_text": "FLU IS RISING: ACT EARLY"
+  }
+}
