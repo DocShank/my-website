@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "workflow": "chatgpt-reviewed-v20",
-  "updated_at": "2026-11-23T09:53:57.000Z",
-  "next_episode_number": 105,
+  "updated_at": "2026-11-24T09:48:43.000Z",
+  "next_episode_number": 106,
   "next_planned_topic": {
-    "id": "child-confuses-plural-and-verb-s",
-    "title": "Why a Child Confuses Plural S With Verb S",
-    "reason": "It follows irregular plurals by separating two common uses of the same written ending: number on nouns and third-person singular agreement on present-tense verbs."
+    "id": "child-misspells-past-tense-endings",
+    "title": "Why a Child Misspells Past Tense Endings",
+    "reason": "It follows plural and verb s by showing how one grammatical ending can have several pronunciations while retaining a consistent written form."
   },
   "packets": [
     {
@@ -679,6 +679,13 @@
       "topic_id": "early-2026-flu-signals",
       "title": "E104: What the Early 2026 Flu Signals Mean",
       "file": "episodes/E104-early-2026-flu-signals.json",
+      "status": "ready"
+    },
+    {
+      "episode_number": 105,
+      "topic_id": "child-confuses-plural-and-verb-s",
+      "title": "E105: Why a Child Confuses Plural S With Verb S",
+      "file": "episodes/E105-child-confuses-plural-and-verb-s.json",
       "status": "ready"
     }
   ],
