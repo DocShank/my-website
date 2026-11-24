@@ -1,0 +1,159 @@
+{
+  "schema": 2,
+  "editorial": {
+    "workflow": "chatgpt-reviewed-v20",
+    "reviewed_by": "ChatGPT medical editorial workflow",
+    "reviewed_on": "2026-11-24",
+    "episode_number": 105,
+    "language": "English",
+    "spoken_host_name_allowed": false,
+    "long_dashes_allowed": false,
+    "target_minutes": 10
+  },
+  "topic_id": "child-confuses-plural-and-verb-s",
+  "topic": {
+    "id": "child-confuses-plural-and-verb-s",
+    "title": "Why a Child Confuses Plural S With Verb S",
+    "audience_question": "Why can a child write the dogs runs or the dog run even after learning to add s?",
+    "pubmed_query": "children plural third person singular s inflectional morphology spelling subject verb agreement",
+    "icon_keywords": ["plural-s", "verb-s", "grammar"],
+    "category": "child-development"
+  },
+  "sources": [
+    {
+      "id": "ASHA:WRITTEN-LANGUAGE",
+      "title": "Written Language Disorders",
+      "abstract": "ASHA explains that written language draws on phonology, morphology, syntax, semantics, and orthography. Inflectional morphology includes changes in word form that mark number, tense, possession, or comparison, and writers must connect these meanings with written letter patterns.",
+      "journal": "American Speech-Language-Hearing Association",
+      "year": "2026",
+      "url": "https://www.asha.org/practice-portal/clinical-topics/written-language-disorders/",
+      "doi": null
+    },
+    {
+      "id": "ASHA:SIGNS-WRITTEN-LANGUAGE",
+      "title": "Signs and Symptoms of Written Language Disorders",
+      "abstract": "ASHA lists persistent errors in regular plural s, third-person singular marking, past tense, morphological awareness, spelling, and grammaticality judgments among possible signs that may warrant broader written-language assessment.",
+      "journal": "American Speech-Language-Hearing Association",
+      "year": "2026",
+      "url": "https://www.asha.org/practice-portal/clinical-topics/written-language-disorders/signs-and-symptoms-of-written-language-disorders/",
+      "doi": null
+    },
+    {
+      "id": "DFE:ENGLISH-CURRICULUM",
+      "title": "National Curriculum in England: English Programmes of Study",
+      "abstract": "The curriculum explicitly distinguishes s or es as the plural marker for nouns from s or es as the third-person singular marker for verbs, and also calls for correct subject-verb agreement and teaching the whole suffix in context.",
+      "journal": "UK Department for Education",
+      "year": "2014",
+      "url": "https://www.gov.uk/government/publications/national-curriculum-in-england-english-programmes-of-study/national-curriculum-in-england-english-programmes-of-study",
+      "doi": null
+    },
+    {
+      "id": "PMID:12625436",
+      "title": "Do Beez Buzz? Rule-Based and Frequency-Based Knowledge in Learning to Spell Plural S",
+      "abstract": "Experiments with children aged five to nine and adults found that plural spelling can reflect learned letter-pattern frequencies as well as an abstract morphological rule, showing why correct-looking plural endings do not always prove full grammatical understanding.",
+      "journal": "Child Development",
+      "year": "2003",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/12625436/",
+      "doi": "10.1111/1467-8624.00519"
+    },
+    {
+      "id": "PMID:10603695",
+      "title": "Some Differences Between English Plural Noun Inflections and Third Singular Verb Inflections in the Input",
+      "abstract": "Analysis of speech directed to children found that plural noun s and third-person singular verb s differ in frequency and sentence position, factors that may contribute to their different developmental timing.",
+      "journal": "Journal of Child Language",
+      "year": "1999",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/10603695/",
+      "doi": null
+    },
+    {
+      "id": "PMID:18952857",
+      "title": "Phonological Constraints on Children's Production of English Third Person Singular S",
+      "abstract": "Young children produced third-person singular s more accurately in phonologically simple than complex word endings and more accurately at the end than in the middle of utterances, demonstrating that grammar, sound complexity, and sentence position can interact.",
+      "journal": "Journal of Speech, Language, and Hearing Research",
+      "year": "2008",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18952857/",
+      "doi": "10.1044/1092-4388(2008/07-0158)"
+    },
+    {
+      "id": "PMID:20799003",
+      "title": "A Meta-Analysis of Morphological Interventions: Effects on Literacy Achievement of Children With Literacy Difficulties",
+      "abstract": "A meta-analysis of 17 studies found that morphological instruction was associated with improvements in morphological awareness and small improvements in spelling, with particular relevance for children experiencing literacy, learning, or language difficulties.",
+      "journal": "Annals of Dyslexia",
+      "year": "2010",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/20799003/",
+      "doi": "10.1007/s11881-010-0041-x"
+    }
+  ],
+  "episode": {
+    "title": "E105: Why a Child Confuses Plural S With Verb S",
+    "hook": "A child writes, the dogs runs fast. Every word looks familiar, and both endings are spelled correctly, yet the sentence is wrong. The child has learned that s is important, but not which word needs it. English gives the same written ending two separate jobs. On a noun, it can mark more than one. On a present-tense verb, it can agree with one he, she, it, or singular name.",
+    "sections": [
+      {
+        "heading": "The high yield summary",
+        "narration": "Too busy? Here is your high yield summary. Plural s belongs to a noun and usually means more than one, as in two dogs. Verb s belongs to a present-tense verb when the subject is third-person singular, as in the dog runs. Put them together and the pattern reverses: the dog runs, but the dogs run. Teach the meaning and sentence job before asking for the ending. Use paired sentences, identify the subject and action, then check which word carries s.",
+        "on_screen": ["two dogs", "the dog runs", "the dogs run"],
+        "icon": "grammar-summary",
+        "source_ids": ["DFE:ENGLISH-CURRICULUM", "ASHA:WRITTEN-LANGUAGE", "PMID:10603695"]
+      },
+      {
+        "heading": "One spelling performs two jobs",
+        "narration": "In cats, s changes the noun from one animal to several. In the cat sleeps, s marks agreement between a singular subject and a present-tense verb. The ending can sound like s, z, or an extra syllable depending on the word, but the spelling is usually s or es. Sound alone therefore cannot tell the child whether the ending marks number or verb agreement. The surrounding sentence supplies the answer.",
+        "on_screen": ["noun job: number", "verb job: agreement", "sentence meaning decides"],
+        "icon": "two-jobs",
+        "source_ids": ["DFE:ENGLISH-CURRICULUM", "ASHA:WRITTEN-LANGUAGE", "PMID:18952857"]
+      },
+      {
+        "heading": "Why the pattern feels backward",
+        "narration": "Compare one bird flies with two birds fly. When the noun is singular, the verb receives s. When the noun becomes plural, the noun receives s and the verb loses it. A child who treats s as a general signal for more than one may write birds flies. Another child may omit both endings. These errors can reflect incomplete control of number, tense, and agreement rather than carelessness.",
+        "on_screen": ["one bird flies", "two birds fly", "s moves with the grammar"],
+        "icon": "agreement-contrast",
+        "source_ids": ["DFE:ENGLISH-CURRICULUM", "ASHA:SIGNS-WRITTEN-LANGUAGE"]
+      },
+      {
+        "heading": "Exposure is not equal",
+        "narration": "Research on language addressed to young children found plural noun endings more frequent than third-person singular verb endings, especially in prominent sentence positions. Verb s can also be harder to hear or produce when it follows a complex cluster of sounds or occurs inside a longer utterance. This helps explain why a child may use plural s reliably while still omitting or misplacing verb s.",
+        "on_screen": ["Plural s is often more frequent", "Position affects noticeability", "Sound complexity matters"],
+        "icon": "language-input",
+        "source_ids": ["PMID:10603695", "PMID:18952857"]
+      },
+      {
+        "heading": "Correct spelling may hide guessing",
+        "narration": "A child can sometimes spell a plural correctly by remembering familiar letter patterns without fully understanding the grammatical rule. Studies of real and invented words show that children use both morphology and statistical spelling patterns. That is why copying dogs, cats, and buses is not enough. Ask the child to explain what the s means and to change a sentence from one subject to several subjects.",
+        "on_screen": ["Correct form can come from memory", "Ask what the ending means", "Transform the sentence"],
+        "icon": "meaning-check",
+        "source_ids": ["PMID:12625436", "ASHA:WRITTEN-LANGUAGE"]
+      },
+      {
+        "heading": "Teach the contrast explicitly",
+        "narration": "Now, let us go deeper. Build a two-column comparison. In the first column write one dog runs. In the second write two dogs run. Circle the subject, underline the action, and place one movable s card where grammar requires it. Repeat with a girl sings and girls sing, then mix in verbs ending with es, such as one child watches and two children watch. Explicit morphological instruction can support spelling and grammatical awareness.",
+        "on_screen": ["Find the subject", "Find the action", "Place s by grammatical job"],
+        "icon": "explicit-teaching",
+        "source_ids": ["DFE:ENGLISH-CURRICULUM", "PMID:20799003", "ASHA:WRITTEN-LANGUAGE"]
+      },
+      {
+        "heading": "Use questions that reveal the job",
+        "narration": "Instead of saying remember the s, ask two questions. First, how many people or things does the noun name? Second, who is doing the action? If the subject is he, she, it, or one named person or thing, a regular present-tense verb usually takes s. Then change the subject to they and listen for what changes. This makes agreement visible rather than turning correction into memorization.",
+        "on_screen": ["How many?", "Who does the action?", "Change one to they"],
+        "icon": "grammar-questions",
+        "source_ids": ["DFE:ENGLISH-CURRICULUM", "ASHA:WRITTEN-LANGUAGE"]
+      },
+      {
+        "heading": "Practice and when to assess",
+        "narration": "Practice a few contrasts across speaking, reading, sentence completion, and independent writing, then revisit them over several days. Consider broader assessment when the pattern remains persistent and affects both spoken and written language, especially alongside errors in past tense, possessives, sentence structure, reading, spelling, or self-correction. A speech-language or school assessment should consider the child's age, instruction, dialect, and languages rather than treating every difference as a disorder.",
+        "on_screen": ["Practice across tasks", "Look for a broad persistent pattern", "Respect dialect and language background"],
+        "icon": "practice-assessment",
+        "source_ids": ["ASHA:SIGNS-WRITTEN-LANGUAGE", "ASHA:WRITTEN-LANGUAGE", "PMID:20799003"]
+      },
+      {
+        "heading": "Three essential takeaways",
+        "narration": "Number one, plural s marks number on a noun, while verb s marks third-person singular agreement on a present-tense verb. Number two, teach the contrast through paired sentences such as the dog runs and the dogs run, identifying the subject, action, and meaning before adding letters. Number three, seek broader assessment when these errors persist across speech, grammar, reading, and writing despite clear instruction and repeated practice.",
+        "on_screen": ["Separate the two jobs", "Compare one with more than one", "Assess the wider pattern"],
+        "icon": "checklist",
+        "source_ids": ["DFE:ENGLISH-CURRICULUM", "ASHA:WRITTEN-LANGUAGE", "ASHA:SIGNS-WRITTEN-LANGUAGE"]
+      }
+    ],
+    "closing": "On the next episode, we will explain why a child misspells past tense endings, why walked, played, and wanted sound different but share the same written ending, and how to teach that pattern clearly. Follow the Your Only Doc podcast for clear, evidence based health and development explanations. Stay curious and stay safe.",
+    "description": "Why does a child write the dogs runs or the dog run? This episode separates plural s from third-person singular verb s, explains why the pattern feels backward, and gives practical teaching and assessment guidance.",
+    "thumbnail_text": "DOG RUNS OR DOGS RUN?"
+  }
+}
