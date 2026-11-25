@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "workflow": "chatgpt-reviewed-v20",
-  "updated_at": "2026-11-24T09:48:43.000Z",
-  "next_episode_number": 106,
+  "updated_at": "2026-11-25T09:47:04.000Z",
+  "next_episode_number": 107,
   "next_planned_topic": {
-    "id": "child-misspells-past-tense-endings",
-    "title": "Why a Child Misspells Past Tense Endings",
-    "reason": "It follows plural and verb s by showing how one grammatical ending can have several pronunciations while retaining a consistent written form."
+    "id": "child-overregularizes-irregular-past-tense",
+    "title": "Why a Child Writes Goed, Runned, or Taked",
+    "reason": "It follows regular past-tense endings by explaining why children apply the productive ed rule to irregular verbs and how to teach the exceptions."
   },
   "packets": [
     {
@@ -686,6 +686,13 @@
       "topic_id": "child-confuses-plural-and-verb-s",
       "title": "E105: Why a Child Confuses Plural S With Verb S",
       "file": "episodes/E105-child-confuses-plural-and-verb-s.json",
+      "status": "ready"
+    },
+    {
+      "episode_number": 106,
+      "topic_id": "child-misspells-past-tense-endings",
+      "title": "E106: Why a Child Misspells Past Tense Endings",
+      "file": "episodes/E106-child-misspells-past-tense-endings.json",
       "status": "ready"
     }
   ],
