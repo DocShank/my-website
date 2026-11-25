@@ -1,0 +1,168 @@
+{
+  "schema": 2,
+  "editorial": {
+    "workflow": "chatgpt-reviewed-v20",
+    "reviewed_by": "ChatGPT medical editorial workflow",
+    "reviewed_on": "2026-11-25",
+    "episode_number": 106,
+    "language": "English",
+    "spoken_host_name_allowed": false,
+    "long_dashes_allowed": false,
+    "target_minutes": 10
+  },
+  "topic_id": "child-misspells-past-tense-endings",
+  "topic": {
+    "id": "child-misspells-past-tense-endings",
+    "title": "Why a Child Misspells Past Tense Endings",
+    "audience_question": "Why does a child write walkt, playd, or wantid when all three regular past-tense words end in ed?",
+    "pubmed_query": "children spelling regular past tense ed inflectional morphology phonology intervention",
+    "icon_keywords": ["past-tense", "suffix-ed", "spelling"],
+    "category": "child-development"
+  },
+  "sources": [
+    {
+      "id": "ASHA:WRITTEN-LANGUAGE",
+      "title": "Written Language Disorders",
+      "abstract": "ASHA explains that spelling integrates phonology, orthography, morphology, syntax, and semantics. Inflectional morphology marks grammatical information such as tense, and writers must connect the meaning of a suffix with its written form.",
+      "journal": "American Speech-Language-Hearing Association",
+      "year": "2026",
+      "url": "https://www.asha.org/practice-portal/clinical-topics/written-language-disorders/",
+      "doi": null
+    },
+    {
+      "id": "ASHA:SIGNS-WRITTEN-LANGUAGE",
+      "title": "Signs and Symptoms of Written Language Disorders",
+      "abstract": "ASHA identifies persistent omission of regular past tense ed, difficulty with bound morphemes, grammaticality judgments, spelling, and self-correction among patterns that may warrant broader written-language assessment, while noting cultural and linguistic variation.",
+      "journal": "American Speech-Language-Hearing Association",
+      "year": "2026",
+      "url": "https://www.asha.org/practice-portal/clinical-topics/written-language-disorders/signs-and-symptoms-of-written-language-disorders/",
+      "doi": null
+    },
+    {
+      "id": "DFE:ENGLISH-CURRICULUM",
+      "title": "National Curriculum in England: English Programmes of Study",
+      "abstract": "The curriculum teaches ed as a suffix for regular past tense even though it may be pronounced as t, d, or an extra syllable. It also provides spelling guidance for adding endings to roots, including final e, consonant doubling, and changing final y.",
+      "journal": "UK Department for Education",
+      "year": "2014",
+      "url": "https://www.gov.uk/government/publications/national-curriculum-in-england-english-programmes-of-study/national-curriculum-in-england-english-programmes-of-study",
+      "doi": null
+    },
+    {
+      "id": "DFE:WRITING-FRAMEWORK-2025",
+      "title": "The Writing Framework",
+      "abstract": "The framework uses ed to illustrate how morphology supports spelling: the suffix signals past tense even when it is pronounced differently in words such as busted, snored, and kicked, while similar sounds in non-past words do not require the suffix.",
+      "journal": "UK Department for Education",
+      "year": "2025",
+      "url": "https://assets.publishing.service.gov.uk/media/68bec95444fd43581bda1c86/The_writing_framework_092025.pdf",
+      "doi": null
+    },
+    {
+      "id": "PMID:9232379",
+      "title": "Morphological Spelling Strategies: Developmental Stages and Processes",
+      "abstract": "A longitudinal study found that children may first use ed as a visual spelling pattern without understanding its grammatical basis, later restrict it to verbs, and eventually apply it appropriately to regular past-tense verbs. Grammatical awareness predicted later inflectional spelling success.",
+      "journal": "Developmental Psychology",
+      "year": "1997",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/9232379/",
+      "doi": "10.1037/0012-1649.33.4.637"
+    },
+    {
+      "id": "PMID:17650143",
+      "title": "How Children Learn About Morphological Spelling Rules",
+      "abstract": "A two-year longitudinal study of children beginning at age six suggested that learning the spellings of specific inflected words may help children later abstract and use broader morphological spelling rules.",
+      "journal": "Child Development",
+      "year": "2007",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17650143/",
+      "doi": "10.1111/j.1467-8624.2007.01070.x"
+    },
+    {
+      "id": "PMID:14575345",
+      "title": "Children's Productions of the Affix Ed in Past Tense and Past Participle Contexts",
+      "abstract": "A comparative study found that children with language impairment were more likely than control groups to omit past-tense affixes, illustrating why persistent ed errors should be interpreted within a broader language profile rather than as an isolated spelling mistake.",
+      "journal": "Journal of Speech, Language, and Hearing Research",
+      "year": "2003",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/14575345/",
+      "doi": "10.1044/1092-4388(2003/086)"
+    },
+    {
+      "id": "PMID:20799003",
+      "title": "A Meta-Analysis of Morphological Interventions: Effects on Literacy Achievement of Children With Literacy Difficulties",
+      "abstract": "A meta-analysis of 17 studies found morphological instruction associated with improvements in morphological awareness and smaller improvements in spelling, with particular relevance for children experiencing literacy, learning, or language difficulties.",
+      "journal": "Annals of Dyslexia",
+      "year": "2010",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/20799003/",
+      "doi": "10.1007/s11881-010-0041-x"
+    }
+  ],
+  "episode": {
+    "title": "E106: Why a Child Misspells Past Tense Endings",
+    "hook": "A child writes, yesterday I walkt home, then writes playd outside and wantid a snack. Every ending represents what the child heard. Yet the conventional spellings are walked, played, and wanted. The child may understand that the events happened in the past but still miss the deeper spelling principle: regular past tense keeps one written ending even when that ending has three different pronunciations.",
+    "sections": [
+      {
+        "heading": "The high yield summary",
+        "narration": "Too busy? Here is your high yield summary. Regular English past-tense verbs usually end in the written suffix ed. In walked it sounds like t, in played it sounds like d, and in wanted it adds a syllable that sounds like id. Teach the meaning first: the action already happened. Then find the base verb, say the past-tense form, and add ed using the correct root-word spelling rule. Contrast regular verbs with irregular forms such as went and saw instead of forcing ed onto every verb.",
+        "on_screen": ["walked sounds like t", "played sounds like d", "wanted adds a syllable"],
+        "icon": "past-tense-summary",
+        "source_ids": ["DFE:ENGLISH-CURRICULUM", "DFE:WRITING-FRAMEWORK-2025", "ASHA:WRITTEN-LANGUAGE"]
+      },
+      {
+        "heading": "Three sounds share one spelling",
+        "narration": "The final sound changes because speech adapts to the sound before the suffix. After many voiceless sounds, ed is pronounced t, as in jumped. After vowels and many voiced sounds, it is pronounced d, as in played. After a verb ending in t or d, it adds a syllable, as in wanted or needed. The child's ear is not wrong. English spelling preserves the grammatical marker ed across all three pronunciations.",
+        "on_screen": ["jumped: t sound", "played: d sound", "needed: extra syllable"],
+        "icon": "three-sounds",
+        "source_ids": ["DFE:ENGLISH-CURRICULUM", "DFE:WRITING-FRAMEWORK-2025"]
+      },
+      {
+        "heading": "Why sounding out can mislead",
+        "narration": "If a child spells only by sound, walked may become walkt and played may become playd. Wanted may become wantid because every syllable is represented. Those attempts show useful phonological analysis, but English requires morphological knowledge too. The writer must recognize that the sound marks past tense and choose ed, rather than selecting letters only from the final sound.",
+        "on_screen": ["Sound gives a clue", "Grammar gives the suffix", "Past tense is written ed"],
+        "icon": "sound-versus-meaning",
+        "source_ids": ["ASHA:WRITTEN-LANGUAGE", "DFE:WRITING-FRAMEWORK-2025", "PMID:9232379"]
+      },
+      {
+        "heading": "The base word still matters",
+        "narration": "Adding ed is not always simple attachment. Play becomes played. Hope already ends in e, so it becomes hoped with only d added. Carry changes y to i before ed. Stop doubles the final consonant in stopped. Teach the child to locate and spell the base verb first, then decide what happens where the root meets the suffix. This protects both the word's identity and its past-tense meaning.",
+        "on_screen": ["play plus ed", "hope plus d", "carry to carried, stop to stopped"],
+        "icon": "root-and-suffix",
+        "source_ids": ["DFE:ENGLISH-CURRICULUM", "ASHA:WRITTEN-LANGUAGE"]
+      },
+      {
+        "heading": "Children learn the pattern in stages",
+        "narration": "Research suggests that children may first memorize ed in familiar words without understanding why it is there. Some then overuse the pattern in places where it does not belong or add it to irregular verbs. With development and instruction, they restrict ed to verbs, connect it with past-time meaning, and apply it to regular verbs. Learning specific words can help build the broader rule.",
+        "on_screen": ["Learn familiar forms", "Discover the grammatical job", "Generalize to regular verbs"],
+        "icon": "learning-stages",
+        "source_ids": ["PMID:9232379", "PMID:17650143"]
+      },
+      {
+        "heading": "Teach meaning, root, then ending",
+        "narration": "Now, let us go deeper. Begin with a short before-and-after scene: today I jump, yesterday I jumped. Ask when the action happened, identify the base verb jump, and build jump plus ed with separate cards. Sort several verbs by the three spoken endings while keeping ed visible in every column. Then dictate new sentences so the child must use the principle instead of copying a list.",
+        "on_screen": ["When did it happen?", "Find the base verb", "Add the past-tense suffix"],
+        "icon": "explicit-morphology",
+        "source_ids": ["DFE:ENGLISH-CURRICULUM", "PMID:20799003", "PMID:17650143"]
+      },
+      {
+        "heading": "Keep irregular verbs separate",
+        "narration": "Regular past tense uses ed, but common irregular verbs change differently: go becomes went, see becomes saw, and take becomes took. Forms such as goed or taked show productive use of the regular rule, not random guessing. Place irregular pairs in their own retrieval set and practice them in meaningful sentences. Do not tell the child that every action in the past must visibly end in ed.",
+        "on_screen": ["regular: walk to walked", "irregular: go to went", "Do not force ed onto exceptions"],
+        "icon": "regular-irregular",
+        "source_ids": ["DFE:ENGLISH-CURRICULUM", "PMID:9232379", "ASHA:WRITTEN-LANGUAGE"]
+      },
+      {
+        "heading": "Practice and when to assess",
+        "narration": "Mix speaking, reading, sentence transformation, spelling, and proofreading. Revisit a few verbs after a day and again later, including unfamiliar regular verbs that test whether the rule transfers. Consider broader assessment when past-tense errors remain persistent across speech and writing, especially with difficulty in other grammatical endings, sentence structure, reading, spelling, or self-correction. Age, instruction, dialect, and language background must be considered before identifying a disorder.",
+        "on_screen": ["Practice across tasks", "Check transfer to new verbs", "Assess a broad persistent pattern"],
+        "icon": "practice-assessment",
+        "source_ids": ["ASHA:SIGNS-WRITTEN-LANGUAGE", "ASHA:WRITTEN-LANGUAGE", "PMID:14575345"]
+      },
+      {
+        "heading": "Three essential takeaways",
+        "narration": "Number one, regular past-tense ed can sound like t, d, or an extra syllable, but its written form stays ed. Number two, teach the sequence of past-time meaning, base verb, and suffix, including the spelling change where the root and ending meet. Number three, keep irregular verbs separate and seek broader assessment when errors persist across spoken grammar, reading, spelling, and writing despite clear instruction and practice.",
+        "on_screen": ["One suffix, three sounds", "Meaning before letters", "Assess the wider pattern"],
+        "icon": "checklist",
+        "source_ids": ["DFE:ENGLISH-CURRICULUM", "ASHA:WRITTEN-LANGUAGE", "ASHA:SIGNS-WRITTEN-LANGUAGE"]
+      }
+    ],
+    "closing": "On the next episode, we will explain why a child writes goed, runned, or taked, what those forms reveal about rule learning, and how to teach irregular past tense without weakening the regular pattern. Follow the Your Only Doc podcast for clear, evidence based health and development explanations. Stay curious and stay safe.",
+    "description": "Why does a child write walkt, playd, or wantid? This episode explains the three pronunciations of regular past-tense ed, root-word spelling changes, developmental learning stages, irregular verbs, practical teaching, and when persistent errors deserve assessment.",
+    "thumbnail_text": "WALKT OR WALKED?"
+  }
+}
