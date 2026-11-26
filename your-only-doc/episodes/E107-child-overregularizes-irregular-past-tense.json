@@ -1,0 +1,168 @@
+{
+  "schema": 2,
+  "editorial": {
+    "workflow": "chatgpt-reviewed-v20",
+    "reviewed_by": "ChatGPT medical editorial workflow",
+    "reviewed_on": "2026-11-26",
+    "episode_number": 107,
+    "language": "English",
+    "spoken_host_name_allowed": false,
+    "long_dashes_allowed": false,
+    "target_minutes": 10
+  },
+  "topic_id": "child-overregularizes-irregular-past-tense",
+  "topic": {
+    "id": "child-overregularizes-irregular-past-tense",
+    "title": "Why a Child Writes Goed, Runned, or Taked",
+    "audience_question": "Why does a child use forms such as goed or runned after previously saying went and ran correctly?",
+    "pubmed_query": "children irregular past tense overregularization goed runned language development intervention",
+    "icon_keywords": ["irregular-past", "overregularization", "grammar"],
+    "category": "child-development"
+  },
+  "sources": [
+    {
+      "id": "ASHA:WRITTEN-LANGUAGE",
+      "title": "Written Language Disorders",
+      "abstract": "ASHA explains that written language integrates morphology, syntax, phonology, semantics, and orthography. Inflectional morphology includes changes that mark tense, and effective assessment examines spoken and written language together.",
+      "journal": "American Speech-Language-Hearing Association",
+      "year": "2026",
+      "url": "https://www.asha.org/practice-portal/clinical-topics/written-language-disorders/",
+      "doi": null
+    },
+    {
+      "id": "ASHA:SIGNS-WRITTEN-LANGUAGE",
+      "title": "Signs and Symptoms of Written Language Disorders",
+      "abstract": "ASHA lists persistent difficulty with inflectional morphology, spelling, grammaticality judgments, sentence structure, and self-correction among possible signs of a written-language disorder, while emphasizing cultural and linguistic variation.",
+      "journal": "American Speech-Language-Hearing Association",
+      "year": "2026",
+      "url": "https://www.asha.org/practice-portal/clinical-topics/written-language-disorders/signs-and-symptoms-of-written-language-disorders/",
+      "doi": null
+    },
+    {
+      "id": "DFE:ENGLISH-CURRICULUM",
+      "title": "National Curriculum in England: English Programmes of Study",
+      "abstract": "The curriculum requires children to use present and past tenses consistently and recognizes that many commonly used verbs form the past tense irregularly rather than with the regular ed suffix.",
+      "journal": "UK Department for Education",
+      "year": "2014",
+      "url": "https://www.gov.uk/government/publications/national-curriculum-in-england-english-programmes-of-study/national-curriculum-in-england-english-programmes-of-study",
+      "doi": null
+    },
+    {
+      "id": "PMID:1518508",
+      "title": "Overregularization in Language Acquisition",
+      "abstract": "Analysis of 11,521 irregular past-tense utterances from 83 children found that overregularizations were usually uncommon, often appeared after children began marking regular past tense reliably, and were less frequent for irregular forms heard more often. The authors proposed that failed retrieval of an irregular form allows the productive regular rule to apply.",
+      "journal": "Monographs of the Society for Research in Child Development",
+      "year": "1992",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/1518508/",
+      "doi": null
+    },
+    {
+      "id": "PMCID:PMC6016078",
+      "title": "Children's Acquisition of the English Past Tense: Evidence From Novel Verb Production",
+      "abstract": "Research on novel verbs shows that children's past-tense choices reflect productivity and sensitivity to similarities among stored verb forms, informing competing single-route and dual-route accounts of irregular learning.",
+      "journal": "Child Development",
+      "year": "2018",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6016078/",
+      "doi": "10.1111/cdev.12822"
+    },
+    {
+      "id": "PMID:2925812",
+      "title": "Children's Over-Regularization of Nouns and Verbs",
+      "abstract": "In a correction task, older children performed better than younger children, and past-tense verb overregularizations were harder to correct than overregularized plural nouns, showing developmental growth in metalinguistic control.",
+      "journal": "Journal of Child Language",
+      "year": "1989",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/2925812/",
+      "doi": null
+    },
+    {
+      "id": "PMID:37473721",
+      "title": "Pattern-Based Target Selection for Treatment of Irregular Past Tense",
+      "abstract": "A small single-case experimental study treated irregular past tense in three seven-year-old children with developmental language disorder using phonological pattern groups, narrative generation, sentence imitation, and naturalistic play, examining learning and generalization within patterns.",
+      "journal": "American Journal of Speech-Language Pathology",
+      "year": "2023",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37473721/",
+      "doi": "10.1044/2023_AJSLP-22-00038"
+    },
+    {
+      "id": "PMID:30286247",
+      "title": "Changes in English Past Tense Use by Bilingual School-Age Children With and Without Developmental Language Disorder",
+      "abstract": "A longitudinal elicitation study found that irregular past tense remained more difficult than regular and novel forms, with bare stems and overregularizations among common error types. Age, language ability, and multilingual development influenced performance.",
+      "journal": "Journal of Speech, Language, and Hearing Research",
+      "year": "2018",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30286247/",
+      "doi": null
+    }
+  ],
+  "episode": {
+    "title": "E107: Why a Child Writes Goed, Runned, or Taked",
+    "hook": "A child who once said went suddenly starts saying goed. Ran becomes runned, and took becomes taked. It can sound as if the child has forgotten words already learned. Often, the opposite is happening. The child has discovered that English usually forms the past tense with ed and is applying that productive rule to verbs that do not follow it. The error reveals a growing system, but the exceptions still need reliable retrieval.",
+    "sections": [
+      {
+        "heading": "The high yield summary",
+        "narration": "Too busy? Here is your high yield summary. Forms such as goed, runned, and taked are called overregularizations. The child applies the regular past-tense rule to an irregular verb. This is often a developmental sign of rule learning, not simple carelessness. Teach the correct present-past pair in meaningful sentences, group irregular verbs by useful patterns, and revisit them through speaking, reading, and writing. Seek broader assessment when tense errors remain persistent and widespread across language and literacy.",
+        "on_screen": ["goed is overregularization", "The regular rule reached an exception", "Teach and retrieve the irregular pair"],
+        "icon": "irregular-summary",
+        "source_ids": ["PMID:1518508", "DFE:ENGLISH-CURRICULUM", "ASHA:WRITTEN-LANGUAGE"]
+      },
+      {
+        "heading": "Why a correct word can become incorrect",
+        "narration": "A young child may first repeat went as one memorized form. Later, after learning that walked and played refer to past actions, the child can generate goed. Large speech analyses found that an extended period of correct irregular use may precede the first overregularization. The new error therefore does not necessarily mean regression. It can appear when the regular past-tense system becomes productive.",
+        "on_screen": ["Stored word first", "Regular rule becomes productive", "Correct use can precede the error"],
+        "icon": "developmental-shift",
+        "source_ids": ["PMID:1518508", "PMCID:PMC6016078"]
+      },
+      {
+        "heading": "Retrieval and the default rule compete",
+        "narration": "When went is retrieved quickly, it blocks the need to create a regular form. When retrieval is weak or delayed, the general rule can produce goed. Frequently heard irregular forms tend to resist overregularization better, and similar irregular patterns can support one another. This helps explain why errors vary by verb and by child rather than appearing equally across every irregular word.",
+        "on_screen": ["Retrieve went", "Block the default ed rule", "Frequency strengthens access"],
+        "icon": "retrieval-competition",
+        "source_ids": ["PMID:1518508", "PMCID:PMC6016078"]
+      },
+      {
+        "heading": "Irregular does not mean patternless",
+        "narration": "Some verbs change a vowel, as in sing to sang and drink to drank. Some change more than one sound, as in catch to caught. Some keep the same form, as in cut to cut. Others use a completely different form, as in go to went. These groups are not universal rules, but they can organize memory and help a child notice connections without pretending every exception works the same way.",
+        "on_screen": ["vowel change", "larger sound change", "same form or unique form"],
+        "icon": "irregular-patterns",
+        "source_ids": ["DFE:ENGLISH-CURRICULUM", "PMID:37473721", "PMCID:PMC6016078"]
+      },
+      {
+        "heading": "Correction develops with age",
+        "narration": "Knowing that a sentence sounds unusual is different from explaining and repairing it. Research comparing younger and older children found developmental improvement in correcting overregularized forms, with past-tense verbs harder than plural nouns for younger children. A child may therefore understand the story yet accept yesterday he goed because conscious control of the grammar is still developing.",
+        "on_screen": ["Recognition is not correction", "Verb exceptions are demanding", "Metalinguistic control grows"],
+        "icon": "self-correction",
+        "source_ids": ["PMID:2925812", "ASHA:WRITTEN-LANGUAGE"]
+      },
+      {
+        "heading": "Teach pairs inside a timeline",
+        "narration": "Now, let us go deeper. Use a simple contrast: today I go, yesterday I went. Act out the event, place the two sentences on a timeline, and ask the child to change the time. Practice both directions so went leads back to go as well as go leading to went. Then use the pair in a short story. Meaningful retrieval builds a stronger link than copying went repeatedly without context.",
+        "on_screen": ["today: go", "yesterday: went", "Retrieve in both directions"],
+        "icon": "timeline-pairs",
+        "source_ids": ["DFE:ENGLISH-CURRICULUM", "PMID:1518508", "ASHA:WRITTEN-LANGUAGE"]
+      },
+      {
+        "heading": "Group, contrast, and revisit",
+        "narration": "Practice a small group such as sing-sang, ring-rang, and drink-drank, then contrast it with a unique pair such as go-went. Mix correct and invented forms and ask the child to explain the repair. Studies of irregular intervention suggest that pattern-based grouping, narratives, sentence imitation, and naturalistic practice may support learning, although evidence from small samples should not be treated as a guarantee for every child.",
+        "on_screen": ["Group useful similarities", "Contrast unique forms", "Practice in stories and sentences"],
+        "icon": "pattern-practice",
+        "source_ids": ["PMID:37473721", "PMCID:PMC6016078", "PMID:2925812"]
+      },
+      {
+        "heading": "When the pattern deserves assessment",
+        "narration": "Overregularization alone is not a diagnosis. Consider broader assessment when irregular and regular tense marking remain persistently difficult across speech and writing, especially with problems in sentence structure, other grammatical endings, reading, spelling, or self-correction. Multilingual children need evaluation across their languages and learning history. Research shows that age, language experience, and developmental language disorder can all influence irregular past-tense performance.",
+        "on_screen": ["One error is not a diagnosis", "Look across language and literacy", "Consider every language used"],
+        "icon": "assessment",
+        "source_ids": ["ASHA:SIGNS-WRITTEN-LANGUAGE", "ASHA:WRITTEN-LANGUAGE", "PMID:30286247"]
+      },
+      {
+        "heading": "Three essential takeaways",
+        "narration": "Number one, goed, runned, and taked often show that a child has discovered the regular past-tense rule and applied it to an exception. Number two, strengthen irregular forms through meaningful present-past pairs, useful pattern groups, timelines, stories, and spaced retrieval. Number three, assess the wider language and literacy profile when tense errors remain persistent across speaking, sentence grammar, reading, spelling, and writing.",
+        "on_screen": ["Recognize rule learning", "Strengthen irregular retrieval", "Assess the wider pattern"],
+        "icon": "checklist",
+        "source_ids": ["PMID:1518508", "PMID:37473721", "ASHA:SIGNS-WRITTEN-LANGUAGE"]
+      }
+    ],
+    "closing": "On the next episode, we will explain why a child mixes past and present tense in the same story, how time references and verb forms become disconnected, and how to teach tense consistency clearly. Follow the Your Only Doc podcast for clear, evidence based health and development explanations. Stay curious and stay safe.",
+    "description": "Why does a child start using goed, runned, or taked after previously saying went, ran, or took? This episode explains overregularization, retrieval and rule competition, pattern-based teaching, developmental correction, and when persistent tense errors deserve assessment.",
+    "thumbnail_text": "WHY CHILDREN SAY GOED"
+  }
+}
