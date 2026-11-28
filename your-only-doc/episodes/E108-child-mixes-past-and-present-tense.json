@@ -1,0 +1,159 @@
+{
+  "schema": 2,
+  "editorial": {
+    "workflow": "chatgpt-reviewed-v20",
+    "reviewed_by": "ChatGPT medical editorial workflow",
+    "reviewed_on": "2026-11-28",
+    "episode_number": 108,
+    "language": "English",
+    "spoken_host_name_allowed": false,
+    "long_dashes_allowed": false,
+    "target_minutes": 10
+  },
+  "topic_id": "child-mixes-past-and-present-tense",
+  "topic": {
+    "id": "child-mixes-past-and-present-tense",
+    "title": "Why a Child Mixes Past and Present Tense",
+    "audience_question": "Why does a child begin a story in the past and then switch into the present tense?",
+    "pubmed_query": "children tense consistency narrative past present developmental language disorder intervention",
+    "icon_keywords": ["tense-consistency", "story-timeline", "grammar"],
+    "category": "child-development"
+  },
+  "sources": [
+    {
+      "id": "ASHA:SPOKEN-LANGUAGE",
+      "title": "Spoken Language Disorders",
+      "abstract": "ASHA describes inconsistent inflectional morphology, difficulty correcting grammatical errors, and problems using complex syntax in narratives as possible features of spoken language disorder. Assessment must account for multilingual and dialect variation.",
+      "journal": "American Speech-Language-Hearing Association",
+      "year": "2026",
+      "url": "https://www.asha.org/practice-portal/clinical-topics/spoken-language-disorders/",
+      "doi": null
+    },
+    {
+      "id": "DFE:ENGLISH-CURRICULUM",
+      "title": "National Curriculum in England: English Programmes of Study",
+      "abstract": "The curriculum calls for correct and consistent use of present and past tense, explicit grammar teaching, use of time expressions, and rereading to check that meaning remains clear.",
+      "journal": "UK Department for Education",
+      "year": "2014",
+      "url": "https://www.gov.uk/government/publications/national-curriculum-in-england-english-programmes-of-study/national-curriculum-in-england-english-programmes-of-study",
+      "doi": null
+    },
+    {
+      "id": "PMID:37195722",
+      "title": "Sources of Misinterpretation in the Input and Their Implications for Language Intervention With English-Speaking Children",
+      "abstract": "This review explains why children with developmental language disorder may use tense and agreement inconsistently and discusses input changes followed by explicit comprehension and production techniques.",
+      "journal": "American Journal of Speech-Language Pathology",
+      "year": "2024",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37195722/",
+      "doi": "10.1044/2023_AJSLP-23-00016"
+    },
+    {
+      "id": "PMID:21050500",
+      "title": "Proficiency With Tense and Aspect Concordance: Children With SLI and Their Typically Developing Peers",
+      "abstract": "This study examined how children coordinated tense and aspect across two-clause sentences, highlighting that consistency involves relationships between clauses rather than isolated verb forms alone.",
+      "journal": "Journal of Speech, Language, and Hearing Research",
+      "year": "2010",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/21050500/",
+      "doi": null
+    },
+    {
+      "id": "PMID:25654306",
+      "title": "The Efficacy of Recasts in Language Intervention: A Systematic Review and Meta-Analysis",
+      "abstract": "A systematic review and meta-analysis found limited but supportive evidence that conversational recasts can benefit grammatical development in children with language impairment.",
+      "journal": "American Journal of Speech-Language Pathology",
+      "year": "2015",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25654306/",
+      "doi": "10.1044/2015_AJSLP-14-0105"
+    },
+    {
+      "id": "PMID:26110982",
+      "title": "The Effectiveness of Two Grammar Treatment Procedures for Children With SLI: A Randomized Clinical Trial",
+      "abstract": "In a randomized trial of 31 five-year-old children, structured cueing after an error produced greater expressive grammar improvement than recasting alone during the treatment period.",
+      "journal": "Language, Speech, and Hearing Services in Schools",
+      "year": "2015",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26110982/",
+      "doi": "10.1044/2015_LSHSS-14-0041"
+    },
+    {
+      "id": "PMID:28724145",
+      "title": "Tense Marking in the English Narrative Retells of Dual Language Preschoolers",
+      "abstract": "A four-semester longitudinal study followed English tense marking in Spanish-English dual-language preschoolers and documented changing accuracy across regular and irregular past tense forms.",
+      "journal": "Language, Speech, and Hearing Services in Schools",
+      "year": "2017",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28724145/",
+      "doi": null
+    }
+  ],
+  "episode": {
+    "title": "E108: Why a Child Mixes Past and Present Tense",
+    "hook": "A child starts telling you about yesterday: We went to the park, I climbed the slide, and then my brother falls down. The story is clear, but the verbs suddenly jump from past to present. That switch can reflect a developing grammar system, the challenge of holding a whole timeline in mind, or a deliberate storytelling choice. The important question is not whether one verb changed, but whether the child can show when events happened and keep that meaning clear.",
+    "sections": [
+      {
+        "heading": "The high yield summary",
+        "narration": "Too busy? Here is your high yield summary. Children may mix past and present tense while learning verb forms and organizing connected stories. A tense change is not automatically wrong. Speakers can shift tense for dialogue, a general fact, or a vivid comment. Concern rises when switches repeatedly confuse the timeline, appear across speaking and writing, or occur with broader language difficulties. Teach one time frame at a time, mark the timeline with words such as yesterday and now, model the corrected sentence, and let the child try again.",
+        "on_screen": ["Check the timeline", "Some shifts are meaningful", "Model, cue, and retry"],
+        "icon": "tense-summary",
+        "source_ids": ["DFE:ENGLISH-CURRICULUM", "ASHA:SPOKEN-LANGUAGE", "PMID:37195722"]
+      },
+      {
+        "heading": "Tense carries the story timeline",
+        "narration": "Now, let us go deeper. Tense is more than an ending on one verb. It helps listeners place events in time and connect one clause with the next. In a past story, went, saw, and played create a shared time frame. If one verb becomes falls without a reason, the listener may briefly wonder whether the event happened yesterday or is happening now. Consistency is therefore a meaning skill as well as a grammar skill.",
+        "on_screen": ["Past: what happened", "Present: what happens now", "Tense links clauses"],
+        "icon": "story-timeline",
+        "source_ids": ["PMID:21050500", "DFE:ENGLISH-CURRICULUM"]
+      },
+      {
+        "heading": "Why the switch happens",
+        "narration": "A child must choose the event, retrieve the verb, form the tense, and connect sentences while keeping the listener oriented. Those demands increase in a longer story. English also contains bare verb forms in many correct sentences, and research suggests that this input can complicate tense learning for children with developmental language disorder. A switch may therefore reflect an unfinished system, not laziness or refusal to pay attention.",
+        "on_screen": ["Choose the event", "Form the verb", "Hold the time frame"],
+        "icon": "language-load",
+        "source_ids": ["PMID:37195722", "ASHA:SPOKEN-LANGUAGE"]
+      },
+      {
+        "heading": "Not every tense shift is an error",
+        "narration": "Good storytellers sometimes change tense on purpose. A child may say, Yesterday Mia told me, I am scared, because the quoted words belong to that moment. A speaker may describe a past event and then add, Dogs are loyal, as a present general fact. Some people also use the present tense to make a story vivid. Ask whether the switch has a clear job before correcting it.",
+        "on_screen": ["Direct speech", "General truth", "Vivid storytelling"],
+        "icon": "meaningful-shift",
+        "source_ids": ["DFE:ENGLISH-CURRICULUM", "ASHA:SPOKEN-LANGUAGE"]
+      },
+      {
+        "heading": "Use a visible time anchor",
+        "narration": "Draw a simple line with before, now, and later. Put the story event under yesterday, then choose verbs that match: walked, played, fell. Time words such as last night, today, and tomorrow make the intended frame visible. Practice a short group of sentences before attempting a full story. Once that frame is stable, compare it with a present version: Every day she walks, plays, and rests.",
+        "on_screen": ["Before | Now | Later", "Add a time word", "Match each verb"],
+        "icon": "visible-timeline",
+        "source_ids": ["DFE:ENGLISH-CURRICULUM", "PMID:21050500"]
+      },
+      {
+        "heading": "Model first, then invite a repair",
+        "narration": "If the child says, Yesterday he walks home, respond naturally: Yes, yesterday he walked home. That is a recast. Then use a gentle cue: Yesterday he what? and allow another attempt. Reviews support recasts as one useful grammar intervention, while a randomized trial found stronger short-term gains from structured cueing than recasting alone. The practical lesson is to combine a clear model with active retrieval, without turning every conversation into a test.",
+        "on_screen": ["Child: he walks", "Model: he walked", "Cue and retry"],
+        "icon": "recast-and-cue",
+        "source_ids": ["PMID:25654306", "PMID:26110982"]
+      },
+      {
+        "heading": "Practice across real language",
+        "narration": "Retell a familiar event, sequence three pictures, or reread a short paragraph and circle the verbs. Ask, When did this happen? Then check whether each verb supports that answer. Practice both speaking and writing because a child may perform differently across tasks. Use varied verbs rather than drilling only one phrase, and reread the completed story aloud to hear accidental jumps in time.",
+        "on_screen": ["Retell", "Circle verbs", "Reread aloud"],
+        "icon": "connected-practice",
+        "source_ids": ["DFE:ENGLISH-CURRICULUM", "ASHA:SPOKEN-LANGUAGE", "PMID:37195722"]
+      },
+      {
+        "heading": "When broader assessment helps",
+        "narration": "Consider a speech-language evaluation when tense marking remains persistently inconsistent for the child's age and learning history, makes narratives hard to follow, or occurs with difficulty understanding sentences, finding words, reading, or writing. Judge patterns across conversation, stories, schoolwork, and more than one language when relevant. Multilingualism and dialect differences are not disorders, and tense patterns must be interpreted within every language and variety the child uses.",
+        "on_screen": ["Persistent and widespread", "Meaning becomes unclear", "Assess every language fairly"],
+        "icon": "language-assessment",
+        "source_ids": ["ASHA:SPOKEN-LANGUAGE", "PMID:28724145"]
+      },
+      {
+        "heading": "Three takeaways",
+        "narration": "Number one, decide whether a tense shift changes the intended timeline or serves a real storytelling purpose. Number two, teach the time frame visibly, model the matching verb, and invite the child to repair the sentence. Number three, seek assessment when inconsistent tense is persistent, widespread, and part of a broader difficulty with connected language or literacy.",
+        "on_screen": ["1. Check meaning", "2. Anchor and repair", "3. Assess the wider pattern"],
+        "icon": "three-takeaways",
+        "source_ids": ["DFE:ENGLISH-CURRICULUM", "ASHA:SPOKEN-LANGUAGE", "PMID:25654306", "PMID:26110982"]
+      }
+    ],
+    "closing": "On the next episode, we will explain why a child confuses was and were, how tense and subject agreement work together, and how to teach the difference without overwhelming the child. Follow the Your Only Doc podcast for clear, evidence based health and development explanations. Stay curious and stay safe.",
+    "description": "Why children mix past and present tense, when a switch is meaningful, how to teach a clear story timeline, and when persistent errors deserve language assessment.",
+    "thumbnail_text": "PAST OR PRESENT?"
+  }
+}
