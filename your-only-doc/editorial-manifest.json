@@ -1,12 +1,12 @@
 {
   "schema": 1,
   "workflow": "chatgpt-reviewed-v20",
-  "updated_at": "2026-11-26T09:22:55.000Z",
-  "next_episode_number": 108,
+  "updated_at": "2026-11-28T09:51:32.000Z",
+  "next_episode_number": 109,
   "next_planned_topic": {
-    "id": "child-mixes-past-and-present-tense",
-    "title": "Why a Child Mixes Past and Present Tense",
-    "reason": "It follows irregular past-tense learning by explaining how children maintain time reference and consistent verb forms across connected sentences and stories."
+    "id": "child-confuses-was-and-were",
+    "title": "Why a Child Confuses Was and Were",
+    "reason": "It follows tense consistency by explaining how children coordinate past tense with singular and plural subjects in connected speech and writing."
   },
   "packets": [
     {
@@ -700,6 +700,13 @@
       "topic_id": "child-overregularizes-irregular-past-tense",
       "title": "E107: Why a Child Writes Goed, Runned, or Taked",
       "file": "episodes/E107-child-overregularizes-irregular-past-tense.json",
+      "status": "ready"
+    },
+    {
+      "episode_number": 108,
+      "topic_id": "child-mixes-past-and-present-tense",
+      "title": "E108: Why a Child Mixes Past and Present Tense",
+      "file": "episodes/E108-child-mixes-past-and-present-tense.json",
       "status": "ready"
     }
   ],
